@@ -10,8 +10,8 @@ arch_array=("aarch64" "arm" "i686" "x86_64")
 
 # Info being add into release file
 ORIGIN="Termux-user-repository"
-Suite="stable"
-Codename="stable"
+Suite="tur-packages"
+Codename="tur-packages"
 Architectures="aarch64 arm i686 x86_64"
 Components="tur"
 Description="Created with love for termux community"
@@ -50,15 +50,7 @@ add_package_metadata() {
     done
 }
 remove_old_version() {
-    pushd $POOL_DIR
-    for dup_pkg in $(find . -type f | cut -d_ -f1,2 | uniq | cut -d_ -f1 | uniq -d);do
-        old_version=$(find . -maxdepth 1 -type f -wholename "$dup_pkg*" | cut -d_ -f1,2 | uniq | sort | head -n-1)
-        for older_deb in $old_version;do
-            rm -f $older_deb*
-            echo "Removed $older_deb"
-        done
-    done
-    popd
+    echo "Remove old version: Fix me"
 }
 create_packages() {
     echo " creating package file. "
