@@ -1,0 +1,58 @@
+Package: python3.9
+Version: 3.9.13
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 47920
+Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/python3.9_3.9.13_aarch64.deb
+Size: 8818872
+MD5sum: 1d12f59cd1c963d71910549b3c93accc
+SHA1: b539b4a9afa50737d31ef0e4697ddaf5eb9bb09b
+SHA256: fd35f8e00374aa4cf203179c6e8a9541705a4f79bb9890a23679428ad151b432
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9-static
+Version: 3.9.13
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 21576
+Depends: python3.9 (= 3.9.13)
+Filename: pool/python3.9-static_3.9.13_aarch64.deb
+Size: 3725764
+MD5sum: 31d450d7ea5295b8af0d4c51d486a860
+SHA1: a5322bab1bfed92383cb4d81393135a34bc5bed8
+SHA256: 6fa076f6f5033e611295e6733da48f78dedebbce18a587d0e5db0ea81c7bdf4f
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
+Package: python3.9-tkinter
+Version: 3.9.13
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.13)
+Filename: pool/python3.9-tkinter_3.9.13_aarch64.deb
+Size: 912904
+MD5sum: 4cc619ff265fd374f0114be8fd996f32
+SHA1: a4e81a559e36996d80e5362eb821745d697c46ec
+SHA256: df346d7b913fe239699ae9f23864cb51ee0595bb9409bf6d09501e4bbcbc2252
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: sample-pkg-example
+Version: 1:1.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4592
+Filename: pool/sample-pkg-example_1:1.0.0-1_aarch64.deb
+Size: 1079836
+MD5sum: ccb4f47be0c9b0d12e3653557516efc9
+SHA1: 1e481062c05bffc3588e94ffd4ba96c8674ae0b0
+SHA256: 52e53966d52d35e5cd748275d1be7498bc3d396c2b554cf750b1ac579b3b4479
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+

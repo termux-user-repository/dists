@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -e -o pipefail
 
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
@@ -16,9 +16,21 @@ Architectures="aarch64 arm i686 x86_64"
 Components="tur"
 Description="Created with love for termux community"
 
+download_unprocessed_debs() {
+    pushd $BASE_DIR
+    rm -rf *.tar
+    gh release download -R termux-user-repository/tur 0.1 -p "*.tar"
+    for i in ./*.tar;do
+        echo 'lol'
+        echo $i
+        tar -xvf $i 
+    done
+    popd
+    
+}
 create_dist_structure() {
     # remove all files and dir in dists.
-    rm -r $Dists_DIR
+    rm -rf $Dists_DIR
     mkdir -p $Dists_DIR
     mkdir -p $Dists_DIR/$Suite
     mkdir -p $Dists_DIR/$Suite/$Components
@@ -27,17 +39,27 @@ create_dist_structure() {
 # add packages in pool. Not package actually, it just write packages metadata in pool.
 add_package_metadata() {
     cd $BASE_DIR
-    for file in unprocessed/*;
+    for file in debs/*.deb;
     do
         file=$(basename $file)
         echo "scanning $file"
-        dpkg-scanpackages unprocessed/$file >| $POOL_DIR/$file 
+        dpkg-scanpackages debs/$file >| $POOL_DIR/$file 
 
         ## update Filename: indices to relative path
         sed -i "/Filename:/c\Filename: pool/$file" $POOL_DIR/$file
     done
 }
-
+remove_old_version() {
+    pushd $POOL_DIR
+    for dup_pkg in $(find . -type f | cut -d_ -f1,2 | uniq | cut -d_ -f1 | uniq -d);do
+        old_version=$(find . -maxdepth 1 -type f -wholename "$dup_pkg*" | cut -d_ -f1,2 | uniq | sort | head -n-1)
+        for older_deb in $old_version;do
+            rm -f $older_deb*
+            echo "Removed $older_deb"
+        done
+    done
+    popd
+}
 create_packages() {
     echo " creating package file. "
     for arch in "${arch_array[@]}";do
@@ -108,13 +130,18 @@ generate_release_file() {
 }
 sign_release_file() {
     cd $Dists_DIR/$Suite
-
-    echo $KCUBE_PASS | gpg --batch --yes --passphrase-fd 0 -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE -bao ./Release.gpg Release
-    echo $KCUBE_PASS | gpg --batch --yes --passphrase-fd 0 -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE --clear-sign --output InRelease Release
+    if [[ -n "$SEC_KEY" ]]; then
+        echo "Importing key"
+        echo -n "$SEC_KEY" | base64 --decode | gpg --import
+    fi
+    echo "Signing Release file"
+    gpg --passphrase $KCUBE_PASS --batch --yes --pinentry-mode loopback -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE -bao ./Release.gpg Release
+    gpg --passphrase $KCUBE_PASS --batch --yes --pinentry-mode loopback -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE --clear-sign --output InRelease Release
 }
-
+download_unprocessed_debs
 create_dist_structure
 add_package_metadata
+remove_old_version
 create_packages
 generate_release_file
 sign_release_file
