@@ -67,6 +67,16 @@ remove_redundent_deb() {
     done
 }
 
+remove_deb_from_temp_gh() {
+    echo "removing temporay archives"
+    json=$(mktemp /tmp/repo.XXXXXXX)
+    temp_deb=$(mktemp /tmp/remote.XXXXXXX)
+    gh api  \
+	    -H "Accept: application/vnd.github.v3+json" \
+	     https://api.github.com/repos/${owner}/${repo}/releases > $api_json
+
+    jq -r '.[] | select(.tag_name=="0.1") | .assets[].name' $api_json > $remote_deb_list
+}
 commit() {
     pushd $(dirname $BASE_DIR)
     echo "pushing changes"
