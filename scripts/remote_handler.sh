@@ -86,9 +86,11 @@ commit() {
     last_commit=$(git log --oneline | head -n1 | cut -d' ' -f1)
     list_updated_packages=$(git diff ${last_commit} ./*/*/*/*/*/Packages| cat | grep +Package | sort -u | cut -d' ' -f2)
     if [[ $(git status --porcelain) ]]; then
-      git add .
-      git commit -m "Updated $list_updated_packages"
-      git push
+        git add .
+        git commit -m "Updated $list_updated_packages"
+        if git push;then
+            remove_archive_from_temp_gh
+        fi
     fi
 }
 upload_debs
