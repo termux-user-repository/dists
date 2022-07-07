@@ -102,6 +102,35 @@ SHA256: 669cfc8fc541c442c204c7199a5cc9e86986b25b5e56326941f281ef90bae142
 Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
+Package: python-numpy
+Version: 1.23.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 30784
+Depends: libc++, python
+Provides: python-numpy
+Filename: pool/python-numpy_1.23.0_i686.deb
+Size: 5289684
+MD5sum: ddca87cf765aebc5f62e9891ec5cdb39
+SHA1: ff24a403e2f8c2dd7d61a31895cdbf7dea370d52
+SHA256: f12503a9eb93b924c3ef2cff6e57be2cbb67fc50bec7a7937fbec4c74f0dfcdd
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
+
+Package: python-numpy-static
+Version: 1.23.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 360
+Depends: python-numpy (= 1.23.0)
+Filename: pool/python-numpy-static_1.23.0_i686.deb
+Size: 96524
+MD5sum: 8b6c294dbfb4b71aa2b9c578961aa1f8
+SHA1: a3b9ca85dec2727d348b14ea6b6178e268dd1a8e
+SHA256: d3b4ffe8b7f0e915d0093334c58d945eaf04af91851cd47dfff90de40b643033
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
+
 Package: sample-pkg-example
 Version: 1:1.0.0-1
 Architecture: i686
