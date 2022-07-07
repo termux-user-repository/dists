@@ -69,15 +69,17 @@ remove_redundent_deb() {
 
 remove_archive_from_temp_gh() {
     echo "removing temporay archives"
-    json=$(mktemp /tmp/repo.XXXXXXX)
-    tur_repo='tur'
-    gh api  \
-	    -H "Accept: application/vnd.github.v3+json" \
-	     https://api.github.com/repos/${owner}/$tur_repo/releases > $json
+    # remove only which has download. it wont take gurantee of succesfully processed. if some archives
+    # not processed successfully. then most probably issues with archive itself. 
+    # However repository consistency checker will catch any unsuccesful checks. 
+    cd $BASE_DIR
+    for temp in ./*.tar;do
+        if gh release delete-asset -R github.com/$owner/tur $tag "$(basename $temp)" -y;then
 
-    for temp in $(jq -r '.[] | select(.tag_name=="0.1") | .assets[].name' $json);do
-        gh release delete-asset -R github.com/$owner/$tur_repo $tag $deb -y
-        echo "temp from tur $temp removed!!"
+            echo "$temp removed!!"
+        else
+            echo "Error while removing $temp"
+        fi
     done
 }
 commit() {
@@ -95,4 +97,4 @@ commit() {
 }
 upload_debs
 remove_redundent_deb
-commit 
+commit
