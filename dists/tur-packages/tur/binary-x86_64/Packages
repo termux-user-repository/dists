@@ -1,3 +1,16 @@
+Package: hello-tur-on-device
+Version: 0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Filename: pool/hello-tur-on-device_0.1_x86_64.deb
+Size: 2108
+MD5sum: 0a6625b76aec6bb290d39274cbf5133f
+SHA1: 730b3b5f75d27ed1f211a988817062c1309f12c0
+SHA256: 87dc0dfc3cc492d41504b428e6a77b648efc5263648f3a2abf7d44600dbcaf8b
+Homepage: https://github.com/termux-user-repository/tur-on-device
+Description: Dummy test for TUR on Device
+
 Package: python3.9
 Version: 3.9.13-1
 Architecture: x86_64
@@ -130,6 +143,20 @@ SHA1: 63e063c6e6d21d187927ce72e495d9335faeff96
 SHA256: 9c393cc3937d2369fbe0238b123becf132f5343bfd2e9821aa24bef04255f5a2
 Homepage: https://numpy.org/
 Description: Static libraries for python-numpy
+
+Package: python-pillow
+Version: 9.2.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1304
+Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
+Filename: pool/python-pillow_9.2.0_x86_64.deb
+Size: 1257176
+MD5sum: 154cecb4a14e23de113b273340b6ec41
+SHA1: 901afee27e2b6609bda34e4463cb8eeee188691d
+SHA256: 97d6c203b5dd49ce0abc86adcfe11a487695a658f33abd008e583d15135c3be4
+Homepage: https://github.com/python-pillow/Pillow
+Description: The friendly PIL fork (Python Imaging Library)
 
 Package: sample-pkg-example
 Version: 1:1.0.0-1
