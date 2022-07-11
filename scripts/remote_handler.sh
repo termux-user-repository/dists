@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
-DEB_DIR=$BASE_DIR/debs
+DEB_DIR=$BASE_DIR/processed_deb
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
 owner="termux-user-repository"
 repo="dists"

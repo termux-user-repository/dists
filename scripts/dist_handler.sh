@@ -3,63 +3,92 @@ set -e -o pipefail
 
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
+PROCESSED_DEB=$BASE_DIR/processed_deb
+mkdir -p $PROCESSED_DEB
 echo $POOL_DIR
 Dists_DIR="$(dirname "$BASE_DIR")/dists"
-
+REPO_JSON="$(dirname "$BASE_DIR")/repo.json"
 arch_array=("aarch64" "arm" "i686" "x86_64")
-
+components_array=($(jq -r .[].name  $REPO_JSON | tr '\n' ' '))
 # Info being add into release file
 ORIGIN="Termux-user-repository"
 Suite="tur-packages"
 Codename="tur-packages"
 Architectures="aarch64 arm i686 x86_64"
-Components="tur"
-Description="Created with love for termux community"
+Components=$(for i in "${components_array[@]}";do echo -n "$i ";done)
+Description="Created with love for Termux community"
 
 download_unprocessed_debs() {
     pushd $BASE_DIR
-    rm -rf *.tar
+    rm -rf ./*.tar
     gh release download -R termux-user-repository/tur 0.1 -p "*.tar"
-    for i in ./*.tar;do
-        echo 'lol'
-        echo $i
-        tar -xvf $i 
-    done
     popd
     
 }
 create_dist_structure() {
+    echo "Creating dist structure"
     # remove all files and dir in dists.
     rm -rf $Dists_DIR
     mkdir -p $Dists_DIR
+    mkdir -p $POOL_DIR
     mkdir -p $Dists_DIR/$Suite
-    mkdir -p $Dists_DIR/$Suite/$Components
-    mkdir -p $Dists_DIR/$Suite/$Components/binary-{aarch64,arm,i686,x86_64}
+    ## component dir.
+    for comp in "${components_array[@]}";do
+        mkdir -p $Dists_DIR/$Suite/$comp 
+        mkdir -p $Dists_DIR/$Suite/$comp/binary-{aarch64,arm,i686,x86_64}
+        ## pool direcectory if not exist.
+        mkdir -p $POOL_DIR/$comp
+    done
+
+
+
 }
 # add packages in pool. Not package actually, it just write packages metadata in pool.
 add_package_metadata() {
+    echo "Package metadata"
     cd $BASE_DIR
-    for file in debs/*.deb;
+    rm -rf debs
+    for tar_file in ./*.tar;
     do
-        file=$(basename $file)
-        echo "scanning $file"
-        dpkg-scanpackages debs/$file >| $POOL_DIR/$file 
+        echo "processing $tar_file"
+        tar -xf $tar_file
+        
+        if test -f debs/built*.txt;then
+            repo_component=$(ls debs/built*.txt | cut -d_ -f2)
+        else
+            continue
+        fi
+        
 
-        ## update Filename: indices to relative path
-        sed -i "/Filename:/c\Filename: pool/$file" $POOL_DIR/$file
+        for deb_file in debs/*.deb;do
+            deb_file=$(basename $deb_file)
+            echo "scanning $deb_file"
+            dpkg-scanpackages debs/$deb_file >| $POOL_DIR/$repo_component/$deb_file 
+            ## update Filename: indices to relative path
+            sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file" $POOL_DIR/$repo_component/$deb_file
+        done
+        mv -f debs/* $PROCESSED_DEB
     done
 }
 remove_old_version() {
     echo "Remove old version: Fix me"
 }
 create_packages() {
-    echo " creating package file. "
-    for arch in "${arch_array[@]}";do
-        cat $POOL_DIR/*${arch}.deb >| $Dists_DIR/$Codename/$Components/binary-${arch}/Packages
-        gzip -9k $Dists_DIR/$Codename/$Components/binary-${arch}/Packages
-        echo "packages file created for $arch"
+    echo "creating package file. "
+    for comp in "${components_array[@]}";do
+        echo "creating packages for $comp components"
+        pushd $POOL_DIR/$comp
+        for arch in "${arch_array[@]}";do
+            count_deb_metadata_file=$(find . -name "./*{$arch,all}.deb" 2> /dev/null | wc -l)
+            if [[ $count_deb_metadata_file == 0 ]];then
+                continue
+            fi
+            pwd
+            cat ./*{$arch,all}.deb 2>/dev/null >| $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
+            gzip -9k $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
+            echo "packages file created for $comp $arch"
+        done
     done
-
 }
 
 add_general_info() {
@@ -76,14 +105,14 @@ Suite: $Suite
 Codename: $Codename
 Date: $date_
 Architectures: $Arch
-Components: $Components
+Components: "$Components"
 Description: $Description
 EOF
 }
 
 generate_release_file() {
     r_file=$Dists_DIR/$Suite/Release
-    # rm $r_file
+    rm -f $r_file
     touch $r_file
     cd $Dists_DIR/$Suite
 
@@ -127,10 +156,10 @@ sign_release_file() {
         echo -n "$SEC_KEY" | base64 --decode | gpg --import
     fi
     echo "Signing Release file"
-    gpg --passphrase $KCUBE_PASS --batch --yes --pinentry-mode loopback -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE -bao ./Release.gpg Release
-    gpg --passphrase $KCUBE_PASS --batch --yes --pinentry-mode loopback -u D613AC03FA1859E0337541B96F7DD85B65C5A5DE --clear-sign --output InRelease Release
+    gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 -bao ./Release.gpg Release
+    gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 --clear-sign --output InRelease Release
 }
-download_unprocessed_debs
+#download_unprocessed_debs
 create_dist_structure
 add_package_metadata
 remove_old_version
