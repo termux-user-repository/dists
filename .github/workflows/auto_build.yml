@@ -1,0 +1,28 @@
+name: Mirror
+
+on:
+  push:
+  workflow_dispatch:
+  
+jobs:
+  Push-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test github gpg key
+        env:
+            SEC_PASS: ${{ secrets.SEC_PASS }}
+            SEC_KEY: ${{ secrets.SEC_KEY }}
+        run: |
+            echo "Jai ho"
+            gpg --version 
+            export GPG_TTY=$(tty)
+            if echo -n "$SEC_KEY" | base32 --decode | gpg --import --batch --yes;then
+              echo "*********key imported successfully********"
+            fi
+            echo "listing key"
+            gpg --list-secret-key
+            echo "dummy file" > dummy.txt
+            gpg --passphrase $(echo -n $SEC_PASS | base32 --decode) --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 -bao ./dummy.gpg dummy.txt
+            ls 
+            cat dummy.gpg
+            
