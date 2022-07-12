@@ -22,7 +22,7 @@ generate_local_deb_list() {
     pushd $POOL_DIR
     local_deb_list=$(mktemp /tmp/local.XXXXXXXX)
     find . -type f -exec basename '{}' \; > $local_deb_list
-    sed -i 's/[^\a-Z0-9._+-]/./g' $local_deb_list
+    sed -i 's/[^\a-zA-Z0-9._+-]/./g' $local_deb_list
     popd
 }
 ## List non_upload debs
@@ -41,7 +41,7 @@ upload_debs() {
     list_non_upload_debs
     pushd $DEB_DIR
     for deb in *.deb;do
-        modified_name=$(echo $deb | sed 's/[^a-Z0-9._+-]/./g')
+        modified_name=${deb/+([^a-zA-Z0-9.+_-])/.}
         mv $deb $modified_name
     done
     for deb_name in $(cat $non_uploaded_list); do 
