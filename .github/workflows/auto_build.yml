@@ -1,0 +1,31 @@
+name: auto-build
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  
+jobs:
+  Updating_dist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Set git cred
+        uses: oleksiyrudenko/gha-git-credentials@v2.1
+        with:
+           global: true
+           name: 'Krishna Kanhaiya'
+           email: 'kcubeterm@gmail.com'
+           actor: 'kcubeterm'
+           token: '${{ secrets.GH_TOKEN }}'
+
+      - name: updating and signing releases file
+        env:
+            SEC_PASS: ${{ secrets.SEC_PASS }}
+            SEC_KEY: ${{ secrets.SEC_KEY }}
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+            echo "Jai ho"
+            bash ./scripts/trigger.sh
+            

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e -o pipefail
-
+shopt -s extglob
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
 PROCESSED_DEB=$BASE_DIR/processed_deb
@@ -49,9 +49,12 @@ add_package_metadata() {
     cd $BASE_DIR
     rm -rf debs
     ## EXTRACT TAR FROM ZIP IF ANY
-    for zipped in ./*.zip;do
+    count_zip_file=$(find . -maxdepth 1 -name "*.zip" 2> /dev/null | wc -l)
+    if [ $count_zip_file != 0 ];then
+        for zipped in ./*.zip;do
         unzip -o $zipped
-    done
+        done
+    fi
     for tar_file in ./*.tar;
     do
         echo "processing $tar_file"
@@ -163,11 +166,17 @@ sign_release_file() {
     cd $Dists_DIR/$Suite
     if [[ -n "$SEC_KEY" ]]; then
         echo "Importing key"
-        echo -n "$SEC_KEY" | base64 --decode | gpg --import
+        if echo -n "$SEC_KEY" | base32 --decode | gpg --import --batch --yes;then
+              echo "*********key imported successfully********"
+        else
+            echo "Issues while importing private key"
+            exit 1
+        fi
+
     fi
     echo "Signing Release file"
-    gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 -bao ./Release.gpg Release
-    gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 --clear-sign --output InRelease Release
+    gpg --passphrase "$(echo -n $SEC_PASS | base32 --decode)" --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 -bao ./Release.gpg Release
+    gpg --passphrase "$(echo -n $SEC_PASS | base32 --decode)" --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 --clear-sign --output InRelease Release
 }
 download_unprocessed_debs
 create_dist_structure

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e -o pipefail
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 DEB_DIR=$BASE_DIR/processed_deb
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
@@ -21,8 +21,8 @@ fetch_remote_deb_list() {
 generate_local_deb_list() {
     pushd $POOL_DIR
     local_deb_list=$(mktemp /tmp/local.XXXXXXXX)
-
-    find . -type f -exec basename '{}' \; | sed 's/[^\/\.a-Z0-9\+\_\-]/\./g' > $local_deb_list
+    find . -type f -exec basename '{}' \; > $local_deb_list
+    sed -i 's/[^\a-zA-Z0-9._+-]/./g' $local_deb_list
     popd
 }
 ## List non_upload debs
@@ -41,12 +41,13 @@ upload_debs() {
     list_non_upload_debs
     pushd $DEB_DIR
     for deb in *.deb;do
-        modified_name=$(echo $deb | sed 's/[^\/\.a-Z0-9\+\_\-]/\./')
-        mv $deb $modified_name
+        modified_name=${deb/+([^a-zA-Z0-9.+_-])/.}
+        mv -n $deb $modified_name
     done
-    for deb_name in $(cat $non_uploaded_list); do 
-        gh release upload -R github.com/$owner/$repo $tag $deb_name
-        echo "$deb_name uploaded!"
+    for deb_name in $(cat $non_uploaded_list); do
+        if ! gh release upload -R github.com/$owner/$repo $tag $deb_name;then
+            echo "$deb_name issues while uploading"
+        fi
     done
     popd
 }
@@ -57,7 +58,7 @@ list_redundent_deb() {
     redundent_deb_list=$(mktemp /tmp/red.XXXXXXXX)
     grep -vf $local_deb_list $remote_deb_list | uniq > $redundent_deb_list
 }
-
+#// better to execute it manually.  disable for now
 remove_redundent_deb() {
     list_redundent_deb
     echo "removing redundent debs from remote"
@@ -85,16 +86,13 @@ remove_archive_from_temp_gh() {
 commit() {
     pushd $(dirname $BASE_DIR)
     echo "pushing changes"
-    last_commit=$(git log --oneline | head -n1 | cut -d' ' -f1)
-    list_updated_packages=$(git diff ${last_commit} ./*/*/*/*/*/Packages| cat | grep +Package | sort -u | cut -d' ' -f2)
     if [[ $(git status --porcelain) ]]; then
         git add .
         git commit -m "Updated $list_updated_packages"
-        if git push;then
-            remove_archive_from_temp_gh
-        fi
+        git push
+        remove_archive_from_temp_gh
     fi
 }
 upload_debs
-remove_redundent_deb
+# remove_redundent_deb
 commit

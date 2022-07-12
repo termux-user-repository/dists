@@ -61,39 +61,76 @@ SHA256: 1c50609cb92694f75cd038d02d6c8903016ca0ebf24d6eb33a6f9f6290c53147
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
-Package: python3.9
-Version: 3.9.13-1
+Package: python-cryptography
+Version: 37.0.4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 45888
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.13-1_arm.deb
-Size: 8829780
-MD5sum: 8a1ebfd6e419f57e76a79ca20e56c6c1
-SHA1: bdec54aa2e0c8e2767b7d7d28890f737366de93e
-SHA256: 7ac3a2a48d844ec3c3895b42f6682d91c32d7b5129dd23ea7ed307dec91bcc67
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
+Installed-Size: 3144
+Depends: libffi, openssl, python
+Filename: pool/tur/python-cryptography_37.0.4_arm.deb
+Size: 686992
+MD5sum: d9607c35c518e897bb61adaa174a2691
+SHA1: 076f334d7722380f4d12ca7d8b6b00ff64b6d966
+SHA256: 1d9f34e7e91ff6c748a442725dd89bb5e4762b43ee088638e6abbff86086c1b8
+Homepage: https://cryptography.io/
+Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
-Package: python3.9
-Version: 3.9.13
+Package: python-kivy
+Version: 2.1.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 45876
-Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.13_arm.deb
-Size: 8825080
-MD5sum: 01a27e0be3df24e9ce83008e3f50e49a
-SHA1: c9e30366f2fa2ed58ef9be2d81935f70f3e081c0
-SHA256: 0dc2f6bdd3d3782f498411a210e720909e6ab76463cc1f8009ec4ce89340327f
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
+Installed-Size: 25080
+Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/python-kivy_2.1.0_arm.deb
+Size: 11599944
+MD5sum: d99bf51df892842bbb43f3a27b570b67
+SHA1: cdc4495b96848ed3d5e02019fa6b982a61a2906c
+SHA256: 9a12178b15b24f4b84d082a79239c9fa4cbe8c93bcf88f74949a2e7a3fb7f3a9
+Homepage: https://kivy.org/
+Description: Open source UI framework written in Python
+
+Package: python-numpy-static
+Version: 1.23.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 324
+Depends: python-numpy (= 1.23.0)
+Filename: pool/tur/python-numpy-static_1.23.0_arm.deb
+Size: 87072
+MD5sum: 6d175757fa642e2bdda2478e1272b773
+SHA1: d8584fb76d86cc6c9be131758e67181bb72176be
+SHA256: c1bae4ea6fa2f31f8a552b0f52eca1e2ba75e635f2b9476e782e1d6cc38678ad
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
+
+Package: python-numpy
+Version: 1.23.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 27812
+Depends: libc++, python
+Provides: python-numpy
+Filename: pool/tur/python-numpy_1.23.0_arm.deb
+Size: 5002152
+MD5sum: d378e23a6f51041c23779a4f342a8c40
+SHA1: d55d9db0b8a37254e7e691c3b195fcb38a4f2abc
+SHA256: 0d6fe66e1602635d86ef41600560f2dda4ed2ef447e94b5739c6515b292746ab
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
+
+Package: python-pillow
+Version: 9.2.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1256
+Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
+Filename: pool/tur/python-pillow_9.2.0_arm.deb
+Size: 1207272
+MD5sum: 7e9318994a6844b7a2a8c1eaf182e2a9
+SHA1: fea984bda0644a11e2ad55aa16fc2ce615e97768
+SHA256: 2ae51cd18393c7141b6736b88944fa7f301aef2cde8fedc362e84441ebdb408c
+Homepage: https://github.com/python-pillow/Pillow
+Description: The friendly PIL fork (Python Imaging Library)
 
 Package: python3.9-static
 Version: 3.9.13-1
@@ -151,76 +188,39 @@ SHA256: dc0be5ac7a3b9c0d7c812ccb94c5a1cdf083d6b273c9c2a0355f42d6e3888272
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
-Package: python-cryptography
-Version: 37.0.4
+Package: python3.9
+Version: 3.9.13-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 3144
-Depends: libffi, openssl, python
-Filename: pool/tur/python-cryptography_37.0.4_arm.deb
-Size: 686992
-MD5sum: d9607c35c518e897bb61adaa174a2691
-SHA1: 076f334d7722380f4d12ca7d8b6b00ff64b6d966
-SHA256: 1d9f34e7e91ff6c748a442725dd89bb5e4762b43ee088638e6abbff86086c1b8
-Homepage: https://cryptography.io/
-Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+Installed-Size: 45888
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.13-1_arm.deb
+Size: 8829780
+MD5sum: 8a1ebfd6e419f57e76a79ca20e56c6c1
+SHA1: bdec54aa2e0c8e2767b7d7d28890f737366de93e
+SHA256: 7ac3a2a48d844ec3c3895b42f6682d91c32d7b5129dd23ea7ed307dec91bcc67
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
 
-Package: python-kivy
-Version: 2.1.0
+Package: python3.9
+Version: 3.9.13
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 25080
-Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-kivy_2.1.0_arm.deb
-Size: 11599944
-MD5sum: d99bf51df892842bbb43f3a27b570b67
-SHA1: cdc4495b96848ed3d5e02019fa6b982a61a2906c
-SHA256: 9a12178b15b24f4b84d082a79239c9fa4cbe8c93bcf88f74949a2e7a3fb7f3a9
-Homepage: https://kivy.org/
-Description: Open source UI framework written in Python
-
-Package: python-numpy
-Version: 1.23.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 27812
-Depends: libc++, python
-Provides: python-numpy
-Filename: pool/tur/python-numpy_1.23.0_arm.deb
-Size: 5002152
-MD5sum: d378e23a6f51041c23779a4f342a8c40
-SHA1: d55d9db0b8a37254e7e691c3b195fcb38a4f2abc
-SHA256: 0d6fe66e1602635d86ef41600560f2dda4ed2ef447e94b5739c6515b292746ab
-Homepage: https://numpy.org/
-Description: The fundamental package for scientific computing with Python
-
-Package: python-numpy-static
-Version: 1.23.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 324
-Depends: python-numpy (= 1.23.0)
-Filename: pool/tur/python-numpy-static_1.23.0_arm.deb
-Size: 87072
-MD5sum: 6d175757fa642e2bdda2478e1272b773
-SHA1: d8584fb76d86cc6c9be131758e67181bb72176be
-SHA256: c1bae4ea6fa2f31f8a552b0f52eca1e2ba75e635f2b9476e782e1d6cc38678ad
-Homepage: https://numpy.org/
-Description: Static libraries for python-numpy
-
-Package: python-pillow
-Version: 9.2.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1256
-Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
-Filename: pool/tur/python-pillow_9.2.0_arm.deb
-Size: 1207272
-MD5sum: 7e9318994a6844b7a2a8c1eaf182e2a9
-SHA1: fea984bda0644a11e2ad55aa16fc2ce615e97768
-SHA256: 2ae51cd18393c7141b6736b88944fa7f301aef2cde8fedc362e84441ebdb408c
-Homepage: https://github.com/python-pillow/Pillow
-Description: The friendly PIL fork (Python Imaging Library)
+Installed-Size: 45876
+Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.13_arm.deb
+Size: 8825080
+MD5sum: 01a27e0be3df24e9ce83008e3f50e49a
+SHA1: c9e30366f2fa2ed58ef9be2d81935f70f3e081c0
+SHA256: 0dc2f6bdd3d3782f498411a210e720909e6ab76463cc1f8009ec4ce89340327f
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
 
 Package: sample-pkg-example
 Version: 1:1.0.0-1
