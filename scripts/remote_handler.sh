@@ -44,9 +44,10 @@ upload_debs() {
         modified_name=${deb/+([^a-zA-Z0-9.+_-])/.}
         mv -n $deb $modified_name
     done
-    for deb_name in $(cat $non_uploaded_list); do 
-        gh release upload -R github.com/$owner/$repo $tag $deb_name
-        echo "$deb_name uploaded!"
+    for deb_name in $(cat $non_uploaded_list); do
+        if ! gh release upload -R github.com/$owner/$repo $tag $deb_name;then
+            echo "$deb_name issues while uploading"
+        fi
     done
     popd
 }
