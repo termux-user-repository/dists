@@ -49,9 +49,12 @@ add_package_metadata() {
     cd $BASE_DIR
     rm -rf debs
     ## EXTRACT TAR FROM ZIP IF ANY
-    for zipped in ./*.zip;do
+    count_zip_file=$(find . -maxdepth 1 -name "*.zip" 2> /dev/null | wc -l)
+    if [ $count_zip_file != 0 ];then
+        for zipped in ./*.zip;do
         unzip -o $zipped
-    done
+        done
+    fi
     for tar_file in ./*.tar;
     do
         echo "processing $tar_file"
