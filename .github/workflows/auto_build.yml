@@ -1,4 +1,4 @@
-name: Mirror
+name: auto-build
 
 on:
   push:
@@ -10,11 +10,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-        
-      - name: Test github gpg key
+
+      - name: updating and signing releases file
         env:
             SEC_PASS: ${{ secrets.SEC_PASS }}
             SEC_KEY: ${{ secrets.SEC_KEY }}
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
             echo "Jai ho"
             bash ./scripts/trigger.sh
