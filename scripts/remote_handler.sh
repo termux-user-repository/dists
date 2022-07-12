@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e -o pipefail
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 DEB_DIR=$BASE_DIR/processed_deb
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
@@ -21,8 +21,10 @@ fetch_remote_deb_list() {
 generate_local_deb_list() {
     pushd $POOL_DIR
     local_deb_list=$(mktemp /tmp/local.XXXXXXXX)
-
-    find . -type f -exec basename '{}' \; | sed 's/[^\/\.a-Z0-9\+\_\-]/\./g' > $local_deb_list
+    local raw_file_name
+    raw_file_name=$(mktermp /tmp/raw.XXXXXXX)
+    find . -type f -exec basename '{}' \; > $raw_file_name
+    sed 's/[^\/\.a-Z0-9\+\_\-]/\./g' $raw_file_name > $local_deb_list
     popd
 }
 ## List non_upload debs
