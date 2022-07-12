@@ -22,7 +22,7 @@ generate_local_deb_list() {
     pushd $POOL_DIR
     local_deb_list=$(mktemp /tmp/local.XXXXXXXX)
     find . -type f -exec basename '{}' \; > $local_deb_list
-    sed -i 's/[^\.a-Z0-9_+-]/./g' $local_deb_list
+    sed -i 's/[^\a-Z0-9._+-]/./g' $local_deb_list
     popd
 }
 ## List non_upload debs
@@ -41,7 +41,7 @@ upload_debs() {
     list_non_upload_debs
     pushd $DEB_DIR
     for deb in *.deb;do
-        modified_name=$(echo $deb | sed 's/[^\/\.a-Z0-9\+\_\-]/\./')
+        modified_name=$(echo $deb | sed 's/[^a-Z0-9._+-]/./g')
         mv $deb $modified_name
     done
     for deb_name in $(cat $non_uploaded_list); do 
@@ -57,7 +57,7 @@ list_redundent_deb() {
     redundent_deb_list=$(mktemp /tmp/red.XXXXXXXX)
     grep -vf $local_deb_list $remote_deb_list | uniq > $redundent_deb_list
 }
-
+#// better to execute it manually.  disable for now
 remove_redundent_deb() {
     list_redundent_deb
     echo "removing redundent debs from remote"
@@ -96,5 +96,5 @@ commit() {
     fi
 }
 upload_debs
-remove_redundent_deb
-commit
+# remove_redundent_deb
+# commit
