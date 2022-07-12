@@ -5,9 +5,12 @@ on:
   workflow_dispatch:
   
 jobs:
-  Push-changes:
+  Updating_dist:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        
       - name: Test github gpg key
         env:
             SEC_PASS: ${{ secrets.SEC_PASS }}
