@@ -1,15 +1,83 @@
-Package: hello-tur-on-device
-Version: 0.1
+Package: lfortran-llvm
+Version: 0.15.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 8
-Filename: pool/hello-tur-on-device_0.1_aarch64.deb
-Size: 2184
-MD5sum: 819de48492ebbd12b7cdff3d6d6e628e
-SHA1: ad025edea709791d8a5e3096b016216ee776183d
-SHA256: 95e4d75836f75cc413a06277e8e3a55890e989ce6d978ea5b1287b09453cca8c
-Homepage: https://github.com/termux-user-repository/tur-on-device
-Description: Dummy test for TUR on Device
+Installed-Size: 33884
+Depends: libllvm-11, libc++, zlib
+Suggests: libkokkos
+Conflicts: lfortran
+Replaces: lfortran
+Provides: lfortran
+Filename: pool/tur/lfortran-llvm_0.15.0_aarch64.deb
+Size: 8121112
+MD5sum: ce4362e1686c0a7f8860dbf278116ddb
+SHA1: 44fb3807f6afa54b41bee408e329b2c29bece719
+SHA256: f6a001fd2ee2accf41c47b3258109fb514617093c2ee688b3da59e83c5a21883
+Homepage: https://lfortran.org/
+Description: A modern open-source interactive Fortran compiler
+
+Package: libllvm-11
+Version: 11.1.0-1
+Architecture: aarch64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 270860
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-11_11.1.0-1_aarch64.deb
+Size: 40586144
+MD5sum: 7b254754ae4e1ebdb1b7749bfbeb2d12
+SHA1: e69f798852232068207170c1fef8d9f324541dae
+SHA256: 01e17a04a8ece9bdeddd1b92c1168595641a95ae4c28a23e850cbc7e30df3d77
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: libllvm-11
+Version: 11.1.0
+Architecture: aarch64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 270844
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/tur/libllvm-11_11.1.0_aarch64.deb
+Size: 40579800
+MD5sum: 459e90e63ec109c02eae89f6f0ca1d23
+SHA1: 8f6a5f72d48fdbd2ee030d71cbdc33befb388c8b
+SHA256: b5aceaa5733fbdae29673300e2b25ba5d647a340f9f914437d977ab3f7108fef
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: llvm-11
+Version: 11.1.0-1
+Architecture: aarch64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 35080
+Depends: libllvm-11 (= 11.1.0-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0-1_aarch64.deb
+Size: 7658748
+MD5sum: a87836c8d647463c391e4bf11519da23
+SHA1: 7900cbd27bcbfd37b5de709e2286ed9dda128dd9
+SHA256: d6be5d2f787b512a3ecd2811c3af2072a8a9768d6605977b6b594be0ea50a293
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-11
+Version: 11.1.0
+Architecture: aarch64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 35080
+Depends: libllvm-11 (= 11.1.0)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0_aarch64.deb
+Size: 7661572
+MD5sum: c4a8d31dc664970939e2b648ac143abc
+SHA1: f136c287b871092877507a055e4f9bd353b906e8
+SHA256: f241aee71b8fda541b4d2ee8c794cf28f67ebedbe7c297095801765716501393
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
 
 Package: python3.9
 Version: 3.9.13-1
@@ -20,7 +88,7 @@ Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt,
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/python3.9_3.9.13-1_aarch64.deb
+Filename: pool/tur/python3.9_3.9.13-1_aarch64.deb
 Size: 8822360
 MD5sum: 9aa56a8b35d50e1e7ee95c35e40c8fec
 SHA1: 6fe613ab5952493936b31b760f9042e1a393d898
@@ -37,7 +105,7 @@ Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite,
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/python3.9_3.9.13_aarch64.deb
+Filename: pool/tur/python3.9_3.9.13_aarch64.deb
 Size: 8818872
 MD5sum: 1d12f59cd1c963d71910549b3c93accc
 SHA1: b539b4a9afa50737d31ef0e4697ddaf5eb9bb09b
@@ -51,7 +119,7 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 21572
 Depends: python3.9 (= 3.9.13-1)
-Filename: pool/python3.9-static_3.9.13-1_aarch64.deb
+Filename: pool/tur/python3.9-static_3.9.13-1_aarch64.deb
 Size: 3724880
 MD5sum: 9768c838fffb15986be762c9b037a769
 SHA1: f2f3488f3070001f77de4cc0f07ce768e6e451ea
@@ -65,7 +133,7 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 21576
 Depends: python3.9 (= 3.9.13)
-Filename: pool/python3.9-static_3.9.13_aarch64.deb
+Filename: pool/tur/python3.9-static_3.9.13_aarch64.deb
 Size: 3725764
 MD5sum: 31d450d7ea5295b8af0d4c51d486a860
 SHA1: a5322bab1bfed92383cb4d81393135a34bc5bed8
@@ -79,7 +147,7 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 7936
 Depends: tk, python3.9 (= 3.9.13-1)
-Filename: pool/python3.9-tkinter_3.9.13-1_aarch64.deb
+Filename: pool/tur/python3.9-tkinter_3.9.13-1_aarch64.deb
 Size: 912840
 MD5sum: 332d9048cd1c2dad46633a5dae6409fe
 SHA1: f6fa1268aa8b13770b1e55142a27adfbca62e257
@@ -93,7 +161,7 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 7936
 Depends: tk, python3.9 (= 3.9.13)
-Filename: pool/python3.9-tkinter_3.9.13_aarch64.deb
+Filename: pool/tur/python3.9-tkinter_3.9.13_aarch64.deb
 Size: 912904
 MD5sum: 4cc619ff265fd374f0114be8fd996f32
 SHA1: a4e81a559e36996d80e5362eb821745d697c46ec
@@ -101,13 +169,27 @@ SHA256: df346d7b913fe239699ae9f23864cb51ee0595bb9409bf6d09501e4bbcbc2252
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
+Package: python-cryptography
+Version: 37.0.4
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 3908
+Depends: libffi, openssl, python
+Filename: pool/tur/python-cryptography_37.0.4_aarch64.deb
+Size: 698764
+MD5sum: 3336e127819075d6cc806d9d18061a47
+SHA1: e17d8a145b0af5c2951828a8a80860c1b0291244
+SHA256: 1d5f064f19c669523d3a6b3d6a6b9d2d8530e4d00d5a62a5315f8bd87028dba0
+Homepage: https://cryptography.io/
+Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+
 Package: python-kivy
 Version: 2.1.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 26264
 Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/python-kivy_2.1.0_aarch64.deb
+Filename: pool/tur/python-kivy_2.1.0_aarch64.deb
 Size: 11701984
 MD5sum: ce9f37c6d702b87015cb6b0dc96b0d76
 SHA1: 5b51bd707b8f8922e65fb51aacc1baea8404ef89
@@ -122,11 +204,11 @@ Maintainer: @termux-user-repository
 Installed-Size: 29124
 Depends: libc++, python
 Provides: python-numpy
-Filename: pool/python-numpy_1.23.0_aarch64.deb
-Size: 5040292
-MD5sum: 582c5e70b89fb53323be77ae77189ef7
-SHA1: c5b1415da8682275cd52b2b2b0e4f948905bdaab
-SHA256: 8b39fd2dfbd6534e9fe0c3244322bab1138a270692525e6499cd82e30205954a
+Filename: pool/tur/python-numpy_1.23.0_aarch64.deb
+Size: 5039796
+MD5sum: a62c57ab1cce1e4a8e6b8fdb0a09be43
+SHA1: e30cd841371998414bce2a9f258d3eb9bf206080
+SHA256: 84962562bc6254a5773f8c8626941b61961e8f4e373bd4702e3ae9d8559d4a44
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
@@ -136,11 +218,11 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 484
 Depends: python-numpy (= 1.23.0)
-Filename: pool/python-numpy-static_1.23.0_aarch64.deb
-Size: 93216
-MD5sum: 19d26e99d9e01d1b21174e231e71ed93
-SHA1: 19166931b0950c5a53824de039199f8739727a9f
-SHA256: 8dd05e6b3b850afbfb444a1f391cfdd0127417cb76a5d2abf2a799e933a6b1e3
+Filename: pool/tur/python-numpy-static_1.23.0_aarch64.deb
+Size: 93208
+MD5sum: f990b197787b2e96fea330f9287c4376
+SHA1: 844b3a8619eee8c33ded71176e9a40dc90546de2
+SHA256: 9e7c9b7d59a5dde01494a5fa5316e6d52166df8c9746cfc70611a04226b5a895
 Homepage: https://numpy.org/
 Description: Static libraries for python-numpy
 
@@ -150,7 +232,7 @@ Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 1304
 Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
-Filename: pool/python-pillow_9.2.0_aarch64.deb
+Filename: pool/tur/python-pillow_9.2.0_aarch64.deb
 Size: 1257656
 MD5sum: 3bc88675e1a87050ac12842d6b61e582
 SHA1: 1dc26d7a89e46bf5050a34e73fd609e2367e4954
@@ -176,11 +258,11 @@ Version: 1:1.0.0-1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 4592
-Filename: pool/sample-pkg-example_1:1.0.0-1_aarch64.deb
-Size: 1079836
-MD5sum: ccb4f47be0c9b0d12e3653557516efc9
-SHA1: 1e481062c05bffc3588e94ffd4ba96c8674ae0b0
-SHA256: 52e53966d52d35e5cd748275d1be7498bc3d396c2b554cf750b1ac579b3b4479
+Filename: pool/tur/sample-pkg-example_1:1.0.0-1_aarch64.deb
+Size: 1080080
+MD5sum: b936a29b5c86db0a244dc4243693731b
+SHA1: e33f2839dd15908e06bc98493c2d17478467ab83
+SHA256: de16eee8c75d41def1ca26e815b8209df74fc2a7fe4acaae58c58ff9c1c88ffc
 Homepage: https://github.com/FiloSottile/age
 Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
 

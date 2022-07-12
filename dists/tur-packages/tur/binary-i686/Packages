@@ -1,15 +1,65 @@
-Package: hello-tur-on-device
-Version: 0.1
+Package: libllvm-11
+Version: 11.1.0-1
 Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 44
-Filename: pool/hello-tur-on-device_0.1_i686.deb
-Size: 2128
-MD5sum: 698be1941ccaffdafd3245c32bf6937d
-SHA1: 5f5b3b4a00da0e1f1d14aa2ce8e1bb6e25588aa6
-SHA256: c0cb22e956cf1f4cf0a71cae46b4311ae1d1e2ee43cc43efb83ac1f55b491985
-Homepage: https://github.com/termux-user-repository/tur-on-device
-Description: Dummy test for TUR on Device
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 248084
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-11_11.1.0-1_i686.deb
+Size: 44664692
+MD5sum: 4638a22898e0c6b83b80535a9adbd460
+SHA1: 1a5116b76455fe798a9fac789bb877f40b822b7d
+SHA256: 045abaf3dfeb540814fcb0b97066fe0b2e2090a2000483067d09dd17b60e5cf3
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: libllvm-11
+Version: 11.1.0
+Architecture: i686
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 248068
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/tur/libllvm-11_11.1.0_i686.deb
+Size: 44676396
+MD5sum: f03146b2e512bbeb95d54985a532cc41
+SHA1: e3bebe5898bd83393ffa472d4ac45194b56b924f
+SHA256: 1a5299c65793cfebb05ea04bc263427ef5fb30e0dca996938163da7e6172fe35
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: llvm-11
+Version: 11.1.0-1
+Architecture: i686
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 38536
+Depends: libllvm-11 (= 11.1.0-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0-1_i686.deb
+Size: 9315852
+MD5sum: d40c0bacd021a3218bb54c381bbffb9f
+SHA1: aa1789869e1a7ea2c7431db77bfde5cf31dca868
+SHA256: 52f5e4db5b21ba6f171e50709928d9b03841a3312ae7fb2cdb1c0f30741c89eb
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-11
+Version: 11.1.0
+Architecture: i686
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 38536
+Depends: libllvm-11 (= 11.1.0)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0_i686.deb
+Size: 9316008
+MD5sum: 7559ee41a03e1dbf99bf861710d62546
+SHA1: 45cb99e4e884d68319692c4df68a9b23f45ff405
+SHA256: 9229177549ec94b54dacbb1bd82826eb945849cf8c34f169862a29e7a3f147f8
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
 
 Package: python3.9
 Version: 3.9.13-1
@@ -20,7 +70,7 @@ Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt,
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/python3.9_3.9.13-1_i686.deb
+Filename: pool/tur/python3.9_3.9.13-1_i686.deb
 Size: 8918592
 MD5sum: ccce1767402f92e5686ee71b61c3e61c
 SHA1: 25d09a6c4df06e71b6c63a17a8bc625128271472
@@ -37,7 +87,7 @@ Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite,
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/python3.9_3.9.13_i686.deb
+Filename: pool/tur/python3.9_3.9.13_i686.deb
 Size: 8915912
 MD5sum: 04fffa76b131e46bd374d24e66d84d1e
 SHA1: a235301c741592ee6a116f063155834585137ba1
@@ -51,7 +101,7 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 13740
 Depends: python3.9 (= 3.9.13-1)
-Filename: pool/python3.9-static_3.9.13-1_i686.deb
+Filename: pool/tur/python3.9-static_3.9.13-1_i686.deb
 Size: 3721584
 MD5sum: 4085bf23e770df2d44575180a17a3450
 SHA1: 5b15801a2e590c8197c99546a3df14d1bc1f4450
@@ -65,7 +115,7 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 13740
 Depends: python3.9 (= 3.9.13)
-Filename: pool/python3.9-static_3.9.13_i686.deb
+Filename: pool/tur/python3.9-static_3.9.13_i686.deb
 Size: 3726860
 MD5sum: e9ca808d812d89469ed17563df72aa2a
 SHA1: 8320c6bf79d37ade287ed2b7c5b5e786f836dbcb
@@ -79,7 +129,7 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 7936
 Depends: tk, python3.9 (= 3.9.13-1)
-Filename: pool/python3.9-tkinter_3.9.13-1_i686.deb
+Filename: pool/tur/python3.9-tkinter_3.9.13-1_i686.deb
 Size: 912716
 MD5sum: da6e1d7baa2cc6f9257ff434e8ad12a1
 SHA1: 59f041e127d07cc6ea4d26c71858170129d2b049
@@ -93,7 +143,7 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 7936
 Depends: tk, python3.9 (= 3.9.13)
-Filename: pool/python3.9-tkinter_3.9.13_i686.deb
+Filename: pool/tur/python3.9-tkinter_3.9.13_i686.deb
 Size: 912796
 MD5sum: 2f077fad473386f7b0fe918dfda48daa
 SHA1: 0ef6adebc1b689bab5100c547022fe40a7b906bd
@@ -101,13 +151,27 @@ SHA256: b50487d7caca97066464ee871f68ac7526351e00de354997926c6a8e5e0faba2
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
+Package: python-cryptography
+Version: 37.0.4
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 4156
+Depends: libffi, openssl, python
+Filename: pool/tur/python-cryptography_37.0.4_i686.deb
+Size: 761200
+MD5sum: 2f7daa1c546e52613a5827b54730e6eb
+SHA1: 043da8d77eb561d76cde039cc8eb0e69a071f2f0
+SHA256: f976e080a8da2b23bcbe538c5a9ca221d2727d4c0161d1825b381bad9c099251
+Homepage: https://cryptography.io/
+Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+
 Package: python-kivy
 Version: 2.1.0
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 25764
 Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/python-kivy_2.1.0_i686.deb
+Filename: pool/tur/python-kivy_2.1.0_i686.deb
 Size: 11615980
 MD5sum: cf4b35807e9758bcb2bea03e0e5a8e68
 SHA1: 8cd18a3da533da0a8b524a64f14ccb76bc9b8ec1
@@ -122,11 +186,11 @@ Maintainer: @termux-user-repository
 Installed-Size: 30784
 Depends: libc++, python
 Provides: python-numpy
-Filename: pool/python-numpy_1.23.0_i686.deb
-Size: 5289684
-MD5sum: ddca87cf765aebc5f62e9891ec5cdb39
-SHA1: ff24a403e2f8c2dd7d61a31895cdbf7dea370d52
-SHA256: f12503a9eb93b924c3ef2cff6e57be2cbb67fc50bec7a7937fbec4c74f0dfcdd
+Filename: pool/tur/python-numpy_1.23.0_i686.deb
+Size: 5287692
+MD5sum: eaa67e43b8b4369637ced1252154af7d
+SHA1: 3fb0c9af60fc6aac61aea4cc49b01cae572d6946
+SHA256: aa8951674a3422eb6ef596d463e80ee1ef8cbff19478bf57425ffdba63c7d59e
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
@@ -136,11 +200,11 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 360
 Depends: python-numpy (= 1.23.0)
-Filename: pool/python-numpy-static_1.23.0_i686.deb
-Size: 96524
-MD5sum: 8b6c294dbfb4b71aa2b9c578961aa1f8
-SHA1: a3b9ca85dec2727d348b14ea6b6178e268dd1a8e
-SHA256: d3b4ffe8b7f0e915d0093334c58d945eaf04af91851cd47dfff90de40b643033
+Filename: pool/tur/python-numpy-static_1.23.0_i686.deb
+Size: 96708
+MD5sum: 12fe29922e02de48d2bfd0f2e25f0ca9
+SHA1: bf4e8b6093ddabd6093f57e84db884e0c42b7700
+SHA256: dbe4a9703d34ade972dc1625e9511efe13d88c70323760ef2f0a7c5c030fa355
 Homepage: https://numpy.org/
 Description: Static libraries for python-numpy
 
@@ -150,7 +214,7 @@ Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 1268
 Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
-Filename: pool/python-pillow_9.2.0_i686.deb
+Filename: pool/tur/python-pillow_9.2.0_i686.deb
 Size: 1221172
 MD5sum: 547b09f434511269273ad498cf3b472a
 SHA1: 0ba9b514093fa8c1fb2e9a2498fa68bef6bbce24
@@ -176,11 +240,11 @@ Version: 1:1.0.0-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 4512
-Filename: pool/sample-pkg-example_1:1.0.0-1_i686.deb
-Size: 1211948
-MD5sum: bd020e13a89400883aa94b034de99e1a
-SHA1: 329e71c9ba693c5d4692a90b12e99eccf1e4824c
-SHA256: b3e2b7408aa96effb3dfc052155f4c557205f4d9f36028d2ebbb3df9ad50fc3f
+Filename: pool/tur/sample-pkg-example_1:1.0.0-1_i686.deb
+Size: 1211856
+MD5sum: 287c05569a87afb4706870c4b7851b3f
+SHA1: 0d8c0aa4be60103570ae80cd5dee7c023729c6ac
+SHA256: 37f20aca1dbce42415c9a8a122ac3f934de9a9607f1cc5e159995be264b29fb1
 Homepage: https://github.com/FiloSottile/age
 Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
 
