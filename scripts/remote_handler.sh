@@ -42,7 +42,7 @@ upload_debs() {
     pushd $DEB_DIR
     for deb in *.deb;do
         modified_name=${deb/+([^a-zA-Z0-9.+_-])/.}
-        mv $deb $modified_name
+        mv -n $deb $modified_name
     done
     for deb_name in $(cat $non_uploaded_list); do 
         gh release upload -R github.com/$owner/$repo $tag $deb_name
