@@ -1,0 +1,268 @@
+Package: lfortran-llvm
+Version: 0.15.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 39068
+Depends: libllvm-11, libc++, zlib
+Suggests: libkokkos
+Conflicts: lfortran
+Replaces: lfortran
+Provides: lfortran
+Filename: pool/tur/lfortran-llvm_0.15.0_x86_64.deb
+Size: 10169736
+MD5sum: 1e29abc59fc50c234723fe8552660e34
+SHA1: 1f2ebc45982158d675b6fd191324cd3bf19e78e8
+SHA256: 450b2006a367ffc29f52c1b84996d1f2eaccfaae908ed78a0bd52416ea2f3853
+Homepage: https://lfortran.org/
+Description: A modern open-source interactive Fortran compiler
+
+Package: libllvm-11
+Version: 11.1.0-1
+Architecture: x86_64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 291980
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-11_11.1.0-1_x86_64.deb
+Size: 45261972
+MD5sum: fb3dda91cb78ec3df91b1b2572cb5297
+SHA1: 6f43977ba7144cd03496aa341ca2768d41541ee9
+SHA256: b09309080ac48874f1d829c4708cd9d132a4f049bad4c5234db9b47f260ec8a6
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: libllvm-11
+Version: 11.1.0
+Architecture: x86_64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 291964
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/tur/libllvm-11_11.1.0_x86_64.deb
+Size: 45234056
+MD5sum: 6f007ff539da68cf6b3f8d76372fc0a0
+SHA1: 7da1b6022e3c4d52fd2728cec7415e5cb0dd80d6
+SHA256: 2269c07ded1dbe36d5a484aa50ace2d7f388547599f6f4dc89aaeefa09df4188
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: llvm-11
+Version: 11.1.0-1
+Architecture: x86_64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 40324
+Depends: libllvm-11 (= 11.1.0-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0-1_x86_64.deb
+Size: 9293112
+MD5sum: 4decd267f3a2eee7a56ab6f51c40bd36
+SHA1: d851f6f9c253de7b7f67b9709592a128799095cf
+SHA256: 6ef5c750e87ffaac69df5f20b2137d955ca8c54ea7bb473db859735de5238487
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-11
+Version: 11.1.0
+Architecture: x86_64
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 40324
+Depends: libllvm-11 (= 11.1.0)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0_x86_64.deb
+Size: 9293512
+MD5sum: 1e3ac110f2780872b71a95dce3977e1c
+SHA1: 1e16a520757c38b507d35b458dd6c93a0c02ca7e
+SHA256: dd3e3d9d766f46a5755c0a53d91a3e37bcc614d81aed0729c863ba48bf1618e2
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: python3.9
+Version: 3.9.13-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 48288
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.13-1_x86_64.deb
+Size: 9120540
+MD5sum: 87b2b692a9e5b40efdcc3b3640f6bc3e
+SHA1: 203661b15faacb56f3c5d0b539c44e12af833191
+SHA256: 370e16b0d59c46f9d57a69dbb47e27fae367e1790bc72f9d2a4fb562f8c68e48
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9
+Version: 3.9.13
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 48268
+Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.13_x86_64.deb
+Size: 9116988
+MD5sum: 67cf554eea6066f000ca88c3f1d6d8fe
+SHA1: 026ab274b5a11ec95784b61cd1dd5bab19c319ce
+SHA256: e41f493200a53ed64f7f018bd00dc7de8f2128c3046868f48847d4639f0659b1
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9-static
+Version: 3.9.13-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 21860
+Depends: python3.9 (= 3.9.13-1)
+Filename: pool/tur/python3.9-static_3.9.13-1_x86_64.deb
+Size: 3961296
+MD5sum: 76d45c5fa6ebc9b8434df8f1c595371a
+SHA1: de854047cae670890097a1f3889c23d2dc85995f
+SHA256: ec8a9e62bd2ba02a81880a2d512c688988e634d0c919e0416ef6032fee9fc65b
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
+Package: python3.9-static
+Version: 3.9.13
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 21860
+Depends: python3.9 (= 3.9.13)
+Filename: pool/tur/python3.9-static_3.9.13_x86_64.deb
+Size: 3960628
+MD5sum: d4e534eac97945d813d84ead68a024c8
+SHA1: 376e967ad81398dcc4a2db7d944993762b45e189
+SHA256: d7d5175186dbf95c8cd4e1fff0ae601a6d3a4280b37f470b2879f11a03e8fe7c
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
+Package: python3.9-tkinter
+Version: 3.9.13-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.13-1)
+Filename: pool/tur/python3.9-tkinter_3.9.13-1_x86_64.deb
+Size: 912856
+MD5sum: 655c31efb3e695780513e0d816db5615
+SHA1: 2fea63edca571b9e1292e89761b75e9fa6c583ff
+SHA256: b90bedebd1831ec23cae5b20c28e7500db44a654fa83ab683e3b72fcf10a25aa
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: python3.9-tkinter
+Version: 3.9.13
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.13)
+Filename: pool/tur/python3.9-tkinter_3.9.13_x86_64.deb
+Size: 912680
+MD5sum: 144df44403711c68b5d20c61abde154d
+SHA1: 8d0ca506c67989d9d0ca7abd7f94443c81985cea
+SHA256: c172ba5a96110ef05a1ff0d4c86c44caf8175e860c6dc0f8a05111815d544d03
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: python-cryptography
+Version: 37.0.4
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 4120
+Depends: libffi, openssl, python
+Filename: pool/tur/python-cryptography_37.0.4_x86_64.deb
+Size: 764964
+MD5sum: c96dac83ae69a38b09adfc007a030698
+SHA1: 0b14f03b3395ff35a070fcfb1f7f5d50a63e829d
+SHA256: d35d8062e0688527f5027844cf5331cb0bd71f60ab9bd3bb2aae8d9bfa867f42
+Homepage: https://cryptography.io/
+Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+
+Package: python-kivy
+Version: 2.1.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 26500
+Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/python-kivy_2.1.0_x86_64.deb
+Size: 11753052
+MD5sum: 54c2f979c10bd5e69db80c48a75506de
+SHA1: 2b2e34b980b059e17c306572dbb78f85bce7d54b
+SHA256: 7127870b488ff8118e8e449446e547cb3ecbde39b0a1c2726e8f0ca61eff40cb
+Homepage: https://kivy.org/
+Description: Open source UI framework written in Python
+
+Package: python-numpy
+Version: 1.23.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 31900
+Depends: libc++, python
+Provides: python-numpy
+Filename: pool/tur/python-numpy_1.23.0_x86_64.deb
+Size: 5520172
+MD5sum: 8f0cf8df30a8f72ef3571fbf6ae04649
+SHA1: 2f6c4125b1a531110f9bf9e86cb2bf606088e310
+SHA256: 693324479c27cd521418841a7fe26c3f74aa78bf9d63f3ad106ff7d0bb37a556
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
+
+Package: python-numpy-static
+Version: 1.23.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 500
+Depends: python-numpy (= 1.23.0)
+Filename: pool/tur/python-numpy-static_1.23.0_x86_64.deb
+Size: 101228
+MD5sum: 7110ae5da48dc72d0052589421ad69e5
+SHA1: 6f456573ae48764d46610e2e79589d26f1e7450a
+SHA256: 693317b9dd95a31fd6591ac3ae495f329cbe0d4d4f15d182aa4ae377133eef26
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
+
+Package: python-pillow
+Version: 9.2.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1304
+Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libxcb, littlecms, python, zlib
+Filename: pool/tur/python-pillow_9.2.0_x86_64.deb
+Size: 1257176
+MD5sum: 154cecb4a14e23de113b273340b6ec41
+SHA1: 901afee27e2b6609bda34e4463cb8eeee188691d
+SHA256: 97d6c203b5dd49ce0abc86adcfe11a487695a658f33abd008e583d15135c3be4
+Homepage: https://github.com/python-pillow/Pillow
+Description: The friendly PIL fork (Python Imaging Library)
+
+Package: sample-pkg-example
+Version: 1:1.0.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 4788
+Filename: pool/sample-pkg-example_1.1.0.0-1_x86_64.deb
+Size: 1202732
+MD5sum: a2e51d3232dab72321b9377a92dc8af3
+SHA1: 0b231c26138a8bfc5c972c29ac5339df090cce16
+SHA256: c13b41610c936cd9d234c71abb467c7d1d506ecc5b55cb7d1dbf717bd7fda7e8
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+
+Package: sample-pkg-example
+Version: 1:1.0.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 4788
+Filename: pool/tur/sample-pkg-example_1:1.0.0-1_x86_64.deb
+Size: 1202376
+MD5sum: 188d76efd91a40a1f22f8d6233e68534
+SHA1: 550ec8f6e979f6f2964e6f3629f70aa442c2daa3
+SHA256: 26f946a094911098638921f5202edbbf3f244bbd11ced8a96ae8dadf1cfca005
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+

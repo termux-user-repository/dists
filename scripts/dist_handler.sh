@@ -48,6 +48,10 @@ add_package_metadata() {
     echo "Package metadata"
     cd $BASE_DIR
     rm -rf debs
+    ## EXTRACT TAR FROM ZIP IF ANY
+    for zipped in ./*.zip;do
+        unzip -o $zipped
+    done
     for tar_file in ./*.tar;
     do
         echo "processing $tar_file"
@@ -73,18 +77,24 @@ add_package_metadata() {
 remove_old_version() {
     echo "Remove old version: Fix me"
 }
+
 create_packages() {
     echo "creating package file. "
     for comp in "${components_array[@]}";do
         echo "creating packages for $comp components"
-        pushd $POOL_DIR/$comp
+        cd $POOL_DIR/$comp
         for arch in "${arch_array[@]}";do
-            count_deb_metadata_file=$(find . -name "./*{$arch,all}.deb" 2> /dev/null | wc -l)
+            echo $arch
+            echo $(pwd)
+            count_deb_metadata_file=$(find . -name "*[$arch|all].deb" 2> /dev/null | wc -l)
+            echo "$count_deb_metadata_file"
             if [[ $count_deb_metadata_file == 0 ]];then
+                echo "continue"
                 continue
             fi
-            pwd
-            cat ./*{$arch,all}.deb 2>/dev/null >| $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
+            echo "$(pwd) $comp"
+            cat ./*{$arch,all}.deb 2>/dev/null >| $Dists_DIR/$Suite/$comp/binary-${arch}/Packages || true
+
             gzip -9k $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
             echo "packages file created for $comp $arch"
         done
@@ -159,7 +169,7 @@ sign_release_file() {
     gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 -bao ./Release.gpg Release
     gpg --passphrase $SEC_PASS --batch --yes --pinentry-mode loopback -u 43EEC3A2934343315717FF6F6A5C550C260667D1 --clear-sign --output InRelease Release
 }
-#download_unprocessed_debs
+download_unprocessed_debs
 create_dist_structure
 add_package_metadata
 remove_old_version
