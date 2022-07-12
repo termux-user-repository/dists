@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e -o pipefail
-
+shopt -s extglob
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
 PROCESSED_DEB=$BASE_DIR/processed_deb
