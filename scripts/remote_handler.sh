@@ -21,10 +21,8 @@ fetch_remote_deb_list() {
 generate_local_deb_list() {
     pushd $POOL_DIR
     local_deb_list=$(mktemp /tmp/local.XXXXXXXX)
-    local raw_file_name
-    raw_file_name=$(mktemp /tmp/raw.XXXXXXX)
-    find . -type f -exec basename '{}' \; > $raw_file_name
-    sed 's/[^\/\.a-Z0-9\+\_\-]/\./g' $raw_file_name > $local_deb_list
+    find . -type f -exec basename '{}' \; > $local_deb_list
+    sed -i 's/[^\.a-Z0-9_+-]/./g' $local_deb_list
     popd
 }
 ## List non_upload debs
