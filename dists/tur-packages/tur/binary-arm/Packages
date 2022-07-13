@@ -1,3 +1,30 @@
+Package: libandroid-mathlib-static
+Version: 0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: libandroid-mathlib (= 0.1)
+Filename: pool/tur/libandroid-mathlib-static_0.1_arm.deb
+Size: 3040
+MD5sum: 386aededf30a96ed8d4884a27de94afb
+SHA1: 6b9d2c81946f987681c875b45d87774bcebb1634
+SHA256: 13463e8d5eff089e40253165c19af7f1fdfb435fcc1a3d8b217eab0e6c7db893
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
+Description: Static libraries for libandroid-mathlib
+
+Package: libandroid-mathlib
+Version: 0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 52
+Filename: pool/tur/libandroid-mathlib_0.1_arm.deb
+Size: 4204
+MD5sum: 78f3a4bc45898e2c6d0a7a4f2bfe2c6e
+SHA1: 07dfad6d45f9cfc00af34627264eab10083e6e3f
+SHA256: c2b2f4b3e413688e5e4fcc1557fcb007877fa946e8a00a3d30acf107b5981d08
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
+Description: Shared library for some missing libm functions of Bionic Libc
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: arm
@@ -28,6 +55,24 @@ SHA1: f9718680ef831b91435ce9ad1f9eccddcacb12ae
 SHA256: 23e4e1eaa2fd7e4709551fa3769b642e7dc30cdeb3965ceac0978b6a0d6cffe6
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: libllvm-classic-flang
+Version: 20220523
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 454800
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Suggests: libandroid-mathlib, classic-flang
+Conflicts: libllvm-10, clang-10, lld-10
+Replaces: libllvm-10, clang-10, lld-10
+Provides: libllvm-10, clang-10, lld-10
+Filename: pool/tur/libllvm-classic-flang_20220523_arm.deb
+Size: 76971380
+MD5sum: b3fcf19d507a12629e6feefe83f4155a
+SHA1: 0dcf87b599fb21b9fe544f65d166cf027b453d31
+SHA256: dd650082bb34200b167e8f6ff30ee1465cca623e6128c0347d57d3f195760560
+Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
+Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
 Package: llvm-11
 Version: 11.1.0-1

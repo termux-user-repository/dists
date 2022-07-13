@@ -16,6 +16,33 @@ SHA256: f6a001fd2ee2accf41c47b3258109fb514617093c2ee688b3da59e83c5a21883
 Homepage: https://lfortran.org/
 Description: A modern open-source interactive Fortran compiler
 
+Package: libandroid-mathlib-static
+Version: 0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: libandroid-mathlib (= 0.1)
+Filename: pool/tur/libandroid-mathlib-static_0.1_aarch64.deb
+Size: 2868
+MD5sum: b8da7d20d25215a26daf04d7512d5377
+SHA1: a595f53f04a2bc573f6c5e6f1fa36b6a559554d3
+SHA256: 67770996573a2a1eb7ee4bc608f7bdb8afec374db93b4f1b84b20a090142550d
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
+Description: Static libraries for libandroid-mathlib
+
+Package: libandroid-mathlib
+Version: 0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 52
+Filename: pool/tur/libandroid-mathlib_0.1_aarch64.deb
+Size: 4092
+MD5sum: 40a8f5822ac57249997e043fdacf1add
+SHA1: abe1268798c970e7d62abe5340ef91f1bcf0d4cc
+SHA256: 8022e781a3ae915ce87c51fa22f6c08817de910e1ffaa06966a8190740f04491
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
+Description: Shared library for some missing libm functions of Bionic Libc
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: aarch64
@@ -46,6 +73,24 @@ SHA1: 8f6a5f72d48fdbd2ee030d71cbdc33befb388c8b
 SHA256: b5aceaa5733fbdae29673300e2b25ba5d647a340f9f914437d977ab3f7108fef
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
+
+Package: libllvm-classic-flang
+Version: 20220523
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 491156
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Suggests: libandroid-mathlib, classic-flang
+Conflicts: libllvm-10, clang-10, lld-10
+Replaces: libllvm-10, clang-10, lld-10
+Provides: libllvm-10, clang-10, lld-10
+Filename: pool/tur/libllvm-classic-flang_20220523_aarch64.deb
+Size: 71833044
+MD5sum: d1f0f0d1cc0b7bd6bea0929f2732d0a0
+SHA1: 0c3e6a55bce000cfcad02861c76d36b184896e6c
+SHA256: 2d4273c4ed50496e74e31e0c1783d47144ae3f056da9d4749020e8dd35c151a6
+Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
+Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
 Package: llvm-11
 Version: 11.1.0-1
