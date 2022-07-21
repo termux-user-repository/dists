@@ -64,6 +64,33 @@ SHA256: c2b2f4b3e413688e5e4fcc1557fcb007877fa946e8a00a3d30acf107b5981d08
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
 Description: Shared library for some missing libm functions of Bionic Libc
 
+Package: libandroid-nl-types-static
+Version: 0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libandroid-nl-types (= 0.1)
+Filename: pool/tur/libandroid-nl-types-static_0.1_arm.deb
+Size: 1440
+MD5sum: 0c1f89c062eef1cc773479778233d0ca
+SHA1: ab36e9331ec5949ca9662a48a3f2907dad4a7590
+SHA256: 44c55f9786540a875af9d1441360997cfd170a6c6c413021b7422004d8fd1745
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
+Description: Static libraries for libandroid-nl-types
+
+Package: libandroid-nl-types
+Version: 0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Filename: pool/tur/libandroid-nl-types_0.1_arm.deb
+Size: 2784
+MD5sum: 4a684409b21a3aebd573f9093ad31acb
+SHA1: ca0a68b32b0a5ad2ec80bd38fb91d2236d6ca32b
+SHA256: 6c3969fd885a5248442a924b113e6d6888a5ff363ce546a013a15527d2526fba
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
+Description: Shared library for catopen/catgets/catclose of Bionic Libc
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: arm
