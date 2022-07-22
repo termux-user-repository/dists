@@ -1,0 +1,18 @@
+Package: libllvm-classic-flang
+Version: 20220523-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 491156
+Depends: binutils-is-llvm, libc++, ncurses, ndk-sysroot, libffi, zlib
+Suggests: libandroid-mathlib, classic-flang
+Conflicts: libllvm-10, clang-10, lld-10
+Replaces: libllvm-10, clang-10, lld-10
+Provides: libllvm-10, clang-10, lld-10
+Filename: pool/tur/libllvm-classic-flang_20220523-2_aarch64.deb
+Size: 71792816
+MD5sum: 8f760c38aae31d1f52318c0ea66bc36a
+SHA1: 555969c87c4347efc83788537eec492cd9caf23f
+SHA256: 9a4e19260b12d01e6cbd4b278451fb522d903bc35b9b20503973a0b1a3711315
+Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
+Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
+
