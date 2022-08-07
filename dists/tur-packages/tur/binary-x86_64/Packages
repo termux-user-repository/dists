@@ -24,6 +24,21 @@ SHA256: 64f18a9a5adac965ba4b38593137698d8688da25e5030c37451b1ccb973e2b3f
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: gcc-11
+Version: 11.3.0
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 214216
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-11_11.3.0_x86_64.deb
+Size: 59033108
+MD5sum: b03a7057cc2fb4a7a9bce4b28400bfe0
+SHA1: 760c5094d10aae22cafce2398620dd9e9c6ee272
+SHA256: 96aecf07e8261b24bedccd94bc60801d025a56e93b8f2cae4854c07f48df43be
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: go-cqhttp
 Version: 1.0.0-rc3-0
 Architecture: x86_64
@@ -261,6 +276,22 @@ SHA1: 1e16a520757c38b507d35b458dd6c93a0c02ca7e
 SHA256: dd3e3d9d766f46a5755c0a53d91a3e37bcc614d81aed0729c863ba48bf1618e2
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
+
+Package: ndk-sysroot-gcc-compact
+Version: 23c
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 16196
+Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
+Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
+Provides: ndk-sysroot
+Filename: pool/tur/ndk-sysroot-gcc-compact_23c_x86_64.deb
+Size: 1413128
+MD5sum: d76b2145bc75ea9e21c717e3767fac7b
+SHA1: 0479a4656a5fb783ec28df3d24c66d7ff47eab8b
+SHA256: 60e9123d0a3dc9334996d9c61a6918d66fb5ef3e41e6b02f57813b1da5df6261
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
 Package: python-cryptography
 Version: 37.0.4
