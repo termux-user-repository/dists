@@ -40,6 +40,21 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-11
+Version: 11.3.0-2
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 132748
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-11_11.3.0-2_arm.deb
+Size: 42506560
+MD5sum: eefd5803c15b6be74a26a87502510306
+SHA1: 2850607ccb915a94e9a8b5fce510afd0c788909f
+SHA256: d376885b364ebd3991b72a9845b4ecf7b0835108c325afbd0cf2b52358765b3a
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-11
 Version: 11.3.0
 Architecture: arm
 Maintainer: @licy183
@@ -51,6 +66,21 @@ Size: 43781472
 MD5sum: 4d7f93027c49e2f148119dae2b6d2264
 SHA1: 5a3c27a3c70f5eee5718dc77d1325e8238b46da1
 SHA256: 362ee0ec40124d0f58aa3a8d7ba1f0fe96b583231d8fbf35fd9d0774f8451f87
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-12
+Version: 12.1.0
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 141680
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-12_12.1.0_arm.deb
+Size: 45984812
+MD5sum: f3cacb0b196c4c12588de35bf8934699
+SHA1: 7546b5f8187956337e4ab95e621db733bf7dabe1
+SHA256: 5cf5d34178b65606354de584498040533864a0a7c73e7a5ab55a4bb06ffe03d0
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
