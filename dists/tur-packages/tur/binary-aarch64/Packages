@@ -499,6 +499,39 @@ SHA256: fd35f8e00374aa4cf203179c6e8a9541705a4f79bb9890a23679428ad151b432
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: ruby-2
+Version: 2.7.6
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 100212
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl-1.1, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: pool/tur/ruby-2_2.7.6_aarch64.deb
+Size: 5946576
+MD5sum: 4d7734d4e00e219261218d27766d307e
+SHA1: 2dc06bf0bcb55a589dec3e4bc5a09bd79ee25283
+SHA256: 317623a834adbc52ca91482b72fd08c66acd44877d411d9056a84e0cd4d2573b
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity (Version 2)
+
+Package: ruby-is-ruby2
+Version: 2.7.6
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: ruby-2 (= 2.7.6)
+Conflicts: ruby
+Breaks: ruby
+Filename: pool/tur/ruby-is-ruby2_2.7.6_aarch64.deb
+Size: 1024
+MD5sum: ae54be587f9a79003e9fb1bcc6105906
+SHA1: cf19bdfb376686e42ac364942c392c3e6a829238
+SHA256: 6df4baf3abc21c6758739a4b4b9fa0137ddeba3d5d9d42c0176e8962be5ceb1e
+Homepage: https://www.ruby-lang.org/
+Description: Symlinks ruby to ruby2
+
 Package: sample-pkg-example
 Version: 1:1.0.0-1
 Architecture: aarch64
@@ -537,6 +570,20 @@ SHA1: e1f657d10689d10fa3510fe391a19431311f449c
 SHA256: e90871aa9cb847b8ab747a7f86b700ab137256ba9a91b478f56c4063dac7135c
 Homepage: https://github.com/bloznelis/typioca
 Description: Cozy typing speed tester
+
+Package: ruby-ri-2
+Version: 2.7.6
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: ruby-2 (= 2.7.6)
+Filename: pool/tur/ruby-ri-2_2.7.6_all.deb
+Size: 1156
+MD5sum: 1f178b7cbbc22837d137ca900725e0c1
+SHA1: 15845d614fea77e46dce52508bb4aaf186a8d2f6
+SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
 
 Package: termux-install
 Version: 1.1.1

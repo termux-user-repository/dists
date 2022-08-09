@@ -481,6 +481,39 @@ SHA256: 7e6c706e3c1a15323a9e81e243d8ed3a61613cd93ea7036498f9ae51022269db
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: ruby-2
+Version: 2.7.6
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 99824
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl-1.1, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: pool/tur/ruby-2_2.7.6_i686.deb
+Size: 6099444
+MD5sum: efcb7e3cb4bdc9cd0cdf6356b2874486
+SHA1: 9184c821ef32ab1e6f50f17df5efe83db15d9a4a
+SHA256: f98186df8da47b6c5eca452fcd31a55634804fa146f855040effa8ed8631ad33
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity (Version 2)
+
+Package: ruby-is-ruby2
+Version: 2.7.6
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: ruby-2 (= 2.7.6)
+Conflicts: ruby
+Breaks: ruby
+Filename: pool/tur/ruby-is-ruby2_2.7.6_i686.deb
+Size: 1020
+MD5sum: fd4a8dce71079cfe2fdf7532e5bab50e
+SHA1: 94f83eef44cd3017d1fb713acced468b07fe7c84
+SHA256: abf67b811e24f62d27648eba779fba2602383a1e172d1980645593b37f824c0f
+Homepage: https://www.ruby-lang.org/
+Description: Symlinks ruby to ruby2
+
 Package: sample-pkg-example
 Version: 1:1.0.0-1
 Architecture: i686
@@ -519,6 +552,20 @@ SHA1: ad5a40b1b90c7a4770328a4fbedd7b391999759f
 SHA256: 1c83a69ecc19b655445028fbfdba311e9ad63ece0b309ab747ae1cf26e670618
 Homepage: https://github.com/bloznelis/typioca
 Description: Cozy typing speed tester
+
+Package: ruby-ri-2
+Version: 2.7.6
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: ruby-2 (= 2.7.6)
+Filename: pool/tur/ruby-ri-2_2.7.6_all.deb
+Size: 1156
+MD5sum: 1f178b7cbbc22837d137ca900725e0c1
+SHA1: 15845d614fea77e46dce52508bb4aaf186a8d2f6
+SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
 
 Package: termux-install
 Version: 1.1.1

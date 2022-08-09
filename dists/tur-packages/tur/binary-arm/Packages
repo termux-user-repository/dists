@@ -481,6 +481,39 @@ SHA256: 0dc2f6bdd3d3782f498411a210e720909e6ab76463cc1f8009ec4ce89340327f
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: ruby-2
+Version: 2.7.6
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 98656
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl-1.1, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: pool/tur/ruby-2_2.7.6_arm.deb
+Size: 5970600
+MD5sum: 0a82ddb78e596b9b0ace79c7ac495114
+SHA1: 125e85e4293544cfcddafff5e945db5af1c7b7af
+SHA256: 021d90840d40f4ea781980ec2476834bf91a275079042641db5109ef5051ee94
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity (Version 2)
+
+Package: ruby-is-ruby2
+Version: 2.7.6
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: ruby-2 (= 2.7.6)
+Conflicts: ruby
+Breaks: ruby
+Filename: pool/tur/ruby-is-ruby2_2.7.6_arm.deb
+Size: 1020
+MD5sum: 35a28845bf9e1e114984ef159770cfba
+SHA1: 6d22d70263cd9e5759a432c6dbcc72e335e2b9f0
+SHA256: 90867101121d5366ac9e1288348e2eb949ae1e16349254b70aee9835193c08b1
+Homepage: https://www.ruby-lang.org/
+Description: Symlinks ruby to ruby2
+
 Package: sample-pkg-example
 Version: 1:1.0.0-1
 Architecture: arm
@@ -519,6 +552,20 @@ SHA1: d29eeadee8ede73182586910f6c921fcdd320a57
 SHA256: 32984d682d8433b93c0d4b49b54d572d5c93e8f973f03773e0c530a80f34d212
 Homepage: https://github.com/bloznelis/typioca
 Description: Cozy typing speed tester
+
+Package: ruby-ri-2
+Version: 2.7.6
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: ruby-2 (= 2.7.6)
+Filename: pool/tur/ruby-ri-2_2.7.6_all.deb
+Size: 1156
+MD5sum: 1f178b7cbbc22837d137ca900725e0c1
+SHA1: 15845d614fea77e46dce52508bb4aaf186a8d2f6
+SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
 
 Package: termux-install
 Version: 1.1.1

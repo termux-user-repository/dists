@@ -499,6 +499,39 @@ SHA256: e41f493200a53ed64f7f018bd00dc7de8f2128c3046868f48847d4639f0659b1
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: ruby-2
+Version: 2.7.6
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 100524
+Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl-1.1, libyaml, zlib
+Recommends: clang, make, pkg-config
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: pool/tur/ruby-2_2.7.6_x86_64.deb
+Size: 6214620
+MD5sum: cbad46ac5c79967fea9c32de55048a6d
+SHA1: 90ff5978fbe11eeb92cb3ee80490cc8c55d84d57
+SHA256: e8a2cc42b0f6d5a2385feddbb22535bab718514e7e72cc5d132e8bcedfcc7f35
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity (Version 2)
+
+Package: ruby-is-ruby2
+Version: 2.7.6
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: ruby-2 (= 2.7.6)
+Conflicts: ruby
+Breaks: ruby
+Filename: pool/tur/ruby-is-ruby2_2.7.6_x86_64.deb
+Size: 1024
+MD5sum: 8de85eba1bf85a481e2f2803d4d072e3
+SHA1: 2abf03505669c9a96f09d241a5f7e0d890fd2720
+SHA256: 0a19a478f1d17e097e29b1b9bfd2571896a8daab137ad784987513c6812297b0
+Homepage: https://www.ruby-lang.org/
+Description: Symlinks ruby to ruby2
+
 Package: sample-pkg-example
 Version: 1:1.0.0-1
 Architecture: x86_64
@@ -537,6 +570,20 @@ SHA1: 752c1c4640c417f6e8401eecf824712b5e637bbf
 SHA256: 2a9da794336a601dc1081d841f74cd0d0e15a954625a413af337a46e81ee33b2
 Homepage: https://github.com/bloznelis/typioca
 Description: Cozy typing speed tester
+
+Package: ruby-ri-2
+Version: 2.7.6
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: ruby-2 (= 2.7.6)
+Filename: pool/tur/ruby-ri-2_2.7.6_all.deb
+Size: 1156
+MD5sum: 1f178b7cbbc22837d137ca900725e0c1
+SHA1: 15845d614fea77e46dce52508bb4aaf186a8d2f6
+SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
 
 Package: termux-install
 Version: 1.1.1
