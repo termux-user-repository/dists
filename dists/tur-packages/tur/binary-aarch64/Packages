@@ -24,6 +24,21 @@ SHA256: 41b3d2a813fac66453caab17e99da83df97c139ef7d7dc95061a891cb87e2955
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: gcc-10
+Version: 10.4.0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 194164
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-10_10.4.0_aarch64.deb
+Size: 42681180
+MD5sum: ae7e7d6daeb3b907356b8b60c0d55ae7
+SHA1: f33e1e3414f7e5ee6669bf4fcd2f6e3dd8f96022
+SHA256: db2bfbcc2721828c3aec17a011cc3a4c81118a09f20b527b8ab53410e5aed022
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: gcc-11
 Version: 11.3.0-1
 Architecture: aarch64
