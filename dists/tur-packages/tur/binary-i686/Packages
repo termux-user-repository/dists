@@ -99,6 +99,21 @@ SHA256: 25529684769ce1ab46833a89b6c659607169bef79721b0e8db6ad7b3263f8b3a
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
+Package: gcc-9
+Version: 9.5.0
+Architecture: i686
+Maintainer: @licy183
+Installed-Size: 154536
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-9_9.5.0_i686.deb
+Size: 43788136
+MD5sum: e78b74af979fffe530e80ba491f1df14
+SHA1: 26463b2691e79b6cdd2620ea02f1a4b1b4cf1596
+SHA256: 570f25f151af4c54cdefc84f59b58030be81d1126ced1ad058f598e0d0973d47
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: go-cqhttp
 Version: 1.0.0-rc3-0
 Architecture: i686
@@ -405,6 +420,20 @@ SHA1: 0ba9b514093fa8c1fb2e9a2498fa68bef6bbce24
 SHA256: 2540643894e2ad8b31e76f17032cbe5742bac7794442bc6d420a5ea0bbd1d78f
 Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
+
+Package: python-pygame
+Version: 2.1.3.dev4
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 8884
+Depends: freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/python-pygame_2.1.3.dev4_i686.deb
+Size: 1976788
+MD5sum: 2dd96e61ebe13d2f97f507257a88d0ec
+SHA1: 5a2ab6162734e1dcd6f6e36018778dc131c17346
+SHA256: 76b09505a844fa2255f5431212cf8c650d42471ef81e346e16c3cf80b173de9d
+Homepage: https://pygame.org/
+Description: pygame is a python game library
 
 Package: python3.9-static
 Version: 3.9.13-1
