@@ -155,6 +155,20 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for some missing libm functions of Bionic Libc
 
 Package: libandroid-nl-types-static
+Version: 0.1-1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libandroid-nl-types (= 0.1-1)
+Filename: pool/tur/libandroid-nl-types-static_0.1-1_i686.deb
+Size: 1452
+MD5sum: 2f9d8e1a027a0ce754e88316c9a13c64
+SHA1: 982817ecba7171b3717d46a91e9ae3ee9f25159b
+SHA256: bb8eb518832e7a075d8f45d3a16f12b026be1b787a4d4675faf31316a95ce476
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
+Description: Static libraries for libandroid-nl-types
+
+Package: libandroid-nl-types-static
 Version: 0.1
 Architecture: i686
 Maintainer: @termux-user-repository
@@ -167,6 +181,19 @@ SHA1: 3b57c1e7cd4c2c5bc14fa121532c0d94e61eb78a
 SHA256: 43c0c45b73514a4cca074de6844ef2625fbef3c8565f4d9d02237d13ab723a25
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Static libraries for libandroid-nl-types
+
+Package: libandroid-nl-types
+Version: 0.1-1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Filename: pool/tur/libandroid-nl-types_0.1-1_i686.deb
+Size: 2868
+MD5sum: 61d6df93186b88b017d402dddb8fe2df
+SHA1: 7628389c443bf211e89c5f6ae912a7c57db4776c
+SHA256: 6eb9322604a47607193f9ec1acda5a2252f86bb6c176c7d8a0aecab07bfc2d9e
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
+Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libandroid-nl-types
 Version: 0.1
