@@ -226,6 +226,35 @@ SHA256: bf8cec5e513e291b71b0f22e96a029e7f52f6b548eb8ffef7d58025b1c8ba6c4
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
+Package: libffi-static
+Version: 3.4.2-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libffi (= 3.4.2-1)
+Filename: pool/tur/libffi-static_3.4.2-1_x86_64.deb
+Size: 17844
+MD5sum: 2e83c8eae96f80eb921610783dc5f06b
+SHA1: e4a4df571db918ebfeb1bf477144ee92cbd321e2
+SHA256: b8021c820a557174d4427e86f40695817350d7eb4efcc833c597a76f340ecb8d
+Homepage: https://sourceware.org/libffi/
+Description: Static libraries for libffi
+
+Package: libffi
+Version: 3.4.2-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 192
+Breaks: libffi-dev
+Replaces: libffi-dev
+Filename: pool/tur/libffi_3.4.2-1_x86_64.deb
+Size: 32784
+MD5sum: cc5bf2d1a75b74fca76f5c272be74886
+SHA1: 3a4dd7aa8788671f8bb2101371b2b5151e037beb
+SHA256: ad9023c213fc737c55a469db31b9af652cddad513e4e42788a70981162c2636d
+Homepage: https://sourceware.org/libffi/
+Description: Library providing a portable, high level programming interface to various calling conventions
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: x86_64
@@ -395,6 +424,51 @@ SHA256: 60e9123d0a3dc9334996d9c61a6918d66fb5ef3e41e6b02f57813b1da5df6261
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: openssl-static
+Version: 3.0.3-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 9200
+Depends: openssl (= 3.0.3-1)
+Filename: pool/tur/openssl-static_3.0.3-1_x86_64.deb
+Size: 1791528
+MD5sum: 131a0ce23b7aec3ffec43f0979e647a1
+SHA1: 6b7d38e65f7a122c0b4e35c14a58014b8d7d8bdd
+SHA256: 916b1d1023b97b5f3d04a010596fdb9580120fa3ec6dab83458a655f1eb5f7e4
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl
+
+Package: openssl-tool
+Version: 3.0.3-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 908
+Depends: openssl (= 3.0.3-1)
+Filename: pool/tur/openssl-tool_3.0.3-1_x86_64.deb
+Size: 273120
+MD5sum: 347b9e9b75992642faea90c4bba68408
+SHA1: 1c63e18408619faae2ed77a5cc1aec628e571da4
+SHA256: 2e6f1e4cb203c7c315ed2dd85ca31d3da8ee25021109ac8b7b2cbd2d95c54f41
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: openssl
+Version: 3.0.3-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 6952
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Filename: pool/tur/openssl_3.0.3-1_x86_64.deb
+Size: 1796860
+MD5sum: 793bff3f29ac6d3e1c30035bbfa944ff
+SHA1: 77ccdcffef1506dc70732273563360b6f0e7764d
+SHA256: 4183897144ddcea5aafb5236ea5c251541dd9e43f49ded0c995bc59e9aff48b2
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
 Package: python-cryptography
 Version: 37.0.4
 Architecture: x86_64
@@ -465,6 +539,20 @@ SHA1: 901afee27e2b6609bda34e4463cb8eeee188691d
 SHA256: 97d6c203b5dd49ce0abc86adcfe11a487695a658f33abd008e583d15135c3be4
 Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
+
+Package: python-pygame
+Version: 2.1.3.dev4-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 9260
+Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/python-pygame_2.1.3.dev4-1_x86_64.deb
+Size: 2030440
+MD5sum: 84b70275171355f729e62159356a36e0
+SHA1: 06d5c8e1ecb50e9c2d4af95755fec9fbab3424ef
+SHA256: 2ff79c08fb0e98a6fb95e11313160e26dc6ae58f3fc740568235c7199d92ce19
+Homepage: https://pygame.org/
+Description: pygame is a python game library
 
 Package: python-pygame
 Version: 2.1.3.dev4
