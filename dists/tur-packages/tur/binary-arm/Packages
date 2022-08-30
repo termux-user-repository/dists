@@ -25,6 +25,21 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: gcc-10
+Version: 10.4.0-1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 130104
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-10_10.4.0-1_arm.deb
+Size: 40038896
+MD5sum: 61f1d4710aded91b82465618acf7c876
+SHA1: 51b14a7b5764e4525521b76ecf8e97abc782e1a2
+SHA256: 1ce7e234dce20a2b7108375817dd682e781144da9b5610adc9c7c13ca654bf5f
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-10
 Version: 10.4.0
 Architecture: arm
 Maintainer: @licy183
@@ -70,6 +85,21 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-11
+Version: 11.3.0-3
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 132568
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-11_11.3.0-3_arm.deb
+Size: 42595596
+MD5sum: f030e3c3aad1c92521ce8e36b6b1b901
+SHA1: 21638a6be6734c375a63fa162875cf53bb9c2ac9
+SHA256: 0aee64a6b2456bd40ae55154ffa6c9fc6f1927e9ee60280a52bf904d9aa8f51e
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-11
 Version: 11.3.0
 Architecture: arm
 Maintainer: @licy183
@@ -85,6 +115,21 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-12
+Version: 12.1.0-1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 141476
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-12_12.1.0-1_arm.deb
+Size: 45927264
+MD5sum: e2c4ede7426cbea98c9e9f642e26a743
+SHA1: e537e72a74b1058941257d132190ea010db660a8
+SHA256: bd047adca517952ad37a656b2b8213af420b2fc3a0234c163873e77b492c15ac
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-12
 Version: 12.1.0
 Architecture: arm
 Maintainer: @licy183
@@ -96,6 +141,21 @@ Size: 45984812
 MD5sum: f3cacb0b196c4c12588de35bf8934699
 SHA1: 7546b5f8187956337e4ab95e621db733bf7dabe1
 SHA256: 5cf5d34178b65606354de584498040533864a0a7c73e7a5ab55a4bb06ffe03d0
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
+Package: gcc-9
+Version: 9.5.0-1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 114232
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-9_9.5.0-1_arm.deb
+Size: 30883668
+MD5sum: 417660dd5d2dbde507bee2fde274679f
+SHA1: a17ede14a78a1c08a5cba75ee3f56d39fea2b608
+SHA256: 24a9128ea0f86da849fca75cda25d09bdded13f6bf5610245301033f5b0d3df7
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
