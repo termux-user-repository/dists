@@ -424,6 +424,22 @@ SHA256: 60e9123d0a3dc9334996d9c61a6918d66fb5ef3e41e6b02f57813b1da5df6261
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: openblas
+Version: 0.3.21
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 14560
+Conflicts: libopenblas
+Replaces: libopenblas
+Provides: libopenblas
+Filename: pool/tur/openblas_0.3.21_x86_64.deb
+Size: 3606680
+MD5sum: d81cac6ff0198d0839f2890e096f8f08
+SHA1: d8c964d48ca7a5b211a8172892c8a664e4c133c9
+SHA256: 0f7b2014d8066caa568ee772c4542f94c407fbce3658b99769efb30dd424bcd0
+Homepage: http://www.openblas.net/
+Description: An optimized BLAS library
+
 Package: openssl-static
 Version: 3.0.3-1
 Architecture: x86_64
