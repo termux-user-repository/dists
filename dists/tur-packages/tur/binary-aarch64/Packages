@@ -11,6 +11,20 @@ SHA256: 2b1fca87057972ab887c3955e0441e4026ba2680611782e5eda16e910c0d6234
 Homepage: https://github.com/zan8in/afrog
 Description: A tool for finding vulnerabilities
 
+Package: arpack-ng
+Version: 3.8.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 336
+Depends: openblas
+Filename: pool/tur/arpack-ng_3.8.0_aarch64.deb
+Size: 75984
+MD5sum: b3322ad2092f41f4c1de062798833735
+SHA1: b23000dea1a259415421d44871c300ccaee1bf34
+SHA256: 1015ec039acf64730812f65e093db1c4ebfc287e9ffd873cff571b04e7d52a9c
+Homepage: https://github.com/opencollab/arpack-ng
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+
 Package: cf
 Version: 0.2.4
 Architecture: aarch64
@@ -493,10 +507,10 @@ Conflicts: libopenblas
 Replaces: libopenblas
 Provides: libopenblas
 Filename: pool/tur/openblas_0.3.21_aarch64.deb
-Size: 2723204
-MD5sum: 38e78c68d1712e27f316e0fc0d294584
-SHA1: 8b3cadea4ae121693581f8e37c9d4a94f266a51c
-SHA256: 954b46d5241668c9500847e8af5017d5e3e697baab18fcd6e101db0ab1642599
+Size: 2724556
+MD5sum: e242acdc3aef1f335471f73fca8cfa5f
+SHA1: 36066d1c15fb1511a5d6b18fadefe109dbf9a153
+SHA256: 14d0b78a0fefe3649053e23328121382eb1529f3d7ff1a69996826a539447655
 Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
 
