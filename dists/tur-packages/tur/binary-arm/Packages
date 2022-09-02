@@ -481,6 +481,22 @@ Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
 Package: openblas
+Version: 0.3.21-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 11592
+Conflicts: libopenblas
+Replaces: libopenblas
+Provides: libopenblas
+Filename: pool/tur/openblas_0.3.21-1_arm.deb
+Size: 2890664
+MD5sum: b39d7ef6d709698b1ecfc1f287bca007
+SHA1: 886351f22ad83f31cc469ea1c48c044528f837a5
+SHA256: b253be01c5d7d08b9ae94a825db60df0900fea40ddedff013d39a1a0e63e7a02
+Homepage: http://www.openblas.net/
+Description: An optimized BLAS library
+
+Package: openblas
 Version: 0.3.21
 Architecture: arm
 Maintainer: @termux-user-repository
