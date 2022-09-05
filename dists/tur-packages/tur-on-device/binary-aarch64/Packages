@@ -25,3 +25,17 @@ SHA256: 95e4d75836f75cc413a06277e8e3a55890e989ce6d978ea5b1287b09453cca8c
 Homepage: https://github.com/termux-user-repository/tur-on-device
 Description: Dummy test for TUR on Device
 
+Package: thc-hydra
+Version: 9.3
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1568
+Depends: libidn, libgcrypt, libssh, libssh2, openssl, openssl-1.1, pcre, pcre2, zlib
+Filename: pool/tur-on-device/thc-hydra_9.3_aarch64.deb
+Size: 422152
+MD5sum: 30bf36529338632f8ea3b1a7e15c1ca1
+SHA1: a786c18a2521f0596fcd3a69cdbeb315b7d2e302
+SHA256: 6e4cf7a3e94c1f21d6dc27ad333e0a55f40cfdaf06bddb7868af87a799ede9f9
+Homepage: https://github.com/vanhauser-thc/thc-hydra
+Description: hydra
+

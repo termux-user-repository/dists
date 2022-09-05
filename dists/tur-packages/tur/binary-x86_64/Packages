@@ -621,6 +621,22 @@ SHA256: d35d8062e0688527f5027844cf5331cb0bd71f60ab9bd3bb2aae8d9bfa867f42
 Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
+Package: python-is-python3.9
+Version: 3.9.13-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.9 (= 3.9.13-2)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.9_3.9.13-2_x86_64.deb
+Size: 2164
+MD5sum: 8f78ee0bf4ea58558b194eb069cc7d6a
+SHA1: db36387ba79e19005af05e5cb7ea38890f71a3d0
+SHA256: cc71ea2f1e640675276181fe2cbb2d0f5c295d96f08b8f565bb4cb79807df85f
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.9
+
 Package: python-kivy
 Version: 2.1.0
 Architecture: x86_64
@@ -735,6 +751,20 @@ Homepage: https://python.org/
 Description: Static libraries for python3.9
 
 Package: python3.9-static
+Version: 3.9.13-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 20944
+Depends: python3.9 (= 3.9.13-2)
+Filename: pool/tur/python3.9-static_3.9.13-2_x86_64.deb
+Size: 3830716
+MD5sum: 72ef240ff5c530b26b7b1ef7a689d964
+SHA1: d26bb51c991ce26644abdfc5635c6c66c52f2fae
+SHA256: bcc63eff2da6501ce9803cf15f758ff5687ad7c9e07b054e84ee73a9deb8baf5
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
+Package: python3.9-static
 Version: 3.9.13
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -759,6 +789,20 @@ Size: 912856
 MD5sum: 655c31efb3e695780513e0d816db5615
 SHA1: 2fea63edca571b9e1292e89761b75e9fa6c583ff
 SHA256: b90bedebd1831ec23cae5b20c28e7500db44a654fa83ab683e3b72fcf10a25aa
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: python3.9-tkinter
+Version: 3.9.13-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.13-2)
+Filename: pool/tur/python3.9-tkinter_3.9.13-2_x86_64.deb
+Size: 913992
+MD5sum: 3b4980febaa236e0edc95d2629ab1c86
+SHA1: 611e6de89396603d83e3604aa6c40ae1fa11dd81
+SHA256: 69d99be1ac4660168f329148897bc3a8a3cc0d35ad08f14750336e46f829d381
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
@@ -790,6 +834,23 @@ Size: 9120540
 MD5sum: 87b2b692a9e5b40efdcc3b3640f6bc3e
 SHA1: 203661b15faacb56f3c5d0b539c44e12af833191
 SHA256: 370e16b0d59c46f9d57a69dbb47e27fae367e1790bc72f9d2a4fb562f8c68e48
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9
+Version: 3.9.13-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 48104
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.13-2_x86_64.deb
+Size: 8994168
+MD5sum: 8883e69ee4168d3f50314727110b1f2f
+SHA1: 1efc961952f75bca8debc2d9655ba44ae5c9db27
+SHA256: 8588beab75af819318c8a72172d0c86f2382f97c71c846f2198d72bf664ce9d0
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
