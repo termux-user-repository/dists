@@ -66,8 +66,8 @@ add_package_metadata() {
             continue
         fi
         
-        # Allow negation patterns.
-		shopt -s nullglob
+        # Allow nullglob patterns.
+        shopt -s nullglob
         for deb_file in debs/*.deb;do
             deb_file=$(basename $deb_file)
             echo "scanning $deb_file"
