@@ -66,7 +66,8 @@ add_package_metadata() {
             continue
         fi
         
-
+        # Allow negation patterns.
+		shopt -s nullglob
         for deb_file in debs/*.deb;do
             deb_file=$(basename $deb_file)
             echo "scanning $deb_file"
@@ -74,6 +75,7 @@ add_package_metadata() {
             ## update Filename: indices to relative path
             sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file" $POOL_DIR/$repo_component/$deb_file
         done
+        shopt -u nullglob
         mv -f debs/* $PROCESSED_DEB
     done
 }
