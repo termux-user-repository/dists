@@ -1,0 +1,16 @@
+Package: llvm-16
+Version: 20220907
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 44412
+Depends: libllvm-16 (= 20220907)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-16_20220907_aarch64.deb
+Size: 8618380
+MD5sum: c873ccb3e460b54d3a48e39b1c889466
+SHA1: aba23afb9e2848cc91dde346498ce53aa85463be
+SHA256: 1b16f1a03a075f17900aa16e0062bad3b2b206076d84b3a129e3d9a082f21090
+Homepage: https://llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
