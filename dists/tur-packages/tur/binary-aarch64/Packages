@@ -65,6 +65,20 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: clang-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 138796
+Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20220907-1)
+Filename: pool/tur/clang-16_20220907-1_aarch64.deb
+Size: 19619684
+MD5sum: ea68955eb6ef6ce50f15197f518f9730
+SHA1: 36f48cabee08fc0e077cb3a67452fba9781d6692
+SHA256: 0f6d1ed5be4a75de15c2c39dae5322615909a4a7131395479020fb9046c6242d
+Homepage: https://llvm.org/
+Description: C language frontend for LLVM
+
+Package: clang-16
 Version: 20220907
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -77,6 +91,20 @@ SHA1: faec4f8ecd5684de81a827164694de28deb44a7b
 SHA256: 1860df634997dd4735c7ced6c7a0727d7fda455233d5bd1cc82c926ad7cbb926
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
+
+Package: flang-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 541092
+Depends: clang-16, lld-16, llvm-16, mlir-16, libllvm-16 (= 20220907-1)
+Filename: pool/tur/flang-16_20220907-1_aarch64.deb
+Size: 21731612
+MD5sum: f76ba6c7028faf04247f6e28cf8815a6
+SHA1: 88bcfc750c766abecc8d452877fd3701b6f0a223
+SHA256: 91f10cfbd38740a90ec3ef4599bc1ac05f881796ab13afac31ab3d0b66d74e0b
+Homepage: https://llvm.org/
+Description: Fortran language frontend for LLVM
 
 Package: flang-16
 Version: 20220907
@@ -355,6 +383,20 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libcompiler-rt-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 36756
+Depends: libllvm-16 (= 20220907-1)
+Filename: pool/tur/libcompiler-rt-16_20220907-1_aarch64.deb
+Size: 3460152
+MD5sum: 6c10d0ef6608fcac8e0ad3639aa096e3
+SHA1: 9cf8b490c9e112ff19fb88a0c55e699583f7aed8
+SHA256: 742d0216fd17567f0c82509bdf7de25badabbd37ecf3494b4d525941a72916f1
+Homepage: https://llvm.org/
+Description: Compiler runtime libraries for clang
+
+Package: libcompiler-rt-16
 Version: 20220907
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -441,6 +483,20 @@ SHA1: f0be162bd5a93984e5a4a2ef11a08b3665d2c214
 SHA256: eaddcd3492678243650e625a69548a9026fd0e6e13e31abf93f4e9606941e919
 Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
+
+Package: libllvm-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1649944
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-16_20220907-1_aarch64.deb
+Size: 151169336
+MD5sum: 41afb106e004b65ede0700ade9026c3c
+SHA1: 1ac8561afbbcc3c385265ca823bf36e46bf0197a
+SHA256: 0f8acec5102530a5ccfb2cf10699811a777188b9dda9d8dceafc6bf0dced7b7e
+Homepage: https://llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 16)
 
 Package: libllvm-16
 Version: 20220907
@@ -547,6 +603,20 @@ Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
 Package: lld-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 18032
+Depends: libllvm-16 (= 20220907-1)
+Filename: pool/tur/lld-16_20220907-1_aarch64.deb
+Size: 2118096
+MD5sum: 7eb1b46b50330580df7118b85c248a66
+SHA1: 983726ff9d1d55c25b55b754f1adf55d7c004887
+SHA256: e6d161a87c81c1180d270c65b8e3ddbf24185237e5440e96f64ae63631270e5d
+Homepage: https://llvm.org/
+Description: LLVM-based linker
+
+Package: lld-16
 Version: 20220907
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -593,6 +663,22 @@ Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 44412
+Depends: libllvm-16 (= 20220907-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-16_20220907-1_aarch64.deb
+Size: 8617924
+MD5sum: aa6ea952997fd9748063f4b5367f3c8b
+SHA1: e497da33ecc3779dac894b4ff75f88dd0e1f7fad
+SHA256: 8ec4446dc41566c81a4c367dd4020c063ee1544ebfdb30f9694b57acfd51f973
+Homepage: https://llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-16
 Version: 20220907
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -609,6 +695,20 @@ Homepage: https://llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-tools-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 12628
+Depends: libc++, ncurses, zlib, libllvm-16 (= 20220907-1)
+Filename: pool/tur/llvm-tools-16_20220907-1_aarch64.deb
+Size: 2050708
+MD5sum: aa9b398f77c17653b174a0587d319f0b
+SHA1: 48a226c5419d522d117f7a80e38e190961ea02c5
+SHA256: ec7ba6d6aef324e3bf94262a2a7a7ed047809ce8c205acd4f339cc7b66370ab5
+Homepage: https://llvm.org/
+Description: LLVM Development Tools
+
+Package: llvm-tools-16
 Version: 20220907
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -621,6 +721,20 @@ SHA1: fca2eb5e627ff81c8a867e49dfd3d825f8f6af5c
 SHA256: 9550e44980431b26a3259bbb36b08de4bbef58d38ef4e81b1c0a85950c88b985
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
+
+Package: mlir-16
+Version: 20220907-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 188868
+Depends: libc++, ncurses, libllvm-16 (= 20220907-1)
+Filename: pool/tur/mlir-16_20220907-1_aarch64.deb
+Size: 21213720
+MD5sum: 88f660c07341200b8c1f65215b4f15bc
+SHA1: 7687c8da43a537690404a67b037ca6796760f03b
+SHA256: 81b0ca4cd23897652b9563e80653880ad8f6362c154642796037876fea00db99
+Homepage: https://llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: mlir-16
 Version: 20220907
