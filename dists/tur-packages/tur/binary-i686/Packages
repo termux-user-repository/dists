@@ -857,6 +857,20 @@ SHA256: 02a89441a22b062157247ccc94de7665820e958a6e7923140228d443f4e99d47
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
+Package: python-cairo
+Version: 1.21.0
+Architecture: i686
+Maintainer: @fervi
+Installed-Size: 480
+Depends: python, libcairo
+Filename: pool/tur/python-cairo_1.21.0_i686.deb
+Size: 86680
+MD5sum: 0aca727f4c4a7f881c2548a97fdb20b0
+SHA1: 631af77781ddbec19dee60ddf42c956daecab8ae
+SHA256: 00169dba620b7f4443f3c3ee457825048a9f12782b3ceda7393b3c89f224f0d3
+Homepage: https://cairographics.org/pycairo
+Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
+
 Package: python-cryptography
 Version: 37.0.4
 Architecture: i686
