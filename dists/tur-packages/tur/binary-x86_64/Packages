@@ -798,6 +798,22 @@ SHA256: 2770772e2499b902f805196b5e43a454a2c1013a0b78892da693e469df9b116c
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: ndk-sysroot-gcc-compact
+Version: 25b
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 16584
+Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
+Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
+Provides: ndk-sysroot
+Filename: pool/tur/ndk-sysroot-gcc-compact_25b_x86_64.deb
+Size: 1458676
+MD5sum: 5f80901b6a58284865489deae4933c8f
+SHA1: 3991765765c4bf13ddf27751b5fec14d19b9945a
+SHA256: 2a5ec00d2a16c01162f6108617e559642ec0796559c9e026f8c1e634fc1ab71c
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
+
 Package: openblas
 Version: 0.3.21-1
 Architecture: x86_64
