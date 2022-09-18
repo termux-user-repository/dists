@@ -1057,6 +1057,20 @@ SHA256: ce0c43dbd9d767c5d02628ec452304bdbb8c9fd0f58028853e56bc2ba1fb95dd
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
+Package: python-scipy
+Version: 1.8.0-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 66972
+Depends: libc++, openblas, python, python-numpy
+Filename: pool/tur/python-scipy_1.8.0-1_arm.deb
+Size: 14990572
+MD5sum: 6a01125f18f8627bb37168678ea02136
+SHA1: 6005f00d99617b57ec86c106e6e61700db2da9b0
+SHA256: e0f90f35f46d22766bfeff482cddf50e21e94446ac23d2c4b3beccd890d36471
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
 Package: python3.9-static
 Version: 3.9.13-1
 Architecture: arm
@@ -1224,6 +1238,19 @@ SHA1: 6d22d70263cd9e5759a432c6dbcc72e335e2b9f0
 SHA256: 90867101121d5366ac9e1288348e2eb949ae1e16349254b70aee9835193c08b1
 Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
+
+Package: termbot
+Version: 20220902
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 6300
+Filename: pool/tur/termbot_20220902_arm.deb
+Size: 1870896
+MD5sum: d06b56ab847f9f68c9a1799c0b7d6eb0
+SHA1: 55001cf2ca8f067a3556c5c26c395765ee0426cc
+SHA256: eeecf7d4cb7ac3cd46a755705eea682bd0460795dc45a1bbad3c7e9b4b8da346
+Homepage: https://github.com/polyzium/termbot
+Description: A fully fledged terminal emulator in a Discord chat
 
 Package: typioca
 Version: 2.0.2
