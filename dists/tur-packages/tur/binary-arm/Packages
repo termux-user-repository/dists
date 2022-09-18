@@ -105,6 +105,20 @@ SHA256: 6e5bf1faa1b5e92c78513c228b799a0cab2b47f868b6494e1994f3decae2a40d
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
+Package: dlib
+Version: 19.24
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7796
+Depends: libx11, libxcb, openblas, python
+Filename: pool/tur/dlib_19.24_arm.deb
+Size: 2310608
+MD5sum: 8ca34ac0a03b1c60fc5899ebfe8772f0
+SHA1: 54ed723d79b8a0fdb8ae600395d45067af5db86e
+SHA256: 187f9057eceab1545def24ab57b7db0daad44bdb1c8e556af72afe3094496021
+Homepage: http://dlib.net/
+Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
+
 Package: flang-16
 Version: 20220907-1
 Architecture: arm
