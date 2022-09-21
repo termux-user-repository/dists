@@ -479,6 +479,34 @@ SHA256: 1e4f676abb9990d486d1f1d9bd3c93ad8ac972d6daa599f5ea165091f950db1e
 Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
+Package: libicu69
+Version: 69.1-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 79620
+Depends: libc++
+Filename: pool/tur/libicu69_69.1-1_aarch64.deb
+Size: 17915228
+MD5sum: 3dee9417fceb35c31cff95ae96b3e63e
+SHA1: 6773c0a2be7b82a11667bbfde04124028550be1b
+SHA256: d069bc755d7d66f3d349b52b10d2a61e529f7f82ea3afe83a2fecb4d28b36860
+Homepage: http://site.icu-project.org/home
+Description: International Components for Unicode library
+
+Package: libicu69
+Version: 69.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 79620
+Depends: libc++
+Filename: pool/tur/libicu69_69.1_aarch64.deb
+Size: 17916716
+MD5sum: 0f3b0dd3cf1f59d183e4bbd5177a795c
+SHA1: fdab54750601780c31b09a379d31871db19f280e
+SHA256: 268176c2dc0cab3103ef793a98bd74e33b105ed1585314792e8742d4598508dd
+Homepage: http://site.icu-project.org/home
+Description: International Components for Unicode library
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: aarch64
