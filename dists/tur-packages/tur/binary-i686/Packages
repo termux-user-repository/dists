@@ -324,6 +324,20 @@ SHA256: 570f25f151af4c54cdefc84f59b58030be81d1126ced1ad058f598e0d0973d47
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
+Package: genext2fs
+Version: 1.5.0
+Architecture: i686
+Maintainer: @flosnvjx, @termux-user-repository
+Installed-Size: 96
+Depends: libarchive
+Filename: pool/tur/genext2fs_1.5.0_i686.deb
+Size: 22660
+MD5sum: a601eec1b83779a46503c4837ce68942
+SHA1: 45961c44ca969ad60bba367a0eb57e4308ecad1f
+SHA256: 9d4488a462a94a43220596cf4a5f35b50383a3830728fd912fc88b90bb07a92f
+Homepage: https://github.com/bestouff/genext2fs
+Description: Build ext2 filesystem image without mounting for copying files (like mkfs.fat + mcopy in one go)
+
 Package: go-cqhttp
 Version: 1.0.0-rc3-0
 Architecture: i686
@@ -1013,6 +1027,22 @@ SHA256: 43d7c29daac55cd7dfe8f25d32249edefa883b50d6a29756632d6f3a6dc47cd2
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
+Package: python-is-python3.9
+Version: 3.9.14
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.9 (= 3.9.14)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.9_3.9.14_i686.deb
+Size: 2168
+MD5sum: 61d143e351dc6a26722451c9029eacbe
+SHA1: 6eb7acf09e66be01c7080b8dde71e7b4e205e049
+SHA256: 6e24a061f316785c043854b858cb9a9a5fc1f652ec1e454a6520b14e8fa4cda1
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.9
+
 Package: python-kivy
 Version: 2.1.0
 Architecture: i686
@@ -1140,6 +1170,20 @@ SHA256: 5b18cdcbd6a20b3db647213ae23d158348d3cf4a86d133c32d12e684573a5def
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-scipy
+Version: 1.9.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 93352
+Depends: libc++, openblas, python, python-numpy
+Filename: pool/tur/python-scipy_1.9.0_i686.deb
+Size: 19743960
+MD5sum: c3d619133ba744dbe45ec8d191c61fbe
+SHA1: 5e3f0cecfb0c79717dda2691de7588a412ad0c2b
+SHA256: 2e78b44ee4eee4a6752a158ba6280f78d9d77309a88019f7b8f08ee831d323d2
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
 Package: python3.9-static
 Version: 3.9.13-1
 Architecture: i686
@@ -1182,6 +1226,20 @@ SHA256: 272916e786c1475da5786257157871369ca8ce5d79a5069c8004ec61f9de6015
 Homepage: https://python.org/
 Description: Static libraries for python3.9
 
+Package: python3.9-static
+Version: 3.9.14
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 13152
+Depends: python3.9 (= 3.9.14)
+Filename: pool/tur/python3.9-static_3.9.14_i686.deb
+Size: 3608908
+MD5sum: 2f7488c9c0d3468879a4e4c842bfc765
+SHA1: 41bfc19b7f05f9dd0a429a315691d5ca75b07271
+SHA256: c83b9d73d1d670998bdf1ca7087596f67811c52d14c072cb89055d1d6dd4d37f
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
 Package: python3.9-tkinter
 Version: 3.9.13-1
 Architecture: i686
@@ -1221,6 +1279,20 @@ Size: 912796
 MD5sum: 2f077fad473386f7b0fe918dfda48daa
 SHA1: 0ef6adebc1b689bab5100c547022fe40a7b906bd
 SHA256: b50487d7caca97066464ee871f68ac7526351e00de354997926c6a8e5e0faba2
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: python3.9-tkinter
+Version: 3.9.14
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.14)
+Filename: pool/tur/python3.9-tkinter_3.9.14_i686.deb
+Size: 913840
+MD5sum: befa9b2fa897468a8c299cd23ec7ce6a
+SHA1: 3d11a188b499e6970b6805724db6fb1dc0a8e4b4
+SHA256: f15f96e6113368f6bcec3322fd1cb436d80de55fdd173bf75d937db2c6ff8abd
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
@@ -1272,6 +1344,23 @@ Size: 8915912
 MD5sum: 04fffa76b131e46bd374d24e66d84d1e
 SHA1: a235301c741592ee6a116f063155834585137ba1
 SHA256: 7e6c706e3c1a15323a9e81e243d8ed3a61613cd93ea7036498f9ae51022269db
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9
+Version: 3.9.14
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 47212
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.14_i686.deb
+Size: 8902984
+MD5sum: 24714edceeaabf0097cfbd6226db1405
+SHA1: 632b230aaf03f62ad154a76d12257f02f6206560
+SHA256: c7c91d910c8535532b6efeb0ce387ebb41b1d635d54eae127892953e3b3321f0
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
