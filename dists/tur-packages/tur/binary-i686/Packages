@@ -294,6 +294,21 @@ SHA256: 25529684769ce1ab46833a89b6c659607169bef79721b0e8db6ad7b3263f8b3a
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
+Package: gcc-12
+Version: 12.2.0
+Architecture: i686
+Maintainer: @licy183
+Installed-Size: 229040
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-12_12.2.0_i686.deb
+Size: 64919800
+MD5sum: 8f5f1ff163136296e130624ef9d49255
+SHA1: 9b4ba56b1d756c6064a2d19d9f1fa739e686b355
+SHA256: f07b1bf85797c09c62c75fe75db5878791d1ea28cb93288bbd19fc92588c424b
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: gcc-9
 Version: 9.5.0-1
 Architecture: i686
