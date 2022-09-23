@@ -10,6 +10,7 @@ on:
 jobs:
   Updating_dist:
     runs-on: ubuntu-latest
+    concurrency: build_dists
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
