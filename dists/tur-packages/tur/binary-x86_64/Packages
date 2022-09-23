@@ -1016,6 +1016,22 @@ SHA256: 4183897144ddcea5aafb5236ea5c251541dd9e43f49ded0c995bc59e9aff48b2
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
+Package: pacman-contrib
+Version: 1.7.1
+Architecture: x86_64
+Maintainer: @flosnvjx
+Installed-Size: 272
+Depends: pacman
+Recommends: diffutils, bsdtar
+Suggests: vim, mlocate, perl
+Filename: pool/tur/pacman-contrib_1.7.1_x86_64.deb
+Size: 34560
+MD5sum: 73ffaff981ea6f849a1030cc6dfadf0f
+SHA1: 5822836f8b184bc0f6f1d4c8eac7648b85f9da3a
+SHA256: 1f9b18bf4b60a8208a510efbce8fa7cdc59c7986c49476430cdfa7a244b38c85
+Homepage: https://gitlab.archlinux.org/pacman/pacman-contrib
+Description: Additional libalpm utilities contributed by Arch community
+
 Package: python-cairo
 Version: 1.21.0
 Architecture: x86_64
