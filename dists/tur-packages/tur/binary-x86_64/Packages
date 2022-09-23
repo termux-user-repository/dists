@@ -1523,6 +1523,20 @@ SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
 Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
+Package: sqawk
+Version: 0.23.1
+Architecture: all
+Maintainer: @flosnvjx, @termux-user-repository
+Installed-Size: 360
+Depends: tcl, tcllib, libsqlite-tcl
+Filename: pool/tur/sqawk_0.23.1_all.deb
+Size: 100772
+MD5sum: 7342e0eb2b4c614b9025ac23046bf5c0
+SHA1: 3ca1b71949e156b0d0284580a136cf7787ca5154
+SHA256: 2bc13b9dab820640ae29f2fd151e05bbb2116962c53a535176af38843f417f19
+Homepage: https://github.com/dbohdan/sqawk
+Description: Manipulate csv/tsv/json data using SQL in an AWK-like fashion (sqlite-tcl as backend with db dump)
+
 Package: termux-install
 Version: 1.1.1
 Architecture: all
