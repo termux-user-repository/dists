@@ -1468,6 +1468,20 @@ SHA256: f278f7a395ed8fd1a228a0c2302a735e8c57dc9ea3c17f2493b33d975e54fe7f
 Homepage: https://github.com/mars9/ramfs
 Description: 9P2000 server and client as a in-memory filesystem for long standing shell scripts
 
+Package: rebuild-detector
+Version: 4.4.1
+Architecture: x86_64
+Maintainer: @flosnvjx
+Installed-Size: 68
+Depends: pacman, binutils, pacman-contrib, pacutils, parallel
+Filename: pool/tur/rebuild-detector_4.4.1_x86_64.deb
+Size: 3956
+MD5sum: 1c716abf84e8f34996ae5c146cdb8964
+SHA1: bf492547a985d5ac1e0b493e4b4c88e27b787538
+SHA256: d530449a6aa6bfaac644838f6ba2e2c5d6eab36c2288f5cf6ef011a46391888a
+Homepage: https://github.com/maximbaz/rebuild-detector
+Description: Detects which installed libalpm packages need to be rebuilt
+
 Package: repoctl
 Version: 0.21
 Architecture: x86_64
