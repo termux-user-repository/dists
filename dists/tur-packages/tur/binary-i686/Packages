@@ -1014,6 +1014,20 @@ SHA256: 3454c3b3ba9fd5727d31bcc7cca9d648b06717f37e68d8fdec92deff1185fc22
 Homepage: https://gitlab.archlinux.org/pacman/pacman-contrib
 Description: Additional libalpm utilities contributed by Arch community
 
+Package: pacutils
+Version: 0.11.1
+Architecture: i686
+Maintainer: @flosnvjx
+Installed-Size: 420
+Depends: pacman, openssl, libandroid-glob
+Filename: pool/tur/pacutils_0.11.1_i686.deb
+Size: 114040
+MD5sum: 72981a6e92dc2e8cc7f8c28250921aaa
+SHA1: 96ca694d22ebacbd6b11797b68943e60fa37f3b8
+SHA256: 9e600d1c7c2a10421e2f0210e5067178b68f5f099fbe67277ee03b8a6cbe5a2b
+Homepage: https://github.com/andrewgregory/pacutils
+Description: Utilitization of libalpm(3) as C program to ease shell scripting
+
 Package: python-cairo
 Version: 1.21.0
 Architecture: i686
@@ -1408,6 +1422,20 @@ SHA1: 632b230aaf03f62ad154a76d12257f02f6206560
 SHA256: c7c91d910c8535532b6efeb0ce387ebb41b1d635d54eae127892953e3b3321f0
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: repoctl
+Version: 0.21
+Architecture: i686
+Maintainer: @flosnvjx
+Installed-Size: 10392
+Depends: pacman
+Filename: pool/tur/repoctl_0.21_i686.deb
+Size: 3459768
+MD5sum: b6327a40c55f1cb382444178726f2c32
+SHA1: 5f118dcf183501a37f9502e02b4b603b68f0058f
+SHA256: 75c4072b710c79e94130e2e70b6d0fb736558643a0e31552a2b94e02711b8e5c
+Homepage: https://github.com/cassava/repoctl
+Description: libalpm(3) repository supplement utility
 
 Package: ruby-2
 Version: 2.7.6
