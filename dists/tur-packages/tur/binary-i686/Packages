@@ -1257,6 +1257,20 @@ Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
 Package: python-scipy
+Version: 1.9.0-1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 94196
+Depends: libc++, openblas, python, python-numpy
+Filename: pool/tur/python-scipy_1.9.0-1_i686.deb
+Size: 19938748
+MD5sum: c069af738ba104f6aa0d92e1fdd4c9da
+SHA1: 0370642e9ccbb0db17013f6350d82381167e4fe7
+SHA256: 080dae65ddca4d838dd76bb0687915796c81c811d4e27dd6e03e99697fb7256a
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
+Package: python-scipy
 Version: 1.9.0
 Architecture: i686
 Maintainer: @termux-user-repository
@@ -1631,6 +1645,84 @@ SHA1: 26fb9918cc6792ece58210ed191c877f6966d5b5
 SHA256: d48899d854f74fa3ea50d016874e878f2789e728d8e59645d544c9addbc5faf6
 Homepage: https://github.com/Edenhofer/fakepkg
 Description: Reassemble installed package from filesystem tree per libalpm database (bacman analogue)
+
+Package: gcc-default-10
+Version: 0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: gcc-10
+Conflicts: gcc-default-9, gcc-default-11, gcc-default-12
+Breaks: gcc-default-9, gcc-default-11, gcc-default-12
+Filename: pool/tur/gcc-default-10_0.1_all.deb
+Size: 1320
+MD5sum: 677548281fabd0004ad3c7b773953469
+SHA1: 6a9b78644def1cf96996503cc269c5f31321b347
+SHA256: caa2659bd92275c934ef0187dfdb117f8f1968d8a01615874d90a7e4d3f54bfb
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit (Version 10)
+
+Package: gcc-default-11
+Version: 0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: gcc-11
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-12
+Breaks: gcc-default-9, gcc-default-10, gcc-default-12
+Filename: pool/tur/gcc-default-11_0.1_all.deb
+Size: 1320
+MD5sum: 19d8da1454f3c909112748184dc12fd8
+SHA1: e896ec24efede3ad183de0994c4b2e18eb0cb81c
+SHA256: a6f47d48404d33fa48cf062f691369aad60fedd5ee6de9acacef1e8e7a167a98
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit (Version 11)
+
+Package: gcc-default-12
+Version: 0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: gcc-12
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-11
+Breaks: gcc-default-9, gcc-default-10, gcc-default-11
+Filename: pool/tur/gcc-default-12_0.1_all.deb
+Size: 1320
+MD5sum: e229d9b56542ebca040f7b5d2ec4ee8d
+SHA1: 0582bc9309bdd819ffc252eff10d0cdf5cb1dfb8
+SHA256: fda26cee6c411750a964026953ce6e2a95e7aa50a331f35f64a67d4f98e8e574
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit (Version 12)
+
+Package: gcc-default-9
+Version: 0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: gcc-9
+Conflicts: gcc-default-10, gcc-default-11, gcc-default-12
+Breaks: gcc-default-10, gcc-default-11, gcc-default-12
+Filename: pool/tur/gcc-default-9_0.1_all.deb
+Size: 1320
+MD5sum: 590985740bf95e0239991aeab02eba9a
+SHA1: f9bf769004cb2b04c4a72e8ac443aaef4319d39e
+SHA256: 941267c85f69f8b5facb812b630d7fe12371eb34ce632e0987ac1a0df0b7c6ce
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit (Version 9)
+
+Package: gcc-default
+Version: 0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 44
+Depends: gcc-default-11
+Filename: pool/tur/gcc-default_0.1_all.deb
+Size: 1572
+MD5sum: f8b9f55024684b0187623a2c646d4940
+SHA1: 3dfaadec9d6a835ac74f1e3ca3aa86e4553d589a
+SHA256: 624ae26e010513a645b57c6485c01d943ccc084004abf97ce86534c9ebf578ea
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit
 
 Package: python-future
 Version: 0.18.2
