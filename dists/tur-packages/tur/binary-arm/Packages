@@ -1657,6 +1657,21 @@ SHA256: 9bf1c51a75b958527ecd66a096bb2ec5bd2a82f9e6016f0c8a3e92e92c737f0b
 Homepage: https://git.sr.ht/~bitfehler/vomit
 Description: Utility to manage your local emails in Maildir++ format with IMAP synchronization support
 
+Package: xsv-ucw
+Version: 1.0.1+2
+Architecture: arm
+Maintainer: @flosnvjx
+Installed-Size: 72
+Depends: pcre
+Conflicts: xsv-rs
+Filename: pool/tur/xsv-ucw_1.0.1+2_arm.deb
+Size: 10956
+MD5sum: 45c3e234b6a91b2b604e57d0baebf1c0
+SHA1: c42eef5ee47873e11d09476a986e7c0c604cb3be
+SHA256: 3f9031e6f47520d2be0b25521eba622c4d8ffd42605bbafa6a5cb6f19530487e
+Homepage: http://www.ucw.cz/gitweb/?p=xsv.git;a=summary
+Description: Utility to convert between formats, and rearrange fields on CSV/TSV/xSV input
+
 Package: ardentryst
 Version: 20201007
 Architecture: all
