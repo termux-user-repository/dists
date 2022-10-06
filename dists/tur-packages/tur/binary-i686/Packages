@@ -1925,3 +1925,17 @@ SHA256: 38279bac08df9064aba84d88ea7dc50e22e4084a12cd0d5b6a1e0eff90d78075
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
+Package: zphisher
+Version: 2.3.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 39436
+Depends: curl, php, unzip, ncurses-utils, proot, resolv-conf
+Filename: pool/tur/zphisher_2.3.1_all.deb
+Size: 10355692
+MD5sum: 42a7ab784562bd835aad01028dc40513
+SHA1: 79c8356846f4280cf61992734bd8b6e504ccb519
+SHA256: a47a4755ec1682a5ad3d3cbdf00e9e3a0b1b1c146035ab8fdf940d7694540c02
+Homepage: https://github.com/htr-tech/zphisher
+Description: An automated phishing tool with 30+ templates
+
