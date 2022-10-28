@@ -1018,6 +1018,34 @@ SHA256: 9150f175c263fb6828879fa83ef2394b8f5d2740452b57b76f35c2547b90bf8a
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: openalut-static
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 80
+Depends: openalut (= 1.1.0-1)
+Filename: pool/tur/openalut-static_1.1.0-1_aarch64.deb
+Size: 16104
+MD5sum: f6cd3254b102d73b79f29e1c77c7359a
+SHA1: ed66729f66959f5255e6b6172514f504493aed6e
+SHA256: 8f9bdfbed2304b4294f7007cb0aa1759af1640e29146578601083d869976cfe2
+Homepage: https://github.com/vancegroup/freealut
+Description: Static libraries for openalut
+
+Package: openalut
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 100
+Depends: openal-soft
+Filename: pool/tur/openalut_1.1.0-1_aarch64.deb
+Size: 16096
+MD5sum: 7158f144daa47df3834fc46525cd925d
+SHA1: 7394d77f919b40487967d6ec42fa1f702ebd906a
+SHA256: b7a3436abf6bc8a394fcfe153b0bc2c4f09b89172e3fb3fe4856738f3bb2cc81
+Homepage: https://github.com/vancegroup/freealut
+Description: A free implementation of OpenAL's ALUT standard
+
 Package: openblas
 Version: 0.3.21-1
 Architecture: aarch64
@@ -1649,6 +1677,20 @@ SHA256: 86871c8148b09f91f1da77a5d5f1d63fa09a06fa43e5759f039463fad173af90
 Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
 
+Package: trigger-rally
+Version: 0.6.6.1-10
+Architecture: aarch64
+Maintainer: @fervi
+Installed-Size: 121704
+Depends: make, libphysfs, glew, libtinyxml2, openal-soft, openalut, sdl2, ndk-multilib, sdl2-image, pulseaudio, libxi
+Filename: pool/tur/trigger-rally_0.6.6.1-10_aarch64.deb
+Size: 118607388
+MD5sum: f27493d32df6cca720964b40940b1a12
+SHA1: eb9c69b9dbae5d5d3770e35fde745c30c832fa51
+SHA256: 78dbdcef19b9c5ae1c30f2ed0c32e0b02068cbcb650e33be8568e382d956a810
+Homepage: https://trigger-rally.sourceforge.io
+Description: A free 3D rally car racing game
+
 Package: typioca
 Version: 2.0.2
 Architecture: aarch64
@@ -1940,6 +1982,20 @@ SHA1: 1a03868de67012c79813b035274be06a986381c7
 SHA256: 24d1fb630bc0d5baaf6ed98e8e3060debf8b39bf8ccde1d8ef67bc82f87be2e5
 Homepage: https://python-future.org
 Description: Clean single-source support for Python 3 and 2
+
+Package: python-opengl
+Version: 3.1.6
+Architecture: all
+Maintainer: @fervi
+Installed-Size: 28516
+Depends: python, mesa
+Filename: pool/tur/python-opengl_3.1.6_all.deb
+Size: 1071044
+MD5sum: b29d146b9cbdd857f2895b97a7bc64e0
+SHA1: ce83657d86eff904e3864a51bb9c90444665d421
+SHA256: 176f3d931634e26e51562793633aa36f600719cb8719c7d9a28d3c5bf874b1fa
+Homepage: http://pyopengl.sourceforge.net
+Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
 Package: ruby-ri-2
 Version: 2.7.6
