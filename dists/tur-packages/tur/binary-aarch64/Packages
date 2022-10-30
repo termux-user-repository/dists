@@ -1154,6 +1154,20 @@ Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
 
 Package: python-cairo
+Version: 1.21.0-1
+Architecture: aarch64
+Maintainer: @fervi
+Installed-Size: 572
+Depends: python, libcairo
+Filename: pool/tur/python-cairo_1.21.0-1_aarch64.deb
+Size: 100192
+MD5sum: 652fe1f465ba3f9237dae6acf2bdb47c
+SHA1: 954e000516d8df711c547e8e5fefc4fd52e5083e
+SHA256: 67ab04950b2f6052ad60a085846b7158d7d85c182cc34bbec8753a6f4e24857d
+Homepage: https://cairographics.org/pycairo
+Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
+
+Package: python-cairo
 Version: 1.21.0
 Architecture: aarch64
 Maintainer: @fervi
@@ -1982,6 +1996,20 @@ SHA1: 3dfaadec9d6a835ac74f1e3ca3aa86e4553d589a
 SHA256: 624ae26e010513a645b57c6485c01d943ccc084004abf97ce86534c9ebf578ea
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
+
+Package: python-future
+Version: 0.18.2-1
+Architecture: all
+Maintainer: @fervi
+Installed-Size: 4752
+Depends: python
+Filename: pool/tur/python-future_0.18.2-1_all.deb
+Size: 785996
+MD5sum: 8039e6f0c000af98ad4eceaa3ae1bd7a
+SHA1: cd7a325c4323a0ca7bf002b7a9975e7929d09aaa
+SHA256: 13b8ec8d173fbbb5c813ce9046b58932ee98d4012a1613580033b2a0d75a8f7e
+Homepage: https://python-future.org
+Description: Clean single-source support for Python 3 and 2
 
 Package: python-future
 Version: 0.18.2
