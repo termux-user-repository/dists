@@ -1258,6 +1258,20 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
 Package: python-kivy
+Version: 2.1.0-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 27360
+Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/python-kivy_2.1.0-1_aarch64.deb
+Size: 12008996
+MD5sum: 985bcc325c82eac97df3cae815bebc45
+SHA1: 82910f80c2c7ea5c5494cc93cc98ac07ca3eccc2
+SHA256: c9c2f83240382a4487ebda3b53c0ea0d0ccbee3aa6a36cd3134b502c654d14f2
+Homepage: https://kivy.org/
+Description: Open source UI framework written in Python
+
+Package: python-kivy
 Version: 2.1.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
@@ -2085,6 +2099,20 @@ SHA1: 1a03868de67012c79813b035274be06a986381c7
 SHA256: 24d1fb630bc0d5baaf6ed98e8e3060debf8b39bf8ccde1d8ef67bc82f87be2e5
 Homepage: https://python-future.org
 Description: Clean single-source support for Python 3 and 2
+
+Package: python-opengl
+Version: 3.1.6-1
+Architecture: all
+Maintainer: @fervi
+Installed-Size: 30492
+Depends: python, mesa
+Filename: pool/tur/python-opengl_3.1.6-1_all.deb
+Size: 1345816
+MD5sum: 0f9752470293cccf71dc82a786cc6e27
+SHA1: ae4ffbdf6a70d8316fc920b3220f043223074a4e
+SHA256: 58e09bc322816663726273e70f28106a148c2e8574a4298f46d1878cb15cd6ce
+Homepage: http://pyopengl.sourceforge.net
+Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
 Package: python-opengl
 Version: 3.1.6
