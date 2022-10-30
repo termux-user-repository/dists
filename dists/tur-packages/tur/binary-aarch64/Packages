@@ -1209,6 +1209,22 @@ SHA256: a129d44e2339df454ac3b12bd0edd1f42921dda7634271e924dac4b7fb7da899
 Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
+Package: python-is-python3.10
+Version: 3.10.8
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: python3.10 (= 3.10.8)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.10_3.10.8_aarch64.deb
+Size: 2196
+MD5sum: 485c65b75aaebd73bc15d24ea381ec73
+SHA1: 7bcc9fae1b50ed65fb75de1a12a894e68c17835a
+SHA256: 5beb1d2a5268ee0af21b53dc6fc15270524625db386aaebf0b304612e5898b89
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.10
+
 Package: python-is-python3.9
 Version: 3.9.13-2
 Architecture: aarch64
@@ -1409,6 +1425,51 @@ SHA1: ea7fc84ee4db30b26252dce882724200e3327a3f
 SHA256: 084b478646271a89303cd63a6d08ac38c7c4d79ac4b5bbdb179a7da39a742b8c
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
+
+Package: python3.10-static
+Version: 3.10.8
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 23192
+Depends: python3.10 (= 3.10.8)
+Filename: pool/tur/python3.10-static_3.10.8_aarch64.deb
+Size: 3941528
+MD5sum: f0811021fafe674d8a314e4ee1a901af
+SHA1: 69093f7a8b88f2a6aa9b03a002986d5f8d7eeffe
+SHA256: 8f04cf624b252f8b4c90f4a157a1e258b231906c81393f92064faf242a1d07e5
+Homepage: https://python.org/
+Description: Static libraries for python3.10
+
+Package: python3.10-tkinter
+Version: 3.10.8
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 8096
+Depends: tk, python3.10 (= 3.10.8)
+Filename: pool/tur/python3.10-tkinter_3.10.8_aarch64.deb
+Size: 963148
+MD5sum: c2648863495894ce39e6dce636474fcb
+SHA1: 7ca0d8f0e0fcedc44c3ac1d8d33ab0a6de1f164c
+SHA256: 357de82da1ef39af9d8c484cdab218e5c17e0d7ee33f88663865618ba64ca397
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.10
+
+Package: python3.10
+Version: 3.10.8
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 49260
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.10-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.10_3.10.8_aarch64.deb
+Size: 9107392
+MD5sum: 8520bd7b0907853565d09c370f676886
+SHA1: 5f6ff310bf1ab7a92daf05dd28611609b37ce24d
+SHA256: f6dec9742f49f73b922f7b5f1ccfd5357870d489f6ca3141bdc2855a586e6019
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
 
 Package: python3.9-static
 Version: 3.9.13-1
