@@ -1253,6 +1253,22 @@ SHA256: 6e24a061f316785c043854b858cb9a9a5fc1f652ec1e454a6520b14e8fa4cda1
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
+Package: python-is-python3.9
+Version: 3.9.15
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.9 (= 3.9.15)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.9_3.9.15_i686.deb
+Size: 2164
+MD5sum: aa5b10867a79a5d499024eac1b42d461
+SHA1: ba32f66dc6b1a17938176ddb28f276d261c8bc98
+SHA256: 070f37e9941026dd651fd32a5a35ef12cfe9b5ff7cbaf5fe247f0f43a6a23e12
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.9
+
 Package: python-kivy
 Version: 2.1.0-1
 Architecture: i686
@@ -1565,6 +1581,20 @@ SHA256: c83b9d73d1d670998bdf1ca7087596f67811c52d14c072cb89055d1d6dd4d37f
 Homepage: https://python.org/
 Description: Static libraries for python3.9
 
+Package: python3.9-static
+Version: 3.9.15
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 13152
+Depends: python3.9 (= 3.9.15)
+Filename: pool/tur/python3.9-static_3.9.15_i686.deb
+Size: 3606192
+MD5sum: 4173da881fbf9c905c3631424b39d8ea
+SHA1: 7adfb69f10f021ace66d4bf4801a7de5ba7cc3b8
+SHA256: 7f7ec3de0eed56119cf5d850980711a2fb6c5bd709b15c0921bf811037468418
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
 Package: python3.9-tkinter
 Version: 3.9.13-1
 Architecture: i686
@@ -1618,6 +1648,20 @@ Size: 913840
 MD5sum: befa9b2fa897468a8c299cd23ec7ce6a
 SHA1: 3d11a188b499e6970b6805724db6fb1dc0a8e4b4
 SHA256: f15f96e6113368f6bcec3322fd1cb436d80de55fdd173bf75d937db2c6ff8abd
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
+Package: python3.9-tkinter
+Version: 3.9.15
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 7936
+Depends: tk, python3.9 (= 3.9.15)
+Filename: pool/tur/python3.9-tkinter_3.9.15_i686.deb
+Size: 916768
+MD5sum: e23545f426b7d2dd93dff0666d01d398
+SHA1: c8f259a39ea215440d5a6cf0ffe10edaaf3cfc5a
+SHA256: 602a22b3039d9f19444a0aef1e9ccaa1a6a8c0260dfaff66f893596d657b924d
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
@@ -1686,6 +1730,23 @@ Size: 8902984
 MD5sum: 24714edceeaabf0097cfbd6226db1405
 SHA1: 632b230aaf03f62ad154a76d12257f02f6206560
 SHA256: c7c91d910c8535532b6efeb0ce387ebb41b1d635d54eae127892953e3b3321f0
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9
+Version: 3.9.15
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 47212
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.15_i686.deb
+Size: 8879928
+MD5sum: 904b03b11d68b7b6b60a829125ce6975
+SHA1: d41a38b55a7e4a54d975d6ab75f44a001903c05f
+SHA256: 27bdaf8cde32a0ebfe7b51e206eb13b04ca52c8b2bfaa9328a742bad827ea0d7
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
