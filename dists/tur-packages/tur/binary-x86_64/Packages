@@ -982,6 +982,20 @@ SHA256: ba8959ad6286352464c6c274674a7e06e13ba86e73fd3c75770349b1ed64ec43
 Homepage: https://llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
+Package: mongodb
+Version: 6.1.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 146388
+Depends: libcurl, libstemmer, liblzma, libyaml-cpp, openssl, pcre2, zlib, zstd
+Filename: pool/tur/mongodb_6.1.0_x86_64.deb
+Size: 31157488
+MD5sum: e169a6a94d49122a4bfd7e1a525ca9f7
+SHA1: a4fc79b1512968bfb2a361e08d6b98abd1a905c5
+SHA256: de84a2004ae233a95f294a086ec7f694a382bb8c43f1a2f399398097727ac96f
+Homepage: https://github.com/mongodb/mongo
+Description: A high-performance, open source, schema-free document-oriented database
+
 Package: ndk-sysroot-gcc-compact
 Version: 23c
 Architecture: x86_64
