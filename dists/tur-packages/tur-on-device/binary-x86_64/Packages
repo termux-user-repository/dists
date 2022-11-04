@@ -25,6 +25,20 @@ SHA256: 87dc0dfc3cc492d41504b428e6a77b648efc5263648f3a2abf7d44600dbcaf8b
 Homepage: https://github.com/termux-user-repository/tur-on-device
 Description: Dummy test for TUR on Device
 
+Package: perl-net-ssleay
+Version: 1.92
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1748
+Depends: perl, openssl
+Filename: pool/tur-on-device/perl-net-ssleay_1.92_x86_64.deb
+Size: 299888
+MD5sum: de82817cee2ade847f57e46541978114
+SHA1: 02f46c20823a20e9df1d80b0b1db494211b0d258
+SHA256: 04e503327360ad887bad65f864dfae6fdf8f11d263b905af020d6c0caa796d21
+Homepage: https://metacpan.org/dist/Net-SSLeay/
+Description: Perl bindings for OpenSSL and LibreSSL
+
 Package: pixz
 Version: 1.0.7
 Architecture: x86_64
