@@ -1,30 +1,4 @@
 Package: afrog
-Version: 1.3.5
-Architecture: x86_64
-Maintainer: @UtermuxBlog
-Installed-Size: 20264
-Filename: pool/tur/afrog_1.3.5_x86_64.deb
-Size: 4694768
-MD5sum: a76c6f389da734bb91a3ba06b8847d7a
-SHA1: bb121bb04f3db871907fce6f3d5dd6f746791719
-SHA256: ed5fd4cbcb2e9251f0d4e9168d5a8ccf3e5d76c3fa879947af67f6f890b76bfb
-Homepage: https://github.com/zan8in/afrog
-Description: A tool for finding vulnerabilities
-
-Package: afrog
-Version: 1.3.7
-Architecture: x86_64
-Maintainer: @UtermuxBlog
-Installed-Size: 23968
-Filename: pool/tur/afrog_1.3.7_x86_64.deb
-Size: 5486768
-MD5sum: 73ee3daec453efd11899cfccb3a4ba8d
-SHA1: e0ddbd779aea5fddf27ca4081f2fdfbf81ad0ffa
-SHA256: acb3a6d72f66ea67edd5f8ffc4284c6e6643b7452446188c3363aeb0ce3dfcd2
-Homepage: https://github.com/zan8in/afrog
-Description: A tool for finding vulnerabilities
-
-Package: afrog
 Version: 1.3.8
 Architecture: x86_64
 Maintainer: @UtermuxBlog
@@ -50,45 +24,6 @@ SHA1: 0d23f053fdc3e775040a12bab221316724f63920
 SHA256: f095b17c7f6220d3a176eab5ad370224980d3e0c40a25e022d522573456bd594
 Homepage: https://github.com/opencollab/arpack-ng
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
-
-Package: cf
-Version: 0.2.4
-Architecture: x86_64
-Maintainer: @UtermuxBlog
-Installed-Size: 35864
-Filename: pool/tur/cf_0.2.4_x86_64.deb
-Size: 4547796
-MD5sum: cadf4262643c4b0594250b425972e728
-SHA1: 5df11c50df3ca08ba10d5175aaac34609e4a408d
-SHA256: 64f18a9a5adac965ba4b38593137698d8688da25e5030c37451b1ccb973e2b3f
-Homepage: https://wiki.teamssix.com/cf
-Description: Cloud Exploitation Framework
-
-Package: cf
-Version: 0.4.0
-Architecture: x86_64
-Maintainer: @UtermuxBlog
-Installed-Size: 42152
-Filename: pool/tur/cf_0.4.0_x86_64.deb
-Size: 6457480
-MD5sum: 1c6f05e6d6a0c9d7bea787d994e55a45
-SHA1: 8fd184ff455fcee222483ceba44700be9f6d19ff
-SHA256: a05b802b2c90754be64ec355cfae7b4c89920aa4dc7bfb9c6f262bf05d014e15
-Homepage: https://wiki.teamssix.com/cf
-Description: Cloud Exploitation Framework
-
-Package: cf
-Version: 0.4.1
-Architecture: x86_64
-Maintainer: @UtermuxBlog
-Installed-Size: 42156
-Filename: pool/tur/cf_0.4.1_x86_64.deb
-Size: 6454924
-MD5sum: 7dda5590ec25872182c32c7af4815957
-SHA1: e34efff9de59d45c2643849e14517000f267805f
-SHA256: 646923a953e5cbc1913d048465d0b67b651a2cd2a315c0adc216770a4c50ccdf
-Homepage: https://wiki.teamssix.com/cf
-Description: Cloud Exploitation Framework
 
 Package: cf
 Version: 0.4.2
@@ -117,20 +52,6 @@ SHA256: 0772ef5c6a873cb7a536eec06d7bc01db1f70096e91df50a37be014a178fc25e
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
-Package: clang-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 137640
-Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20220907)
-Filename: pool/tur/clang-16_20220907_x86_64.deb
-Size: 20818164
-MD5sum: 9f942e9c1ef06ea6a938451f2f5a94e9
-SHA1: 2ff4662d8762ca97a025f7ef88625592ca5ae1dc
-SHA256: 2cdf6da3954ccd8ffe4ddefac83b9dd3de000e5f7b97da0deaeb85db1a0cb8a8
-Homepage: https://llvm.org/
-Description: C language frontend for LLVM
-
 Package: code-server
 Version: 4.8.1
 Architecture: x86_64
@@ -144,19 +65,6 @@ SHA1: 75fb72e7aca3612c07bfc6add76fd2260ec5810a
 SHA256: 1a539885f293886284aa52b8a7b97281166af1996f1fcf096d4f498739ca65d0
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
-
-Package: dcfldd
-Version: 1.7.1
-Architecture: x86_64
-Maintainer: @flosnvjx
-Installed-Size: 112
-Filename: pool/tur/dcfldd_1.7.1_x86_64.deb
-Size: 29632
-MD5sum: 04b74439b645987109b8f810e1ed3626
-SHA1: c05164c306b30e22a6ada3223230480017bf31bc
-SHA256: fa9d3736885fb093ff9e0de8cc9cb5330c77ad1bd730362d828cde9af9e0b0dd
-Homepage: https://github.com/resurrecting-open-source-projects/dcfldd
-Description: dd(1) added features for forensics and security
 
 Package: dcfldd
 Version: 1.8
@@ -195,20 +103,6 @@ Size: 2820808
 MD5sum: b6954c5f3265b1201702f269f00a1048
 SHA1: b41507d2c66e752a1cd02b24ce93d2595341279a
 SHA256: fea9131d38eeef010860e271331757c33f9b8cadea6030389fc88cbe2f83e532
-Homepage: http://dlib.net/
-Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
-
-Package: dlib
-Version: 19.24
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 12528
-Depends: libx11, libxcb, openblas, python
-Filename: pool/tur/dlib_19.24_x86_64.deb
-Size: 2765828
-MD5sum: d05a2bb362da3d55493889db95bd86e9
-SHA1: 16bafc1c625a55f1d2a971ceb908ef569e98e7ea
-SHA256: 71f201878018a6774aa368bb5d806788211011eb351b65a9531c609cae6b12fa
 Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
@@ -254,20 +148,6 @@ SHA256: dfe995d54f7ef4ce2843613c11a8690a2a82f422c60bf7afac30128e44071daf
 Homepage: https://llvm.org/
 Description: Fortran language frontend for LLVM
 
-Package: flang-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 48
-Depends: clang-16, lld-16, llvm-16, mlir-16, libllvm-16 (= 20220907)
-Filename: pool/tur/flang-16_20220907_x86_64.deb
-Size: 5208
-MD5sum: 83fbee657bd2c0731e92acf748a8e378
-SHA1: daf8fa674eb679d7389784e9fec0f8ca379c591f
-SHA256: e76b5498e873160f49c51aca31938f0a21231af4fbc12d92f61ecc204e3d6f4c
-Homepage: https://llvm.org/
-Description: Fortran language frontend for LLVM
-
 Package: fscan
 Version: 1.8.1
 Architecture: x86_64
@@ -296,51 +176,6 @@ SHA256: 6e1bcb707e44bf8e51aa158cc763a771dfd1dd2cc985349067b6660549e04907
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
-Package: gcc-10
-Version: 10.4.0
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 210912
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-10_10.4.0_x86_64.deb
-Size: 54029760
-MD5sum: f313221a392e2024e2944ddfc1ed70d4
-SHA1: c3c771004de8440b5e769469d42286b126274cef
-SHA256: f83c28244eb5a57df518c92bd319f630253502f071a18ccf8ca4f673c097f865
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-11
-Version: 11.3.0-1
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 214216
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-11_11.3.0-1_x86_64.deb
-Size: 59030860
-MD5sum: 5fe6f0cfa8a3022a0f908a05bb9ef8cb
-SHA1: f7e7a2ec7ee31251392bd589750f411728f29f9d
-SHA256: f0d9c935ee1c3d34f85a8c6dca214b0767dc80acbf58dd9f5f1e4e23810d46e8
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-11
-Version: 11.3.0-2
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 206780
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-11_11.3.0-2_x86_64.deb
-Size: 57761444
-MD5sum: 280756ca798f48b918892b92d24b8314
-SHA1: 2480a28fb26867509825013a2ecb26c22638c76b
-SHA256: 5a4a2cd00c0d6f18b75d9c8bfa6355a18b57702c1cc63403b99faeb53687d03c
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
 Package: gcc-11
 Version: 11.3.0-3
 Architecture: x86_64
@@ -353,51 +188,6 @@ Size: 58226808
 MD5sum: 7f059d81fca32ee3317efc4cbf6d7e43
 SHA1: 02ea3b8c1aa6a37559ea3e5b910418a296d5182d
 SHA256: b3fbb16df8139db9ad6bab5b90e5ba7bf53e2a29bdcad455862c20cb1c278012
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-11
-Version: 11.3.0
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 214216
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-11_11.3.0_x86_64.deb
-Size: 59033108
-MD5sum: b03a7057cc2fb4a7a9bce4b28400bfe0
-SHA1: 760c5094d10aae22cafce2398620dd9e9c6ee272
-SHA256: 96aecf07e8261b24bedccd94bc60801d025a56e93b8f2cae4854c07f48df43be
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-12
-Version: 12.1.0-1
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 237736
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-12_12.1.0-1_x86_64.deb
-Size: 64256060
-MD5sum: 64468f65644922e00bc7a03c6eda304a
-SHA1: 7f4b8760b506a952ab61614b9b6c0c1b00b50298
-SHA256: fac6dddff37bf9827999daac113353fb4f2af32c7cd71ecae242ff598d413c86
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-12
-Version: 12.1.0
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 237988
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-12_12.1.0_x86_64.deb
-Size: 63971164
-MD5sum: 6606d472c11d52adf871b86b4bb9f80f
-SHA1: ff7da57ba16233e951c469ed0d118f9a36a193bf
-SHA256: 8894dee620102ef2463504f300b63487b6b79b817d027dc5c975287c8f3ec284
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
@@ -428,21 +218,6 @@ Size: 43862812
 MD5sum: 02c524d473296073c8ffdcd9c411d7c6
 SHA1: 44795d29f7b76c26a8184cb3b858a33cece19fcd
 SHA256: eba69ed3edf69106ebe438ea67c1e04d9b763321bc82b7834db88d1ea8bd1e82
-Homepage: http://gcc.gnu.org/
-Description: GNU C compiler
-
-Package: gcc-9
-Version: 9.5.0
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 173192
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
-Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-9_9.5.0_x86_64.deb
-Size: 43568264
-MD5sum: 0d7472115ea72e8b648319e8a36d8331
-SHA1: e152692c6623f0b267b0d494864f629babcdd839
-SHA256: 0d4a48bc343eb4f2b9de09f0b1c6b8b0dff19177d9cd8c9154e2ea7b268fa0aa
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
@@ -546,20 +321,6 @@ SHA256: e9773a412421c57db277413dcfd6bddf83431a8da3bd00fec4eac9f44a3cde75
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Static libraries for libandroid-nl-types
 
-Package: libandroid-nl-types-static
-Version: 0.1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 32
-Depends: libandroid-nl-types (= 0.1)
-Filename: pool/tur/libandroid-nl-types-static_0.1_x86_64.deb
-Size: 1420
-MD5sum: aa9a4de003fbb147a380b53b564fb77d
-SHA1: 83bd973b2522b63e5bbf07957fb3dca40250d41a
-SHA256: 30fcf984e50180c3f881a0e831fbee46f8dcab005c677c2d64b03a07a443cb42
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
-Description: Static libraries for libandroid-nl-types
-
 Package: libandroid-nl-types
 Version: 0.1-1
 Architecture: x86_64
@@ -573,18 +334,18 @@ SHA256: 69d8953002605742e7223ab187db121453e6375bafba12ce04ad251913beabbb
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
-Package: libandroid-nl-types
-Version: 0.1
+Package: libbson
+Version: 1.22.2
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 52
-Filename: pool/tur/libandroid-nl-types_0.1_x86_64.deb
-Size: 2892
-MD5sum: fe425abfef7e4dc246ebf6965ebd017a
-SHA1: cd70fbc7c86143fbf37f6aa949030e7990380a56
-SHA256: bf8cec5e513e291b71b0f22e96a029e7f52f6b548eb8ffef7d58025b1c8ba6c4
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
-Description: Shared library for catopen/catgets/catclose of Bionic Libc
+Installed-Size: 964
+Filename: pool/tur/libbson_1.22.2_x86_64.deb
+Size: 142496
+MD5sum: 62f43d4ac71ff7ad685fe422e17d5485
+SHA1: aad4739fbbeac3346fd6f5675b4df98977d87f18
+SHA256: e9572f0b5a2ad5f978d0c2423e7c6d27942e90e68bc6d13542e8983f6f394a7a
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
 Package: libcompiler-rt-16
 Version: 20220907-1
@@ -597,20 +358,6 @@ Size: 2807472
 MD5sum: 9a9de49e1c084933277d8682d52ddf80
 SHA1: 343907dc8ca7f0dd6a472678b62771595ff68aee
 SHA256: dad474876f0754ca2d669a53223094140af8a953c9bfd4c64dc86d202aff8bfa
-Homepage: https://llvm.org/
-Description: Compiler runtime libraries for clang
-
-Package: libcompiler-rt-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 34896
-Depends: libllvm-16 (= 20220907)
-Filename: pool/tur/libcompiler-rt-16_20220907_x86_64.deb
-Size: 2808940
-MD5sum: b290b5dc61ba161d7de459d0b5144937
-SHA1: 7887d39aec558920be9716dc7b3f690aae9245c5
-SHA256: 8e720f11dbd5562566efe646b69c92ab63f8334a50b0e8b7eec689b73e1af5c9
 Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
@@ -657,20 +404,6 @@ SHA256: c198a99f70578f042bfdaba4124ba4a69b2d855826c1ae56c4e837ffe56c47de
 Homepage: http://site.icu-project.org/home
 Description: International Components for Unicode library
 
-Package: libicu69
-Version: 69.1
-Architecture: x86_64
-Maintainer: @termux
-Installed-Size: 78532
-Depends: libc++
-Filename: pool/tur/libicu69_69.1_x86_64.deb
-Size: 17936492
-MD5sum: 8ad6b025d6d6840a345afbc32d8b440e
-SHA1: c7d512ac189c6cc3c96e8a786b0022e53e3a49dd
-SHA256: 5e37f55f264acab3996854c138f29331d3c6178f592e54cfb191c5203aad80af
-Homepage: http://site.icu-project.org/home
-Description: International Components for Unicode library
-
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: x86_64
@@ -682,23 +415,6 @@ Size: 45261972
 MD5sum: fb3dda91cb78ec3df91b1b2572cb5297
 SHA1: 6f43977ba7144cd03496aa341ca2768d41541ee9
 SHA256: b09309080ac48874f1d829c4708cd9d132a4f049bad4c5234db9b47f260ec8a6
-Homepage: https://clang.llvm.org/
-Description: Modular compiler and toolchain technologies library (Version 11)
-
-Package: libllvm-11
-Version: 11.1.0
-Architecture: x86_64
-Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 291964
-Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Conflicts: gcc, clang (<< 3.9.1-3)
-Breaks: libclang, libclang-dev, libllvm-dev
-Replaces: gcc, libclang, libclang-dev, libllvm-dev
-Filename: pool/tur/libllvm-11_11.1.0_x86_64.deb
-Size: 45234056
-MD5sum: 6f007ff539da68cf6b3f8d76372fc0a0
-SHA1: 7da1b6022e3c4d52fd2728cec7415e5cb0dd80d6
-SHA256: 2269c07ded1dbe36d5a484aa50ace2d7f388547599f6f4dc89aaeefa09df4188
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
 
@@ -730,74 +446,6 @@ SHA256: c6e5774abad995ecf3f0e2446c16a738dc2ddc3359d6304dca998dfb754a4cd5
 Homepage: https://llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 16)
 
-Package: libllvm-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 1002780
-Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-16_20220907_x86_64.deb
-Size: 129294680
-MD5sum: 5fcc24feed4a56abc073e2d848801a80
-SHA1: c1a315df716e7a77f0751b3b0fc05576cd956ee4
-SHA256: ba4a5a4e92dd0ac0cc2ba88070f795d809a261399792e49fe92efc5b9df0261b
-Homepage: https://llvm.org/
-Description: Modular compiler and toolchain technologies library (Version 16)
-
-Package: libllvm-classic-flang
-Version: 20220523-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 520000
-Depends: binutils-is-llvm, libc++, ncurses, ndk-sysroot, libffi, zlib
-Suggests: libandroid-mathlib, classic-flang
-Conflicts: libllvm-10, clang-10, lld-10
-Replaces: libllvm-10, clang-10, lld-10
-Provides: libllvm-10, clang-10, lld-10
-Filename: pool/tur/libllvm-classic-flang_20220523-1_x86_64.deb
-Size: 79349864
-MD5sum: 1f8fe2795f5a170a2c40b804a6f87f16
-SHA1: 0969f2207054314cec7d6391abfd6389caceec55
-SHA256: 1da0512c6637ba1c5bf782e30fcf8c95c8838c30e9edc6517d7b86ecaf355050
-Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
-Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
-
-Package: libllvm-classic-flang
-Version: 20220523-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 520004
-Depends: binutils-is-llvm, libc++, ncurses, ndk-sysroot, libffi, zlib
-Suggests: libandroid-mathlib, classic-flang
-Conflicts: libllvm-10, clang-10, lld-10
-Replaces: libllvm-10, clang-10, lld-10
-Provides: libllvm-10, clang-10, lld-10
-Filename: pool/tur/libllvm-classic-flang_20220523-2_x86_64.deb
-Size: 79222552
-MD5sum: aebae86bd2b8ae74f92cebd500c60a1e
-SHA1: d8f11074cbc3bd6d403a05dc572e3e86a928fef9
-SHA256: 4fabf7b564bc2363414278455e8d8956b340d2768d210c667e7a968ab51504ef
-Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
-Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
-
-Package: libllvm-classic-flang
-Version: 20220523-3
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 519464
-Depends: binutils-is-llvm, libc++, ncurses, ndk-sysroot, libffi, zlib
-Suggests: libandroid-mathlib, classic-flang
-Conflicts: libllvm-10, clang-10, lld-10
-Replaces: libllvm-10, clang-10, lld-10
-Provides: libllvm-10, clang-10, lld-10
-Filename: pool/tur/libllvm-classic-flang_20220523-3_x86_64.deb
-Size: 79046980
-MD5sum: ded6fcf97f5d5e2535380a734b2253ce
-SHA1: fe205c98eb32bc65225bb0c154e2eb2763c792f9
-SHA256: 44e22288e838b6c4672bf61a7bc493e852840d5b7805c23ddf00eccd05892e95
-Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
-Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
-
 Package: libllvm-classic-flang
 Version: 20220523-4
 Architecture: x86_64
@@ -816,23 +464,61 @@ SHA256: 5edfc51daee6efccaea8afa0ce7d29e1936bc1e514d3df64e172f04390fb74de
 Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
-Package: libllvm-classic-flang
-Version: 20220523
+Package: libmongoc-static
+Version: 1.22.2
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 520000
-Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Suggests: libandroid-mathlib, classic-flang
-Conflicts: libllvm-10, clang-10, lld-10
-Replaces: libllvm-10, clang-10, lld-10
-Provides: libllvm-10, clang-10, lld-10
-Filename: pool/tur/libllvm-classic-flang_20220523_x86_64.deb
-Size: 79347064
-MD5sum: 0024957d174702fa340d4e30a5385a10
-SHA1: 21d0b647be1bd8d6a0c631b2b4988c3897dc2de5
-SHA256: 23d016f1edd055381532d68528fe6946b5030f0145161a1790be786ec2d9028c
-Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
-Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
+Installed-Size: 1784
+Depends: libmongoc (= 1.22.2)
+Filename: pool/tur/libmongoc-static_1.22.2_x86_64.deb
+Size: 298420
+MD5sum: d83d0e84848c87002c83bb8bfda6caa8
+SHA1: 43d1385d17dde303c5de887e0750a7d844bb8c9e
+SHA256: 35848e2a7d03e2f0f04917e6e6488511f6ce918e947a6b8356e7c757512ea115
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: Static libraries for libmongoc
+
+Package: libmongoc
+Version: 1.22.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1400
+Depends: libicu, libsasl, libmongocrypt, openssl, zlib, zstd
+Filename: pool/tur/libmongoc_1.22.2_x86_64.deb
+Size: 313432
+MD5sum: 6831b30008367627ff380c7f20e3a6fd
+SHA1: ec7d669bc2e251e1d7601661d5f7f742bb87979c
+SHA256: 6866a08dfd703fa7bd9faed79479dbece3e09a74a7889dd0161f8c454800d057
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: A high-performance MongoDB driver for C
+
+Package: libmongocrypt-static
+Version: 2.3.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1200
+Depends: libmongocrypt (= 2.3.0)
+Filename: pool/tur/libmongocrypt-static_2.3.0_x86_64.deb
+Size: 206864
+MD5sum: 3c01886b6950c5d374e8235ee9b34a7c
+SHA1: 0c63607117fcf7dd3257c9271578c8ec975662b8
+SHA256: 2a41cdcb80f706149261eec5a175f6ad4ca6de9a9739ed2f6d4dcf2c72d05ab0
+Homepage: https://github.com/mongodb/libmongocrypt
+Description: Static libraries for libmongocrypt
+
+Package: libmongocrypt
+Version: 2.3.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 752
+Depends: libicu, libsnappy, libsasl, openssl
+Filename: pool/tur/libmongocrypt_2.3.0_x86_64.deb
+Size: 183248
+MD5sum: 795aaa99ffcf4c5c3081d7a5caf559d0
+SHA1: ab423a04303b6fb053a5212e6b6c4fbd0c6486cd
+SHA256: 99e6cfd67a32d8adddbf426dd9e1c0c266cabbe87bb2feedd495b53feb99e481
+Homepage: https://github.com/mongodb/libmongocrypt
+Description: The companion C library for MongoDB client side encryption in drivers
 
 Package: lld-16
 Version: 20220907-1
@@ -845,20 +531,6 @@ Size: 2178812
 MD5sum: 84a4876dd711a5622fe96ed01ee76578
 SHA1: 7333ada15c8cf65e72efe4bd10c704f84ace428b
 SHA256: c0cb71100f5f80826c9ad3414d1177674337706029d19e9afaf832f87a88a588
-Homepage: https://llvm.org/
-Description: LLVM-based linker
-
-Package: lld-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 17572
-Depends: libllvm-16 (= 20220907)
-Filename: pool/tur/lld-16_20220907_x86_64.deb
-Size: 2175176
-MD5sum: cc0db325b736b806e73001450bf742b5
-SHA1: 1a5fff871b6f53bb1cb95f79adbbf35dcee5b784
-SHA256: 2aebb76100ad0870ca5c6cee39541d0ec664b42fc78d9999db1f2180067b8b1e
 Homepage: https://llvm.org/
 Description: LLVM-based linker
 
@@ -878,22 +550,6 @@ SHA256: 6ef5c750e87ffaac69df5f20b2137d955ca8c54ea7bb473db859735de5238487
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
-Package: llvm-11
-Version: 11.1.0
-Architecture: x86_64
-Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 40324
-Depends: libllvm-11 (= 11.1.0)
-Breaks: libllvm (<< 11.0.0-1)
-Replaces: libllvm (<< 11.0.0-1)
-Filename: pool/tur/llvm-11_11.1.0_x86_64.deb
-Size: 9293512
-MD5sum: 1e3ac110f2780872b71a95dce3977e1c
-SHA1: 1e16a520757c38b507d35b458dd6c93a0c02ca7e
-SHA256: dd3e3d9d766f46a5755c0a53d91a3e37bcc614d81aed0729c863ba48bf1618e2
-Homepage: https://clang.llvm.org/
-Description: LLVM modular compiler and toolchain executables
-
 Package: llvm-16
 Version: 20220907-1
 Architecture: x86_64
@@ -907,22 +563,6 @@ Size: 9586944
 MD5sum: 5030a1587a1972f58b95723a4a936aaa
 SHA1: 37f5c957b1d9af89429f86e05427d53571500c9a
 SHA256: 81961198d425f2c451b388ec4b27566ae519a91f7cca6d40d078c9f0af7ac570
-Homepage: https://llvm.org/
-Description: LLVM modular compiler and toolchain executables
-
-Package: llvm-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 45504
-Depends: libllvm-16 (= 20220907)
-Breaks: libllvm (<< 11.0.0-1)
-Replaces: libllvm (<< 11.0.0-1)
-Filename: pool/tur/llvm-16_20220907_x86_64.deb
-Size: 9585960
-MD5sum: 2bd1cbbc56a88f555b05f670d3d1a8aa
-SHA1: aa9507d1ffb226b1c0899202d80d7bf9df3e7c30
-SHA256: a0dd056ab89467bdef9094f2ea0479ddcffc3cda32b8abde3466285b6073769f
 Homepage: https://llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
@@ -940,20 +580,6 @@ SHA256: 13588e541be28ceef02e43dd47cf6550b92f19e6dfd085f58aacd729d762335a
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
-Package: llvm-tools-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 11948
-Depends: libc++, ncurses, zlib, libllvm-16 (= 20220907)
-Filename: pool/tur/llvm-tools-16_20220907_x86_64.deb
-Size: 2105040
-MD5sum: 72902888c630e7d4244d97cbba3b5169
-SHA1: a1de496ba3d5e7aa8e0be83421484904d8bd73d0
-SHA256: 77bb260b8a0fa9b0ffd3d7d2a3e6a66f35e8af52ea248611afd91f7331722691
-Homepage: https://llvm.org/
-Description: LLVM Development Tools
-
 Package: mlir-16
 Version: 20220907-1
 Architecture: x86_64
@@ -965,20 +591,6 @@ Size: 21725396
 MD5sum: 75d175bfa732a32108c053cbb4db108b
 SHA1: d140c42486f4972530a268c3fe979f61c7f4c400
 SHA256: 5e1a00a7616f478c8d8e272a9420480519f5170c2db7f16f0e3ce4c110fb7e13
-Homepage: https://llvm.org/
-Description: A Multi-Level Intermediate Representation for compilers from LLVM
-
-Package: mlir-16
-Version: 20220907
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 181424
-Depends: libc++, ncurses, libllvm-16 (= 20220907)
-Filename: pool/tur/mlir-16_20220907_x86_64.deb
-Size: 21730136
-MD5sum: 98ebf7fb981971e79b9022ff0b831ed5
-SHA1: 4a85ea7fd628060d2b1ca1f0de61be4f2b07cec1
-SHA256: ba8959ad6286352464c6c274674a7e06e13ba86e73fd3c75770349b1ed64ec43
 Homepage: https://llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
@@ -996,68 +608,6 @@ SHA256: 07e0b05e17ca58f5b5680aba78d55713e8fc7570ca3c8e8c132e7e3e23038604
 Homepage: https://github.com/mongodb/mongo
 Description: A high-performance, open source, schema-free document-oriented database
 
-Package: mongodb
-Version: 6.1.0
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 146388
-Depends: libcurl, libstemmer, liblzma, libyaml-cpp, openssl, pcre2, zlib, zstd
-Filename: pool/tur/mongodb_6.1.0_x86_64.deb
-Size: 31157488
-MD5sum: e169a6a94d49122a4bfd7e1a525ca9f7
-SHA1: a4fc79b1512968bfb2a361e08d6b98abd1a905c5
-SHA256: de84a2004ae233a95f294a086ec7f694a382bb8c43f1a2f399398097727ac96f
-Homepage: https://github.com/mongodb/mongo
-Description: A high-performance, open source, schema-free document-oriented database
-
-Package: ndk-sysroot-gcc-compact
-Version: 23c
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 16196
-Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
-Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
-Provides: ndk-sysroot
-Filename: pool/tur/ndk-sysroot-gcc-compact_23c_x86_64.deb
-Size: 1413128
-MD5sum: d76b2145bc75ea9e21c717e3767fac7b
-SHA1: 0479a4656a5fb783ec28df3d24c66d7ff47eab8b
-SHA256: 60e9123d0a3dc9334996d9c61a6918d66fb5ef3e41e6b02f57813b1da5df6261
-Homepage: https://developer.android.com/tools/sdk/ndk/index.html
-Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
-
-Package: ndk-sysroot-gcc-compact
-Version: 25-1
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 16548
-Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
-Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
-Provides: ndk-sysroot
-Filename: pool/tur/ndk-sysroot-gcc-compact_25-1_x86_64.deb
-Size: 1455456
-MD5sum: 52695d590d8801fdcccff9a7754c4622
-SHA1: 9e6fe19c3f1650094f868db1f8e242e1951a1a5a
-SHA256: aa4ff96073a040e35bd4a38aaed8dd17f94c3a73adb209c5080a81c9d30c1c91
-Homepage: https://developer.android.com/tools/sdk/ndk/index.html
-Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
-
-Package: ndk-sysroot-gcc-compact
-Version: 25
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 16628
-Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
-Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
-Provides: ndk-sysroot
-Filename: pool/tur/ndk-sysroot-gcc-compact_25_x86_64.deb
-Size: 1468788
-MD5sum: 0932f0567a4eb8fee838b86d089874b7
-SHA1: b3594657c7664e8ae4b1387f27d6341afb74ca34
-SHA256: 2770772e2499b902f805196b5e43a454a2c1013a0b78892da693e469df9b116c
-Homepage: https://developer.android.com/tools/sdk/ndk/index.html
-Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
-
 Package: ndk-sysroot-gcc-compact
 Version: 25b-1
 Architecture: x86_64
@@ -1071,22 +621,6 @@ Size: 1429960
 MD5sum: 6f1affac2c06827f3b2f651d0bf98e93
 SHA1: 5c841c1f7e5c3fa509d118097ac33b2f886bbbda
 SHA256: e5dbaed395f92d15d9dcaad15b6abb56bfb0efee8819547be168986e06f1504a
-Homepage: https://developer.android.com/tools/sdk/ndk/index.html
-Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
-
-Package: ndk-sysroot-gcc-compact
-Version: 25b
-Architecture: x86_64
-Maintainer: @licy183
-Installed-Size: 16584
-Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
-Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
-Provides: ndk-sysroot
-Filename: pool/tur/ndk-sysroot-gcc-compact_25b_x86_64.deb
-Size: 1458676
-MD5sum: 5f80901b6a58284865489deae4933c8f
-SHA1: 3991765765c4bf13ddf27751b5fec14d19b9945a
-SHA256: 2a5ec00d2a16c01162f6108617e559642ec0796559c9e026f8c1e634fc1ab71c
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
@@ -1131,22 +665,6 @@ Size: 3606340
 MD5sum: d0d182b92b0591f130d4aff04b647591
 SHA1: caef63eac0fb3ad17362fdea6a40b324731f4395
 SHA256: 94fed8e11c0b6e0f5b5c05a84141a23581102d116a67e57476a100507ccd8e8e
-Homepage: http://www.openblas.net/
-Description: An optimized BLAS library
-
-Package: openblas
-Version: 0.3.21
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 14560
-Conflicts: libopenblas
-Replaces: libopenblas
-Provides: libopenblas
-Filename: pool/tur/openblas_0.3.21_x86_64.deb
-Size: 3606248
-MD5sum: b173c2e5b23b1288e01ab3193de840a9
-SHA1: 81d4f254d7ec4258a672eb81f5f362e67b4f698b
-SHA256: 9e4aba1bd6b454f9eea7ca455029c6433d7e077823f254050c6c1a792e1c865e
 Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
 
@@ -1239,34 +757,6 @@ SHA256: 296c48ea83e4c05cb44a95424ddc53698db816bac3954457f5bca94ad1925a39
 Homepage: https://cairographics.org/pycairo
 Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
 
-Package: python-cairo
-Version: 1.21.0
-Architecture: x86_64
-Maintainer: @fervi
-Installed-Size: 516
-Depends: python, libcairo
-Filename: pool/tur/python-cairo_1.21.0_x86_64.deb
-Size: 86916
-MD5sum: ca31a199b742c96fdf35267e38d9f9ec
-SHA1: 8506cefcb2b8b0cd1f3c1f3394f19a265f83d1c3
-SHA256: df0169fcbc68f4e75fc7585a4bd2940985141ad59a53d0e176a3eda14f9b7aad
-Homepage: https://cairographics.org/pycairo
-Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
-
-Package: python-cryptography
-Version: 37.0.4
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 4120
-Depends: libffi, openssl, python
-Filename: pool/tur/python-cryptography_37.0.4_x86_64.deb
-Size: 764964
-MD5sum: c96dac83ae69a38b09adfc007a030698
-SHA1: 0b14f03b3395ff35a070fcfb1f7f5d50a63e829d
-SHA256: d35d8062e0688527f5027844cf5331cb0bd71f60ab9bd3bb2aae8d9bfa867f42
-Homepage: https://cryptography.io/
-Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
-
 Package: python-cryptography
 Version: 38.0.1
 Architecture: x86_64
@@ -1298,38 +788,6 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
 Package: python-is-python3.9
-Version: 3.9.13-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 36
-Depends: python3.9 (= 3.9.13-2)
-Conflicts: python
-Breaks: python
-Filename: pool/tur/python-is-python3.9_3.9.13-2_x86_64.deb
-Size: 2164
-MD5sum: 8f78ee0bf4ea58558b194eb069cc7d6a
-SHA1: db36387ba79e19005af05e5cb7ea38890f71a3d0
-SHA256: cc71ea2f1e640675276181fe2cbb2d0f5c295d96f08b8f565bb4cb79807df85f
-Homepage: https://python.org/
-Description: Symlinks python(3) to python3.9
-
-Package: python-is-python3.9
-Version: 3.9.14
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 36
-Depends: python3.9 (= 3.9.14)
-Conflicts: python
-Breaks: python
-Filename: pool/tur/python-is-python3.9_3.9.14_x86_64.deb
-Size: 2176
-MD5sum: 21f6ade43c1beac5d2c574b05f84af09
-SHA1: 83e928f532a2628c2e1055aaa867d17400b0fa99
-SHA256: 0be2f93cbc8e0fd02cfbce73495c341edb6ec28cf4f1c1d3d9e8b6c715bca04f
-Homepage: https://python.org/
-Description: Symlinks python(3) to python3.9
-
-Package: python-is-python3.9
 Version: 3.9.15
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -1356,20 +814,6 @@ Size: 12057672
 MD5sum: c73085fe9b62c6b636568b58463c631d
 SHA1: 85050f34605888812983cb25d0e2bba263b0f820
 SHA256: 42d0f679427d71dd9991c4f8715228f4bcff298c15d89653ec908ccd66005e8e
-Homepage: https://kivy.org/
-Description: Open source UI framework written in Python
-
-Package: python-kivy
-Version: 2.1.0
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 26500
-Depends: mesa, mtdev, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-kivy_2.1.0_x86_64.deb
-Size: 11753052
-MD5sum: 54c2f979c10bd5e69db80c48a75506de
-SHA1: 2b2e34b980b059e17c306572dbb78f85bce7d54b
-SHA256: 7127870b488ff8118e8e449446e547cb3ecbde39b0a1c2726e8f0ca61eff40cb
 Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
@@ -1417,62 +861,6 @@ Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
 
 Package: python-pygame
-Version: 2.1.3.dev4-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 9260
-Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.1.3.dev4-1_x86_64.deb
-Size: 2030440
-MD5sum: 84b70275171355f729e62159356a36e0
-SHA1: 06d5c8e1ecb50e9c2d4af95755fec9fbab3424ef
-SHA256: 2ff79c08fb0e98a6fb95e11313160e26dc6ae58f3fc740568235c7199d92ce19
-Homepage: https://pygame.org/
-Description: pygame is a python game library
-
-Package: python-pygame
-Version: 2.1.3.dev4-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 9260
-Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.1.3.dev4-2_x86_64.deb
-Size: 2030816
-MD5sum: 2436b9a907329e9fb330e1d1e2896678
-SHA1: 07a1e2d50e8b8e8c615ae75820ec6d0ef8ea85c3
-SHA256: c1a3c69d2b6251f34e85140e393ff08af96070784453e2b30ff6205948371bd8
-Homepage: https://pygame.org/
-Description: pygame is a python game library
-
-Package: python-pygame
-Version: 2.1.3.dev4-3
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 9260
-Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.1.3.dev4-3_x86_64.deb
-Size: 2030680
-MD5sum: b159895edd7f9aafeaaa5be0da4e7bba
-SHA1: 6c9662814e5a5965df2493700663e97408aee550
-SHA256: ef5a04f4914837f6204bb3226793466bacbbc502991175824c9cc476f30aeb5c
-Homepage: https://pygame.org/
-Description: pygame is a python game library
-
-Package: python-pygame
-Version: 2.1.3.dev4
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 9260
-Depends: freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.1.3.dev4_x86_64.deb
-Size: 2030072
-MD5sum: 75d7056aef36746924e49006a0df4d16
-SHA1: ee7e6e9c7d445e53caebb0bce60601c505aae678
-SHA256: 218cdb725aa281bfcb6755239865b2e840d4bd1a9d4cda3c0487f6d85c5d09d0
-Homepage: https://pygame.org/
-Description: pygame is a python game library
-
-Package: python-pygame
 Version: 2.1.3.dev8
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -1487,62 +875,6 @@ Homepage: https://pygame.org/
 Description: pygame is a python game library
 
 Package: python-scipy
-Version: 1.8.0-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 75940
-Depends: libc++, openblas, python, python-numpy
-Filename: pool/tur/python-scipy_1.8.0-1_x86_64.deb
-Size: 16282764
-MD5sum: 26f88850ebd1bdbe4ef0b238e2aac8d0
-SHA1: b7cea7154158fac0fe5680d902c6ae0d8de1fa4c
-SHA256: 882dd38f744812a3d2c9691b9233ae27bcc4c161be800c03d8d1c2f7be4f46ff
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
-
-Package: python-scipy
-Version: 1.8.0
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 76756
-Depends: libc++, openblas, python, python-numpy
-Filename: pool/tur/python-scipy_1.8.0_x86_64.deb
-Size: 16285796
-MD5sum: d9de433153b94eabc11f9a22e5acacdf
-SHA1: 67aa9876ff03109ed899fabc8a3fc54c62842d73
-SHA256: 851745d1588fc9699796f975eff0b52a378c6f4efe5cf555fc8b8180d1b9e7d7
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
-
-Package: python-scipy
-Version: 1.9.0-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 90720
-Depends: libc++, openblas, python, python-numpy
-Filename: pool/tur/python-scipy_1.9.0-1_x86_64.deb
-Size: 19746120
-MD5sum: deb9aaa6113f0104d08cafc604d00e30
-SHA1: 8e209a2bb64799817d32671af4a70507813735c6
-SHA256: bb40513da9197f692eb1f2c20a39b44c4b8e7d526b893c9d6edaec4a1d577039
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
-
-Package: python-scipy
-Version: 1.9.0-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 96436
-Depends: libc++, libopenblas, python, python-numpy
-Filename: pool/tur/python-scipy_1.9.0-2_x86_64.deb
-Size: 21043532
-MD5sum: 57c951fe516a13daa14631733a495161
-SHA1: 846ef135c8be27ef4ab6613bab1e8c325909fa25
-SHA256: 3c0618ebc4eccca5715ad23d61c3a219469631078dd1e708354d4e6bb3837bf5
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
-
-Package: python-scipy
 Version: 1.9.0-3
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -1553,20 +885,6 @@ Size: 21038988
 MD5sum: 5f66ecd7b35de31a2f9e1cf3062fad98
 SHA1: cd1ec29a8f8a954d3c2d6b26034c2ed5027186b0
 SHA256: 54c040d4c5b80bf05bda35a59bfa93159c26c334e69b0aa45698a9aab4bea71d
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
-
-Package: python-scipy
-Version: 1.9.0
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 89876
-Depends: libc++, openblas, python, python-numpy
-Filename: pool/tur/python-scipy_1.9.0_x86_64.deb
-Size: 19643980
-MD5sum: f5a8b33eaa4af00e88914c2c8e8e23a6
-SHA1: 17b021f484b6b72e9c0ae4c1f3c256bb724b7562
-SHA256: d3161e5f69ec183da2e63eead7063d5804bf7bdae5979edbc16770c277fad11a
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
@@ -1616,62 +934,6 @@ Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
 Package: python3.9-static
-Version: 3.9.13-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 21860
-Depends: python3.9 (= 3.9.13-1)
-Filename: pool/tur/python3.9-static_3.9.13-1_x86_64.deb
-Size: 3961296
-MD5sum: 76d45c5fa6ebc9b8434df8f1c595371a
-SHA1: de854047cae670890097a1f3889c23d2dc85995f
-SHA256: ec8a9e62bd2ba02a81880a2d512c688988e634d0c919e0416ef6032fee9fc65b
-Homepage: https://python.org/
-Description: Static libraries for python3.9
-
-Package: python3.9-static
-Version: 3.9.13-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 20944
-Depends: python3.9 (= 3.9.13-2)
-Filename: pool/tur/python3.9-static_3.9.13-2_x86_64.deb
-Size: 3830716
-MD5sum: 72ef240ff5c530b26b7b1ef7a689d964
-SHA1: d26bb51c991ce26644abdfc5635c6c66c52f2fae
-SHA256: bcc63eff2da6501ce9803cf15f758ff5687ad7c9e07b054e84ee73a9deb8baf5
-Homepage: https://python.org/
-Description: Static libraries for python3.9
-
-Package: python3.9-static
-Version: 3.9.13
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 21860
-Depends: python3.9 (= 3.9.13)
-Filename: pool/tur/python3.9-static_3.9.13_x86_64.deb
-Size: 3960628
-MD5sum: d4e534eac97945d813d84ead68a024c8
-SHA1: 376e967ad81398dcc4a2db7d944993762b45e189
-SHA256: d7d5175186dbf95c8cd4e1fff0ae601a6d3a4280b37f470b2879f11a03e8fe7c
-Homepage: https://python.org/
-Description: Static libraries for python3.9
-
-Package: python3.9-static
-Version: 3.9.14
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 20960
-Depends: python3.9 (= 3.9.14)
-Filename: pool/tur/python3.9-static_3.9.14_x86_64.deb
-Size: 3838928
-MD5sum: c6b3ba9bd58a4b64759f1e7905a08517
-SHA1: 2ae50e189457f68f8a9b9a619f40cb492ee24540
-SHA256: fa46102374c089cebf88733c0f157e31de3b902b49cd256b33aa7a74cd242537
-Homepage: https://python.org/
-Description: Static libraries for python3.9
-
-Package: python3.9-static
 Version: 3.9.15
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -1686,62 +948,6 @@ Homepage: https://python.org/
 Description: Static libraries for python3.9
 
 Package: python3.9-tkinter
-Version: 3.9.13-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 7936
-Depends: tk, python3.9 (= 3.9.13-1)
-Filename: pool/tur/python3.9-tkinter_3.9.13-1_x86_64.deb
-Size: 912856
-MD5sum: 655c31efb3e695780513e0d816db5615
-SHA1: 2fea63edca571b9e1292e89761b75e9fa6c583ff
-SHA256: b90bedebd1831ec23cae5b20c28e7500db44a654fa83ab683e3b72fcf10a25aa
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.9
-
-Package: python3.9-tkinter
-Version: 3.9.13-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 7936
-Depends: tk, python3.9 (= 3.9.13-2)
-Filename: pool/tur/python3.9-tkinter_3.9.13-2_x86_64.deb
-Size: 913992
-MD5sum: 3b4980febaa236e0edc95d2629ab1c86
-SHA1: 611e6de89396603d83e3604aa6c40ae1fa11dd81
-SHA256: 69d99be1ac4660168f329148897bc3a8a3cc0d35ad08f14750336e46f829d381
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.9
-
-Package: python3.9-tkinter
-Version: 3.9.13
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 7936
-Depends: tk, python3.9 (= 3.9.13)
-Filename: pool/tur/python3.9-tkinter_3.9.13_x86_64.deb
-Size: 912680
-MD5sum: 144df44403711c68b5d20c61abde154d
-SHA1: 8d0ca506c67989d9d0ca7abd7f94443c81985cea
-SHA256: c172ba5a96110ef05a1ff0d4c86c44caf8175e860c6dc0f8a05111815d544d03
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.9
-
-Package: python3.9-tkinter
-Version: 3.9.14
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 7936
-Depends: tk, python3.9 (= 3.9.14)
-Filename: pool/tur/python3.9-tkinter_3.9.14_x86_64.deb
-Size: 913856
-MD5sum: dd69b63e15b4bc8eed972a664d9c5253
-SHA1: 1b28a3c0f580da39bc8901c88ef958ab413ea74b
-SHA256: 06fab1d707a6343d55b7982efc10124955c640ade17e52e5cdad55d51acccb33
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.9
-
-Package: python3.9-tkinter
 Version: 3.9.15
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -1754,74 +960,6 @@ SHA1: 268690005eab0a142a4094af109e62226ffca9a6
 SHA256: c44badd5f0f4bcb440473f5d371589878d8c10d873b5565bee39bcbdd8518605
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
-
-Package: python3.9
-Version: 3.9.13-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 48288
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.13-1_x86_64.deb
-Size: 9120540
-MD5sum: 87b2b692a9e5b40efdcc3b3640f6bc3e
-SHA1: 203661b15faacb56f3c5d0b539c44e12af833191
-SHA256: 370e16b0d59c46f9d57a69dbb47e27fae367e1790bc72f9d2a4fb562f8c68e48
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
-
-Package: python3.9
-Version: 3.9.13-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 48104
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.13-2_x86_64.deb
-Size: 8994168
-MD5sum: 8883e69ee4168d3f50314727110b1f2f
-SHA1: 1efc961952f75bca8debc2d9655ba44ae5c9db27
-SHA256: 8588beab75af819318c8a72172d0c86f2382f97c71c846f2198d72bf664ce9d0
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
-
-Package: python3.9
-Version: 3.9.13
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 48268
-Depends: gdbm, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.13_x86_64.deb
-Size: 9116988
-MD5sum: 67cf554eea6066f000ca88c3f1d6d8fe
-SHA1: 026ab274b5a11ec95784b61cd1dd5bab19c319ce
-SHA256: e41f493200a53ed64f7f018bd00dc7de8f2128c3046868f48847d4639f0659b1
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
-
-Package: python3.9
-Version: 3.9.14
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 48112
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.14_x86_64.deb
-Size: 8999184
-MD5sum: 0a6fbaed4abe80dc9e8e053f9b0f0dc8
-SHA1: 40d272101084c999c0af99cd99b750b931fa3d55
-SHA256: f5f4238941d8c8e6ac8ee465606789fd8f3e25eacfa8eadc6b068c92a55b2d84
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
 
 Package: python3.9
 Version: 3.9.15
@@ -1956,45 +1094,6 @@ Homepage: https://trigger-rally.sourceforge.io
 Description: A free 3D rally car racing game
 
 Package: typioca
-Version: 2.0.2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 8592
-Filename: pool/tur/typioca_2.0.2_x86_64.deb
-Size: 2582060
-MD5sum: 15098f232a63a9675b33d66988179638
-SHA1: 752c1c4640c417f6e8401eecf824712b5e637bbf
-SHA256: 2a9da794336a601dc1081d841f74cd0d0e15a954625a413af337a46e81ee33b2
-Homepage: https://github.com/bloznelis/typioca
-Description: Cozy typing speed tester
-
-Package: typioca
-Version: 2.0.3
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 8832
-Filename: pool/tur/typioca_2.0.3_x86_64.deb
-Size: 2647284
-MD5sum: 735ff43a87f6a771497162e4eccdb0ce
-SHA1: 7dac63025688cc06b4bd3039e71f73355e4c122a
-SHA256: 74ca9edaa84da871f56de3168519d33f75c3d33c611a4ff1bb29db44e962bb05
-Homepage: https://github.com/bloznelis/typioca
-Description: Cozy typing speed tester
-
-Package: typioca
-Version: 2.0.4
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 8836
-Filename: pool/tur/typioca_2.0.4_x86_64.deb
-Size: 2646280
-MD5sum: 383fa4c1b08f0be39d44d9f21b4b2105
-SHA1: 4a8c1983adec6950c4f37edec98cc2412137b83f
-SHA256: 524b2bf701c0b71e96c2bc4208f9c119ef47ada8feb0c4dc51fbf48b80dc8786
-Homepage: https://github.com/bloznelis/typioca
-Description: Cozy typing speed tester
-
-Package: typioca
 Version: 2.0.5
 Architecture: x86_64
 Maintainer: @termux-user-repository
@@ -2107,22 +1206,6 @@ SHA256: 8024aaa638552ee76c1a3ca5584dd71e5ccee15b2060cdee57ae781aa9330251
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 10)
 
-Package: gcc-default-10
-Version: 0.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 32
-Depends: gcc-10
-Conflicts: gcc-default-9, gcc-default-11, gcc-default-12
-Breaks: gcc-default-9, gcc-default-11, gcc-default-12
-Filename: pool/tur/gcc-default-10_0.1_all.deb
-Size: 1320
-MD5sum: 677548281fabd0004ad3c7b773953469
-SHA1: 6a9b78644def1cf96996503cc269c5f31321b347
-SHA256: caa2659bd92275c934ef0187dfdb117f8f1968d8a01615874d90a7e4d3f54bfb
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit (Version 10)
-
 Package: gcc-default-11
 Version: 0.1-1
 Architecture: all
@@ -2136,22 +1219,6 @@ Size: 1332
 MD5sum: 66eb105b725a5e4e8b4b07aa0876c3a0
 SHA1: 76c5dd5e8f30f273681169fd69c038218e173fdd
 SHA256: 7b6bcc234d5d0a6316ef071b05e81eaa41cea670eb29de12828e2e1d8c65d510
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit (Version 11)
-
-Package: gcc-default-11
-Version: 0.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 32
-Depends: gcc-11
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-12
-Breaks: gcc-default-9, gcc-default-10, gcc-default-12
-Filename: pool/tur/gcc-default-11_0.1_all.deb
-Size: 1320
-MD5sum: 19d8da1454f3c909112748184dc12fd8
-SHA1: e896ec24efede3ad183de0994c4b2e18eb0cb81c
-SHA256: a6f47d48404d33fa48cf062f691369aad60fedd5ee6de9acacef1e8e7a167a98
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 11)
 
@@ -2171,22 +1238,6 @@ SHA256: 1b9d9532a88a4b221d142f03de987a0bd556b585c8c3621e846b0ddcdc02b119
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 12)
 
-Package: gcc-default-12
-Version: 0.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 32
-Depends: gcc-12
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-11
-Breaks: gcc-default-9, gcc-default-10, gcc-default-11
-Filename: pool/tur/gcc-default-12_0.1_all.deb
-Size: 1320
-MD5sum: e229d9b56542ebca040f7b5d2ec4ee8d
-SHA1: 0582bc9309bdd819ffc252eff10d0cdf5cb1dfb8
-SHA256: fda26cee6c411750a964026953ce6e2a95e7aa50a331f35f64a67d4f98e8e574
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit (Version 12)
-
 Package: gcc-default-9
 Version: 0.1-1
 Architecture: all
@@ -2200,22 +1251,6 @@ Size: 1336
 MD5sum: ee0861c96ec50e5d99c8907f8bc430c9
 SHA1: 37cd33ab6f501c7611d33f9421e55472fcf53a6b
 SHA256: 96613d4df888fe416d502451261f9d8bfc3ad7c33b4d8ca401b8f1ff309f647a
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit (Version 9)
-
-Package: gcc-default-9
-Version: 0.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 32
-Depends: gcc-9
-Conflicts: gcc-default-10, gcc-default-11, gcc-default-12
-Breaks: gcc-default-10, gcc-default-11, gcc-default-12
-Filename: pool/tur/gcc-default-9_0.1_all.deb
-Size: 1320
-MD5sum: 590985740bf95e0239991aeab02eba9a
-SHA1: f9bf769004cb2b04c4a72e8ac443aaef4319d39e
-SHA256: 941267c85f69f8b5facb812b630d7fe12371eb34ce632e0987ac1a0df0b7c6ce
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 9)
 
@@ -2233,20 +1268,6 @@ SHA256: a8660cca389eb2a6ce453cbc1db871ee2f2b42469869b2b068d557d28f0b405b
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
-Package: gcc-default
-Version: 0.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 44
-Depends: gcc-default-11
-Filename: pool/tur/gcc-default_0.1_all.deb
-Size: 1572
-MD5sum: f8b9f55024684b0187623a2c646d4940
-SHA1: 3dfaadec9d6a835ac74f1e3ca3aa86e4553d589a
-SHA256: 624ae26e010513a645b57c6485c01d943ccc084004abf97ce86534c9ebf578ea
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit
-
 Package: python-future
 Version: 0.18.2-1
 Architecture: all
@@ -2261,20 +1282,6 @@ SHA256: 13b8ec8d173fbbb5c813ce9046b58932ee98d4012a1613580033b2a0d75a8f7e
 Homepage: https://python-future.org
 Description: Clean single-source support for Python 3 and 2
 
-Package: python-future
-Version: 0.18.2
-Architecture: all
-Maintainer: @fervi
-Installed-Size: 4120
-Depends: python
-Filename: pool/tur/python-future_0.18.2_all.deb
-Size: 610332
-MD5sum: bc63dbc6d3e4ffc0fc8a9bc421ceade6
-SHA1: 1a03868de67012c79813b035274be06a986381c7
-SHA256: 24d1fb630bc0d5baaf6ed98e8e3060debf8b39bf8ccde1d8ef67bc82f87be2e5
-Homepage: https://python-future.org
-Description: Clean single-source support for Python 3 and 2
-
 Package: python-opengl
 Version: 3.1.6-1
 Architecture: all
@@ -2286,20 +1293,6 @@ Size: 1345816
 MD5sum: 0f9752470293cccf71dc82a786cc6e27
 SHA1: ae4ffbdf6a70d8316fc920b3220f043223074a4e
 SHA256: 58e09bc322816663726273e70f28106a148c2e8574a4298f46d1878cb15cd6ce
-Homepage: http://pyopengl.sourceforge.net
-Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
-
-Package: python-opengl
-Version: 3.1.6
-Architecture: all
-Maintainer: @fervi
-Installed-Size: 28516
-Depends: python, mesa
-Filename: pool/tur/python-opengl_3.1.6_all.deb
-Size: 1071044
-MD5sum: b29d146b9cbdd857f2895b97a7bc64e0
-SHA1: ce83657d86eff904e3864a51bb9c90444665d421
-SHA256: 176f3d931634e26e51562793633aa36f600719cb8719c7d9a28d3c5bf874b1fa
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
@@ -2358,20 +1351,6 @@ SHA1: 6d403fd4e572176562581cf9da3430e5eed95ea7
 SHA256: 38279bac08df9064aba84d88ea7dc50e22e4084a12cd0d5b6a1e0eff90d78075
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
-
-Package: zphisher
-Version: 2.3.1
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 39436
-Depends: curl, php, unzip, ncurses-utils, proot, resolv-conf
-Filename: pool/tur/zphisher_2.3.1_all.deb
-Size: 10355692
-MD5sum: 42a7ab784562bd835aad01028dc40513
-SHA1: 79c8356846f4280cf61992734bd8b6e504ccb519
-SHA256: a47a4755ec1682a5ad3d3cbdf00e9e3a0b1b1c146035ab8fdf940d7694540c02
-Homepage: https://github.com/htr-tech/zphisher
-Description: An automated phishing tool with 30+ templates
 
 Package: zphisher
 Version: 2.3.2
