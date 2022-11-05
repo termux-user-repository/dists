@@ -10,7 +10,7 @@ Dists_DIR="$(dirname "$BASE_DIR")/dists"
 REPO_JSON="$(dirname "$BASE_DIR")/repo.json"
 arch_array=("aarch64" "arm" "i686" "x86_64")
 components_array=($(jq -r .[].name  $REPO_JSON | tr '\n' ' '))
-# Info being add into release file
+# Info being added into release file
 ORIGIN="Termux-user-repository"
 Suite="tur-packages"
 Codename="tur-packages"
@@ -80,7 +80,16 @@ add_package_metadata() {
     done
 }
 remove_old_version() {
-    echo "Remove old version: Fix me"
+	echo "Removing Old version debfiles....."
+	for comp in "${components_array[@]}";do
+		cd $POOL_DIR/$comp 
+		for package_name in `ls | cut -d'_' -f1 | uniq`; do
+			latest_version=`find . -name "${package_name}_*" | cut -d'_' -f2 | sort | tail -n1`
+			echo "Latest $package_name $latest_version"
+			find . -name "${package_name}_*" -not -iname "${package_name}_${latest_version}_*" -exec rm {} \;
+		done
+	done
+
 }
 
 create_packages() {
