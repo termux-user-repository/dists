@@ -1,14 +1,67 @@
+Package: afrog
+Version: 1.3.9-1
+Architecture: arm
+Maintainer: @UtermuxBlog
+Installed-Size: 21928
+Filename: pool/tur-hacking/afrog_1.3.9-1_arm.deb
+Size: 4962880
+MD5sum: a4fc317e3169073a97af519a53d21834
+SHA1: 77016c0f672d8a62bcea310f11926fb2909e841b
+SHA256: 9fb22f0fe1a209f2a46b7fec298f53ea1436028ce42814275f5a52add8e4eaea
+Homepage: https://github.com/zan8in/afrog
+Description: A tool for finding vulnerabilities
+
+Package: cf
+Version: 0.4.2-1
+Architecture: arm
+Maintainer: @UtermuxBlog
+Installed-Size: 43072
+Filename: pool/tur-hacking/cf_0.4.2-1_arm.deb
+Size: 6798220
+MD5sum: 86dc5757f9ac120c036dfc57e22a955e
+SHA1: 3afc015a8910c5e13f86dc1092bdaef2e9236fd8
+SHA256: 76948d9543d4a0213822199f1691841c66ef8a835d4a0f9c40d04f8b8b7ecff4
+Homepage: https://wiki.teamssix.com/cf
+Description: Cloud Exploitation Framework
+
+Package: fscan
+Version: 1.8.1-1
+Architecture: arm
+Maintainer: @UtermuxBlog
+Installed-Size: 20292
+Filename: pool/tur-hacking/fscan_1.8.1-1_arm.deb
+Size: 4324220
+MD5sum: 748fecbef9dc41e3cac9ba727a971226
+SHA1: fdf8b9fd7969a7ac2d7f4562ea8a2fd836309103
+SHA256: 7d2377b950b63ff1edbaed3247dcae3524a406c993c83f4fba4327e5d1ac2b47
+Homepage: https://github.com/shadow1ng/fscan
+Description: A comprehensive intranet scanning tool
+
+Package: shark
+Version: 2.5.1.0-beta-1
+Architecture: all
+Maintainer: @E343IO
+Installed-Size: 18912
+Depends: curl, php, unzip, p7zip, ncurses-utils, proot, resolv-conf, sox, ffmpeg, dialog
+Filename: pool/tur-hacking/shark_2.5.1.0-beta-1_all.deb
+Size: 19232132
+MD5sum: b29e01583470d8152b540169666c6807
+SHA1: aca4cd46641d673424d6b937b0b6122917f133f8
+SHA256: 90e902a7892902427cacd11fce83a9bbc663034756063db569df52c46dd64cca
+Homepage: https://github.com/Bhaviktutorials/shark
+Description: 🦈Future Of Phishing With less delay!!🦈
+
 Package: zphisher
-Version: 2.3.2
+Version: 2.3.2-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 39440
 Depends: curl, php, unzip, ncurses-utils, proot, resolv-conf
-Filename: pool/tur-hacking/zphisher_2.3.2_all.deb
-Size: 10322264
-MD5sum: 360f5ef8e1a64f88fc9364a7c856a66c
-SHA1: 0036b6318d46f2700f9a4ce9a91c4568b208c1e1
-SHA256: 80f5c4bf78af37035180ac23963a69a2e2a69faba406a9bf98e8d6aa900159ef
+Filename: pool/tur-hacking/zphisher_2.3.2-1_all.deb
+Size: 10322116
+MD5sum: bba44fac1ce1148972e5b3989c0cf208
+SHA1: a29f350e049b080979ec40b2b53ccb6ab5635395
+SHA256: c909924344ca719ef52a3b8108ad2223af756ce9f410f6eb0d66e288ca150609
 Homepage: https://github.com/htr-tech/zphisher
 Description: An automated phishing tool with 30+ templates
 
