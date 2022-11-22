@@ -769,6 +769,22 @@ SHA256: 912c4f3c012d829498329f17ac965de97f835a25f48bf60cd4416d38cab965c2
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
+Package: python-is-python3.7
+Version: 3.7.15
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.7 (= 3.7.15)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.7_3.7.15_arm.deb
+Size: 2072
+MD5sum: f9f3f5cbf2e395bac255b5b5d8082234
+SHA1: 5ecd2d6d9f4bfc19038c7f1d3f76a88e936450b7
+SHA256: 7d138278f31ffb834402f00fe727b36a3103478a5d8e7d7f8d5657d0a23f732c
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.7
+
 Package: python-is-python3.8
 Version: 3.8.15
 Architecture: arm
@@ -930,6 +946,51 @@ SHA1: 3f4e1c8d9e1ad79ce3eb8dfceade36466170e86b
 SHA256: 9299885225c8cc23cfa8df45b977a66484300191385bd1854655c79fd62c1ae0
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.7-static
+Version: 3.7.15
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10004
+Depends: python3.7 (= 3.7.15)
+Filename: pool/tur/python3.7-static_3.7.15_arm.deb
+Size: 2798892
+MD5sum: c368a4d515b578fd86aae54f378f0c4d
+SHA1: 227336563d4166a135ddff4b0409eb8eeb26729c
+SHA256: 63f355bafcef947268c0ac367c3a3d0e541884feafda5318a0a145470e727d6b
+Homepage: https://python.org/
+Description: Static libraries for python3.7
+
+Package: python3.7-tkinter
+Version: 3.7.15
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7852
+Depends: tk, python3.7 (= 3.7.15)
+Filename: pool/tur/python3.7-tkinter_3.7.15_arm.deb
+Size: 879336
+MD5sum: b775507b3e51cfba8c0b54a62111d2f1
+SHA1: a1c6f58a69a518c6e2cbc04dbec775c542ecb13c
+SHA256: 698d90caaff97de2dbdba102231820485de332753aadafab25748aef361bdb51
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.7
+
+Package: python3.7
+Version: 3.7.15
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 45076
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.7-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.7_3.7.15_arm.deb
+Size: 8635936
+MD5sum: cdc5daaff66061a197a47709face0a8a
+SHA1: 293b215cfb82ac0953e1bc038d0bd27de22a678a
+SHA256: 9bdbcb6248ac9d4c4ed4754d525d5b5f7e11331791ff57c6911303d84e09a0e5
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.7)
 
 Package: python3.8-static
 Version: 3.8.15
