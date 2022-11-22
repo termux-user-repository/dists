@@ -801,6 +801,22 @@ SHA256: 5beb1d2a5268ee0af21b53dc6fc15270524625db386aaebf0b304612e5898b89
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
+Package: python-is-python3.8
+Version: 3.8.15
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 40
+Depends: python3.8 (= 3.8.15)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.8_3.8.15_aarch64.deb
+Size: 2208
+MD5sum: 958c45fe03097c8fda042cdcc8b7e04b
+SHA1: dcce77256ce01f8a2befbf5310094fc189b5ecbe
+SHA256: 3f3a4d277d674108efccaf1f93dc4ca016368ab57e147fde9d5e6e5a27524a0b
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.8
+
 Package: python-is-python3.9
 Version: 3.9.15
 Architecture: aarch64
@@ -946,6 +962,51 @@ SHA1: 5f6ff310bf1ab7a92daf05dd28611609b37ce24d
 SHA256: f6dec9742f49f73b922f7b5f1ccfd5357870d489f6ca3141bdc2855a586e6019
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.8-static
+Version: 3.8.15
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 18428
+Depends: python3.8 (= 3.8.15)
+Filename: pool/tur/python3.8-static_3.8.15_aarch64.deb
+Size: 3269860
+MD5sum: 2949ab3efbbee223935d9cd9addc143a
+SHA1: 3772d848de7deb31118816ed412a2c4d932a7772
+SHA256: deebba296e7379bbb6e971b0fa4b95eb9ea94e9f6ca6392269ff5e201002ecc2
+Homepage: https://python.org/
+Description: Static libraries for python3.8
+
+Package: python3.8-tkinter
+Version: 3.8.15
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 7888
+Depends: tk, python3.8 (= 3.8.15)
+Filename: pool/tur/python3.8-tkinter_3.8.15_aarch64.deb
+Size: 882988
+MD5sum: 9adbade4d64a66b671f9a39d072a1120
+SHA1: 67cc184111e231ae41118ecdea99cfa3053ef8bb
+SHA256: d348efea69c1f8209a1947563a4ecf398ab02caf1a6471e6979cfa0e3a6d6aa2
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.8
+
+Package: python3.8
+Version: 3.8.15
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 48884
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.8-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.8_3.8.15_aarch64.deb
+Size: 9180340
+MD5sum: 189d2df1dee82e8ad2ede19d90688d9f
+SHA1: a2b35720728814702de46e45d49aaec1b20b254a
+SHA256: d582d33ac7a74f13bcacbdca5e0d198d018ca07a66f65319f801a50cec2a6f50
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.8)
 
 Package: python3.9-static
 Version: 3.9.15
