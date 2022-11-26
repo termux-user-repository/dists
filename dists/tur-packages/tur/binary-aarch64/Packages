@@ -1216,6 +1216,34 @@ SHA256: d5bd77e7f57151fe367a7c1c1a8771b890087f882180ef97baeb27367682bdda
 Homepage: https://sortix.org/rw/
 Description: A lightweight dd(1) alternative that doesn't resemble IBM JCL
 
+Package: suitesparse-static
+Version: 6.0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4992
+Depends: suitesparse (= 6.0.1)
+Filename: pool/tur/suitesparse-static_6.0.1_aarch64.deb
+Size: 993708
+MD5sum: 4e0ed0cff57036a5584a310fb82a1e9b
+SHA1: 5032472f28aa2153d44f62a36d0698246213285e
+SHA256: 9d4c97496eb36592f2e2c0dafd0b19389a665db5add48f8dbb7c987374d99b1c
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Static libraries for suitesparse
+
+Package: suitesparse
+Version: 6.0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 139444
+Depends: libopenblas, libgmp, libmpfr
+Filename: pool/tur/suitesparse_6.0.1_aarch64.deb
+Size: 15798852
+MD5sum: a964a405cd07eb81bd98099640299bcb
+SHA1: 99746c8384924c7c0e9fd164e74451c23fdd3edb
+SHA256: 996b03ea14ce1aabb8188071dcacc27ced9c8e08d2b101945b1cf68c45569863
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: A Suite of Sparse matrix packages.
+
 Package: termbot
 Version: 20220902
 Architecture: aarch64

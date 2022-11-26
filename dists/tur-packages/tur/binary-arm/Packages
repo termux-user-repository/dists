@@ -1184,6 +1184,34 @@ SHA256: 9e126e2efa36496550a7b346aab29841738688b2605e9d56bbb8bcac750d0eb4
 Homepage: https://sortix.org/rw/
 Description: A lightweight dd(1) alternative that doesn't resemble IBM JCL
 
+Package: suitesparse-static
+Version: 6.0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 3672
+Depends: suitesparse (= 6.0.1)
+Filename: pool/tur/suitesparse-static_6.0.1_arm.deb
+Size: 1079188
+MD5sum: 31db229039b00356b43a60b39f5f20a9
+SHA1: b305024764b4224b8f9be6264cd666ccca18f53b
+SHA256: 7107199da9d7ce96392fc25be52d5f47cd658e614dc16352692e3793f2d3ebba
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Static libraries for suitesparse
+
+Package: suitesparse
+Version: 6.0.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 137760
+Depends: libopenblas, libgmp, libmpfr
+Filename: pool/tur/suitesparse_6.0.1_arm.deb
+Size: 19590352
+MD5sum: a510f1c5de21aec1f2ab35ce58dd8754
+SHA1: cc3dc3fccdcea9ffb6adc669dff00a472d7fd140
+SHA256: e23720c972a72d4344d46efe1999f2025a93c6f46fdaaf4f31defd7264ade320
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: A Suite of Sparse matrix packages.
+
 Package: termbot
 Version: 20220902
 Architecture: arm
