@@ -1,3 +1,17 @@
+Package: abuse
+Version: 0.9.1-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 14952
+Depends: sdl2, sdl2-mixer
+Filename: pool/tur/abuse_0.9.1-1_aarch64.deb
+Size: 2064180
+MD5sum: 8a21d168d0fdad44338ce424ffa432c7
+SHA1: 9c6d8994b895000cf6dfd166a73964c9ee097686
+SHA256: c6af79c02fd6c5b52419fb7b59fac07ead1d7ff939d912ebd7bef6b19f620e8d
+Homepage: https://github.com/Xenoveritas/abuse
+Description: A dark 2D side-scrolling platform game
+
 Package: afrog
 Version: 1.3.8
 Architecture: aarch64
@@ -10,6 +24,20 @@ SHA1: ddce478ea353957936b2ce7dbd088d259319d270
 SHA256: 65367e93cd369021b2d5c96cfcc6046040f5577e7855dbc4c6d105ac58271469
 Homepage: https://github.com/zan8in/afrog
 Description: A tool for finding vulnerabilities
+
+Package: arpack-ng
+Version: 3.8.0-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 608
+Depends: libopenblas
+Filename: pool/tur/arpack-ng_3.8.0-2_aarch64.deb
+Size: 181536
+MD5sum: 78c5fe904887da5745b52a2e78a69c49
+SHA1: 1a2056713641ecfd199a1eeafcc0cd3b008a96c3
+SHA256: ee79cb78e70c3fe18991a35a22bc79d14d32cac021ff59aae4d8424bc2d27ee4
+Homepage: https://github.com/opencollab/arpack-ng
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 
 Package: cf
 Version: 0.4.2
@@ -1187,6 +1215,34 @@ SHA1: d8a8f0a9ad630d12f44cebe1182ec7b8c74f8a63
 SHA256: d5bd77e7f57151fe367a7c1c1a8771b890087f882180ef97baeb27367682bdda
 Homepage: https://sortix.org/rw/
 Description: A lightweight dd(1) alternative that doesn't resemble IBM JCL
+
+Package: suitesparse-static
+Version: 6.0.1-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4992
+Depends: suitesparse (= 6.0.1-1)
+Filename: pool/tur/suitesparse-static_6.0.1-1_aarch64.deb
+Size: 993336
+MD5sum: 93e759bfa8434337046eaed55fd1c83a
+SHA1: d142fc0401daa3ae781325a52040aaab69b5a51a
+SHA256: ea8a97f65f8b0ff6f35bf15ddd0b8e5496a604e399523f9909fe47fb493dda57
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Static libraries for suitesparse
+
+Package: suitesparse
+Version: 6.0.1-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 139440
+Depends: libopenblas, libgmp, libmpfr
+Filename: pool/tur/suitesparse_6.0.1-1_aarch64.deb
+Size: 15800876
+MD5sum: cc80aea05c8fb2a4afaf56f9bd08d40a
+SHA1: b2892241666e65bdefc436023bb2e7841f981238
+SHA256: 7539dfafae9833a7815a4991f144d5b30253e8bcc59d507fc6af5d07253c368c
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: A Suite of Sparse matrix packages.
 
 Package: termbot
 Version: 20220902
