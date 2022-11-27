@@ -1198,34 +1198,6 @@ SHA256: 126102ab57fb0883cf7b6baae1af1775f03b2b94a4c9dfee21cfafd07b6356b5
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
-Package: sundials-static
-Version: 6.4.1
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 5264
-Depends: sundials (= 6.4.1)
-Filename: pool/tur/sundials-static_6.4.1_i686.deb
-Size: 459500
-MD5sum: e918158bb216c9af0691f449c159ad52
-SHA1: 8e64a6f707b81a60437148422986fe4174c812ef
-SHA256: 2ab75d6f6d397974da51582d626095d89e3f64b7599f6dcb666e74a89b9d5f76
-Homepage: https://computing.llnl.gov/projects/sundials
-Description: Static libraries for sundials
-
-Package: sundials
-Version: 6.4.1
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 4976
-Depends: libopenblas, suitesparse
-Filename: pool/tur/sundials_6.4.1_i686.deb
-Size: 743040
-MD5sum: 70883991f0a21afcc8891886378dc139
-SHA1: d009351174307d79a1246108d9d06058e71c1662
-SHA256: a2f282900ea5ff3b166982c51ffb48807d19d6a7dc3afe8fd05cee81be541d39
-Homepage: https://computing.llnl.gov/projects/sundials
-Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
-
 Package: termbot
 Version: 20220902
 Architecture: i686
