@@ -129,7 +129,7 @@ Suite: $Suite
 Codename: $Codename
 Date: $date_
 Architectures: $Arch
-Components: "$Components"
+Components: $Components
 Description: $Description
 EOF
 }
