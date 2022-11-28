@@ -507,30 +507,30 @@ Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
 
 Package: libmongocrypt-static
-Version: 2.3.0
+Version: 2.3.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 1200
-Depends: libmongocrypt (= 2.3.0)
-Filename: pool/tur/libmongocrypt-static_2.3.0_x86_64.deb
-Size: 206864
-MD5sum: 3c01886b6950c5d374e8235ee9b34a7c
-SHA1: 0c63607117fcf7dd3257c9271578c8ec975662b8
-SHA256: 2a41cdcb80f706149261eec5a175f6ad4ca6de9a9739ed2f6d4dcf2c72d05ab0
+Depends: libmongocrypt (= 2.3.0-1)
+Filename: pool/tur/libmongocrypt-static_2.3.0-1_x86_64.deb
+Size: 206504
+MD5sum: 080fc269983059faec8eebe471759a45
+SHA1: f1d62053f02f6822608d60eb8a30df9e6af26316
+SHA256: d7003843e168df82f4e24c91481452c707e7e7ffeac9cabccbc11d321b5d1237
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
-Version: 2.3.0
+Version: 2.3.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 752
 Depends: libicu, libsnappy, libsasl, openssl
-Filename: pool/tur/libmongocrypt_2.3.0_x86_64.deb
-Size: 183248
-MD5sum: 795aaa99ffcf4c5c3081d7a5caf559d0
-SHA1: ab423a04303b6fb053a5212e6b6c4fbd0c6486cd
-SHA256: 99e6cfd67a32d8adddbf426dd9e1c0c266cabbe87bb2feedd495b53feb99e481
+Filename: pool/tur/libmongocrypt_2.3.0-1_x86_64.deb
+Size: 183352
+MD5sum: ab50fce3f1ba1de28cfeba70d05d4ecb
+SHA1: c71e551edeabc110ceb36647409fdcf36c23f6d3
+SHA256: 53cdd2f6fa6540514b1c772e14241a09ee2abbdcf0fc52bc1f173de387cc1fa1
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
