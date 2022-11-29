@@ -592,6 +592,66 @@ SHA256: c98143cdec7509db7df9485d505d23c980adb24f35d3fcb93471836e61c1c29b
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: octave-static
+Version: 7.3.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 259036
+Depends: octave (= 7.3.0)
+Filename: pool/tur/octave-static_7.3.0_i686.deb
+Size: 67016316
+MD5sum: 7f7cec6a199b246c394048d14b8543ef
+SHA1: d50864a995f11d60996279af27d83efa954cf384
+SHA256: eef35d5bd6451a0b2f046f8f384e0a18191e7bb91b730e739aae9b0ae8c0ace6
+Homepage: https://octave.org
+Description: Static libraries for octave
+
+Package: octave-x-static
+Version: 7.3.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 259032
+Depends: octave-x (= 7.3.0)
+Filename: pool/tur/octave-x-static_7.3.0_i686.deb
+Size: 67000440
+MD5sum: 3f673622bbd03eb6f68e5429f94588bb
+SHA1: a7c63cf8a32227b08db3fd34a3fdc86a05799259
+SHA256: 4205f3dbef14fb71e41c3004885b4519dba9308d011b4d5d2ff919d79b992771
+Homepage: https://octave.org
+Description: Static libraries for octave-x
+
+Package: octave-x
+Version: 7.3.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 61588
+Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio, fltk, mesa, glu
+Recommends: gnuplot, less
+Conflicts: octave
+Filename: pool/tur/octave-x_7.3.0_i686.deb
+Size: 12942888
+MD5sum: fd5a8d1934aca1424f5d645657dd2f32
+SHA1: 3d08a343b4af4898eb75a9dc851646cebc519e32
+SHA256: e61089e84e76ee568fc0b05df897bf3bd732ffb29f0cd4d2311670c0e67e70cc
+Homepage: https://octave.org
+Description: GNU Octave is a high-level language, primarily intended for numerical computations. (with X11 support)
+
+Package: octave
+Version: 7.3.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 61560
+Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio
+Recommends: gnuplot, less
+Conflicts: octave-x
+Filename: pool/tur/octave_7.3.0_i686.deb
+Size: 12945404
+MD5sum: 7850b63e32077f36b4ac357a2f15190e
+SHA1: 66ff5e7d942d2d4cbfad074658db2e862381a085
+SHA256: 576951a1d7ec4339e70d6e1b998c9121931e498b86d2cda166792e254cddda98
+Homepage: https://octave.org
+Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
+
 Package: openalut-static
 Version: 1.1.0-1
 Architecture: i686
