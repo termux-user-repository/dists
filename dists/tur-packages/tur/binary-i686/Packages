@@ -605,6 +605,21 @@ SHA256: c98143cdec7509db7df9485d505d23c980adb24f35d3fcb93471836e61c1c29b
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: nodejs-16
+Version: 16.18.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 60576
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-16_16.18.1_i686.deb
+Size: 10270028
+MD5sum: 6b73cbfb6badd6e7a36f8d92d56660b8
+SHA1: 325d92dbfb41f6d636d5abaf292ba2ffc0fa114c
+SHA256: 9237b64e0f130f4d8297576c5baf313636538009501e187589a88edb0c18cbbb
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: octave-static
 Version: 7.3.0
 Architecture: i686

@@ -80,16 +80,16 @@ Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-server
-Version: 4.8.3-2
+Version: 4.8.3-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 290124
-Depends: libsecret, nodejs-lts, ripgrep
-Filename: pool/tur/code-server_4.8.3-2_arm.deb
-Size: 36740864
-MD5sum: fc12872c2b19fb0ff233a927f9d20c35
-SHA1: 87fbfdfd06006d6d0b0cadc3b9f455efa8cd6786
-SHA256: ea806639e29da64cee60b0afa3e6841101481f157a22bc407d82607146c63b43
+Installed-Size: 290008
+Depends: libsecret, nodejs-16, ripgrep
+Filename: pool/tur/code-server_4.8.3-3_arm.deb
+Size: 36123940
+MD5sum: 6cd304c66908770e77ce1c23bd3dd2ad
+SHA1: edab2f516e654ae34144d7bbb41f26f4ec0321f6
+SHA256: 45e2f014439c08201f0e1e01e7ba9deb8ebdf1a2e4b79c458239942635131a61
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
@@ -618,6 +618,21 @@ SHA1: 4e6fb39802e70c593f1c3efca8bf97e504ca046d
 SHA256: 0f1500c816f0e8be9aece19229ac328efd043e42dacee7d4952754e95af10955
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
+
+Package: nodejs-16
+Version: 16.18.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 53672
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-16_16.18.1_arm.deb
+Size: 9230996
+MD5sum: f940edbd1e816150e605bb0ddcaf815f
+SHA1: 596944edd26fba2d640bedefaec6a1eb91de5661
+SHA256: 234aa467601a2b16f0f676458ed890e419e17d77abdf9c9e45d848a6533d7b7c
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: octave-static
 Version: 7.3.0
