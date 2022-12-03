@@ -79,6 +79,20 @@ SHA256: 0f6d1ed5be4a75de15c2c39dae5322615909a4a7131395479020fb9046c6242d
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
+Package: code-server
+Version: 4.8.3-3
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 297188
+Depends: libsecret, nodejs-16, ripgrep
+Filename: pool/tur/code-server_4.8.3-3_aarch64.deb
+Size: 38178180
+MD5sum: 142aadaee9b8e65cdd858f1cb77af1df
+SHA1: 1027d49acf70471d8d96ff97ec31477a3aebc71d
+SHA256: 8d40be174ceb1a2bc3a54af24285bdd6b4ca9432a1b3b86e054ec3db1c3390a6
+Homepage: https://github.com/coder/code-server
+Description: Run VS Code on any machine anywhere and access it in the browser
+
 Package: dcfldd
 Version: 1.8
 Architecture: aarch64
@@ -636,6 +650,21 @@ SHA1: d10a2625445f162325cc55facf255f0930a98d10
 SHA256: 0988df55543407f549c6beff1f9deab3a04c3e87897d29924d2850205255e039
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
+
+Package: nodejs-16
+Version: 16.18.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 61892
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-16_16.18.1_aarch64.deb
+Size: 9789236
+MD5sum: f282d68afe07b2031376c0038d2740a8
+SHA1: 3f4437458a8fd7c5f00a4a41913a95207e7434cf
+SHA256: ed770d06ae8df7e42da51b4fde3211c12bc484e28a8b1a9e1d893f521b8789de
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: octave-static
 Version: 7.3.0
