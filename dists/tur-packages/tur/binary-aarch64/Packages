@@ -607,6 +607,20 @@ SHA256: ec7ba6d6aef324e3bf94262a2a7a7ed047809ce8c205acd4f339cc7b66370ab5
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
+Package: mesa-chromium
+Version: 22.3.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 129916
+Depends: libandroid-shmem, libc++, libexpat, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, zlib, zstd
+Filename: pool/tur/mesa-chromium_22.3.0_aarch64.deb
+Size: 31967188
+MD5sum: 22e78da56091720b3adf2bdbc62fb6e6
+SHA1: 419c98bf7cc5f44da4e7f5e1ce9fb0ad3469d44c
+SHA256: 487049f93eb14d35e918fba8eeb188c03772627d0199abfcbb2b58e53cd1e1f6
+Homepage: https://www.mesa3d.org
+Description: An open-source implementation of the OpenGL specification
+
 Package: mlir-16
 Version: 20220907-1
 Architecture: aarch64
