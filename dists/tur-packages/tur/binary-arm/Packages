@@ -80,16 +80,16 @@ Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-server
-Version: 4.8.3-3
+Version: 4.9.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 290008
+Installed-Size: 290920
 Depends: libsecret, nodejs-16, ripgrep
-Filename: pool/tur/code-server_4.8.3-3_arm.deb
-Size: 36123940
-MD5sum: 6cd304c66908770e77ce1c23bd3dd2ad
-SHA1: edab2f516e654ae34144d7bbb41f26f4ec0321f6
-SHA256: 45e2f014439c08201f0e1e01e7ba9deb8ebdf1a2e4b79c458239942635131a61
+Filename: pool/tur/code-server_4.9.0_arm.deb
+Size: 36352328
+MD5sum: 0d184eae20d3f70db3fff85d3255b3c3
+SHA1: 8fb8fe832dbc9116513ff8a964b561199862274b
+SHA256: 4b35715e02ec73999be0ae05bb9807be53dabdf3a7e84fa7a9c69f0c88facb13
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
@@ -826,6 +826,49 @@ SHA1: 52d78d9bab94142aa6e13d7f0bf0133009f8a94c
 SHA256: 677a7d2760f1eeea7077dc4649721eec5a7bc755033b7d6de1ee276eff77cae1
 Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
+
+Package: pcre2-static
+Version: 10.41
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1224
+Depends: pcre2 (= 10.41)
+Filename: pool/tur/pcre2-static_10.41_arm.deb
+Size: 311184
+MD5sum: 499b9eb8d23af72b2e9a0d2abb7af315
+SHA1: 944273928acadf807a94a20b1ce54850b78a7949
+SHA256: ead03dc621713c344a1ea082bfc65ae02f45e06b4d0a6dd5190740a3dd7a2a93
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre2
+
+Package: pcre2
+Version: 10.41
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 3740
+Breaks: pcre2-dev
+Replaces: pcre2-dev
+Filename: pool/tur/pcre2_10.41_arm.deb
+Size: 847248
+MD5sum: f03cbb2485cbcdefb771e9ba3114e154
+SHA1: 405574fa65cfa08f5c69487320d8dbad4ed16849
+SHA256: 2395b6158f6fcf6fe6b5779ffbf1d73bfb29927f59c49317e1a7f927b1662ccc
+Homepage: https://www.pcre.org
+Description: Perl 5 compatible regular expression library
+
+Package: pcre2grep
+Version: 10.41
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 88
+Depends: pcre2 (= 10.41)
+Filename: pool/tur/pcre2grep_10.41_arm.deb
+Size: 31180
+MD5sum: e5097b99da54cd7fd1a9a8a1a06d77b3
+SHA1: 096f1868940907afb53c90536e08a24281cccef1
+SHA256: 53a765c72ad56c1996661db819430bb8c1f261cf13ab31ae6f211c4954bbe9a5
+Homepage: https://www.pcre.org
+Description: A grep with Perl-compatible regular expressions
 
 Package: python-cairo
 Version: 1.23.0

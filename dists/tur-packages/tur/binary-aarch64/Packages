@@ -80,16 +80,16 @@ Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-server
-Version: 4.8.3-3
+Version: 4.9.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 297188
+Installed-Size: 298100
 Depends: libsecret, nodejs-16, ripgrep
-Filename: pool/tur/code-server_4.8.3-3_aarch64.deb
-Size: 38178180
-MD5sum: 142aadaee9b8e65cdd858f1cb77af1df
-SHA1: 1027d49acf70471d8d96ff97ec31477a3aebc71d
-SHA256: 8d40be174ceb1a2bc3a54af24285bdd6b4ca9432a1b3b86e054ec3db1c3390a6
+Filename: pool/tur/code-server_4.9.0_aarch64.deb
+Size: 38406216
+MD5sum: d1d930aff310df162592131a0bd1ae48
+SHA1: 7b0a3b5e5320f08723a106745f36e2386330ac9e
+SHA256: 922870cfbfa2cd0725d39e8e097f4d97ee9a2d9574e81f5fa45f3701f7eb44c6
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
@@ -858,6 +858,49 @@ SHA1: 09ab48b9082d7ed9b002fdfb078ae5ace1e18c74
 SHA256: 7d24f6b95bedb868e6df06c36cd595f8b3e5e527151264ba5a93f972ffeffd00
 Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
+
+Package: pcre2-static
+Version: 10.41
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1596
+Depends: pcre2 (= 10.41)
+Filename: pool/tur/pcre2-static_10.41_aarch64.deb
+Size: 331848
+MD5sum: 5a2d9fe6d902849ca7f8ed59f1e40810
+SHA1: 888a869937063d5059a0b73b3443f8aad490d26c
+SHA256: 50a5714cee1337e710a6c3140f68c2dcf674c59ffae890bc362c052ebd69cac7
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre2
+
+Package: pcre2
+Version: 10.41
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3920
+Breaks: pcre2-dev
+Replaces: pcre2-dev
+Filename: pool/tur/pcre2_10.41_aarch64.deb
+Size: 855476
+MD5sum: 5e9d2cdf978fdb7dd02501a267eeb52f
+SHA1: 2095c32b6706ed3c686e4dbb0fee13a83587532b
+SHA256: 0420a4ba482cc0ae6f8885e69402cb415cbecf0d1b451068321a0e5a5d934067
+Homepage: https://www.pcre.org
+Description: Perl 5 compatible regular expression library
+
+Package: pcre2grep
+Version: 10.41
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: pcre2 (= 10.41)
+Filename: pool/tur/pcre2grep_10.41_aarch64.deb
+Size: 32364
+MD5sum: 38a18679a7767422d4c0cc349d42ec6c
+SHA1: 1f7b51f84c5d3d6404a8dbeb711b98d78001ebd2
+SHA256: 008aa296fbf88cc09dfdc26e8bd12f1e8ddeef30cd68688ff82d88c6845bc083
+Homepage: https://www.pcre.org
+Description: A grep with Perl-compatible regular expressions
 
 Package: python-cairo
 Version: 1.23.0
