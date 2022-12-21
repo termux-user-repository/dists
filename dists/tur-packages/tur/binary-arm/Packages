@@ -1283,35 +1283,35 @@ Homepage: https://github.com/cassava/repoctl
 Description: libalpm(3) repository supplement utility
 
 Package: ruby-2
-Version: 2.7.6
+Version: 2.7.6-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 98656
+Installed-Size: 98496
 Depends: gdbm, libandroid-support, libffi, libgmp, readline, openssl-1.1, libyaml, zlib
 Recommends: clang, make, pkg-config
 Breaks: ruby-dev
 Replaces: ruby-dev
-Filename: pool/tur/ruby-2_2.7.6_arm.deb
-Size: 5970600
-MD5sum: 0a82ddb78e596b9b0ace79c7ac495114
-SHA1: 125e85e4293544cfcddafff5e945db5af1c7b7af
-SHA256: 021d90840d40f4ea781980ec2476834bf91a275079042641db5109ef5051ee94
+Filename: pool/tur/ruby-2_2.7.6-1_arm.deb
+Size: 5921636
+MD5sum: 6f1c4fdb1c24039712b05c9752e5ff88
+SHA1: b38a1650bfd41d817445e81907f0771a78589335
+SHA256: e335dfb40de0d5e0b1cd78228356726b6a132adb54737d65866003ccfce4795a
 Homepage: https://www.ruby-lang.org/
 Description: Dynamic programming language with a focus on simplicity and productivity (Version 2)
 
 Package: ruby-is-ruby2
-Version: 2.7.6
+Version: 2.7.6-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 32
-Depends: ruby-2 (= 2.7.6)
+Depends: ruby-2 (= 2.7.6-1)
 Conflicts: ruby
 Breaks: ruby
-Filename: pool/tur/ruby-is-ruby2_2.7.6_arm.deb
-Size: 1020
-MD5sum: 35a28845bf9e1e114984ef159770cfba
-SHA1: 6d22d70263cd9e5759a432c6dbcc72e335e2b9f0
-SHA256: 90867101121d5366ac9e1288348e2eb949ae1e16349254b70aee9835193c08b1
+Filename: pool/tur/ruby-is-ruby2_2.7.6-1_arm.deb
+Size: 1040
+MD5sum: 9dc8a6093c015270bba643a63db2e6ac
+SHA1: 6ba71106fea1b19458934d10c5c72aa802e35592
+SHA256: acefe3f46aa915cc6eeeca47103d6d1d4062a489d4e99eabe40017cc08abc5a6
 Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
@@ -1643,16 +1643,16 @@ Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
 Package: ruby-ri-2
-Version: 2.7.6
+Version: 2.7.6-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 40
-Depends: ruby-2 (= 2.7.6)
-Filename: pool/tur/ruby-ri-2_2.7.6_all.deb
-Size: 1156
-MD5sum: 1f178b7cbbc22837d137ca900725e0c1
-SHA1: 15845d614fea77e46dce52508bb4aaf186a8d2f6
-SHA256: 23efe0a3e614577e8de42e02861e1167780a674034a92b8dc25454b551abee55
+Depends: ruby-2 (= 2.7.6-1)
+Filename: pool/tur/ruby-ri-2_2.7.6-1_all.deb
+Size: 1164
+MD5sum: ddb2fc1b17c1f6fec55f79e708dd80ed
+SHA1: 01314199d47d2e9afa019a0765be8ea137719cd4
+SHA256: 1942a6902c257728c21789abc18bd20ebd08babdb25f258b24eac5fd3d44b94f
 Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
