@@ -1008,6 +1008,20 @@ SHA256: c9c2f83240382a4487ebda3b53c0ea0d0ccbee3aa6a36cd3134b502c654d14f2
 Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
+Package: python-mitmproxy-wireguard
+Version: 0.1.19
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1572
+Depends: libc++, openssl, python
+Filename: pool/tur/python-mitmproxy-wireguard_0.1.19_aarch64.deb
+Size: 505112
+MD5sum: 8d593aae8cabcff01c1ba1e4480f8470
+SHA1: 6ebdee44cfc74b4087ce5e49ed2b7c43af361529
+SHA256: 74dd28f43a6b42fee1378999fce09b2a4ef6c05c975e2db6d25a6e22efc4af93
+Homepage: https://github.com/decathorpe/mitmproxy_wireguard
+Description: WireGuard frontend for mitmproxy
+
 Package: python-numpy-static
 Version: 1.23.0
 Architecture: aarch64
