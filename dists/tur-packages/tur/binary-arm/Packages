@@ -870,6 +870,65 @@ SHA256: 53a765c72ad56c1996661db819430bb8c1f261cf13ab31ae6f211c4954bbe9a5
 Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
+Package: php7-apache
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10732
+Depends: apache2, php7 (= 7.4.33)
+Filename: pool/tur/php7-apache_7.4.33_arm.deb
+Size: 2127688
+MD5sum: 657bad7cecf187935c7edcdec461aab2
+SHA1: 3489acb161d9cdd3c8c452525e6e156720439a5b
+SHA256: 5ec50b91b7fabe8139c2ba4c158dfa4179a69d47b59aa0beddc4c25537cc2be2
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-fpm
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10864
+Depends: php7 (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/tur/php7-fpm_7.4.33_arm.deb
+Size: 2177396
+MD5sum: 3c21ac1ddb67453bcd43e83581314b76
+SHA1: 537aa6d1ca674de099bf0ecef0973aedebeeeceb
+SHA256: bb0d8a191588489c85341acb674d6c9d7af2a0e08de6c7d9397e1cf16c150096
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-pgsql
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 136
+Depends: apr-util, postgresql, php7 (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/tur/php7-pgsql_7.4.33_arm.deb
+Size: 40144
+MD5sum: cff6cd937d61548d6d5ff181e6f34e99
+SHA1: 71fb3b80216eaa4b1777c90828f970d3b81a3f3d
+SHA256: f478821a8b9f46fd4867a6f252db46ebc3e7a704c79458125d652e9089a77e40
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 38512
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/tur/php7_7.4.33_arm.deb
+Size: 7139620
+MD5sum: a85b39dd81ca64be48f86238783dd26f
+SHA1: 4d70e97c627142d1cdc25a51e7ae25315552e802
+SHA256: 0abde47c4b7e7f2a44d49891ed456f30d49761d97950deefc97445cbb1e5867f
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: python-cairo
 Version: 1.23.0
 Architecture: arm

@@ -813,6 +813,65 @@ SHA256: 9e600d1c7c2a10421e2f0210e5067178b68f5f099fbe67277ee03b8a6cbe5a2b
 Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
 
+Package: php7-apache
+Version: 7.4.33
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 12152
+Depends: apache2, php7 (= 7.4.33)
+Filename: pool/tur/php7-apache_7.4.33_i686.deb
+Size: 2368672
+MD5sum: 541bd916528b63a2eb08decec93e8c07
+SHA1: 37a2f9d6c62efb4f74e1f47aea3985d5fa5f8fa9
+SHA256: 0b2484273fb4769307accc0be53d5395c308820620bb64f1169d496c1a290cf9
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-fpm
+Version: 7.4.33
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 12320
+Depends: php7 (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/tur/php7-fpm_7.4.33_i686.deb
+Size: 2421604
+MD5sum: d4b64d7d9ed4f83ad9f783af58bf1b96
+SHA1: 4512bb2ef0ba6f207e4785e345f5a3acd09508a0
+SHA256: 2b6b1557a7ffdd21c03888d5ad51d8e5f662a47cea59b9e43c0413a20ae6f7f8
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-pgsql
+Version: 7.4.33
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 164
+Depends: apr-util, postgresql, php7 (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/tur/php7-pgsql_7.4.33_i686.deb
+Size: 45104
+MD5sum: c045ac06236b535a280a9fcf6731486d
+SHA1: cb1e2a8634ae98fe9be239e500c8c1375aee84d2
+SHA256: 89fba1fbd4e1603e88d3cb80d751bf8a9386949f71d2af9e18f64e3b77449353
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7
+Version: 7.4.33
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 42956
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/tur/php7_7.4.33_i686.deb
+Size: 7887432
+MD5sum: dca48a3b6f1fd20193da856c6195ffbe
+SHA1: 6c41c790499ff41bde82af1d2e975fd259127804
+SHA256: 3e2bfbfc4de29dc275a3789d61acd0fd0f8992ffd743186297f0a0f1244a8557
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: python-cairo
 Version: 1.23.0
 Architecture: i686

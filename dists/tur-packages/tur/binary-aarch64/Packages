@@ -902,6 +902,65 @@ SHA256: 008aa296fbf88cc09dfdc26e8bd12f1e8ddeef30cd68688ff82d88c6845bc083
 Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
+Package: php7-apache
+Version: 7.4.33
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 12784
+Depends: apache2, php7 (= 7.4.33)
+Filename: pool/tur/php7-apache_7.4.33_aarch64.deb
+Size: 2265068
+MD5sum: d8bc0cdc48931bcd28f57211f33868ea
+SHA1: 08d2f4516774068aad17d1d1cbd9955057a514f3
+SHA256: 141d9be49c5217462a6f072dc267e6c1f8360bd706ffadea87ee31acf8f15419
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-fpm
+Version: 7.4.33
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 12920
+Depends: php7 (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/tur/php7-fpm_7.4.33_aarch64.deb
+Size: 2318732
+MD5sum: 3cb709a41f8f59b5b3cadc7a93b9c6f5
+SHA1: 755c2662736104b746ff9718d453252b63bda7cf
+SHA256: 1e849943de30e72c7ea10e4914b446091a4c713c1b2c710ccb95e3408b788c46
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-pgsql
+Version: 7.4.33
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 176
+Depends: apr-util, postgresql, php7 (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/tur/php7-pgsql_7.4.33_aarch64.deb
+Size: 42288
+MD5sum: ef715dca7365d230a3482fe458c3e677
+SHA1: 1755cbe88896be005e0803ece38d7abecd80694c
+SHA256: 4350d4053d6d330a8b2c07ecf84b93039103270a0e90253926ac81d57aae9752
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7
+Version: 7.4.33
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 44820
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/tur/php7_7.4.33_aarch64.deb
+Size: 7587404
+MD5sum: 1d95058fa4ca70f9bab527d3fd492b6a
+SHA1: 728a70ff914de9df56d4f4b76f6d41fb76d231de
+SHA256: dccf762060635770b05a13a487f2f0f0b2782da4618e224dcbb8db7671480dc5
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: python-cairo
 Version: 1.23.0
 Architecture: aarch64
