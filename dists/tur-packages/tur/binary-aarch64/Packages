@@ -1049,6 +1049,22 @@ SHA256: 30b839293edd7051d18119402291fd71ca03db861976812fa0ea435445f6284e
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.7
 
+Package: python-is-python3.8
+Version: 3.8.16-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.8 (= 3.8.16-1)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.8_3.8.16-1_aarch64.deb
+Size: 2156
+MD5sum: 554a005570b9a8976e46a68c71565f91
+SHA1: c661782158335ea5ec459dc88ee2010d0e15443a
+SHA256: 91e551adececdf6277d5b93e9eeb9b0d149b7cfd0ae19dc03035834b36902e6c
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.8
+
 Package: python-is-python3.9
 Version: 3.9.16-1
 Architecture: aarch64
@@ -1266,6 +1282,64 @@ SHA1: aa02426b742320ad5ffbb97de8907db3be012561
 SHA256: 95dfabd1dd32ed9f6498a2e54ad4a475c358cd37e58a1ea42599d09101127036
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.7)
+
+Package: python3.8-cross
+Version: 3.8.16-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 224508
+Filename: pool/tur/python3.8-cross_3.8.16-1_aarch64.deb
+Size: 39424824
+MD5sum: 1a3ddf623a117ddeeee99af3d3564d3b
+SHA1: a0f20a2b0c1d3f25635bf261d1e2c3270c5cb9a6
+SHA256: 526c3bae276a59686d29c45cd79ac0c44be4fb76e24a3ccdb95435d418831416
+Homepage: https://python.org/
+Description: Python 3.8 for cross build on the host (NOT for Termux)
+
+Package: python3.8-static
+Version: 3.8.16-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 18428
+Depends: python3.8 (= 3.8.16-1)
+Filename: pool/tur/python3.8-static_3.8.16-1_aarch64.deb
+Size: 3270520
+MD5sum: 5d360a835d23c833cc45d99248441766
+SHA1: 0338d387ce57b9175b1abdeb316bc70f694d72a6
+SHA256: 6b5c5e8cabb1d422c9f8ddbf7839a1c978a679a67386c89fc77446550d2047eb
+Homepage: https://python.org/
+Description: Static libraries for python3.8
+
+Package: python3.8-tkinter
+Version: 3.8.16-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 7952
+Depends: tk, python3.8 (= 3.8.16-1)
+Filename: pool/tur/python3.8-tkinter_3.8.16-1_aarch64.deb
+Size: 898708
+MD5sum: f217bd9ba9a8af918dbd1bfb525769d4
+SHA1: 6f06a69e424389b605f349b15aa8bccb72d341d3
+SHA256: 5427bc11664c5691067950ffe8fe2e29947f8c14818cbfc33595a2b9b7feb30a
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.8
+
+Package: python3.8
+Version: 3.8.16-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 48824
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.8-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.8_3.8.16-1_aarch64.deb
+Size: 9225084
+MD5sum: 1b3d5c4daab560bb5410897ecf020eda
+SHA1: 877b0495c26932308b18380fc10cf970b7b989cc
+SHA256: 9244832bc488cb3f3d30d05df2f69c0b97e0128d16efc2b0a5dabbd253e1ccaa
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.8)
 
 Package: python3.9-cross
 Version: 3.9.16-1
