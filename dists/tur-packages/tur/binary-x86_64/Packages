@@ -263,15 +263,15 @@ Homepage: https://github.com/bestouff/genext2fs
 Description: Build ext2 filesystem image without mounting for copying files (like mkfs.fat + mcopy in one go)
 
 Package: go-cqhttp
-Version: 1.0.0-rc3-0
+Version: 1.0.0-rc4-0
 Architecture: x86_64
 Maintainer: 2096779623 <admin@utermux.dev>
-Installed-Size: 12860
-Filename: pool/tur/go-cqhttp_1.0.0-rc3-0_x86_64.deb
-Size: 3723668
-MD5sum: 7f904b4b089c107b2ac49960fbed26cf
-SHA1: ffb2fba9cee28ee69fac1ef8324cb9d3e4db7c5c
-SHA256: a30d5c8114b11483420e4b91fb0becbd7be75efa646d4491fa9c0705f9f294e7
+Installed-Size: 13064
+Filename: pool/tur/go-cqhttp_1.0.0-rc4-0_x86_64.deb
+Size: 3780300
+MD5sum: 7188d96ec8b8223b9fc50f092e0a279d
+SHA1: 8c2e9aeadcffce180a67329d1ab69cc43446ae8d
+SHA256: 1043d65b753379d1ba6583c0baf32ba8c796178bb4688e8dd0cdbe723931eba2
 Homepage: https://docs.go-cqhttp.org
 Description: The golang implementation of cqhttp, lightweight, native cross-platform
 
@@ -1049,6 +1049,22 @@ SHA256: fc5efc0b12b29d52840b3694355f9e836fd1a1e9c91b21ba1f5a8b690415f286
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.7
 
+Package: python-is-python3.8
+Version: 3.8.16-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.8 (= 3.8.16-1)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.8_3.8.16-1_x86_64.deb
+Size: 2124
+MD5sum: db8e6e94a723548bc90b4e3783ea9126
+SHA1: 2e6afe5ee9e9a7f0da86eeaaef424792cb13028d
+SHA256: acc880d32a80cecf4fa5dadc3adc9ab80ab98205e3b207500997dda1334b3c88
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.8
+
 Package: python-is-python3.9
 Version: 3.9.16-1
 Architecture: x86_64
@@ -1266,6 +1282,64 @@ SHA1: bc2a667c08556f68ac7742a4ece7cf5cab50555e
 SHA256: 944d0be03f99bdb596cd5eb319dd194205fa5a3b197c855adb2652ae677410f7
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.7)
+
+Package: python3.8-cross
+Version: 3.8.16-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 224504
+Filename: pool/tur/python3.8-cross_3.8.16-1_x86_64.deb
+Size: 39422464
+MD5sum: 4a3db0ba27e57087f060eea79f502bb9
+SHA1: 9af843292698f9c8158f8ac44fa24a4af91a50c8
+SHA256: c9237b4e9f5722ad0862778a766cbc7e4467a27f489256d84942042f27311713
+Homepage: https://python.org/
+Description: Python 3.8 for cross build on the host (NOT for Termux)
+
+Package: python3.8-static
+Version: 3.8.16-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 18348
+Depends: python3.8 (= 3.8.16-1)
+Filename: pool/tur/python3.8-static_3.8.16-1_x86_64.deb
+Size: 3399036
+MD5sum: d6ea34e132d9abb32832ec8d89b307bb
+SHA1: 760c53bed352a1103d66d33e5efc8aaf5ca80464
+SHA256: 47a86f9def4de44280afca365ec4064bdd1b2211a5af52ef19b866f0e3cdaadc
+Homepage: https://python.org/
+Description: Static libraries for python3.8
+
+Package: python3.8-tkinter
+Version: 3.8.16-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 7952
+Depends: tk, python3.8 (= 3.8.16-1)
+Filename: pool/tur/python3.8-tkinter_3.8.16-1_x86_64.deb
+Size: 900796
+MD5sum: 6ca4b7119e5ce80a8ab7dc9a685ccdc6
+SHA1: dddc152637d40383e99dcc9b445cc81b0ffa12b9
+SHA256: 04c3fd2ef3baf0a0b775427b52c059fd7c86457dd3688ecb97920ad3d3b2be50
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.8
+
+Package: python3.8
+Version: 3.8.16-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 49024
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.8-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.8_3.8.16-1_x86_64.deb
+Size: 9464348
+MD5sum: 56bdedf669ef9ccd33971e74b02cd2b2
+SHA1: 7e447e098f3dec47cde87e4de688a8a667dadb5d
+SHA256: d9bada09d94b65b55324acbf422d3b82b94716ea0a7d2a8251e35d8f95ebc7a7
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.8)
 
 Package: python3.9-cross
 Version: 3.9.16-1
