@@ -1605,6 +1605,20 @@ SHA256: 04c2d3c9af4dd64927c201decd8e01a2d256c033725f5462c220565252497cce
 Homepage: https://github.com/ardentryst/ardentryst
 Description: Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on story, and character development.
 
+Package: electron-deps
+Version: 0.0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 4
+Depends: atk, cups, dbus, fontconfig, freetype, gtk3, krb5, libc++, libffi, libxkbcommon, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio
+Filename: pool/tur/electron-deps_0.0.1_all.deb
+Size: 824
+MD5sum: 01903fe530079e4c74cc04680e0a6ac9
+SHA1: c4cc0b924bca83ddcf5e09b9a7cc785c736dfe92
+SHA256: a9d68a46885f973b2ac01db3e3984f356ce4bb939c6615e4ef3ed5f88c5cb4a9
+Homepage: https://github.com/termux-user-repository/tur
+Description: A metapackage that contains dependencies for electron
+
 Package: fakepkg
 Version: 1.42.2
 Architecture: all
