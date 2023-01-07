@@ -79,6 +79,36 @@ SHA256: dbffe0dda3551ba8741b8ea66760aa2117674b20add63681fd595b4ec2d69824
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
+Package: code-is-code-oss
+Version: 1.74.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 64
+Depends: code-oss (= 1.74.2)
+Conflicts: code
+Breaks: code
+Filename: pool/tur/code-is-code-oss_1.74.2_arm.deb
+Size: 2568
+MD5sum: 9155a24a673af03023a43939d4c26f02
+SHA1: 1407b07547c624f8dc444285523cb4b91e9664da
+SHA256: 9fa3ccb38dcd8251d95b321209ce940853ba48d160b27d7928506e83cee64b91
+Homepage: https://github.com/microsoft/vscode
+Description: Symlinks code/vscode to code-oss
+
+Package: code-oss
+Version: 1.74.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 249024
+Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
+Filename: pool/tur/code-oss_1.74.2_arm.deb
+Size: 63356272
+MD5sum: c79540d56b458b81d060423a8df1f988
+SHA1: 674f67226de8f8baf328ad4dce6df30db60d8174
+SHA256: 0902b8f92702cf7dd93f40c1cb81b57d2f02b0b21e2dda0cd42dbf83a10ad91e
+Homepage: https://github.com/microsoft/vscode
+Description: Visual Studio Code
+
 Package: code-server
 Version: 4.9.1
 Architecture: arm
