@@ -13,6 +13,36 @@ SHA256: 7d96e8eebff9cdc59fd3bd105ce28a1c3dc16d3d3ddadf874c88d71f8b934a26
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
+Package: electron-is-electron21
+Version: 21.3.3
+Architecture: x86_64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 32
+Depends: electron21 (= 21.3.3)
+Conflicts: electron
+Breaks: electron
+Filename: pool/tur-continuous/electron-is-electron21_21.3.3_x86_64.deb
+Size: 888
+MD5sum: ab8967fe0b3cbdda4a3abd9b916b9ddf
+SHA1: a27e825d764f6a533e24cb9b68fc60c6ac4e420e
+SHA256: afa9c2246555aad636f6f443e0fe20a5b4f2c006842a72dd6a34be450bf94669
+Homepage: https://github.com/electron/electron
+Description: Symlinks electron to electron21
+
+Package: electron21
+Version: 21.3.3
+Architecture: x86_64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 244568
+Depends: electron-deps
+Filename: pool/tur-continuous/electron21_21.3.3_x86_64.deb
+Size: 54104980
+MD5sum: 4f3eea1248bc49f46a02a657ca014f3a
+SHA1: 00ad6f68ae5a0fb0d89b70268b0a95c4761bd18d
+SHA256: 3cf3d7cb80802d50fb13096ee125bcee662405c23e4f0051d280b6a1c8b499f6
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
 Package: electron
 Version: 21.3.3-3
 Architecture: x86_64
@@ -26,4 +56,51 @@ SHA1: 12c874f3c530926c3eb7b05a58a8f0c41b6b567f
 SHA256: 490d9ae003cdbb930be3f1f78ace32309a27266a76f2202d4c22cb5e598af703
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+Package: python-static
+Version: 3.11.1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 32724
+Depends: python (= 3.11.1)
+Filename: pool/tur-continuous/python-static_3.11.1_x86_64.deb
+Size: 5213876
+MD5sum: fcbc18b41c920213bafeb5f253d5233f
+SHA1: 1004c8d26ae1375df063435c280e4811a2e6c997
+SHA256: 9b1baa43113315e7185da0642afa61c05ec64acebf43c9ef1449cf182893078f
+Homepage: https://python.org/
+Description: Static libraries for python
+
+Package: python-tkinter
+Version: 3.11.1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 11616
+Depends: tk, python (= 3.11.1)
+Filename: pool/tur-continuous/python-tkinter_3.11.1_x86_64.deb
+Size: 1207424
+MD5sum: 2e9d1b34ac3e011b80b9d3b63a703144
+SHA1: 127028044c9faed225494d1b5326d000643fac98
+SHA256: 9e414c3d37d4a84945c7900f2fd6c017b479b9ebcaa96e6ae430071d99ea98d7
+Homepage: https://python.org/
+Description: Tkinter support for Python 3
+
+Package: python
+Version: 3.11.1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 64712
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev, python-pip
+Replaces: python-dev
+Provides: python3
+Filename: pool/tur-continuous/python_3.11.1_x86_64.deb
+Size: 11167472
+MD5sum: e09f0152441b5412e4d313702748f894
+SHA1: 38edf2a69878e44efe45f6ea5908e4064b6bf629
+SHA256: 36946db7e8443e399c1bfb161392b942dda27f5673e8fd1d58449c8e5d951494
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
 
