@@ -1,0 +1,43 @@
+Package: lib32-libc++-shared
+Version: 25b
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1016
+Conflicts: ndk-multilib
+Breaks: ndk-multilib
+Filename: pool/tur-multilib/lib32-libc++-shared_25b_x86_64.deb
+Size: 261312
+MD5sum: 0a8c3172cc61af3422f382a8bc06552c
+SHA1: 0260fec82084c278c59a3af707882d83402ecb25
+SHA256: a581d4a2faeea44fa440eb69ec96522544bead4c938a17a004aa551677915d75
+Homepage: https://libcxx.llvm.org/
+Description: C++ Standard Library
+
+Package: lib32-libgmp
+Version: 6.2.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 2320
+Depends: lib32-libc++
+Filename: pool/tur-multilib/lib32-libgmp_6.2.1_x86_64.deb
+Size: 445804
+MD5sum: b34b32df7f757f68c2e1ce594985d82b
+SHA1: 50f3d1c5ddc451951592ee79065fcc5b958ed62a
+SHA256: b9f6886b1e0d073a0c43ae4c54f5c09a5f7cef4cb8b2931240d954ffdae794fe
+Homepage: https://gmplib.org/
+Description: Library for arbitrary precision arithmetic
+
+Package: lib32-libc++
+Version: 25b
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 4
+Depends: lib32-libc++-shared | ndk-multilib
+Filename: pool/tur-multilib/lib32-libc++_25b_all.deb
+Size: 748
+MD5sum: c19ddeeb091045978865e29601bcbb56
+SHA1: cd0c1f6f48ffac1f28d9c7f297da598711ba9f36
+SHA256: ade2171b24c0d3a6ba8c5977528de8af70dca737c9aaa80f301432cedb0610cd
+Homepage: https://github.com/termux-user-repository/tur
+Description: A metapackage that provides libc++ multilib library
+
