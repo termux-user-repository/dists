@@ -149,6 +149,66 @@ SHA256: d4eaca31d08a1ccf63d17bf0f6dd7525cff35944483a7ee35890e54a7e5b7bca
 Homepage: https://github.com/clbarnes/detchar
 Description: Minimal CLI utility of chardetng crate, which is a successor to universalchardet (uchardet)
 
+Package: dichvucoder-cli-apache
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @dichvucoder
+Installed-Size: 13240
+Depends: apache2, dichvucoder-cli (= 7.4.33)
+Conflicts: php-apache, php7-apache
+Filename: pool/tur/dichvucoder-cli-apache_7.4.33_x86_64.deb
+Size: 2446748
+MD5sum: 25cc63a515bd27fdcffe96ab13606f0c
+SHA1: 7dad2c96768e94211ad5e3437500e83dc7021841
+SHA256: f9d503fe16afd0d5648ca76ffc32597d0e41d8c6bb9648b00a930d2aa55bb027
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: dichvucoder-cli-fpm
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @dichvucoder
+Installed-Size: 13348
+Depends: dichvucoder-cli (= 7.4.33)
+Conflicts: php-fpm, php7-fpm
+Filename: pool/tur/dichvucoder-cli-fpm_7.4.33_x86_64.deb
+Size: 2503708
+MD5sum: 3d3d82c8c214dccbdf245cbb11b0931e
+SHA1: 095b3069903640e28908b44c64c4d7501e655f30
+SHA256: acc5423aa0444b53a0ba4673d8bfed9981186ce05af6402b05a76597aa905dd0
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: dichvucoder-cli-pgsql
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @dichvucoder
+Installed-Size: 192
+Depends: apr-util, postgresql, dichvucoder-cli (= 7.4.33)
+Conflicts: php-pgsql, php7-pgsql
+Filename: pool/tur/dichvucoder-cli-pgsql_7.4.33_x86_64.deb
+Size: 47964
+MD5sum: 794206889dee90b983430281031848a1
+SHA1: 2807cc937afc82837562418b050c2313d75c6d2a
+SHA256: aaa8f2a03166c273ba7c337d490c50c49fb6bcfcd176981e4d57cdcf3d23ca07
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: dichvucoder-cli
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @dichvucoder
+Installed-Size: 46224
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev, php7
+Filename: pool/tur/dichvucoder-cli_7.4.33_x86_64.deb
+Size: 8143448
+MD5sum: 34f9f69c0852c3e3cb9e0a6c2063201d
+SHA1: e823b9015e7747e10e0a366cfb2e52b2b5e287c2
+SHA256: eb82a61761ef7b8d16412e8475b988767dda863ec991cb83908e5637c998df7a
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language (Maintained by dichvucoder)
+
 Package: dlib
 Version: 19.24-1
 Architecture: x86_64
