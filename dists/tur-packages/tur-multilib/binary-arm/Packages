@@ -1,3 +1,17 @@
+Package: bin32-nettle
+Version: 3.8.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 216
+Depends: lib32-libnettle (= 3.8.1)
+Filename: pool/tur-multilib/bin32-nettle_3.8.1_arm.deb
+Size: 46196
+MD5sum: e91c3573762c2d339a1286360a16940e
+SHA1: 25438c585ae744b35a9a134fccd19a4179f067a5
+SHA256: 3422250a81e54b6b8e72249ec0a258aa9677a35d67f3491b9b84fae9d697c651
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Low level cryptographic tools
+
 Package: lib32-libc++-shared
 Version: 25b
 Architecture: arm
@@ -26,6 +40,20 @@ SHA1: 396b53c57b997fda1d2cb753722ffde47e4b62bf
 SHA256: 665658d87c266afefd92392fc5c3b26aa11207d9061b8a7b93df7d6c8bf2b431
 Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
+
+Package: lib32-libnettle
+Version: 3.8.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 4476
+Depends: lib32-libgmp
+Filename: pool/tur-multilib/lib32-libnettle_3.8.1_arm.deb
+Size: 745580
+MD5sum: b7766f3acf2c4c784f35a06720f43292
+SHA1: da49d37e17b557dd758ff50163c8067f1a6f935a
+SHA256: 02eb0340b6668c0ad48c798e9d04c69789a1d87290e6e72c547ecc8217e10858
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Cryptographic library that is designed to fit easily in more or less any context
 
 Package: lib32-libc++
 Version: 25b
