@@ -55,6 +55,20 @@ SHA256: 11768e02e0a1e177e2ce67df6b291bce201469acff143ee0c450e90a153997c2
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Cryptographic library that is designed to fit easily in more or less any context
 
+Package: wine-stable
+Version: 7.0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 504248
+Depends: libc++, libgmp, libgnutls
+Filename: pool/tur-multilib/wine-stable_7.0.1_aarch64.deb
+Size: 83841480
+MD5sum: e694e1ace4de4f85b51c49142d82b19f
+SHA1: 588072069aadd3e34c0e1c1598e33f7b361eeaec
+SHA256: 3a9a2e961b47afed2019f94417922555d483d8162953493fcd5ccbf493366705
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
 Package: lib32-libc++
 Version: 25b
 Architecture: all
