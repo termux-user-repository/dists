@@ -68,6 +68,20 @@ SHA256: 842f569a330f66eadc347612dd404d4cae2a0d35cf36d027134498b504f0cbeb
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
+Package: electron-22.0.3
+Version: 22.0.3
+Architecture: x86_64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 410876
+Depends: electron-deps
+Filename: pool/tur-electron/electron-22.0.3_22.0.3_x86_64.deb
+Size: 69649840
+MD5sum: b5b6d97197d14a20426a431a5303ec6f
+SHA1: f0994eb7dd492b4ff575d6aa738e5d16abfb7a9c
+SHA256: 5fd378556f0b2a06de7e4d61f2004f455bfc5ff5fd131819327baf0b5492570e
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
 Package: electron-deps
 Version: 0.0.1
 Architecture: all
@@ -76,9 +90,9 @@ Installed-Size: 4
 Depends: atk, cups, dbus, fontconfig, freetype, gtk3, krb5, libc++, libffi, libxkbcommon, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio
 Filename: pool/tur-electron/electron-deps_0.0.1_all.deb
 Size: 824
-MD5sum: d896d875c7eb43a0c08a21a01e52b421
-SHA1: af8e310a477ab2624b3f982d22066a0993ea354f
-SHA256: 458a4c566fba53d2d5130ea0d7f9b4abd8a140a991fe6fd1a8866204ef28e411
+MD5sum: f8d9202cc9427822c4b42fc3def57134
+SHA1: 454c5b73c0bf320aed30146363a875eb5dd36cbb
+SHA256: a5428f420de8919616ce17c562623c4b951f46db3e1dc94baf483c053dc5fc96
 Homepage: https://github.com/termux-user-repository/tur
 Description: A metapackage that contains dependencies for electron
 
