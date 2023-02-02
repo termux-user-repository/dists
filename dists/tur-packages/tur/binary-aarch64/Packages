@@ -149,66 +149,6 @@ SHA256: 906b2603b1577c3cd944ad6281c54eb378d11a2a06d0f5d82fe4762aa810b851
 Homepage: https://github.com/clbarnes/detchar
 Description: Minimal CLI utility of chardetng crate, which is a successor to universalchardet (uchardet)
 
-Package: dichvucoder-cli-apache
-Version: 7.4.33
-Architecture: aarch64
-Maintainer: @dichvucoder
-Installed-Size: 12792
-Depends: apache2, dichvucoder-cli (= 7.4.33)
-Conflicts: php-apache, php7-apache
-Filename: pool/tur/dichvucoder-cli-apache_7.4.33_aarch64.deb
-Size: 2271184
-MD5sum: 37d9921a46d5afd6e1e9e56e3a9873de
-SHA1: 88011228b8eb3ecb6fd654f560bcc27320d405da
-SHA256: 1367b53f3833712570bcb540d7c3a3bcf85475516754e040cef68329b6f981d4
-Homepage: https://php.net
-Description: Apache 2.0 Handler module for PHP
-
-Package: dichvucoder-cli-fpm
-Version: 7.4.33
-Architecture: aarch64
-Maintainer: @dichvucoder
-Installed-Size: 12904
-Depends: dichvucoder-cli (= 7.4.33)
-Conflicts: php-fpm, php7-fpm
-Filename: pool/tur/dichvucoder-cli-fpm_7.4.33_aarch64.deb
-Size: 2319052
-MD5sum: aff194f91c891229c8a99d91d66a6763
-SHA1: 93b1af6f6082a61bc66614139adc714505938383
-SHA256: 8cc15c1521179c17419ea76a74a6768781e594703cd6a046037805eed1023fbd
-Homepage: https://php.net
-Description: FastCGI Process Manager for PHP
-
-Package: dichvucoder-cli-pgsql
-Version: 7.4.33
-Architecture: aarch64
-Maintainer: @dichvucoder
-Installed-Size: 176
-Depends: apr-util, postgresql, dichvucoder-cli (= 7.4.33)
-Conflicts: php-pgsql, php7-pgsql
-Filename: pool/tur/dichvucoder-cli-pgsql_7.4.33_aarch64.deb
-Size: 41996
-MD5sum: 62b4e6fd8038571d925980afb39e903c
-SHA1: 8da4b51aa172eb5b6d288159f5b5496f96b55586
-SHA256: 77cf1f54548f4aac08bf530af445db354ca07aa40857a6c795b2c483556e04d1
-Homepage: https://php.net
-Description: PostgreSQL modules for PHP
-
-Package: dichvucoder-cli
-Version: 7.4.33
-Architecture: aarch64
-Maintainer: @dichvucoder
-Installed-Size: 44848
-Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
-Conflicts: php, php-mysql, php-dev, php7
-Filename: pool/tur/dichvucoder-cli_7.4.33_aarch64.deb
-Size: 7594048
-MD5sum: 7722a40d9805b46442b39dc9ebb1346d
-SHA1: 5c50151244a4c939d4eaa1875b6185ba6e9c54f0
-SHA256: 5d17def43e02a4ecaa7c556bf0a6806af2b818718b2e8aaa4e9ad8c4c8428cb1
-Homepage: https://php.net
-Description: Server-side, HTML-embedded scripting language (Maintained by dichvucoder)
-
 Package: dlib
 Version: 19.24-1
 Architecture: aarch64
@@ -1033,34 +973,6 @@ SHA1: 08d2f4516774068aad17d1d1cbd9955057a514f3
 SHA256: 141d9be49c5217462a6f072dc267e6c1f8360bd706ffadea87ee31acf8f15419
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
-
-Package: php7-dgbaopro
-Version: 8.5.1
-Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 352
-Depends: libandroid-execinfo, php7
-Filename: pool/tur/php7-dgbaopro_8.5.1_aarch64.deb
-Size: 91640
-MD5sum: b8b21d9dc374e981afdef91a446991de
-SHA1: a4ceb4e44ddab3338e34beeb7fd7b1529231f27c
-SHA256: e9f84d4443f523e659226741da2177e2a3cc5237d3ecd50e292532c98d55b782
-Homepage: https://dichvucoder.com
-Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
-
-Package: php7-dichvucoder
-Version: 9.0.0
-Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 240
-Depends: libandroid-execinfo, php7
-Filename: pool/tur/php7-dichvucoder_9.0.0_aarch64.deb
-Size: 64260
-MD5sum: e64f8fc28407e011dc42838d28888756
-SHA1: 666223bafbc27ff64550d76f1fa801e74b5270b6
-SHA256: 8bfdd0fed4eeaf3a0478c26a16b756ba15b943069c6223964c409c2166840b2c
-Homepage: https://dichvucoder.com
-Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
 
 Package: php7-fpm
 Version: 7.4.33
