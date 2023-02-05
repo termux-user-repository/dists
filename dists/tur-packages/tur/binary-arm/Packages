@@ -79,36 +79,6 @@ SHA256: dbffe0dda3551ba8741b8ea66760aa2117674b20add63681fd595b4ec2d69824
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
-Package: code-is-code-oss
-Version: 1.74.3
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 64
-Depends: code-oss (= 1.74.3)
-Conflicts: code
-Breaks: code
-Filename: pool/tur/code-is-code-oss_1.74.3_arm.deb
-Size: 2568
-MD5sum: 0be3bee03038d5aa5d6c1eb43c3f86aa
-SHA1: 4498c03ce5b6165a1674e86b6f39ab3c366e1ea8
-SHA256: 2cd9ee8b52bafaa5f56207bae83ee8f184f607d5bb51d5f6395b6d873fae474e
-Homepage: https://github.com/microsoft/vscode
-Description: Symlinks code/vscode to code-oss
-
-Package: code-oss
-Version: 1.74.3
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 249024
-Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.74.3_arm.deb
-Size: 63356964
-MD5sum: 9448ce58aa1628998dc27d3d6d92509d
-SHA1: 292e799070fec08561307e3b6adb3e5b2d96e8e3
-SHA256: 35d3edfc3fcf55d1f99f76937c474748d7d72d45e0872413856c7a795eec54c7
-Homepage: https://github.com/microsoft/vscode
-Description: Visual Studio Code
-
 Package: code-server
 Version: 4.9.1
 Architecture: arm
@@ -346,6 +316,19 @@ SHA1: 15614b15b06a7d29e898461174635fc3ac478207
 SHA256: 3aa3c77a6f9e6de16a6ffe3e38b0d14febabb5f8dbb0d29464e0031963fe6b0c
 Homepage: https://github.com/diamondburned/gtkcord4
 Description: GTK4 Discord client in Go
+
+Package: gtt
+Version: 2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7980
+Filename: pool/tur/gtt_2_arm.deb
+Size: 2338060
+MD5sum: eae5d0ea1eb23574405aa7455b879322
+SHA1: 509728fe29895addfd36c997962e3e098357d691
+SHA256: 291e85d54cec10a8a6ae79d3654894644f182327ad8e1afdae555dda81ca95a0
+Homepage: https://github.com/eeeXun/GTT
+Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
 Package: libandroid-mathlib-static
 Version: 0.1

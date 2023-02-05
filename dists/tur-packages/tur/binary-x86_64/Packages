@@ -80,32 +80,32 @@ Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-is-code-oss
-Version: 1.74.3
+Version: 1.75.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 64
-Depends: code-oss (= 1.74.3)
+Depends: code-oss (= 1.75.0)
 Conflicts: code
 Breaks: code
-Filename: pool/tur/code-is-code-oss_1.74.3_x86_64.deb
-Size: 2572
-MD5sum: 1024ab0b8f2fddc003e2b683428e55b6
-SHA1: 746872436b54434d4cd99da89efa29019d1ad0e1
-SHA256: 5bc71009a2a1d1fff9e4f7ef959c747c93a78f89eec3dbee1e66bb9d7d8d34e1
+Filename: pool/tur/code-is-code-oss_1.75.0_x86_64.deb
+Size: 2568
+MD5sum: f8d17251d6b37997817faeb4d9ff7104
+SHA1: 7bc9939abe15d062efadb61b2b1a67c0a5146b2f
+SHA256: 8c6f98964aedc36829926a4dd7243b7fb6d5bb58cbf4bad89b7701a490f54361
 Homepage: https://github.com/microsoft/vscode
 Description: Symlinks code/vscode to code-oss
 
 Package: code-oss
-Version: 1.74.3
+Version: 1.75.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 289948
+Installed-Size: 291556
 Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.74.3_x86_64.deb
-Size: 66195020
-MD5sum: 3fb665de9f5f35b622cc3bfc3db83b02
-SHA1: 81c93d00eec1090162d3c1baaeb1fd0fad968f7d
-SHA256: 0f0c18c904e1775603968d7085df7bc1a990417e3c0496891bcee6d0bfd34f51
+Filename: pool/tur/code-oss_1.75.0_x86_64.deb
+Size: 66159636
+MD5sum: 932075e582d5f2cdec655f9a7d4665c1
+SHA1: cf36e16a53c6e17df8143d4af782dc9f4d68b5f6
+SHA256: ba06dc3266eb04f6f57dffdce9e38785a734fe05f2ff856651249eb57716770f
 Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
@@ -346,6 +346,19 @@ SHA1: 90eb5ba1c568a784ada33c52ec721ee4b425d46e
 SHA256: a25079af83fb4f0714f1b7dd87168655dd60a8effee183a4441b109e86614964
 Homepage: https://github.com/diamondburned/gtkcord4
 Description: GTK4 Discord client in Go
+
+Package: gtt
+Version: 2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 9136
+Filename: pool/tur/gtt_2_x86_64.deb
+Size: 2700756
+MD5sum: f6a6f93365541a28735110bd67fa8245
+SHA1: d784c6e1b1d467577c0fad7ae9f7dd8fdec869be
+SHA256: 26fd06a9bd58dedd72fec2963d58f7ffb8f8c7b96bef4d6667739961f70d4411
+Homepage: https://github.com/eeeXun/GTT
+Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
 Package: lfortran-llvm
 Version: 0.15.0
