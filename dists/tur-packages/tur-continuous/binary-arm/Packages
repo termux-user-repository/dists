@@ -14,32 +14,32 @@ Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
 Package: electron-is-electron21
-Version: 21.3.3
+Version: 21.4.1
 Architecture: arm
 Maintainer: Chongyun Lee <uchkks@protonmail.com>
 Installed-Size: 32
-Depends: electron21 (= 21.3.3)
+Depends: electron21 (= 21.4.1)
 Conflicts: electron
 Breaks: electron
-Filename: pool/tur-continuous/electron-is-electron21_21.3.3_arm.deb
+Filename: pool/tur-continuous/electron-is-electron21_21.4.1_arm.deb
 Size: 880
-MD5sum: fafb62c09191627cb02605744b47a38a
-SHA1: 533006ca271f586ad55594922e1634eac0a9a497
-SHA256: 48a801a19b78c26f33b23c7c08b96163d2f37dfc2dfa9ec788b7387bfb92508a
+MD5sum: 1a0c8bbdd60972b6cf105c1802dc1a0b
+SHA1: 76c0c1888bec793138b7799416ad21c1ea687337
+SHA256: 93a8cb3326dcd0bb3f8ba4ec48418b27a91aed0c0385f4ee06d504735019a476
 Homepage: https://github.com/electron/electron
 Description: Symlinks electron to electron21
 
 Package: electron21
-Version: 21.3.3
+Version: 21.4.1
 Architecture: arm
 Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 201440
+Installed-Size: 201444
 Depends: electron-deps
-Filename: pool/tur-continuous/electron21_21.3.3_arm.deb
-Size: 50808484
-MD5sum: 6d4d17361659b6023ec30b30f13f7fbb
-SHA1: b9bb4ae8e5c7d3ec20e8cfe88e0738708646e6a5
-SHA256: 5beb0a603ebd0f4cdbf5dc90cccf35adc6631a966add442e903f509acb47c647
+Filename: pool/tur-continuous/electron21_21.4.1_arm.deb
+Size: 50609836
+MD5sum: d03a38af967cab70ad010da51d702a52
+SHA1: c1f388e92b944b65f64360e34f4b30e07e90a216
+SHA256: 08647aba17fd09e4713dab7677621db39dac23483f8ae6749aade3a015ce19b9
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
