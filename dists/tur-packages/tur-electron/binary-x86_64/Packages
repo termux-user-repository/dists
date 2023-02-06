@@ -40,6 +40,20 @@ SHA256: c678bc59d1dcf47db0091c28409850eaffd59d49b3c2cab78740636459612dfc
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
+Package: electron-19.1.9
+Version: 19.1.9
+Architecture: x86_64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 343344
+Depends: electron-deps
+Filename: pool/tur-electron/electron-19.1.9_19.1.9_x86_64.deb
+Size: 63665908
+MD5sum: 025e947aa043e95284a99f74219b0493
+SHA1: 79d16bd38cde0f2444b44dd6b917784f1f451ece
+SHA256: 806781bd597b0c6dd538c80d7e325d91f35b0f5e6854b2bc8aa83cbdebb1c2cd
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
 Package: electron-21.3.3
 Version: 21.3.3
 Architecture: x86_64
@@ -165,4 +179,18 @@ SHA1: 44bad5e3dd8a1aa7c19ac90194e6beea008f5f9e
 SHA256: 0cda3c7ee4da901502bd4025052a4e8d5ff970a93799f77c4c3a33c005b0937f
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+Package: electron-deps
+Version: 0.0.2
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 4
+Depends: atk, cups, dbus, fontconfig, freetype, gtk3, krb5, libc++, libffi, libxkbcommon, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio
+Filename: pool/tur-electron/electron-deps_0.0.2_all.deb
+Size: 824
+MD5sum: 0dba57c970b89002b69b945da95d85a8
+SHA1: 9f79b0bd740f89e87111112240c94e7f0acae279
+SHA256: 4c9f7aeda477bd49a9fa6018ae1a69e677a40d4f46512d9fce176af97c84c0f1
+Homepage: https://github.com/termux-user-repository/tur
+Description: A metapackage that contains dependencies for electron
 
