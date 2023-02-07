@@ -11,6 +11,8 @@ jobs:
   Updating_dist:
     runs-on: ubuntu-latest
     concurrency: build_dists
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
@@ -18,8 +20,10 @@ jobs:
         uses: oleksiyrudenko/gha-git-credentials@v2.1
         with:
           global: true
-          with:
-            token: '${{ secrets.GH_TOKEN }}'
+          name: 'Dichvucoder'
+          email: 'dichvucoder@gmail.com'
+          actor: 'Dichvucoder'
+          token: '${{ secrets.GH_TOKEN }}'
 
       - name: updating and signing releases file
         env:
