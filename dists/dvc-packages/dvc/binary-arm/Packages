@@ -11,3 +11,62 @@ SHA256: 72231ebc19b82f3191e8d94de0e30d1d3856ceced329362529f7a1157a657cef
 Homepage: https://github.com/Dichvucoder/dvc-packages
 Description: Dummy test for dvc packages
 
+Package: php7-apache
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10732
+Depends: apache2, php7 (= 7.4.33)
+Filename: pool/dvc/php7-apache_7.4.33_arm.deb
+Size: 2127228
+MD5sum: 08481c8c9c03cbe9f6a303bd9268c59a
+SHA1: 951022fe65aefb3ecadfe37d950473e63529c134
+SHA256: 647089c8e666d41a05078bc84238dbeb4f1cffb21fdecdf16ff10edf8a650877
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-fpm
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10864
+Depends: php7 (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/dvc/php7-fpm_7.4.33_arm.deb
+Size: 2177904
+MD5sum: 0788fe19fd3375d822c9d9a091b3006e
+SHA1: 264055932b26a6c19786f05fae54f9804f13e82f
+SHA256: 11b53f8b74d9270dd8687bcc580818259f4cf30d02f43ea4aa456e3e59f94a2d
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-pgsql
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 136
+Depends: apr-util, postgresql, php7 (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/dvc/php7-pgsql_7.4.33_arm.deb
+Size: 40088
+MD5sum: 0a8bd3dc02523f3f4d3efa374f6639b4
+SHA1: 3445304f5686e8a1791f7f7a23c682207de3503a
+SHA256: 30c457637e9b44d7a32a3c7efc1d64695e56cd22513e8b87e7dc9d0e29f749ec
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7
+Version: 7.4.33
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 38520
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/dvc/php7_7.4.33_arm.deb
+Size: 7144504
+MD5sum: fd041e16ed02466544a4889a8a58b6a8
+SHA1: 943f22786c257b1a79ce6b5e5a81e340aab76f0a
+SHA256: 72293be998603e7c2b17ed8f96fe5d97e76f2da10318c878af1b625e6c963c56
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
