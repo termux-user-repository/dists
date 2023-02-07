@@ -2,8 +2,8 @@
 
 echo "Jai ho"
 base_dir=$(realpath "$(dirname "$0")")
-owner="termux-user-repository"
-repo="tur"
+owner="Dichvucoder"
+repo="dvc-packages"
 asset_json=$(mktemp /tmp/json.XXXXXXX)
 gh api -H "Accept: application/vnd.github.v3+json"  https://api.github.com/repos/$owner/$repo/releases > $asset_json
 

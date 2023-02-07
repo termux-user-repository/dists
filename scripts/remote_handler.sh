@@ -3,7 +3,7 @@ set -e -o pipefail
 BASE_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
 DEB_DIR=$BASE_DIR/processed_deb
 POOL_DIR="$(dirname "$BASE_DIR")/pool"
-owner="termux-user-repository"
+owner="Dichvucoder"
 repo="dists"
 tag="0.1"
 ## fetch remote pool for debfile name
@@ -75,7 +75,7 @@ remove_archive_from_temp_gh() {
     # However repository consistency checker will catch any unsuccesful checks. 
     cd $BASE_DIR
     for temp in ./*.tar;do
-        if gh release delete-asset -R github.com/$owner/tur $tag "$(basename $temp)" -y;then
+        if gh release delete-asset -R github.com/$owner/dvc-packages $tag "$(basename $temp)" -y;then
 
             echo "$temp removed!!"
         else

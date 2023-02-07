@@ -11,17 +11,17 @@ REPO_JSON="$(dirname "$BASE_DIR")/repo.json"
 arch_array=("aarch64" "arm" "i686" "x86_64")
 components_array=($(jq -r .[].name  $REPO_JSON | tr '\n' ' '))
 # Info being added into release file
-ORIGIN="Termux-user-repository"
-Suite="tur-packages"
-Codename="tur-packages"
+ORIGIN="Dichvucoder"
+Suite="dvc-packages"
+Codename="dvc-packages"
 Architectures="aarch64 arm i686 x86_64"
 Components=$(for i in "${components_array[@]}";do echo -n "$i ";done)
-Description="Created with love for Termux community"
+Description="Dichvucoder packages"
 
 download_unprocessed_debs() {
     pushd $BASE_DIR
     rm -rf ./*.tar
-    gh release download -R termux-user-repository/tur 0.1 -p "*.tar"
+    gh release download -R Dichvucoder/dvc-packages 0.1 -p "*.tar"
     popd
     
 }
