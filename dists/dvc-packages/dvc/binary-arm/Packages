@@ -11,6 +11,92 @@ SHA256: 72231ebc19b82f3191e8d94de0e30d1d3856ceced329362529f7a1157a657cef
 Homepage: https://github.com/Dichvucoder/dvc-packages
 Description: Dummy test for dvc packages
 
+Package: php-8.1-apache
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 12152
+Depends: apache2, php-8.1 (= 8.1.6)
+Filename: pool/dvc/php-8.1-apache_8.1.6_arm.deb
+Size: 2302972
+MD5sum: 8b8e632e260d1e4c4b55ab8175b4e819
+SHA1: 3425aea72dc09ff3f4ef590086d4e5cecd91cca9
+SHA256: 2b21e33bfb2e9a843507aba119a6d3e53fe82c02a23a1785571eb7e6f038f85a
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php-8.1-fpm
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 12252
+Depends: php-8.1 (= 8.1.6)
+Filename: pool/dvc/php-8.1-fpm_8.1.6_arm.deb
+Size: 2352676
+MD5sum: 0011ca7cdecf4a68339b4726932b6cc0
+SHA1: 1ed05d3a01062338ef8c396ef7c8e8e510eb6545
+SHA256: 4bd6e9fd0288c6af42f9b4d355fa2e596241e2e00e3226f1c89b8bb2908139bb
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php-8.1-ldap
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 88
+Depends: openldap, php-8.1 (= 8.1.6)
+Filename: pool/dvc/php-8.1-ldap_8.1.6_arm.deb
+Size: 21896
+MD5sum: 51dd95faae4e01847b56d4a8336d03a4
+SHA1: 76cbff8a965b561822f4040f14f297393b1a6168
+SHA256: df347e9565e254b29879ec27e671494ccd5ceb2b9530e875e0dc817d6b1b88af
+Homepage: https://php.net
+Description: LDAP module for PHP
+
+Package: php-8.1-pgsql
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 140
+Depends: apr-util, postgresql, php-8.1 (= 8.1.6)
+Filename: pool/dvc/php-8.1-pgsql_8.1.6_arm.deb
+Size: 40428
+MD5sum: b5cf2aa77047faec38c23a9c749f0927
+SHA1: ce3c3d2f7840b7ed1e147dafac817298ec398b02
+SHA256: 97db18520c563862701913707ba6fd510345d7fe51939a0b3fe6a5a1e4d9687f
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php-8.1-sodium
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 96
+Depends: libsodium, php-8.1 (= 8.1.6)
+Filename: pool/dvc/php-8.1-sodium_8.1.6_arm.deb
+Size: 18584
+MD5sum: 03bf20dee2aa1ddc5696310425b4b7c6
+SHA1: 2b1cd47575305caaef8bac488408ace721af2b34
+SHA256: cdc22c5613a8d6d38ea5f93202e3e65ed45d75d7f076e5b96436130b72f40c2d
+Homepage: https://php.net
+Description: Sodium module for PHP
+
+Package: php-8.1
+Version: 8.1.6
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 43208
+Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy, zstd
+Conflicts: php-mysql, php-dev
+Replaces: php-mysql, php-dev
+Filename: pool/dvc/php-8.1_8.1.6_arm.deb
+Size: 7651488
+MD5sum: a9331a05f54b6ee267c1066f6056b5db
+SHA1: 720e4af375b6c2c12c7043231b2484dd529a6c1f
+SHA256: 1e49f8416381674042bb305ebe9b1c72d4a72be260ddecfa16000c40654fcfc1
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7-apache
 Version: 7.4.33
 Architecture: arm
