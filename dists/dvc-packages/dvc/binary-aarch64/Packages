@@ -18,12 +18,26 @@ Maintainer: @Dichvucoder
 Installed-Size: 14380
 Depends: apache2, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-apache_8.1.6_aarch64.deb
-Size: 2458928
-MD5sum: 98096c4c0a9404a16c8abec7543291d1
-SHA1: 08bd129355ea8e719d728c5e5674e6c23d4373e2
-SHA256: d2bcc3cfd03fee8f7a9b7db3da3d2f7bd706c6ed87be26d7b275e014141abf33
+Size: 2458156
+MD5sum: 0e21c32988d52ad5dbbdb2eda4d15c7e
+SHA1: 4fc76c5b51aa0e114ee719272a5298ab7a2f084e
+SHA256: 97001b2a623502dd86a26c5de94fe6f293082cee74b9c01ae638fe6e581138b1
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
+
+Package: php-8.1-dgbaopro
+Version: 8.5.0
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 360
+Depends: libandroid-execinfo, php-8.1
+Filename: pool/dvc/php-8.1-dgbaopro_8.5.0_aarch64.deb
+Size: 94376
+MD5sum: e61b2ac5daafcdbe28775da2f12b02f2
+SHA1: 7d9c2e5d219bdff689b45faae00f8a19a55486ba
+SHA256: 0b2895668c088cdbd74ecb24966af914cbd270f19a805024e1ed473ce8b39947
+Homepage: https://dichvucoder.com
+Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
 
 Package: php-8.1-fpm
 Version: 8.1.6
@@ -32,10 +46,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 14488
 Depends: php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-fpm_8.1.6_aarch64.deb
-Size: 2511812
-MD5sum: ff5ed6b3f51890486f91e8e9fa1e6c43
-SHA1: 811fd7e2e50edc9421a59089b6ea5f39ff8ce26d
-SHA256: 5ecaeaa7b61c549354f99fb7010d7f36ddc4ae9b067911c15a67deaeed1a1ba8
+Size: 2514816
+MD5sum: b4f09033fe7bb4c4b40a2dcd21af446d
+SHA1: 9e82385f6ca74f43fd7242b9d9bbce6d0daf7428
+SHA256: 3fea86596287c3d80f2cb68b4dd8a363a5c0d78d0584860c7a753d33ef0a4855
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
@@ -46,10 +60,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 112
 Depends: openldap, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-ldap_8.1.6_aarch64.deb
-Size: 24048
-MD5sum: 6565db98eb1df59db599dca2a4d2e914
-SHA1: 9a8f2a968173d66cb159958a0c332c4d9a455215
-SHA256: b164a892ca5e8bc931936b77587511327974cbec2547e92b8f539d544efb938a
+Size: 24096
+MD5sum: 63fedcbcd96d68ec92ffd1aa51b1aafd
+SHA1: b8362e19aa39d8230501803858bee68a49eb2031
+SHA256: b0e93362ebaef0334873c95c1c300a85a5fe2e5b93608875fc959670e11c6fa4
 Homepage: https://php.net
 Description: LDAP module for PHP
 
@@ -60,10 +74,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 184
 Depends: apr-util, postgresql, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-pgsql_8.1.6_aarch64.deb
-Size: 43412
-MD5sum: 8e9615ca6f86077603791bdb5647b4d5
-SHA1: ae8db6e3d3ba7416b551b326900a2467b3b1c562
-SHA256: 4d310f7cb30b2944f7b0cbb120dbda3093dd1f45ad6b88c5738ddc3255eca3f2
+Size: 43356
+MD5sum: a34237ba2e12961a8e70f63ed9b02ed5
+SHA1: 31525bc1494ee811d9743c8c7900ad3bf9c04900
+SHA256: edc810d10ff0579c21baf297b1def718d43a69bb3adefbf7bafc60397914294c
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -75,9 +89,9 @@ Installed-Size: 116
 Depends: libsodium, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-sodium_8.1.6_aarch64.deb
 Size: 19112
-MD5sum: 52699b64bc6cf55efc7e37f1dfdf33e1
-SHA1: 8e5e0b17f18c222dc4a50ee0fa350b5844aa6889
-SHA256: 0792ad21f7ccbf8c3be486560474dd965b288e9414ed363195923ab2f1c79690
+MD5sum: dce807b3806e71f2476d31533d5b19ad
+SHA1: cabcc533b321ef2d5c607de6ee31e6160134d9c8
+SHA256: ded52db7fa4d79d1b258191c6a320c7eeea2ceb00f4dabf8d7b232bee3b97dce
 Homepage: https://php.net
 Description: Sodium module for PHP
 
@@ -88,12 +102,11 @@ Maintainer: @Dichvucoder
 Installed-Size: 51288
 Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy, zstd
 Conflicts: php-mysql, php-dev
-Replaces: php-mysql, php-dev
 Filename: pool/dvc/php-8.1_8.1.6_aarch64.deb
-Size: 8486672
-MD5sum: 923b47416d6bf9d1ef433e516267d94f
-SHA1: b60629f2e34e6e29894c72474ce756b75361f496
-SHA256: ffeb767a108e8191496772c3c55980afa44c9882f70770887d3d4ace247ffb1d
+Size: 8488016
+MD5sum: 43cd474ac264d6e8f6c343b040d19031
+SHA1: 0aa12512e8243f2128a8d0b738fd58e9d8e562d1
+SHA256: 9880982677f94ee0e6c3f99542747d644a8b1f6f699c67118b843939a616d15e
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
