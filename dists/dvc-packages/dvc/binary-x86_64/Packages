@@ -242,6 +242,65 @@ SHA256: e118f8fd74704afd7d6a76bcebe523061bb2acfe0c0e8b32022b6724d454bd10
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
+Package: php7-zts-apache
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 13416
+Depends: apache2, php7-zts (= 7.4.33)
+Filename: pool/dvc/php7-zts-apache_7.4.33_x86_64.deb
+Size: 2501756
+MD5sum: 8a8370a72922b5e4cc453fe5a6eff251
+SHA1: 34172b82b3cde8b8e3faf393f72c9ad0ae77e28a
+SHA256: 80059c9d065639cefdfe11158603bd221f8a508de8cf27a1ba2477565b07f7f6
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-zts-fpm
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 13548
+Depends: php7-zts (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/dvc/php7-zts-fpm_7.4.33_x86_64.deb
+Size: 2554772
+MD5sum: 6977d65d42716a64ab51cacc05680a72
+SHA1: 9a6aaaff45bbdab43b8e5885e1d4f5bd807076ab
+SHA256: 6ae8db3ffc2d2fcdc10787ac83808c8f07686f64d1b5290e0f530532d1cb0ad6
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-zts-pgsql
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 196
+Depends: apr-util, postgresql, php7-zts (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/dvc/php7-zts-pgsql_7.4.33_x86_64.deb
+Size: 49032
+MD5sum: 01d6d76490d48cead201819654fd2ea6
+SHA1: ac0d1b9e5889b864bab49ef0b8b8188227e98ee4
+SHA256: 1d6f0aa4cce57b6575d0fc5802442bec2b9d710f1cbaf212bf9f37bd167fc8e2
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7-zts
+Version: 7.4.33
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 46832
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/dvc/php7-zts_7.4.33_x86_64.deb
+Size: 8332616
+MD5sum: 796210557c644cf7efd208549d1c5262
+SHA1: 8ef7066055dc4b025e5788e3cf333a30fac96d2d
+SHA256: 99bf52c00b51772824c2b5865719732e1d4c2eb55669eeb81e3eec5b93a39c19
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7
 Version: 7.4.33
 Architecture: x86_64
