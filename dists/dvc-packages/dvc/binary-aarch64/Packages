@@ -301,6 +301,38 @@ SHA256: 5d63b2ff045874cf05b57a4b61c2414ce603b1768420045b00c1761cb66dc60f
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
+Package: php7.2-zts
+Version: 7.2.34
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 73448
+Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
+Conflicts: php, php7
+Replaces: php, php7
+Filename: pool/dvc/php7.2-zts_7.2.34_aarch64.deb
+Size: 13826180
+MD5sum: 61442a69d29f77c3c7e1843076ff247c
+SHA1: 7f1503e9b198d321d4d4b81c66ea47e79ef9fe74
+SHA256: 407744a263afd96cfa2f050f0d88d65d29611460ee6abe1d48d9195877433c7b
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
+Package: php7.2
+Version: 7.2.34
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 73416
+Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
+Conflicts: php, php7
+Replaces: php, php7
+Filename: pool/dvc/php7.2_7.2.34_aarch64.deb
+Size: 13822528
+MD5sum: 9bcdedbdee4063e1d5e06279516a6c9a
+SHA1: adb55da4b26eee92f698b74c0847ed183bad9fce
+SHA256: f6e71bd25ca7505c6c2948735cfbd281c95d82d653fe066195538a3d4eb187d2
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7
 Version: 7.4.33
 Architecture: aarch64
