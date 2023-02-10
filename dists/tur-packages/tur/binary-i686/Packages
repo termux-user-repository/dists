@@ -896,6 +896,22 @@ SHA256: 89fba1fbd4e1603e88d3cb80d751bf8a9386949f71d2af9e18f64e3b77449353
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
+Package: php7.2
+Version: 7.2.34
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 70760
+Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
+Conflicts: php, php7
+Replaces: php, php7
+Filename: pool/tur/php7.2_7.2.34_i686.deb
+Size: 14394544
+MD5sum: 0ca5dafc77ab16fbf6dbdf24a65013b9
+SHA1: 0d01fe355f497fd7f311922d6efe9140966b27f9
+SHA256: 1f0000782d99d3aad282c7f9b140211aa4b9194ee2475abcc9ff4d015129a2aa
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7
 Version: 7.4.33
 Architecture: i686
