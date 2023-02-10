@@ -18,10 +18,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 13720
 Depends: apache2, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-apache_8.1.6_i686.deb
-Size: 2565328
-MD5sum: ef8b71787d81cae33a52ed2f450e76fd
-SHA1: 8e0336147a457f6f56c10c5d01b3af33b381ed37
-SHA256: a0e341831cdb7c0e633b9e69b6c436450eabfdf5127c70941942310f4c37fac0
+Size: 2567204
+MD5sum: 34cb4833a4afc9b95aaa9e8e5938363f
+SHA1: c40c5a4d64979ee661f5ccc2b13791eb7db04260
+SHA256: d525c89be6af5303e0c1bcace432f3828dd2c27154344601e66c5b71f97f4b6f
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
@@ -46,10 +46,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 13860
 Depends: php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-fpm_8.1.6_i686.deb
-Size: 2619256
-MD5sum: 023ef83e6c761e9472da99b6f06e9af2
-SHA1: cfb35e8dc4b82bbccc30357259bfef0eeee2a61c
-SHA256: cfc012b7e1553f0a589c82c45b85bd79051ce6a2d1ca939ef99844a09ab48d6a
+Size: 2619776
+MD5sum: 32e0a35493969a0533c62a6df82a86e8
+SHA1: 0132568f87fe736b1a7ea7b7f7a6f73620f351e5
+SHA256: d1a83dbc7b758d8d92389fd053f9c82ce0764fbba4c506d9671d74c797798bec
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
@@ -60,10 +60,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 104
 Depends: openldap, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-ldap_8.1.6_i686.deb
-Size: 25212
-MD5sum: 28bc339010fa2c48c4655ed7b0042e99
-SHA1: c27f86e10434db231bd27c76295a717964a3867f
-SHA256: 4c01fede31911c1c339e1f0be565be5edd2e83ba217d804eabf85300b165bcc6
+Size: 25248
+MD5sum: 639f5210a0b146e31b3af19ec47297d9
+SHA1: ec094e079f94808b1cb69f356bc274b4dcc7c32a
+SHA256: 7c282ecc18b935b2c9c8926a59676f8d28d31b93083779eb1c83100065bedd97
 Homepage: https://php.net
 Description: LDAP module for PHP
 
@@ -74,10 +74,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 168
 Depends: apr-util, postgresql, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-pgsql_8.1.6_i686.deb
-Size: 45136
-MD5sum: e2a6a92151f2e0ee8e1743f882d5d8b5
-SHA1: b0a855c1ff190ab7ec0db557c4490f647b598f0c
-SHA256: f349c5c994a6eeb34a6ccb12730ccb7b0630b91788d9b5109d0b722d84006468
+Size: 45116
+MD5sum: fbd03ca4f4fa43c94ddf05dd2ff689c3
+SHA1: 9060e575c8d0ba950a85ce937430e46ba379151f
+SHA256: 0c14d48dfa1ad980d4d938c7402c57182073d7bde5621ac4b701efdcedea73ae
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -88,10 +88,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 108
 Depends: libsodium, php-8.1 (= 8.1.6)
 Filename: pool/dvc/php-8.1-sodium_8.1.6_i686.deb
-Size: 19340
-MD5sum: bc89e7bcce8529d47875b884e2e933fb
-SHA1: b333fbf4ec523f27a671930fac8076dfbd0d4f74
-SHA256: f56e3ea2a6b61e84ca7d6c1eb8f762cb89e3c7f3ff02af004f0a88a31c56577b
+Size: 19372
+MD5sum: cac82c5b1982902c5af8a5ecfb135127
+SHA1: 9d0ed80095beaaefde9dec818facaa78f99e4e0a
+SHA256: 08093a0d3a278d0b6dc614dc0c87f1a25ee9442753648a8a7de4b80ccd01f534
 Homepage: https://php.net
 Description: Sodium module for PHP
 
@@ -102,11 +102,12 @@ Maintainer: @Dichvucoder
 Installed-Size: 48648
 Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy, zstd
 Conflicts: php-mysql, php-dev
+Replaces: php-mysql, php-dev
 Filename: pool/dvc/php-8.1_8.1.6_i686.deb
-Size: 8655548
-MD5sum: 99cea3ae311c84f02c18ce54a2bdda79
-SHA1: 4a76622e378559cd732845627c853c5487cedfd4
-SHA256: 0a12ccbd1673b91a825b577e8440f0593129f23b292afb27f9f61d1703b873af
+Size: 8656992
+MD5sum: baf46b8df0450f682a3385ad25bf3932
+SHA1: da34d62253e7a5229f585aef51707962137e9758
+SHA256: 936c43d4d898af3d381ab429ccb0951d6fedfcd7b453811d1831d92d80c0f631
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
@@ -123,6 +124,65 @@ SHA1: bc9250c07c921d9983ec375d36f72503ef0c10b1
 SHA256: 60f16059ee9ac76f1658a550d2be2f9b316f3a81312f1da4cbb5bd2856761478
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
+
+Package: php7-crack-apache
+Version: 7.4.33
+Architecture: i686
+Maintainer: @Dichvucoder
+Installed-Size: 12164
+Depends: apache2, php7-crack (= 7.4.33)
+Filename: pool/dvc/php7-crack-apache_7.4.33_i686.deb
+Size: 2371416
+MD5sum: 7dd3fb7a2af0d8895b7e7872151ffc2b
+SHA1: bad6d292ae08c2d9358e3c24c7511065c78941f9
+SHA256: 41ba1ae14434036f3e40461453519220a3c425a473821e815f6e0f85b33a8310
+Homepage: https://dichvucoder.com
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-crack-fpm
+Version: 7.4.33
+Architecture: i686
+Maintainer: @Dichvucoder
+Installed-Size: 12328
+Depends: php7-crack (= 7.4.33)
+Conflicts: php-fpm
+Filename: pool/dvc/php7-crack-fpm_7.4.33_i686.deb
+Size: 2422908
+MD5sum: 980e40792dc8f40d9b02b85bbf4896d4
+SHA1: 626e8581d28f1839d9a5780ee25cd98b4f7f5164
+SHA256: 15a0e8c704fa0f023c06287a080caf5d3d37631e60a310bdabc9e8f6a6aab457
+Homepage: https://dichvucoder.com
+Description: FastCGI Process Manager for PHP
+
+Package: php7-crack-pgsql
+Version: 7.4.33
+Architecture: i686
+Maintainer: @Dichvucoder
+Installed-Size: 164
+Depends: apr-util, postgresql, php7-crack (= 7.4.33)
+Conflicts: php-pgsql
+Filename: pool/dvc/php7-crack-pgsql_7.4.33_i686.deb
+Size: 44708
+MD5sum: 12592bde02b16c24ff8e87f1d2a6eea3
+SHA1: d096318085abf247cc9f795c7c5e15209fb8f8ee
+SHA256: 650fc8fd2b69a4d42067aa9420c8bcc50b8cf07c673558248430af2597bad3d3
+Homepage: https://dichvucoder.com
+Description: PostgreSQL modules for PHP
+
+Package: php7-crack
+Version: 7.4.33
+Architecture: i686
+Maintainer: @Dichvucoder
+Installed-Size: 42996
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/dvc/php7-crack_7.4.33_i686.deb
+Size: 7902832
+MD5sum: 773040321c494deda1a170524d742486
+SHA1: c79bb564d42ba0ab5b20b74f4986fffb53eafa4b
+SHA256: cfcc914c40e531f4dd472c3862a0ad29e7731536f02b08d3527fc76af816786d
+Homepage: https://dichvucoder.com
+Description: PHP7 CRACK
 
 Package: php7-dgbaopro
 Version: 8.5.0
@@ -145,10 +205,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 384
 Depends: libandroid-execinfo, php7
 Filename: pool/dvc/php7-dichvucoder_9.0.1_i686.deb
-Size: 118672
-MD5sum: 423c99f19ffd6516f9ef639e0453eca2
-SHA1: 09ea714536dbe379f17ac5b8cb95be5f66a82e37
-SHA256: bedf897edbc1d040a1c613f503797b984e41e68e67ee319dc3854f702e447c20
+Size: 118724
+MD5sum: b93f51b5754fbd728d8c9187df6fe5d1
+SHA1: 72c7d552e5e400a7804ac0f1df94da0d78f22707
+SHA256: e76cf7c1af4ea2e9343ac75155d0d396f560d2f96572499e378ebc2de85623ca
 Homepage: https://dichvucoder.com
 Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
 
