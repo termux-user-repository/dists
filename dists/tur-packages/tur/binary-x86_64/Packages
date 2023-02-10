@@ -320,6 +320,20 @@ SHA256: 9636b50164da7660cd9de2d98a9c5fdd48919030a0d92ad725171d931367a744
 Homepage: https://github.com/bestouff/genext2fs
 Description: Build ext2 filesystem image without mounting for copying files (like mkfs.fat + mcopy in one go)
 
+Package: glmark2
+Version: 2023.01
+Architecture: x86_64
+Maintainer: @fervi
+Installed-Size: 10700
+Depends: libx11, mesa, libjpeg-turbo
+Filename: pool/tur/glmark2_2023.01_x86_64.deb
+Size: 6851176
+MD5sum: 2fab9fc72cad50659af638f35d7f12d0
+SHA1: 9d1c291833075c59beee67acc37bb0ea4ef1013c
+SHA256: 5ad128d227e375f2fa673ba7191fb6adb7f20fb6dcaf20bd9fbbf93241688921
+Homepage: https://github.com/glmark2/glmark2
+Description: An OpenGL 2.0 and ES 2.0 benchmark.
+
 Package: go-cqhttp
 Version: 1.0.0-rc4-0
 Architecture: x86_64
