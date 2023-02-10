@@ -301,6 +301,22 @@ SHA256: 44b66d4c7f30046d9f5027d14555aaf74a054a98571df724cfbbba9a0715976a
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
+Package: php7.2-threads
+Version: 7.2.34
+Architecture: arm
+Maintainer: @Dichvucoder
+Installed-Size: 61816
+Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
+Conflicts: php, php7
+Replaces: php, php7
+Filename: pool/dvc/php7.2-threads_7.2.34_arm.deb
+Size: 12993040
+MD5sum: 70165a86eef82815f60bd179eef72ed7
+SHA1: 17e51fe28b301544c34f70e7114fe0330f6eeef9
+SHA256: a31ddd98009fc740f0f6dfa40444dadb27d44cfcb248a7d48a060677edbb43a9
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7.2-zts
 Version: 7.2.34
 Architecture: arm
