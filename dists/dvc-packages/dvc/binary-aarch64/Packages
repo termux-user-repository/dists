@@ -243,6 +243,80 @@ SHA256: b7d4161094288a3ef225bdc7dca62d26c9894a4ad1e15cfb114ad9033c1e1ba4
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
+Package: php7-zts-apache
+Version: 7.4.33-1
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 12916
+Depends: apache2, php7-zts (= 7.4.33-1)
+Filename: pool/dvc/php7-zts-apache_7.4.33-1_aarch64.deb
+Size: 2308520
+MD5sum: 7695328a67ca7dae95eaeb1c4249663b
+SHA1: 0d2c8ce45b3e49ec6d314f20985822c87d0c4451
+SHA256: 52e8765de3a18cab25222f75b4ed4f019d3767d652cdc2aedc16c8a7feb4725b
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php7-zts-dgbaopro
+Version: 8.5.1-1
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 352
+Depends: libandroid-execinfo, php7-zts
+Filename: pool/dvc/php7-zts-dgbaopro_8.5.1-1_aarch64.deb
+Size: 92428
+MD5sum: 568a917a6e07002a3665c62f02a8d259
+SHA1: b81e6983a0451b986424ce7bcba7e02f1d9e02a6
+SHA256: 8eb1c73cdb60815ea90b92e78adba83523247a72c9e9a37125e62568dfbbefff
+Homepage: https://dichvucoder.com
+Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
+
+Package: php7-zts-fpm
+Version: 7.4.33-1
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 13052
+Depends: php7-zts (= 7.4.33-1)
+Conflicts: php-fpm
+Filename: pool/dvc/php7-zts-fpm_7.4.33-1_aarch64.deb
+Size: 2361572
+MD5sum: cdf8778610c313c2a9046b69b07d5070
+SHA1: 7fafa43d3d58dbb8c3ebe4bec3893ed7330409a8
+SHA256: 23e7f40e40c772d5fe34a8657604010a18fbec607beec78616b7ee1f569228e5
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php7-zts-pgsql
+Version: 7.4.33-1
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 180
+Depends: apr-util, postgresql, php7-zts (= 7.4.33-1)
+Conflicts: php-pgsql
+Filename: pool/dvc/php7-zts-pgsql_7.4.33-1_aarch64.deb
+Size: 43244
+MD5sum: a7e75e813fa335222e6e5052d91c7124
+SHA1: b54d1600b8af8be816c0b8fe99b9e6c7d3726b8e
+SHA256: 4339d7f9cb7eb600b75a7314f67c98e2cb1af48ec2cd41d7ca8bdf5c0053f21d
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php7-zts
+Version: 7.4.33-1
+Architecture: aarch64
+Maintainer: @Dichvucoder
+Installed-Size: 45288
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
+Replaces: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
+Filename: pool/dvc/php7-zts_7.4.33-1_aarch64.deb
+Size: 7735176
+MD5sum: acd262a5a654c7722dcb70b227ab2c30
+SHA1: 7f0e57b09b07cc9523969d9131881ea9ad590279
+SHA256: dcdc9a046f6f978965ea085ac459b717305178dbc9d32273793c0a9576d99c85
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7.2-threads
 Version: 7.2.34
 Architecture: aarch64
