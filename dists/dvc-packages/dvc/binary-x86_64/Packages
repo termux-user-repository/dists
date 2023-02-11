@@ -11,6 +11,106 @@ SHA256: a2d584c893667571e20133b4efb3d654b23fbe7cd34a24abc0575199dbf99409
 Homepage: https://github.com/Dichvucoder/dvc-packages
 Description: Dummy test for dvc packages
 
+Package: php-8.1-apache
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 14892
+Depends: apache2, php-8.1 (= 8.1.6-1)
+Filename: pool/dvc/php-8.1-apache_8.1.6-1_x86_64.deb
+Size: 2652404
+MD5sum: 32f38877bcfae4d5ff00ab67288bb851
+SHA1: 454c5555b9269360336be3f3a1c196a778f0dd7c
+SHA256: 9253eb35a3ce67ae19d88cb0daadf5f37d59a0791f740dd5798eb07336e39133
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php-8.1-dgbaopro
+Version: 8.5.0-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 424
+Depends: libandroid-execinfo, php-8.1
+Filename: pool/dvc/php-8.1-dgbaopro_8.5.0-1_x86_64.deb
+Size: 92264
+MD5sum: 3dc09ca9ecf7b263e4be379fd3e9e58c
+SHA1: 1fcf3489aedb0e16164b261bc9f2779d6a2e3005
+SHA256: dfb4bddf3d9e8e0d5946eb2ab89ed5cf3750945f1fecd0fcfd35903afda60f37
+Homepage: https://dichvucoder.com
+Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
+
+Package: php-8.1-fpm
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 14996
+Depends: php-8.1 (= 8.1.6-1)
+Filename: pool/dvc/php-8.1-fpm_8.1.6-1_x86_64.deb
+Size: 2711028
+MD5sum: 5ddd0f597c2ea156ed2b41f6f9499615
+SHA1: ea207cb356825087717bd1e07acd9bc7074f4ec9
+SHA256: 6d1c2bdae9bc86797877a17f5e98dfdd3b246baab978c5eeaf93888f86ab7b81
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php-8.1-ldap
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 120
+Depends: openldap, php-8.1 (= 8.1.6-1)
+Filename: pool/dvc/php-8.1-ldap_8.1.6-1_x86_64.deb
+Size: 26916
+MD5sum: 48f98adabee3408e79cc6a8356412079
+SHA1: eecf3300df84710a466589ec3d178e83d01a2973
+SHA256: c5c93abe89bb2040d163b477fdabe19a46452264f96f6ec395475de7ab47faf7
+Homepage: https://php.net
+Description: LDAP module for PHP
+
+Package: php-8.1-pgsql
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 196
+Depends: apr-util, postgresql, php-8.1 (= 8.1.6-1)
+Filename: pool/dvc/php-8.1-pgsql_8.1.6-1_x86_64.deb
+Size: 47700
+MD5sum: c48d0f16d5a01f38169ed472af25c6b9
+SHA1: 0a3251e5c68e812d3e5bec310248616e07a29ff2
+SHA256: 01549e236d4c95ff4a6cb39dede73c08c00cc6d4c6e01c36348d89c19d6c690f
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php-8.1-sodium
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 128
+Depends: libsodium, php-8.1 (= 8.1.6-1)
+Filename: pool/dvc/php-8.1-sodium_8.1.6-1_x86_64.deb
+Size: 21648
+MD5sum: 3a1d92b3c304757913635d18d75e929b
+SHA1: 0461f461a3ea55d5f316efe61d10703835b63235
+SHA256: 86a62cade4dbb1a40e59e30a7d42b13a3ad53bb0fdc642075df799279dde7568
+Homepage: https://php.net
+Description: Sodium module for PHP
+
+Package: php-8.1
+Version: 8.1.6-1
+Architecture: x86_64
+Maintainer: @Dichvucoder
+Installed-Size: 52284
+Depends: freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, zlib, libicu, libffi, tidy, zstd
+Conflicts: php-mysql, php-dev, php7-crack, php7, php7-zts, php7.2, php7.2-zts, php7.2-threads
+Replaces: php-mysql, php-dev, php7-crack, php7, php7-zts, php7.2, php7.2-zts, php7.2-threads, php-8.1
+Filename: pool/dvc/php-8.1_8.1.6-1_x86_64.deb
+Size: 8983304
+MD5sum: a2c66a3acc868b5b4de44805e66b5676
+SHA1: fb8602ff7c2c4b8f67d98766898db85d869369b2
+SHA256: 9c9d2a6ea52dea918381e7ed541916063387a2ff4682ddcefc7b3e70abb110e0
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7-apache
 Version: 7.4.33
 Architecture: x86_64
