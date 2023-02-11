@@ -1,15 +1,16 @@
 Package: php7-zts
 Version: 7.4.33
 Architecture: aarch64
-Maintainer: @termux-user-repository
+Maintainer: @Dichvucoder
 Installed-Size: 45288
 Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
-Conflicts: php, php-mysql, php-dev
+Conflicts: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
+Replaces: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Filename: pool/dvc/php7-zts_7.4.33_aarch64.deb
-Size: 7734152
-MD5sum: e401984ff5621e7440af98d8122fa32f
-SHA1: 686bd039b25c43c6e644856295da794217c169c2
-SHA256: 5d63b2ff045874cf05b57a4b61c2414ce603b1768420045b00c1761cb66dc60f
+Size: 7735576
+MD5sum: 3fc40f8aded70bd7a36833f8a74814a2
+SHA1: 7add381656079ea42485f1219a00903f286c9a5d
+SHA256: 876f94f6c6201d90e6b22fda0fce906a11903a485cb937acce07d828efb213f9
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
