@@ -118,10 +118,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 12152
 Depends: apache2, php7 (= 7.4.33-1)
 Filename: pool/dvc/php7-apache_7.4.33-1_i686.deb
-Size: 2367592
-MD5sum: b67cbfbde06a4e426b40502f8690f0af
-SHA1: e42d5dd00e8b316093fdff1c02ddf073f7cf0fc5
-SHA256: 983f22896d2a11594f4a997cebf63f46f839ac787ccda325204d41576fc97425
+Size: 2366216
+MD5sum: 29024fccd3d08931003b0fcc063c4697
+SHA1: ad172ec55607205c2f3021663c1fe6d3751bf064
+SHA256: aa007a5ff4031324b3ba3777f6db7e87cb6160b727b4924372f1fca8e69baff3
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
@@ -217,14 +217,14 @@ Package: php7-fpm
 Version: 7.4.33-1
 Architecture: i686
 Maintainer: @Dichvucoder
-Installed-Size: 12320
+Installed-Size: 12292
 Depends: php7 (= 7.4.33-1)
 Conflicts: php-fpm
 Filename: pool/dvc/php7-fpm_7.4.33-1_i686.deb
-Size: 2417636
-MD5sum: 26e03488ccbae31557536d73af687b19
-SHA1: 81b846b284b3b13393e4f84bea1d70d3b914e29e
-SHA256: 76918d651d16c1210de6551177c0c5f00658f31daf4c64768cb9dcbd28cad7c9
+Size: 2418856
+MD5sum: f40e4359ec72dafe373c948a7892fe5e
+SHA1: 087c52a014a559585aa0f5c0512bb9acffffe7dd
+SHA256: ae1df941808e50dce2bb541b07bcfecfe1d55d9d1e7d93341958ebad0e9a7331
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
@@ -236,10 +236,10 @@ Installed-Size: 164
 Depends: apr-util, postgresql, php7 (= 7.4.33-1)
 Conflicts: php-pgsql
 Filename: pool/dvc/php7-pgsql_7.4.33-1_i686.deb
-Size: 44932
-MD5sum: 179a7832a7d67cecd3c51d6c09238331
-SHA1: 90b3e74c6740c9416893a8060943c919147b6dad
-SHA256: e530db0d71e652a87a3ab13bdb518f70c3ea7413b6721fa7cbfbdaa25628cfba
+Size: 44860
+MD5sum: 5c8d2aead2ac25c432eda7131c1d7c48
+SHA1: a5a6cee1d91cc5960d8cf1df629f4c48dfc01b70
+SHA256: 75175e85b7e6c1037024afe5c46a63114a6b1b05c3d194f6c6cbc31554ad2ad7
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -250,10 +250,10 @@ Maintainer: @Dichvucoder
 Installed-Size: 12336
 Depends: apache2, php7-zts (= 7.4.33-1)
 Filename: pool/dvc/php7-zts-apache_7.4.33-1_i686.deb
-Size: 2421072
-MD5sum: 4897f4be38dc50c3ee3baa6737e93176
-SHA1: 5ac23dd554699c91e2ab7d2134cea311f4d2e9d5
-SHA256: 0ee8b669155a43fef740c4418d34aaa06ec6c147177fde3b0c7dee52dd7cee49
+Size: 2419968
+MD5sum: f4347d42b20420dbb14c5ad2b50a1d1d
+SHA1: 96438168ef5226e750155dd74594ef246c3e5ed0
+SHA256: d3eaeffb08834f0f871236d74ad8a020f94e5ad309c88fe2379c040d2fbfef98
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
@@ -279,10 +279,10 @@ Installed-Size: 12500
 Depends: php7-zts (= 7.4.33-1)
 Conflicts: php-fpm
 Filename: pool/dvc/php7-zts-fpm_7.4.33-1_i686.deb
-Size: 2471364
-MD5sum: ab5a0bda9c2b77a086323912d8a7fe58
-SHA1: 62640006e870147fd4e7fa218409da4c1de75a1a
-SHA256: 1aa5c76911aa4944fc96ba33c3dbf4b9a3ce6610b4dbb25cc666b94acdb8a009
+Size: 2471032
+MD5sum: af76eec61850e768c5e632d346040c0c
+SHA1: e5ef39a6ad95594289695f053c4a01c78b0ab1a8
+SHA256: fffc4b2fc3ed7cc40b3c494337b236dd16d5c9be98ffbac2f635459e2f7b1950
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
@@ -294,10 +294,10 @@ Installed-Size: 164
 Depends: apr-util, postgresql, php7-zts (= 7.4.33-1)
 Conflicts: php-pgsql
 Filename: pool/dvc/php7-zts-pgsql_7.4.33-1_i686.deb
-Size: 45972
-MD5sum: 8269c5d67971b8d55ec797dd47c85cf6
-SHA1: 2abab654dc9201284b2376c6e7d0fe913daf10fb
-SHA256: eb13e78ff8317ff058400214d55f6903243186d10fbf7826d68e09939367f6a5
+Size: 46012
+MD5sum: c8d55d48f0a0f9cfc24c5fa64442126c
+SHA1: 943bfc87505d6b8143d690368dcce02c119571a2
+SHA256: 99c879aa1831f80bd6253b82c6d6dabea19980761fc8e73dcbdca50ccc448287
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -310,10 +310,10 @@ Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt
 Conflicts: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Replaces: php, php-mysql, php-dev, php7-crack, php7, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Filename: pool/dvc/php7-zts_7.4.33-1_i686.deb
-Size: 8068064
-MD5sum: 111626b81a2c977f3d286e395e412fb3
-SHA1: acab5bc1ddc77534c5d50db10f502a7943e59278
-SHA256: 385170dd80145161e0201c582d704db69c7e01253c041c003ac0978d3676aa31
+Size: 8063688
+MD5sum: a6614bd7cca444c0a505c30c6d9b48e0
+SHA1: 0fd0451c261d78efd5e882008300117364b54f81
+SHA256: 98629104348aa181a0a756c1094883868186c342f9ee695a2075f4335a3dca14
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
@@ -334,34 +334,34 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7.2-zts
-Version: 7.2.34
+Version: 7.2.34-1
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 70732
 Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
 Conflicts: php, php7, php7-crack, php7, php7-zts, php7.2, php7.2-threads, php-8.1
 Replaces: php, php7, php7-crack, php7, php7-zts, php7.2, php7.2-threads, php-8.1
-Filename: pool/dvc/php7.2-zts_7.2.34_i686.deb
-Size: 14396572
-MD5sum: 59f6d03dc83404c3608479b91e1a48f1
-SHA1: 6692ec3e67b95dd2b684f0ac718e594d30d3fbcf
-SHA256: 758dff0375b617502ada06ba24c037041b4f2031305d38ac33dd9a72d2305967
+Filename: pool/dvc/php7.2-zts_7.2.34-1_i686.deb
+Size: 14398240
+MD5sum: 342f40553e8b70843dad84a7f572ba23
+SHA1: 61b464c523233ccbf0949e157738cfdc4c3633d0
+SHA256: f22c078968cd14c59ed77eab148a05e9e03be4897c10d68b05146ca01a1ade9a
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7.2
-Version: 7.2.34
+Version: 7.2.34-1
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 70732
 Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
 Conflicts: php, php7, php7-crack, php7, php7-zts, php7.2-zts, php7.2-threads, php-8.1
 Replaces: php, php7, php7-crack, php7, php7-zts, php7.2-zts, php7.2-threads, php-8.1
-Filename: pool/dvc/php7.2_7.2.34_i686.deb
-Size: 14386800
-MD5sum: e1d6fa3baa03550223a9b8f2605a4c90
-SHA1: a738c977d30adf3a7cf2a428f2a536c25f8c1990
-SHA256: a2230ee63f65c47a8c7e5bec245c0c4d2af3a0afa5642992f3f181c17b13e9cd
+Filename: pool/dvc/php7.2_7.2.34-1_i686.deb
+Size: 14396576
+MD5sum: 1f4f3575e7da4dfb218029b15d5dca5d
+SHA1: 2905a102ab58f9d3f8264d6f99acfc7518807939
+SHA256: a78ea1b99bdba97bfb8802c299760f1fcdfad824c02cab236235277b47ae5e74
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
@@ -374,10 +374,10 @@ Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt
 Conflicts: php, php-mysql, php-dev, php7-crack, php7-zts, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Replaces: php, php-mysql, php-dev, php7-crack, php7-zts, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Filename: pool/dvc/php7_7.4.33-1_i686.deb
-Size: 7892260
-MD5sum: 9d93cc123411fa4b0b874498fa4a90db
-SHA1: 4d513610021c66a8d1054ce9d7802ee4e632e8fa
-SHA256: 2f4d7f681fc5e5f41398d2dd11c05805e8981fa123339de1de91f974e0eba8e3
+Size: 7890612
+MD5sum: f74d1e5b023008727e33425a3a7eaeb8
+SHA1: 1ca148006b5a699c399e6e072b53c60a092f58ac
+SHA256: 5d37024cbc954dd796ebd95c06c390d55cef1d60c65c8ff364371d2841429490
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
