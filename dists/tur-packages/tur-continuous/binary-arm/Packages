@@ -29,6 +29,22 @@ SHA256: 93a8cb3326dcd0bb3f8ba4ec48418b27a91aed0c0385f4ee06d504735019a476
 Homepage: https://github.com/electron/electron
 Description: Symlinks electron to electron21
 
+Package: electron-is-electron22
+Version: 22.2.0-1
+Architecture: arm
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 32
+Depends: electron22 (= 22.2.0-1)
+Conflicts: electron
+Breaks: electron
+Filename: pool/tur-continuous/electron-is-electron22_22.2.0-1_arm.deb
+Size: 880
+MD5sum: 4d5517890e43806bacaafd699edd9590
+SHA1: 94db1dc4f7f780b89800608e568c3792f767806d
+SHA256: c663682dd397be58aa27248ddd35a8818f722392d95d21994a35611f1832e250
+Homepage: https://github.com/electron/electron
+Description: Symlinks electron to electron22
+
 Package: electron21
 Version: 21.4.1
 Architecture: arm
@@ -44,16 +60,16 @@ Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
 Package: electron22
-Version: 22.2.0
+Version: 22.2.0-1
 Architecture: arm
 Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 205684
+Installed-Size: 205680
 Depends: electron-deps
-Filename: pool/tur-continuous/electron22_22.2.0_arm.deb
-Size: 51302108
-MD5sum: 817a2a47263de9511c121515a09d57ee
-SHA1: 74a9b1331311d65f47cd8a82abe7ac4d15d92554
-SHA256: adca5693619dde37014197d7d58f18ce8241485e0802a567e39016503eb10a1d
+Filename: pool/tur-continuous/electron22_22.2.0-1_arm.deb
+Size: 51273300
+MD5sum: f92cdb43793cc7d0be072b4acd2ec219
+SHA1: 346cb99f0a4c7c00a18b7c40e53e742a403ae1d4
+SHA256: 49fe7f1115b1f81305a53c6a4a0e1817f3af2b21b350f5a5cf855ceb37d7c64c
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
