@@ -333,6 +333,20 @@ SHA256: d9f93e65104f8871e837a7f7aa5c3975e03917d856b45a6303fe9b49bcacb442
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
+Package: php7.2-zts-threads
+Version: 3.2.0-git-0
+Architecture: i686
+Maintainer: @Dichvucoder
+Installed-Size: 152
+Depends: php7.2-zts
+Filename: pool/dvc/php7.2-zts-threads_3.2.0-git-0_i686.deb
+Size: 39340
+MD5sum: 37f768e0cc37e7941cfed1cc63dfab72
+SHA1: 301b83f079787c95469f53f66e1cf199edb4fc77
+SHA256: e708acdc66043cba0238a3cc5b46ec3b7905b5d3ecf9d98db3d935ef6653677e
+Homepage: https://github.com/krakjoe/pthreads
+Description: Threading for PHP
+
 Package: php7.2-zts
 Version: 7.2.34-1
 Architecture: i686
