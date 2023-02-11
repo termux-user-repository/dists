@@ -1209,6 +1209,20 @@ SHA256: 693324479c27cd521418841a7fe26c3f74aa78bf9d63f3ad106ff7d0bb37a556
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
+Package: python-pandas
+Version: 1.5.3
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 67264
+Depends: libc++, python, python-numpy, python-pip
+Filename: pool/tur/python-pandas_1.5.3_x86_64.deb
+Size: 11176428
+MD5sum: c7393c67c0bd10e17b0c57560cb71afd
+SHA1: c4a1e31530eef1d38a3a7482da20fcf57e6afbfc
+SHA256: 9859d755d217610d2ab84a285b01aa652e408f17039ce65ff406547c8eed0f10
+Homepage: https://pandas.pydata.org/
+Description: Powerful Python data analysis toolkit
+
 Package: python-pillow
 Version: 9.2.0
 Architecture: x86_64
