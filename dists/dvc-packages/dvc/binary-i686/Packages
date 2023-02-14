@@ -140,16 +140,16 @@ Homepage: https://dichvucoder.com
 Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
 
 Package: php7-apache
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 12152
-Depends: apache2, php7 (= 7.4.33-1)
-Filename: pool/dvc/php7-apache_7.4.33-1_i686.deb
-Size: 2369068
-MD5sum: f72c461bcd1181903f28798c3211d091
-SHA1: 85d279b824e870bb287c15b197f5af9d3fff58c3
-SHA256: 11d3b9f81cdf51ca34845f713130f72814909b4a53f731341afb8ff1566844ce
+Depends: apache2, php7 (= 7.4.33-2)
+Filename: pool/dvc/php7-apache_7.4.33-2_i686.deb
+Size: 2368496
+MD5sum: 24278b7a582c5c1515e662912720abf3
+SHA1: 8cb46b683bf732834a498af957af2de4ad13ca6a
+SHA256: 930e773d6bc0c4dfb6052cdd92e9ba39a4d12ebb5916b970d9df73382f88f447
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
@@ -242,32 +242,32 @@ Homepage: https://dichvucoder.com
 Description: An extension supports running php file encoded/obfuscate by dichvucoder.com
 
 Package: php7-fpm
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 12320
-Depends: php7 (= 7.4.33-1)
+Depends: php7 (= 7.4.33-2)
 Conflicts: php-fpm
-Filename: pool/dvc/php7-fpm_7.4.33-1_i686.deb
-Size: 2418720
-MD5sum: d5215b066cc22a5d5a29658d5b93660e
-SHA1: c7cc2c06a6327d38c6d9430ae1c0e2a6e74af1a1
-SHA256: 9ba7c6a596ab009a24b8b46a2190af144a5c7d3ddf6a13ba139c2b7baa24389c
+Filename: pool/dvc/php7-fpm_7.4.33-2_i686.deb
+Size: 2418796
+MD5sum: 0852cabfd6c0d8945b80d0aabe4b1e18
+SHA1: 92f04bde607720c2ed8651b5e8cb5bce19256803
+SHA256: d69cd5221bbae27dcb49a126996f5a4451606cd9aabcd6486b63d40c0dde0013
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
 Package: php7-pgsql
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 164
-Depends: apr-util, postgresql, php7 (= 7.4.33-1)
+Depends: apr-util, postgresql, php7 (= 7.4.33-2)
 Conflicts: php-pgsql
-Filename: pool/dvc/php7-pgsql_7.4.33-1_i686.deb
+Filename: pool/dvc/php7-pgsql_7.4.33-2_i686.deb
 Size: 44764
-MD5sum: d328321bbd7d6f7c11b8d3707e7e306f
-SHA1: 93ee42237473d204674adb3bdde89fe1ca2a54dc
-SHA256: 85005d459094bcaf7cb60da95363fae5a7a199746f8fa7c1d30833e91da66c66
+MD5sum: f5ac8d7315f37144a216fe481a085aba
+SHA1: 0f834076b75db0e2785387eaa991f77cfc8508f0
+SHA256: b4d3084a778cdf164d79b32e5c141326b01080e823d7c7f95198843626c057cf
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -408,18 +408,18 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 42968
 Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
 Conflicts: php, php-mysql, php-dev, php7-crack, php7-zts, php7.2, php7.2-zts, php7.2-threads, php-8.1
 Replaces: php, php-mysql, php-dev, php7-crack, php7-zts, php7.2, php7.2-zts, php7.2-threads, php-8.1
-Filename: pool/dvc/php7_7.4.33-1_i686.deb
-Size: 7886504
-MD5sum: 7235a1020a5fdbe4f843d649f0a2a1e0
-SHA1: 980edeaa700a0cd95c0eccae15324343371ae862
-SHA256: a111369d1d6002c17a85780f18746951cd1d315ac7f9daa0dedc7cf0eb72527e
+Filename: pool/dvc/php7_7.4.33-2_i686.deb
+Size: 7888244
+MD5sum: 32ffbf1c7caf36d18b1604678a969677
+SHA1: 73be2be4fb08c4d6bce6af72bcba2df89d77b9d0
+SHA256: eeb64b661a682a74cb70881da3f3b9538e903b113368555b02f8b76a62f078b3
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
