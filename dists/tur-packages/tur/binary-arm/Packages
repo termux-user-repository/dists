@@ -687,20 +687,20 @@ Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
 Package: mesa-zink
-Version: 22.0.5
+Version: 22.0.5-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 21984
+Installed-Size: 29432
 Depends: libandroid-shmem, libc++, libdrm, libexpat, libglvnd, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader-android, xorg-xrandr, zlib, zstd
 Suggests: mesa-zink-dev
 Conflicts: libmesa, ndk-sysroot (<< 23b-6), mesa
 Replaces: libmesa, mesa
 Provides: mesa
-Filename: pool/tur/mesa-zink_22.0.5_arm.deb
-Size: 7886588
-MD5sum: e7c2f7464fb9d7b80e3723054573b88b
-SHA1: 5b0709039a3850b8565b0cbe4a0a6a91689921c0
-SHA256: ce7e86a458a73c004b9b9696ae90a67d869b6533dda5a3d466c15f37f71f9a6d
+Filename: pool/tur/mesa-zink_22.0.5-1_arm.deb
+Size: 10906844
+MD5sum: 3211d26ca7ac5107b2cb3b834d0dbbed
+SHA1: 5ffb9e60f95a4b6a6027a897612ca814f7ab558a
+SHA256: 3263d0d1884a25477bc26a91c242b74bd5f6a380ecfd43d5161578fe4453ff19
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
@@ -899,18 +899,18 @@ Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: osmesa-zink
-Version: 22.0.5
+Version: 22.0.5-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 20752
-Depends: mesa-zink (= 22.0.5)
+Installed-Size: 28196
+Depends: mesa-zink (= 22.0.5-1)
 Breaks: mesa (<< 22.3.1), osmesa
 Replaces: mesa (<< 22.3.1), osmesa
-Filename: pool/tur/osmesa-zink_22.0.5_arm.deb
-Size: 7472152
-MD5sum: c47a23bd5f6d12abb55c4884093ab06a
-SHA1: e02c4e5bc2e8e33f2a50da7c6448735d6e382bdd
-SHA256: 7ea984946a8512a416e9a9d63c54acdb57673e97b3fd666c426c37ec6a16a610
+Filename: pool/tur/osmesa-zink_22.0.5-1_arm.deb
+Size: 10492552
+MD5sum: 419c92ba2c1fd4c245c9272b54b30d16
+SHA1: 65f20add5f138cda565442143660a896661171cc
+SHA256: 97ca16404937839520d76634e1c4c46224157152942e56ada9e1a71d63754358
 Homepage: https://www.mesa3d.org
 Description: Mesa Off-screen Rendering Library
 
@@ -1918,18 +1918,18 @@ Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
 Package: mesa-zink-dev
-Version: 22.0.5
+Version: 22.0.5-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 148
 Depends: libglvnd-dev
 Breaks: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
 Replaces: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
-Filename: pool/tur/mesa-zink-dev_22.0.5_all.deb
+Filename: pool/tur/mesa-zink-dev_22.0.5-1_all.deb
 Size: 22420
-MD5sum: 52792d12c6790fc8a244d67b8fd88ca1
-SHA1: a50b237937dd4db5cb2f9803ec7908e9f8adc147
-SHA256: 315484d0a1c71ec1b23e66678b725e7044811079eec2efc05922f525e8749b1f
+MD5sum: 8c06d5b58234f5c45fea5d2dc861f5d5
+SHA1: f5a1197386944058116547ade77ba1406e9c02f9
+SHA256: f7eb28debd772f7ff09bebd4d0e48e465ebc30d59ba99b5d83ff423c9e71972f
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
 
