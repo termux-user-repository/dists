@@ -1606,6 +1606,20 @@ SHA256: 34f303a72d394785e04d90c74bd4742709d53a4f42c4cbe321328fdacec6ba20
 Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
+Package: rustc-nightly
+Version: 1.67.0-2023.02.10-nightly-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 314632
+Depends: libc++, clang, openssl, lld, zlib, libllvm
+Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-0_x86_64.deb
+Size: 59990180
+MD5sum: 70e7d4478e7cd97d2696b7b88a889286
+SHA1: c65fb704113844b5438bdab2337fa07272dbd5bb
+SHA256: dcdda373e1598a72a6be49eb4fc9decde207f14ce1225804c9b250d462709ecc
+Homepage: https://www.rust-lang.org
+Description: Rust compiler and utilities (nightly version)
+
 Package: sortix-rw
 Version: 1.0
 Architecture: x86_64
@@ -2006,6 +2020,34 @@ SHA1: 01314199d47d2e9afa019a0765be8ea137719cd4
 SHA256: 1942a6902c257728c21789abc18bd20ebd08babdb25f258b24eac5fd3d44b94f
 Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
+
+Package: rust-nightly-wasm32-unknown-unknown
+Version: 1.67.0-2023.02.10-nightly-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 89184
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
+Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-0_all.deb
+Size: 18328680
+MD5sum: 8c58d2ca0cc7b311d914157dd6f5121d
+SHA1: 0e47da34255856c8811b7e4f092754b749b48e19
+SHA256: a86d48e07e3b12bef179e41c236ae2c3d6b4382adbdaa4529ebbcbc9a8745f01
+Homepage: https://www.rust-lang.org
+Description: rust std for wasm32-unknown-unknown target
+
+Package: rust-src-nightly
+Version: 1.67.0-2023.02.10-nightly-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 29028
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
+Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-0_all.deb
+Size: 2464368
+MD5sum: d0fc501c52918fed5dc373124d885ce5
+SHA1: 33fcf045f980720ca9e464d0a46bed73fcc82f6b
+SHA256: 20ea858b581491b385a2c5d462674923367585e718de8d5a0e089944b622f60a
+Homepage: https://www.rust-lang.org
+Description: rust src
 
 Package: shark
 Version: 2.5.1.0-beta-0
