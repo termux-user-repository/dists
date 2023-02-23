@@ -1,16 +1,17 @@
 Package: mesa-zink-dev
-Version: 22.0.5-1
+Version: 22.0.5-2
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 148
 Depends: libglvnd-dev
 Breaks: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
 Replaces: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
-Filename: pool/tur/mesa-zink-dev_22.0.5-1_all.deb
-Size: 22420
-MD5sum: 8c06d5b58234f5c45fea5d2dc861f5d5
-SHA1: f5a1197386944058116547ade77ba1406e9c02f9
-SHA256: f7eb28debd772f7ff09bebd4d0e48e465ebc30d59ba99b5d83ff423c9e71972f
+Provides: mesa-dev
+Filename: pool/tur/mesa-zink-dev_22.0.5-2_all.deb
+Size: 22404
+MD5sum: 15ebc2944c16f94dcb3d3475d9d0629d
+SHA1: 7dd1aafe69c46b621f3f4b25ed65e717e76c7d75
+SHA256: 0105ba070fd788408a29240b9d73196f0311f1316f982c90166836beb6973f15
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
 
