@@ -270,6 +270,21 @@ SHA256: d69cd5221bbae27dcb49a126996f5a4451606cd9aabcd6486b63d40c0dde0013
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
+Package: php7-huy
+Version: 7.4.33
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 43564
+Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Conflicts: php, php-mysql, php-dev
+Filename: pool/dvc/php7-huy_7.4.33_i686.deb
+Size: 8091116
+MD5sum: c3d2dc47a9c1af7c27a798bad376ec95
+SHA1: 9af9886203b9c0fbc370566374dfa8f97196e0f6
+SHA256: 2cbceb43eb75bb492e7da6eacfe044da7cccdc0f647a56c5c99f2716d8a41526
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
 Package: php7-pgsql
 Version: 7.4.33-2
 Architecture: i686
@@ -443,10 +458,10 @@ Architecture: i686
 Maintainer: @Dichvucoder
 Installed-Size: 44
 Filename: pool/dvc/test-packages_0.1.1_i686.deb
-Size: 2176
-MD5sum: e94c3ac65e4f20aaaa080d6f1128e327
-SHA1: 7fae453dbce891fe1e8731bfebf6e0d7c9f84c9a
-SHA256: 57a6b1a804b1788d6dd1ff00ae433ea4b62ec575b6513c30e530e3537bbf9bdf
+Size: 2172
+MD5sum: de147ea8b755f002e04fad9d689e9e8e
+SHA1: 01728080279810b90d6860e42dcae9a25d6c42fb
+SHA256: 09f8015733cb68b68bfc798b72c8d329779b2b63c0a3e39cb28c034522c42152
 Homepage: https://github.com/Dichvucoder/dvc-packages
 Description: Dummy test for dvc packages
 
