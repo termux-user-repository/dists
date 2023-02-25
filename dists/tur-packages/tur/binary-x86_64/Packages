@@ -65,6 +65,20 @@ SHA256: e9f72cf4681851fff89ce811b4b906b4782eacd42491d0fc6d3736ef23beb062
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: clang-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 144044
+Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/clang-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 21522928
+MD5sum: 6ae71fce318b0b74ae01d21583e07591
+SHA1: 19cab5eaab33423d833a90aed9033acef1eea59b
+SHA256: 6866be863141ba819c5e20190427931b1e0559c002008d78f567fda606bf5c0f
+Homepage: https://llvm.org/
+Description: C language frontend for LLVM
+
 Package: code-is-code-oss
 Version: 1.75.1
 Architecture: x86_64
@@ -445,6 +459,20 @@ SHA256: e9572f0b5a2ad5f978d0c2423e7c6d27942e90e68bc6d13542e8983f6f394a7a
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
+Package: libcompiler-rt-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 35284
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/libcompiler-rt-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 3366724
+MD5sum: dc29604cc8588b404d8f40be7f8e373a
+SHA1: 37ebb9cc744352d40419fcf366a6bd02ea9335fd
+SHA256: a68f0e90d586d2f1dc3b6869000b8b0f6bb7c2ea438e80814fa05aedf31ed6bd
+Homepage: https://llvm.org/
+Description: Compiler runtime libraries for clang
+
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: x86_64
@@ -515,6 +543,20 @@ SHA1: c9c6de73e090ba956f33518df28e5dd956f9224f
 SHA256: aecd0f74e7dbfd5fbdf9a4de2c3679558c015a39e570e831fef4cfe56087f9a4
 Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
+
+Package: libllvm-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 588584
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 69238736
+MD5sum: 36cde15fae2ae5ce07aad8398a3cf019
+SHA1: 3e88fa0b6521c26734b24585104b0b5e8061dcdd
+SHA256: 7c977b337bb9595d5d88eefb46465ff25170dce3ee65aa8d1bfe0fb18c289048
+Homepage: https://llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 16)
 
 Package: libllvm-classic-flang
 Version: 20220523-4
@@ -590,6 +632,20 @@ SHA256: 53cdd2f6fa6540514b1c772e14241a09ee2abbdcf0fc52bc1f173de387cc1fa1
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
+Package: lld-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 18136
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/lld-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 2317368
+MD5sum: a369e0fe1bbb38586a6206c21c2f6d03
+SHA1: 3c918cbf677b1a3ca3b44bef8ce88b34fe49bc31
+SHA256: 6a432f7238ca5f27a9ac1e1792a941ff8fb3ce3a7bacaffcaaa685b9d9c1d61a
+Homepage: https://llvm.org/
+Description: LLVM-based linker
+
 Package: llvm-11
 Version: 11.1.0-1
 Architecture: x86_64
@@ -605,6 +661,34 @@ SHA1: d851f6f9c253de7b7f67b9709592a128799095cf
 SHA256: 6ef5c750e87ffaac69df5f20b2137d955ca8c54ea7bb473db859735de5238487
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 61452
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/llvm-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 12107312
+MD5sum: 32f5aaf8ed763eb58c2599d482a968aa
+SHA1: fd8231bda6887aa23b320ed5bad32467e521f377
+SHA256: b1e4e8f0a87fd92dc0e24c080f1623711e25b1ba1f763eb19bf2eca70180a040
+Homepage: https://llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-tools-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 13308
+Depends: libc++, ncurses, zlib, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/llvm-tools-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 2373808
+MD5sum: 7463e78028d88c0ba982ed9c0bab2083
+SHA1: 5acc82e68599bf121f5eeac753ca0459fb61048f
+SHA256: 9a62ffffc336ebb7c6d20e1c871c6d93cf9fac06c23571f92d6d38b9c06e4b96
+Homepage: https://llvm.org/
+Description: LLVM Development Tools
 
 Package: mesa-chromium
 Version: 22.3.0
@@ -665,6 +749,20 @@ SHA1: 97be5053971ce298b80afec528688d445f472f99
 SHA256: 89f7effda9cb6f52de92f90f2530f187d8f29d41301e330ee855bb597f4028b3
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
+
+Package: mlir-16
+Version: 20230222-16.0.0-rc3-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 235436
+Depends: libc++, ncurses, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/mlir-16_20230222-16.0.0-rc3-0_x86_64.deb
+Size: 26743924
+MD5sum: 9cc8004b27fa439afe7b4bab7538de7f
+SHA1: 61f1fb7ac499f502666d2d7579199f3833e469f3
+SHA256: 67657a57145fd985124512f24c5d5bed13e8449ed4b65b3ec9daaeff2ac1aa28
+Homepage: https://llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: mongodb
 Version: 6.1.0-1
