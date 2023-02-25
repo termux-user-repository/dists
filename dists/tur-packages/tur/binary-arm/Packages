@@ -66,16 +66,16 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: clang-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 113524
-Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/clang-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 20136544
-MD5sum: 3c4bdfe79a0e4f4d2d49bc9db6722087
-SHA1: c1cb3f94bcfca13ff17e65da1d10456676543aef
-SHA256: a90cdab671a921c5b5b5095b91af1e5b504e293ac7737e46e950c82120a78c42
+Installed-Size: 113604
+Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/clang-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 20158868
+MD5sum: 453d164ecb22c24eb20d9749a480f3d1
+SHA1: 13edfe6ca0754168637af59d4fa01b2027183481
+SHA256: 3be2880b12078af0f6494c4461fd943e95a4ba909fc6b3e370bb1be5c2a56590
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
@@ -442,16 +442,16 @@ Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
 Package: libcompiler-rt-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 15884
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/libcompiler-rt-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 1596964
-MD5sum: 4b4e61d1345ccc7ad3ad2927edd8091d
-SHA1: 91f71099ac656201f9722b75a88ecc4b9e28a658
-SHA256: a46596a1c9abe05cf459b6010e80e89389d48fd71ffd45770ed455c1498c0218
+Installed-Size: 15916
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/libcompiler-rt-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 1733156
+MD5sum: f266b8b09bbabdfd01896388335c5ada
+SHA1: 710a2b6e21beda3fd7fef913d284995304440c08
+SHA256: f33f83d47cc200073974ee49e450678165a870543fe0e87f8618d2022e4b897d
 Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
@@ -527,16 +527,16 @@ Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
 
 Package: libllvm-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 543068
+Installed-Size: 543320
 Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 74828436
-MD5sum: 8c485497e2d8f3ed3adf11faf83ca408
-SHA1: 701ad587ffe557a306ac621d2c03eab8c63ddccb
-SHA256: 58bb6d4021c7c609130569823748c1559476cf28ff7bc29fae91468dbfb1cb07
+Filename: pool/tur/libllvm-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 74926908
+MD5sum: b0b6330e85498ee25b97d194de66bf4b
+SHA1: 45201998fec82d468939fe2c90a5f223f564fb8c
+SHA256: cf42f00fdff458ff00508776797794846b388e554d59682c5436c4c2a5df457b
 Homepage: https://llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 16)
 
@@ -615,16 +615,16 @@ Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
 Package: lld-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 15744
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/lld-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 2384848
-MD5sum: 3fa9a0cdc1a0e657722617a4eb3a9d1c
-SHA1: 418f2768cd645e8d45f9fab3b11f82304548f91a
-SHA256: a67c2b3e9868186b650cd317d3f8d76fd2f5b4bce741c99ff5fdb01c4ae160b2
+Installed-Size: 15752
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/lld-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 2422600
+MD5sum: 3c2f642779b76b9fae02f40d3feb31f1
+SHA1: e44aa215c316ebfebf3a932c73c4832cba8c6273
+SHA256: 32dff8400e0259ad80beb6b0e0ece7c12cfa88c49e2bee326a3c3b3f0467d506
 Homepage: https://llvm.org/
 Description: LLVM-based linker
 
@@ -645,30 +645,30 @@ Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 48708
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/llvm-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 11458672
-MD5sum: bcc952ae32244bcbaf73fb95f35f4ef0
-SHA1: 4a0c327e8fe5370c516e1278d40e40ae361401d6
-SHA256: b43df4ef65f69fa6f8a23890d154725dd0aab890ee735af0b22f950bb4c01638
+Installed-Size: 48716
+Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/llvm-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 11476428
+MD5sum: 1d2bc9b7d93584607611e30dd530b912
+SHA1: 635613228f4d02f6b8dd9bf30ac8f0374cbdd8e3
+SHA256: df427cd1a9e9b248b3786c08b0201d450192fe6ab0324488981e6e3388cbf60f
 Homepage: https://llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-tools-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 10516
-Depends: libc++, ncurses, zlib, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/llvm-tools-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 2150200
-MD5sum: c350264de15c7bb49b83d8b3434ea848
-SHA1: d42aa0adf930572923fbbbb7866bfb89c23bf9cb
-SHA256: 7e7a07111ea77d0372d0144bd347167c2aaef93df9cfc0fcb89123a5ebe33c78
+Depends: libc++, ncurses, zlib, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/llvm-tools-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 2277868
+MD5sum: 18dffa709e03ddec68c087d08ab210dc
+SHA1: 6126a74237cde529e963309cce8048bc76828a59
+SHA256: d2d32d21c13a899c662b332447c5d3afcec06c4186ca5e27f1fdd0a560b93ca5
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
@@ -733,16 +733,16 @@ Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
 Package: mlir-16
-Version: 20230208-16.0.0-rc2-0
+Version: 20230222-16.0.0-rc3-0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 203420
-Depends: libc++, ncurses, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/mlir-16_20230208-16.0.0-rc2-0_arm.deb
-Size: 26573844
-MD5sum: 407d4853c1a29e5a2a1cd8994eacbcc9
-SHA1: 749110d19870164339fe31cb4380f11b176ca162
-SHA256: 95bf636cebf0a7ff124641535774d018973f3adf0a99d6c7777a6d4d38da5acb
+Installed-Size: 203440
+Depends: libc++, ncurses, libllvm-16 (= 20230222-16.0.0-rc3-0)
+Filename: pool/tur/mlir-16_20230222-16.0.0-rc3-0_arm.deb
+Size: 26199680
+MD5sum: a8ece0956f250ee535a2f72a2feb60ff
+SHA1: b0f182c7828a43a1888587c7bf06cbf7f3b9e39f
+SHA256: aae881a97cf5ff52070f5aed376a8328cbbb6760d7c39b4a16f92afe7f34f023
 Homepage: https://llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
@@ -1604,16 +1604,16 @@ Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
 Package: rustc-nightly
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 251096
+Installed-Size: 250984
 Depends: libc++, clang, openssl, lld, zlib, libllvm
-Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-0_arm.deb
-Size: 54770424
-MD5sum: a3370cdb029cf955c2c40746fe73d413
-SHA1: cd8bc881720e78d8093f3d83275b42aa8296e9a6
-SHA256: 9b55843b00349148e572c3cd212bc5fc9759d188938a18b797ecfd60940cc880
+Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-1_arm.deb
+Size: 54730292
+MD5sum: 0950521dbaeada24b0d5e7c34df1f4e2
+SHA1: 352bda9369ce513554d6f6f519c22e262b482625
+SHA256: a6fcdf1935342faf6839c52131e22fe043cb4cf65e3de0f75ac37419485a7fe6
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
 
@@ -2020,30 +2020,30 @@ Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
 Package: rust-nightly-wasm32-unknown-unknown
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 89184
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
-Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-0_all.deb
-Size: 18328680
-MD5sum: 8c58d2ca0cc7b311d914157dd6f5121d
-SHA1: 0e47da34255856c8811b7e4f092754b749b48e19
-SHA256: a86d48e07e3b12bef179e41c236ae2c3d6b4382adbdaa4529ebbcbc9a8745f01
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
+Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-1_all.deb
+Size: 18292852
+MD5sum: e3985637a4c4130415d0224cc8f5c309
+SHA1: 235104ecdec5d9c8729207b87c8fdd6e9af30966
+SHA256: bd9292f2e18dc1011912b5b3a45192565aa3234e686320f7dcf3be5ac0102f5f
 Homepage: https://www.rust-lang.org
 Description: rust std for wasm32-unknown-unknown target
 
 Package: rust-src-nightly
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 29028
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
-Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-0_all.deb
-Size: 2464368
-MD5sum: d0fc501c52918fed5dc373124d885ce5
-SHA1: 33fcf045f980720ca9e464d0a46bed73fcc82f6b
-SHA256: 20ea858b581491b385a2c5d462674923367585e718de8d5a0e089944b622f60a
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
+Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-1_all.deb
+Size: 2464256
+MD5sum: 04030bad6ce2bc75eaa4bad98733fd82
+SHA1: f6c0f31266a0fa487bfe9f096f7eea2e19356082
+SHA256: 617358d015cf11ea71949ca309f5ab9379a62e1aa215a99e6dfb779281b3c23e
 Homepage: https://www.rust-lang.org
 Description: rust src
 

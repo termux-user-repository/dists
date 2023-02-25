@@ -65,20 +65,6 @@ SHA256: 15afb5ce659d961f7d52e969e7e52e450d08950594f01812d3e8285c12aece0c
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
-Package: clang-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 138304
-Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/clang-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 22938696
-MD5sum: 5ebf9203cbb936a344e6fbabd2f8d771
-SHA1: fe8669822bd82c1352c971604d577383b47d41db
-SHA256: bd92f00266d88a10a5453b016219bfbc923c707baf1982b0e077f2b4e0a73a0d
-Homepage: https://llvm.org/
-Description: C language frontend for LLVM
-
 Package: dcfldd
 Version: 1.9
 Architecture: i686
@@ -383,20 +369,6 @@ SHA256: a067b0f0a519f5e926c7f4175447cb09e8d7a8514dc071a2ab0635b33d016b4d
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
-Package: libcompiler-rt-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 14168
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/libcompiler-rt-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 1492228
-MD5sum: a9566a72fa212c08b2c149b15352322e
-SHA1: a8e74be6420f8b3a672fd4cc8645f26d8aa289f9
-SHA256: dca9a380ecae71c74a41e7d7157edc37feda5435f7ff9ed3d86c8072ca2c029a
-Homepage: https://llvm.org/
-Description: Compiler runtime libraries for clang
-
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: i686
@@ -467,20 +439,6 @@ SHA1: 2126aa3a29e85da88fb398da0ce83e38b46e9f92
 SHA256: 758f900729c110fc25ab04f72f6b6c2cca536c7fbf395573aab445a484a7b544
 Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
-
-Package: libllvm-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 512248
-Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 71851976
-MD5sum: 60bf74041e17a8dd0efcbe287a8e4faf
-SHA1: cad4f287633c963c2cfde61f81942dc1b054a95d
-SHA256: 9d51b0a38f49fb2f67c7082f4d580f22d535eb362a135fe5d63ffdb21a79df94
-Homepage: https://llvm.org/
-Description: Modular compiler and toolchain technologies library (Version 16)
 
 Package: libllvm-classic-flang
 Version: 20220523-4
@@ -556,20 +514,6 @@ SHA256: d56aff3bba0902f4658a31c886204404315dab31c0ddb6176554ca1f2665ff56
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
-Package: lld-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 15804
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/lld-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 2318280
-MD5sum: 8e7c2195e6f7fcfaa1eba00e5f8208e7
-SHA1: 4da36c6555d07ea77716c33fa0b40455280de071
-SHA256: 8265d9cb16ab2a499d49d78264851212cee9557b410c3a7e22cec76b5e4814ce
-Homepage: https://llvm.org/
-Description: LLVM-based linker
-
 Package: llvm-11
 Version: 11.1.0-1
 Architecture: i686
@@ -585,34 +529,6 @@ SHA1: aa1789869e1a7ea2c7431db77bfde5cf31dca868
 SHA256: 52f5e4db5b21ba6f171e50709928d9b03841a3312ae7fb2cdb1c0f30741c89eb
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
-
-Package: llvm-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 61664
-Depends: libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/llvm-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 12988736
-MD5sum: a9ca77d8cd02526d28bd0b7a49c82371
-SHA1: 2dadec10f59a670d6c4dedace2f46b5b41d44c47
-SHA256: ff94ec8b99a6e3d9252d79e1f7d5b58992ca30cdf0d0f9b6e8d451e7cbbaa499
-Homepage: https://llvm.org/
-Description: LLVM modular compiler and toolchain executables
-
-Package: llvm-tools-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 13176
-Depends: libc++, ncurses, zlib, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/llvm-tools-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 2388832
-MD5sum: d289a62d6da85488db1187fa4845b5b5
-SHA1: ac45dc68a31dc43ea2ce228747d5901e37b4f9ef
-SHA256: c8a3307821e631866d030fb24a7f21a68c94aff16f8db1dd5d0eda624ab04080
-Homepage: https://llvm.org/
-Description: LLVM Development Tools
 
 Package: mesa-chromium
 Version: 22.3.0
@@ -673,20 +589,6 @@ SHA1: 544a7abe836b4223863903ffbccd5ec8efecba95
 SHA256: d01e239e167b9e060c5d0b2008b74de1d649569de4ba5fd5545039394dbd6f39
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
-
-Package: mlir-16
-Version: 20230208-16.0.0-rc2-0
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 250164
-Depends: libc++, ncurses, libllvm-16 (= 20230208-16.0.0-rc2-0)
-Filename: pool/tur/mlir-16_20230208-16.0.0-rc2-0_i686.deb
-Size: 30167056
-MD5sum: c727da8887565fc4051b0cc22a2b74b0
-SHA1: ae701e8a42371f8be9dd9ce391c900acc28e262b
-SHA256: ea842cf0a624e45b18113c87b7f32483aa2d510631f40f8ab0b82cd7ea146599
-Homepage: https://llvm.org/
-Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: ndk-sysroot-gcc-compact
 Version: 25c
@@ -1503,16 +1405,16 @@ Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
 Package: rustc-nightly
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 320256
+Installed-Size: 320092
 Depends: libc++, clang, openssl, lld, zlib, libllvm
-Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-0_i686.deb
-Size: 61952220
-MD5sum: 75c29d9fd5e375abe953b8489c6de223
-SHA1: d2c6e9c3c6b60dfebafb77d8a419bead62d57472
-SHA256: 9d8e0a81788f5541ccba021b1c9c2f9bcd8f18bd9404b8a72f0a1fa99612d24f
+Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-1_i686.deb
+Size: 61897404
+MD5sum: 1edfe9025d17fe53767c3c7f77481b65
+SHA1: dfd63435bd42b5a28e882cca4500a8275acaa501
+SHA256: 50cc19f04cf06468c0480aebaced81c2ba3e0c7d1ef35ac0015544759c1144f8
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
 
@@ -1919,30 +1821,30 @@ Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
 Package: rust-nightly-wasm32-unknown-unknown
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 89184
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
-Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-0_all.deb
-Size: 18328680
-MD5sum: 8c58d2ca0cc7b311d914157dd6f5121d
-SHA1: 0e47da34255856c8811b7e4f092754b749b48e19
-SHA256: a86d48e07e3b12bef179e41c236ae2c3d6b4382adbdaa4529ebbcbc9a8745f01
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
+Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-1_all.deb
+Size: 18292852
+MD5sum: e3985637a4c4130415d0224cc8f5c309
+SHA1: 235104ecdec5d9c8729207b87c8fdd6e9af30966
+SHA256: bd9292f2e18dc1011912b5b3a45192565aa3234e686320f7dcf3be5ac0102f5f
 Homepage: https://www.rust-lang.org
 Description: rust std for wasm32-unknown-unknown target
 
 Package: rust-src-nightly
-Version: 1.67.0-2023.02.10-nightly-0
+Version: 1.67.0-2023.02.10-nightly-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 29028
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-0)
-Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-0_all.deb
-Size: 2464368
-MD5sum: d0fc501c52918fed5dc373124d885ce5
-SHA1: 33fcf045f980720ca9e464d0a46bed73fcc82f6b
-SHA256: 20ea858b581491b385a2c5d462674923367585e718de8d5a0e089944b622f60a
+Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
+Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-1_all.deb
+Size: 2464256
+MD5sum: 04030bad6ce2bc75eaa4bad98733fd82
+SHA1: f6c0f31266a0fa487bfe9f096f7eea2e19356082
+SHA256: 617358d015cf11ea71949ca309f5ab9379a62e1aa215a99e6dfb779281b3c23e
 Homepage: https://www.rust-lang.org
 Description: rust src
 
