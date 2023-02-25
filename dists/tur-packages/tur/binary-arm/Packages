@@ -687,34 +687,48 @@ Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
 Package: mesa-zink-vulkan-icd-freedreno
-Version: 22.0.5-3
+Version: 22.0.5-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 3796
-Depends: vulkan-loader-generic, mesa-zink (= 22.0.5-3)
-Filename: pool/tur/mesa-zink-vulkan-icd-freedreno_22.0.5-3_arm.deb
-Size: 822204
-MD5sum: 6707b8ddc68d6d92cf9215afb4755221
-SHA1: 2f492d5b2506d838df0e2914a649901a67ba919a
-SHA256: 43a64de50f77d9727d6de70f84b0f5e2fd702be6e04acb45a52f47b4689db27e
+Installed-Size: 3812
+Depends: vulkan-loader-generic, mesa-zink (= 22.0.5-4)
+Filename: pool/tur/mesa-zink-vulkan-icd-freedreno_22.0.5-4_arm.deb
+Size: 822172
+MD5sum: 028254871c5da9f9120cff26c1c532ff
+SHA1: 6f0b37fee5f1cc17bda7a1ca8551ca120a893b38
+SHA256: 4ef6033014ced6cd43b1e8e464a40dd97be672dd429c9a851fffbe3615341b81
 Homepage: https://www.mesa3d.org
 Description: Mesa's Freedreno Vulkan ICD
 
-Package: mesa-zink
-Version: 22.0.5-3
+Package: mesa-zink-vulkan-icd-swrast
+Version: 22.0.5-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 29532
+Installed-Size: 29924
+Depends: vulkan-loader-generic, mesa-zink (= 22.0.5-4)
+Filename: pool/tur/mesa-zink-vulkan-icd-swrast_22.0.5-4_arm.deb
+Size: 10796956
+MD5sum: 820f701aa4c141e5a09b108ecc9bbac5
+SHA1: 5c88696693ff01568995caca87b5c094e3f7fd37
+SHA256: 5a8cabae180aa2f2e79f63e01897b0bdeb4d982bf68247927f5680180f3e4473
+Homepage: https://www.mesa3d.org
+Description: Mesa's Swrast Vulkan ICD
+
+Package: mesa-zink
+Version: 22.0.5-4
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 29520
 Depends: libandroid-shmem, libc++, libdrm, libexpat, libglvnd, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, xorg-xrandr, zlib, zstd
 Suggests: mesa-zink-dev
 Conflicts: libmesa, ndk-sysroot (<< 23b-6), mesa
 Replaces: libmesa, mesa
 Provides: mesa
-Filename: pool/tur/mesa-zink_22.0.5-3_arm.deb
-Size: 10922296
-MD5sum: fcf99e387c28da0773a2c5fe28c54eff
-SHA1: 66f7f171d8707bd798c88228035658794506fe31
-SHA256: b07602bbcf13a5f83f3a1c9db4461b38ae63fcda1f73bd8c6508ffc1161732fe
+Filename: pool/tur/mesa-zink_22.0.5-4_arm.deb
+Size: 10920764
+MD5sum: a14373884c939525623762ca6e51464c
+SHA1: 532a16b08922f971b4d52b736556e2ee59ebbb26
+SHA256: 8453a5c258ceb2f41b439daac05b9d327f28b8736ac3fb8f4f412314a1507271
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
@@ -913,19 +927,19 @@ Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: osmesa-zink
-Version: 22.0.5-3
+Version: 22.0.5-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 28196
-Depends: mesa-zink (= 22.0.5-3)
+Installed-Size: 28200
+Depends: mesa-zink (= 22.0.5-4)
 Breaks: mesa (<< 22.3.1), osmesa
 Replaces: mesa (<< 22.3.1), osmesa
 Provides: osmesa
-Filename: pool/tur/osmesa-zink_22.0.5-3_arm.deb
-Size: 10485660
-MD5sum: dcb894ea681af3ad43942fc5024146ea
-SHA1: 729ca2aa0604b2bbeac5539abeef181fea0fc31e
-SHA256: ba5942b58a5360816b24297e388fb7a9325ed77a762f2e86b491a44b8d8d80bf
+Filename: pool/tur/osmesa-zink_22.0.5-4_arm.deb
+Size: 10491748
+MD5sum: b167a01692d4fda7bc386199fb5fa9c0
+SHA1: 0206db963070e2e77b78ad1d0b472d6a824e394f
+SHA256: d5a2f696f86b47f41674d2c8c7709d71e48ecc9358f0ad174c182203f230e1e8
 Homepage: https://www.mesa3d.org
 Description: Mesa Off-screen Rendering Library
 
@@ -1947,7 +1961,7 @@ Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
 Package: mesa-zink-dev
-Version: 22.0.5-3
+Version: 22.0.5-4
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 148
@@ -1955,11 +1969,11 @@ Depends: libglvnd-dev
 Breaks: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
 Replaces: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3), mesa-dev
 Provides: mesa-dev
-Filename: pool/tur/mesa-zink-dev_22.0.5-3_all.deb
-Size: 22408
-MD5sum: a02844fc0964aa7b0950f05e100ac113
-SHA1: da901c6cba13fb3076f539c0a6e0568bcdda1ae8
-SHA256: d43272bdf8c16038b202b1261a8001844e4274173b3523502ccfbd8d933e80fc
+Filename: pool/tur/mesa-zink-dev_22.0.5-4_all.deb
+Size: 22400
+MD5sum: 768eac39a11cdb5093199f75b1edd325
+SHA1: 7986f425793de3668e4ff6fe382952c151dec835
+SHA256: 427d1e96d15a3e0f5b7eee6afd40fb3cee497814e1c51b31262c476f432db1bc
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
 
