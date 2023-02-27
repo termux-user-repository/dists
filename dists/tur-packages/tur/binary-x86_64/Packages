@@ -1636,16 +1636,16 @@ Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
 Package: rustc-nightly
-Version: 1.67.0-2023.02.10-nightly-1
+Version: 1.67.1-2023.02.27-nightly-0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 314468
+Installed-Size: 303292
 Depends: libc++, clang, openssl, lld, zlib, libllvm
-Filename: pool/tur/rustc-nightly_1.67.0-2023.02.10-nightly-1_x86_64.deb
-Size: 59935020
-MD5sum: 6564c021c5bf9355349069a6826a027b
-SHA1: a52c59ec4236eba67bb0c86a1261de0714ab2f27
-SHA256: a26826222f76450b0225559aa24cda9dd62458fb2cc86a6af66fd65ad63175bd
+Filename: pool/tur/rustc-nightly_1.67.1-2023.02.27-nightly-0_x86_64.deb
+Size: 58028040
+MD5sum: ab0d1a8bc1c265f208b3808aeeffc761
+SHA1: 8eba7f43aeb51500c7e751ff20be9d0d313f90a8
+SHA256: 873e275799ee43d9da9b12bbc9c64abf50ce5a3e2644bee9f90ad3c0d599ab3f
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
 
@@ -2052,30 +2052,30 @@ Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
 Package: rust-nightly-wasm32-unknown-unknown
-Version: 1.67.0-2023.02.10-nightly-1
+Version: 1.67.1-2023.02.27-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 89184
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
-Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.0-2023.02.10-nightly-1_all.deb
-Size: 18292852
-MD5sum: e3985637a4c4130415d0224cc8f5c309
-SHA1: 235104ecdec5d9c8729207b87c8fdd6e9af30966
-SHA256: bd9292f2e18dc1011912b5b3a45192565aa3234e686320f7dcf3be5ac0102f5f
+Installed-Size: 85472
+Depends: rustc-nightly (= 1.67.1-2023.02.27-nightly-0)
+Filename: pool/tur/rust-nightly-wasm32-unknown-unknown_1.67.1-2023.02.27-nightly-0_all.deb
+Size: 17715148
+MD5sum: 849705041666e7c36023ff02a220cbcd
+SHA1: fb3970540089924621e5ff22df246d732e47d27e
+SHA256: bb304fb5858e1fe217e0887b2055ad5cf7f6ae1a8747a135b6be70ef01f79498
 Homepage: https://www.rust-lang.org
 Description: rust std for wasm32-unknown-unknown target
 
 Package: rust-src-nightly
-Version: 1.67.0-2023.02.10-nightly-1
+Version: 1.67.1-2023.02.27-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 29028
-Depends: rustc-nightly (= 1.67.0-2023.02.10-nightly-1)
-Filename: pool/tur/rust-src-nightly_1.67.0-2023.02.10-nightly-1_all.deb
-Size: 2464256
-MD5sum: 04030bad6ce2bc75eaa4bad98733fd82
-SHA1: f6c0f31266a0fa487bfe9f096f7eea2e19356082
-SHA256: 617358d015cf11ea71949ca309f5ab9379a62e1aa215a99e6dfb779281b3c23e
+Installed-Size: 29076
+Depends: rustc-nightly (= 1.67.1-2023.02.27-nightly-0)
+Filename: pool/tur/rust-src-nightly_1.67.1-2023.02.27-nightly-0_all.deb
+Size: 2469096
+MD5sum: 306d03a94e5d0b4d7bf8822c14768eef
+SHA1: f9f1f18bbf5ddcac60b7226900e6a1a8510edfa8
+SHA256: 57935c10f23b3501cf3a3cf49975c3148aa1abb7c7318338a6d95c14b00e2af6
 Homepage: https://www.rust-lang.org
 Description: rust src
 
