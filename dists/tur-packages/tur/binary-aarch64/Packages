@@ -80,32 +80,32 @@ Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-is-code-oss
-Version: 1.75.1
+Version: 1.76.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 64
-Depends: code-oss (= 1.75.1)
+Depends: code-oss (= 1.76.0)
 Conflicts: code
 Breaks: code
-Filename: pool/tur/code-is-code-oss_1.75.1_aarch64.deb
-Size: 2564
-MD5sum: 16b9fb3ad46dc7f1b8ae18c79084c418
-SHA1: 9e147f73a9ec8836544c7a52c9b4548651a3eca9
-SHA256: 2ffaf570dfcc8d21c01b49ee43fef35d4da681375949196f5b27ae4f2341132b
+Filename: pool/tur/code-is-code-oss_1.76.0_aarch64.deb
+Size: 2560
+MD5sum: c4cf324d65f1e1961cb47e559d7c1a3a
+SHA1: c627b76b9e18d7dba2e2c94fce4843d8423dfee7
+SHA256: 0b206835b6fb8d1406003f0f65f1a39f33c97279b217361ed1fea5c72247b536
 Homepage: https://github.com/microsoft/vscode
 Description: Symlinks code/vscode to code-oss
 
 Package: code-oss
-Version: 1.75.1
+Version: 1.76.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 301888
+Installed-Size: 298264
 Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.75.1_aarch64.deb
-Size: 65914624
-MD5sum: 0c4151001a646310bdbf05e6b40197ea
-SHA1: c8137433018b36dcc89137ced0cc7ebc062b30ec
-SHA256: db71fd40a3fd18b239e4abb7595b8087ae0d8b8c479f8203888fdc1c7897e40f
+Filename: pool/tur/code-oss_1.76.0_aarch64.deb
+Size: 65703300
+MD5sum: 5d1255915d83cdac42420948ef11858b
+SHA1: 3c13cc2624c9b05fe365fc500d514542f74fc162
+SHA256: f1a47faf95037c06cff9c528b73fcc8dae283a27208b913f9efd8cefd1c61e0c
 Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
