@@ -632,6 +632,62 @@ SHA256: 53cdd2f6fa6540514b1c772e14241a09ee2abbdcf0fc52bc1f173de387cc1fa1
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
+Package: libraw-static
+Version: 0.21.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 3812
+Depends: libraw (= 0.21.1)
+Filename: pool/tur/libraw-static_0.21.1_x86_64.deb
+Size: 366516
+MD5sum: 67e225d00cc835b5e13f20116e432bdd
+SHA1: 04355a9eb09b5043fa1f57c2076c91ac7259a58e
+SHA256: 6724c372d56f0929f9449b65f638d1619bbcf0cdfbc90b93dc9b29e287cad2b6
+Homepage: https://www.libraw.org
+Description: Static libraries for libraw
+
+Package: libraw
+Version: 0.21.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 3528
+Depends: littlecms, libjasper
+Filename: pool/tur/libraw_0.21.1_x86_64.deb
+Size: 642384
+MD5sum: b8b1c5979b51cf62e4f37f7569b1c122
+SHA1: b837bc32f2d364c4e54a8c52128c83e94980e4a8
+SHA256: 2003024a3c0a930ba1d111d55afb67565125165da86819dbf339f627407c5810
+Homepage: https://www.libraw.org
+Description: A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others
+
+Package: libspnav-static
+Version: 1.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 164
+Depends: libspnav (= 1.0)
+Filename: pool/tur/libspnav-static_1.0_x86_64.deb
+Size: 30772
+MD5sum: 3c1fd22aa743897593653fd4dd9f2b6a
+SHA1: e11f0e0876140507a75907c401724df5bfe539b3
+SHA256: cd9ad2693aaae126ceb4e1cb48264cdaef6996d3cca74c9e35185fc6fb2542aa
+Homepage: https://github.com/FreeSpacenav/libspnav
+Description: Static libraries for libspnav
+
+Package: libspnav
+Version: 1.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 108
+Depends: libx11
+Filename: pool/tur/libspnav_1.0_x86_64.deb
+Size: 15456
+MD5sum: 3616764ad341eb2ddcdf6617df9fe012
+SHA1: dba23a921f7d416738511ce4d9dc0037768a0847
+SHA256: 8f9388597b567d1879676167901bd16a222946ea3bfaf9fadca1fbaf7e7df8f5
+Homepage: https://github.com/FreeSpacenav/libspnav
+Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
+
 Package: lld-16
 Version: 20230222-16.0.0-rc3-0
 Architecture: x86_64
@@ -913,6 +969,20 @@ SHA256: 94fed8e11c0b6e0f5b5c05a84141a23581102d116a67e57476a100507ccd8e8e
 Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
 
+Package: openimageio
+Version: 2.4.9.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 20156
+Depends: openexr, boost-headers, openjpeg, glew, libtiff, opencolorio, libwebp, libpng, libheif, libhdf5, freetype, python, ffmpeg, opencv, ptex-static, qt5-qtbase, pybind11, libraw
+Filename: pool/tur/openimageio_2.4.9.0_x86_64.deb
+Size: 4092776
+MD5sum: 64981b9db5efadda8f42bd951ff468a2
+SHA1: 73a54a25ae644167efc57193574dbdd0ee08fc76
+SHA256: a5310b4a770b302cb530a3ece9931faf99342f1f89d9c0ea0acbe49b84447c84
+Homepage: http://www.openimageio.org/
+Description: A library for reading and writing images, including classes, utilities, and applications
+
 Package: openssl-static
 Version: 3.0.3-1
 Architecture: x86_64
@@ -957,6 +1027,34 @@ SHA1: 77ccdcffef1506dc70732273563360b6f0e7764d
 SHA256: 4183897144ddcea5aafb5236ea5c251541dd9e43f49ded0c995bc59e9aff48b2
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: openvdb-static
+Version: 10.0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 257208
+Depends: openvdb (= 10.0.1)
+Filename: pool/tur/openvdb-static_10.0.1_x86_64.deb
+Size: 10219564
+MD5sum: ec59a6f53f283a1df9ec66df100e79b5
+SHA1: c1a71a27e35dd88ded1eea4c05816130c2117015
+SHA256: 622ce41ad10c56647cc5477d740cea7461099a7dc0402f926a86e6efb8a8db22
+Homepage: https://github.com/dreamworksanimation/openvdb
+Description: Static libraries for openvdb
+
+Package: openvdb
+Version: 10.0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 84024
+Depends: boost, libtbb, zlib, libblosc
+Filename: pool/tur/openvdb_10.0.1_x86_64.deb
+Size: 6123924
+MD5sum: 388b7d9d6d807e8cd865b0da40edf835
+SHA1: cd52f66c8ac9ae5c693cb38ff4bea9486e6a37ad
+SHA256: 312a86465546d4ae9d7090c413bc37b5d56b6b3fb8f7ad154a0d9b9aa9cea272
+Homepage: https://github.com/dreamworksanimation/openvdb
+Description: A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
 
 Package: osmesa-zink
 Version: 22.0.5-4
@@ -1122,6 +1220,20 @@ SHA1: e4a67639e11e2e60629ff477858f11020159e9cf
 SHA256: 88d04df55d2ce3e424cb062ce6ed2d3c44bc1e3d0ae1e5569cec41cfea719dbc
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
+
+Package: pybind11
+Version: 2.10.3
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 936
+Depends: python
+Filename: pool/tur/pybind11_2.10.3_x86_64.deb
+Size: 148948
+MD5sum: 01d5941458ffc92455f9de14b81207c0
+SHA1: b6d4afebddd3dc9f6e9f90670ebc452830be81fe
+SHA256: f6d9ec14c10273a42df73a5f72fe9bddffc63ba5ae66eac7b8061e546d0eddcc
+Homepage: https://pybind11.readthedocs.org
+Description: A lightweight header-only library that exposes C++ types in Python and vice versa
 
 Package: python-cairo
 Version: 1.23.0
