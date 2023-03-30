@@ -1,18 +1,18 @@
 Package: mesa-zink
-Version: 22.0.5-4
-Architecture: arm
+Version: 22.0.5-5
+Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 29520
+Installed-Size: 31120
 Depends: libandroid-shmem, libc++, libdrm, libexpat, libglvnd, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, xorg-xrandr, zlib, zstd
 Suggests: mesa-zink-dev
 Conflicts: libmesa, ndk-sysroot (<< 23b-6), mesa
 Replaces: libmesa, mesa
 Provides: mesa
-Filename: pool/tur/mesa-zink_22.0.5-4_arm.deb
-Size: 10920764
-MD5sum: a14373884c939525623762ca6e51464c
-SHA1: 532a16b08922f971b4d52b736556e2ee59ebbb26
-SHA256: 8453a5c258ceb2f41b439daac05b9d327f28b8736ac3fb8f4f412314a1507271
+Filename: pool/tur/mesa-zink_22.0.5-5_aarch64.deb
+Size: 7878304
+MD5sum: 57ca8547d5a977a5128c8fe80222fbd5
+SHA1: 69e275968010a12783cb0906f3c843f5687d136c
+SHA256: e790ea75920ba74b20aebd438477cedd51f04404680c98f25b0d21f48ada32ff
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
