@@ -1884,6 +1884,34 @@ SHA256: 78dbdcef19b9c5ae1c30f2ed0c32e0b02068cbcb650e33be8568e382d956a810
 Homepage: https://trigger-rally.sourceforge.io
 Description: A free 3D rally car racing game
 
+Package: turbo-text-editor-static
+Version: 0.0.1-git-3db219eb-0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2744
+Depends: turbo-text-editor (= 0.0.1-git-3db219eb-0)
+Filename: pool/tur/turbo-text-editor-static_0.0.1-git-3db219eb-0_aarch64.deb
+Size: 488856
+MD5sum: c6defd8e8caee18bc836f52a2f5ee913
+SHA1: 7febee2d8e036e32b52eddd00472307bc40c5ca9
+SHA256: dbbfbf63efd47c7a7b1492b602baf54e71a2b56d94321b98f27c51a61052eab3
+Homepage: https://github.com/magiblot/turbo
+Description: Static libraries for turbo-text-editor
+
+Package: turbo-text-editor
+Version: 0.0.1-git-3db219eb-0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2468
+Depends: libandroid-support, libc++, ncurses
+Filename: pool/tur/turbo-text-editor_0.0.1-git-3db219eb-0_aarch64.deb
+Size: 615660
+MD5sum: ab22b88a21145329e5ace014a5269f92
+SHA1: 388f64c966ce687badf11953be467bff413a94f3
+SHA256: a2b7c8d781c0db9cf51d60ca0ef8a1c08c027dc702b60d1022c8ba084142bd99
+Homepage: https://github.com/magiblot/turbo
+Description: An experimental text editor based on Scintilla and Turbo Vision
+
 Package: typioca
 Version: 2.2.0
 Architecture: aarch64
