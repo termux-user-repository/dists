@@ -443,15 +443,15 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libbson
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 712
-Filename: pool/tur/libbson_1.22.2_arm.deb
-Size: 128704
-MD5sum: 030b8d8616ffe020e0eec4bd26166aee
-SHA1: 4fbcd21bebabf0fcb3ed6a190c7b31696baf107f
-SHA256: e5bf26a6332bf03741e212f85b3781db5994d98153b7a3347c9720707c7110a5
+Filename: pool/tur/libbson_1.22.2-1_arm.deb
+Size: 128348
+MD5sum: dcbf0bbdca492bbcf2178fbf58ca9e67
+SHA1: ab0012d0f54a837bfaaa9cec6f23b848739b8e1f
+SHA256: b72a711a437e960480148a47d36354514ba4331758ade476c433aac748a006ce
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
@@ -573,58 +573,58 @@ Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
 Package: libmongoc-static
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 1172
-Depends: libmongoc (= 1.22.2)
-Filename: pool/tur/libmongoc-static_1.22.2_arm.deb
-Size: 292584
-MD5sum: ce350e22cadc5b7d9b65694ea0bc5003
-SHA1: 5abd1d062cb1a893a43fdee163d120ecf47f3924
-SHA256: 567cc0463ea36f91529db01c3814e01881146fe673b02731d002a3b5fba7dbc8
+Depends: libmongoc (= 1.22.2-1)
+Filename: pool/tur/libmongoc-static_1.22.2-1_arm.deb
+Size: 292756
+MD5sum: 89e6259e520259db15928006ba8b732f
+SHA1: 1b291a503cec02f2793e6c1e04b273445b80da92
+SHA256: d925ef0d3cd4f8addf5e3e217867396bc9b5953f09ebfb17434f80a6f1eefeb1
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: Static libraries for libmongoc
 
 Package: libmongoc
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 1164
 Depends: libicu, libsasl, libmongocrypt, openssl, zlib, zstd
-Filename: pool/tur/libmongoc_1.22.2_arm.deb
-Size: 279952
-MD5sum: cc3b7dc316e7efefa55733319416e821
-SHA1: 43580d30f6130f85f757644b13be8bde1bf6a87c
-SHA256: 008ca0eeccc1cd53b362d7b54649885c9075598c11efb697080b3b21248cf854
+Filename: pool/tur/libmongoc_1.22.2-1_arm.deb
+Size: 279720
+MD5sum: 442fa1ada4e19f44117733be1b001f7f
+SHA1: 9971952f46fe1853566be148aa37c0e465fd809b
+SHA256: 417d906f407827f94f8fa2d3591642a76a604d33cbf44d3a58e253be9085f89d
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
 
 Package: libmongocrypt-static
-Version: 2.3.0-1
+Version: 2.3.0-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 744
-Depends: libmongocrypt (= 2.3.0-1)
-Filename: pool/tur/libmongocrypt-static_2.3.0-1_arm.deb
-Size: 192984
-MD5sum: 499f3be76fded76b3acc47110a9c7f5b
-SHA1: 718a7dfce395e79502027f0cede1791a60988ef2
-SHA256: 4affc70b6c4c2213c5d265b94c534582873f9557a5a7f6504dcfb7ec00c09ff0
+Depends: libmongocrypt (= 2.3.0-2)
+Filename: pool/tur/libmongocrypt-static_2.3.0-2_arm.deb
+Size: 193028
+MD5sum: 1db097c5ca32c729df6e0aa562a9fbaf
+SHA1: e0ffda2156f96951aa5efc4d35f4f8328d5568cf
+SHA256: a78b1467aeff31edb201ee0ec880c42bf4c9f5cc612de1551879ca7296f9bf98
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
-Version: 2.3.0-1
+Version: 2.3.0-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 600
 Depends: libicu, libsnappy, libsasl, openssl
-Filename: pool/tur/libmongocrypt_2.3.0-1_arm.deb
-Size: 163372
-MD5sum: a695c36fbb1e6c7fc3ec5834ef46f29b
-SHA1: cbbb40a2a2f78cac4accac9ca1ee050c80f41555
-SHA256: e231f27abd33ce53560ccf41880490a6937e9d7e446ef21ef420dbfd8ba20ce8
+Filename: pool/tur/libmongocrypt_2.3.0-2_arm.deb
+Size: 163244
+MD5sum: c1bb28e562df8f3a517f722c2a6124f9
+SHA1: f31af19633c03e0afddcbb86ac292e250eeebd26
+SHA256: b72e0cb314c919378309afa6a3bd1bd532e28c9dc5669950e355d422c95c6799
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
@@ -833,17 +833,17 @@ Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
 Package: nodejs-16
-Version: 16.19.1
+Version: 16.19.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 53380
+Installed-Size: 53388
 Depends: libc++, openssl-1.1, c-ares, libicu, zlib
 Suggests: clang, make, pkg-config, python
-Filename: pool/tur/nodejs-16_16.19.1_arm.deb
-Size: 9153428
-MD5sum: 96a9673c38079ee9baf5d1230abe2a48
-SHA1: 8caa8a7b8b19587a530b3ef4fbbbacb2e778c278
-SHA256: 1a9cffb8fd1fa82c2ba34193fb0c0fd9b222668798323d6d6741f83e6dbf31d8
+Filename: pool/tur/nodejs-16_16.19.1-1_arm.deb
+Size: 9086616
+MD5sum: c19d7fccf6dffc390f637122ac19c034
+SHA1: f526d3491da297a28f08bf0a1d3f99fcfd3c259c
+SHA256: a3f8ce7fc7bb414ad466eff7033f8230d2080bf877d6a2d357befa6b81424c49
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
@@ -1129,46 +1129,46 @@ Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
 Package: php7-apache
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 10732
-Depends: apache2, php7 (= 7.4.33)
-Filename: pool/tur/php7-apache_7.4.33_arm.deb
-Size: 2127688
-MD5sum: 657bad7cecf187935c7edcdec461aab2
-SHA1: 3489acb161d9cdd3c8c452525e6e156720439a5b
-SHA256: 5ec50b91b7fabe8139c2ba4c158dfa4179a69d47b59aa0beddc4c25537cc2be2
+Depends: apache2, php7 (= 7.4.33-1)
+Filename: pool/tur/php7-apache_7.4.33-1_arm.deb
+Size: 2130808
+MD5sum: ca32bebf4e5ca294a306b8e347bd0ab9
+SHA1: 80a6653e3c2655844fe689185c5c2f4fed69da58
+SHA256: a41360a2251596279734f940e146c9170af961e940efa52ed3f605cd44f36138
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
 Package: php7-fpm
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 10864
-Depends: php7 (= 7.4.33)
+Depends: php7 (= 7.4.33-1)
 Conflicts: php-fpm
-Filename: pool/tur/php7-fpm_7.4.33_arm.deb
-Size: 2177396
-MD5sum: 3c21ac1ddb67453bcd43e83581314b76
-SHA1: 537aa6d1ca674de099bf0ecef0973aedebeeeceb
-SHA256: bb0d8a191588489c85341acb674d6c9d7af2a0e08de6c7d9397e1cf16c150096
+Filename: pool/tur/php7-fpm_7.4.33-1_arm.deb
+Size: 2179512
+MD5sum: 09ecb6b1d406ec1301fa808267e66255
+SHA1: 6e8f47fe6a16ef9f37c2d4d6203b8d461c21eada
+SHA256: 4b243cb2458896ceeecab566298fb7aafde08b7de24c1e5974b29632f4d022a6
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
 Package: php7-pgsql
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 136
-Depends: apr-util, postgresql, php7 (= 7.4.33)
+Depends: apr-util, postgresql, php7 (= 7.4.33-1)
 Conflicts: php-pgsql
-Filename: pool/tur/php7-pgsql_7.4.33_arm.deb
-Size: 40144
-MD5sum: cff6cd937d61548d6d5ff181e6f34e99
-SHA1: 71fb3b80216eaa4b1777c90828f970d3b81a3f3d
-SHA256: f478821a8b9f46fd4867a6f252db46ebc3e7a704c79458125d652e9089a77e40
+Filename: pool/tur/php7-pgsql_7.4.33-1_arm.deb
+Size: 40132
+MD5sum: 563dff572ee5914c41605b058499b225
+SHA1: 3828d8cef82e9c43988b33f389e00b65e7872a38
+SHA256: d66abe34c7e6e032f283345eacf176ad5202b10aeee2a3e017fbee4206b5bbee
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -1189,17 +1189,17 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 38512
+Installed-Size: 38520
 Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
 Conflicts: php, php-mysql, php-dev
-Filename: pool/tur/php7_7.4.33_arm.deb
-Size: 7139620
-MD5sum: a85b39dd81ca64be48f86238783dd26f
-SHA1: 4d70e97c627142d1cdc25a51e7ae25315552e802
-SHA256: 0abde47c4b7e7f2a44d49891ed456f30d49761d97950deefc97445cbb1e5867f
+Filename: pool/tur/php7_7.4.33-1_arm.deb
+Size: 7174416
+MD5sum: e914f5d2987e9197522c1cb6f64ae362
+SHA1: c1e9e7ec131d0d58e5a029f50a76e32ad2f6e525
+SHA256: 2dfd8525331b8fd03848806866ea806f896ea9273d919ec180501167cccc07f4
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 

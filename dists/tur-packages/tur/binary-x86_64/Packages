@@ -461,15 +461,15 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libbson
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 964
-Filename: pool/tur/libbson_1.22.2_x86_64.deb
-Size: 142496
-MD5sum: 62f43d4ac71ff7ad685fe422e17d5485
-SHA1: aad4739fbbeac3346fd6f5675b4df98977d87f18
-SHA256: e9572f0b5a2ad5f978d0c2423e7c6d27942e90e68bc6d13542e8983f6f394a7a
+Filename: pool/tur/libbson_1.22.2-1_x86_64.deb
+Size: 141412
+MD5sum: 7198dbb32efb8232e293b0e8fd72e1df
+SHA1: 9e0c823931aa91c7965fe9a057f9595ff4148b60
+SHA256: 729f4c37b7587e7597ff4f76f23c4e67e350783fea51c1c9008927f343993bd2
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
@@ -591,58 +591,58 @@ Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 10, Classic Flang Fork)
 
 Package: libmongoc-static
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 1784
-Depends: libmongoc (= 1.22.2)
-Filename: pool/tur/libmongoc-static_1.22.2_x86_64.deb
-Size: 298420
-MD5sum: d83d0e84848c87002c83bb8bfda6caa8
-SHA1: 43d1385d17dde303c5de887e0750a7d844bb8c9e
-SHA256: 35848e2a7d03e2f0f04917e6e6488511f6ce918e947a6b8356e7c757512ea115
+Depends: libmongoc (= 1.22.2-1)
+Filename: pool/tur/libmongoc-static_1.22.2-1_x86_64.deb
+Size: 298728
+MD5sum: 838c7feebbbc8421eb508aa8bac6ec39
+SHA1: 8780cf159cb99fa1ee2c97781df554b6f9ed44ec
+SHA256: 8cf65475fb4297966e7fc72de3d125dd12b2886e7381086034353006ed8c6dea
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: Static libraries for libmongoc
 
 Package: libmongoc
-Version: 1.22.2
+Version: 1.22.2-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 1400
 Depends: libicu, libsasl, libmongocrypt, openssl, zlib, zstd
-Filename: pool/tur/libmongoc_1.22.2_x86_64.deb
-Size: 313432
-MD5sum: 6831b30008367627ff380c7f20e3a6fd
-SHA1: ec7d669bc2e251e1d7601661d5f7f742bb87979c
-SHA256: 6866a08dfd703fa7bd9faed79479dbece3e09a74a7889dd0161f8c454800d057
+Filename: pool/tur/libmongoc_1.22.2-1_x86_64.deb
+Size: 312792
+MD5sum: 3ab4814d7caf0bc8db74f1e401a4f82a
+SHA1: 1bde59ae98405088bc6a6371ffe44aab4601f12b
+SHA256: 4111be8ea285b8c77d76d65e13099a345fbdbfd45e181c3d9609140244ea1b94
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
 
 Package: libmongocrypt-static
-Version: 2.3.0-1
+Version: 2.3.0-2
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 1200
-Depends: libmongocrypt (= 2.3.0-1)
-Filename: pool/tur/libmongocrypt-static_2.3.0-1_x86_64.deb
-Size: 206504
-MD5sum: 080fc269983059faec8eebe471759a45
-SHA1: f1d62053f02f6822608d60eb8a30df9e6af26316
-SHA256: d7003843e168df82f4e24c91481452c707e7e7ffeac9cabccbc11d321b5d1237
+Depends: libmongocrypt (= 2.3.0-2)
+Filename: pool/tur/libmongocrypt-static_2.3.0-2_x86_64.deb
+Size: 206584
+MD5sum: 6afff9f7648e24ac8244f4a144a83d4d
+SHA1: 59436b463832896de420909c6fe6d7fc211dd331
+SHA256: e017116e76828086a0b87a73fc1d82a28c41b8fa6e62db90e3af566c949e361a
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
-Version: 2.3.0-1
+Version: 2.3.0-2
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 752
 Depends: libicu, libsnappy, libsasl, openssl
-Filename: pool/tur/libmongocrypt_2.3.0-1_x86_64.deb
-Size: 183352
-MD5sum: ab50fce3f1ba1de28cfeba70d05d4ecb
-SHA1: c71e551edeabc110ceb36647409fdcf36c23f6d3
-SHA256: 53cdd2f6fa6540514b1c772e14241a09ee2abbdcf0fc52bc1f173de387cc1fa1
+Filename: pool/tur/libmongocrypt_2.3.0-2_x86_64.deb
+Size: 183728
+MD5sum: 240da182fdf94d2bbe9a75ca15a53493
+SHA1: 71a20a99f9767729a1d26cedb147e70b485d29a9
+SHA256: 48b796b19b835f5855b934521b2b88994147024e03010e2260606ff7b58be572
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
@@ -865,17 +865,17 @@ Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
 Package: nodejs-16
-Version: 16.19.1
+Version: 16.19.1-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 59420
+Installed-Size: 59428
 Depends: libc++, openssl-1.1, c-ares, libicu, zlib
 Suggests: clang, make, pkg-config, python
-Filename: pool/tur/nodejs-16_16.19.1_x86_64.deb
-Size: 9650996
-MD5sum: 2d22d69165a1d129667abd61fc9ae029
-SHA1: 78fbd17197a6e7d2bfb19558f93adad25378a780
-SHA256: 4f3a7ac3b70e1818529ef1d5ad9e888f5d1d2663bc57ceab8ebe17305641af8c
+Filename: pool/tur/nodejs-16_16.19.1-1_x86_64.deb
+Size: 9592868
+MD5sum: 8e5d7c4b73981d89493e9bc002a68e2e
+SHA1: 378c0aa5fa71f10d057d414606dd44b3797bf7d6
+SHA256: 08f1044d49f8ef5786641d5bb8eb4fb309611d18e2c50debc1fe6ee1ecff223f
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
@@ -1161,46 +1161,46 @@ Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
 Package: php7-apache
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 13232
-Depends: apache2, php7 (= 7.4.33)
-Filename: pool/tur/php7-apache_7.4.33_x86_64.deb
-Size: 2442632
-MD5sum: 3482ade13e262d9856f05df5f58aab0c
-SHA1: 9fdc31694e4d2f3e8c972bc7afc310672e2a7b33
-SHA256: b1cbedf7f2095e22a90411d34ab9babf3e0e5760bf9c24a6762c200b2abcc49d
+Depends: apache2, php7 (= 7.4.33-1)
+Filename: pool/tur/php7-apache_7.4.33-1_x86_64.deb
+Size: 2447420
+MD5sum: 5bfb7d5f8356cef165bfaaac69357e7a
+SHA1: 103a76bc9721f49f0a429ffced957ca71d5d0c9f
+SHA256: 34ecfe3c8e4ca17ca5437888140b2bfbe796294103c3120dfa3bc95cb4b06d9a
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
 Package: php7-fpm
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 13364
-Depends: php7 (= 7.4.33)
+Depends: php7 (= 7.4.33-1)
 Conflicts: php-fpm
-Filename: pool/tur/php7-fpm_7.4.33_x86_64.deb
-Size: 2498232
-MD5sum: 5cf919fc8675d888111b739f1542a6bf
-SHA1: fe014e40bccba063ac6f77d946ce1cd8a960f721
-SHA256: 2d4df1b6d88bcc366c5cb817ab4ca2e0b2abe16ad25897b22ac3b6d6a634d801
+Filename: pool/tur/php7-fpm_7.4.33-1_x86_64.deb
+Size: 2494928
+MD5sum: 808453c7103ad5e72f1ca5eb2696ca7f
+SHA1: dbc7e78271b4b792bf9b7fbe97fe7339f62034b0
+SHA256: 317935e84249ed9cbb38a094eba085d46209429371b6491747f598191bb28ef4
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
 Package: php7-pgsql
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 192
-Depends: apr-util, postgresql, php7 (= 7.4.33)
+Depends: apr-util, postgresql, php7 (= 7.4.33-1)
 Conflicts: php-pgsql
-Filename: pool/tur/php7-pgsql_7.4.33_x86_64.deb
-Size: 48220
-MD5sum: 34d0596478eb9edf04c6fdfc54a84e93
-SHA1: 2ffc8d9002c31cfed00c83d99b0b414726025369
-SHA256: 3bfbcd2b017a3a6016d1629783d481cf0add991ad1624ecd4520263a196c87fa
+Filename: pool/tur/php7-pgsql_7.4.33-1_x86_64.deb
+Size: 48104
+MD5sum: 8bfe5092c0f15ed6c34dbf307c9be335
+SHA1: eb676b661c1873007d1a525e4781a9cc815eb7f4
+SHA256: 2d885423201af6e349f3355463fbe445802079d6b26c0788bbad97aef3661e0a
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -1221,17 +1221,17 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7
-Version: 7.4.33
+Version: 7.4.33-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 46192
+Installed-Size: 46200
 Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
 Conflicts: php, php-mysql, php-dev
-Filename: pool/tur/php7_7.4.33_x86_64.deb
-Size: 8136772
-MD5sum: 117468931d965bcf6ecb3015198d1e1e
-SHA1: e4a67639e11e2e60629ff477858f11020159e9cf
-SHA256: 88d04df55d2ce3e424cb062ce6ed2d3c44bc1e3d0ae1e5569cec41cfea719dbc
+Filename: pool/tur/php7_7.4.33-1_x86_64.deb
+Size: 8163176
+MD5sum: 8cfa6f6d457d4791bd62c8be1e02a18f
+SHA1: 149e80c4f785f033659a9d7187bc52ba05b24d39
+SHA256: e4fdf811bf04befed1c1d999fe2a3e74bcca380be9cd9e83e409a96cbbbee856
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
