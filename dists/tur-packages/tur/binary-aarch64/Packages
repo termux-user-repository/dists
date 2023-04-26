@@ -1278,18 +1278,18 @@ Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
 Package: python-is-python3.10
-Version: 3.10.9
+Version: 3.10.11
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 40
-Depends: python3.10 (= 3.10.9)
+Installed-Size: 36
+Depends: python3.10 (= 3.10.11)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.10_3.10.9_aarch64.deb
-Size: 2220
-MD5sum: 7b12e7f434d3eb2a2b43c7c002cf6643
-SHA1: 7ce11e3904fd97237470daac5401d825f2e9f34b
-SHA256: 538522b472f2b32dff644f78528e8d49b5c947cfc7ea8a36f047c9c724a0705b
+Filename: pool/tur/python-is-python3.10_3.10.11_aarch64.deb
+Size: 2144
+MD5sum: ca844102cfd80a80daf598a555fd8ee4
+SHA1: 5a56318d6f67edc4af58cd90bc005cfa256ecc72
+SHA256: bd90faab0ba1701e7348c8985dfd95b0e77a981a6d86d22083828652159d90cb
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
@@ -1454,48 +1454,61 @@ SHA256: 17906ef6f3f3ecd6791a0c22c18d21492eeb3b406ca81b3b03d3c4b142448f37
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python3.10-cross
+Version: 3.10.11
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 246412
+Filename: pool/tur/python3.10-cross_3.10.11_aarch64.deb
+Size: 43003960
+MD5sum: e9a1c5a2c9c0a1c428ace444e7cc79b2
+SHA1: c13d08e42fc9eea2833be57c1a7ef82b6cd65218
+SHA256: c20eba3ac36079fee2fd4a52a23b410777d800c19dcd8550c25ea4735b7b0671
+Homepage: https://python.org/
+Description: Python 3.10 for cross build on the host (NOT for Termux)
+
 Package: python3.10-static
-Version: 3.10.9
+Version: 3.10.11
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 23192
-Depends: python3.10 (= 3.10.9)
-Filename: pool/tur/python3.10-static_3.10.9_aarch64.deb
-Size: 3943528
-MD5sum: 1a47ae2c5a816b7b8711e48480c87148
-SHA1: 1c0505d5a1d9e97286ec973083cb0556032e88ba
-SHA256: 5cce264e234d90e7672037765983254f952978321e4836a8de0f6cf13a67a125
+Depends: python3.10 (= 3.10.11)
+Filename: pool/tur/python3.10-static_3.10.11_aarch64.deb
+Size: 3943188
+MD5sum: f6a928350cb998401557757790ec85b4
+SHA1: 830de1d3db7299d295c9cab0c044c68579e31512
+SHA256: b4ba43ebdc8623fe9292e082e71d3ea8f83adb0e91c7fa6b7b2cb1375a68aad5
 Homepage: https://python.org/
 Description: Static libraries for python3.10
 
 Package: python3.10-tkinter
-Version: 3.10.9
+Version: 3.10.11
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 8096
-Depends: tk, python3.10 (= 3.10.9)
-Filename: pool/tur/python3.10-tkinter_3.10.9_aarch64.deb
-Size: 963928
-MD5sum: 003c786e1ee1a919505b7f63f7ca0223
-SHA1: 248e8c187e203f5b652bd663df2b7734fd6a3480
-SHA256: 29c403f414de106ae8c08d2ff63e892f92203a63ef34bf8405e47412a07e1034
+Depends: tk, python3.10 (= 3.10.11)
+Filename: pool/tur/python3.10-tkinter_3.10.11_aarch64.deb
+Size: 966440
+MD5sum: aef9068c3035107c2cdf33582c71c370
+SHA1: 374cc394e22af8ff88389eaac2556ec66fdace2e
+SHA256: d8977cdf3138163466097a5862434042031cdf269dedc396dda812eda859bd18
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.10
 
 Package: python3.10
-Version: 3.10.9
+Version: 3.10.11
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 49288
+Installed-Size: 49332
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.10-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.9_aarch64.deb
-Size: 9159820
-MD5sum: 35eaa2ff8e7c6a6254d473120fd2d0e7
-SHA1: f3ac8c8f3b67db5a41d1cda5caaecbb31429ac38
-SHA256: 551f0848a5f1a30c94d2a89b9ede9b06fb13a1850ac7941c447056904f28f0cd
+Filename: pool/tur/python3.10_3.10.11_aarch64.deb
+Size: 9210268
+MD5sum: 31a1b8d789e9c03fbd8730e09bf7db8d
+SHA1: 338f62fb6d2e78809ff58300bcfc2fa276d481b5
+SHA256: 46fecde76eaed36808a92a587643a314bc2a21774568fe45178c1e23c1686d6d
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
 

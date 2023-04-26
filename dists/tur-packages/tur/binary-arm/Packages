@@ -1246,18 +1246,18 @@ Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
 Package: python-is-python3.10
-Version: 3.10.9
+Version: 3.10.11
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.10 (= 3.10.9)
+Depends: python3.10 (= 3.10.11)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.10_3.10.9_arm.deb
-Size: 2084
-MD5sum: 15129daaa1545a513b56528275a2d70a
-SHA1: 8b77afbae41257926a123bf730661a4db6bc1f2c
-SHA256: f0c7682d4bae627ab4dc01c26c41e2f3d81adfc1122316a7e7719df199407f56
+Filename: pool/tur/python-is-python3.10_3.10.11_arm.deb
+Size: 2020
+MD5sum: 028868690b423c45c890cc6f6e09ec67
+SHA1: 41698c4e00431391b379679ade499566df628d26
+SHA256: 9928824e04e090c534946bee73d0666e821aae82ec70a619f255b5b0ffa1d44f
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
@@ -1422,48 +1422,61 @@ SHA256: d61fa3351814af92e225348c45f60f78bb57b9451645b3925bf5533c88a2ef2e
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
-Package: python3.10-static
-Version: 3.10.9
+Package: python3.10-cross
+Version: 3.10.11
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 13692
-Depends: python3.10 (= 3.10.9)
-Filename: pool/tur/python3.10-static_3.10.9_arm.deb
-Size: 3685208
-MD5sum: 1bf7c6a870965e370bb965c7b07cab44
-SHA1: fae77ada6cad3a377788601e4b7b7944a345bb82
-SHA256: 529cb363780c1a3d2917269edba9905d5b52c36cee5e4124c3bc1b4ccc5c55e5
+Installed-Size: 246416
+Filename: pool/tur/python3.10-cross_3.10.11_arm.deb
+Size: 43006212
+MD5sum: bfc1d2c33e459d06e889e5f6b76e48e1
+SHA1: a361c3599cf8aff3ddf9117b523f24773e044049
+SHA256: f2d3651cb48d551833b41ef5157bc1d330239d0a9b1188a8ee7a4d99b12634e9
+Homepage: https://python.org/
+Description: Python 3.10 for cross build on the host (NOT for Termux)
+
+Package: python3.10-static
+Version: 3.10.11
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 13680
+Depends: python3.10 (= 3.10.11)
+Filename: pool/tur/python3.10-static_3.10.11_arm.deb
+Size: 3682976
+MD5sum: 2c9fab7afca75cabc4e9cc1b72812ddc
+SHA1: eec44674c6592bf5c59983e704165b1462e489e5
+SHA256: e597149b88141bb5b2b227bbd9be01a7d74c0d44f3faa0ffc8785df73b151b4f
 Homepage: https://python.org/
 Description: Static libraries for python3.10
 
 Package: python3.10-tkinter
-Version: 3.10.9
+Version: 3.10.11
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 8096
-Depends: tk, python3.10 (= 3.10.9)
-Filename: pool/tur/python3.10-tkinter_3.10.9_arm.deb
-Size: 964120
-MD5sum: 6af8fdff771e1126337fb0c5b6ddc3b7
-SHA1: a964817947dbb4011d10361ff0fb1236d9aa5247
-SHA256: 107bb1a4a651d1ddbd7b720be5a3e3e201c1a6d0ea0076f3a2385dc423d873a0
+Depends: tk, python3.10 (= 3.10.11)
+Filename: pool/tur/python3.10-tkinter_3.10.11_arm.deb
+Size: 966496
+MD5sum: 4120fa1fea5087dd9b1ee38eb263d93f
+SHA1: d897d14ff70bed7c465d5872f358d5a40e291186
+SHA256: 3305ead89fc5f3076f505dedd1e87111f4e1878110621c84ddf44fcde1d2e48a
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.10
 
 Package: python3.10
-Version: 3.10.9
+Version: 3.10.11
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 47136
+Installed-Size: 47160
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.10-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.9_arm.deb
-Size: 9117972
-MD5sum: 0f38c15dd61904bd6f8536c4e9a59986
-SHA1: cbee855c7989ad6084243d44573f3c9f7a5eeb9c
-SHA256: ea2f68d69f0b5383bb5f8b773a0df89d5472c9ffe0715ad42052dde79adcc000
+Filename: pool/tur/python3.10_3.10.11_arm.deb
+Size: 9167856
+MD5sum: e39c32766fda8866469455cf2779e9ba
+SHA1: 4425f248597ffb9c189b81d623f39313c5b3d02b
+SHA256: c688538f142a68cd8c2ea588561ac228311fcd79f95881e3878e9e59176bf9a5
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
 
