@@ -572,6 +572,24 @@ SHA256: 7c977b337bb9595d5d88eefb46465ff25170dce3ee65aa8d1bfe0fb18c289048
 Homepage: https://llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 16)
 
+Package: libllvm-classic-flang
+Version: 20230419
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 785648
+Depends: binutils-is-llvm, libc++, ncurses, ndk-sysroot, libffi, zlib
+Suggests: libandroid-complex-math, classic-flang
+Conflicts: libllvm-15, clang-15, lld-15
+Replaces: libllvm-15, clang-15, lld-15
+Provides: libllvm-15, clang-15, lld-15
+Filename: pool/tur/libllvm-classic-flang_20230419_x86_64.deb
+Size: 113685184
+MD5sum: 4ac37d341d2727c33a35b12bd3b63c55
+SHA1: 876aafcc7b2aa8f8effccdd7771f8656e8904d13
+SHA256: 22ea8e662165bdabdf8386f98cdfef5b967abdbcbde2bec0c72cc43d8cdebd93
+Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
+Description: Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)
+
 Package: libmongoc-static
 Version: 1.22.2-1
 Architecture: x86_64
