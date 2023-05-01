@@ -1011,30 +1011,30 @@ Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: openvdb-static
-Version: 10.0.1
+Version: 10.0.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 284968
-Depends: openvdb (= 10.0.1)
-Filename: pool/tur/openvdb-static_10.0.1_arm.deb
-Size: 13597508
-MD5sum: edb0c0b17e5d23097d21cb75e9f88ee9
-SHA1: 31b3bf2edd6a1e2cfca4b54f9ddcb8ccdfa448f7
-SHA256: c71252deb0cbcc70f7e98ee3cad205229fc0ee431b4ca579c8a8f397e538ad42
+Installed-Size: 285092
+Depends: openvdb (= 10.0.1-1)
+Filename: pool/tur/openvdb-static_10.0.1-1_arm.deb
+Size: 13585468
+MD5sum: d76f08d6bd01d93192f5fe6bc1e70460
+SHA1: 2bff76d3a829e880c3e43a843276d6d495b449d2
+SHA256: 5d2747a05f032c05ade4782b50e25451c451f29350e64172a2a9868b1728fa6a
 Homepage: https://github.com/dreamworksanimation/openvdb
 Description: Static libraries for openvdb
 
 Package: openvdb
-Version: 10.0.1
+Version: 10.0.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 69464
+Installed-Size: 69536
 Depends: boost, libtbb, zlib, libblosc
-Filename: pool/tur/openvdb_10.0.1_arm.deb
-Size: 5849832
-MD5sum: c4fba984a5eea786e3126dc7d9461d2d
-SHA1: 4e178cdcec88714a5e8e967948a19f4cfa214feb
-SHA256: c73e228acd6d1753485125572c9422dcfde3362067fd3a8011f8b1dc53f548c4
+Filename: pool/tur/openvdb_10.0.1-1_arm.deb
+Size: 5842872
+MD5sum: 5786764d18838bc08ff5eb7b06d49512
+SHA1: 42b5029103553c02da79a3dde46ca12523c98e60
+SHA256: 847e21607b9c0046e2628a2fea8784a225978fc2e32e536b6a54bd5988190387
 Homepage: https://github.com/dreamworksanimation/openvdb
 Description: A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
 
@@ -1204,16 +1204,16 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: pybind11
-Version: 2.10.4
+Version: 2.10.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 936
 Depends: python
-Filename: pool/tur/pybind11_2.10.4_arm.deb
-Size: 149020
-MD5sum: 6bf885c140c9bf2f45315e18c5d24f5c
-SHA1: 30da32a4156f74f883f34ed13c0d5f024da4c45e
-SHA256: 8c88d7b42d8581a1cf4bc52e17f37e64fc46e298642ec5e3e44b495b3bee749e
+Filename: pool/tur/pybind11_2.10.4-1_arm.deb
+Size: 148904
+MD5sum: 350b03a066c8a0b3bf9a5b43597ea092
+SHA1: 5b27bc090feb340ff0d2dd990ff6bb95fbc78857
+SHA256: ae09fac7c9b2d4d84c489fca1895dac8b65c0c0a18724da5e776522a36b2c165
 Homepage: https://pybind11.readthedocs.org
 Description: A lightweight header-only library that exposes C++ types in Python and vice versa
 
