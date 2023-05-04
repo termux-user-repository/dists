@@ -388,6 +388,60 @@ SHA256: 78ffd2e8f026e85f45a46986f398ce164d454947b2ef439665d1daa19c42d756
 Homepage: https://github.com/eeeXun/GTT
 Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
+Package: hare-cross
+Version: 20230423
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 8952
+Filename: pool/tur/hare-cross_20230423_aarch64.deb
+Size: 1014532
+MD5sum: 793a7f550bdfcdb3da6785b1a341fee6
+SHA1: 5e35d3814bc7720aafdcb993c5ea6d69dcec5871
+SHA256: f93e059987e335e8a06fa30bf9cf3f9a516addd3264aea21b4abae1b3bcfa0d1
+Homepage: https://harelang.org/
+Description: Hare for cross build on the host (NOT for Termux)
+
+Package: hare
+Version: 20230423
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 10512
+Depends: harec, qbe
+Suggests: mime-support
+Filename: pool/tur/hare_20230423_aarch64.deb
+Size: 915904
+MD5sum: 6297bd69e70c69c150f6eb85bddbdf01
+SHA1: 4c5c745c9dd6903f5e27a20f008369471401832b
+SHA256: 59ad7e3a1b96803ef2f68bf5d1fd5aff302089b6dc5e1187263366ed73b40e70
+Homepage: https://harelang.org/
+Description: The Hare programming language
+
+Package: harec-cross
+Version: 20230421
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 680
+Filename: pool/tur/harec-cross_20230421_aarch64.deb
+Size: 200424
+MD5sum: 35d9216cd1902afdc444a62ba1300d1f
+SHA1: bb0fa147219650ace361482a64f3162eb822cee3
+SHA256: 79269f46368a6117bcea303d8b599dfe280d348387887edbc91ccf7aad4b765b
+Homepage: https://harelang.org/
+Description: Hare bootstrap compiler for cross build on the host (NOT for Termux)
+
+Package: harec
+Version: 20230421
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 280
+Filename: pool/tur/harec_20230421_aarch64.deb
+Size: 86708
+MD5sum: 8900ae469459b82f81f68e0b5ce17762
+SHA1: 42da4bf66d5a6b5dbde9824a32583905b6c44f3a
+SHA256: b7d48c5d7aef682787c9180e9bcc7439789c2756a5fc7fd732c79f949ebdf8a9
+Homepage: https://harelang.org/
+Description: The Hare programming language - bootstrap compiler
+
 Package: lfortran-llvm
 Version: 0.15.0
 Architecture: aarch64
@@ -1686,16 +1740,29 @@ SHA256: 4a08d6a673c2b463e38b4aef7fce4a4ef80a184b65af6a13dd8eeb67f95fc0fb
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: qbe-cross
+Version: 1.1-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 600
+Filename: pool/tur/qbe-cross_1.1-1_aarch64.deb
+Size: 161780
+MD5sum: 792f845ef20423436776224e4f5ce49d
+SHA1: c35e3856cde667c9315867bb7bcf21d38c839390
+SHA256: 8998218657e031c411a1f8133d5164887af295df6a4285c051a8d1065f101770
+Homepage: https://c9x.me/compile/
+Description: QBE for cross build on the host (NOT for Termux)
+
 Package: qbe
-Version: 1.1
+Version: 1.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 316
-Filename: pool/tur/qbe_1.1_aarch64.deb
-Size: 74572
-MD5sum: bbeb402818e075190673140aab564c1c
-SHA1: 6ad0f7ec69449e9cf4ced1b2c1ff2aad0aaf5f78
-SHA256: 7186a4bbce93a8aa2a95792d0f77bed0fce3c4fdb45554f068814949e3339737
+Filename: pool/tur/qbe_1.1-1_aarch64.deb
+Size: 74512
+MD5sum: 0a751390a972c539444185605310158d
+SHA1: 817d5f6b87694c6d6f14638b561ad0d7f39abde0
+SHA256: c5a9b6f9bdfeb86e64a999fc16befe2acd6164b840169625544be680263d7531
 Homepage: https://c9x.me/compile/
 Description: Small embeddable C compiler backend
 
