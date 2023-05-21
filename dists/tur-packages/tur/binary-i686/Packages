@@ -1348,6 +1348,20 @@ SHA256: 57003c37290700bf81aa5ba0328fc26412421f25235fb0cc49a02cc72ab8c1f2
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-tiktoken
+Version: 0.4.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 2080
+Depends: libc++, python
+Filename: pool/tur/python-tiktoken_0.4.0_i686.deb
+Size: 579664
+MD5sum: d3d3760f43a8030bf12e997764ca44a5
+SHA1: 96b9c20c79ef5a7f8058b42533b7b71218adc5fd
+SHA256: 7682b56eee76b38a90767f1142e4a7caa968f42d45afd4ebe1be08042a8fed8a
+Homepage: https://github.com/openai/tiktoken
+Description: A fast BPE tokeniser for use with OpenAI's models
+
 Package: python3.10-cross
 Version: 3.10.11
 Architecture: i686
