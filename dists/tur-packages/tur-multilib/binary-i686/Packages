@@ -95,6 +95,20 @@ SHA256: 8433659daa2f7bde1bcdfa22d347135f1def33fa9ef094440bab149ef95bd25f
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Cryptographic library that is designed to fit easily in more or less any context
 
+Package: lib32-libunistring
+Version: 1.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 5260
+Depends: lib32-libandroid-support, lib32-libiconv
+Filename: pool/tur-multilib/lib32-libunistring_1.1_i686.deb
+Size: 616476
+MD5sum: 6e0382462a55f82e4b6d3ed1427d787c
+SHA1: 516a0e8f9d1f685f59dc8c30313e402ae40a964b
+SHA256: 4378d850b54c8b08de6a2ead0ff6bbf1ee112cd4188f0bc5df695a1a22df2f6b
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Library providing functions for manipulating Unicode strings
+
 Package: wine-stable
 Version: 7.0.1
 Architecture: i686
