@@ -68,6 +68,22 @@ SHA256: 665658d87c266afefd92392fc5c3b26aa11207d9061b8a7b93df7d6c8bf2b431
 Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
 
+Package: lib32-libgnutls
+Version: 3.7.8
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 5608
+Depends: lib32-libc++, lib32-libgmp, lib32-libnettle, ca-certificates, lib32-libidn2, lib32-libunistring
+Breaks: libgnutls-dev
+Replaces: libgnutls-dev
+Filename: pool/tur-multilib/lib32-libgnutls_3.7.8_arm.deb
+Size: 1288036
+MD5sum: 15b09882a7311b926f2671b9defed77f
+SHA1: ab64389774ff93d8afd4dc710587861d18538d4a
+SHA256: 481c59cb4bc5ba3c847e850505de87f71721f4bec834b4e8411a1bc50c05be6d
+Homepage: https://www.gnutls.org/
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+
 Package: lib32-libiconv
 Version: 1.17
 Architecture: arm
