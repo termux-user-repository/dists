@@ -1,14 +1,14 @@
 Package: bin32-nettle
-Version: 3.8.1
+Version: 3.9
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 220
-Depends: lib32-libnettle (= 3.8.1)
-Filename: pool/tur-multilib/bin32-nettle_3.8.1_x86_64.deb
-Size: 48960
-MD5sum: 895abe7c72cd40454e764dcf02918e71
-SHA1: e39298764f1928800d3373f6b842be27047a9e50
-SHA256: 4c6dfebc4339545398655c2fdeb31082b8be2112a07b3e77b096dcdcc1430a87
+Depends: lib32-libnettle (= 3.9)
+Filename: pool/tur-multilib/bin32-nettle_3.9_x86_64.deb
+Size: 48948
+MD5sum: 4f783e0c481c56312c6ac2ad3b837b48
+SHA1: 1869183ba7a7191a6ff002fce2fc80d414804b97
+SHA256: 6ab48287dacbbfb192109389bb2c84b9d1eceeb25baff4fbae625467102425d9
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
@@ -42,16 +42,16 @@ Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
 
 Package: lib32-libnettle
-Version: 3.8.1
+Version: 3.9
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 4148
+Installed-Size: 4344
 Depends: lib32-libgmp
-Filename: pool/tur-multilib/lib32-libnettle_3.8.1_x86_64.deb
-Size: 713528
-MD5sum: 1c9bd8423cc34dfa762b8a5ca923f842
-SHA1: 2bb9ebbf1ee1cd6801f9dd3ad81eb7e09d1671b1
-SHA256: ff6aa6ea84e630da3ae1733f9248e719e4c138429e681a1b135023f358cf54d4
+Filename: pool/tur-multilib/lib32-libnettle_3.9_x86_64.deb
+Size: 743596
+MD5sum: 6c2ad1b0629a384f2bc1f43153da630f
+SHA1: 339a19a402f01e8b2fbfb7a0461c8b4a26479a11
+SHA256: a5f15bb15f220ccc51eaeb7f2400a99eeda917f77fbbc27c92dd065c4d39b55b
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Cryptographic library that is designed to fit easily in more or less any context
 
