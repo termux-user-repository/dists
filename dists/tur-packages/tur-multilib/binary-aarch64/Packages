@@ -81,6 +81,20 @@ SHA256: c935bfedf09c3c04229be0f13559f40a6bd00910c872e7cc95204a2e3604673e
 Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
+Package: lib32-libidn2
+Version: 2.3.4
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 516
+Depends: lib32-libandroid-support, lib32-libiconv, lib32-libunistring
+Filename: pool/tur-multilib/lib32-libidn2_2.3.4_aarch64.deb
+Size: 87168
+MD5sum: 483061944eb286564c550c5623ed1422
+SHA1: 1985f29cdd2d560c99b78200fc52ee7109696948
+SHA256: ae4fd65530268e0432d40ef2b157830d1c5369dee4e02381ddfe3f16f057137a
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Free software implementation of IDNA2008, Punycode and TR46
+
 Package: lib32-libnettle
 Version: 3.9
 Architecture: aarch64
