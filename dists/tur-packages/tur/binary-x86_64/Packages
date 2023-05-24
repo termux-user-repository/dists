@@ -1549,6 +1549,34 @@ SHA256: ca81589114dfe9ce46cd2c9b5dcf4b4e551c02032f5cd90cf67eea677487a6fb
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-seledroid
+Version: 1.1.0
+Architecture: x86_64
+Maintainer: @nacho00112
+Installed-Size: 276
+Depends: python, seledroid-app
+Filename: pool/tur/python-seledroid_1.1.0_x86_64.deb
+Size: 20516
+MD5sum: 74d637d7af0552b0fbbcf82ad01bc0e6
+SHA1: 744d08b00445f6b44a91a910d572b47b95577961
+SHA256: d220eecf2950984fb7ef429965ff7da1b6ba0f3305a00b3c9cf6b4a27801f960
+Homepage: https://github.com/luanon404/seledroid
+Description: Python library to control android webdriver.
+
+Package: python-selenium-is-seledroid
+Version: 4.8.2
+Architecture: x86_64
+Maintainer: @nacho00112
+Installed-Size: 92
+Depends: python, python-seledroid
+Filename: pool/tur/python-selenium-is-seledroid_4.8.2_x86_64.deb
+Size: 3600
+MD5sum: 9989bc3600129cb7ac868dfb1bdc0378
+SHA1: 2e4e51046e41719685dd3cc35516d32ec17a4353
+SHA256: 066bc5fdd07d6bcbf821d43e7ce42f6ba22dd7bd3e43836835436a8fad2ec8c9
+Homepage: https://github.com/nacho00112/tur
+Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
+
 Package: python-tiktoken
 Version: 0.4.0
 Architecture: x86_64
@@ -1922,6 +1950,19 @@ SHA1: 8eba7f43aeb51500c7e751ff20be9d0d313f90a8
 SHA256: 873e275799ee43d9da9b12bbc9c64abf50ce5a3e2644bee9f90ad3c0d599ab3f
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
+
+Package: seledroid-app
+Version: 1.1.1
+Architecture: x86_64
+Maintainer: @nacho00112
+Installed-Size: 1616
+Filename: pool/tur/seledroid-app_1.1.1_x86_64.deb
+Size: 1304124
+MD5sum: 4817f6c5aaca3a3087c83e3c337d5bbe
+SHA1: e175edfc4615b324a357f02fea44044c625dd93f
+SHA256: e8207970a0f54731072ca29fe220ae4bd0bf12f3c5331d98970276f11f7b1902
+Homepage: https://github.com/luanon404/android-webdrivers
+Description: Chromium-based android webdriver application used by seledroid.
 
 Package: sortix-rw
 Version: 1.0

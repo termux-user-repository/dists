@@ -1549,6 +1549,34 @@ SHA256: 17906ef6f3f3ecd6791a0c22c18d21492eeb3b406ca81b3b03d3c4b142448f37
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-seledroid
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @nacho00112
+Installed-Size: 276
+Depends: python, seledroid-app
+Filename: pool/tur/python-seledroid_1.1.0_aarch64.deb
+Size: 20504
+MD5sum: 750322a1d84f1e4e985a33fd4e66df3a
+SHA1: 90b3c648b45c156c42822ba68907cd63f6b29abc
+SHA256: adfd7213b8a138c4033f85b4a43a34041618b9067a5ddb93cf9283f5cd0dc481
+Homepage: https://github.com/luanon404/seledroid
+Description: Python library to control android webdriver.
+
+Package: python-selenium-is-seledroid
+Version: 4.8.2
+Architecture: aarch64
+Maintainer: @nacho00112
+Installed-Size: 92
+Depends: python, python-seledroid
+Filename: pool/tur/python-selenium-is-seledroid_4.8.2_aarch64.deb
+Size: 3608
+MD5sum: 6f40eca90651cb53b6c1d128cc235b8b
+SHA1: a16bcd50c0604a50f71bce45085c74df8be24f55
+SHA256: 4f25177aec24225066b4f90a89359cfcade8df32432fb8b5f1256c14067f3874
+Homepage: https://github.com/nacho00112/tur
+Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
+
 Package: python-tiktoken
 Version: 0.4.0
 Architecture: aarch64
@@ -1922,6 +1950,19 @@ SHA1: 8403fbf9e2daddf29641eb12b4119fe215e5a0dc
 SHA256: 29f534d628d835099d4f36c7bda2263f3ae306e9c8917f97d0ea4c0ee10ac303
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
+
+Package: seledroid-app
+Version: 1.1.1
+Architecture: aarch64
+Maintainer: @nacho00112
+Installed-Size: 1616
+Filename: pool/tur/seledroid-app_1.1.1_aarch64.deb
+Size: 1304164
+MD5sum: eb050f4690609b889fccc1a8fd0e7dac
+SHA1: 01eb92ee0a4e41270ed86a516c8afddea5e7cf66
+SHA256: 4131faf4868e1fe8d33f598c345fa5822400d6580927f2ec135450787485d555
+Homepage: https://github.com/luanon404/android-webdrivers
+Description: Chromium-based android webdriver application used by seledroid.
 
 Package: sortix-rw
 Version: 1.0

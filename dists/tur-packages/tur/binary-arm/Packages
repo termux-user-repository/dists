@@ -1463,6 +1463,34 @@ SHA256: d61fa3351814af92e225348c45f60f78bb57b9451645b3925bf5533c88a2ef2e
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-seledroid
+Version: 1.1.0
+Architecture: arm
+Maintainer: @nacho00112
+Installed-Size: 276
+Depends: python, seledroid-app
+Filename: pool/tur/python-seledroid_1.1.0_arm.deb
+Size: 20512
+MD5sum: ec8093de694aaf00306296fa3ed1f4cb
+SHA1: 2d77c8726e4e2498fffb38cb565868810cdce3b6
+SHA256: 95b4943495547bfd4915648d583d4e8a8107235690cd100e5b0a711875817226
+Homepage: https://github.com/luanon404/seledroid
+Description: Python library to control android webdriver.
+
+Package: python-selenium-is-seledroid
+Version: 4.8.2
+Architecture: arm
+Maintainer: @nacho00112
+Installed-Size: 92
+Depends: python, python-seledroid
+Filename: pool/tur/python-selenium-is-seledroid_4.8.2_arm.deb
+Size: 3604
+MD5sum: 98b7a4c5013710f7e8322172a8edd1a7
+SHA1: 0503596ebf949025579b5eb33ebbf93e4fcfe49c
+SHA256: 6f18533b2f684363bdf83ec66652b2fb44ddd34ca10a7b87bf97a24a56088c17
+Homepage: https://github.com/nacho00112/tur
+Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
+
 Package: python-tiktoken
 Version: 0.4.0
 Architecture: arm
@@ -1810,6 +1838,19 @@ SHA1: d69ec8a628e7457abd1d2c508f26797bed01b1fe
 SHA256: 613f683b06faff2129316927b17bf7691fb2b017add650d7a1ff9c22cd60c572
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
+
+Package: seledroid-app
+Version: 1.1.1
+Architecture: arm
+Maintainer: @nacho00112
+Installed-Size: 1616
+Filename: pool/tur/seledroid-app_1.1.1_arm.deb
+Size: 1304172
+MD5sum: 39bc960d7c713edd2714498f9a7e14c0
+SHA1: 3809b04faf14020bf37cb3b1e1066cf0a3f8cf8f
+SHA256: 41ef95455cc9742cfcbb2b4f435fdeb405e1586314c547134a360e385bb338a0
+Homepage: https://github.com/luanon404/android-webdrivers
+Description: Chromium-based android webdriver application used by seledroid.
 
 Package: sortix-rw
 Version: 1.0

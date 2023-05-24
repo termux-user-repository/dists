@@ -1362,6 +1362,34 @@ SHA256: 57003c37290700bf81aa5ba0328fc26412421f25235fb0cc49a02cc72ab8c1f2
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: python-seledroid
+Version: 1.1.0
+Architecture: i686
+Maintainer: @nacho00112
+Installed-Size: 276
+Depends: python, seledroid-app
+Filename: pool/tur/python-seledroid_1.1.0_i686.deb
+Size: 20520
+MD5sum: 2efd47a062f499aa0b9babd8f9faf574
+SHA1: 639b3ca0a3efe012be3a10dce5383ab70c274778
+SHA256: aed477fd4c634699ab18bc2f69173b90bb301b40e1a7fe9bdca9c496578befa9
+Homepage: https://github.com/luanon404/seledroid
+Description: Python library to control android webdriver.
+
+Package: python-selenium-is-seledroid
+Version: 4.8.2
+Architecture: i686
+Maintainer: @nacho00112
+Installed-Size: 92
+Depends: python, python-seledroid
+Filename: pool/tur/python-selenium-is-seledroid_4.8.2_i686.deb
+Size: 3600
+MD5sum: ca0251e5b345e99790a3951e5cffcc6b
+SHA1: 30f917f22f5eadab44b1be9e99bccbabc829b7d2
+SHA256: 6aa2831a2c68fadf1d24095da9eda6152086ef0f028b20c216c7ea394e7dd42b
+Homepage: https://github.com/nacho00112/tur
+Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
+
 Package: python-tiktoken
 Version: 0.4.0
 Architecture: i686
@@ -1709,6 +1737,19 @@ SHA1: 9598bc8f60890d233e143bf7a5cc72b212df1efa
 SHA256: ced04dfe8acac3e556ef2969772e24356c58203bad00928671b718ed19d9cc25
 Homepage: https://www.rust-lang.org
 Description: Rust compiler and utilities (nightly version)
+
+Package: seledroid-app
+Version: 1.1.1
+Architecture: i686
+Maintainer: @nacho00112
+Installed-Size: 1616
+Filename: pool/tur/seledroid-app_1.1.1_i686.deb
+Size: 1304124
+MD5sum: 61a3a8b548bdb20a3254b3121b3badc1
+SHA1: 7a6203d1ecd8d6877399b95c93a302040a6a03a5
+SHA256: c24d4e2ee6c67a0ac20586ed9372fd35d479d847cbface9a3bce22a3a2a21a83
+Homepage: https://github.com/luanon404/android-webdrivers
+Description: Chromium-based android webdriver application used by seledroid.
 
 Package: sortix-rw
 Version: 1.0
