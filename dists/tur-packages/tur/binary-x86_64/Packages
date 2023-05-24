@@ -501,6 +501,19 @@ SHA256: 450b2006a367ffc29f52c1b84996d1f2eaccfaae908ed78a0bd52416ea2f3853
 Homepage: https://lfortran.org/
 Description: A modern open-source interactive Fortran compiler
 
+Package: lib-tls-client
+Version: 1.3.12
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 7596
+Filename: pool/tur/lib-tls-client_1.3.12_x86_64.deb
+Size: 2198784
+MD5sum: f51925be3efb6a21a6a5adbd971402b7
+SHA1: dad2fdd3331b3d15909120f79bc8a1e37dfa084c
+SHA256: 6e5c09aa8ea71f9dfc12b2e6a114e6474645edc37dc5a9026e220947b3c0be82
+Homepage: https://github.com/bogdanfinn/tls-client/
+Description: Shared library for catopen/catgets/catclose of Bionic Libc
+
 Package: libandroid-mathlib-static
 Version: 0.1
 Architecture: x86_64
@@ -1590,6 +1603,20 @@ SHA1: 2f28af1c316896864eda7cad42b620261d7199f3
 SHA256: 20f68ea8f7d0a3b28c564b165640935182fc3640550d7ef8617cc530ac297834
 Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
+
+Package: python-tls-client
+Version: 0.2.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 232
+Depends: libc++, python
+Filename: pool/tur/python-tls-client_0.2.1_x86_64.deb
+Size: 27176
+MD5sum: 0506c126b0c2db464df4c26ee1e0ef24
+SHA1: e5a9cd386ea167d0d8f568517e977301636c0682
+SHA256: 7e9a26eb5ac948d5477b494a7122545db48bfd628a8871204a3f9f1f5df57afa
+Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
+Description: Advanced HTTP Library
 
 Package: python3.10-cross
 Version: 3.10.11
