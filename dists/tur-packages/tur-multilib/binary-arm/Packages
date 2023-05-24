@@ -1,3 +1,17 @@
+Package: bin32-iconv
+Version: 1.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 60
+Depends: lib32-libiconv (= 1.17)
+Filename: pool/tur-multilib/bin32-iconv_1.17_arm.deb
+Size: 10288
+MD5sum: dd0142095f9e80ee4f39fa0595ea9d6e
+SHA1: 3a62fe42540bd1cb127f7a1a017d1440b37eed77
+SHA256: 95b8399a19402eae2c10b6c01998aecde1418007003f4276feaa6343d9782da8
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Utility converting between different character encodings
+
 Package: bin32-nettle
 Version: 3.9
 Architecture: arm
@@ -53,6 +67,19 @@ SHA1: 396b53c57b997fda1d2cb753722ffde47e4b62bf
 SHA256: 665658d87c266afefd92392fc5c3b26aa11207d9061b8a7b93df7d6c8bf2b431
 Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
+
+Package: lib32-libiconv
+Version: 1.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2248
+Filename: pool/tur-multilib/lib32-libiconv_1.17_arm.deb
+Size: 579808
+MD5sum: dbfe65038dd3c158b1bbcf37ca2019b3
+SHA1: 376fc79e3f1eda78a84324e278deca49533c4d4f
+SHA256: 118a67320114aaf1d77fa86d7b06b13f5fa2412612d6d50c249a517f2da5fd41
+Homepage: https://www.gnu.org/software/libiconv/
+Description: An implementation of iconv()
 
 Package: lib32-libnettle
 Version: 3.9
