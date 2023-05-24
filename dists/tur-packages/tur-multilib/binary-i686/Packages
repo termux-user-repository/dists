@@ -13,17 +13,17 @@ Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
 Package: lib32-libc++-shared
-Version: 25b
+Version: 25c
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 1016
 Conflicts: ndk-multilib
 Breaks: ndk-multilib
-Filename: pool/tur-multilib/lib32-libc++-shared_25b_i686.deb
-Size: 261272
-MD5sum: 89f4bfe671e2e8ee05c48354590de4e9
-SHA1: 86c0680af488bec4c9003404b7cc7f80d898f41a
-SHA256: 3224e13aaff1015c6495f0f400bf546d970481d71a4d7be0c55ea8c3f4c7672a
+Filename: pool/tur-multilib/lib32-libc++-shared_25c_i686.deb
+Size: 261012
+MD5sum: 68e697233d9663a16b0179f38328836a
+SHA1: bc0fdb77dbe793cd29c6880c921a68712d0d0205
+SHA256: 64fa0ba44fcc1bcc3dd81b0eb9f0864932e9f78381ac5b7556704e11c82413fc
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -70,16 +70,16 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: lib32-libc++
-Version: 25b
+Version: 25c
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 4
 Depends: lib32-libc++-shared | ndk-multilib
-Filename: pool/tur-multilib/lib32-libc++_25b_all.deb
-Size: 748
-MD5sum: c19ddeeb091045978865e29601bcbb56
-SHA1: cd0c1f6f48ffac1f28d9c7f297da598711ba9f36
-SHA256: ade2171b24c0d3a6ba8c5977528de8af70dca737c9aaa80f301432cedb0610cd
+Filename: pool/tur-multilib/lib32-libc++_25c_all.deb
+Size: 744
+MD5sum: 9ddba3d9670998c8c511ac7e5deac194
+SHA1: 1fe3a2dfe80cfe3dc793edfa90a5bac270d9dc27
+SHA256: 223a2ab865fdbea9551738c7d840848a0696013ac4b057007bcbdf0430cac302
 Homepage: https://github.com/termux-user-repository/tur
 Description: A metapackage that provides libc++ multilib library
 
