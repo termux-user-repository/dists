@@ -1563,16 +1563,16 @@ Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
 Package: python-seledroid
-Version: 1.1.0
+Version: 1.1.0-1
 Architecture: x86_64
 Maintainer: @nacho00112
-Installed-Size: 276
+Installed-Size: 288
 Depends: python, seledroid-app
-Filename: pool/tur/python-seledroid_1.1.0_x86_64.deb
-Size: 20516
-MD5sum: 74d637d7af0552b0fbbcf82ad01bc0e6
-SHA1: 744d08b00445f6b44a91a910d572b47b95577961
-SHA256: d220eecf2950984fb7ef429965ff7da1b6ba0f3305a00b3c9cf6b4a27801f960
+Filename: pool/tur/python-seledroid_1.1.0-1_x86_64.deb
+Size: 25128
+MD5sum: 7e5e6bc32b3af3caa311d593987d5ec4
+SHA1: f5d1a5f88b505c6838b982fa7e827faf14430e37
+SHA256: 90ceb542028e7d8d1ffb5823ff127f3a8791bbee185ed0191733cfc756b25cd8
 Homepage: https://github.com/luanon404/seledroid
 Description: Python library to control android webdriver.
 
@@ -1605,16 +1605,16 @@ Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
 
 Package: python-tls-client
-Version: 0.2.1
+Version: 0.2.1-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 232
-Depends: libc++, python
-Filename: pool/tur/python-tls-client_0.2.1_x86_64.deb
-Size: 27176
-MD5sum: 0506c126b0c2db464df4c26ee1e0ef24
-SHA1: e5a9cd386ea167d0d8f568517e977301636c0682
-SHA256: 7e9a26eb5ac948d5477b494a7122545db48bfd628a8871204a3f9f1f5df57afa
+Depends: libc++, python, lib-tls-client
+Filename: pool/tur/python-tls-client_0.2.1-1_x86_64.deb
+Size: 27196
+MD5sum: f09df68089321da96541d3c2e3f46386
+SHA1: 527fefeb5f2972d7e895d5800e3ae753f6cb7525
+SHA256: 85c9c84e6737a76aad40393db367fe92521179f77c19e641824191910638ae59
 Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
