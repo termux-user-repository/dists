@@ -79,20 +79,6 @@ SHA256: 15a75a8d71cbb8932f3af6b7e424244c20cf74a7c0058e295ec57a9aee1e4284
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
-Package: clang-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 113604
-Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/clang-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 20158868
-MD5sum: 453d164ecb22c24eb20d9749a480f3d1
-SHA1: 13edfe6ca0754168637af59d4fa01b2027183481
-SHA256: 3be2880b12078af0f6494c4461fd943e95a4ba909fc6b3e370bb1be5c2a56590
-Homepage: https://llvm.org/
-Description: C language frontend for LLVM
-
 Package: code-is-code-oss
 Version: 1.78.2
 Architecture: arm
@@ -509,20 +495,6 @@ SHA256: b72a711a437e960480148a47d36354514ba4331758ade476c433aac748a006ce
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
-Package: libcompiler-rt-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 15916
-Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/libcompiler-rt-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 1733156
-MD5sum: f266b8b09bbabdfd01896388335c5ada
-SHA1: 710a2b6e21beda3fd7fef913d284995304440c08
-SHA256: f33f83d47cc200073974ee49e450678165a870543fe0e87f8618d2022e4b897d
-Homepage: https://llvm.org/
-Description: Compiler runtime libraries for clang
-
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: arm
@@ -593,20 +565,6 @@ SHA1: 707a7539a9f0d0781f644908c14f22dd62d6ebde
 SHA256: 50f16d6cb04f57599c44a64055bbd5dfdbffbbdfe3596f4527849b5283b39e81
 Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
-
-Package: libllvm-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 543320
-Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 74926908
-MD5sum: b0b6330e85498ee25b97d194de66bf4b
-SHA1: 45201998fec82d468939fe2c90a5f223f564fb8c
-SHA256: cf42f00fdff458ff00508776797794846b388e554d59682c5436c4c2a5df457b
-Homepage: https://llvm.org/
-Description: Modular compiler and toolchain technologies library (Version 16)
 
 Package: libllvm-classic-flang
 Version: 20230419-2
@@ -738,20 +696,6 @@ SHA256: 2338cc6ae19fc85aae8ce38ab8998d2457e1144c9d008a08dcc62495b6295bee
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
-Package: lld-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 15752
-Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/lld-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 2422600
-MD5sum: 3c2f642779b76b9fae02f40d3feb31f1
-SHA1: e44aa215c316ebfebf3a932c73c4832cba8c6273
-SHA256: 32dff8400e0259ad80beb6b0e0ece7c12cfa88c49e2bee326a3c3b3f0467d506
-Homepage: https://llvm.org/
-Description: LLVM-based linker
-
 Package: llvm-11
 Version: 11.1.0-1
 Architecture: arm
@@ -767,34 +711,6 @@ SHA1: 5cd22bc1923e4dc6f971848a1458a8f6a3ceb3de
 SHA256: 029c8170f4d0826bf40fe3ff5948a0e992ee66ac070a279e4a7a9b9c4378ec6a
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
-
-Package: llvm-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 48716
-Depends: libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/llvm-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 11476428
-MD5sum: 1d2bc9b7d93584607611e30dd530b912
-SHA1: 635613228f4d02f6b8dd9bf30ac8f0374cbdd8e3
-SHA256: df427cd1a9e9b248b3786c08b0201d450192fe6ab0324488981e6e3388cbf60f
-Homepage: https://llvm.org/
-Description: LLVM modular compiler and toolchain executables
-
-Package: llvm-tools-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 10516
-Depends: libc++, ncurses, zlib, libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/llvm-tools-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 2277868
-MD5sum: 18dffa709e03ddec68c087d08ab210dc
-SHA1: 6126a74237cde529e963309cce8048bc76828a59
-SHA256: d2d32d21c13a899c662b332447c5d3afcec06c4186ca5e27f1fdd0a560b93ca5
-Homepage: https://llvm.org/
-Description: LLVM Development Tools
 
 Package: mesa-chromium
 Version: 22.3.0
@@ -855,20 +771,6 @@ SHA1: 56ad092e495a7c4d93025638e25531a863eda6e6
 SHA256: 1b1102b4c16a8ad2f5f763d51cca6024dc12b851dee8163b2f55f9cf7b465d29
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
-
-Package: mlir-16
-Version: 20230222-16.0.0-rc3-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 203440
-Depends: libc++, ncurses, libllvm-16 (= 20230222-16.0.0-rc3-0)
-Filename: pool/tur/mlir-16_20230222-16.0.0-rc3-0_arm.deb
-Size: 26199680
-MD5sum: a8ece0956f250ee535a2f72a2feb60ff
-SHA1: b0f182c7828a43a1888587c7bf06cbf7f3b9e39f
-SHA256: aae881a97cf5ff52070f5aed376a8328cbbb6760d7c39b4a16f92afe7f34f023
-Homepage: https://llvm.org/
-Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: ndk-sysroot-gcc-compact
 Version: 25c
@@ -2157,6 +2059,20 @@ SHA256: 04c2d3c9af4dd64927c201decd8e01a2d256c033725f5462c220565252497cce
 Homepage: https://github.com/ardentryst/ardentryst
 Description: Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on story, and character development.
 
+Package: clang-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, clang, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/clang-16_20230603-16.0-0_all.deb
+Size: 892
+MD5sum: 200c5fdf38de6761e957c8fb3fe8513b
+SHA1: 74deb3f3d47673c19a8373695629609402090080
+SHA256: ca4b0e045ea078a63623ca9eadd939c1eff3630e66b09d9ae38f8e3846c4f780
+Homepage: https://llvm.org/
+Description: C language frontend for LLVM
+
 Package: dichvucoder-repo
 Version: 1.0.2
 Architecture: all
@@ -2276,6 +2192,76 @@ SHA256: b036b04ea8e6a2c569dcf8141f681190632001f8eedb1492f3502d1c1e356c78
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
+Package: libcompiler-rt-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libcompiler-rt, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/libcompiler-rt-16_20230603-16.0-0_all.deb
+Size: 872
+MD5sum: 0de4caa1bd88c7d5b3a646f3fd9ecb75
+SHA1: fd41fe57a5ec4fdb4769614dbc0d38d27abdd7f7
+SHA256: fbe23f783b8559f71e16ac05a68bb62b4566699e13ea5b389e04592240080fc3
+Homepage: https://llvm.org/
+Description: Compiler runtime libraries for clang
+
+Package: libllvm-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 60
+Depends: binutils, libc++, libllvm, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-16_20230603-16.0-0_all.deb
+Size: 5940
+MD5sum: 363e9430881db8f1f4aed37ccd86f69e
+SHA1: 346ed80551bbde63b2a9ab7553d1e933975e8b56
+SHA256: fae048f41bcf51b5fef4bd3d193a352cf851ccc5cc018b5b9ae306c9822f3a7d
+Homepage: https://llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 16)
+
+Package: lld-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: lld, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/lld-16_20230603-16.0-0_all.deb
+Size: 852
+MD5sum: 8afabd61d5a8900a36b97f9831524489
+SHA1: 5b623329773b5b0df44a12259049937d67231cf7
+SHA256: 65cd5b6e4fc1d96bb7bf7cbbdf6c1850d1cdc739e86fe41037ecb31c048c4409
+Homepage: https://llvm.org/
+Description: LLVM-based linker
+
+Package: llvm-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: llvm, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/llvm-16_20230603-16.0-0_all.deb
+Size: 872
+MD5sum: 6a6ebb5faaa8c58ec7d0a86d01e66a45
+SHA1: 4d5048d2766c55a9edaedccabdd9243a2f1d0a3f
+SHA256: 736151d3a641a87f45d426701358f83a65c4d460daab22c5ca7cf3cdf3708c2a
+Homepage: https://llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-tools-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libc++, ncurses, zlib, llvm-tools, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/llvm-tools-16_20230603-16.0-0_all.deb
+Size: 884
+MD5sum: 40d7f5786db025e65276bd344154687a
+SHA1: 5dadbf849f532fc9444e889eda3e97145373edd9
+SHA256: 2f568424625fa59506c79ca9b00bfe56f711063d7a0fef0d0ac11a3cc9ae5f07
+Homepage: https://llvm.org/
+Description: LLVM Development Tools
+
 Package: mesa-zink-dev
 Version: 22.0.5-5
 Architecture: all
@@ -2292,6 +2278,20 @@ SHA1: 19aa814b0c3e87d4cdcf7d7cf3b0513819f0673e
 SHA256: ea4ae8a9a15cb03de1901e3fc525e159a83e94d723eda7922bd4e665eff44601
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
+
+Package: mlir-16
+Version: 20230603-16.0-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: libc++, ncurses, mlir, libllvm-16 (= 20230603-16.0-0)
+Filename: pool/tur/mlir-16_20230603-16.0-0_all.deb
+Size: 904
+MD5sum: cc0d551555eecd3c32a84d7e00b43aed
+SHA1: b7a0cf8e895c090a0bf34e6a3041e6e3006ca3ed
+SHA256: 4ecfee598f90de26afc9c110c7dcca27716e5fe14ed4a63ba0a9e505cc47df4d
+Homepage: https://llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: python-future
 Version: 0.18.2-1
