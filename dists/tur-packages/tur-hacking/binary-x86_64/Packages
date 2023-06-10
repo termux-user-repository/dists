@@ -37,6 +37,20 @@ SHA256: e2d5e3780174651ae37ffbfe8a314552815860e8221d37e5e4a513073ceb35c9
 Homepage: https://github.com/shadow1ng/fscan
 Description: A comprehensive intranet scanning tool
 
+Package: hashcat
+Version: 6.2.6
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 176252
+Depends: opencl-vendor-driver, libiconv, tsu
+Filename: pool/tur-hacking/hashcat_6.2.6_x86_64.deb
+Size: 12640628
+MD5sum: 2428d44bc573a180f16715d39b6d272f
+SHA1: c3a4591bfedceaad376487ab178ac6eff6691ab7
+SHA256: 7c2fa9370ca0fc29645ef6303b82c93a6b39c158c0d3bb3de2c9068d3bd89d26
+Homepage: https://hashcat.net/hashcat/
+Description: World's fastest and most advanced password recovery utility
+
 Package: shark
 Version: 2.5.1.1-1
 Architecture: all
