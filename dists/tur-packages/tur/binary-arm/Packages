@@ -788,6 +788,21 @@ SHA256: 787c5fe5e1bf0e460b3eb02b5402afcb6c10e0c4c2bacf61d432e5c93eba632d
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: nodejs-12
+Version: 12.18.3
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 59972
+Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-12_12.18.3_arm.deb
+Size: 9182836
+MD5sum: ba2235c340cdf177d0bb7b4a3e418b5c
+SHA1: 67f1b3068cc0373715c4bb8f759fc0f32de6580e
+SHA256: 70f95831ebd90d95894031b9bf6201b16f4ae60a8e5907100247eeb0be3c8b67
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: nodejs-16
 Version: 16.20.0
 Architecture: arm
