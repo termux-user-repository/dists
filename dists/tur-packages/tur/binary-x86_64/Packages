@@ -80,32 +80,32 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: code-is-code-oss
-Version: 1.78.2
+Version: 1.79.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 64
-Depends: code-oss (= 1.78.2)
+Depends: code-oss (= 1.79.0)
 Conflicts: code
 Breaks: code
-Filename: pool/tur/code-is-code-oss_1.78.2_x86_64.deb
-Size: 2528
-MD5sum: 4e7797d6448aacfba8d2f2ff1e846a98
-SHA1: 9ef4a2dc35deefc18609140c6e99761acd504cd7
-SHA256: b0d7e9864b2ce48625ee8c9b9cc86fff27a014c2cdaa6029fc061288ce6d30a8
+Filename: pool/tur/code-is-code-oss_1.79.0_x86_64.deb
+Size: 2520
+MD5sum: e2b715cbf7de071725d21491226c50aa
+SHA1: 89ef1032edf27f3112529905d658bb1d5879cd37
+SHA256: 97e62264584d2db98633d01fabfa21704f982d5a3295e39191e6d22eb9a40374
 Homepage: https://github.com/microsoft/vscode
 Description: Symlinks code/vscode to code-oss
 
 Package: code-oss
-Version: 1.78.2
+Version: 1.79.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 333788
+Installed-Size: 335052
 Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.78.2_x86_64.deb
-Size: 69440464
-MD5sum: dfb1f2a57076f6f16550ca785d9f7e1b
-SHA1: 79e25f80786da2f743f049d70adf99cd529f798e
-SHA256: 20530a87e1c643ef8bbe52b97729b2d6bf4d45770f909f9dca09103ede431331
+Filename: pool/tur/code-oss_1.79.0_x86_64.deb
+Size: 69434152
+MD5sum: 49b02ef44d9fc21934f23628e843a37c
+SHA1: b1d846031af0ce451362f1c95a98e26abab92329
+SHA256: 7fb1be0c59491cc3f997b80741499cfa38290636ea799f8771fd892f762db75e
 Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
