@@ -80,6 +80,34 @@ SHA256: 925f9981d886110b4315e912e0a1e97a44fb52cab9f5ee0eaed9212c9673ca6f
 Homepage: https://pandas.pydata.org/
 Description: Powerful Python data analysis toolkit
 
+Package: python-pywavelets
+Version: 1.4.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 8400
+Depends: libc++, python, python-numpy
+Filename: pool/tur-on-device/python-pywavelets_1.4.1_aarch64.deb
+Size: 3434600
+MD5sum: bb7f7665b043f647395be12e5a3811c2
+SHA1: 9b8c3d112d59c48d48463f6cf511f947c30e24d4
+SHA256: 886f223e823851ad54de6d3f334b1d8a0613bff9074456b2507869d9025f5de5
+Homepage: https://github.com/PyWavelets/pywt
+Description: Wavelet Transforms in Python
+
+Package: python-scikit-image
+Version: 0.21.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 25644
+Depends: libc++, python, python-numpy, python-pillow, python-pywavelets, python-scipy
+Filename: pool/tur-on-device/python-scikit-image_0.21.0_aarch64.deb
+Size: 9532636
+MD5sum: 499d69d81f6b13e3687beab9ad143284
+SHA1: 2ab6c4f3b00d3a92b0f6e4ae619e315c9125b18f
+SHA256: c74eb701b3bd00dd82c5c3d99fa1a392c13a1b02a88a2133b9d370adf3915abb
+Homepage: https://github.com/scikit-image/scikit-image
+Description: Image processing in Python
+
 Package: python-tokenizers
 Version: 0.13.3
 Architecture: aarch64
