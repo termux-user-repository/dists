@@ -11,6 +11,20 @@ SHA256: 1fa24a1abdbea0ee486ad420ad9333a7797a6f9ffc07b63bbd1604c46db60c21
 Homepage: https://github.com/zan8in/afrog
 Description: A tool for finding vulnerabilities
 
+Package: aircrack-ng
+Version: 3:1.7
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 2212
+Depends: libc++, libnl, libpcap, libsqlite, openssl, pcre, zlib, iw, ethtool
+Filename: pool/tur-hacking/aircrack-ng_3:1.7_x86_64.deb
+Size: 461916
+MD5sum: c8236d16948f34c160021d8927630862
+SHA1: cae29baf5d2040151b446d4fadeadff80a598f17
+SHA256: 111ac4cdce2c6b731e6927fee4212e092a816375f00ce68cfc78f06f0a9901f4
+Homepage: https://www.aircrack-ng.org/
+Description: WiFi security auditing tools suite
+
 Package: cf
 Version: 0.4.2-1
 Architecture: x86_64
@@ -50,6 +64,20 @@ SHA1: d958e1372bfb8ae4501e47fa337eb0d7d3b66170
 SHA256: 8bf11c24da765638843dae2ef5ef6e1f2cd4e60a38d927768c8bf5848d19d23f
 Homepage: https://hashcat.net/hashcat/
 Description: World's fastest and most advanced password recovery utility
+
+Package: mdk4
+Version: 4.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 208
+Depends: aircrack-ng, libnl, libpcap
+Filename: pool/tur-hacking/mdk4_4.2_x86_64.deb
+Size: 57152
+MD5sum: 518f338d6048ccac3167098d7859f886
+SHA1: d463e5348f46a5d9434df9036941e975562f7711
+SHA256: 7cdedd4f0f5f50b20408391925fd9606bea6d70c364dce2669ddd3d65f16c5f4
+Homepage: https://github.com/aircrack-ng/mdk4
+Description: MDK is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses
 
 Package: shark
 Version: 2.5.1.1-1
