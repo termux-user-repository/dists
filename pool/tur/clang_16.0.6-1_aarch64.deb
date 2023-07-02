@@ -1,0 +1,16 @@
+Package: clang
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 193708
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Filename: pool/tur/clang_16.0.6-1_aarch64.deb
+Size: 30273444
+MD5sum: c22af3c07d36b59c1e5c0f3361a44e02
+SHA1: ae8d7bb89736d3dbd2b0c7553109498027b41085
+SHA256: d76d575459714c92cc25afdfa9e7a857f036b5968bc07b057ff8dccf8c283a35
+Homepage: https://clang.llvm.org/
+Description: C language frontend for LLVM
+

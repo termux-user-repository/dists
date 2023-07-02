@@ -1,0 +1,16 @@
+Package: llvm-tools
+Version: 16.0.6-1
+Architecture: i686
+Maintainer: @finagolfin
+Installed-Size: 11348
+Depends: libc++, ncurses, zlib, libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 16.0.0)
+Replaces: libllvm (<< 16.0.0)
+Filename: pool/tur/llvm-tools_16.0.6-1_i686.deb
+Size: 2364908
+MD5sum: 88e74e227577302e959b8a0968845e22
+SHA1: 4a936f9a6df87b8e5738cfdd1cbf3c12140b7ce8
+SHA256: 0f7d5363102eeb42e2e9b5d2e59092545f3a722d99525adc2f33db495c7c22da
+Homepage: https://clang.llvm.org/
+Description: LLVM Development Tools
+

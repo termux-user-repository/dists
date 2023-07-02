@@ -1,0 +1,16 @@
+Package: lldb
+Version: 16.0.6-1
+Architecture: x86_64
+Maintainer: @finagolfin
+Installed-Size: 23196
+Depends: clang, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 16.0.6-1)
+Breaks: lldb-dev, lldb-static
+Replaces: lldb-dev, lldb-static
+Filename: pool/tur/lldb_16.0.6-1_x86_64.deb
+Size: 4941120
+MD5sum: 769e6072b57d1766eab31c8985a42382
+SHA1: 07ccd1fb5197618b852fa403dfd29c7f65499133
+SHA256: 85315b77dc059c773b717219a4254e35d1b3349cea44f20b602b9a47b3cd5dbd
+Homepage: https://clang.llvm.org/
+Description: LLVM-based debugger
+

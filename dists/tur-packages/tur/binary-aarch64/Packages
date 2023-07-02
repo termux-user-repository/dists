@@ -79,6 +79,22 @@ SHA256: 4ad022c5464c4b739f9428cd9ef3533b86069b4f26ac266bd89727bed9e0a836
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: clang
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 193708
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Filename: pool/tur/clang_16.0.6-1_aarch64.deb
+Size: 30273444
+MD5sum: c22af3c07d36b59c1e5c0f3361a44e02
+SHA1: ae8d7bb89736d3dbd2b0c7553109498027b41085
+SHA256: d76d575459714c92cc25afdfa9e7a857f036b5968bc07b057ff8dccf8c283a35
+Homepage: https://clang.llvm.org/
+Description: C language frontend for LLVM
+
 Package: code-is-code-oss
 Version: 1.79.2
 Architecture: aarch64
@@ -580,6 +596,21 @@ SHA256: 5581099843dedab6cebf51425b479bccbf52a71f36311328f4415f577ddfe2a6
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
+Package: libcompiler-rt
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 32636
+Depends: libllvm (= 16.0.6-1)
+Conflicts: ndk-multilib (<< 23b-6)
+Filename: pool/tur/libcompiler-rt_16.0.6-1_aarch64.deb
+Size: 2756064
+MD5sum: c367f9315f214aee167b54ba8214ddeb
+SHA1: cb6132a546f22cbbfe2ef8b275741f567e13cfea
+SHA256: 82aaf5ea450278557c228e29acdb1434087b43a61a07b491d17601319002d320
+Homepage: https://clang.llvm.org/
+Description: Compiler runtime libraries for clang
+
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: aarch64
@@ -669,6 +700,37 @@ SHA256: 9fdbdf7f4e9582aebacee0ef3ca1d25926bfabde297b2742a9eb11ca4a144b2c
 Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)
 
+Package: libllvm-static
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 606248
+Depends: libllvm (= 16.0.6-1)
+Filename: pool/tur/libllvm-static_16.0.6-1_aarch64.deb
+Size: 63892180
+MD5sum: 2aa6376c2cf842a2d2634754fcb844f2
+SHA1: 467d8d25f45b6265082979a3f126783c29a9bbba
+SHA256: 7c936be617a8c91ab4f85e6119ffe42771a69e9e396a9c255da66c7a60ffee13
+Homepage: https://clang.llvm.org/
+Description: Static libraries for libllvm
+
+Package: libllvm
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 138812
+Depends: libc++, libffi, libxml2 (>= 2.11.4-2), ncurses, zlib, zstd
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/tur/libllvm_16.0.6-1_aarch64.deb
+Size: 24063512
+MD5sum: dd7bf8fb0b252dabe083927720bac6e1
+SHA1: 6d6d21fa8c62f40b0d1934bc1b0da814a1af6e7f
+SHA256: 995cb13ce3b0ab8a861ff2d3a47efed8f2187db0904f371337e8072cebbf29ed
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library
+
 Package: libmongoc-static
 Version: 1.22.2-1
 Architecture: aarch64
@@ -724,6 +786,20 @@ SHA1: 5ecaac92c79c9a94a34f92399d8a37ee3846a2a7
 SHA256: 6ad7e07e06ccc17fe8fc3927c0f8505dc681b87bfd99e443f44bb5d32a2a0d0a
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
+
+Package: libpolly
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 5692
+Depends: libllvm (= 16.0.6-1)
+Filename: pool/tur/libpolly_16.0.6-1_aarch64.deb
+Size: 1185576
+MD5sum: 0846eb6bbc88f52b2d6bb4fb224fb642
+SHA1: 2ec8ea5dcd72dda34c4150603733930fcd65d25a
+SHA256: f23fe57c0154b30d1b5fce0ab2463bcf6c3356b98859bbdeb6f0e4202bd4e30e
+Homepage: https://clang.llvm.org/
+Description: High-level loop and data-locality optimizer for clang
 
 Package: libraw-static
 Version: 0.21.1
@@ -781,6 +857,36 @@ SHA256: c9c4a8f154043fa13714929b5d861408e70843a023a2a7d2c4886b18dcd07a4f
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
+Package: lld
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 15716
+Depends: libllvm (= 16.0.6-1)
+Filename: pool/tur/lld_16.0.6-1_aarch64.deb
+Size: 2101376
+MD5sum: 6f569e6bceb17b27c29426871ccd54df
+SHA1: 999c707595c472479377162a9ba48fdd1cb73142
+SHA256: 3ddd6cd0aea93769eda7c24ac4c9a765c0ebd29d1c59ef88c122d833ab89ac9b
+Homepage: https://clang.llvm.org/
+Description: LLVM-based linker
+
+Package: lldb
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 22264
+Depends: clang, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 16.0.6-1)
+Breaks: lldb-dev, lldb-static
+Replaces: lldb-dev, lldb-static
+Filename: pool/tur/lldb_16.0.6-1_aarch64.deb
+Size: 4455664
+MD5sum: ab3dcaaa3ea426a19c7e16ca7ce4e9a9
+SHA1: 06c1b7993763316d9e4234ffe155db67cd2f7866
+SHA256: 85dad6a615f52e00d20e1b9980fb03238133320dd8d6d62079040e53be42172d
+Homepage: https://clang.llvm.org/
+Description: LLVM-based debugger
+
 Package: llvm-11
 Version: 11.1.0-1
 Architecture: aarch64
@@ -796,6 +902,52 @@ SHA1: 7900cbd27bcbfd37b5de709e2286ed9dda128dd9
 SHA256: d6be5d2f787b512a3ecd2811c3af2072a8a9768d6605977b6b594be0ea50a293
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-tools
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 10740
+Depends: libc++, ncurses, zlib, libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 16.0.0)
+Replaces: libllvm (<< 16.0.0)
+Filename: pool/tur/llvm-tools_16.0.6-1_aarch64.deb
+Size: 2019300
+MD5sum: 2bac7d46c6697ef97d4ba0056b41d612
+SHA1: c8591a03fa0ee46f58bc53aa38bfd040540f06c8
+SHA256: c5c7ed9b3be99c3a746c291c358403b49c5a4a3cfd49aa91f18f0b3cd55ef0cc
+Homepage: https://clang.llvm.org/
+Description: LLVM Development Tools
+
+Package: llvm
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 98472
+Depends: libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm_16.0.6-1_aarch64.deb
+Size: 17185600
+MD5sum: ff8e6022901a45fb986f5f663ed4f6bb
+SHA1: 21f11999101538c1d987a1fcff8a8b765532af25
+SHA256: 9c07ad4bfda757210baaa95f4bcf6fbddde7a1725643597c094332951e26dd08
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvmgold
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 104
+Depends: binutils-gold, libllvm (= 16.0.6-1)
+Filename: pool/tur/llvmgold_16.0.6-1_aarch64.deb
+Size: 26416
+MD5sum: df7220256411bd68798422be783d06e6
+SHA1: 36d5fc2be60580a54c1623db2028769d8428d55a
+SHA256: a8c58a01e3c628a74dc4716b35385460972ed52b0a3944b4a607575915c0bcd1
+Homepage: https://clang.llvm.org/
+Description: LLVM gold plugin
 
 Package: mesa-chromium
 Version: 22.3.0
@@ -856,6 +1008,20 @@ SHA1: 69e275968010a12783cb0906f3c843f5687d136c
 SHA256: e790ea75920ba74b20aebd438477cedd51f04404680c98f25b0d21f48ada32ff
 Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
+
+Package: mlir
+Version: 16.0.6-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 172204
+Depends: libc++, ncurses, libllvm (= 16.0.6-1)
+Filename: pool/tur/mlir_16.0.6-1_aarch64.deb
+Size: 24014400
+MD5sum: 4b67f8b37df814a50f10139975851cf7
+SHA1: 39f7cbe6a6576dd31bb8f5c4c9709575f5656535
+SHA256: 6c2c1db6649306d6aef769d06320927086623c8b130fa16e44ea5c093edc1360
+Homepage: https://clang.llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: mongodb
 Version: 6.1.0-1
@@ -2228,18 +2394,18 @@ Homepage: https://github.com/ardentryst/ardentryst
 Description: Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on story, and character development.
 
 Package: biber-installer
-Version: 2.19
+Version: 2.19-1
 Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 64
 Depends: clang, libxml2 (>> 2.9.10-3), libxslt, make, openssl-tool, perl (>> 5.34.0-3), perl-net-ssleay, pkg-config
 Conflicts: biber
 Replaces: biber
-Filename: pool/tur/biber-installer_2.19_all.deb
-Size: 3468
-MD5sum: e8740eacbc1e56cddae6b67ed9c8714d
-SHA1: af6c8aab6cc048af69eb574bd6f376d6b5f5b353
-SHA256: 1da5d77eb262246208f896220c1d4a00583816a9bb035ae4bb321ac398ef6f09
+Filename: pool/tur/biber-installer_2.19-1_all.deb
+Size: 3448
+MD5sum: 49c12c68f27f7c70d848689bef67341d
+SHA1: fe87aa7fe333e8d0d3b11ea26ed04d61e8e44aa7
+SHA256: f7f152a87839e1073e4841f1d249df8ae4e6391e3e81365c9e40e913625da99a
 Homepage: https://biblatex-biber.sourceforge.net
 Description: A Unicode-capable BibTeX replacement for biblatex users
 

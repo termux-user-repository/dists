@@ -1,0 +1,16 @@
+Package: llvm
+Version: 16.0.6-1
+Architecture: x86_64
+Maintainer: @finagolfin
+Installed-Size: 106412
+Depends: libllvm (= 16.0.6-1)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm_16.0.6-1_x86_64.deb
+Size: 19523812
+MD5sum: 386e1dbde0203485b1f01724641bffae
+SHA1: 6247d1c723b731c194fae20022aaf43bbc7750aa
+SHA256: 2d0136c5aecf3b88306ebc749ab063bab2f6133205850e10dc4796eb571aa8a0
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
