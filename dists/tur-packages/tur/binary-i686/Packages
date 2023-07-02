@@ -1012,46 +1012,46 @@ Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
 
 Package: php7-apache
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 12152
-Depends: apache2, php7 (= 7.4.33-1)
-Filename: pool/tur/php7-apache_7.4.33-1_i686.deb
-Size: 2368856
-MD5sum: 4dad03ba13acccf5acc7661264d0fd4e
-SHA1: 11aa6a35cf2f767c726f967ca323a945132e633c
-SHA256: ef3ab8725e0b14cf66424bcc39ecd8035f96574a8cfbdf8b30acad926d6b1f37
+Depends: apache2, php7 (= 7.4.33-2)
+Filename: pool/tur/php7-apache_7.4.33-2_i686.deb
+Size: 2368552
+MD5sum: 9a161b9b7bdf8fa9c4cf7723b9d4b641
+SHA1: 00ac58f2e28b0266c123ae55e186d046e7e308ba
+SHA256: 7c8992936517bc552b6702164b33442ac0910ad4098489da2ca0dde5e3373e7f
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
 Package: php7-fpm
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 12320
-Depends: php7 (= 7.4.33-1)
+Depends: php7 (= 7.4.33-2)
 Conflicts: php-fpm
-Filename: pool/tur/php7-fpm_7.4.33-1_i686.deb
-Size: 2420928
-MD5sum: 6458f12a5e81016b7ed33ab40c167149
-SHA1: 5392a7940ca0c8d2374a954dc6955384043d99a0
-SHA256: 8ff2dc7009d358f1becb1bbf82609c797bb58096d7bfb234587ebd95d9077aea
+Filename: pool/tur/php7-fpm_7.4.33-2_i686.deb
+Size: 2418256
+MD5sum: 8c8050b66af8a7362cd8418d412a54a0
+SHA1: f89559fa9f9438ea13d621372c592adc67b186e1
+SHA256: 26fce51d020d00862f079a15b5a0f47edb2534d9f1e61b2347a546777a796493
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
 Package: php7-pgsql
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 164
-Depends: apr-util, postgresql, php7 (= 7.4.33-1)
+Depends: apr-util, postgresql, php7 (= 7.4.33-2)
 Conflicts: php-pgsql
-Filename: pool/tur/php7-pgsql_7.4.33-1_i686.deb
-Size: 44924
-MD5sum: f1c0d499b96eedceaeeb72e48d0c526e
-SHA1: aafc4058246f59db83144060ee43417ce257ab9c
-SHA256: 304cdb289c339d5c98f8bb97b664b4f732c065186b202b8729a539f0519a8a72
+Filename: pool/tur/php7-pgsql_7.4.33-2_i686.deb
+Size: 44940
+MD5sum: d16261eeacc738bb362a79ac638a8f09
+SHA1: 48517d96366fd255587ea34ed3f695ea7aebf9da
+SHA256: 36184e553fd873b73a47665f04aff0e6b6649c346f697e06091612946efeadd4
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -1072,17 +1072,17 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7
-Version: 7.4.33-1
+Version: 7.4.33-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 42964
 Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
 Conflicts: php, php-mysql, php-dev
-Filename: pool/tur/php7_7.4.33-1_i686.deb
-Size: 7916624
-MD5sum: 4b3268b3add65b94d141eda524ef2a2f
-SHA1: e1a418d478987abad22f47e16aa4cb17a7cc4011
-SHA256: 81a265585e3113df284b59512252fc1733d0cfb3c9413269bb36c286dd182159
+Filename: pool/tur/php7_7.4.33-2_i686.deb
+Size: 7922628
+MD5sum: 1b3ea66a396b727175e4a999983e7bee
+SHA1: e748a93cefd3787fb549731391acedae8201dc46
+SHA256: ccb806ff1e40ec4306c6f9b6f1dcd3140482a07a64e874faf55393959e9d2516
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
