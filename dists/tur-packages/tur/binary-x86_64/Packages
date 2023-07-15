@@ -640,6 +640,20 @@ SHA256: ad9023c213fc737c55a469db31b9af652cddad513e4e42788a70981162c2636d
 Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
+Package: libftgl2
+Version: 2.4.0
+Architecture: x86_64
+Maintainer: @fervi
+Installed-Size: 448
+Depends: freetype, glu, opengl
+Filename: pool/tur/libftgl2_2.4.0_x86_64.deb
+Size: 78160
+MD5sum: ba97e7388d81a4c45c988a11a6da7f02
+SHA1: ba9148220e0f65090dea51ba71e5c59c8135bd0f
+SHA256: eeb37aebb411cb439293437d7520ba8c45c892c5f17ef0b99a809791769380cf
+Homepage: https://github.com/frankheckenbach/ftgl
+Description: library to render text in OpenGL using FreeType
+
 Package: libicu69
 Version: 69.1-1
 Architecture: x86_64
