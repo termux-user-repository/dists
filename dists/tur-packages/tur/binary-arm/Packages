@@ -610,6 +610,20 @@ SHA256: d95e342b5cbf26a7ea686e2c366e04cc0ed0aceb01f78a5fcfb6efbf0cbe3d2b
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
 
+Package: libllvm-14
+Version: 14.0.6
+Architecture: arm
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 290384
+Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
+Filename: pool/tur/libllvm-14_14.0.6_arm.deb
+Size: 52939288
+MD5sum: 3b65c4b68ee3d322bd8f2f61792c2654
+SHA1: 5a0734cf858cf2c48cd36f751432c9bf8d636a4f
+SHA256: 02d0050c4a4b5662f8eee07519c3d5c80ec477b5c24877b49f83848d74a1474e
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library (Version 15)
+
 Package: libllvm-15
 Version: 15.0.7
 Architecture: arm
@@ -856,6 +870,20 @@ Size: 8101124
 MD5sum: 96a8d3fff1d7e9acb89a60afc44afaa4
 SHA1: 5cd22bc1923e4dc6f971848a1458a8f6a3ceb3de
 SHA256: 029c8170f4d0826bf40fe3ff5948a0e992ee66ac070a279e4a7a9b9c4378ec6a
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-14
+Version: 14.0.6
+Architecture: arm
+Maintainer: @buttaface, @termux-user-repository
+Installed-Size: 37848
+Depends: libllvm-14 (= 14.0.6)
+Filename: pool/tur/llvm-14_14.0.6_arm.deb
+Size: 10940464
+MD5sum: 27a1037ba538a9c59044505e1049cc2d
+SHA1: 12008b8617e24c09e7016737c29a4d8ce8659e51
+SHA256: 9b61b7fdb07ca25bc293286ebe694b319a86918fa56fb84b21862dd77f607408
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
