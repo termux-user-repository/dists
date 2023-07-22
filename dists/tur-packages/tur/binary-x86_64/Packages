@@ -697,16 +697,16 @@ Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 15)
 
 Package: libllvm-15
-Version: 15.0.7
+Version: 15.0.7-1
 Architecture: x86_64
 Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 385164
+Installed-Size: 726880
 Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-15_15.0.7_x86_64.deb
-Size: 56981740
-MD5sum: d77aedcb8166c5f18dbcec0019e38afb
-SHA1: c50c62c44edbb960df65dfd26936d39db5148b14
-SHA256: 57c58a9dcf9d7e77a9895bbf59fdab3c8d2f47888be72f14b307d45c4d441254
+Filename: pool/tur/libllvm-15_15.0.7-1_x86_64.deb
+Size: 101079792
+MD5sum: 14f6df72827e8ca5eaa7c66432d46e1c
+SHA1: 82ecf291f6264590845edb209bea62a727f18ceb
+SHA256: 29825c701822ce9f656261c8c06aec7adc9a3f84d30fcd3e90c01df510df475c
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 15)
 
@@ -960,16 +960,16 @@ Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-15
-Version: 15.0.7
+Version: 15.0.7-1
 Architecture: x86_64
 Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 58176
-Depends: libllvm-15 (= 15.0.7)
-Filename: pool/tur/llvm-15_15.0.7_x86_64.deb
-Size: 12968668
-MD5sum: 8a7809e79f2b5da433ce1ec749a75afd
-SHA1: f3c76c6a6e36a00c295b53bd065b23219611ca41
-SHA256: 723bbbc6a9e8ffc05682d1c07494defb84acc4b3e15ef32c9d9b8df812b9d987
+Installed-Size: 58192
+Depends: libllvm-15 (= 15.0.7-1)
+Filename: pool/tur/llvm-15_15.0.7-1_x86_64.deb
+Size: 12969420
+MD5sum: 98d12fdac6edc3a7f3d1373ad0739118
+SHA1: 62c856cea736dcc261fbf2e6148fa1bf9a678e8a
+SHA256: 000c32fcf7031c02fd43514da671f23ec9af8e94d3463d1cd537ed1a8422dd5b
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
