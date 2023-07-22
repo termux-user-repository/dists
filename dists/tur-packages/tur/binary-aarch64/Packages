@@ -263,6 +263,23 @@ SHA256: 7abe504a69444471d170eb0a68e74e7a46a4f0dbde3dfe4641435b066d9be532
 Homepage: https://github.com/Necoro/feed2imap-go
 Description: feed2imap(1) reimplemented in Go that aggregating RSS/Atom/jsonfeed into folders of your IMAP mailbox
 
+Package: ffmpeg5.1
+Version: 5.1.2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 34036
+Depends: freetype, game-music-emu, libaom, libandroid-glob, libass, libbluray, libbz2, libdav1d, libgnutls, libiconv, liblzma, libmp3lame, libopus, librav1e, libsoxr, libtheora, libvorbis, libvpx, libvidstab, libwebp, libx264, libx265, libxml2, xvidcore, zlib
+Conflicts: libav
+Breaks: ffmpeg-dev
+Replaces: ffmpeg-dev
+Filename: pool/tur/ffmpeg5.1_5.1.2_aarch64.deb
+Size: 7751552
+MD5sum: de3b1bec16954ed1d42a2aa67f40735b
+SHA1: 67cf5ed97f29e0d8dfc412926cb75ca94850a464
+SHA256: d194a37b6be863858bae926678a0cb088a86aeaa3c6da334e91db74ccbb7bffe
+Homepage: https://ffmpeg.org
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+
 Package: flang-16
 Version: 20220907-1
 Architecture: aarch64
