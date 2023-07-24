@@ -1189,16 +1189,16 @@ Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
 
 Package: openimageio
-Version: 2.4.10.0
+Version: 2.4.12.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 13920
+Installed-Size: 13984
 Depends: openexr, boost-headers, openjpeg, glew, libtiff, opencolorio, libwebp, libpng, libheif, libhdf5, freetype, python, ffmpeg, opencv, ptex-static, qt5-qtbase, pybind11, libraw
-Filename: pool/tur/openimageio_2.4.10.0_arm.deb
-Size: 3571448
-MD5sum: 72a30d4e419bc23aeca35eba45fbb8e3
-SHA1: f5bd4876dd0880a75c7041597cf900086bc3829e
-SHA256: eb96dd57c8471481811eea0986b10892883885c7f80f10308899447b8644a8ff
+Filename: pool/tur/openimageio_2.4.12.0_arm.deb
+Size: 3595480
+MD5sum: 371e107987e710eb832e0a29eadcefe8
+SHA1: 75e71660c1baacd07538aab069dd5c03c850b12a
+SHA256: d69a15a41b2fb1462f08cdb96a998447357dc2d4942998e7e9f0888f742dea6b
 Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
@@ -2381,6 +2381,20 @@ SHA1: 3f019552192eaacab7a9759cdede44a808028df1
 SHA256: 203b1131b8b728f0def4e69db7acee4c19e561228035d325b996e51634a426d7
 Homepage: https://github.com/IntinteDAO/Frabs
 Description: An open source Abuse game asset augmented by community scripts and map
+
+Package: adwaita-icon-theme
+Version: 44.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 15492
+Depends: hicolor-icon-theme, librsvg
+Filename: pool/tur/adwaita-icon-theme_44.0_all.deb
+Size: 668124
+MD5sum: b0364f18d97f9692df9b25ac94d8cd97
+SHA1: 9923dff91e1eba583580e1d1cf9425485d9051dc
+SHA256: 0f52e5a391128fe5159e1a44097db919c52f566ef7de88767519b9d08d0acade
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Description: GNOME standard icons
 
 Package: ardentryst
 Version: 20201007
