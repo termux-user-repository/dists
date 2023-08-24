@@ -1,13 +1,13 @@
 Package: afrog
-Version: 1.3.9-1
+Version: 1.3.9-2
 Architecture: arm
 Maintainer: @UtermuxBlog
-Installed-Size: 21928
-Filename: pool/tur-hacking/afrog_1.3.9-1_arm.deb
-Size: 4962880
-MD5sum: a4fc317e3169073a97af519a53d21834
-SHA1: 77016c0f672d8a62bcea310f11926fb2909e841b
-SHA256: 9fb22f0fe1a209f2a46b7fec298f53ea1436028ce42814275f5a52add8e4eaea
+Installed-Size: 22308
+Filename: pool/tur-hacking/afrog_1.3.9-2_arm.deb
+Size: 4960776
+MD5sum: 2fd2ee62447c7fc4f554b6869074d1de
+SHA1: 1f054c87c28e3c65a5220f11cb3d607cc6424960
+SHA256: f0dfff158027b848959eb3d9d4229697f70be35cb4c245fecb60c969ac42513e
 Homepage: https://github.com/zan8in/afrog
 Description: A tool for finding vulnerabilities
 
@@ -39,71 +39,71 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: fscan
-Version: 1.8.1-1
+Version: 1.8.1-2
 Architecture: arm
 Maintainer: @UtermuxBlog
-Installed-Size: 20292
-Filename: pool/tur-hacking/fscan_1.8.1-1_arm.deb
-Size: 4324220
-MD5sum: 748fecbef9dc41e3cac9ba727a971226
-SHA1: fdf8b9fd7969a7ac2d7f4562ea8a2fd836309103
-SHA256: 7d2377b950b63ff1edbaed3247dcae3524a406c993c83f4fba4327e5d1ac2b47
+Installed-Size: 22204
+Filename: pool/tur-hacking/fscan_1.8.1-2_arm.deb
+Size: 4674416
+MD5sum: 1dddc39b0aaa0bfd91affdc430a222da
+SHA1: 3bcd66488eba68511caf01ba258749a7cd90e5ed
+SHA256: a07eb39859716953d6f5cf960ff969186118e4d91a3baca65545e0c952e5f687
 Homepage: https://github.com/shadow1ng/fscan
 Description: A comprehensive intranet scanning tool
 
 Package: hashcat
-Version: 6.2.6-4
+Version: 6.2.6-5
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 131940
+Installed-Size: 131936
 Depends: opencl-vendor-driver, libiconv
-Filename: pool/tur-hacking/hashcat_6.2.6-4_arm.deb
-Size: 10831220
-MD5sum: 453868fee54823ec072f4b1009f71776
-SHA1: a9c8f0ef666f78cc68ea84431be1e5e8db9dffca
-SHA256: 4d467117f731d992851c0d4c86e131d2e499cd6b42541c7ec5678ddb0daa3cc9
+Filename: pool/tur-hacking/hashcat_6.2.6-5_arm.deb
+Size: 10849140
+MD5sum: a8f4867a5a494015dbe7e33031bee001
+SHA1: 3e7472125097fa8a831e3eed964c0bcaf36f1407
+SHA256: 2423e04a6cdbe58706a8cfdfa0209580dd692b189892458defea51d002dc0fb5
 Homepage: https://hashcat.net/hashcat/
 Description: World's fastest and most advanced password recovery utility
 
 Package: mdk4
-Version: 4.2
+Version: 4.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 172
 Depends: aircrack-ng, libnl, libpcap
-Filename: pool/tur-hacking/mdk4_4.2_arm.deb
-Size: 50236
-MD5sum: dbe772424287ba46d3ee354288d436bc
-SHA1: 79bf27da412181e7a81c34a763681d7fe49dd322
-SHA256: e57c0dcad5ff418808a583f9414c784d15301924d088c0d63d6fa259252b7489
+Filename: pool/tur-hacking/mdk4_4.2-1_arm.deb
+Size: 50264
+MD5sum: e71cd3d36d0d7bba75bfca270afb5778
+SHA1: bfe99efe0a6b093286ad30289d0b6441452a588f
+SHA256: 29a90b27cc3e8c77b427bf8bedcf2fa44693f9ac913daf543adf5bb1d85ae573
 Homepage: https://github.com/aircrack-ng/mdk4
 Description: MDK is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses
 
 Package: shark
-Version: 2.5.1.1-1
+Version: 2.5.1.1-2
 Architecture: all
 Maintainer: @E343IO
 Installed-Size: 18912
 Depends: curl, wget, php, unzip, p7zip, ncurses-utils, proot, resolv-conf, sox, ffmpeg, dialog
-Filename: pool/tur-hacking/shark_2.5.1.1-1_all.deb
-Size: 19232276
-MD5sum: 064288ef182d9052ac2555b6f43957a9
-SHA1: 59943a286cfe5b8360f368075a7b9c516fa959a0
-SHA256: 2b25b82e743cbf804058053ae9196bcc6b159174cb97738fe25c7a6204f56eec
+Filename: pool/tur-hacking/shark_2.5.1.1-2_all.deb
+Size: 19242660
+MD5sum: eb44b52a08827d65817e6289e80034b7
+SHA1: 00a0140559fcae6f1feb9a58ccab2c5a653dc302
+SHA256: 0e316310bf1dbfada3973fddca70b529ece3e34f9589c4f90c279612b4d1a7cc
 Homepage: https://github.com/E343IO/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: zphisher
-Version: 2.3.5-1
+Version: 2.3.5-2
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 23696
 Depends: curl, php, unzip, ncurses-utils, proot, resolv-conf
-Filename: pool/tur-hacking/zphisher_2.3.5-1_all.deb
-Size: 7134432
-MD5sum: fa629a25c97bd3650e4e90b6b5a9a6a3
-SHA1: d3793f7094d46d97da5d5f278082ee49c1912c22
-SHA256: d58166006644dddd4ac0055ec0d2adf70cec72c0f5c03e0d710905ea490a4021
+Filename: pool/tur-hacking/zphisher_2.3.5-2_all.deb
+Size: 7137352
+MD5sum: d0441e7cd51ba7cd1e1dda431f1517f5
+SHA1: c2c9575f09df4de3fec48a928194132d7181b1aa
+SHA256: 528fb9bbbcee8494c4d969707388d527244a171d796247b1925b1200acb5953e
 Homepage: https://github.com/htr-tech/zphisher
 Description: An automated phishing tool with 30+ templates
 
