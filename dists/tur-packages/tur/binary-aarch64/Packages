@@ -38,6 +38,20 @@ SHA256: 11118e0b63e5500943bdd8135155e6d1432acc7432228c82bbd6438bc49d4d47
 Homepage: https://github.com/asciinema/agg
 Description: asciinema gif generator
 
+Package: aptitude
+Version: 0.8.13
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 5908
+Depends: ncurses, apt, libxapian, libsigc++-2.0, libcwidget, boost, gettext
+Filename: pool/tur/aptitude_0.8.13_aarch64.deb
+Size: 1598168
+MD5sum: 7a264e5df8ffa691a8b9446fad6996a5
+SHA1: 4898c7b38e384c8cdb249450f752c82dd7f6198e
+SHA256: eda19f52ae8a09f946c17c39c797142beb519460dc39df95538ee584e2118519
+Homepage: https://wiki.debian.org/Aptitude
+Description: terminal-based package manager
+
 Package: arpack-ng
 Version: 3.9.0
 Architecture: aarch64
@@ -670,6 +684,34 @@ SHA1: cb6132a546f22cbbfe2ef8b275741f567e13cfea
 SHA256: 82aaf5ea450278557c228e29acdb1434087b43a61a07b491d17601319002d320
 Homepage: https://clang.llvm.org/
 Description: Compiler runtime libraries for clang
+
+Package: libcwidget-static
+Version: 0.5.18
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2552
+Depends: libcwidget (= 0.5.18)
+Filename: pool/tur/libcwidget-static_0.5.18_aarch64.deb
+Size: 292836
+MD5sum: eb25b40e979f5e916784bc4cdb4414b0
+SHA1: bc66e5a37c4fb8fd5a07c5e902c250a2e8644dca
+SHA256: dc4f0428954efc0ebc14e146cc2c5f7b83f8a9218bd415672fe3d6362d1166e5
+Homepage: https://salsa.debian.org/cwidget-team/
+Description: Static libraries for libcwidget
+
+Package: libcwidget
+Version: 0.5.18
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1224
+Depends: ncurses, libsigc++-2.0, iconv
+Filename: pool/tur/libcwidget_0.5.18_aarch64.deb
+Size: 233568
+MD5sum: b578aadcaa45cfd4246660b4ac32a9ce
+SHA1: 4c2c00150d154febe82acd65f25ee657fb218ea6
+SHA256: b16ed416bc2488226cb3016518374e3c095fb36a99d6aca05ad891bf39d929ea
+Homepage: https://salsa.debian.org/cwidget-team/
+Description: high-level terminal interface library for C++
 
 Package: libffi-static
 Version: 3.4.2-1
