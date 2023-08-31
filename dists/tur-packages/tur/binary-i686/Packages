@@ -655,16 +655,16 @@ Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
 
 Package: libllvm-13
-Version: 13.0.1-1
+Version: 13.0.1-2
 Architecture: i686
 Maintainer: @vzYHutlL, @termux-user-repository
-Installed-Size: 302404
+Installed-Size: 302400
 Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-13_13.0.1-1_i686.deb
-Size: 52499016
-MD5sum: 75664873b86fcb3ba81bcb9906654381
-SHA1: 6d78cd7022866e5f7d899805ca80e167bb7e8147
-SHA256: a970fb7a8f9c01a90f546028d16c8d5919426497af3e49c0fc7add0a47d9c212
+Filename: pool/tur/libllvm-13_13.0.1-2_i686.deb
+Size: 52422472
+MD5sum: 8b23850dc0063df6cec6b9f68a968854
+SHA1: 12e33acee6e642162b5f404abc5536b1f7b023b7
+SHA256: 8d64c84f657eb1c376468460d95ba36894fac023ac8d083f7a2a8ec1f000c50b
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 13)
 
@@ -932,18 +932,18 @@ Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-13
-Version: 13.0.1-1
+Version: 13.0.1-2
 Architecture: i686
 Maintainer: @vzYHutlL, @termux-user-repository
 Installed-Size: 54728
-Depends: libllvm-13 (= 13.0.1-1)
+Depends: libllvm-13 (= 13.0.1-2)
 Breaks: libllvm (<< 13.0.1-1)
 Replaces: libllvm (<< 13.0.1-1)
-Filename: pool/tur/llvm-13_13.0.1-1_i686.deb
-Size: 12829648
-MD5sum: b379c9fd577d34198b6d087263aa8fea
-SHA1: 09c8fb03f8115e6e2e203aa5d79dc68df49f6814
-SHA256: a5601806c73c4e6ecb8b58d16768dd9c1935f8cb3fba03566a07f34fb960ad6e
+Filename: pool/tur/llvm-13_13.0.1-2_i686.deb
+Size: 12786980
+MD5sum: fb785bad81f34e71c3f7b47154b9c2a7
+SHA1: da73d7393b6c2ac132c6dbffd32f131ea1867ebe
+SHA256: 918525643947d38a2ef96a9c23cab49f18afda171165f561606ea531163883d1
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
