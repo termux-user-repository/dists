@@ -871,6 +871,21 @@ SHA256: f560688f59093c1a6bf7dcee622c81cc71bd3f89f0c4831cae47c48e69f11d0d
 Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)
 
+Package: libllvm-codon
+Version: 20221023-3
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 423932
+Depends: libc++, ndk-sysroot, libffi
+Suggests: codon
+Filename: pool/tur/libllvm-codon_20221023-3_aarch64.deb
+Size: 62849836
+MD5sum: f86bfd85bf3d9c2ef457d637b6ac0bdc
+SHA1: b1e08e6247536531336e3fe6e0d1456a91c7ac3f
+SHA256: d31e66d03e9bc1f33007385d607dc0a0b5f43b0c3e2f75a78d915b9ac7283850
+Homepage: https://github.com/exaloop/llvm-project
+Description: Modular compiler and toolchain technologies library (Version 15, Codon Fork)
+
 Package: libllvm-static
 Version: 16.0.6-1
 Architecture: aarch64
