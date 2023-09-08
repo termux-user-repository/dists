@@ -1626,18 +1626,18 @@ Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
 Package: python-is-python3.10
-Version: 3.10.11
+Version: 3.10.13
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.10 (= 3.10.11)
+Depends: python3.10 (= 3.10.13)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.10_3.10.11_arm.deb
-Size: 2020
-MD5sum: 028868690b423c45c890cc6f6e09ec67
-SHA1: 41698c4e00431391b379679ade499566df628d26
-SHA256: 9928824e04e090c534946bee73d0666e821aae82ec70a619f255b5b0ffa1d44f
+Filename: pool/tur/python-is-python3.10_3.10.13_arm.deb
+Size: 2012
+MD5sum: 2170ce1a75bd6b3c0f2d783a531ca863
+SHA1: 593403637da2ee97b08e8c3e99c4ace9fbfea69c
+SHA256: 78b74b510f185093f3a23d0905ec487eda0fcb3043a42d0c6851e06211e39f05
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
@@ -1859,60 +1859,60 @@ Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
 Package: python3.10-cross
-Version: 3.10.11
+Version: 3.10.13
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 246416
-Filename: pool/tur/python3.10-cross_3.10.11_arm.deb
-Size: 43006212
-MD5sum: bfc1d2c33e459d06e889e5f6b76e48e1
-SHA1: a361c3599cf8aff3ddf9117b523f24773e044049
-SHA256: f2d3651cb48d551833b41ef5157bc1d330239d0a9b1188a8ee7a4d99b12634e9
+Installed-Size: 246660
+Filename: pool/tur/python3.10-cross_3.10.13_arm.deb
+Size: 43130772
+MD5sum: e7b590c745e6dcefdc77cb040f19e79a
+SHA1: 3536f6efe44b29072f366fc3747ad120a108f87f
+SHA256: 0fb6b89d6902a04147e8abcce33c4071b48b1aced36f215a70c5d2daa1ee7633
 Homepage: https://python.org/
 Description: Python 3.10 for cross build on the host (NOT for Termux)
 
 Package: python3.10-static
-Version: 3.10.11
+Version: 3.10.13
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 13680
-Depends: python3.10 (= 3.10.11)
-Filename: pool/tur/python3.10-static_3.10.11_arm.deb
-Size: 3682976
-MD5sum: 2c9fab7afca75cabc4e9cc1b72812ddc
-SHA1: eec44674c6592bf5c59983e704165b1462e489e5
-SHA256: e597149b88141bb5b2b227bbd9be01a7d74c0d44f3faa0ffc8785df73b151b4f
+Installed-Size: 13684
+Depends: python3.10 (= 3.10.13)
+Filename: pool/tur/python3.10-static_3.10.13_arm.deb
+Size: 3684952
+MD5sum: 65e33cb736a4b6d6d80bf3b4bf6c414c
+SHA1: f4dad7f8a82a7d118408598f44ac1000d3469fb2
+SHA256: 835d53205c39ee07edbe4a6f49a6d159324cd9acc0da153f4da0145a158445cc
 Homepage: https://python.org/
 Description: Static libraries for python3.10
 
 Package: python3.10-tkinter
-Version: 3.10.11
+Version: 3.10.13
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 8096
-Depends: tk, python3.10 (= 3.10.11)
-Filename: pool/tur/python3.10-tkinter_3.10.11_arm.deb
-Size: 966496
-MD5sum: 4120fa1fea5087dd9b1ee38eb263d93f
-SHA1: d897d14ff70bed7c465d5872f358d5a40e291186
-SHA256: 3305ead89fc5f3076f505dedd1e87111f4e1878110621c84ddf44fcde1d2e48a
+Depends: tk, python3.10 (= 3.10.13)
+Filename: pool/tur/python3.10-tkinter_3.10.13_arm.deb
+Size: 960940
+MD5sum: 6117bf2566a3fa23563913384c934a2c
+SHA1: ddc19259c29126e8e479c81af14abe35142445a4
+SHA256: 7f161e8e32cd834a5c76101c879a3693bb40dcb8f74a324d994617dd6d99118d
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.10
 
 Package: python3.10
-Version: 3.10.11
+Version: 3.10.13
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 47160
+Installed-Size: 47200
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.10-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.11_arm.deb
-Size: 9167856
-MD5sum: e39c32766fda8866469455cf2779e9ba
-SHA1: 4425f248597ffb9c189b81d623f39313c5b3d02b
-SHA256: c688538f142a68cd8c2ea588561ac228311fcd79f95881e3878e9e59176bf9a5
+Filename: pool/tur/python3.10_3.10.13_arm.deb
+Size: 9155340
+MD5sum: 06bd2061e8ff8b6f4f318daf131ee87d
+SHA1: 7e9af190a4b0e6e352189e6cd9f5467a8fcf0539
+SHA256: fc03c4989b8d5b1fa2c4a23ff4379b7ceb83a8f13304d4513464ccb300de7b90
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
 
