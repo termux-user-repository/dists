@@ -1697,6 +1697,20 @@ SHA256: 5fb0ce37db87ef036b2b680d3071205125c829a4a816b616e9ca2fb5069b2170
 Homepage: https://pybind11.readthedocs.org
 Description: A lightweight header-only library that exposes C++ types in Python and vice versa
 
+Package: python-brotli
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Depends: python, python-pip
+Filename: pool/tur/python-brotli_1.1.0_aarch64.deb
+Size: 273684
+MD5sum: 388c1dd1f2be73edb280d7cd06ee937d
+SHA1: a85eed62ab2cc2d9a47e5e4c6d8bf0f02466d339
+SHA256: b6af41f528f39ebbccc1eaabe730b6424852e52d54b99816cdd215f017f809e3
+Homepage: https://github.com/google/brotli
+Description: lossless compression algorithm and format (Python bindings)
+
 Package: python-cairo
 Version: 1.24.0
 Architecture: aarch64
@@ -1874,6 +1888,20 @@ SHA256: f005c3420337ecf7b09c23ed4b1937f0841f5a5fc967bdf9cdbff11f879e901f
 Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
 
+Package: python-pycryptodomex
+Version: 3.18.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 7264
+Depends: python, python-pip
+Filename: pool/tur/python-pycryptodomex_3.18.0_aarch64.deb
+Size: 1445252
+MD5sum: d9da251447ff1660a6ba81a267ac1be6
+SHA1: 59f423f93e17ca566eefeeefbb5bf1b83319550d
+SHA256: f83a35af928dad74d6f88f50806d004cdcaa1c461abb3b3bcc64781ed5c8ac43
+Homepage: https://www.pycryptodome.org/
+Description: A self-contained Python package of low-level cryptographic primitives
+
 Package: python-pygame
 Version: 2.5.1
 Architecture: aarch64
@@ -1957,6 +1985,21 @@ SHA1: 542726d15f1ad70c5db2ecaacbc9ebf1afbdce9c
 SHA256: 1296e207f4cc5cc8265f77e6075325780a742671cb68ed72b68ccb32c43a4839
 Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
+
+Package: python-yt-dlp
+Version: 2023.07.06
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 23244
+Depends: libc++, libexpat, openssl, python, python-brotli, python-pip, python-pycryptodomex
+Suggests: ffmpeg
+Filename: pool/tur/python-yt-dlp_2023.07.06_aarch64.deb
+Size: 4372612
+MD5sum: b51cb614ae1088996b72234e3c6a6754
+SHA1: 579eca50947bda0bb34a2a9f0702d4f1537c3297
+SHA256: e4296d8bfb522aa80fa611144a3a19954e1f697739ba9bb07ba9662021335d97
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: A youtube-dl fork with additional features and fixes
 
 Package: python3.10-cross
 Version: 3.10.13
