@@ -122,6 +122,34 @@ SHA256: 275f77d2c1d8cebf50e6d7e8d24049f7ec4cf42d9fed053f9a3e8194b9a0b59f
 Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
+Package: python2-numpy-static
+Version: 1.16.6
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 284
+Depends: python2-numpy (= 1.16.6)
+Filename: pool/tur-on-device/python2-numpy-static_1.16.6_x86_64.deb
+Size: 46020
+MD5sum: 01859718fb8ed4447d5dbe0761183621
+SHA1: 270eecf5150df475f9e4c939fa0c26f379295a4f
+SHA256: e3af16e0ef03189f41a4b3f948f34e4f93b2f8e81caa1c0b30eec892e6ba5516
+Homepage: https://github.com/scikit-image/scikit-image
+Description: Static libraries for python2-numpy
+
+Package: python2-numpy
+Version: 1.16.6
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 15916
+Depends: libc++, libopenblas, python2
+Filename: pool/tur-on-device/python2-numpy_1.16.6_x86_64.deb
+Size: 2414340
+MD5sum: db8472010f7bcde78864abeb7accb71e
+SHA1: aa9685d4756df54eccfa2f14d2c8d9d9775323e3
+SHA256: cd00052aee601fa1bfd90209889f290bd416726bdddc247133c42b5203b817d6
+Homepage: https://github.com/scikit-image/scikit-image
+Description: Image processing in Python
+
 Package: s-nail
 Version: 14.9.24
 Architecture: x86_64
