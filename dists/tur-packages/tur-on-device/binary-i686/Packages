@@ -95,32 +95,32 @@ Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
 Package: python2-numpy-static
-Version: 1.16.6
+Version: 1.16.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 204
-Depends: python2-numpy (= 1.16.6)
-Filename: pool/tur-on-device/python2-numpy-static_1.16.6_i686.deb
-Size: 42192
-MD5sum: ec40cbd2459749ed890a40b04a548195
-SHA1: 32f879bedc872f04b722ccd0a658216087a31e03
-SHA256: b051e863865e0429b8b33cb42860a2b99851568194ade127de5d3f6061d6db62
-Homepage: https://github.com/scikit-image/scikit-image
+Depends: python2-numpy (= 1.16.6-1)
+Filename: pool/tur-on-device/python2-numpy-static_1.16.6-1_i686.deb
+Size: 42160
+MD5sum: 42c2fae363585e9f8befeb662737c826
+SHA1: cbc8b3b8cae7e807a5189e5d8a835686ff2c78d1
+SHA256: c63ea2abfcd3f05aa0bb829c9df80ff89b6e5fa4b64b9c779d0ca2418d06ee35
+Homepage: https://numpy.org/
 Description: Static libraries for python2-numpy
 
 Package: python2-numpy
-Version: 1.16.6
+Version: 1.16.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 15820
+Installed-Size: 15812
 Depends: libc++, libopenblas, python2
-Filename: pool/tur-on-device/python2-numpy_1.16.6_i686.deb
-Size: 2378288
-MD5sum: e340708a9cfba9e54a18a1765d50a09b
-SHA1: cabe0f2436a2926ccdae63662c0362084ca4ca13
-SHA256: 02c51b293157a4c845439430142f4602a5db8f36c61262fe142e2533b9d91009
-Homepage: https://github.com/scikit-image/scikit-image
-Description: Image processing in Python
+Filename: pool/tur-on-device/python2-numpy_1.16.6-1_i686.deb
+Size: 2378104
+MD5sum: 5a2d3222f1dc76ccf8cc9807c382a76e
+SHA1: 7a35c9c79d3bc28ddbf3e5ab3a30a1cbf6099fbc
+SHA256: 82f028acd5270378fea187b83565c0188b5ceada1d0ebc505340af01bf50d785
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
 
 Package: s-nail
 Version: 14.9.24
