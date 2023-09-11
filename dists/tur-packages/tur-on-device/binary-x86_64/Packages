@@ -39,6 +39,20 @@ SHA256: 87dc0dfc3cc492d41504b428e6a77b648efc5263648f3a2abf7d44600dbcaf8b
 Homepage: https://github.com/termux-user-repository/tur-on-device
 Description: Dummy test for TUR on Device
 
+Package: nqp
+Version: 2023.08
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 4400
+Depends: moarvm
+Filename: pool/tur-on-device/nqp_2023.08_x86_64.deb
+Size: 571108
+MD5sum: 850743d7a793bde355be21c5834d5171
+SHA1: 089ddf30eb21592f52a285e3f7a078e57b307b9b
+SHA256: 46ff2bf710c4bfa0080a30c539f32e79e3af03b793b9cf8489bf8965adb1b98b
+Homepage: https://github.com/Raku/nqp
+Description: Lightweight Raku-like environment for virtual machines
+
 Package: perl-net-ssleay
 Version: 1.92-2
 Architecture: x86_64
