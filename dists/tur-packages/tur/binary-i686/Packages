@@ -1150,6 +1150,20 @@ SHA256: 912d04ce8d42345ed20d898a3f5279c6aabaddb5b0d91dbbde0871bdb04eb880
 Homepage: https://clang.llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
+Package: moarvm
+Version: 2023.08
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 9224
+Depends: libc++, libffi, libuv, zstd
+Filename: pool/tur/moarvm_2023.08_i686.deb
+Size: 1522468
+MD5sum: 5f6e8a6b6dbed15c9ec9ef2727794347
+SHA1: b8f0ebed5c3366c2f0380dbd6f76989fcc6dc762
+SHA256: 3398fd13a8aeb436f1f41c3aebec27438631b8554885404e9b20d80ff082f82f
+Homepage: https://moarvm.org/
+Description: Virtual machine for Rakudo Perl 6 and NQP
+
 Package: ndk-sysroot-gcc-compact
 Version: 25c-1
 Architecture: i686
