@@ -1441,6 +1441,33 @@ SHA256: d69a15a41b2fb1462f08cdb96a998447357dc2d4942998e7e9f0888f742dea6b
 Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
+Package: openspecfun-static
+Version: 0.5.6
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 316
+Depends: openspecfun (= 0.5.6)
+Filename: pool/tur/openspecfun-static_0.5.6_arm.deb
+Size: 66372
+MD5sum: c24b806dc5f9d014d0d2e4cb27252ba7
+SHA1: a0a7e6a7db2d7a7874a98e40c8bc61963640383d
+SHA256: c410dbf1cda27571f93312b8252616fb8933f05dc11773787feabb222da1dc34
+Homepage: https://github.com/JuliaMath/openspecfun
+Description: Static libraries for openspecfun
+
+Package: openspecfun
+Version: 0.5.6
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 492
+Filename: pool/tur/openspecfun_0.5.6_arm.deb
+Size: 155388
+MD5sum: 879e4a9a221cefd380d1c8418741d824
+SHA1: 563a69b47d22b2e6f95315f6cccbbff08a0ae925
+SHA256: 11f333ce638b12fb0ef34db9ee869b7cc493ad32723a94050209e653d6d8a07c
+Homepage: https://github.com/JuliaMath/openspecfun
+Description: A collection of special mathematical functions
+
 Package: openssl-static
 Version: 3.0.3-1
 Architecture: arm
