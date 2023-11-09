@@ -1952,6 +1952,23 @@ SHA256: aa1dba035cdbcd95fdeaee1c869300fb7a3ac80bd26b5e1e1690099f48510bdb
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
+Package: python-scipy-2
+Version: 1.11.3
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 88260
+Depends: libc++, libopenblas, python, python-numpy
+Conflicts: python-scipy
+Replaces: python-scipy
+Provides: python-scipy
+Filename: pool/tur/python-scipy-2_1.11.3_arm.deb
+Size: 20878312
+MD5sum: c847aa2c1938b545f70d78e52c937e3a
+SHA1: 2ecd0c86f4350a8799ad19e3b98387873b1d80df
+SHA256: a2038eb8a48e59a82597222f912dac169c871fcc8c60fc0b519ba2b8a81892de
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
 Package: python-seledroid
 Version: 1.1.0-1
 Architecture: arm
