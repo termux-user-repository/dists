@@ -84,7 +84,13 @@ remove_old_version() {
 	for comp in "${components_array[@]}";do
 		cd $POOL_DIR/$comp 
 		for package_name in `ls | cut -d'_' -f1 | uniq`; do
-			latest_version=`find . -name "${package_name}_*" | cut -d'_' -f2 | sort -V | tail -n1`
+			_versions="$(find . -name "${package_name}_*_*.deb" | sed -E 's|^.*/([^_]*)_([^_]*)_([^\.]*)\.deb$|\2|g')"
+			latest_version="$(echo "$_versions" | tail -n1)"
+			for _version in $_versions; do
+				if dpkg --compare-versions "$_version" gt "$latest_version"; then
+					latest_version="$_version"
+				fi
+			done
 			echo "Latest $package_name $latest_version"
 			find . -name "${package_name}_*" -not -iname "${package_name}_${latest_version}_*" -exec rm {} \;
 		done
