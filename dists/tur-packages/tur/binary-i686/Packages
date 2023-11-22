@@ -39,16 +39,16 @@ Homepage: https://github.com/asciinema/agg
 Description: asciinema gif generator
 
 Package: aptitude
-Version: 0.8.13
+Version: 0.8.13-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 6712
-Depends: ncurses, apt, libxapian, libsigc++-2.0, libcwidget, boost, gettext
-Filename: pool/tur/aptitude_0.8.13_i686.deb
-Size: 1968700
-MD5sum: ee711676b0ead9c6623f5a49c8f341cf
-SHA1: 8df62600b00e0619816b19d3f462f64ca3faab6a
-SHA256: af967a1efa03e3f6549f2a5410934490f9395a24ca2b25ec6fcad3203b905c7f
+Installed-Size: 9356
+Depends: apt, boost, gettext, libcwidget, libsigc++-2.0, libsqlite, libxapian, ncurses
+Filename: pool/tur/aptitude_0.8.13-1_i686.deb
+Size: 2660700
+MD5sum: 66d08ac41029f12d5888546bfccd8691
+SHA1: cfb5a63e9e6b0569b790aaf2fe18b5fa602f0318
+SHA256: 6b20ec81e20c0dcf328f8bf3ef97dff7e276155efa64622228404fc9a88bbd54
 Homepage: https://wiki.debian.org/Aptitude
 Description: terminal-based package manager
 
