@@ -2681,30 +2681,30 @@ Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
-Version: 7.0.1
+Version: 1:7.3.1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 5004
-Depends: suitesparse (= 7.0.1)
-Filename: pool/tur/suitesparse-static_7.0.1_aarch64.deb
-Size: 976048
-MD5sum: bf1192fc5052404d466369c9b971e2c5
-SHA1: a624eca78fdca908bf35f82c907b9e87f078bfcc
-SHA256: 9374d5b2c08974c56205ae9d67f4e736dec558214a6d2d552e5a8669671bc05c
+Installed-Size: 5732
+Depends: suitesparse (= 1:7.3.1)
+Filename: pool/tur/suitesparse-static_1:7.3.1_aarch64.deb
+Size: 1115484
+MD5sum: 70d7bc31e80e5401731b7096c39e2d98
+SHA1: 23d4d6ffe6ccc1029f79e35e0150a19ad2468487
+SHA256: 3746d8d3a46a8f320a582f0d9cc0cb3fef8a1d0899a50e112367b93f65373082
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: Static libraries for suitesparse
 
 Package: suitesparse
-Version: 7.0.1
+Version: 1:7.3.1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 139708
-Depends: libopenblas, libgmp, libmpfr
-Filename: pool/tur/suitesparse_7.0.1_aarch64.deb
-Size: 15825240
-MD5sum: 3253cd79d95368cc776d61127fdd2c6c
-SHA1: 88453f788797b82a1ba4d4931a112d702993adc3
-SHA256: 9043ba23c6d60903a47a0ac3dadc0d557e099f9586ba2e0b3c82e605cdc908f4
+Installed-Size: 136476
+Depends: blas-openblas, libopenblas, libgmp, libmpfr
+Filename: pool/tur/suitesparse_1:7.3.1_aarch64.deb
+Size: 15923632
+MD5sum: 0a7525ac001bdff3d27b823a8ccd34dd
+SHA1: f04b462e24ed62e6ece4167f5f476f38cdeacd1c
+SHA256: 8d159003da4b0d612d5666f46dadac7943945225fae71aa2bf47963483b59cb8
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
