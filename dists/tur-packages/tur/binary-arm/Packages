@@ -1539,16 +1539,16 @@ Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
 
 Package: openimageio
-Version: 2.4.12.0
+Version: 2.5.6.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 13984
-Depends: openexr, boost-headers, openjpeg, glew, libtiff, opencolorio, libwebp, libpng, libheif, libhdf5, freetype, python, ffmpeg, opencv, ptex-static, qt5-qtbase, pybind11, libraw
-Filename: pool/tur/openimageio_2.4.12.0_arm.deb
-Size: 3595480
-MD5sum: 371e107987e710eb832e0a29eadcefe8
-SHA1: 75e71660c1baacd07538aab069dd5c03c850b12a
-SHA256: d69a15a41b2fb1462f08cdb96a998447357dc2d4942998e7e9f0888f742dea6b
+Installed-Size: 14208
+Depends: openexr, boost-headers, openjpeg, glew, libtiff, opencolorio, libwebp, libpng, libheif, libhdf5, freetype, python, ffmpeg, opencv, ptex-static, qt5-qtbase, pybind11, libraw, libjpeg-turbo-static, libtbb, dcmtk, openvdb
+Filename: pool/tur/openimageio_2.5.6.0_arm.deb
+Size: 3744660
+MD5sum: dd153c0df2cbf4f1861e8cec915f0b94
+SHA1: c4114a6458d65810141c31d05ea8b2a3991c9220
+SHA256: 058358217f185d1d242b2ac8f405914ceb4b858cd8ff0ffd7d2465dda0e8fcb1
 Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
