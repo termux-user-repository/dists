@@ -1739,30 +1739,30 @@ Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: openvdb-static
-Version: 10.0.1-1
+Version: 10.0.1-2
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 257504
-Depends: openvdb (= 10.0.1-1)
-Filename: pool/tur/openvdb-static_10.0.1-1_x86_64.deb
-Size: 10234036
-MD5sum: d0809d7a5d95831402a88f08fa17b3ff
-SHA1: b49f6c75fcdf1bbae15870af3ba19a7a34c58680
-SHA256: 7393bfd5f8af2660a6fbeb371191485270bb2d62e533f87cd46179df2296a27c
+Installed-Size: 256608
+Depends: openvdb (= 10.0.1-2)
+Filename: pool/tur/openvdb-static_10.0.1-2_x86_64.deb
+Size: 9975428
+MD5sum: 2446d4041267dadbfcbc61d16b8c20a2
+SHA1: d39c21c4413923f7544298b0f2c0fa0609ed4d5c
+SHA256: 1126e58ed76bdba11a89d3880f9dd9ae99fd8dd4a60b8e673e3fc72618fc7cd8
 Homepage: https://github.com/dreamworksanimation/openvdb
 Description: Static libraries for openvdb
 
 Package: openvdb
-Version: 10.0.1-1
+Version: 10.0.1-2
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 84188
+Installed-Size: 84296
 Depends: boost, libtbb, zlib, libblosc
-Filename: pool/tur/openvdb_10.0.1-1_x86_64.deb
-Size: 6100240
-MD5sum: 95eb6aead259e1336d5f5caece663680
-SHA1: 1e7b05810af1335a8ef9c5423c007c99d2046cb8
-SHA256: 9bd484832de993df9c2bc535a092178a0c45fd52816b525a825275e8fc5c4a72
+Filename: pool/tur/openvdb_10.0.1-2_x86_64.deb
+Size: 6018436
+MD5sum: c607f3e8ed7dc0faa8b38c2521db3c89
+SHA1: 4c4d03d5e93dc5d36ff254a4ec608847c5648ce3
+SHA256: 2f26f547ed1c6becf737ac58be0c969c885d9e18afc0cee85d05397f8b5b1b92
 Homepage: https://github.com/dreamworksanimation/openvdb
 Description: A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
 
