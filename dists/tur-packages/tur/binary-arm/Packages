@@ -1434,66 +1434,6 @@ SHA256: 100d841c31d2cdc58d231be0e1658923fbccfa88050b17d372b07624e43c6c25
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
-Package: octave-static
-Version: 8.2.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 296636
-Depends: octave (= 8.2.0)
-Filename: pool/tur/octave-static_8.2.0_arm.deb
-Size: 20981360
-MD5sum: 5ffc7a650faf766db47bff2dc96fb709
-SHA1: b0c5ecfff5ea844f10236395f4ce6e313eb800ce
-SHA256: f0099122a70141e405bcaed2d96aa1ccb2889eee12ce0516cbd5bc14a8380dc9
-Homepage: https://octave.org
-Description: Static libraries for octave
-
-Package: octave-x-static
-Version: 8.2.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 296636
-Depends: octave-x (= 8.2.0)
-Filename: pool/tur/octave-x-static_8.2.0_arm.deb
-Size: 20978136
-MD5sum: eb02312e5de66c2f698f8cb2d9bfc68b
-SHA1: 6fc0eb94c0e693c8511afb976eb1a02a3c60af85
-SHA256: 83ae90f802a59de84d3bb6dba517f3d0260db2f61302f49af92d441bb18c652e
-Homepage: https://octave.org
-Description: Static libraries for octave-x
-
-Package: octave-x
-Version: 8.2.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 54564
-Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio, fltk, mesa, glu
-Recommends: gnuplot, less
-Conflicts: octave
-Filename: pool/tur/octave-x_8.2.0_arm.deb
-Size: 12438284
-MD5sum: 24724ee1287ae0477be8944fa6fd4462
-SHA1: 95de0e123dc90d760023068ec0a124ffb05fc109
-SHA256: 5e2ee37ba19e982b5c61b5a908528f453a599e1f3e994bc1ecfe48dc5de37cef
-Homepage: https://octave.org
-Description: GNU Octave is a high-level language, primarily intended for numerical computations. (with X11 support)
-
-Package: octave
-Version: 8.2.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 54544
-Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio
-Recommends: gnuplot, less
-Conflicts: octave-x
-Filename: pool/tur/octave_8.2.0_arm.deb
-Size: 12431668
-MD5sum: 5aea46bef9b525b1e0dd08f0611751c6
-SHA1: d35056d9157f41d85a1596cb358d2301ceb954da
-SHA256: 5d244999814e5221d0687f1f943ef11bdeafb0ba7f2eefe8f98851f2ca880474
-Homepage: https://octave.org
-Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
-
 Package: openalut-static
 Version: 1.1.0-1
 Architecture: arm

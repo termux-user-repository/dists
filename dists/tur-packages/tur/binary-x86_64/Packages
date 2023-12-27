@@ -1549,62 +1549,62 @@ Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: octave-static
-Version: 8.2.0
+Version: 1:8.4.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 293088
-Depends: octave (= 8.2.0)
-Filename: pool/tur/octave-static_8.2.0_x86_64.deb
-Size: 60655244
-MD5sum: 8ab78714dc1c21a8a5bca6281a85ad40
-SHA1: 3c037f65ad3cb4c3b21d4cafef1e5bd679845f2d
-SHA256: 65e5ec1ef47d9d5ab11adfd8655bcd57b34f40666f39656734477b3d62932b76
+Installed-Size: 140100
+Depends: octave (= 1:8.4.0)
+Filename: pool/tur/octave-static_1:8.4.0_x86_64.deb
+Size: 12700460
+MD5sum: 58aca8eebc64f8541e37d840612671e7
+SHA1: 3ac66025f506a78a056ed3a89272122057b2093c
+SHA256: 302d5f2e59b3003d76ffcd04edbad9e23f09832accf0101afb9d646ccacabb9c
 Homepage: https://octave.org
 Description: Static libraries for octave
 
 Package: octave-x-static
-Version: 8.2.0
+Version: 1:8.4.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 293088
-Depends: octave-x (= 8.2.0)
-Filename: pool/tur/octave-x-static_8.2.0_x86_64.deb
-Size: 60671628
-MD5sum: 1ab16f50c84152d1b8279e703cccc4a4
-SHA1: dc1311ef5582886fae43c2e2b02c2ad58dddfd56
-SHA256: 3db8590b6b7afe1421215eb37e208a16707874594db45ff37a95bdbfff56bc54
+Installed-Size: 140104
+Depends: octave-x (= 1:8.4.0)
+Filename: pool/tur/octave-x-static_1:8.4.0_x86_64.deb
+Size: 12691844
+MD5sum: 0ea7f093a1de17a2f3930fbaaa1a4aed
+SHA1: 57ddbec4692af72e946f0aa909d3379bbb586fd9
+SHA256: 7c738cefc1e01cc9fee082b2d3faa9f10f3222299489499903217a291c69987c
 Homepage: https://octave.org
 Description: Static libraries for octave-x
 
 Package: octave-x
-Version: 8.2.0
+Version: 1:8.4.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 63428
-Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio, fltk, mesa, glu
+Installed-Size: 87208
+Depends: arpack-ng, bzip2, fftw, fltk, fontconfig, freetype, glpk, glu, graphicsmagick, libcurl, libhdf5, libiconv, libopenblas, libsndfile, opengl, openssl, pcre, portaudio, qhull, qrupdate-ng, rapidjson, readline, suitesparse, sundials, zlib
 Recommends: gnuplot, less
 Conflicts: octave
-Filename: pool/tur/octave-x_8.2.0_x86_64.deb
-Size: 13384952
-MD5sum: ba1b37d4b39ad6209411424f0e376561
-SHA1: cf046b1c71834a0e8c918c0065e6edacacc559bc
-SHA256: e986dabb8c1c7dab916b05c34d4ba735dc83d58d6711bb70bc46e45abc5f911f
+Filename: pool/tur/octave-x_1:8.4.0_x86_64.deb
+Size: 18568900
+MD5sum: 2d22249a71b3819d5cedbe6c63b2fbfd
+SHA1: 67108532eeed4e53bec72ad549fdff1ae7365c1f
+SHA256: 80074c4ff4ab2ebf8becb19b516a69d460c172777bf519354718db5b32877ba3
 Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (with X11 support)
 
 Package: octave
-Version: 8.2.0
+Version: 1:8.4.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 63400
-Depends: zlib, bzip2, openssl, libiconv, libandroid-glob, pcre, readline, libcurl, libhdf5, qhull, rapidjson, fftw, glpk, libopenblas, arpack-ng, qrupdate-ng, suitesparse, sundials, fontconfig, freetype, graphicsmagick, libsndfile, portaudio
+Installed-Size: 87168
+Depends: arpack-ng, bzip2, fftw, fontconfig, freetype, glpk, graphicsmagick, libcurl, libhdf5, libiconv, libopenblas, libsndfile, openssl, pcre, portaudio, qhull, qrupdate-ng, rapidjson, readline, suitesparse, sundials, zlib
 Recommends: gnuplot, less
 Conflicts: octave-x
-Filename: pool/tur/octave_8.2.0_x86_64.deb
-Size: 13382160
-MD5sum: 26f9a99755eb980dd2227055c30dadc9
-SHA1: 8558266f392fbcc59063f37aa6f299c8f9411f5f
-SHA256: cfcab99d2e5cd6dc0e5552b6a87ee8143bbb094a205cf9ae476811e7e01edf4c
+Filename: pool/tur/octave_1:8.4.0_x86_64.deb
+Size: 18577580
+MD5sum: 9c76edea97d5761eb335f4fd2737aee6
+SHA1: 0ea4509013b3ef518e78d31ef3ea723889027c65
+SHA256: 88b20c06c07acaa78275ebdc7ec8ca120c230534ba34867d7b48d3802a5824fa
 Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
 
