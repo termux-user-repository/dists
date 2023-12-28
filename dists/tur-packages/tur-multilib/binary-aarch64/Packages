@@ -27,20 +27,20 @@ Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
 Package: hangover-wine
-Version: 8.17
+Version: 8.17-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 1351080
 Depends: libandroid-spawn, libc++, libgmp, libgnutls
 Conflicts: wine-devel, wine-stable, wine-staging
 Breaks: wine-devel, wine-stable, wine-staging
-Filename: pool/tur-multilib/hangover-wine_8.17_aarch64.deb
-Size: 257992752
-MD5sum: 5a50d6b0df9702dcebfa521315d75ece
-SHA1: 59398f0372344f4393f1a0207c71002842013664
-SHA256: 304034b2a11343fc4e314926b25fb35528c5bee91370163316eb2d96a593f2af
-Homepage: https://www.winehq.org/
-Description: A compatibility layer for running Windows programs
+Filename: pool/tur-multilib/hangover-wine_8.17-1_aarch64.deb
+Size: 258015668
+MD5sum: 0f1144a45f3c86c216171310de614ea6
+SHA1: bf8690f8242a501927555a3935a5cdb6323f7589
+SHA256: c5ca02ffa5efb8c0eb8063817fb1207c485d9238d6a03715b56c4f6f1c647cf4
+Homepage: https://github.com/AndreRH/wine
+Description: A compatibility layer for running Windows programs (Hangover forked)
 
 Package: lib32-libandroid-support
 Version: 28-3
