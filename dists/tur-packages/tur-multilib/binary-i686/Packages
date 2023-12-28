@@ -140,16 +140,16 @@ Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
 Package: wine-stable
-Version: 8.0.2
+Version: 8.0.2-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 488452
-Depends: libc++, libgmp, libgnutls
-Filename: pool/tur-multilib/wine-stable_8.0.2_i686.deb
-Size: 89747748
-MD5sum: 511cd0237ea75d69e903bfe60f871b1a
-SHA1: 8b689bbc66b3108174143017070be5342b854887
-SHA256: 61384b6d05c34955e422fae4c3a5def04fbabadcf1eb4c5295c73e0600fd305a
+Installed-Size: 478048
+Depends: fontconfig, freetype, libc++, libgmp, libgnutls, libxcb, krb5, libxrender, opengl, mesa, xorg-xrandr, pulseaudio, sdl2, libxcomposite, libxfixes, libxcursor, vulkan-loader
+Filename: pool/tur-multilib/wine-stable_8.0.2-1_i686.deb
+Size: 88404020
+MD5sum: 31a7c193f5489a2ba5f05b758cfaf99a
+SHA1: 5ae4421a57f0687faa097efb284fbb21b63af02a
+SHA256: b80d750285540a93c8c9d393b896e1ddaaffe74ca469cf5799850bb5c6b5932e
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
