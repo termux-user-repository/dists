@@ -21,8 +21,10 @@ async function handleRequest(request) {
   }
 
   if (pathname.startsWith("/pool")) {
+    const packageName = pathArray.at(-1);
+    const packageNameModified = packageName.replaceAll(/[^a-zA-Z0-9-_+]+/g, ".");
     return Response.redirect(
-      "https://github.com/termux-user-repository/dists/releases/download/0.1/" + pathArray.at(-1), 302);
+      "https://github.com/termux-user-repository/dists/releases/download/0.1/" + packageNameModified, 302);
   }
 
   return Response.redirect("https://github.com/termux-user-repository/tur", 302);
