@@ -153,6 +153,22 @@ SHA256: 48f4e2b35a0c93d0d68f68953ac32ab4bc301414e4e957e2a969cb0cd991852d
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
+Package: wine-staging
+Version: 9.0-rc3-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 216
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Conflicts: hangover-wine, wine-stable
+Breaks: hangover-wine, wine-stable
+Filename: pool/tur-multilib/wine-staging_9.0-rc3-0_arm.deb
+Size: 26528
+MD5sum: 84e6b221bec7e2ba8476734343b607d0
+SHA1: 9d787a9f0d61d641a95171258b52a667abd4aca1
+SHA256: badb28a62254673bc974b5eb6e43e8e8e2d600382c03c8492d3b111364e91504
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
 Package: lib32-libc++
 Version: 25c
 Architecture: all
