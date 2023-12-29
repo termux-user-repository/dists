@@ -836,30 +836,30 @@ Homepage: https://clang.llvm.org/
 Description: Compiler runtime libraries for clang
 
 Package: libcwidget-static
-Version: 0.5.18
+Version: 0.5.18-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 2444
-Depends: libcwidget (= 0.5.18)
-Filename: pool/tur/libcwidget-static_0.5.18_x86_64.deb
-Size: 275500
-MD5sum: 33726360ae3cff4950b8e78e52756462
-SHA1: 9f514c74a7578c8773ea143d94a2cda8ff9d61d3
-SHA256: 2fe42e93bde7a12dfce010c8f37c9de023508a6db9a49d14c13819fe0e7bc6d7
+Installed-Size: 2544
+Depends: libcwidget (= 0.5.18-1)
+Filename: pool/tur/libcwidget-static_0.5.18-1_x86_64.deb
+Size: 283216
+MD5sum: 5847077319b28a01a046a51e87d0583c
+SHA1: bcac1b324048e5d980119f0c99cd03a5a9ffc1f4
+SHA256: 1c9db1f9c4b826d39a3bccf503341684c876e297526072ece8a458b05c7a8fde
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: Static libraries for libcwidget
 
 Package: libcwidget
-Version: 0.5.18
+Version: 0.5.18-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 1216
-Depends: ncurses, libsigc++-2.0, iconv
-Filename: pool/tur/libcwidget_0.5.18_x86_64.deb
-Size: 251240
-MD5sum: fb57b2b709083aaa740ae94727503a40
-SHA1: 89d377880aab87d6d400ea5710a1cbdf891c1839
-SHA256: 33e5d07038813aa6d9f0ab366b4e07035e458fc347272048f62578f697369768
+Installed-Size: 1208
+Depends: ncurses, libiconv, libsigc++-2.0
+Filename: pool/tur/libcwidget_0.5.18-1_x86_64.deb
+Size: 250956
+MD5sum: 91e7fd0aa8c46eccae5b5bfb96acfecb
+SHA1: 50939ad9017497b4ec485d381da7ac905add0ab0
+SHA256: dedc1765e4de54611fd75c277bf4e10e6d3f08526fbd02d6ae5e6126a592798e
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: high-level terminal interface library for C++
 
