@@ -1,0 +1,16 @@
+Package: hangover-wine
+Version: 8.17-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1317564
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Conflicts: wine-devel, wine-stable, wine-staging
+Breaks: wine-devel, wine-stable, wine-staging
+Filename: pool/tur-multilib/hangover-wine_8.17-2_aarch64.deb
+Size: 253328032
+MD5sum: 447df89ed0fd879d70789364d58b488f
+SHA1: fd6865e211da3fe8d25cf2bcea6cbba494453456
+SHA256: d07084286ecf2ea0a474a3cb2ad2a1bc8b5c03c3f3dc1cc7252e4103d343b9fd
+Homepage: https://github.com/AndreRH/wine
+Description: A compatibility layer for running Windows programs (Hangover forked)
+
