@@ -27,20 +27,20 @@ Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
 Package: hangover-wine
-Version: 9.0-rc4-0
+Version: 9.1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1326288
+Installed-Size: 1326968
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
 Conflicts: wine-devel, wine-stable, wine-staging
 Breaks: wine-devel, wine-stable, wine-staging
-Filename: pool/tur-multilib/hangover-wine_9.0-rc4-0_aarch64.deb
-Size: 255411984
-MD5sum: 935a7b6009b3db018eaa5db302397c67
-SHA1: 52864e47980460ac231ef99afaec6288325c5a05
-SHA256: 3386510e3d7093ddb9bc2db1d2a2bbf251d10678068c43205c207a6113db6987
+Filename: pool/tur-multilib/hangover-wine_9.1_aarch64.deb
+Size: 252563488
+MD5sum: e641458cddb464b48cee1f71a9258e5a
+SHA1: 515926a64a207bbeacaa269fa11643926dec470d
+SHA256: 17e26816cc8e05abce0e3456c260c6b5eade8e557d4895a12f83605b1b81237a
 Homepage: https://github.com/AndreRH/wine
-Description: A compatibility layer for running Windows programs (Hangover forked)
+Description: A compatibility layer for running Windows programs (Hangover fork)
 
 Package: lib32-libandroid-support
 Version: 28-3
