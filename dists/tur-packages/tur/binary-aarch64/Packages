@@ -2734,6 +2734,20 @@ SHA256: d5bd77e7f57151fe367a7c1c1a8771b890087f882180ef97baeb27367682bdda
 Homepage: https://sortix.org/rw/
 Description: A lightweight dd(1) alternative that doesn't resemble IBM JCL
 
+Package: stern
+Version: 1.28.0
+Architecture: aarch64
+Maintainer: @idj0
+Installed-Size: 52488
+Depends: pacman, kubectl
+Filename: pool/tur/stern_1.28.0_aarch64.deb
+Size: 10038796
+MD5sum: 53121ad8bf9152b9223e653ff0a7bec6
+SHA1: 05999b6207876d402d0fa71f19d8514369a16fba
+SHA256: 8deaed25120617bcef95f00fbeced61d94b02f1ec1f818f6dea0c0e9d9a14b89
+Homepage: https://github.com/stern/stern
+Description: Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern
+
 Package: sttr
 Version: 0.2.18
 Architecture: aarch64
