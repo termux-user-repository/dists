@@ -2721,16 +2721,16 @@ Homepage: https://github.com/luanon404/android-webdrivers
 Description: Chromium-based android webdriver application used by seledroid.
 
 Package: smartdns
-Version: 43
+Version: 45
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 348
-Depends: libc++, openssl
-Filename: pool/tur/smartdns_43_aarch64.deb
-Size: 118264
-MD5sum: 59598c02ee94c32112d30b4ee7795396
-SHA1: a62e77170103946d2be5e1a5d0c677ad6e27bd5f
-SHA256: 4487b0f206752127fefc79405c6bf2ab7eee4682f02d40b325030cadafa9ffe9
+Installed-Size: 448
+Depends: libandroid-glob, libc++, openssl
+Filename: pool/tur/smartdns_45_aarch64.deb
+Size: 151020
+MD5sum: 4d73a7108f7ee9b1996076ff39f46d5d
+SHA1: 1b3271aab92851535da609bddd086e62c228edeb
+SHA256: 58f546d982145f853a8407dc6298783351e5bee2fc74c4908740efd600dbd2d5
 Homepage: https://github.com/pymumu/smartdns
 Description: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH
 
