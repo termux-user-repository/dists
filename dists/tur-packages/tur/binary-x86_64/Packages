@@ -2998,6 +2998,34 @@ SHA256: 7ce0691ea04c39900bb1f8c37919493ff5ff2272862d43848c0b47ad9986b21b
 Homepage: https://git.sr.ht/~bitfehler/vomit
 Description: Utility to manage your local emails in Maildir++ format with IMAP synchronization support
 
+Package: xfdashboard-static
+Version: 1.0.0
+Architecture: x86_64
+Maintainer: @fervi
+Installed-Size: 2492
+Depends: xfdashboard (= 1.0.0)
+Filename: pool/tur/xfdashboard-static_1.0.0_x86_64.deb
+Size: 357388
+MD5sum: 51b059ff558c46d359866971fbd6bbc0
+SHA1: 9df9d53b93a832d2f49365a2bc82ac4e5ad9cae4
+SHA256: 0881c31bde51a9fd0a1f12f59c1ff95ffecfe2aacfc041f8c276da04777a550d
+Homepage: https://gitlab.xfce.org/apps/xfdashboard
+Description: Static libraries for xfdashboard
+
+Package: xfdashboard
+Version: 1.0.0
+Architecture: x86_64
+Maintainer: @fervi
+Installed-Size: 4652
+Depends: clutter, garcon, libwnck
+Filename: pool/tur/xfdashboard_1.0.0_x86_64.deb
+Size: 2501536
+MD5sum: f356c53729fc4cd8c90da938bffd3abe
+SHA1: 8eb83d06c5b73fa966ffc4d63df67397439c3cff
+SHA256: 7b06f856ab68141e9a180a2f16e116d6ca160d67984a97624826dec06075aa54
+Homepage: https://gitlab.xfce.org/apps/xfdashboard
+Description: Maybe a Gnome shell like dashboard for Xfce
+
 Package: xpenguins
 Version: 3.2.1
 Architecture: x86_64
