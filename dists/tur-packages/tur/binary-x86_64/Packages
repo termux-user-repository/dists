@@ -178,32 +178,32 @@ Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
 
 Package: code-is-code-oss
-Version: 1.86.1
+Version: 1.86.2
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 64
-Depends: code-oss (= 1.86.1)
+Depends: code-oss (= 1.86.2)
 Conflicts: code
 Breaks: code
-Filename: pool/tur/code-is-code-oss_1.86.1_x86_64.deb
-Size: 2540
-MD5sum: acd221f49f0274ace54f850b539b609d
-SHA1: 4fd340a67098df4fb805476309bfa3729f86171e
-SHA256: 9c41b609e471f5f6f6cc5502f62a77336a14dc4efc2ffbb43081b85449330495
+Filename: pool/tur/code-is-code-oss_1.86.2_x86_64.deb
+Size: 2528
+MD5sum: 9d4f1e4746b971ce5e633c4932caf6ca
+SHA1: 08792d9d42c3a5a88e05554075ebad4c4159f958
+SHA256: 4d45afbe17454e2d54fc015ea63419fca89eb33a1b6fd2228439cbf1b926a908
 Homepage: https://github.com/microsoft/vscode
 Description: Symlinks code/vscode to code-oss
 
 Package: code-oss
-Version: 1.86.1
+Version: 1.86.2
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 365560
 Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.86.1_x86_64.deb
-Size: 73100996
-MD5sum: cf1ff00003fba2c55b87c4e628168851
-SHA1: ccab8d1264d56fb564e629a97e962a7a06bf304a
-SHA256: 313eafae4013b4cf450ab302ed4c76bb87a0a4d107991835048fe736298b9ab3
+Filename: pool/tur/code-oss_1.86.2_x86_64.deb
+Size: 72947328
+MD5sum: 5bf22ad780014d2a21a610083731614f
+SHA1: 12fb9422c27d5ff4ca7d0feb4c8fbb08631fe0e4
+SHA256: 8f841ffd510b46c124e2ca88eed37c267bea5e385d60d34c710c1fbf5b88380d
 Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
@@ -916,6 +916,19 @@ SHA1: 364f102cd7c68c08a0a40f053afd43591ab7989b
 SHA256: 3cde160500b4d3b760d5ab311f18595000e7e0c68d6a8cdb0d38d77a98e85786
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: high-level terminal interface library for C++
+
+Package: libdav1d
+Version: 1.4.0
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 1728
+Filename: pool/tur/libdav1d_1.4.0_x86_64.deb
+Size: 527428
+MD5sum: 13f0d60c34a7d94db8a5ba5559708684
+SHA1: 45b219fd96852935977764b10338a8b3bd1c416b
+SHA256: f8ede41ea4561280ef3e7f6e59cb5fbeae6416e67433bf49493a8cb60e8f8463
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
 
 Package: libffi-static
 Version: 3.4.2-1
