@@ -248,6 +248,20 @@ SHA256: 4edfbab7485366731e29a9093fec6a9973bf04887967e2cac14230dfde1204c0
 Homepage: https://www.jwz.org/dadadodo
 Description: A program that analyses texts for word probabilities, and then generates random sentences based on that
 
+Package: darktable
+Version: 4.6.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 21212
+Depends: exiv2, glib, graphicsmagick, gtk3, imath, json-glib, lensfun, libheif, libjxl, libllvm, liblua54, libpugixml, libsqlite, littlecms, openexr, openjpeg, portmidi
+Filename: pool/tur/darktable_4.6.0_aarch64.deb
+Size: 4183296
+MD5sum: 1934e93eb67fae7c6f8bf5e8dd78a085
+SHA1: 0e1ee2b273d3c28a0c4fb501d5d853d0760dbc2e
+SHA256: ce7ab56c5712f8d4d416542f3adf4445e9db128ab0ece9b682fa646fdce863c1
+Homepage: https://www.darktable.org/
+Description: virtual lighttable and darkroom for photographers
+
 Package: davegnukem
 Version: 1.0.3
 Architecture: aarch64
@@ -761,6 +775,20 @@ SHA1: 7c16544ac6ce6b6d6dfe0cf9281d2ec42ba6679a
 SHA256: d9b02c45282f93dd9cf3b7fa683a22976b5f632a2dfad70ed0621188701b023d
 Homepage: https://github.com/yannjor/krabby
 Description: Print pokemon sprites in your terminal
+
+Package: lensfun
+Version: 0.3.4
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4616
+Depends: glib, libpng, libxml2
+Filename: pool/tur/lensfun_0.3.4_aarch64.deb
+Size: 398952
+MD5sum: 3f7ff82396449deef9608514eea2478e
+SHA1: 1f5dc6b441c05e044abc2c5f567a1970bc23489d
+SHA256: c11dc4b1d395f18d11fab502e9d6a998ffa70ee37147d5d749dc9a1d06abcbbc
+Homepage: https://lensfun.github.io/
+Description: Lensfun
 
 Package: lfortran-llvm
 Version: 0.15.0
