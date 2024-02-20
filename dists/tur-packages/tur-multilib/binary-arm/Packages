@@ -169,6 +169,19 @@ SHA256: 0d5d472dfa534bb8b3501f079305119665251b6e857b8e3bf4be04046b97c96a
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
+Package: winetricks
+Version: 20240105
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 952
+Filename: pool/tur-multilib/winetricks_20240105_arm.deb
+Size: 153132
+MD5sum: 8614d1cb21306268be548477e9c8c35f
+SHA1: 3f94789ca7085ef4c64a33b44230b2aa541c1956
+SHA256: ccea71cfbd7d1c0a83b83324be8f40304590de6e056b36a89aba7cc318eea41e
+Homepage: https://github.com/Winetricks/winetricks
+Description: Work around problems and install applications under Wine
+
 Package: lib32-libc++
 Version: 25c
 Architecture: all
