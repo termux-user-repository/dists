@@ -1542,6 +1542,21 @@ SHA256: 100d841c31d2cdc58d231be0e1658923fbccfa88050b17d372b07624e43c6c25
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-18
+Version: 18.19.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 46236
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-18_18.19.1_arm.deb
+Size: 8401320
+MD5sum: 70378b08e0b9ac29bd70a7baee248a15
+SHA1: 97b8fcb2c6e1163e6f89cdb4c5c9cff47dd2d119
+SHA256: bca1b588349dde5faa0219baf457a8ebfcd4d71c62aff168ace48340ff90cb2b
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: openalut-static
 Version: 1.1.0-1
 Architecture: arm

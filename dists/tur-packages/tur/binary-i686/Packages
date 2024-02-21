@@ -1443,6 +1443,21 @@ SHA256: 89aaaa4335d2b7d01f5d7b9e712437d8b63ed18314b3355e48ca68ac6f70b47f
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-18
+Version: 18.19.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 55708
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-18_18.19.1_i686.deb
+Size: 9811592
+MD5sum: 149e788b123ff69a191aafd1d2f998c2
+SHA1: b7518048a807a81c6ebc4922b98c6b08138c99d8
+SHA256: 06aff3f764e304822a45b02732ec4c1ddb86a29262eb8c1596a424804080c7e2
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: octave-static
 Version: 1:8.4.0-2
 Architecture: i686
