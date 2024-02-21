@@ -915,6 +915,33 @@ SHA256: 1ef0a3a379404e62956458fba37076ca5bd84501a2cb01d6e7c2469a5780b1ba
 Homepage: http://site.icu-project.org/home
 Description: International Components for Unicode library
 
+Package: libiptcdata-static
+Version: 1.0.4
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 140
+Depends: libiptcdata (= 1.0.4)
+Filename: pool/tur/libiptcdata-static_1.0.4_arm.deb
+Size: 32180
+MD5sum: 7ea6e9ea20019e4d1b094463eec1d9dc
+SHA1: 3134daf64df4ed073d811bbd8ad8331602b68e71
+SHA256: 5c14271ac75da622bf71925e552b033b249c19d3ee6af5853bfcc8682df13867
+Homepage: https://libiptcdata.sourceforge.net/
+Description: Static libraries for libiptcdata
+
+Package: libiptcdata
+Version: 1.0.4
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 472
+Filename: pool/tur/libiptcdata_1.0.4_arm.deb
+Size: 45708
+MD5sum: eb348a06b4891f728a46f56a253d0261
+SHA1: 86c72e775c636ef0a145eafd29468b029011c8ee
+SHA256: 5561b48a633d7b2fa0e7c79076875f9e5f83875badd48d7d95134facceb38ac1
+Homepage: https://libiptcdata.sourceforge.net/
+Description: a C library for manipulating the IPTC metadata stored within multimedia files
+
 Package: libllvm-11
 Version: 11.1.0-1
 Architecture: arm
