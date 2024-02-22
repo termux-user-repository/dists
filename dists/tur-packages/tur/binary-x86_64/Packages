@@ -208,16 +208,16 @@ Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
 Package: code-server
-Version: 4.21.1
+Version: 4.21.1-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 259904
-Depends: libandroid-spawn, libsecret, krb5, nodejs-lts (<< 19), ripgrep
-Filename: pool/tur/code-server_4.21.1_x86_64.deb
-Size: 34961436
-MD5sum: 2a2d768a5780ef5bea75283d8a58d4cc
-SHA1: 568b43f6731cd6840665d8a8f1d225503d120a65
-SHA256: d761739cd57515971195e3b3f5468744ae448c8fd8064e2f0b8310707fe4e846
+Installed-Size: 260388
+Depends: libandroid-spawn, libsecret, krb5, nodejs-18, ripgrep
+Filename: pool/tur/code-server_4.21.1-1_x86_64.deb
+Size: 35078224
+MD5sum: a9f1b914207c597aeca029d7ebf19ef7
+SHA1: eb92c37521c2f20f8c0f84e46f229d43004bb87b
+SHA256: d7a02006f2287a1729ea2775edf291446ff6a7cb79776e926a22e399ce68defc
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
