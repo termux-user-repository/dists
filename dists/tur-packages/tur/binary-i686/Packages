@@ -120,6 +120,20 @@ SHA256: 15afb5ce659d961f7d52e969e7e52e450d08950594f01812d3e8285c12aece0c
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: cfitsio
+Version: 4.3.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1952
+Depends: curl, zlib
+Filename: pool/tur/cfitsio_4.3.1_i686.deb
+Size: 536596
+MD5sum: 4f27d105537bb984ab556ddc90a6e8e0
+SHA1: cbc5595058af84ec4651391bafd6a21dbaf2df40
+SHA256: d91c308989498cd7c2449c6352c0eea2338d7af02c5d3a2843333a1e8510b072
+Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
+Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
+
 Package: cksfv
 Version: 1.3.15
 Architecture: i686
@@ -2771,6 +2785,34 @@ SHA1: 3b36bf7aefc332da31004cf68efc6f524e254859
 SHA256: dc63594755bb9b0c828fb626392639a6efa9ceacb8c0e09612e06e0f35ce70f5
 Homepage: https://git.sr.ht/~bitfehler/vomit
 Description: Utility to manage your local emails in Maildir++ format with IMAP synchronization support
+
+Package: wcslib-static
+Version: 8.2.2
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1688
+Depends: wcslib (= 8.2.2)
+Filename: pool/tur/wcslib-static_8.2.2_i686.deb
+Size: 208472
+MD5sum: 19e2693a6f6c82b94d78ee592cce6c3c
+SHA1: 5ea353cdc1b448ae37137093ab82b49650734d1f
+SHA256: d0c8e3cc3dd03664f2ecf76b9ae8001bd416d0ba6043433cb6dfae3836777b36
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: Static libraries for wcslib
+
+Package: wcslib
+Version: 8.2.2
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 12480
+Depends: cfitsio
+Filename: pool/tur/wcslib_8.2.2_i686.deb
+Size: 2410772
+MD5sum: 872c9dbf2994426b7a5f19a18694f936
+SHA1: 56f24f77c261d094dbb8e6caeb05ebdc90a43185
+SHA256: f8316fb4c36b1900938410dbab8ae8349dfa0c11da8bb697e75d5e2e319439a1
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
 
 Package: xfdashboard-static
 Version: 1.0.0

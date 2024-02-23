@@ -134,6 +134,20 @@ SHA256: 15a75a8d71cbb8932f3af6b7e424244c20cf74a7c0058e295ec57a9aee1e4284
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: cfitsio
+Version: 4.3.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1388
+Depends: curl, zlib
+Filename: pool/tur/cfitsio_4.3.1_arm.deb
+Size: 481136
+MD5sum: b8b7c4b811ec6bad945812534a438120
+SHA1: 6a2f0f7c1685e41e60d0c5628cb33fbc19d7c7c8
+SHA256: 94f56685e4ab12f5e9db92f387c7ffaf92c358ef9a40dedd8ad68f821d56fb33
+Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
+Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
+
 Package: cksfv
 Version: 1.3.15
 Architecture: arm
@@ -2853,6 +2867,34 @@ SHA1: 44abe98dbccdd6827a78cfaa9a1485c0c4b412c6
 SHA256: 9bf1c51a75b958527ecd66a096bb2ec5bd2a82f9e6016f0c8a3e92e92c737f0b
 Homepage: https://git.sr.ht/~bitfehler/vomit
 Description: Utility to manage your local emails in Maildir++ format with IMAP synchronization support
+
+Package: wcslib-static
+Version: 8.2.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1472
+Depends: wcslib (= 8.2.2)
+Filename: pool/tur/wcslib-static_8.2.2_arm.deb
+Size: 195324
+MD5sum: dbfbe032b5d742301aa9f7ba994141ff
+SHA1: 0a76c6e3927d3b65e6cfd796c9d0e656fe0d2a38
+SHA256: 35794a2c07204db82e236d15f72928fc2b2d9572fb187365faaaeaaf5141e74d
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: Static libraries for wcslib
+
+Package: wcslib
+Version: 8.2.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 12092
+Depends: cfitsio
+Filename: pool/tur/wcslib_8.2.2_arm.deb
+Size: 2389708
+MD5sum: 5505e132219c3548cd2765c698f1430e
+SHA1: 6f5ed2884d013c2e535f3f99d8f5b8e2b449f1db
+SHA256: 49b8ee5652a3d3309506c544831b3102354819acc2c20864d739372d9314a1af
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
 
 Package: xfdashboard-static
 Version: 1.0.0

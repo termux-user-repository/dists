@@ -134,6 +134,20 @@ SHA256: e9f72cf4681851fff89ce811b4b906b4782eacd42491d0fc6d3736ef23beb062
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: cfitsio
+Version: 4.3.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 2096
+Depends: curl, zlib
+Filename: pool/tur/cfitsio_4.3.1_x86_64.deb
+Size: 548372
+MD5sum: 73ee7cb2abc71481776f2392e8a57ffd
+SHA1: 7bee975261d5334e8d4ce7f519cdf4d52850df7f
+SHA256: 42d6bf70fa004c7581c246a23b77af4fbbbbe07025988659d2c00c24391fc9ad
+Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
+Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
+
 Package: cksfv
 Version: 1.3.15
 Architecture: x86_64
@@ -3094,6 +3108,34 @@ SHA1: 934f60e4ce2ba32f2443a582b44641271242a71c
 SHA256: 7ce0691ea04c39900bb1f8c37919493ff5ff2272862d43848c0b47ad9986b21b
 Homepage: https://git.sr.ht/~bitfehler/vomit
 Description: Utility to manage your local emails in Maildir++ format with IMAP synchronization support
+
+Package: wcslib-static
+Version: 8.2.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1888
+Depends: wcslib (= 8.2.2)
+Filename: pool/tur/wcslib-static_8.2.2_x86_64.deb
+Size: 215704
+MD5sum: 051b6c6766db411d0c2fff604d2186fb
+SHA1: 829f3339cb25458478c005444c171925e0233939
+SHA256: 829ea84c02d7d8a8b6df08e55b88e1110cc67963d1fd3a0e43b6e6ec5a5fc129
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: Static libraries for wcslib
+
+Package: wcslib
+Version: 8.2.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 12480
+Depends: cfitsio
+Filename: pool/tur/wcslib_8.2.2_x86_64.deb
+Size: 2428656
+MD5sum: 8f8a0bc221878bd9b482b3b6a76f814d
+SHA1: 82add935ec9f8df030ab6d887c11039fdc6df1fa
+SHA256: a0466469e26417d4e4348082a028f76fe76c354387a04fb499ab86a6a41f9aca
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
 
 Package: xfdashboard-static
 Version: 1.0.0
