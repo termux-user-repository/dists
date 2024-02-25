@@ -1881,6 +1881,20 @@ SHA256: 45a5420baf4e2eebeee10abfb731e74ab62b0a72241c702dc68410099757d3a1
 Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
+Package: python-fitsio
+Version: 1.2.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1140
+Depends: cfitsio, python, python-numpy
+Filename: pool/tur/python-fitsio_1.2.1_i686.deb
+Size: 195996
+MD5sum: 4a78a9f1e823ba2f9a878d863bd0dd50
+SHA1: 1fb9d42d16683a623627c02deb24a92c79b0c201
+SHA256: 34a112e6aa5d5f6439fa094d3c0fe83ba8358558b40603fc156c1d2a1220d0dd
+Homepage: https://github.com/esheldon/fitsio
+Description: A python package for FITS input/output wrapping cfitsio
+
 Package: python-is-python3.10
 Version: 3.10.13
 Architecture: i686
