@@ -79,6 +79,48 @@ SHA256: d989163e42cb5e402b8590677b3fc7b3ceb24bed4b489d7c1d76a8026d26ed83
 Homepage: https://github.com/opencollab/arpack-ng
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 
+Package: astrometry.net-data-basic
+Version: 1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1740
+Filename: pool/tur/astrometry.net-data-basic_1_aarch64.deb
+Size: 577108
+MD5sum: af2c0beef82ccbec82289fde8bcbfe08
+SHA1: f5f4d515e8dff303a0612087de267bebd557bb66
+SHA256: 03f5a8bd39fbf1538e7cf69cef329d1fd519e6a3d934f302bae3309e6b750070
+Homepage: http://data.astrometry.net/
+Description: astrometry.net index data file 4115-4119, suitable for astro photos taken by phone main camera (AOV ~ 70 degrees)
+
+Package: astrometry.net-static
+Version: 0.94
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 12332
+Depends: astrometry.net (= 0.94)
+Filename: pool/tur/astrometry.net-static_0.94_aarch64.deb
+Size: 2038544
+MD5sum: 09b71495c643b12f766ebe5f1a94d5bd
+SHA1: c19b41e21a1dbbae39986053756ea58d4ae253b0
+SHA256: 27d101833835ccd521d97f5f9c5206683f4108a95a01ee3c52aff8f777f204bd
+Homepage: https://astrometry.net/
+Description: Static libraries for astrometry.net
+
+Package: astrometry.net
+Version: 0.94
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 29540
+Depends: cfitsio, curl, file, libandroid-glob, libbz2, libcairo, libjpeg-turbo, libpng, netpbm, python, python-numpy, python-fitsio, swig, wcslib, zlib
+Suggests: astrometry.net-data-basic
+Filename: pool/tur/astrometry.net_0.94_aarch64.deb
+Size: 6172444
+MD5sum: 0be7e9d147628927ceb0c47ec5c6353e
+SHA1: c88129f706a16950b072f6e5b05395ad980a8fd3
+SHA256: 849ddaad53ffcaa2ea10970f236d8264039fe43aa4fd7b738d2f98c1c6404769
+Homepage: https://astrometry.net/
+Description: automatic recognition of astronomical images
+
 Package: bfm
 Version: 2023.08.02
 Architecture: aarch64
