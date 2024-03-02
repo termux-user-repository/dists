@@ -93,31 +93,31 @@ Homepage: http://data.astrometry.net/
 Description: astrometry.net index data file 4115-4119, suitable for astro photos taken by phone main camera (AOV ~ 70 degrees)
 
 Package: astrometry.net-static
-Version: 0.94
+Version: 0.94-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 10588
-Depends: astrometry.net (= 0.94)
-Filename: pool/tur/astrometry.net-static_0.94_i686.deb
-Size: 2696432
-MD5sum: 35514dd2200d0f6d4895ec1262996ad8
-SHA1: 56d3c98d07b0a13951b8ae8daadd2dc3874d4fce
-SHA256: 052903c95803e79b78f6b6ab288aa6cb34dd4ef5a3d2696f2a4a780dead1b4f0
+Depends: astrometry.net (= 0.94-1)
+Filename: pool/tur/astrometry.net-static_0.94-1_i686.deb
+Size: 2695784
+MD5sum: 9d3f1fe6a4c999f3eeb49f8d9ef40880
+SHA1: 21fbe1a1962de8b5d1ecbcfbd1b73aa1f4102d5a
+SHA256: c0d14ab0b257cd356925040abcf0c21edd186120adb2d6e55b4bd045ab378f1b
 Homepage: https://astrometry.net/
 Description: Static libraries for astrometry.net
 
 Package: astrometry.net
-Version: 0.94
+Version: 0.94-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 50764
 Depends: cfitsio, curl, file, libandroid-glob, libbz2, libcairo, libjpeg-turbo, libpng, netpbm, python, python-numpy, python-fitsio, swig, wcslib, zlib
 Suggests: astrometry.net-data-basic
-Filename: pool/tur/astrometry.net_0.94_i686.deb
-Size: 7099008
-MD5sum: 46ffee5295fedce38bb59e7cb3f482e6
-SHA1: 7e6f81039a48965cb573ed6a033b830c3f48dcef
-SHA256: d89607afe0b0a3abdee13aa6b431f684b4e26e94885bc4326e58be8da68e4d71
+Filename: pool/tur/astrometry.net_0.94-1_i686.deb
+Size: 7102424
+MD5sum: a9562ebaaa108a37cff1653e066918bb
+SHA1: 43ac0779f783afbd87d1db4eff5bfd6571b466e6
+SHA256: 4bf575da0e5ae1d261521cdc87834c220a030445347b2d7d24dc8682a82089a0
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
