@@ -2412,6 +2412,20 @@ SHA256: a40f4fdfdffb6d93d0ecd5ed61f6f86cdc5fa83a753604c6c4431161031e9b2b
 Homepage: https://github.com/PyWavelets/pywt
 Description: Wavelet Transforms in Python
 
+Package: python-scikit-image
+Version: 0.22.0-3
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 26080
+Depends: libc++, python, python-pip, python-numpy, python-pillow, python-pywavelets, python-scipy
+Filename: pool/tur/python-scikit-image_0.22.0-3_aarch64.deb
+Size: 9775324
+MD5sum: e1a587551ee4fe403bba8658d25845e1
+SHA1: a8fb5761dfdcde47c2f0ca3ceea139c43d139979
+SHA256: 421b29de01ddce2a7d01ac7c1e60c74e7fb3834a8873edcc8055c3c11bb6d412
+Homepage: https://github.com/scikit-image/scikit-image
+Description: Image processing in Python
+
 Package: python-scipy-2
 Version: 1.11.4
 Architecture: aarch64
