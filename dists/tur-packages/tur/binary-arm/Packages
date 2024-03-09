@@ -315,6 +315,20 @@ SHA256: 29a48e570184b168d8a360768a33f5b5b39bce85d35b1341f8140fdba8e1ba19
 Homepage: https://github.com/clbarnes/detchar
 Description: Minimal CLI utility of chardetng crate, which is a successor to universalchardet (uchardet)
 
+Package: dillo
+Version: 3.0.5
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 800
+Depends: fltk, libiconv, libjpeg-turbo, libpng, libx11, openssl, zlib
+Filename: pool/tur/dillo_3.0.5_arm.deb
+Size: 245276
+MD5sum: 659ff73da7a5bdf4635262137bb77e28
+SHA1: 26fb28f4be921d6b5a42f5fa498f3cfee8f2c6e6
+SHA256: 64a189a093f3cc4e09500f000e9cacffac1eaeec93ed6050746b14a4179f54b1
+Homepage: https://dillo-browser.github.io/
+Description: A small, fast graphical web browser built on FLTK
+
 Package: dlib
 Version: 19.24.2
 Architecture: arm
