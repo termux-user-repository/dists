@@ -1756,62 +1756,62 @@ Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: octave-static
-Version: 1:8.4.0-3
+Version: 1:8.4.0-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 139916
-Depends: octave (= 1:8.4.0-3)
-Filename: pool/tur/octave-static_1:8.4.0-3_x86_64.deb
-Size: 12657052
-MD5sum: 9ce1547323ba433242121d782b33a317
-SHA1: 141a7bff7c6e9e1806364f039dd17bc7765eee5c
-SHA256: 714cfef69921b09c1ba7dcb1dcde7db26e48af2a171d9b9b47ad508ddcd610e7
+Installed-Size: 140296
+Depends: octave (= 1:8.4.0-4)
+Filename: pool/tur/octave-static_1:8.4.0-4_x86_64.deb
+Size: 12726112
+MD5sum: 06b80e93be37c4329f1e480ad8f06633
+SHA1: 3291c8232613eb62eeb96cd3c571bd6240bf26e9
+SHA256: bb4f60237febee7a5a25fe8c252cd05db7e56df137a97c1dd74d24e2142249d8
 Homepage: https://octave.org
 Description: Static libraries for octave
 
 Package: octave-x-static
-Version: 1:8.4.0-3
+Version: 1:8.4.0-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 139920
-Depends: octave-x (= 1:8.4.0-3)
-Filename: pool/tur/octave-x-static_1:8.4.0-3_x86_64.deb
-Size: 12668908
-MD5sum: 9b7f69cfdea8f4b8579c6638f0b4cfcc
-SHA1: d76f4cae2463a1eb283e9fab0f4fe0014c9d8663
-SHA256: ce14d18770b9493c7c2a7094db6db138d86deb1ca5bdc5415a7f1ef7e1161c33
+Installed-Size: 140296
+Depends: octave-x (= 1:8.4.0-4)
+Filename: pool/tur/octave-x-static_1:8.4.0-4_x86_64.deb
+Size: 12726264
+MD5sum: 5fabf12832d38e4d6e3e99ffd232edea
+SHA1: e84cfb75ef560d62570a32ca11a3bc95fd984ab8
+SHA256: 4083310bbe820af2af18cff0eefd36516416098ed2377ce3d96b3cd9b4e7ebf4
 Homepage: https://octave.org
 Description: Static libraries for octave-x
 
 Package: octave-x
-Version: 1:8.4.0-3
+Version: 1:8.4.0-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 87096
+Installed-Size: 87256
 Depends: arpack-ng, bzip2, fftw, fltk, fontconfig, freetype, glpk, glu, graphicsmagick, libcurl, libhdf5, libiconv, libopenblas, libsndfile, opengl, openssl, pcre, portaudio, qhull, qrupdate-ng, rapidjson, readline, suitesparse, sundials, zlib
 Recommends: gnuplot, less
 Conflicts: octave
-Filename: pool/tur/octave-x_1:8.4.0-3_x86_64.deb
-Size: 18335684
-MD5sum: 0983e100638ecc1db00cf198f82475ec
-SHA1: 010649f0d7b8d06d44e08e0df0283ebc083b1b78
-SHA256: b525b7b79e4c73d92f4bded6f83d4e74d15a64cf3ee2eb43ee6a3eec5efe6922
+Filename: pool/tur/octave-x_1:8.4.0-4_x86_64.deb
+Size: 18424552
+MD5sum: 92d4682ce1b9c94d25654ba4b904cc11
+SHA1: 8afff72cd0fd064deb3f95c51a5605fdf32fc542
+SHA256: d82d190f4b7b507af44287b6580756d89dec4dcb17c743d903adcfadb52064ac
 Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (with X11 support)
 
 Package: octave
-Version: 1:8.4.0-3
+Version: 1:8.4.0-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 87064
+Installed-Size: 87228
 Depends: arpack-ng, bzip2, fftw, fontconfig, freetype, glpk, graphicsmagick, libcurl, libhdf5, libiconv, libopenblas, libsndfile, openssl, pcre, portaudio, qhull, qrupdate-ng, rapidjson, readline, suitesparse, sundials, zlib
 Recommends: gnuplot, less
 Conflicts: octave-x
-Filename: pool/tur/octave_1:8.4.0-3_x86_64.deb
-Size: 18325176
-MD5sum: 28cd5de36276688826e3319ae9177a77
-SHA1: 434f145678ea0fdb7a5a06e2a052149823fc5ec3
-SHA256: f88c115783149559bb86d8d8ccfa8506d495d252374689d9dfd81e55f5042c19
+Filename: pool/tur/octave_1:8.4.0-4_x86_64.deb
+Size: 18422596
+MD5sum: ebefd57a73ca8664e67d44009800b22e
+SHA1: a7129e2b972a98caeba68ed7f232b8fa79344028
+SHA256: 6fe93c8b839dca740ac3e940f77fdd219e8551199a7096dbd4cb9e99b4fc1a1e
 Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
 
@@ -2999,58 +2999,58 @@ Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
-Version: 1:7.6.1
+Version: 1:7.7.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 8228
-Depends: suitesparse (= 1:7.6.1)
-Filename: pool/tur/suitesparse-static_1:7.6.1_x86_64.deb
-Size: 1637512
-MD5sum: 7fb205fb449be9b6df7e06adc5bc80b3
-SHA1: 223d00e93bf44e2810e8ee99623b26a513f43c29
-SHA256: 3a6e37d40df17ca38b16b78b1b93bd0150978abf1cb9df6b2d914c6d73b1cda0
+Installed-Size: 8292
+Depends: suitesparse (= 1:7.7.0)
+Filename: pool/tur/suitesparse-static_1:7.7.0_x86_64.deb
+Size: 1650212
+MD5sum: 6d4909462ed7f4cb1b4c7f5a440e0b02
+SHA1: 64f86301c6438588cdd75edd7a71dc69f5d69c6b
+SHA256: 65f7aa322d3c0c58be3108004ea45069e7ea755e5c9a4fab1ccb05406d04fe31
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: Static libraries for suitesparse
 
 Package: suitesparse
-Version: 1:7.6.1
+Version: 1:7.7.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 173292
+Installed-Size: 173352
 Depends: blas-openblas, libopenblas, libgmp, libmpfr
-Filename: pool/tur/suitesparse_1:7.6.1_x86_64.deb
-Size: 21443264
-MD5sum: c771afdc4fe2f89e3457aedf464141ff
-SHA1: 1a527da86a4d01a2f108b109b9cef0ee4f9f57b9
-SHA256: 7908e25b9a275ebaac2d068a7309a6ee3d37e888697c879b770f1ebcf3bc4a7b
+Filename: pool/tur/suitesparse_1:7.7.0_x86_64.deb
+Size: 21450556
+MD5sum: 5a719d228d89579a10f0a3912ec74ef5
+SHA1: 46184d0240e2a1956ced20b7cfee4cac8d116027
+SHA256: b983f62db74af9b4b67f0c86b462d18ffb9265cb4799c62d2be847263cfcd7fd
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
 Package: sundials-static
-Version: 1:7.0.0
+Version: 1:7.0.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 3544
-Depends: sundials (= 1:7.0.0)
-Filename: pool/tur/sundials-static_1:7.0.0_x86_64.deb
-Size: 478356
-MD5sum: 499d8c2e524df760167091119e18d9b2
-SHA1: 7d8adc38149c81e087e0bda48210fe3eafed8025
-SHA256: 7c859e588b945db5c85b25da242c6edcc52566583b5cbb357885a618213ec405
+Depends: sundials (= 1:7.0.0-1)
+Filename: pool/tur/sundials-static_1:7.0.0-1_x86_64.deb
+Size: 476088
+MD5sum: 839cd4359d59bb08125dbf7d16698443
+SHA1: 31f18cbe13e78b97f43c2552957804f9916578a8
+SHA256: 9ae087e3e0bbced551bef9007db97035cb37c6bdaedf52f96c7ebe1f85a6cc31
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: Static libraries for sundials
 
 Package: sundials
-Version: 1:7.0.0
+Version: 1:7.0.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 3368
 Depends: libopenblas, suitesparse
-Filename: pool/tur/sundials_1:7.0.0_x86_64.deb
-Size: 647928
-MD5sum: 9203b72e39b16ccc714a03c97f554592
-SHA1: fbe912970abf185b3bf18b33e937038103bd6675
-SHA256: 4745bcb5c9daaa44642a341dff932ac97c0f3c03a3e922c9bf0b86cb2a0612ee
+Filename: pool/tur/sundials_1:7.0.0-1_x86_64.deb
+Size: 648352
+MD5sum: 0321c908074f5d7de1a2d8ea53fd946e
+SHA1: 2b807a44ca8093dad8b07dcb3690662775ecd8ac
+SHA256: a15b567020470420d8c54ab9609c17ee116c1cc7e1f9c8b1dc62640ecba0694d
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
