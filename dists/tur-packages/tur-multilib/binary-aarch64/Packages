@@ -186,18 +186,18 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-staging
-Version: 9.1
+Version: 9.5
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 523464
+Installed-Size: 534548
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Conflicts: hangover-wine, wine-stable
-Breaks: hangover-wine, wine-stable
-Filename: pool/tur-multilib/wine-staging_9.1_aarch64.deb
-Size: 89785300
-MD5sum: ebd0938ad01d02e719443a11e8c13f2f
-SHA1: f9773d31b36cfeddfd7cf05f7bfbc24dd9a550a2
-SHA256: a5864f5fa2ed7808a53829e01d3cbb996a57cf4039798094e904fbccd1e15ddf
+Conflicts: hangover-wine, wine-stable, wine-devel
+Breaks: hangover-wine, wine-stable, wine-devel
+Filename: pool/tur-multilib/wine-staging_9.5_aarch64.deb
+Size: 93874920
+MD5sum: dd1e86c80de4e4f4047c22b22e94f57e
+SHA1: cbcfe21248ae50c11e5a9244b2261706363f7d69
+SHA256: d02e8f9c891164fcb22f60dfaa545d78af3a137acb129ea0c751d2de61c6ce48
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
