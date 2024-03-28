@@ -155,6 +155,22 @@ SHA256: 69fd49aac5942984209b2fb0dc809db32a51a9b58f74568eed0bce0434f37793
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
+Package: wine-devel
+Version: 9.5
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 526944
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Conflicts: hangover-wine, wine-stable, wine-staging
+Breaks: hangover-wine, wine-stable, wine-staging
+Filename: pool/tur-multilib/wine-devel_9.5_aarch64.deb
+Size: 91708884
+MD5sum: 07c58fd9ddc788b39df1edd526c83dbb
+SHA1: 29f128e6ddb1a3849d03e41b628b5bf7bd00c484
+SHA256: 18ce8aadd3613e97f887f37d18dc6ede6c66e3cb60b94634bbe832f4f7dbee53
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
 Package: wine-stable
 Version: 9.0
 Architecture: aarch64
