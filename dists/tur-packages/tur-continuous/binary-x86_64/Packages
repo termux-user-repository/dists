@@ -12,36 +12,6 @@ SHA256: 30a5a0cc904b1b11feba3f07035f7da359f8bf0df98b7f432d3afe94a07a03c3
 Homepage: https://github.com/fathyb/carbonyl
 Description: Chromium based browser built to run in a terminal
 
-Package: electron-is-electron21
-Version: 21.4.1
-Architecture: x86_64
-Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 32
-Depends: electron21 (= 21.4.1)
-Conflicts: electron
-Breaks: electron
-Filename: pool/tur-continuous/electron-is-electron21_21.4.1_x86_64.deb
-Size: 888
-MD5sum: fb8034ab4995400ca988ed437793c97b
-SHA1: 423bab8003a2b2cdd1a8d9cfbaeb2461efdfa6da
-SHA256: c576e9f9b58f61d15506bf36fea4fe7cff44224f189f9430ad750682da708f0d
-Homepage: https://github.com/electron/electron
-Description: Symlinks electron to electron21
-
-Package: electron21
-Version: 21.4.1
-Architecture: x86_64
-Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 244576
-Depends: electron-deps
-Filename: pool/tur-continuous/electron21_21.4.1_x86_64.deb
-Size: 53890064
-MD5sum: e63e32f7ff44835ed293480d2f6bb096
-SHA1: d16c485a5a19a41a1be2d1459e33d4bc64b2fcba
-SHA256: e50429bed6011db5a8484f3de85c6a005bc115528e3af215cd903300f0790ed2
-Homepage: https://github.com/electron/electron
-Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
-
 Package: electron
 Version: 23.0.0
 Architecture: x86_64
