@@ -190,6 +190,21 @@ SHA256: a605b34a25a1c9954ca0be8a89e93b6b0df5ed413863c094adae15a57ab24ebb
 Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
+Package: chromium
+Version: 123.0.6312.86
+Architecture: aarch64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 469924
+Depends: atk, cups, dbus, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, libdrm, libjpeg-turbo, libpng, libwebp, libflac, fontconfig, freetype, zlib, libxml2, libxslt, libopus, libsnappy
+Suggests: qt5-qtbase
+Filename: pool/tur/chromium_123.0.6312.86_aarch64.deb
+Size: 109901212
+MD5sum: dd51e1bc82c593520c72d6820ddc6fc7
+SHA1: 117d5d6d62dfa0162700d7c577b55bceb0666995
+SHA256: b50c992c33c591cfad536c550493dcd1177b1e7cef01d74a861aa35b866a305e
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser
+
 Package: cksfv
 Version: 1.3.15
 Architecture: aarch64
