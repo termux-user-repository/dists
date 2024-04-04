@@ -2838,6 +2838,23 @@ SHA256: eeecf7d4cb7ac3cd46a755705eea682bd0460795dc45a1bbad3c7e9b4b8da346
 Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
 
+Package: tmux-sixel
+Version: 3.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 692
+Depends: libandroid-glob, libandroid-support, libevent, libsixel, ncurses
+Conflicts: tmux
+Replaces: tmux
+Provides: tmux
+Filename: pool/tur/tmux-sixel_3.4_arm.deb
+Size: 315624
+MD5sum: 8df94c42110b4c5bc44bf50498f84b24
+SHA1: 9cd3eb26790b3a13e78e71911b2e75e36dbb54a6
+SHA256: 880942d61bdfa8b944e039fe6aa5a6bee4b78efd176a349eb2a9f4bb8f835a75
+Homepage: https://tmux.github.io/
+Description: Terminal multiplexer
+
 Package: trigger-rally
 Version: 0.6.6.1-10
 Architecture: arm
