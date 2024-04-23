@@ -1595,17 +1595,17 @@ Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
 Package: nodejs-12
-Version: 12.18.3
+Version: 12.18.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 59972
-Depends: libc++, openssl-1.1, c-ares, libicu, zlib
+Installed-Size: 105628
+Depends: libc++, openssl-1.1, c-ares, zlib
 Suggests: clang, make, pkg-config, python
-Filename: pool/tur/nodejs-12_12.18.3_arm.deb
-Size: 9182836
-MD5sum: ba2235c340cdf177d0bb7b4a3e418b5c
-SHA1: 67f1b3068cc0373715c4bb8f759fc0f32de6580e
-SHA256: 70f95831ebd90d95894031b9bf6201b16f4ae60a8e5907100247eeb0be3c8b67
+Filename: pool/tur/nodejs-12_12.18.3-1_arm.deb
+Size: 18598896
+MD5sum: add933337df21f7c7a7a0a161665fd0a
+SHA1: 00c6d3b9a861e3d85402c3d9991d941eb30aa663
+SHA256: 3b115b76335af9fd7b15df9d7cfc4753415e90a6a7c8a9888e329df157abcfae
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
