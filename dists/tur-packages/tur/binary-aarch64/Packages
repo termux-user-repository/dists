@@ -988,15 +988,15 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libbson
-Version: 1.22.2-1
+Version: 1.22.2-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 952
-Filename: pool/tur/libbson_1.22.2-1_aarch64.deb
-Size: 132072
-MD5sum: 35605208538e958f5f5bf964342497f1
-SHA1: 3b966a943199a901ec2fe7bb70bb5b8b9137d0c9
-SHA256: 5581099843dedab6cebf51425b479bccbf52a71f36311328f4415f577ddfe2a6
+Installed-Size: 968
+Filename: pool/tur/libbson_1.22.2-2_aarch64.deb
+Size: 134436
+MD5sum: abb62c5a869c0d4592baaa07623ef0d6
+SHA1: b9c19615786de97178771aef4f9be4146658e84c
+SHA256: aff2cc2562c49e813376bc2bcc1c33c60c8deaacfa9f340c3881147a670b053a
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
@@ -1303,58 +1303,58 @@ Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library
 
 Package: libmongoc-static
-Version: 1.22.2-1
+Version: 1.22.2-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1876
-Depends: libmongoc (= 1.22.2-1)
-Filename: pool/tur/libmongoc-static_1.22.2-1_aarch64.deb
-Size: 284348
-MD5sum: 0cd80ab2eb724bf41e7e833e12125c1d
-SHA1: 9b0e67b58b0267d6b4713c1f5fd5133e82cd5633
-SHA256: 9da632e44fa3aaad63553669b78246aba5d7a60540182ccc2d803937f51762cf
+Installed-Size: 1900
+Depends: libmongoc (= 1.22.2-2)
+Filename: pool/tur/libmongoc-static_1.22.2-2_aarch64.deb
+Size: 286480
+MD5sum: e886a20fe0d725cb32c7613103985058
+SHA1: 14dbbfd9e9519b8e52cf1baf9d2792230d39990a
+SHA256: f97d3dff1eeb12ebf291d6a3d22c139c53610d71c46373b03c552e05d09bd02e
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: Static libraries for libmongoc
 
 Package: libmongoc
-Version: 1.22.2-1
+Version: 1.22.2-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1360
+Installed-Size: 1384
 Depends: libicu, libsasl, libmongocrypt, openssl, zlib, zstd
-Filename: pool/tur/libmongoc_1.22.2-1_aarch64.deb
-Size: 274708
-MD5sum: 4a75633ef8c54627145f46bbad32f9e4
-SHA1: e648ba6f63b1efdd2e3344a201dddbeaf7da1e93
-SHA256: 3a07f53d0fff4e2200c168efe8535b7b4ad6a09abbb38b91893898c4d859a294
+Filename: pool/tur/libmongoc_1.22.2-2_aarch64.deb
+Size: 282632
+MD5sum: 9ef2f3a5f452c922ccc2c48fdcb7c425
+SHA1: 563c3f650832be955eba4798482a05a82b925614
+SHA256: f9bb811db4cb2d6a9bd59763ce59171bfaa4276875102afb32f75c3b93a5706e
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
 
 Package: libmongocrypt-static
-Version: 2.3.0-2
+Version: 2.3.0-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1204
-Depends: libmongocrypt (= 2.3.0-2)
-Filename: pool/tur/libmongocrypt-static_2.3.0-2_aarch64.deb
-Size: 193668
-MD5sum: 891453030e566941f1a858e43a2300dd
-SHA1: 33cbd3b871eb66dc2f5eb8db47713714faf84808
-SHA256: 40bffd0387af6a41937556c2709bcbb5fbf580ff5a34ee3ba0bf7b690602cde1
+Installed-Size: 1228
+Depends: libmongocrypt (= 2.3.0-3)
+Filename: pool/tur/libmongocrypt-static_2.3.0-3_aarch64.deb
+Size: 196336
+MD5sum: 7556bee93af6f2144cd2a4403618c021
+SHA1: ce64f699bc3a25333fe57adaa3552fc9b9c699ac
+SHA256: e56f6fcc82017666494e58ff43ed194e39d2412bffae422bca9f9e744ba8dc71
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
-Version: 2.3.0-2
+Version: 2.3.0-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 720
+Installed-Size: 740
 Depends: libicu, libsnappy, libsasl, openssl
-Filename: pool/tur/libmongocrypt_2.3.0-2_aarch64.deb
-Size: 161888
-MD5sum: f5e8cf3e47f85c0cb456f0a83638630c
-SHA1: 5ecaac92c79c9a94a34f92399d8a37ee3846a2a7
-SHA256: 6ad7e07e06ccc17fe8fc3927c0f8505dc681b87bfd99e443f44bb5d32a2a0d0a
+Filename: pool/tur/libmongocrypt_2.3.0-3_aarch64.deb
+Size: 167668
+MD5sum: 1f1b46ddeaa8698b2506f41bea5f7e53
+SHA1: a5e53bf80e26fced0a78cf3cf6e226bdb23de068
+SHA256: 5d8b112c93dbc39eba5a1cdb3bb2dd0aeba87258e867f7c9127ce24cf94782b4
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
