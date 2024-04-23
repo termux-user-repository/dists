@@ -1888,46 +1888,46 @@ Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
 Package: php7-apache
-Version: 7.4.33-2
+Version: 7.4.33-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 10732
-Depends: apache2, php7 (= 7.4.33-2)
-Filename: pool/tur/php7-apache_7.4.33-2_arm.deb
-Size: 2130528
-MD5sum: adc485be1bddc608d7b3bbadcfd28fa3
-SHA1: f2b5be4a419837a63144fe071658b5a02588f001
-SHA256: 9919186a45f388ad95fba517b3771d00372d2b0cac5fb3e21f1a223faad8cb90
+Installed-Size: 10724
+Depends: apache2, php7 (= 7.4.33-3)
+Filename: pool/tur/php7-apache_7.4.33-3_arm.deb
+Size: 2123412
+MD5sum: dd9bc6faaf6c9a2629e2a24f76691b03
+SHA1: 8c6b8f7feaedd9fc447d67f3fdac91ad29bb3d80
+SHA256: 03ab8ccc8e95133fc7bcb31d5a5a29d5d72e3e0dc7298c152f5d579dbe934258
 Homepage: https://php.net
 Description: Apache 2.0 Handler module for PHP
 
 Package: php7-fpm
-Version: 7.4.33-2
+Version: 7.4.33-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 10864
-Depends: php7 (= 7.4.33-2)
+Installed-Size: 10856
+Depends: php7 (= 7.4.33-3)
 Conflicts: php-fpm
-Filename: pool/tur/php7-fpm_7.4.33-2_arm.deb
-Size: 2175456
-MD5sum: 6c8bf5fc5e2df81a190813ee57bef922
-SHA1: b0f741bd7183a2ea7a0e6a1a0a23a25aed046e4e
-SHA256: b32329e288d416eecb1f642592c306d2c5fa4629c1337003946ec4f1f0019a4c
+Filename: pool/tur/php7-fpm_7.4.33-3_arm.deb
+Size: 2173648
+MD5sum: 6b375a2c702bcaaa03cc4248ddd7d253
+SHA1: f6ba20606df4929b0a13f69326ab57aeeec61b71
+SHA256: 07cf7d9bac2b409dfba517149eb9ed5bfa73d8d2aaab94dc9361954c1d764c86
 Homepage: https://php.net
 Description: FastCGI Process Manager for PHP
 
 Package: php7-pgsql
-Version: 7.4.33-2
+Version: 7.4.33-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 136
-Depends: apr-util, postgresql, php7 (= 7.4.33-2)
+Installed-Size: 132
+Depends: apr-util, postgresql, php7 (= 7.4.33-3)
 Conflicts: php-pgsql
-Filename: pool/tur/php7-pgsql_7.4.33-2_arm.deb
-Size: 40156
-MD5sum: 7b6fc5056f06768b2a4d5315c7e466f8
-SHA1: 6991e5ed1831a56c69cd174cacfff407be16a693
-SHA256: b4ceda23f6e61e8b1b31995093dcccff70c7ec50c3dabd16b7ac0ea85499aa55
+Filename: pool/tur/php7-pgsql_7.4.33-3_arm.deb
+Size: 40128
+MD5sum: 5b9dea7099de0c680e3cae593290831c
+SHA1: 5118b70e1e336389dab3ab0c715e6c500b5c95c2
+SHA256: 46f7c80068120f3c1dfe505fea84f40b9040a2ab8c5c1557640f02be261e8f36
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
@@ -1948,17 +1948,17 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: php7
-Version: 7.4.33-2
+Version: 7.4.33-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 38520
-Depends: libc++, freetype, libandroid-glob, libandroid-support, libbz2, libcrypt, libcurl, libgd, libgmp, libiconv, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, zlib, libicu, libffi, tidy
+Installed-Size: 38500
+Depends: freetype, libandroid-glob, libandroid-support, libbz2, libc++, libcrypt, libcurl, libffi, libgd, libgmp, libiconv, libicu, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, tidy, zlib
 Conflicts: php, php-mysql, php-dev
-Filename: pool/tur/php7_7.4.33-2_arm.deb
-Size: 7174396
-MD5sum: 49cc6b6c82874278df157b323497cdcf
-SHA1: 8437952df1efe1d929c7337d62cb18d8dcf755cf
-SHA256: d24611166412306e23c86c618fbbc50e9bcf660d304ce832c57c13f13d9b3238
+Filename: pool/tur/php7_7.4.33-3_arm.deb
+Size: 7137664
+MD5sum: bad861921823a83e24ad870d8c24f33b
+SHA1: 195d747989e87b94e69dff3eea7e7c803b84ea8a
+SHA256: d203c993ace039ce90476825f665032e44501cb22464da97f4fa14659b688ca8
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
