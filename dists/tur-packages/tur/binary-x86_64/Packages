@@ -1914,6 +1914,36 @@ SHA256: 78b6d1be6f2a8b6b97276965dc82f1bea9e82ca9d9e821a8b58a771828268cac
 Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
+Package: openjdk-11-x
+Version: 11.0.23+9
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 15992
+Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-11 (= 11.0.23+9)
+Filename: pool/tur/openjdk-11-x_11.0.23+9_x86_64.deb
+Size: 13412308
+MD5sum: 8f314db264fed4c20dcd4b9353ff2165
+SHA1: 922c4a4b7d06b91adc5df64619424da9c1d8d984
+SHA256: c1549870cb56d6e0619c826d4e4c6e128253e2e2c361c2bbf489f60bda50692e
+Homepage: https://github.com/openjdk/mobile
+Description: Portion of openjdk-11 requiring X11 functionality
+
+Package: openjdk-11
+Version: 11.0.23+9
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 240724
+Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
+Recommends: ca-certificates-java, openjdk-11-x, resolv-conf
+Suggests: cups
+Filename: pool/tur/openjdk-11_11.0.23+9_x86_64.deb
+Size: 101773896
+MD5sum: 73ca00864527d53c6331358ec4630fe0
+SHA1: 9af87642283cf55564815bb218138dba80d6885b
+SHA256: 85c584f8567546b31f39a6e3aa721c8a1e7db398e962e8f40ba590e8780dc537
+Homepage: https://github.com/openjdk/mobile
+Description: Java development kit and runtime
+
 Package: openspecfun-static
 Version: 0.5.6
 Architecture: x86_64
@@ -3669,6 +3699,19 @@ SHA1: 19aa814b0c3e87d4cdcf7d7cf3b0513819f0673e
 SHA256: ea4ae8a9a15cb03de1901e3fc525e159a83e94d723eda7922bd4e665eff44601
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
+
+Package: openjdk-11-source
+Version: 11.0.23+9
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 57028
+Filename: pool/tur/openjdk-11-source_11.0.23+9_all.deb
+Size: 52109812
+MD5sum: f164f40a7be5320da29ce1b690adc7ac
+SHA1: 5683fdd646180956008deea19af5b799f5211087
+SHA256: 48920d7d4168270900f6aed23cf9352709354bfd83d8ab781336c8e57ace879f
+Homepage: https://github.com/openjdk/mobile
+Description: Source files for openjdk-11
 
 Package: python-future
 Version: 0.18.2-1
