@@ -1070,6 +1070,19 @@ SHA256: b5db8f9c7b0b8a49b7ea47df9613385afe64f93c1aa4596deea37ee4fa384229
 Homepage: https://code.videolan.org/videolan/dav1d/
 Description: AV1 cross-platform decoder focused on speed and correctness
 
+Package: libdicom
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 640
+Filename: pool/tur/libdicom_1.1.0_aarch64.deb
+Size: 98748
+MD5sum: 39ea955adcd5db0f3f8b8e0776748c8b
+SHA1: 92e7939d4b584e1d66ebfc0eeac36d34134243c1
+SHA256: 2988d129649702fd4e6d7181956ab7c95efc3c8f14343b2706053c8209997518
+Homepage: https://libdicom.readthedocs.io
+Description: C library for reading DICOM files
+
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: aarch64
@@ -1943,6 +1956,20 @@ SHA1: 151b85a9ae666fd266d496ca2809c73da13c4e15
 SHA256: e70394b2266a934fce382b3d461616191d8c316f4e52193e3d37bbbc6fc2d533
 Homepage: https://github.com/openjdk/mobile
 Description: Java development kit and runtime
+
+Package: openslide
+Version: 4.0.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 352
+Depends: gdk-pixbuf, glib, libcairo, libdicom, libjpeg-turbo, libpng, libsqlite, libtiff, libxml2, openjpeg, zlib
+Filename: pool/tur/openslide_4.0.0_aarch64.deb
+Size: 96284
+MD5sum: 6e275b90b37a0a468577bee1212b7600
+SHA1: 2536e681346f5011f35117316e466cf8c31e564a
+SHA256: ba62de1bb65c4bc1f04c34332a6f77d0f240398461279e33787bd92a647aafe6
+Homepage: https://openslide.org
+Description: C library for reading virtual slide images
 
 Package: openspecfun-static
 Version: 0.5.6

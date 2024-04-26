@@ -842,6 +842,19 @@ SHA256: 35ebe221c0034bce185f43a17191ffd04053838361706c227956db7853581cbe
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: high-level terminal interface library for C++
 
+Package: libdicom
+Version: 1.1.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 628
+Filename: pool/tur/libdicom_1.1.0_i686.deb
+Size: 99992
+MD5sum: 44712fda6362da246a9046bc16275a63
+SHA1: dede88982610e5d5fc37f0b634f98d30ddd17288
+SHA256: cd1cf67247c95461e8baee10c8ad4c3437b4a0fe4379edf103a74c35ba7182eb
+Homepage: https://libdicom.readthedocs.io
+Description: C library for reading DICOM files
+
 Package: libffi-static
 Version: 3.4.2-1
 Architecture: i686
@@ -1687,6 +1700,20 @@ SHA1: f8264580fd5b5ba99c1779d7ff3a434d1737eccc
 SHA256: 0600d582c51ede8e801df8ceaf77fa9358a4dbd22aaf2496ceabf0901a69762c
 Homepage: https://github.com/openjdk/mobile
 Description: Java development kit and runtime
+
+Package: openslide
+Version: 4.0.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 348
+Depends: gdk-pixbuf, glib, libcairo, libdicom, libjpeg-turbo, libpng, libsqlite, libtiff, libxml2, openjpeg, zlib
+Filename: pool/tur/openslide_4.0.0_i686.deb
+Size: 106748
+MD5sum: 1a84ccf2e7e534030eb7180f8240cd6f
+SHA1: 57f7983a7614134a39e0bffdc0fc63e1e7e99ec3
+SHA256: 32043e70e9d03e7afe8f2ea20115f18d65a415a4cd9d7f6b4d44907107b4901c
+Homepage: https://openslide.org
+Description: C library for reading virtual slide images
 
 Package: openspecfun-static
 Version: 0.5.6
