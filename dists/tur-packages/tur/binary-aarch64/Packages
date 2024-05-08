@@ -3068,6 +3068,20 @@ SHA256: 4131faf4868e1fe8d33f598c345fa5822400d6580927f2ec135450787485d555
 Homepage: https://github.com/luanon404/android-webdrivers
 Description: Chromium-based android webdriver application used by seledroid.
 
+Package: skyseg-ncnn
+Version: 0.1.0
+Architecture: aarch64
+Maintainer: @knyipab
+Installed-Size: 2340
+Depends: libncnn, opencv
+Filename: pool/tur/skyseg-ncnn_0.1.0_aarch64.deb
+Size: 2074940
+MD5sum: 9842e9a57d588edf4a3cae94bb2cc13e
+SHA1: 2e9f51bb9d54b6823ab19e0066ec2bacd9107f7a
+SHA256: b346775f9474dcf005821a27504082b53778182f163050c27868d7acaa9c81bc
+Homepage: https://github.com/knyipab/skyseg-ncnn
+Description: Sky segmentation on image using ncnn machine learning model
+
 Package: smartdns
 Version: 45
 Architecture: aarch64
