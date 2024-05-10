@@ -189,17 +189,17 @@ Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
 Package: chromium
-Version: 124.0.6367.118
+Version: 124.0.6367.155
 Architecture: arm
 Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 345980
+Installed-Size: 345976
 Depends: atk, cups, dbus, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, libdrm, libjpeg-turbo, libpng, libwebp, libflac, fontconfig, freetype, zlib, libxml2, libxslt, libopus, libsnappy
 Suggests: qt5-qtbase
-Filename: pool/tur/chromium_124.0.6367.118_arm.deb
-Size: 110069160
-MD5sum: 9f6e3b1a7ab98a387e311d2e4b1d73cd
-SHA1: 72361b6b4638831ca31d0a72e08eeb07ba71fc20
-SHA256: 2a5684e8118bcc26cde360dfef0613c8c9c1cf546b0efa6f8a189e8a8d3156dc
+Filename: pool/tur/chromium_124.0.6367.155_arm.deb
+Size: 110086648
+MD5sum: ec11340887242320431680899dfef086
+SHA1: 2ec3f3f6d7f20de449d79ea71c4fcc78a8b63a9b
+SHA256: d1427033acc990bd04aa70572d012b165873fe52c3e81613aff6d0729981bd89
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
@@ -3636,6 +3636,19 @@ SHA1: 6d403fd4e572176562581cf9da3430e5eed95ea7
 SHA256: 38279bac08df9064aba84d88ea7dc50e22e4084a12cd0d5b6a1e0eff90d78075
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
+
+Package: vulkan-headers
+Version: 1.3.285
+Architecture: all
+Maintainer: @termux
+Installed-Size: 26944
+Filename: pool/tur/vulkan-headers_1.3.285_all.deb
+Size: 1338016
+MD5sum: af24c0b11e1ed7b8a65e41b00eb5f2a0
+SHA1: 9ccbb1c5f26874cc3387a283e56d209ab649819a
+SHA256: 71398cf4ffbca64cfab2b9e97b0606ff350ae05d9bd078b8bf00969f1765e212
+Homepage: https://github.com/KhronosGroup/Vulkan-Headers
+Description: Vulkan Header files and API registry
 
 Package: zphisher
 Version: 2.3.2
