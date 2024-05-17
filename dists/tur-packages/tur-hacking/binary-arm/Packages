@@ -38,6 +38,20 @@ SHA256: 76948d9543d4a0213822199f1691841c66ef8a835d4a0f9c40d04f8b8b7ecff4
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: ettercap
+Version: 0.8.3.1-9
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2000
+Depends: ethtool, libcurl, libiconv, libnet, libpcap, ncurses, ncurses-ui-libs, openssl, pcre, zlib
+Filename: pool/tur-hacking/ettercap_0.8.3.1-9_arm.deb
+Size: 645264
+MD5sum: 528d184003dadb56409e51a90b21a15e
+SHA1: 9eb24b7020f8e68585af11b59ded520c6523b7f0
+SHA256: a7b7024b4ea53d4b272bce0cbd2da91fa1f1e46231babb4b738f9c318f380fa6
+Homepage: https://www.ettercap-project.org
+Description: Comprehensive suite for MITM attacks, can sniff live connections, do content filtering on the fly and much more
+
 Package: fscan
 Version: 1.8.1-2
 Architecture: arm
