@@ -1,3 +1,32 @@
+Package: bazel7
+Version: 7.1.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 46208
+Depends: libarchive, openjdk-17, patch, unzip, zip
+Filename: pool/tur-on-device/bazel7_7.1.2_x86_64.deb
+Size: 43065272
+MD5sum: 7f61627fe919d101f2fa6e71bced0cca
+SHA1: 84412ca1648cc30d0fbef8fda5a3585a60d5da06
+SHA256: da6f97e0e8e73aedd7b353c7b11292556b2b9975da1aaab6b6e8a842385c86ca
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone (Version 7)
+
+Package: bazel
+Version: 7.1.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 46232
+Depends: libarchive, openjdk-17, patch, unzip, zip
+Breaks: openjdk-11
+Filename: pool/tur-on-device/bazel_7.1.2_x86_64.deb
+Size: 43069288
+MD5sum: eabdcbb7a2784aa02323d981b37191e3
+SHA1: 3688397f491b1854c9c598557e0ad47705379434
+SHA256: ace9d1393dc14deb43dc8dd8502968543cc270314acebedcfff8dee256eb9116
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone
+
 Package: blender
 Version: 1:3.6.11
 Architecture: x86_64
