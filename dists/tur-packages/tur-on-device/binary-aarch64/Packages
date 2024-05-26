@@ -1,3 +1,18 @@
+Package: bazel6
+Version: 6.5.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 3440
+Depends: libarchive, openjdk-17, patch, unzip, zip
+Breaks: openjdk-11
+Filename: pool/tur-on-device/bazel6_6.5.0_aarch64.deb
+Size: 991092
+MD5sum: 515d1af2bc51d21aacc53f2b12edcb1b
+SHA1: f67b0d50f9067e018960b023a7ad48bbc1e9ed66
+SHA256: 4bce42c2e32510db8a88a7e5836196f3a2e750b42bc9556a5ca43507f263ee0b
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone
+
 Package: bazel7
 Version: 7.1.2
 Architecture: aarch64
