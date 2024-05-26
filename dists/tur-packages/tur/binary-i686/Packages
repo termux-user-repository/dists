@@ -217,16 +217,16 @@ Homepage: http://zakalwe.fi/~shd/foss/cksfv
 Description: SFV (Simple File Verification) Checker
 
 Package: clang-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 137960
-Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/clang-16_1:16.0.6_i686.deb
-Size: 23012148
-MD5sum: 3773b143b7c8047a684a7ad9e0b126ed
-SHA1: 8c599ecedeb9fe581751f855317310a49412a4f7
-SHA256: 47f28e4ef0fab74202746d02ae51a780362c6a645191286e18af2aa8226caf90
+Installed-Size: 137956
+Depends: libcompiler-rt-16, lld-16, llvm-16, ndk-sysroot, libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/clang-16_1:16.0.6-1_i686.deb
+Size: 23001452
+MD5sum: 42663bd18b3a1fc34fac1c95358548a3
+SHA1: 9b8e64548d2a93dae925c6a50952d616d82c680a
+SHA256: 743cdd2e8612ab94c1733b40cc7b45fc8558670878b866ea571921c495b81caa
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
@@ -842,16 +842,16 @@ Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
 Package: libcompiler-rt-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 14600
-Depends: libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/libcompiler-rt-16_1:16.0.6_i686.deb
-Size: 1471152
-MD5sum: ffcfec2dbefcd7ce72b0727c95fde856
-SHA1: a1613ffd40a7db9e18046c701c19a8f80fb03849
-SHA256: f02d118c1cde08b684305e5ba974a0bac958b3f9ccb685b62be81d37b4eb377f
+Depends: libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/libcompiler-rt-16_1:16.0.6-1_i686.deb
+Size: 1525120
+MD5sum: 014a07b8d9eb3158050d6c4296dae789
+SHA1: f4668a958e4f7b688cefb878e68a7adc5587f996
+SHA256: 5a8c6c3642debf6ea1c30d1b105988ab0bbf4283ce48cb3d358bd3d04513318c
 Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
@@ -1066,16 +1066,16 @@ Homepage: https://llvm.org/
 Description: Static libraries for libllvm-16
 
 Package: libllvm-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 509404
 Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-16_1:16.0.6_i686.deb
-Size: 71952660
-MD5sum: 19521971b4f319a2f15487955acfd4e6
-SHA1: a9a76a697fd51d5cef3d9d02d07697b90346a667
-SHA256: 9c48bff1821943649d5f0a097808e51674ded3c992db246b2ee798a503e1e1e1
+Filename: pool/tur/libllvm-16_1:16.0.6-1_i686.deb
+Size: 70933444
+MD5sum: 6a68dba7568d7e1413a3e437dd6ecada
+SHA1: a72258b638e8f08f22d9599e6dc294d0ce0449a9
+SHA256: bead4776c54eb6046294cdf93334bce8ad406747638a976367494fef1c28c7a7
 Homepage: https://llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 16)
 
@@ -1270,16 +1270,16 @@ Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
 Package: lld-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 15792
-Depends: libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/lld-16_1:16.0.6_i686.deb
-Size: 2436812
-MD5sum: 5e924394df6b6a9723ab69b538c4a155
-SHA1: 22c691d24886aa640288f4194df5bb8d22e6893d
-SHA256: db8a8119b90afd9c83c4838f7217c8835b4d1314c2f019cda5d4a2de832aaf83
+Depends: libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/lld-16_1:16.0.6-1_i686.deb
+Size: 2395696
+MD5sum: ff79622f3c53983f43ff13e21a48db97
+SHA1: c751242060d4733c64deea0c58cc273f80a3ceea
+SHA256: 3818e3c74f45f47b1cc81c2545dd302ac8bcf8bb49f0bb2aa5e047811b28da38
 Homepage: https://llvm.org/
 Description: LLVM-based linker
 
@@ -1374,30 +1374,30 @@ Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 61756
-Depends: libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/llvm-16_1:16.0.6_i686.deb
-Size: 13080616
-MD5sum: ea68d032f06d0dadd9c1c0f0e9772fe3
-SHA1: a324e874b12bc85547db5984e7118052c3bab638
-SHA256: 8bcccb82db3a09cc86dd7eb9a770c90669754486093176730697415c124eedbc
+Installed-Size: 61752
+Depends: libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/llvm-16_1:16.0.6-1_i686.deb
+Size: 13119076
+MD5sum: bf904eb5d2fa586d08546425906c0772
+SHA1: ea69600b2fa6664150385cf6765a0b72e2cf45b8
+SHA256: b2212ce0c146349c23d427f6e98f8a239194fcbbad398414fa769968a6514142
 Homepage: https://llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 Package: llvm-tools-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 13276
-Depends: libc++, ncurses, zlib, libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/llvm-tools-16_1:16.0.6_i686.deb
-Size: 2411104
-MD5sum: 75934af4b221f721b1b6be7a272aac36
-SHA1: 610be39b68c37b3f368523431053b8d518d7b964
-SHA256: 37bbfe04fde3abda9979095e13282180aa59b40e1a3347e35e1b4d99e1c17b60
+Installed-Size: 13272
+Depends: libc++, ncurses, zlib, libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/llvm-tools-16_1:16.0.6-1_i686.deb
+Size: 2413244
+MD5sum: fa1a00329fcca5d462b704246683845b
+SHA1: af7f4b3eaf649175ed4d1f4469d7fa79e037e8ce
+SHA256: c34ae43dff15074851c157487b266750c1882904a46558e0640f8c03e157e9bd
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
@@ -1494,16 +1494,16 @@ Homepage: https://www.mesa3d.org
 Description: An open-source implementation of the OpenGL specification
 
 Package: mlir-16
-Version: 1:16.0.6
+Version: 1:16.0.6-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 247896
-Depends: libc++, ncurses, libllvm-16 (= 1:16.0.6)
-Filename: pool/tur/mlir-16_1:16.0.6_i686.deb
-Size: 29926224
-MD5sum: eb5037be59cd4fcf93e647939b8165f4
-SHA1: 5de2e74cf08eb905f8ace0d5c6a3d2797a74fad4
-SHA256: 14272b8e4da33ee4cbcfe4e6a6e1c3dce4ac762262cb348b6323561c1cd3f711
+Depends: libc++, ncurses, libllvm-16 (= 1:16.0.6-1)
+Filename: pool/tur/mlir-16_1:16.0.6-1_i686.deb
+Size: 29748260
+MD5sum: 6bfc829bfe7964d7482bca5a058ae55e
+SHA1: eea2a62c9594224e3eb0755fa06371e25bccc0cd
+SHA256: 643eaf94950323515448e8fc2a79876644c0a75b5dedd0ac70664026f6c6b6d4
 Homepage: https://llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
