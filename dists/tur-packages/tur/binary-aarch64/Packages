@@ -218,17 +218,17 @@ Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
 Package: chromium
-Version: 125.0.6422.112
+Version: 125.0.6422.141
 Architecture: aarch64
 Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 476620
+Installed-Size: 476624
 Depends: atk, cups, dbus, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, libdrm, libjpeg-turbo, libpng, libwebp, libflac, fontconfig, freetype, zlib, libxml2, libxslt, libopus, libsnappy
 Suggests: qt5-qtbase
-Filename: pool/tur/chromium_125.0.6422.112_aarch64.deb
-Size: 110831740
-MD5sum: bf2ec65f00e80436ef7fae923d678825
-SHA1: 0db3a91187c3791e854144f703d23c56d842f441
-SHA256: 1c69fcf5ad2bb31c200254affb28b1b2f78b5562df4d50e5a95c355fd51ad36c
+Filename: pool/tur/chromium_125.0.6422.141_aarch64.deb
+Size: 110846004
+MD5sum: 57aadcbc2d8d20553de6f081e116464b
+SHA1: 7596b6a32e97b2b4343da7983c304e6995fd4d6f
+SHA256: d70b0f473898aacc717bb5803502a1e3b96ad9855450316c10e1789f951036ac
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
@@ -1138,6 +1138,19 @@ SHA1: 92e7939d4b584e1d66ebfc0eeac36d34134243c1
 SHA256: 2988d129649702fd4e6d7181956ab7c95efc3c8f14343b2706053c8209997518
 Homepage: https://libdicom.readthedocs.io
 Description: C library for reading DICOM files
+
+Package: libdrm
+Version: 2.4.121
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 876
+Filename: pool/tur/libdrm_2.4.121_aarch64.deb
+Size: 174804
+MD5sum: 06a557a28ecab5642240455cf772638f
+SHA1: 1b78fa6e5991710541c614c59e4f9481f8866af1
+SHA256: a86dd1156cda0335ee94f63d158765126bc4a2b29c85ba87b2cf4e6413ada824
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
 
 Package: libffi-static
 Version: 3.4.2-1
