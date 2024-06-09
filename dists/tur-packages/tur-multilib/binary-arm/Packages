@@ -143,15 +143,15 @@ Package: wine-devel
 Version: 9.7
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 457164
+Installed-Size: 457168
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
 Conflicts: hangover-wine, wine-stable, wine-staging
 Breaks: hangover-wine, wine-stable, wine-staging
 Filename: pool/tur-multilib/wine-devel_9.7_arm.deb
-Size: 86198912
-MD5sum: 1fb460ba3bf7b5746b658cf756f2b34b
-SHA1: d8cb717de90c1c6c96391e38c920f06fca945721
-SHA256: 192a405d2c33f6a59db1ef0ccebae30ceadd0b4b83e3132a74d91de53e58fd51
+Size: 68820988
+MD5sum: 980b7ff3451c9395eec17a53e026f252
+SHA1: 0e26e078f6f7fce3cbf4c8a5e2a315fe84581d20
+SHA256: 93178de070424094aae1fcee27fb4f7d462934b4d2a8213a02a618701ab4f37b
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
@@ -173,15 +173,15 @@ Package: wine-staging
 Version: 9.7
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 464404
+Installed-Size: 464408
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
 Conflicts: hangover-wine, wine-stable, wine-devel
 Breaks: hangover-wine, wine-stable, wine-devel
 Filename: pool/tur-multilib/wine-staging_9.7_arm.deb
-Size: 88484308
-MD5sum: 1839850c20508c5ab8a002b768d790c1
-SHA1: 708602778b6d15c6bdc4ae82b82c2575c79b5078
-SHA256: 6d3d08d9336b85f6725f303f336de1ebcdd092790bae7265ac5b795f0a0611e3
+Size: 70930404
+MD5sum: 30f7866992136d349a30c20ef5af28a8
+SHA1: 9053d5fa626f799c6b1051ae9311d7eac0596b96
+SHA256: c142dda10226607b21a1cf53ed4e1c694b54c445c0b233599e5eb6af4ce881bc
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
