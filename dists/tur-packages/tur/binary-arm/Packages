@@ -671,17 +671,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-9
-Version: 9.5.0-1
+Version: 9.5.0-2
 Architecture: arm
 Maintainer: @licy183
-Installed-Size: 114232
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Installed-Size: 116032
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3), ndk-sysroot-gcc-compact (<< 27)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-9_9.5.0-1_arm.deb
-Size: 30883668
-MD5sum: 417660dd5d2dbde507bee2fde274679f
-SHA1: a17ede14a78a1c08a5cba75ee3f56d39fea2b608
-SHA256: 24a9128ea0f86da849fca75cda25d09bdded13f6bf5610245301033f5b0d3df7
+Filename: pool/tur/gcc-9_9.5.0-2_arm.deb
+Size: 31680552
+MD5sum: f73dbfc805bb6e5ca0a9d5294d7eb5d2
+SHA1: 915d240d5573f12867849266ea0cec6b7d152539
+SHA256: b930ade0aa3d981c98b9f952731581535d1d6f4e921f52a8f9ad8ac053e56676
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
