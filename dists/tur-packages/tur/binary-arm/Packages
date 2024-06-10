@@ -66,16 +66,16 @@ Homepage: https://wiki.debian.org/Aptitude
 Description: terminal-based package manager
 
 Package: arpack-ng
-Version: 1:3.9.0
+Version: 1:3.9.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 584
 Depends: libopenblas
-Filename: pool/tur/arpack-ng_1:3.9.0_arm.deb
-Size: 172492
-MD5sum: f03534629f2c4729be477063a980bb4a
-SHA1: 67d11950726db52729b2ba13029cb66bcbf49670
-SHA256: 3a0d1c85206c35ddd958cf79901184ab8865de7b3b7b0a8a5b564e151fed6dfd
+Filename: pool/tur/arpack-ng_1:3.9.0-1_arm.deb
+Size: 172476
+MD5sum: 5b4358fa73a058f6dcbe26753402ee5b
+SHA1: 7b5d0b0f05666a32d5ad5ca1bd41add742f8a356
+SHA256: 7eda29883939bf0cbae1f14a8deb0a55f9f6734b4fd3ad2191de342b1612c345
 Homepage: https://github.com/opencollab/arpack-ng
 Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
 
@@ -2711,16 +2711,16 @@ Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
 Package: qrupdate-ng
-Version: 1:1.1.5
+Version: 1:1.1.5-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 388
 Depends: libopenblas
-Filename: pool/tur/qrupdate-ng_1:1.1.5_arm.deb
-Size: 123480
-MD5sum: 2b901d65a9c64140444f51320f92cee3
-SHA1: 83830588fc7c0e760e66d156e5b455d65da0a2e1
-SHA256: 7e674c90e5c4835df427e240716b4b4b58698392750622df6285c4db8f8f63cf
+Filename: pool/tur/qrupdate-ng_1:1.1.5-1_arm.deb
+Size: 123560
+MD5sum: 1939ad14c69377e8d65780488acbb9bb
+SHA1: 40d92d39736b0cc8b4e4c3407aa7ff04a1308208
+SHA256: 916fa0fe34ed4f7a8b4ab8783aaa2b2ad8b94d6cfa7419c65c2a6f575ce8ec62
 Homepage: https://github.com/mpimd-csc/qrupdate-ng
 Description: A Library for Fast Updating of QR and Cholesky Decompositions.
 
@@ -2983,58 +2983,58 @@ Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
-Version: 1:7.7.0
+Version: 1:7.7.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 5416
-Depends: suitesparse (= 1:7.7.0)
-Filename: pool/tur/suitesparse-static_1:7.7.0_arm.deb
-Size: 1533224
-MD5sum: 559397c6c903ab341e441df5bd5f5c2b
-SHA1: e9b990d66a16d6c21e24c9e622dccd8b786a23e6
-SHA256: 7b5a0fbdaac6a263d8acdfef87c8f539b88215355464ef4b81e3712a60bb3c81
+Depends: suitesparse (= 1:7.7.0-1)
+Filename: pool/tur/suitesparse-static_1:7.7.0-1_arm.deb
+Size: 1530096
+MD5sum: f6b15d61ec3924ffdc45a8d618394e8d
+SHA1: 925cc5de678155fee0ccbce32ab8b01f6f8e18e0
+SHA256: 0632e72b57a75ac79c2f9bd53aadfef39a9a6e0b556134bef3ddfc02ec0a7318
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: Static libraries for suitesparse
 
 Package: suitesparse
-Version: 1:7.7.0
+Version: 1:7.7.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 140604
-Depends: blas-openblas, libopenblas, libgmp, libmpfr
-Filename: pool/tur/suitesparse_1:7.7.0_arm.deb
-Size: 20382180
-MD5sum: 8655d5e23ac0d63eb51fcb84387c31f2
-SHA1: 039cb9da63d37315c0da4f0ed5986607a319b9c4
-SHA256: 492da6c96c2dd9f2c4226a6e9436a3324784e1969fee7e4d5482202dde9daa17
+Depends: libandroid-complex-math, blas-openblas, libopenblas, libgmp, libmpfr
+Filename: pool/tur/suitesparse_1:7.7.0-1_arm.deb
+Size: 20382156
+MD5sum: dad950e81a3333c005037ab7ed7f3925
+SHA1: dc6afebfab1289da2569b753cb916a4ba0590481
+SHA256: 62f477c044eecbe5eda669f749e66e52ff3de2bc719bbec745c5393a703a1f71
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
 Package: sundials-static
-Version: 1:7.0.0-1
+Version: 1:7.0.0-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2036
-Depends: sundials (= 1:7.0.0-1)
-Filename: pool/tur/sundials-static_1:7.0.0-1_arm.deb
-Size: 404824
-MD5sum: 56eaef786459142e29e9a03661927099
-SHA1: c6946addae57f42d25f0cdfd479e60b0f1d8b0e6
-SHA256: f06ad0ee14910876a4683f982da5e4d0d0b0a2fb44334a1116cd156edd26fd62
+Depends: sundials (= 1:7.0.0-2)
+Filename: pool/tur/sundials-static_1:7.0.0-2_arm.deb
+Size: 404160
+MD5sum: a5afe33e30049a278f9805b49a8998b4
+SHA1: 694f8d5c0108b55727b3a80a3c6e18ede67f9a98
+SHA256: 36380ae8651471a02f633944ac26c22443168918a8af28719954f1baeacbd7d2
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: Static libraries for sundials
 
 Package: sundials
-Version: 1:7.0.0-1
+Version: 1:7.0.0-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2516
 Depends: libopenblas, suitesparse
-Filename: pool/tur/sundials_1:7.0.0-1_arm.deb
-Size: 539020
-MD5sum: 4aa09f7517c600981195328c50878886
-SHA1: c0bead8a0a4c945242c96dcdf08c747d58101f33
-SHA256: b0f43c32c885cb9948cde6c76bc741cf91380d0ffc285c7f14720eb358b41f10
+Filename: pool/tur/sundials_1:7.0.0-2_arm.deb
+Size: 535968
+MD5sum: cdd3c5c8acdaa023b90e214a3d937b45
+SHA1: 5c2fbf20d26bc6240a9319808e98c97ca4a839ec
+SHA256: 42b144111301b7b5a4ba29fec9ac583aab0d2199bd2805ab12f5b1d4169f1973
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
