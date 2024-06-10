@@ -1,0 +1,15 @@
+Package: gcc-10
+Version: 10.5.0-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 197156
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3), ndk-sysroot-gcc-compact (<< 27)
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-10_10.5.0-1_aarch64.deb
+Size: 43697796
+MD5sum: 199c44995e1aa924b3c029a332fcb8c9
+SHA1: df9622666f3e890bebcad3a76faebbd745586a57
+SHA256: 07841b3b734575a8dc8e6f3fa5f41687752b8c80e11881001d720949a8ade8bd
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+

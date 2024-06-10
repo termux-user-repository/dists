@@ -1,0 +1,15 @@
+Package: gcc-10
+Version: 10.5.0-1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 131772
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3), ndk-sysroot-gcc-compact (<< 27)
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-10_10.5.0-1_arm.deb
+Size: 41167648
+MD5sum: d4877e7cf806d86040bdb26bc241db20
+SHA1: 218d4b261b8951eb5075d982ce4689db17e58e81
+SHA256: c6977e3a48045a9aa437f591f9787c7c65947f47f5897e2c375bc78c3e4ea38c
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
