@@ -1721,6 +1721,21 @@ SHA256: 7e279d9de89edeaa284ed40dff4f41d427dac28c9851fb5c7ed732bf2f26b1d2
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-20
+Version: 20.14.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 97316
+Depends: libc++, openssl, c-ares, zlib
+Conflicts: nodejs, nodejs-current
+Filename: pool/tur/nodejs-20_20.14.0_arm.deb
+Size: 19274880
+MD5sum: da6a9ae3fdff41a149640095f4dee676
+SHA1: dfc35179167afa14c0ce3703cd9dda8a8cbda043
+SHA256: e4c12d12b31c3f8d9db1b5310b46e1d604c59c115a04f01634bd7ef35c89c4b7
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: openalut-static
 Version: 1.1.0-1
 Architecture: arm

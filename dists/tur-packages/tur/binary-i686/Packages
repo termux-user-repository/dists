@@ -1609,6 +1609,21 @@ SHA256: 35b7e0748827fa06a4693abf96257607ebebb01e497c1bee6fec5dfd24181cf1
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-20
+Version: 20.14.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 107488
+Depends: libc++, openssl, c-ares, zlib
+Conflicts: nodejs, nodejs-current
+Filename: pool/tur/nodejs-20_20.14.0_i686.deb
+Size: 20813956
+MD5sum: 0a5e4e5eae80503a96f150c787fa451f
+SHA1: 672f6a2c48cfb5ab62796d74c85b6ea0520d09ea
+SHA256: ae19456652dcea7f200637334cb35a210f1d26b7d3630accd71b6fafad3a3841
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
 Package: octave-static
 Version: 1:8.4.0-5
 Architecture: i686
