@@ -2581,16 +2581,16 @@ Homepage: https://www.pycryptodome.org/
 Description: A self-contained Python package of low-level cryptographic primitives
 
 Package: python-pygame
-Version: 2.5.2
+Version: 2.6.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 11664
+Installed-Size: 11876
 Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.5.2_x86_64.deb
-Size: 2455944
-MD5sum: a4505d420598bd2565a4efc7384905b7
-SHA1: e69e7d7578cc93b63021e79c6ac789f0a0432e83
-SHA256: 1882b226e5045903d3d15b6bbbc5f2ec4eca0ace1d7b7d3be1f3e378722b7d99
+Filename: pool/tur/python-pygame_2.6.0_x86_64.deb
+Size: 2512848
+MD5sum: 83d888b7123b1db848238abf498f469e
+SHA1: e03db6a7cef138ac5c5e5299aa1503697b91dc67
+SHA256: 98b89160498634df7b38f3196726215605b0ca5ce3be2d197ef92d29eaba7e3d
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
@@ -3661,6 +3661,20 @@ SHA1: fe3fc12e9a870c56fc15577cf8eac90fc4ee1b27
 SHA256: 2acc319c06a9ac61777e473841902468d6d03c47564f628e388a00a026d5bdc7
 Homepage: https://zaz.sourceforge.net
 Description: Zaz is a game where the player has to get rid of incoming balls by arranging them in triplets.
+
+Package: zerotier-one
+Version: 1.14.0
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 18524
+Depends: miniupnpc, natpmpc, openssl
+Filename: pool/tur/zerotier-one_1.14.0_x86_64.deb
+Size: 5384092
+MD5sum: 0b6645a50c8e80b1c02616fea320144f
+SHA1: f6285b1351e3ec9094aef0e7127ab3527c74251c
+SHA256: 518239adffbdf941df59c6ad73092395c01e3bc867d4b9f44d5c516403af5016
+Homepage: https://www.zerotier.com
+Description: Creates virtual Ethernet networks of almost unlimited size.
 
 Package: abuse-frabs
 Version: 20210827
