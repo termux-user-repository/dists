@@ -2728,62 +2728,62 @@ Homepage: https://github.com/cassava/repoctl
 Description: libalpm(3) repository supplement utility
 
 Package: rife-ncnn-vulkan-is-nihui
-Version: 20221029
+Version: 20221029-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 28
-Depends: rife-ncnn-vulkan-nihui (= 20221029)
+Depends: rife-ncnn-vulkan-nihui (= 20221029-1)
 Conflicts: rife-ncnn-vulkan-is-tntwise
 Breaks: rife-ncnn-vulkan-is-tntwise
-Filename: pool/tur/rife-ncnn-vulkan-is-nihui_20221029_i686.deb
-Size: 880
-MD5sum: 8a362790d1df11aa8ec1b7d63e012b7a
-SHA1: 73ad4365ca8c7842ad5b29cf1be2087734cb00f5
-SHA256: cabb1d040601e9fdccee2993225ed6a7e02c031cfd341897607756349b44b91d
+Filename: pool/tur/rife-ncnn-vulkan-is-nihui_20221029-1_i686.deb
+Size: 860
+MD5sum: 8895b57448928de0b04162876f6452b0
+SHA1: 8fb2ccef567b7aa3b45bd84159c32e66c8f442d5
+SHA256: 84e067d6951ee44cf6f5c8c6ddbf620e2fcc095282762c35282760a2ab422c3e
 Homepage: https://github.com/nihui/rife-ncnn-vulkan
 Description: Symlinks to bin/rife-ncnn-vulkan
 
 Package: rife-ncnn-vulkan-is-tntwise
-Version: 20240808
+Version: 20240819
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 28
-Depends: rife-ncnn-vulkan-tntwise (= 20240808)
+Depends: rife-ncnn-vulkan-tntwise (= 20240819)
 Conflicts: rife-ncnn-vulkan-is-nihui
 Breaks: rife-ncnn-vulkan-is-nihui
-Filename: pool/tur/rife-ncnn-vulkan-is-tntwise_20240808_i686.deb
+Filename: pool/tur/rife-ncnn-vulkan-is-tntwise_20240819_i686.deb
 Size: 868
-MD5sum: 3d8ece164d0c9e2ae799e25a530fe633
-SHA1: 128c97a739ace7833bdb538b7d6a6b8a5172ea0c
-SHA256: f97596797f656b128aaa1a4d6c144d85a8e57f5bee1e0b3bf03541bb7940a7ce
+MD5sum: a0b264528c2f780b7d9c7b5f1f90eb24
+SHA1: 91389956407016921caef97c5433aead003ded65
+SHA256: fc0452eff06db52229dc8bee12381a7fe9376db1e870a3b43e25c7a558b81de6
 Homepage: https://github.com/TNTwise/rife-ncnn-vulkan
 Description: Symlinks to bin/rife-ncnn-vulkan
 
 Package: rife-ncnn-vulkan-nihui
-Version: 20221029
+Version: 20221029-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 86328
+Installed-Size: 86344
 Depends: libwebp
-Filename: pool/tur/rife-ncnn-vulkan-nihui_20221029_i686.deb
-Size: 72181048
-MD5sum: 27d40aae4fe6479cfc8f8870b2d1926e
-SHA1: 9515c1e0a86b8cce911e2ed1de25d2ce56f7bc76
-SHA256: b6322f4ecb4ef69f69276f5b06e34f07403d6b820f0a800a779b722b9acaf700
+Filename: pool/tur/rife-ncnn-vulkan-nihui_20221029-1_i686.deb
+Size: 72166128
+MD5sum: 6f7c5895cbbb2f4a9fab8e2afed421e7
+SHA1: 4202ca0ef4b18eaf04bda32d374a9d27dfaf61d3
+SHA256: 305f871de3dc9a21efcd46cd7de06f1055d747abbc808b0f6d2b518d41d04bc1
 Homepage: https://github.com/nihui/rife-ncnn-vulkan
 Description: RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library
 
 Package: rife-ncnn-vulkan-tntwise
-Version: 20240808
+Version: 20240819
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 99736
+Installed-Size: 104136
 Depends: libwebp
-Filename: pool/tur/rife-ncnn-vulkan-tntwise_20240808_i686.deb
-Size: 84186152
-MD5sum: a9be9d1165b7ab3f9fa9a98fbce93047
-SHA1: 4ef8b177559bb6719ff1a23aa16b38f89910c6bb
-SHA256: 0645134eab08a544d32fc5a0fd8a7b095a83d4360359f555116e230a7d516e1d
+Filename: pool/tur/rife-ncnn-vulkan-tntwise_20240819_i686.deb
+Size: 88256672
+MD5sum: 41d5318b964628bd6138e0bb34d307cd
+SHA1: 07891fadf8aba6412db2fc65a8d6ccc4c8716fe7
+SHA256: 7d6b263db98e703a149b531c0f28666862184661dc2c4fa7175b40fddf8016b1
 Homepage: https://github.com/TNTwise/rife-ncnn-vulkan
 Description: TNTwise's fork of rife-ncnn-vulkan: RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library
 
