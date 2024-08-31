@@ -1395,6 +1395,20 @@ SHA256: 2338cc6ae19fc85aae8ce38ab8998d2457e1144c9d008a08dcc62495b6295bee
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
+Package: libwebrtc-audio-processing
+Version: 1.3-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1204
+Depends: libc++, abseil-cpp
+Filename: pool/tur/libwebrtc-audio-processing_1.3-1_arm.deb
+Size: 376880
+MD5sum: fce14caeb9db16968b72e96c4c7310a3
+SHA1: 9c5f7a339df5b5425fbed79da8e69aac31792b36
+SHA256: 3d6e315fe0532543042e7d95920c884699849aaf0278ef599b659d705866a35b
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Description: A library containing the AudioProcessing module from the WebRTC project
+
 Package: lld-16
 Version: 1:16.0.6-1
 Architecture: arm
@@ -2767,16 +2781,16 @@ Homepage: https://github.com/mars9/ramfs
 Description: 9P2000 server and client as a in-memory filesystem for long standing shell scripts
 
 Package: rawtherapee
-Version: 5.10-1
+Version: 5.11
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 111768
-Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
-Filename: pool/tur/rawtherapee_5.10-1_arm.deb
-Size: 18110772
-MD5sum: eea2b8e31af4295f3db5f7e3ed421b3a
-SHA1: 9870fd123e95ad50be77d30436dc8d6b307f9cc1
-SHA256: b2dafcc3ad3bc43da8b7c5cfa30eb4552f89b90a86a39ff916da01e3573a96ba
+Installed-Size: 112156
+Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, libraw, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
+Filename: pool/tur/rawtherapee_5.11_arm.deb
+Size: 17809804
+MD5sum: 4caa716ae165b896b4d3b9221cafedb2
+SHA1: 0df4bd2830c7512e05751d2e7803a7e7e4e679eb
+SHA256: f4067da5b10afa0ba3afc68464a890a1be87869c4ef1fa4c4fbc259676d63163
 Homepage: https://www.rawtherapee.com/
 Description: raw image converter and digital photo processor
 

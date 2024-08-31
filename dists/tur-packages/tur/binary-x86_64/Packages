@@ -1524,6 +1524,20 @@ SHA256: 8f9388597b567d1879676167901bd16a222946ea3bfaf9fadca1fbaf7e7df8f5
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
+Package: libwebrtc-audio-processing
+Version: 1.3-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 1604
+Depends: libc++, abseil-cpp
+Filename: pool/tur/libwebrtc-audio-processing_1.3-1_x86_64.deb
+Size: 449032
+MD5sum: dc2663c6365f9ff0470331c6da684083
+SHA1: 08f305062d16561cbf4f4f736cab46cc349c09ed
+SHA256: 052d14a738f938e452265eb1cd8e417d3926e0a818776a4e5bcadd33de11c5e6
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Description: A library containing the AudioProcessing module from the WebRTC project
+
 Package: lld-16
 Version: 1:16.0.6-1
 Architecture: x86_64
@@ -3024,16 +3038,16 @@ Homepage: https://github.com/mars9/ramfs
 Description: 9P2000 server and client as a in-memory filesystem for long standing shell scripts
 
 Package: rawtherapee
-Version: 5.10-1
+Version: 5.11
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 120904
-Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
-Filename: pool/tur/rawtherapee_5.10-1_x86_64.deb
-Size: 20812452
-MD5sum: 012ba44ff02f7556b02c27e5f4b366a5
-SHA1: 12fa99a760ded19eb5faae015b3ae6f02d08b01f
-SHA256: 3772e0c5e5f2de3ef2534937d04dd284b41f43e992bb5979bd6c3dcfce4c6897
+Installed-Size: 121592
+Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, libraw, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
+Filename: pool/tur/rawtherapee_5.11_x86_64.deb
+Size: 20597136
+MD5sum: c8231fe4f82a6e78ceb3378b945ecbce
+SHA1: 7edeeb9ab5efbfb251f7279750fe33f6e446b3e5
+SHA256: 0a6bc0a361ac3b115ea7b4ab61375ccd0decef51a10a85bcf8ce51b80599526f
 Homepage: https://www.rawtherapee.com/
 Description: raw image converter and digital photo processor
 

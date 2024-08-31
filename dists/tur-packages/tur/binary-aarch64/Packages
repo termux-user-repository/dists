@@ -1524,6 +1524,20 @@ SHA256: c9c4a8f154043fa13714929b5d861408e70843a023a2a7d2c4886b18dcd07a4f
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
+Package: libwebrtc-audio-processing
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1588
+Depends: libc++, abseil-cpp
+Filename: pool/tur/libwebrtc-audio-processing_1.3-1_aarch64.deb
+Size: 415992
+MD5sum: be7d031f0cb30fb97cb15e06d27827a9
+SHA1: 5cf2c35641cc714f5807743c02fd46d7109ac0d8
+SHA256: 0e771cbea0e6ef883c9547281623afb6c715236336bb2c1878ba16f2ec16eb80
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Description: A library containing the AudioProcessing module from the WebRTC project
+
 Package: lld-16
 Version: 1:16.0.6-1
 Architecture: aarch64
@@ -3038,16 +3052,16 @@ Homepage: https://github.com/mars9/ramfs
 Description: 9P2000 server and client as a in-memory filesystem for long standing shell scripts
 
 Package: rawtherapee
-Version: 5.10-1
+Version: 5.11
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 117400
-Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
-Filename: pool/tur/rawtherapee_5.10-1_aarch64.deb
-Size: 18586764
-MD5sum: 2c0d960254a85d66076d0ea96aff8794
-SHA1: f44699feb8d8921d6d39ef5efb9acdff34cd220d
-SHA256: f94e22709a1a975973ba9bd0e212d403378f54350bce4429fbcdbbbab17f990b
+Installed-Size: 117708
+Depends: exiv2, fftw, glib, gtk3, gtkmm3, lensfun, libcanberra, libexpat, libglibmm-2.4, libiptcdata, libjpeg-turbo, libpng, libraw, librsvg, libsigc++-2.0, libtiff, littlecms, zlib
+Filename: pool/tur/rawtherapee_5.11_aarch64.deb
+Size: 18255280
+MD5sum: b589b8e73b7035efb5c8aff5db6317ba
+SHA1: 157ae0860733bac5793c999d3c4db174f3e7b238
+SHA256: a6d993a1b068a017d1732461c173f54e727eacd1f29ae4f688fc7b5cc4dcba2a
 Homepage: https://www.rawtherapee.com/
 Description: raw image converter and digital photo processor
 
