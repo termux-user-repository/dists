@@ -246,6 +246,20 @@ SHA256: c07365dfc5bda1d244412acc0878c15c4dfe797253e8d2fe5dbed3e390957bed
 Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
 
+Package: clucene
+Version: 2.3.3.4
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 3772
+Depends: boost, zlib
+Filename: pool/tur/clucene_2.3.3.4_i686.deb
+Size: 692168
+MD5sum: 7026567a32922a62630e2d1c4b089d48
+SHA1: db90bf066b4d1a5e8f6b722e4cf0a7b6449221a2
+SHA256: 74fdb50d96a3eba7dda1dd26f95aa5d594fbbab01e99760945dd2394b885c0b0
+Homepage: http://clucene.sourceforge.net/
+Description: C++ port of the high-performance text search engine Lucene
+
 Package: dadadodo
 Version: 1.04
 Architecture: i686
@@ -996,6 +1010,34 @@ SHA256: b87d2d25504357f196654980f49dd4f8db96b100968da14d46a62d0ef57047a7
 Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
+Package: libfreehand-static
+Version: 0.1.2
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1148
+Depends: libfreehand (= 0.1.2)
+Filename: pool/tur/libfreehand-static_0.1.2_i686.deb
+Size: 277268
+MD5sum: d5ea0af5ac07d8942446466bc66c1b04
+SHA1: 6fc22f895b4af3aa81390c7a50003ad171a6afb0
+SHA256: 54bebf9bc2fd50bdd47bfc778bd6a435566d3a7150c307e83730361a30361d16
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: Static libraries for libfreehand
+
+Package: libfreehand
+Version: 0.1.2
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 656
+Depends: boost, littlecms, libicu, librevenge, zlib
+Filename: pool/tur/libfreehand_0.1.2_i686.deb
+Size: 254528
+MD5sum: 262e9164c5bd691a87534e3ea05fe946
+SHA1: b3017b0620221d0283d276d8c06e66456dc2f241
+SHA256: a8a874f22e5444ef5fd271ff55d6c4161d6fc9061f0935f315231a17f737497b
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
+
 Package: libftgl2
 Version: 2.4.0
 Architecture: i686
@@ -1296,6 +1338,34 @@ SHA1: ba7176fded13e6ebbe9c509ede58133a0ca7e908
 SHA256: 2b8f08d39f8f6afa875f3a18f5d69bc6e5b349b0aa1c1c6d841d4f1eef7bcf42
 Homepage: https://www.libraw.org
 Description: A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others
+
+Package: librevenge-static
+Version: 0.0.5
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1760
+Depends: librevenge (= 0.0.5)
+Filename: pool/tur/librevenge-static_0.0.5_i686.deb
+Size: 237524
+MD5sum: 04fae1c13b05e3d8bfed0b9dd341da21
+SHA1: 032c619dac6dd836793f358fd708ba85766384b8
+SHA256: 57936d123e0fe6e76330b7960cd62134d926eeb57f35dfa4a414b029dc20159c
+Homepage: https://sf.net/p/libwpd/librevenge/
+Description: Static libraries for librevenge
+
+Package: librevenge
+Version: 0.0.5
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 992
+Depends: boost, zlib
+Filename: pool/tur/librevenge_0.0.5_i686.deb
+Size: 187332
+MD5sum: 2bf94c505fe36d6288d14a70b10e605a
+SHA1: 4c0cc6f0e337799733ea647e80eb4a391fa0089e
+SHA256: cb6308eb814b7cc89114275430fc37a029c98569aaef8e2806e893800efed553
+Homepage: https://sf.net/p/libwpd/librevenge/
+Description: library for REVerses ENGineered formats filters
 
 Package: libspnav-static
 Version: 1.0

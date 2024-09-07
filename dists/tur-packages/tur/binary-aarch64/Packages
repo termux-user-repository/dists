@@ -275,6 +275,20 @@ SHA256: d76d575459714c92cc25afdfa9e7a857f036b5968bc07b057ff8dccf8c283a35
 Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
 
+Package: clucene
+Version: 2.3.3.4
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 3908
+Depends: boost, zlib
+Filename: pool/tur/clucene_2.3.3.4_aarch64.deb
+Size: 640172
+MD5sum: 368c0ab86cc2a9647b992f74345dbb15
+SHA1: bbcdd3951dca762a86dc864e59fd91e883f7f3cf
+SHA256: 8daac8a0a58711e7145103826b9635cddf5435de834e1e581476a3009416a586
+Homepage: http://clucene.sourceforge.net/
+Description: C++ port of the high-performance text search engine Lucene
+
 Package: code-is-code-oss
 Version: 1.90.0
 Architecture: aarch64
@@ -1237,6 +1251,34 @@ SHA256: 1e4f676abb9990d486d1f1d9bd3c93ad8ac972d6daa599f5ea165091f950db1e
 Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
+Package: libfreehand-static
+Version: 0.1.2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1316
+Depends: libfreehand (= 0.1.2)
+Filename: pool/tur/libfreehand-static_0.1.2_aarch64.deb
+Size: 281544
+MD5sum: 41ea13bbcafb95372119e19ae8351df0
+SHA1: b31a335236b3aa1d58a932ed2a67cff84352e24b
+SHA256: 5a4c0cdd3182efb598d14b37df05bb4f4b856c2533f3ed3e470e490326d7ca64
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: Static libraries for libfreehand
+
+Package: libfreehand
+Version: 0.1.2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 616
+Depends: boost, littlecms, libicu, librevenge, zlib
+Filename: pool/tur/libfreehand_0.1.2_aarch64.deb
+Size: 242100
+MD5sum: 8af208bde429aa8cb95314839b731717
+SHA1: b2e5e99a2ec76170272e6cc850e6701c2f152223
+SHA256: ea90d5650cebc51df3214f789c50e58e012e469424e5438d6f555287a824859f
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
+
 Package: libftgl2
 Version: 2.4.0
 Architecture: aarch64
@@ -1537,6 +1579,34 @@ SHA1: 8aa4f70494598d006b91eadd877d0f987c447754
 SHA256: 0d5ec2c8880f72aaf2b844fd80a4a762a88a500b9eb4293a806cabae48b25365
 Homepage: https://www.libraw.org
 Description: A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others
+
+Package: librevenge-static
+Version: 0.0.5
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2192
+Depends: librevenge (= 0.0.5)
+Filename: pool/tur/librevenge-static_0.0.5_aarch64.deb
+Size: 244192
+MD5sum: 611ba13d41c1a8280f44914e8c7a2282
+SHA1: c1aa0d16ce02bb2810519d38b9796c6475308e39
+SHA256: 0bcf6c109a8b59bbe8debf4817ddf7cef5f97954ce693c65877ba25c639c00a6
+Homepage: https://sf.net/p/libwpd/librevenge/
+Description: Static libraries for librevenge
+
+Package: librevenge
+Version: 0.0.5
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 968
+Depends: boost, zlib
+Filename: pool/tur/librevenge_0.0.5_aarch64.deb
+Size: 167872
+MD5sum: 1506b923f2374f8a27c4ca58efc6494a
+SHA1: 6dd65c1b6eb033fd35b9c45afdd235e33aeddf93
+SHA256: 81aeb399b3351548fde919c4c36bb1eb7887394e1a96349cae95679d8efae46d
+Homepage: https://sf.net/p/libwpd/librevenge/
+Description: library for REVerses ENGineered formats filters
 
 Package: libspnav-static
 Version: 1.0
