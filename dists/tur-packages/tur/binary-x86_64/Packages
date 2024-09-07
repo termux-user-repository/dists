@@ -1098,6 +1098,20 @@ SHA256: 4b241065eb31eee0c11d8280f576ec54769a6c31166b706c54c9d3c65055f911
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
+Package: libcmis
+Version: 0.6.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1468
+Depends: boost, curl, libxml2
+Filename: pool/tur/libcmis_0.6.2_x86_64.deb
+Size: 331084
+MD5sum: b8d1b744f91da41fc09d0542ee8974d8
+SHA1: c99cf9ffc0aa89a9ccdc10a1ac9d0d379305b8fb
+SHA256: 568e74aebf3860a22b35696717198e650d6fed2ed7429f561f08ad98aa320655
+Homepage: https://github.com/tdf/libcmis
+Description: a C/C++ client library for the CMIS protocol
+
 Package: libcompiler-rt-16
 Version: 1:16.0.6-1
 Architecture: x86_64
