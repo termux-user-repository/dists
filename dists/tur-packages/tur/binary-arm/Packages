@@ -1801,18 +1801,18 @@ Homepage: http://aluigi.org/mytoolz.htm#morsegen
 Description: Convert text file to ASCII morse code
 
 Package: ndk-sysroot-gcc-compact
-Version: 27b
+Version: 27b-1
 Architecture: arm
 Maintainer: @licy183
 Installed-Size: 20544
 Conflicts: libutil-dev, libandroid-support-dev, ndk-sysroot
 Replaces: libutil-dev, libandroid-support-dev, ndk-stl, ndk-sysroot
 Provides: ndk-sysroot
-Filename: pool/tur/ndk-sysroot-gcc-compact_27b_arm.deb
-Size: 1729368
-MD5sum: 3a26c6f251270e5d5daf4d4729b64463
-SHA1: 47b451d21ec2e2afdeeebd0013335a2adea8862e
-SHA256: 6d6f6fca0880fc377b88f371e23a285dbac53b414a36d66c542617eba41852b0
+Filename: pool/tur/ndk-sysroot-gcc-compact_27b-1_arm.deb
+Size: 1729388
+MD5sum: 740e52cc935a3effdeae084c61002aef
+SHA1: aba396c82d635d70f2426e95d01b6d170d6f059c
+SHA256: a1a9c3f3551d717dc81c90b5457188f1878f0dbd71ca179b68df1443a3000438
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
@@ -3138,30 +3138,30 @@ Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
-Version: 1:7.8.0
+Version: 1:7.8.1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 5448
-Depends: suitesparse (= 1:7.8.0)
-Filename: pool/tur/suitesparse-static_1:7.8.0_arm.deb
-Size: 1533696
-MD5sum: 6913d7c973aabaa59516ca442d7f359b
-SHA1: a2eea07ebc89200b51b35162d406de663864f633
-SHA256: 9ade6e2f493a7c82df0864540582257a8e8333c843d3ee24ed9469812d7f91e5
+Depends: suitesparse (= 1:7.8.1)
+Filename: pool/tur/suitesparse-static_1:7.8.1_arm.deb
+Size: 1534116
+MD5sum: dfeddbb412b2ce30843ccf61b24d8062
+SHA1: dcbe188e6a07a984049e0b7035912adcea28ad55
+SHA256: c2360dd9efefd6efa6c9e7c8721d830e643c0cd6f523135cad8810ade7063902
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: Static libraries for suitesparse
 
 Package: suitesparse
-Version: 1:7.8.0
+Version: 1:7.8.1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 117880
+Installed-Size: 117884
 Depends: libandroid-complex-math, blas-openblas, libopenblas, libgmp, libmpfr
-Filename: pool/tur/suitesparse_1:7.8.0_arm.deb
-Size: 17795560
-MD5sum: 6e3c917ccd1e3df911312e54bbc2b7b2
-SHA1: 87fcf540475d0c946f7d22bd0e0f29788433f52b
-SHA256: 591e574ee9a4e2afa21c17b482258d01d8ef2502722574a09f2a84a25506fc5c
+Filename: pool/tur/suitesparse_1:7.8.1_arm.deb
+Size: 17794004
+MD5sum: 22dff4ed9a17e35226d92f61545e772d
+SHA1: 98fd409b79b38701d5a0107d43a9adf58cc1399e
+SHA256: 3786da48077c7cf21314ba751370aacec86d39590abb9e60c98cb3318f6dd962
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
