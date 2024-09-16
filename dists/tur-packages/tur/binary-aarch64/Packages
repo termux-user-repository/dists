@@ -2777,6 +2777,37 @@ SHA256: 490093147bdebd973cff9fbcef406503485eb44fb9c1fcc2dadfb123ee9f74e2
 Homepage: https://github.com/JuliaMath/openspecfun
 Description: A collection of special mathematical functions
 
+Package: openssl-1.1-static
+Version: 1:1.1.1w
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5744
+Depends: openssl-1.1 (= 1:1.1.1w)
+Filename: pool/tur/openssl-1.1-static_1:1.1.1w_aarch64.deb
+Size: 1216104
+MD5sum: ec6903bbeaef345182bf41838e3b1d9a
+SHA1: 978a4f676e3460b610b4fd074b5b43099a4249d7
+SHA256: 797e60ab4683c92bbda22ff85e22d4685a300c64ac586a6dbaa6a0d414d895fa
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl-1.1
+
+Package: openssl-1.1
+Version: 1:1.1.1w
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4488
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl (<< 1.1.1m)
+Replaces: openssl (<< 1.1.1m)
+Filename: pool/tur/openssl-1.1_1:1.1.1w_aarch64.deb
+Size: 1206152
+MD5sum: 9b623dad2e6dee3eb726401f924a3f7d
+SHA1: abb06212c76bbbf82bde36ef8ba60ac851b3556b
+SHA256: d276ad575719d7838615fff42df14e28728f7d83aecb0fa649394ee8f226d9b8
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
 Package: openssl-static
 Version: 3.0.3-1
 Architecture: aarch64
@@ -2802,6 +2833,20 @@ Size: 241572
 MD5sum: 9106e70e8600a6ec6ef94ec8c309d453
 SHA1: 030d8bd5de7c59318f051c47e286253fa9ccf0ea
 SHA256: 640dda44d5556d647f01e458d25bd3387dc0a68a7cf96a689a87bd5bc1650b28
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: openssl1.1-tool
+Version: 1:1.1.1w
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: openssl-1.1 (= 1:1.1.1w)
+Filename: pool/tur/openssl1.1-tool_1:1.1.1w_aarch64.deb
+Size: 191784
+MD5sum: 4e88a1e0cb7898c427218a45f4bf28cd
+SHA1: b43169f1311f118aff4b14958b3329cf64ab2398
+SHA256: 12cd96ef3dfec2f14efb77fa2cdab11bcce98dbdd521d18c900a45604597c279
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 

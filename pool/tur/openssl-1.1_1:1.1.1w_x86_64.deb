@@ -1,0 +1,17 @@
+Package: openssl-1.1
+Version: 1:1.1.1w
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 4796
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl (<< 1.1.1m)
+Replaces: openssl (<< 1.1.1m)
+Filename: pool/tur/openssl-1.1_1:1.1.1w_x86_64.deb
+Size: 1345828
+MD5sum: 1a5f1987ed4cb39b04d0de130517d8fe
+SHA1: 1e747ab5fa2144ee1b9cf494deec42082620d435
+SHA256: 8b5a7339e34446a673aecd6f6efa4394aebed4868e13e400ff7d8f19fb5423f4
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
