@@ -1412,17 +1412,31 @@ SHA256: 5561b48a633d7b2fa0e7c79076875f9e5f83875badd48d7d95134facceb38ac1
 Homepage: https://libiptcdata.sourceforge.net/
 Description: a C library for manipulating the IPTC metadata stored within multimedia files
 
-Package: libixion
-Version: 0.19.0
+Package: libixion-static
+Version: 0.19.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1172
-Depends: boost, python
-Filename: pool/tur/libixion_0.19.0_arm.deb
-Size: 314212
-MD5sum: 7feb53c864434fe937c1df515401b9f4
-SHA1: 9afc7a85fc0fad002ce662fa9a2f01a4fb64058a
-SHA256: fe655ff302afcee31d7715f4aa3b80689022fcfe3c26d095c4a115247e86b5b4
+Installed-Size: 2636
+Depends: libixion (= 0.19.0-1)
+Filename: pool/tur/libixion-static_0.19.0-1_arm.deb
+Size: 382984
+MD5sum: fbacf2f2839beeaa9147166e212ee4f6
+SHA1: 25118203a5328914b2a3dd8c790960a5fef4a5c1
+SHA256: 00b590a29468e60f52a6bd252a85dd574dd7a839450129a7269d66dccdfa65ce
+Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
+Description: Static libraries for libixion
+
+Package: libixion
+Version: 0.19.0-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1012
+Depends: boost, libc++
+Filename: pool/tur/libixion_0.19.0-1_arm.deb
+Size: 293724
+MD5sum: fd4df53b14ffbc42413e617bcff9aa54
+SHA1: 665e22e5131589800987f9e38049a9aa6c3fcefb
+SHA256: b88c71f5f094e5f631c8f567a0be240fda5c350c93475cee5117d8b6aa563caa
 Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
 Description: A general purpose formula parser & interpreter
 
@@ -1769,17 +1783,31 @@ SHA256: 4805f7f0ad016f8a5ae2cacbeb11bd66bad45f4081b896a85b06721a2157eb79
 Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
 Description: Library for generating documents in Open Document Format
 
-Package: liborcus
-Version: 0.19.2
+Package: liborcus-static
+Version: 0.19.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2544
-Depends: boost, libixion, python, zlib
-Filename: pool/tur/liborcus_0.19.2_arm.deb
-Size: 619900
-MD5sum: 814b8f424ef3e0e8de6cfb838d05a7f4
-SHA1: e8f660e0fcfca3d4bd34e88ad34951ae82c6ed5a
-SHA256: 30f24fabe238c05e38e0f1a06eef0a192f0b8e9e40d5e788c23f338068a6077c
+Installed-Size: 4756
+Depends: liborcus (= 0.19.2-1)
+Filename: pool/tur/liborcus-static_0.19.2-1_arm.deb
+Size: 791704
+MD5sum: f9978bd40abba0bb0c68722ba85828d0
+SHA1: bd7d6a8537da05df1962f337e06482b79a36d977
+SHA256: f2166d342e0c901bf0aff7b035d85cd1270366934fadc9184b3fd6e760185962
+Homepage: https://gitlab.com/orcus/orcus/
+Description: Static libraries for liborcus
+
+Package: liborcus
+Version: 0.19.2-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2504
+Depends: boost, libc++, libixion, zlib
+Filename: pool/tur/liborcus_0.19.2-1_arm.deb
+Size: 624656
+MD5sum: 520efa7bad194367ec038734e3a2134b
+SHA1: a3f006b3d74a3d57a4e39315f57d2a60a3ce42d4
+SHA256: 18222530825c340a80e80fcc77f3a640cc8db42ab06881165585a59e1c0ed678
 Homepage: https://gitlab.com/orcus/orcus/
 Description: File import filter library for spreadsheet documents.
 
