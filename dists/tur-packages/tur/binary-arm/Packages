@@ -1853,6 +1853,34 @@ SHA256: 70fa1220f9e8a140e07a66c04124a2657a7cf108778663db0e8ac11dfe3c9d0c
 Homepage: https://clang.llvm.org/
 Description: High-level loop and data-locality optimizer for clang
 
+Package: libqxp-static
+Version: 0.0.2-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1888
+Depends: libqxp (= 0.0.2-1)
+Filename: pool/tur/libqxp-static_0.0.2-1_arm.deb
+Size: 207564
+MD5sum: 372aaa7ddfa0582962c47657baa404f7
+SHA1: c8ee9c5db0176fab3b5e65a1b3698ef268f7819b
+SHA256: bf88424cf5540f9cc48af2c8b8b22bb99d2c95f9446dfe8270357a6640f6486e
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: Static libraries for libqxp
+
+Package: libqxp
+Version: 0.0.2-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 292
+Depends: libicu, librevenge
+Filename: pool/tur/libqxp_0.0.2-1_arm.deb
+Size: 70040
+MD5sum: 64cb3d9b47e780d0acdc2c2b767f5d51
+SHA1: d545e08621b62889edb6f735fc27b1b5e210546d
+SHA256: 81791433f19882695b956ddc607e7412a14312a6fa1e89d3600d90aa3fe87718
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: a library that parses the file format of QuarkXPress documents
+
 Package: libraw-static
 Version: 0.21.1-1
 Architecture: arm
@@ -2048,6 +2076,20 @@ SHA1: 3a22ceb879c53c3f5563380b10a2832d02ed8458
 SHA256: a86025c843ef549703f777e44f4d7449244d64226597aab34ff228eb617fbb1e
 Homepage: https://libwpg.sourceforge.net/
 Description: Library for importing and converting Corel WordPerfect(tm) Graphics images.
+
+Package: libwps
+Version: 0.4.14-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1316
+Depends: libwpd, librevenge
+Filename: pool/tur/libwps_0.4.14-1_arm.deb
+Size: 482264
+MD5sum: f405955e80abbc80aa21f8b46094a36b
+SHA1: 07cd200be475a4d838cd6fab5aeeb152fae2e22e
+SHA256: eb6caa512c7d322a03bc63b88cf7a4dcebb35fbaa8e48ea9eb50ff20c3e60bc5
+Homepage: https://sourceforge.net/projects/libwps/
+Description: a Microsoft Works file word processor format import filter library
 
 Package: libzmf-static
 Version: 0.0.2

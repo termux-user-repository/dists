@@ -1996,6 +1996,34 @@ SHA256: f23fe57c0154b30d1b5fce0ab2463bcf6c3356b98859bbdeb6f0e4202bd4e30e
 Homepage: https://clang.llvm.org/
 Description: High-level loop and data-locality optimizer for clang
 
+Package: libqxp-static
+Version: 0.0.2-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1856
+Depends: libqxp (= 0.0.2-1)
+Filename: pool/tur/libqxp-static_0.0.2-1_aarch64.deb
+Size: 185200
+MD5sum: 2b9b1ef9a464ed79cb1d558df7c106fc
+SHA1: a5bb682dc00e033d6e9ffce513138b2f2c253d03
+SHA256: a4cc0a735675889e3c1ec5eff929b830f92527c1c1d6273d632904a103a238a5
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: Static libraries for libqxp
+
+Package: libqxp
+Version: 0.0.2-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 524
+Depends: libicu, librevenge
+Filename: pool/tur/libqxp_0.0.2-1_aarch64.deb
+Size: 97884
+MD5sum: 3eb114f059dcd6f793a65e48656e3d42
+SHA1: 7fc6113e19a7d9c7046a68a2056f1e60cacaa83c
+SHA256: eeda02f3a01655d67b617597760ff0ede4c9acc3d832ba41359ee519a4bd50a2
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: a library that parses the file format of QuarkXPress documents
+
 Package: libraw-static
 Version: 0.21.1-1
 Architecture: aarch64
@@ -2191,6 +2219,20 @@ SHA1: 50dc08df4d4c4cd55aa2edc0e04e00cdf6b00df9
 SHA256: f0b49024491fddf85ad3237b4fa566b6c3da1a547f4ddda2fcf46d021dad99a8
 Homepage: https://libwpg.sourceforge.net/
 Description: Library for importing and converting Corel WordPerfect(tm) Graphics images.
+
+Package: libwps
+Version: 0.4.14-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2176
+Depends: libwpd, librevenge
+Filename: pool/tur/libwps_0.4.14-1_aarch64.deb
+Size: 573204
+MD5sum: 7f4b3a21c832d7715a31cd986c6cb922
+SHA1: 3931f55f4931a9ea91b427c89e84430674d85e8c
+SHA256: 541ca12ed68006fa5ce69fe74db1197c85412ee96bd60efb49cbb97094789172
+Homepage: https://sourceforge.net/projects/libwps/
+Description: a Microsoft Works file word processor format import filter library
 
 Package: libzmf-static
 Version: 0.0.2

@@ -1996,6 +1996,34 @@ SHA256: cbf87695c9d83307c55e5580cabe7d62ee77a1f10fa212326bf8cd4660bf2f0b
 Homepage: https://clang.llvm.org/
 Description: High-level loop and data-locality optimizer for clang
 
+Package: libqxp-static
+Version: 0.0.2-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1744
+Depends: libqxp (= 0.0.2-1)
+Filename: pool/tur/libqxp-static_0.0.2-1_x86_64.deb
+Size: 171360
+MD5sum: ea8d7ae28744718d9e847032c7e1d206
+SHA1: 3d7f380745ecabc2d11901fe751ddd13614add20
+SHA256: f6eba79afc0f93339e016b3ba984e6a063e3a42b22e9a57d8f00fd6c16f3fd43
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: Static libraries for libqxp
+
+Package: libqxp
+Version: 0.0.2-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 508
+Depends: libicu, librevenge
+Filename: pool/tur/libqxp_0.0.2-1_x86_64.deb
+Size: 102856
+MD5sum: 667cb12d38f881fe93627b0c1232e392
+SHA1: f9bc378a40af1d32bc90688be593f6bdb2af4fe9
+SHA256: cc7acd1e829fb61c0895c8f1d00b4aea7b9f8bc478cc067a14a397db3efc9819
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: a library that parses the file format of QuarkXPress documents
+
 Package: libraw-static
 Version: 0.21.1-1
 Architecture: x86_64
@@ -2191,6 +2219,20 @@ SHA1: d6cd2331cb4dcebc14534046c118f0226a1c80ef
 SHA256: 03dce94b76da4cd9717ee42988b2754f842dfb7fcb24890051e1c8fe58f550a8
 Homepage: https://libwpg.sourceforge.net/
 Description: Library for importing and converting Corel WordPerfect(tm) Graphics images.
+
+Package: libwps
+Version: 0.4.14-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 2120
+Depends: libwpd, librevenge
+Filename: pool/tur/libwps_0.4.14-1_x86_64.deb
+Size: 595696
+MD5sum: a453df26df3888a87e2b2911a473fdc9
+SHA1: f0d570360a5a3d4d3b4db9722196071f45f802dc
+SHA256: 7eebd7e141f32a2a3561cab39a192fbd9eb0d2fbecccb5c9e6d7770637de3d52
+Homepage: https://sourceforge.net/projects/libwps/
+Description: a Microsoft Works file word processor format import filter library
 
 Package: libzmf-static
 Version: 0.0.2
