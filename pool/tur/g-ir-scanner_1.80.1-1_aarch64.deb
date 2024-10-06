@@ -1,0 +1,16 @@
+Package: g-ir-scanner
+Version: 1.80.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1064
+Depends: ldd, python, gobject-introspection (= 1.80.1-1)
+Breaks: gobject-introspection (<< 1.74.0-1)
+Replaces: gobject-introspection (<< 1.74.0-1)
+Filename: pool/tur/g-ir-scanner_1.80.1-1_aarch64.deb
+Size: 127424
+MD5sum: de48305db863da94bb873023d24de6bf
+SHA1: e2ba632ac3f6c50f7ed0728dcda2d25ae9b1656d
+SHA256: 6444c414358ac7973fd6996407113414a339a3c3e5e48a83e6d08ac200bbdbae
+Homepage: https://gi.readthedocs.io/
+Description: A tool which generates GIR XML files
+

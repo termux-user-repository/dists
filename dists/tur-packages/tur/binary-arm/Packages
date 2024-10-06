@@ -663,6 +663,22 @@ SHA256: 357e54df9029b8e977f66c191e14b1e41a72bcf97af76913f307cfbfd4e27c88
 Homepage: https://github.com/shadow1ng/fscan
 Description: A comprehensive intranet scanning tool
 
+Package: g-ir-scanner
+Version: 1.80.1-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1040
+Depends: ldd, python, gobject-introspection (= 1.80.1-1)
+Breaks: gobject-introspection (<< 1.74.0-1)
+Replaces: gobject-introspection (<< 1.74.0-1)
+Filename: pool/tur/g-ir-scanner_1.80.1-1_arm.deb
+Size: 125828
+MD5sum: 3ba3039ef962c1d909bc77b20981158c
+SHA1: c205f60e46e59fd2d0fa0e95285cdc9dce465832
+SHA256: 18bdfabafc881dd6fcf8ba434af275c3699e8b30f85843fd13937dd24ffabed5
+Homepage: https://gi.readthedocs.io/
+Description: A tool which generates GIR XML files
+
 Package: gcc-10
 Version: 10.5.0-1
 Architecture: arm
@@ -767,6 +783,36 @@ SHA256: 0fd23af68177af1501e10e6ec5fcde8671cf6a9607c8d076f535274f91c904cd
 Homepage: https://github.com/bestouff/genext2fs
 Description: Build ext2 filesystem image without mounting for copying files (like mkfs.fat + mcopy in one go)
 
+Package: glib-bin
+Version: 2.80.5-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 616
+Depends: python, glib (= 2.80.5-1)
+Filename: pool/tur/glib-bin_2.80.5-1_arm.deb
+Size: 193416
+MD5sum: a1e25c92c99fa563d18a33f35d8e1ab0
+SHA1: ed1d876fe14d440e0fc991e5a9e89890b91079e4
+SHA256: 2ae876de03340f75d7ce24f5c60731d88e3354f50cd4643c8b03b198036bcd13
+Homepage: https://developer.gnome.org/glib/
+Description: Programs for the GLib library
+
+Package: glib
+Version: 2.80.5-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 18696
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib
+Breaks: glib-dev
+Replaces: glib-dev
+Filename: pool/tur/glib_2.80.5-1_arm.deb
+Size: 2207396
+MD5sum: dba9b0ebf11e09c86f78d76374804bb2
+SHA1: 4c87f0611aa22cdb5c0bf68747f097cdbb0f4e76
+SHA256: f4b3a5e8bd1f7f416d6b778ce550bc489bfa4505395afc2692dc6fc47fc8730e
+Homepage: https://developer.gnome.org/glib/
+Description: Library providing core building blocks for libraries and applications written in C
+
 Package: glmark2
 Version: 2023.01
 Architecture: arm
@@ -807,6 +853,21 @@ SHA1: bd714c84e72e3985c4ca63c997babc9778952270
 SHA256: f65160d78da7cf91098e5d0030f78441479cb084f0917873cbaa54474fd8b656
 Homepage: https://github.com/sweetbbak/go-moreutils
 Description: coreutils with some more modern features, written in go
+
+Package: gobject-introspection
+Version: 1.80.1-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1168
+Depends: glib, libffi
+Suggests: g-ir-scanner
+Filename: pool/tur/gobject-introspection_1.80.1-1_arm.deb
+Size: 173784
+MD5sum: a3c4b371e26c6579851456aa7cb684e1
+SHA1: b7e3a5ea74f386d411e29d9f72cd15dc3915c848
+SHA256: ecad049268b398334c1ff9c2ffc6063f2833042b3297d0e6b87c595ed13b0246
+Homepage: https://gi.readthedocs.io/
+Description: Uniform machine readable API
 
 Package: gopls
 Version: 0.15.0
@@ -2091,6 +2152,78 @@ SHA256: eb6caa512c7d322a03bc63b88cf7a4dcebb35fbaa8e48ea9eb50ff20c3e60bc5
 Homepage: https://sourceforge.net/projects/libwps/
 Description: a Microsoft Works file word processor format import filter library
 
+Package: libxml2-python-static
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 504
+Depends: libxml2-python, libxml2 (= 2.13.4-1)
+Filename: pool/tur/libxml2-python-static_2.13.4-1_arm.deb
+Size: 75464
+MD5sum: a2d2406d9aca1717f42c2f30eefcd1f9
+SHA1: a1afd063fc86beec0b926d1f747009a3e30bae50
+SHA256: f9b616aad687a62e9678713335eab59bca93a13e2e791cbc55266d416495321f
+Homepage: http://www.xmlsoft.org
+Description: Static libraries for libxml2-python
+
+Package: libxml2-python
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1656
+Depends: python, libxml2 (= 2.13.4-1)
+Filename: pool/tur/libxml2-python_2.13.4-1_arm.deb
+Size: 181688
+MD5sum: e4202b8f8be7410753efbada24d42ca0
+SHA1: 4ed69b723da10c9f6ce36d5353b20d828784225f
+SHA256: 397e990e915b28a3826db52124596136e5881cfe6728c02562b8e2a38024d6cd
+Homepage: http://www.xmlsoft.org
+Description: Python bindings for libxml2
+
+Package: libxml2-static
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1240
+Depends: libxml2 (= 2.13.4-1)
+Filename: pool/tur/libxml2-static_2.13.4-1_arm.deb
+Size: 426764
+MD5sum: 9344f63ea4bf9742ae7a8a4512595349
+SHA1: dad23708717b52be42aebeeace3fcfa9d3fcb084
+SHA256: b46f0faad00b47477e5a72a283e0809211a3e27600605f0034bf51e469e0dd5a
+Homepage: http://www.xmlsoft.org
+Description: Static libraries for libxml2
+
+Package: libxml2-utils
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 108
+Depends: libxml2 (= 2.13.4-1)
+Filename: pool/tur/libxml2-utils_2.13.4-1_arm.deb
+Size: 28884
+MD5sum: b680a46b0643b93691fa660cf8848f76
+SHA1: ea8e24f0181d9574fee3b1bffd5dec18699a0acb
+SHA256: ef74a32c91014b04bb1ba5a5c518a289688f0dd6571feb9f6f4e9580f0ffd464
+Homepage: http://www.xmlsoft.org
+Description: XML utilities
+
+Package: libxml2
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1408
+Depends: libiconv, liblzma, zlib
+Breaks: libxml2-dev
+Replaces: libxml2-dev
+Filename: pool/tur/libxml2_2.13.4-1_arm.deb
+Size: 426776
+MD5sum: 08b1aeb8c5abb7a3b12f467a7d391916
+SHA1: 3d14de640fc842b382202d6c438d08e3b8f0c96e
+SHA256: 9b5b414ec16d64872ab0e1854f869d9ebb3185dcbe6a966615ca12f1459a1edc
+Homepage: http://www.xmlsoft.org
+Description: Library for parsing XML documents
+
 Package: libzmf-static
 Version: 0.0.2
 Architecture: arm
@@ -2941,16 +3074,16 @@ Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (Python bindings)
 
 Package: python-cairo
-Version: 1.26.1
+Version: 1.26.1-1
 Architecture: arm
 Maintainer: @fervi
 Installed-Size: 516
 Depends: python, libcairo
-Filename: pool/tur/python-cairo_1.26.1_arm.deb
-Size: 96684
-MD5sum: 9a10adef1dd32e230afbdb73660be427
-SHA1: 85cc18bde9281ce7e1773ec664c6a8335c7e233a
-SHA256: 6325178dd382a0fe720c4c2025e7f0d8962b75efd3b0114ee7adf00bd01a6fc0
+Filename: pool/tur/python-cairo_1.26.1-1_arm.deb
+Size: 96972
+MD5sum: 3bf6e72b2863c8710ee7053bb5c86adf
+SHA1: ea7d4f41c750ed9a1275979cd8295be7a9637855
+SHA256: dcc4edbe9b34246b17dd5704949437aae9adca32496d7ddc3557536ce2423ee9
 Homepage: https://cairographics.org/pycairo
 Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
 
@@ -3146,16 +3279,16 @@ Homepage: https://www.pycryptodome.org/
 Description: A self-contained Python package of low-level cryptographic primitives
 
 Package: python-pygame
-Version: 2.6.1
+Version: 2.6.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 11152
+Installed-Size: 10892
 Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.6.1_arm.deb
-Size: 2422540
-MD5sum: d796c86e5926e6ed5ccea4d64b5f89fb
-SHA1: cc2bc9fded350f5dc4576eddc439e7a0df6b535c
-SHA256: af6d18ae577c2929cd5f071ea7d2657651bf5e5886352f86d21dd195288ed0fd
+Filename: pool/tur/python-pygame_2.6.1-1_arm.deb
+Size: 2401976
+MD5sum: a498ac0a5a080b6c98fe3de42b5ebfa6
+SHA1: d0efeb6d5306e2b1523427fca6eea3dc5fd25dd9
+SHA256: e2410d3cfb7189eb5fbb87976d42e18f99908585d036127b693f275c87fc9a7c
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
@@ -3219,30 +3352,30 @@ Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
 Package: python-seledroid
-Version: 1.1.0-1
+Version: 1.1.0-2
 Architecture: arm
 Maintainer: @nacho00112
 Installed-Size: 288
 Depends: python, seledroid-app
-Filename: pool/tur/python-seledroid_1.1.0-1_arm.deb
-Size: 25144
-MD5sum: d10361c9edfc9f411a056cf191c4608e
-SHA1: 04be1527d4576d55781441b52437844269c2d04a
-SHA256: 4e1d9d79e5ada091af2958670473fa2c91729465cc70115ff804dec74654e30e
+Filename: pool/tur/python-seledroid_1.1.0-2_arm.deb
+Size: 25228
+MD5sum: 2c884887e085ffabe252a6087ef52fc1
+SHA1: 7ee71049fa1e246716dbd1f13e05b2d35a21fe1d
+SHA256: 0e249fc43f5d55db3f1b342543b2aabca7a74b6b7fb24a1cc8cbdadc602a9d42
 Homepage: https://github.com/luanon404/seledroid
 Description: Python library to control android webdriver.
 
 Package: python-selenium-is-seledroid
-Version: 4.10.0
+Version: 4.10.0-1
 Architecture: arm
 Maintainer: @nacho00112
-Installed-Size: 84
-Depends: python-seledroid
-Filename: pool/tur/python-selenium-is-seledroid_4.10.0_arm.deb
-Size: 3804
-MD5sum: d1a139a9c8d1b84f0fc2c627b71d3394
-SHA1: fadf20169b8a49c6f98c24a48edfe2bcec2540a1
-SHA256: 57c3e2c3d4b5b22777a42cb50d1dfb6a0e435d7a72dfebcfa77eecbe4b479ded
+Installed-Size: 88
+Depends: python, python-seledroid
+Filename: pool/tur/python-selenium-is-seledroid_4.10.0-1_arm.deb
+Size: 4088
+MD5sum: 9aae05dae6f1eba015a05e8093218dab
+SHA1: 40706abbf53709f28c8b00cfa817117404913690
+SHA256: 04137af985a4da94939e0e60470de48b6f98e8e464451fad49cb53b028cf3838
 Homepage: https://github.com/nacho00112/tur
 Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
 
@@ -3261,16 +3394,16 @@ Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
 
 Package: python-tls-client
-Version: 1.0.1
+Version: 1.0.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 244
+Installed-Size: 240
 Depends: libc++, python, lib-tls-client
-Filename: pool/tur/python-tls-client_1.0.1_arm.deb
-Size: 28324
-MD5sum: 716a3a106f1c0ed710c2e8f24e447f6a
-SHA1: bda6ced320165a38099e9f8a23b527761b88ee73
-SHA256: 0861de453dfd0b494f5f676e9c061d8cf822a3353d314424d633ed858dc510e0
+Filename: pool/tur/python-tls-client_1.0.1-1_arm.deb
+Size: 27936
+MD5sum: 9a34a887c4f97eaef4b62a26b6053333
+SHA1: f5b0c5ad0fba2d15d87d6680b9d2e2382ec36552
+SHA256: 6062c72cb408b850b4936fc531b08e22256d0975c0b7a55570bf339083a67c53
 Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
@@ -4507,6 +4640,20 @@ SHA256: afcefbb95b8102309a5ea5b4f1d02f05d4f2671bf84da25e7a33ffe5f36aa59d
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
+Package: glib-cross
+Version: 2.80.5-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 80064
+Depends: glib (= 2.80.5-1)
+Filename: pool/tur/glib-cross_2.80.5-1_all.deb
+Size: 11846720
+MD5sum: 81f7fb9ec2b84049f099a6e1559e518b
+SHA1: 417dcfed5edf40dc5ed0783195a17b5c1279df0e
+SHA256: 7c865656980d22f073decc69a71c568bb2d66432c33f2a9cff443c729fc4fb29
+Homepage: https://developer.gnome.org/glib/
+Description: glib for host (NOT for Termux)
+
 Package: mesa-zink-dev
 Version: 22.0.5-5
 Architecture: all
@@ -4538,30 +4685,30 @@ Homepage: https://github.com/openjdk/mobile
 Description: Source files for openjdk-11
 
 Package: python-future
-Version: 0.18.2-1
+Version: 0.18.2-2
 Architecture: all
 Maintainer: @fervi
-Installed-Size: 4752
+Installed-Size: 4564
 Depends: python
-Filename: pool/tur/python-future_0.18.2-1_all.deb
-Size: 785996
-MD5sum: 8039e6f0c000af98ad4eceaa3ae1bd7a
-SHA1: cd7a325c4323a0ca7bf002b7a9975e7929d09aaa
-SHA256: 13b8ec8d173fbbb5c813ce9046b58932ee98d4012a1613580033b2a0d75a8f7e
+Filename: pool/tur/python-future_0.18.2-2_all.deb
+Size: 764472
+MD5sum: 0af7a1aa8733af2598775e3a4edfcdf3
+SHA1: af38e143733d2788f1b08707ee37d630157fe9d1
+SHA256: 41a61a43d6f5339999dfebf88e93a4a5b75c4eb42725bfa74c506654b5a39943
 Homepage: https://python-future.org
 Description: Clean single-source support for Python 3 and 2
 
 Package: python-opengl
-Version: 3.1.6-1
+Version: 3.1.6-2
 Architecture: all
 Maintainer: @fervi
-Installed-Size: 30492
+Installed-Size: 30396
 Depends: python, mesa
-Filename: pool/tur/python-opengl_3.1.6-1_all.deb
-Size: 1345816
-MD5sum: 0f9752470293cccf71dc82a786cc6e27
-SHA1: ae4ffbdf6a70d8316fc920b3220f043223074a4e
-SHA256: 58e09bc322816663726273e70f28106a148c2e8574a4298f46d1878cb15cd6ce
+Filename: pool/tur/python-opengl_3.1.6-2_all.deb
+Size: 1292676
+MD5sum: 55565ed9a63cc943a25c5894e9203102
+SHA1: fd47023c035161430a2a9229173c407c020c89af
+SHA256: a5172ef5649a28e0ba3ad51ea4624912706261db6e99403d0f93d0dfbc4e452f
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
