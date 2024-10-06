@@ -672,10 +672,10 @@ Depends: ldd, python, gobject-introspection (= 1.80.1-1)
 Breaks: gobject-introspection (<< 1.74.0-1)
 Replaces: gobject-introspection (<< 1.74.0-1)
 Filename: pool/tur/g-ir-scanner_1.80.1-1_arm.deb
-Size: 125828
-MD5sum: 3ba3039ef962c1d909bc77b20981158c
-SHA1: c205f60e46e59fd2d0fa0e95285cdc9dce465832
-SHA256: 18bdfabafc881dd6fcf8ba434af275c3699e8b30f85843fd13937dd24ffabed5
+Size: 125832
+MD5sum: 5a44fddf2c9767b4e6823793aebcdbd5
+SHA1: fe14623966b704266ebda1a7505bee02fe0f9a02
+SHA256: d0a417543833b15d8ab38548916dc3b5ed588917ebc7a1a2f43833979bed48d7
 Homepage: https://gi.readthedocs.io/
 Description: A tool which generates GIR XML files
 
@@ -790,10 +790,10 @@ Maintainer: @termux
 Installed-Size: 616
 Depends: python, glib (= 2.80.5-1)
 Filename: pool/tur/glib-bin_2.80.5-1_arm.deb
-Size: 193416
-MD5sum: a1e25c92c99fa563d18a33f35d8e1ab0
-SHA1: ed1d876fe14d440e0fc991e5a9e89890b91079e4
-SHA256: 2ae876de03340f75d7ce24f5c60731d88e3354f50cd4643c8b03b198036bcd13
+Size: 193476
+MD5sum: ee71cd4b6390c693ab009714acd8a7c6
+SHA1: d11f77bafbe91c59c509c9d9b010167e7c79cb90
+SHA256: 9331d4c1405d7847736b5b1322a99c70a10171bd7ede15ec6b03d9d44656c28f
 Homepage: https://developer.gnome.org/glib/
 Description: Programs for the GLib library
 
@@ -806,10 +806,10 @@ Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib
 Breaks: glib-dev
 Replaces: glib-dev
 Filename: pool/tur/glib_2.80.5-1_arm.deb
-Size: 2207396
-MD5sum: dba9b0ebf11e09c86f78d76374804bb2
-SHA1: 4c87f0611aa22cdb5c0bf68747f097cdbb0f4e76
-SHA256: f4b3a5e8bd1f7f416d6b778ce550bc489bfa4505395afc2692dc6fc47fc8730e
+Size: 2205860
+MD5sum: 3f042bea9259bebf85d8753d4da9efbe
+SHA1: 09178082c13eb862b480948c3a00b59a50d9c719
+SHA256: a42301321f03170a11be521707f3267bb8a21975e43421dd75b4f45d36fc2916
 Homepage: https://developer.gnome.org/glib/
 Description: Library providing core building blocks for libraries and applications written in C
 
@@ -862,10 +862,10 @@ Installed-Size: 1168
 Depends: glib, libffi
 Suggests: g-ir-scanner
 Filename: pool/tur/gobject-introspection_1.80.1-1_arm.deb
-Size: 173784
-MD5sum: a3c4b371e26c6579851456aa7cb684e1
-SHA1: b7e3a5ea74f386d411e29d9f72cd15dc3915c848
-SHA256: ecad049268b398334c1ff9c2ffc6063f2833042b3297d0e6b87c595ed13b0246
+Size: 173844
+MD5sum: b869b7fdab99284c6fa128e198d65590
+SHA1: 5ea182c49eec5f8db5d42d8bae2c6759066ff34b
+SHA256: 76161b2306a85d8941251619b89b6994c2a983c6c7cfd3cecec385dfeef2d5bc
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
 
@@ -3194,16 +3194,16 @@ Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
 Package: python-mitmproxy-wireguard
-Version: 0.1.23
+Version: 0.1.23-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1036
+Installed-Size: 1040
 Depends: libc++, openssl, python
-Filename: pool/tur/python-mitmproxy-wireguard_0.1.23_arm.deb
-Size: 455764
-MD5sum: 044ac3bf7c655ed7acd1dc246f9d65da
-SHA1: 91d243366768330e4f5e8db4de7955d46319ec81
-SHA256: d68ef30916a47354999b6d5475c5b871629ae63dae6c2a1eb314b68d71862d08
+Filename: pool/tur/python-mitmproxy-wireguard_0.1.23-1_arm.deb
+Size: 456344
+MD5sum: af3bed46b21ae350104092b66d34e453
+SHA1: 6db2dcd215d78742d73dbf051281dc07db6aef1b
+SHA256: efe1042aac03105e3401d828389f9b998347798dde89d63e93e494cc16afba11
 Homepage: https://github.com/decathorpe/mitmproxy_wireguard
 Description: WireGuard frontend for mitmproxy
 
@@ -3380,16 +3380,16 @@ Homepage: https://github.com/nacho00112/tur
 Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
 
 Package: python-tiktoken
-Version: 0.8.0
+Version: 0.8.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1640
+Installed-Size: 1628
 Depends: libc++, python
-Filename: pool/tur/python-tiktoken_0.8.0_arm.deb
-Size: 548116
-MD5sum: 1155cd351a59926eb31d1be738fcef2e
-SHA1: 94fd9466ffc13f44ae3b3645975c27466b4db737
-SHA256: 3ed6b521805888cda26f5ef767faa2c6231adb73f91a5053709bd9cd5c4fdbc9
+Filename: pool/tur/python-tiktoken_0.8.0-1_arm.deb
+Size: 547908
+MD5sum: 61e5cd606e0830445045f390fc582e04
+SHA1: d81ecdc701d3bb7bbaf66f14e2d1e1c72bfed2b9
+SHA256: de29e6b8e5b4d05ea14aeb8352470fe573214d08bd77ea64fc196e11dab7cbc4
 Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
 
@@ -3408,16 +3408,16 @@ Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
 Package: python-tokenizers
-Version: 0.20.0
+Version: 0.20.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 4612
+Installed-Size: 4656
 Depends: libc++, python, python-pip
-Filename: pool/tur/python-tokenizers_0.20.0_arm.deb
-Size: 1470556
-MD5sum: 503d375691ca3f9d6059801e0889207e
-SHA1: f2c5e94f1e9ecffc08526ec2c4c934dbe4a341f4
-SHA256: 86e5c1bacad99c637d506956e80dd23889f0749ff3335227d1440ccbe2f3b4bf
+Filename: pool/tur/python-tokenizers_0.20.0-1_arm.deb
+Size: 1482292
+MD5sum: b8cfd61934c5f357ae0637c682f046da
+SHA1: d6260c1199207a7a9670bb78bbcce54d9dcccfdc
+SHA256: aad4dafd76e8ca4b0450bf84cd99d9b69506857d191e83896aadf31225746fbf
 Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
@@ -4647,10 +4647,10 @@ Maintainer: @termux
 Installed-Size: 80064
 Depends: glib (= 2.80.5-1)
 Filename: pool/tur/glib-cross_2.80.5-1_all.deb
-Size: 11846720
-MD5sum: 81f7fb9ec2b84049f099a6e1559e518b
-SHA1: 417dcfed5edf40dc5ed0783195a17b5c1279df0e
-SHA256: 7c865656980d22f073decc69a71c568bb2d66432c33f2a9cff443c729fc4fb29
+Size: 11838932
+MD5sum: 222a192ec2b469cc823716f5bea480f7
+SHA1: ca5e9f73ac36d57d96894dcd0c4c742ce7fe738c
+SHA256: 416e34dbc0e03e401203d95e44bf247762241fc0e6c82605abd182f3801eefa6
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
 
