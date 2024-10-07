@@ -93,31 +93,31 @@ Homepage: http://data.astrometry.net/
 Description: astrometry.net index data file 4115-4119, suitable for astro photos taken by phone main camera (AOV ~ 70 degrees)
 
 Package: astrometry.net-static
-Version: 0.96
+Version: 0.96-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 15436
-Depends: astrometry.net (= 0.96)
-Filename: pool/tur/astrometry.net-static_0.96_x86_64.deb
-Size: 2898428
-MD5sum: 3860f1ea457f820eade834974218f1c1
-SHA1: 417df1fe31b6a35c80261b742384933477c94183
-SHA256: 9f8e850dce08ffb0737a47f119b7b32901c882cd9ec8c586dac7d9e0624808a4
+Depends: astrometry.net (= 0.96-1)
+Filename: pool/tur/astrometry.net-static_0.96-1_x86_64.deb
+Size: 2901856
+MD5sum: 2b07841b4fb5d03cb93273a5a6baa33c
+SHA1: 4bdcdba2537e4fbce23e2045be3a4f0bd8d104b8
+SHA256: 60d2a78ab64116d99b7f3075fd0c476519d57356334406e0c112fd2232a539c9
 Homepage: https://astrometry.net/
 Description: Static libraries for astrometry.net
 
 Package: astrometry.net
-Version: 0.96
+Version: 0.96-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 53128
+Installed-Size: 53124
 Depends: cfitsio, curl, file, libandroid-glob, libbz2, libcairo, libjpeg-turbo, libpng, netpbm, python, python-numpy, python-fitsio, swig, wcslib, zlib
 Suggests: astrometry.net-data-basic
-Filename: pool/tur/astrometry.net_0.96_x86_64.deb
-Size: 7703128
-MD5sum: 0129313c524f51d2d3ee1c5ee91c2d8a
-SHA1: bbe03fb82a5658988ba08045577f5d7d4991660b
-SHA256: c3271f3d6c5df4332d6012854bd90cdeb868d19448bbf9f48c7d925887aa0e42
+Filename: pool/tur/astrometry.net_0.96-1_x86_64.deb
+Size: 7708704
+MD5sum: be571309a62a5d117018bb3c98a3c068
+SHA1: b8c325b86d1c82215f14d6c148b376e2558eda7c
+SHA256: ce9e29b7d2eea147c2de17c1a48f5c610a8dbb416d7945865f8cfb65462c6a59
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
@@ -217,16 +217,16 @@ Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
 Package: cfitsio
-Version: 4.5.0
+Version: 4.5.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 2100
+Installed-Size: 2096
 Depends: curl, zlib
-Filename: pool/tur/cfitsio_4.5.0_x86_64.deb
-Size: 551188
-MD5sum: c2a5a6dbde4d59c47d34344a9aabf642
-SHA1: 6ab23b5a4b78e865e2829790b84157f1dc0af0a3
-SHA256: 408820e05a46765a42c3001b709ec3358bc3ff57f871b0901a7c701291dc70d3
+Filename: pool/tur/cfitsio_4.5.0-1_x86_64.deb
+Size: 550940
+MD5sum: 1a5b38e356eabc73ee7ba44c234efdc0
+SHA1: bd1c0e48725e89b42ea2434e03a68d5ec1fb2fdb
+SHA256: a3badf736e2791c5953008e32dd93c20980b38fab00d5dcc84c883f0b4d4e698
 Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
