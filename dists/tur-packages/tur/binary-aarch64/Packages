@@ -3361,18 +3361,18 @@ Homepage: https://github.com/esheldon/fitsio
 Description: A python package for FITS input/output wrapping cfitsio
 
 Package: python-is-python3.10
-Version: 3.10.13
+Version: 3.10.15
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.10 (= 3.10.13)
+Depends: python3.10 (= 3.10.15)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.10_3.10.13_aarch64.deb
-Size: 2140
-MD5sum: 0980d67376f7a75d306becb11274e3b1
-SHA1: b0207f1a713b6a9c692cf1af317b1ed20bd66376
-SHA256: eb0d45092f0f74c957c68fd7eaf5c2fe66978a39f0ae6957e677fe122c9bf33e
+Filename: pool/tur/python-is-python3.10_3.10.15_aarch64.deb
+Size: 2144
+MD5sum: 7ac02c4fbb1a687dcc1ec2503760743c
+SHA1: 2dd8536c9890d6a0fdfe4df36f54bb2c3817d9f6
+SHA256: 7ea906e1f154e30d7e7fcc1bb64d45f1fe2160b8a2ae4115ec0a60a24a7948ad
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
@@ -3696,60 +3696,60 @@ Homepage: https://github.com/yt-dlp/yt-dlp
 Description: A youtube-dl fork with additional features and fixes
 
 Package: python3.10-cross
-Version: 3.10.13
+Version: 3.10.15
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 246656
-Filename: pool/tur/python3.10-cross_3.10.13_aarch64.deb
-Size: 43130196
-MD5sum: 5fb24e1850c501235a236c7ef7049c7e
-SHA1: 02bfe3e5213291b96f07f6ac3dac8bc355d79609
-SHA256: fa40b2f59418060983484a0b83aa6450578a2b9557cce0699bfe6d03d2903aa9
+Installed-Size: 247620
+Filename: pool/tur/python3.10-cross_3.10.15_aarch64.deb
+Size: 41015572
+MD5sum: f3fae269e492d1347813289ffb2691b6
+SHA1: c0dcbccd795e1e070248d3fe473f034ee1ff21c8
+SHA256: 21ed53a3fe8a4f1a812ccbc25050817899212dd2de76feda47936f2bf0724f85
 Homepage: https://python.org/
 Description: Python 3.10 for cross build on the host (NOT for Termux)
 
 Package: python3.10-static
-Version: 3.10.13
+Version: 3.10.15
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 23192
-Depends: python3.10 (= 3.10.13)
-Filename: pool/tur/python3.10-static_3.10.13_aarch64.deb
-Size: 3942644
-MD5sum: 68e9ea072245931076b64279a018ff33
-SHA1: c1bd81fb796a2a0ec8a2bc34ac88032110410b7f
-SHA256: a05ac2154b9c014782facb9ad0aba61f612ac6250cb0dfbd11faf67c771472ff
+Installed-Size: 24380
+Depends: python3.10 (= 3.10.15)
+Filename: pool/tur/python3.10-static_3.10.15_aarch64.deb
+Size: 4155580
+MD5sum: cf6c401d576b5ed76e4274c6a05b45e9
+SHA1: f3ee8ed551d3a0d03db2813ea1492a8d8edf888f
+SHA256: 1543612b228a5fec8f028f955e332eaf36f7c1bc1eb4a5704771d4202e2bbce5
 Homepage: https://python.org/
 Description: Static libraries for python3.10
 
 Package: python3.10-tkinter
-Version: 3.10.13
+Version: 3.10.15
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 8096
-Depends: tk, python3.10 (= 3.10.13)
-Filename: pool/tur/python3.10-tkinter_3.10.13_aarch64.deb
-Size: 960848
-MD5sum: 37d2967076d3d9d9aa7efebc1d1950ae
-SHA1: 65c7836b4fe02cbb65d538b2c0208ff8071611c7
-SHA256: 10af68f3be57e3fb47bdc9997017974af3682b8f3b5420267112258e6599d188
+Installed-Size: 8164
+Depends: tk, python3.10 (= 3.10.15)
+Filename: pool/tur/python3.10-tkinter_3.10.15_aarch64.deb
+Size: 986044
+MD5sum: e11d84befb06b74fe2db9d22062f61ca
+SHA1: 3a6b9fbcaa9c65021b9d9a6c5e7f07ddf8449aec
+SHA256: 83bd70e6712b713e7106b8df26ae3128e81f8d939d774b27ee6e48cc00b84914
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.10
 
 Package: python3.10
-Version: 3.10.13
+Version: 3.10.15
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 49380
+Installed-Size: 49556
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.10-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.13_aarch64.deb
-Size: 9197896
-MD5sum: 6ed13a9def0ba3ea2344b03f31c2671c
-SHA1: f3eebe82fb3effe1a8a790fa184ecceca14a4098
-SHA256: e852ebd4f611f550a5e31e52aada4dd1617ac881eaab35c52c98774ba37274b1
+Filename: pool/tur/python3.10_3.10.15_aarch64.deb
+Size: 9321260
+MD5sum: 91195b954bb9a3b51b5ec4dd70a33aa0
+SHA1: 5b20e66c3f14c4710113929b6155f77218023073
+SHA256: 95556d2b108ebd73693ba599c95cbd46c3bab3059b245d6e18cc28594a1389bf
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
 
