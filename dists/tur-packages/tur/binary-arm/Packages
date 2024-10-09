@@ -3148,34 +3148,34 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.7
 
 Package: python-is-python3.8
-Version: 3.8.18
+Version: 3.8.20
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.8 (= 3.8.18)
+Depends: python3.8 (= 3.8.20)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.8_3.8.18_arm.deb
+Filename: pool/tur/python-is-python3.8_3.8.20_arm.deb
 Size: 2020
-MD5sum: 1971a0e77c7d3a54f37c757be5f532ac
-SHA1: a011d4f5e78dbfe38dbdf3c2ce37f42d8fb2bcbc
-SHA256: fb00b76ff883a7742ce8850a72d5b746efb30a7727b3f0b0bb86ceb24fc34099
+MD5sum: 97f87962a2d51a59a0a06ebdd39b5172
+SHA1: cd218e724b21eb458b7875da11f0946035de24e4
+SHA256: a44e53612e26af2650e2f77d9a51b4b8c53dc14786bb5d4715aad90daf532326
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.8
 
 Package: python-is-python3.9
-Version: 3.9.18
+Version: 3.9.20
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.9 (= 3.9.18)
+Depends: python3.9 (= 3.9.20)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.9_3.9.18_arm.deb
-Size: 2012
-MD5sum: 368affa948f67899d969849a510e4ec0
-SHA1: a0abc5b505409ddf4d1c83234e3978dc6cd9ec47
-SHA256: 8a53fff0502e356bf0339f5253e8f6fc6fdd40723f33cee88c5ed6f94b48f138
+Filename: pool/tur/python-is-python3.9_3.9.20_arm.deb
+Size: 2024
+MD5sum: 500ec756777d3d90cf6b7f7465c51d54
+SHA1: 758f7167bcbe690957b6153ec3633cf725261fcf
+SHA256: 6e3e18a3a55f2538f6041fe42b641ffa2f2ff4df70166cdbfc8343af8646db82
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
@@ -3553,118 +3553,118 @@ Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.7)
 
 Package: python3.8-cross
-Version: 3.8.18
+Version: 3.8.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 225964
-Filename: pool/tur/python3.8-cross_3.8.18_arm.deb
-Size: 40767700
-MD5sum: 85ee8300f4e1ea86b63304e4daed72da
-SHA1: a96076b01e65e40917bb653462b5da8182707a39
-SHA256: 60b7f99357517e85aea77311309ef201d9b462cf07dbf8fa985042f5392307ba
+Installed-Size: 224240
+Filename: pool/tur/python3.8-cross_3.8.20_arm.deb
+Size: 37065048
+MD5sum: a530058add6e4dcd21e9ec9578d9ece3
+SHA1: f4c94d1552dc66b6ae10a474653cad3fe7e760ad
+SHA256: 5ae216fae0cd2ea6ed850330feda46c4a79b01047fd45450c224df6aa14746fb
 Homepage: https://python.org/
 Description: Python 3.8 for cross build on the host (NOT for Termux)
 
 Package: python3.8-static
-Version: 3.8.18
+Version: 3.8.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 10808
-Depends: python3.8 (= 3.8.18)
-Filename: pool/tur/python3.8-static_3.8.18_arm.deb
-Size: 3036968
-MD5sum: 050b9175a232292e87b0a0d90ab0ed84
-SHA1: 181f3402a9b65774aab633371fc421f0ad62551e
-SHA256: c1b3690c740a17cf8d704611868f98d8f021301bdfe58bf73944efaa83c6ecb8
+Installed-Size: 11220
+Depends: python3.8 (= 3.8.20)
+Filename: pool/tur/python3.8-static_3.8.20_arm.deb
+Size: 3190784
+MD5sum: e8c44fc32c009b09442a1feb12b4362d
+SHA1: 8f54afb23442bde0edfedc78213a09d2e7d99b54
+SHA256: 2a5fa2603b26e3ee315a50035c276fd37a473c262947d5a941b5d36548b45277
 Homepage: https://python.org/
 Description: Static libraries for python3.8
 
 Package: python3.8-tkinter
-Version: 3.8.18
+Version: 3.8.20
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 7932
-Depends: tk, python3.8 (= 3.8.18)
-Filename: pool/tur/python3.8-tkinter_3.8.18_arm.deb
-Size: 895192
-MD5sum: fca6e21fc67ba3f81629a0d1896ec934
-SHA1: 97032e3cb1e0d6bc530af93cea61d214078ff2bd
-SHA256: d22922ad2c873fc97f4742552f2e84c917ef6dd906e2fcea421b40f850327dfd
+Depends: tk, python3.8 (= 3.8.20)
+Filename: pool/tur/python3.8-tkinter_3.8.20_arm.deb
+Size: 903844
+MD5sum: 14fd2d4faf18300940132736aa706971
+SHA1: c3511d7bab7b2dce6741e209a4231c231ad57841
+SHA256: 6ddfe8b194971eeff31d4ed905acc157292b326be5ca72e852108482fba8d4d1
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.8
 
 Package: python3.8
-Version: 3.8.18
+Version: 3.8.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 48856
+Installed-Size: 46820
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.8-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.8_3.8.18_arm.deb
-Size: 10836588
-MD5sum: 8fabb7b864551e73b3f7ef1553a07a40
-SHA1: f5522e2d28d63390f3b1317c2c661a0c4de4cf68
-SHA256: afc5d27b4a6835653674e503f0073fbd9f4bc2176f468b5b0917797770e6aedf
+Filename: pool/tur/python3.8_3.8.20_arm.deb
+Size: 9216272
+MD5sum: 9cd4dd5337b0a8e3799e944854d51b83
+SHA1: d1c5cc97cf7311033ff1a3e8475e2e401fcb1c24
+SHA256: 3fe96a5f5e40cb881fc01e9096ecb56c2a347e9272057093323bc1a7c7863ff1
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.8)
 
 Package: python3.9-cross
-Version: 3.9.18
+Version: 3.9.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 233368
-Filename: pool/tur/python3.9-cross_3.9.18_arm.deb
-Size: 40999668
-MD5sum: ee327d24fe5ecd646600fe512eaa6346
-SHA1: fcd491c2810df4fa31224084a1ca24dca5ded708
-SHA256: 94e381f13a2a72f742b1cb84227437e6e71d1418acccca712260f089e7e661f8
+Installed-Size: 233348
+Filename: pool/tur/python3.9-cross_3.9.20_arm.deb
+Size: 38484460
+MD5sum: 8befe36deb06ae812156ab6a057610f2
+SHA1: 2de4cd52eb19d73f8fcd3a4a15a0fddb823baf2b
+SHA256: 93db2ef09014cf185cbf331c22707a9bed68dfd58e8b7179e97569b4e94fe194
 Homepage: https://python.org/
 Description: Python 3.9 for cross build on the host (NOT for Termux)
 
 Package: python3.9-static
-Version: 3.9.18
+Version: 3.9.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 12392
-Depends: python3.9 (= 3.9.18)
-Filename: pool/tur/python3.9-static_3.9.18_arm.deb
-Size: 3437832
-MD5sum: c80b664163d9d04034f57cbeeb2a1473
-SHA1: 9182924ef80c19305fec9104c8c934960f502bed
-SHA256: 91dd9fe3a978b3a8416db796bc0f811f1db5ee16e9ef4266b377c3ee2c4c833e
+Installed-Size: 12748
+Depends: python3.9 (= 3.9.20)
+Filename: pool/tur/python3.9-static_3.9.20_arm.deb
+Size: 3567964
+MD5sum: f008062a5494fe5283449662eea74211
+SHA1: 5b314f1b028e7aac45a31dee36ac3716b8e5c2c6
+SHA256: f81c565c04eb4c10ecd5a5e4a652f727638e5dee0f7c2dc6f635a143958f98c7
 Homepage: https://python.org/
 Description: Static libraries for python3.9
 
 Package: python3.9-tkinter
-Version: 3.9.18
+Version: 3.9.20
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 7980
-Depends: tk, python3.9 (= 3.9.18)
-Filename: pool/tur/python3.9-tkinter_3.9.18_arm.deb
-Size: 928216
-MD5sum: b68533e486850bf95e2e5efb7f2c2c20
-SHA1: 3bef3908acf88ceea2a4462f1612664945014534
-SHA256: 0dcd541692fc4fc59520b04af6110695df7d7bce113d152e6e532451df821b39
+Depends: tk, python3.9 (= 3.9.20)
+Filename: pool/tur/python3.9-tkinter_3.9.20_arm.deb
+Size: 936348
+MD5sum: 2bf84fe064626679d2421541e2b863bb
+SHA1: 11d38880baa9dcb83cd82a7c1f8369078e14442b
+SHA256: afcfb8872c04b2675404d14b6ddda1de035ce8f5954aa08c4e554f03c67ef3e5
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
 Package: python3.9
-Version: 3.9.18
+Version: 3.9.20
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 45692
+Installed-Size: 45712
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.18_arm.deb
-Size: 8683384
-MD5sum: d701b365986e3959aaf09731ae1daf48
-SHA1: 9f87727a72eb2e564318b9d96eb1a0092bd7fd9f
-SHA256: d1a97cd391915c729f6f3ecaab56f700ed900d33f94b4003975a751205021cab
+Filename: pool/tur/python3.9_3.9.20_arm.deb
+Size: 8771368
+MD5sum: 258d33311a4e09a9fd89c2e93cd6c412
+SHA1: 53a5153f1d9799290d66c0fb6cbf4da9cb82783f
+SHA256: f25c79e110258e3842707f07f81bc7bd10c1604661596db55e2259fbe1c3a298
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
