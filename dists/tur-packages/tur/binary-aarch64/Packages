@@ -3376,6 +3376,22 @@ SHA256: 7ea906e1f154e30d7e7fcc1bb64d45f1fe2160b8a2ae4115ec0a60a24a7948ad
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
+Package: python-is-python3.11
+Version: 3.11.10
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.11 (= 3.11.10)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.11_3.11.10_aarch64.deb
+Size: 2152
+MD5sum: a3174e68c98d01d523f249efb272b656
+SHA1: b855beb481a52acad49397dd84a1d783b69beec8
+SHA256: 07b078b85b1ad7ff5d13b0e815266ec809ee78e350a8363be400e56a0a4b2bdc
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.11
+
 Package: python-is-python3.7
 Version: 3.7.17
 Architecture: aarch64
@@ -3752,6 +3768,62 @@ SHA1: 5b20e66c3f14c4710113929b6155f77218023073
 SHA256: 95556d2b108ebd73693ba599c95cbd46c3bab3059b245d6e18cc28594a1389bf
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
+
+Package: python3.11-cross
+Version: 3.11.10
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 366148
+Filename: pool/tur/python3.11-cross_3.11.10_aarch64.deb
+Size: 52066480
+MD5sum: 665192cead5c14eb9c448b78cbf7b63c
+SHA1: 458509b080bbc462db70b3d783cef4db11a41b24
+SHA256: 0541af88ade9b2dcef9a8390621c41cb0da31553b842f0fa50249e8b91325dca
+Homepage: https://python.org/
+Description: Python 3.11 for cross build on the host (NOT for Termux)
+
+Package: python3.11-static
+Version: 3.11.10
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 34252
+Depends: python3.11 (= 3.11.10)
+Filename: pool/tur/python3.11-static_3.11.10_aarch64.deb
+Size: 5316332
+MD5sum: 30c27d26f4b98d5644859a365601da6f
+SHA1: d0325ff9a100e53ba716fcdfe4f29c19beaabb5b
+SHA256: 4cf1aeeed704e683a5d76bd6dac3019de49bff5e3b0501b9a77dbb3babfa5373
+Homepage: https://python.org/
+Description: Static libraries for python3.11
+
+Package: python3.11-tkinter
+Version: 3.11.10
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 11752
+Depends: tcl, tk, python3.11 (= 3.11.10)
+Filename: pool/tur/python3.11-tkinter_3.11.10_aarch64.deb
+Size: 1243728
+MD5sum: 0d2e238a2504bf8f4e9cab5565fba35c
+SHA1: f093fb26b0e35787332a938a0fbb1c97dbc22131
+SHA256: 8a3757e5d531399f9a6de8e5ace26716bc9171ad6fe763eca0cf077091f6df5b
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.11
+
+Package: python3.11
+Version: 3.11.10
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 65056
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Suggests: python3.11-tkinter
+Filename: pool/tur/python3.11_3.11.10_aarch64.deb
+Size: 10793028
+MD5sum: 57da3d560be4f2c0654b5e4955fc1cd7
+SHA1: 2686ad7570d0b17966342c45b2fff429faec3c02
+SHA256: ba41e8f2d4ac28c8242c25b3f0d66481d306495c4cfcec70335ec775ec701e06
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.11)
 
 Package: python3.7-cross
 Version: 3.7.17
