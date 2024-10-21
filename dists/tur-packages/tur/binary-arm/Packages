@@ -1789,6 +1789,34 @@ SHA256: 08013deec85b422f5450299d670ce11ac67eb1feb7f8676f9001211fef05fadb
 Homepage: https://sourceforge.net/projects/libmwaw/
 Description: Import library for some old mac text documents.
 
+Package: libnids-static
+Version: 1.26-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 68
+Depends: libnids (= 1.26-1)
+Filename: pool/tur/libnids-static_1.26-1_arm.deb
+Size: 15496
+MD5sum: c5e37fa20f0515a01b64339785d25c73
+SHA1: 084cc541c1460ee7d90221b1019919ce7b8dd320
+SHA256: 211a34758febc97ec0996a7534249ad465606e4339f84c7adbf0f1838cbb1b46
+Homepage: http://libnids.sourceforge.net/
+Description: Static libraries for libnids
+
+Package: libnids
+Version: 1.26-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 88
+Depends: glib, libnet, libnsl, libpcap, libtirpc
+Filename: pool/tur/libnids_1.26-1_arm.deb
+Size: 19644
+MD5sum: 041b7106764d24c30b327c288b2b077a
+SHA1: 4d57212fc7c7c1ce6bd342fc8d15c4e8b34e13a0
+SHA256: 087cc5c7d928f6197056d4fa310b910f02b85f22ffe66fe192fc72385a30524f
+Homepage: http://libnids.sourceforge.net/
+Description: An implementation of an E-component of Network Intrusion Detection System
+
 Package: libnsl-static
 Version: 2.0.1-1
 Architecture: arm
