@@ -1677,6 +1677,34 @@ SHA256: 25076712cd9961c51672b2ead2f24cc3651963d343d189d63f3b2a52e9b1beba
 Homepage: https://sourceforge.net/projects/libmwaw/
 Description: Import library for some old mac text documents.
 
+Package: libnsl-static
+Version: 2.0.1-1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 68
+Depends: libnsl (= 2.0.1-1)
+Filename: pool/tur/libnsl-static_2.0.1-1_i686.deb
+Size: 9744
+MD5sum: 6105d8d2b556c3333710f503b0b2dfe8
+SHA1: 0dc2a7506ef6aded165304afe328f80151bddb2d
+SHA256: 2542800dfcdbbed157a9ac5607a8d860383a95d6bb04b0693b06624f079e9123
+Homepage: https://github.com/thkukuk/libnsl
+Description: Static libraries for libnsl
+
+Package: libnsl
+Version: 2.0.1-1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 128
+Depends: libtirpc
+Filename: pool/tur/libnsl_2.0.1-1_i686.deb
+Size: 17764
+MD5sum: 11a3f67c6209e969e4cab095388cb79e
+SHA1: 0290c260b688d3331767cd2f2613695fe4bc2829
+SHA256: 17deccac59085b2d136f072ff4c5adb916c6fe0552808dae21105b7fae6acc58
+Homepage: https://github.com/thkukuk/libnsl
+Description: This library contains the public client interface for NIS(YP) and NIS+ in a IPv6 ready version
+
 Package: libnumbertext-static
 Version: 1.0.11
 Architecture: i686
