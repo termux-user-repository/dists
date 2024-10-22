@@ -52,6 +52,20 @@ SHA256: a1cfd8d06ac77f7a8e3db2c7fc4a00f7257722e86b71894ebc976b094298988d
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
+Package: dsniff
+Version: 2.4b1+debian-31-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 392
+Depends: libdb, libnet, libnids, libnsl, libpcap, libtirpc, openssl
+Filename: pool/tur-hacking/dsniff_2.4b1+debian-31-1_x86_64.deb
+Size: 77824
+MD5sum: 5e1a9ee46773560394f750d5158c3ea7
+SHA1: bb19f2a6ecf88cf6882c5ac3358ac69d24e7e919
+SHA256: 25420664fcfb5b56d846a341bf31698f9eee322eca5d22ef2dee6860b7d6158f
+Homepage: https://monkey.org/~dugsong/dsniff/
+Description: Collection of tools for network auditing and penetration testing
+
 Package: ettercap
 Version: 0.8.3.1-10
 Architecture: x86_64
