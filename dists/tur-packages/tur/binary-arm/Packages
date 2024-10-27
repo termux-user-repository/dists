@@ -4124,58 +4124,58 @@ Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
-Version: 1:7.8.2
+Version: 1:7.8.3
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 5448
-Depends: suitesparse (= 1:7.8.2)
-Filename: pool/tur/suitesparse-static_1:7.8.2_arm.deb
-Size: 1533976
-MD5sum: 845b459d81cabdd6d3dc30cc1faf71a1
-SHA1: f08d2dbd4b37cdb87fa0d7419942b62188dc1f37
-SHA256: 91660253d0a6af13c1864f2cad27c695fd07e9b0d6c73694de903026ec4232d5
+Depends: suitesparse (= 1:7.8.3)
+Filename: pool/tur/suitesparse-static_1:7.8.3_arm.deb
+Size: 1532696
+MD5sum: a58966d48d62799f379357b3418263fc
+SHA1: 7e883b7f0b1ab1ac10372c03b8a7615a2fb91db1
+SHA256: f69cb42d3b175f8234a491139560343260ad6de8be8ebd5f21808e60bb169129
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: Static libraries for suitesparse
 
 Package: suitesparse
-Version: 1:7.8.2
+Version: 1:7.8.3
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 117884
 Depends: libandroid-complex-math, blas-openblas, libopenblas, libgmp, libmpfr
-Filename: pool/tur/suitesparse_1:7.8.2_arm.deb
-Size: 17794684
-MD5sum: af4759a4347272e0d5099805e00c160f
-SHA1: e54f4fa9c9d3ffd6d200eb8e0bb3c949114f59fb
-SHA256: 89fc407b8c776a0cfbefdd2135cf6009e4a64e5f917fb0d0c6e51472cef359cc
+Filename: pool/tur/suitesparse_1:7.8.3_arm.deb
+Size: 17794464
+MD5sum: a8d6d8cfd36df05091d0a88e19e274df
+SHA1: b8af9c3c4b7b9aaa770ff17f63b1e30c4fa696c9
+SHA256: b9ef3d380d618600fa6495e3ab370570909e9a1e77d7e588a36b5a7de6a8d9ff
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
 Package: sundials-static
-Version: 1:7.1.1
+Version: 1:7.1.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2072
-Depends: sundials (= 1:7.1.1)
-Filename: pool/tur/sundials-static_1:7.1.1_arm.deb
-Size: 411760
-MD5sum: ce358ff5f4fcf183f8f1aa99ec276180
-SHA1: 30b0e72fc84484f8a17c22fbe4f5322a310e82e5
-SHA256: 10281a4c3c2c69eda1cfd1ab3a905f6da7e212eb54bb7192b55cfcb5361565ea
+Depends: sundials (= 1:7.1.1-1)
+Filename: pool/tur/sundials-static_1:7.1.1-1_arm.deb
+Size: 411312
+MD5sum: a4b8d30a3469ca64fed85b3dc0c66d0a
+SHA1: d7faf81c88b1bcfbeef046e940e7e63bed31693a
+SHA256: 411dd168bef9180cbd3adc7429ebd4fdf9c9bda6ab4adda9b776ba4e42d1c6de
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: Static libraries for sundials
 
 Package: sundials
-Version: 1:7.1.1
+Version: 1:7.1.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2572
 Depends: libopenblas, suitesparse
-Filename: pool/tur/sundials_1:7.1.1_arm.deb
-Size: 544960
-MD5sum: b458b3b1ab5868cb4376d3cc9fb2b179
-SHA1: 34724089eb93add460bda2ee44e3892ce802daf1
-SHA256: 2ddebeb3d8aca4ff3697e31fdea3671c1ebb72a4d46bcc5d1098c27e3af31f17
+Filename: pool/tur/sundials_1:7.1.1-1_arm.deb
+Size: 544912
+MD5sum: 7e6e96cac47fb0c91f2cfdfd571b6c8a
+SHA1: 4c83ecec30fdc68a2a05a8509b85e1f0d6b70e47
+SHA256: cb37c5b9c65404111735f50222ebe7be1adf318f9434bc42552b9b37aa682990
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
