@@ -966,6 +966,48 @@ SHA256: b1f41d609531c478e409354166d045a2d6b8f8439fa4e2abef278416480f645e
 Homepage: https://github.com/eeeXun/GTT
 Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
+Package: hangover-libarm64ecfex
+Version: 9.20-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 5036
+Filename: pool/tur/hangover-libarm64ecfex_9.20-2_aarch64.deb
+Size: 802868
+MD5sum: bda5ba7bd94c4e5a208d763cf1e60f1a
+SHA1: bf783e6b3a61acc3328e4fb83357fd66e823d016
+SHA256: 630a2e96c8152231ad8baf10579b18846255a104ff53ca938972075a0f73eacb
+Homepage: https://github.com/AndreRH/hangover
+Description: FEX based x86-64 emulator library for Hangover
+
+Package: hangover-libwow64fex
+Version: 9.20-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4476
+Filename: pool/tur/hangover-libwow64fex_9.20-2_aarch64.deb
+Size: 719864
+MD5sum: 2078890f38d321db647d9328ce867944
+SHA1: 5399627cdfccb8786dc82f6c443e259586487ca4
+SHA256: 051c52ed06f87b616ede537e006834046472a96b7edd0659b9cc5a2e963d7f91
+Homepage: https://github.com/AndreRH/hangover
+Description: FEX based x86 emulator library for Hangover
+
+Package: hangover-wine
+Version: 9.20-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 605124
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Conflicts: wine-devel, wine-stable, wine-staging
+Breaks: wine-devel, wine-stable, wine-staging
+Filename: pool/tur/hangover-wine_9.20-2_aarch64.deb
+Size: 64434812
+MD5sum: 9cd499c1c8d9f807fbf80f8a885394f2
+SHA1: 4be57475fd396f7535a0c311e600f740313ab978
+SHA256: 87e27ea50d028ffe764f696d917733704d66fef322cd9f6239da800a113829a5
+Homepage: https://github.com/AndreRH/hangover
+Description: A compatibility layer for running Windows programs (Hangover fork)
+
 Package: hare-cross
 Version: 20230423
 Architecture: aarch64
@@ -5107,6 +5149,20 @@ SHA1: ca5e9f73ac36d57d96894dcd0c4c742ce7fe738c
 SHA256: 416e34dbc0e03e401203d95e44bf247762241fc0e6c82605abd182f3801eefa6
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
+
+Package: hangover
+Version: 9.20-2
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 64
+Depends: hangover-libwow64fex, hangover-libarm64ecfex, hangover-wine (= 9.20-2)
+Filename: pool/tur/hangover_9.20-2_all.deb
+Size: 9680
+MD5sum: fd714aecdc8b9bf5a9275f4b3e4329e5
+SHA1: 3ad103811e61dbe391dfdec839baa3c77ea64ef3
+SHA256: 115a0bff06bc93e8ce6b0284f6fcc6f5db9abe695f372d68c804d1e252da255b
+Homepage: https://github.com/AndreRH/hangover
+Description: Hangover runs simple Win64 and Win32 applications on arm64 Linux
 
 Package: mesa-zink-dev
 Version: 22.0.5-5

@@ -4796,6 +4796,20 @@ SHA256: 416e34dbc0e03e401203d95e44bf247762241fc0e6c82605abd182f3801eefa6
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
 
+Package: hangover
+Version: 9.20-2
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 64
+Depends: hangover-libwow64fex, hangover-libarm64ecfex, hangover-wine (= 9.20-2)
+Filename: pool/tur/hangover_9.20-2_all.deb
+Size: 9680
+MD5sum: fd714aecdc8b9bf5a9275f4b3e4329e5
+SHA1: 3ad103811e61dbe391dfdec839baa3c77ea64ef3
+SHA256: 115a0bff06bc93e8ce6b0284f6fcc6f5db9abe695f372d68c804d1e252da255b
+Homepage: https://github.com/AndreRH/hangover
+Description: Hangover runs simple Win64 and Win32 applications on arm64 Linux
+
 Package: mesa-zink-dev
 Version: 22.0.5-5
 Architecture: all
