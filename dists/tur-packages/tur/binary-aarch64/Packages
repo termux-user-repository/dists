@@ -782,17 +782,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-13
-Version: 13.2.0
+Version: 13.3.0
 Architecture: aarch64
 Maintainer: @licy183
-Installed-Size: 230456
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Installed-Size: 231632
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-13_13.2.0_aarch64.deb
-Size: 54909784
-MD5sum: 871dac6844f5f3b3029ded94361a849b
-SHA1: e0fdcd67c49ef607e70865716c8ad5a285c4dc9f
-SHA256: 445c81fbd218db2ca4f0351a0d25c9971e00a4a94d66857fa703f793043b86bd
+Filename: pool/tur/gcc-13_13.3.0_aarch64.deb
+Size: 55403840
+MD5sum: dabc63a2384f43f8d04f3ef1547a7f21
+SHA1: 6d1b4b9b036e54b4ffb3ede60c44954374b58246
+SHA256: 101f0f0e61cf60e68f4a3e8775563ae43023290459ddeb9ef472467768c1f5c7
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
