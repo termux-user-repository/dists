@@ -767,17 +767,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-12
-Version: 12.3.0
+Version: 12.4.0
 Architecture: aarch64
 Maintainer: @licy183
-Installed-Size: 212580
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact
+Installed-Size: 213192
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-12_12.3.0_aarch64.deb
-Size: 49788560
-MD5sum: dcbf697862bfb51e992d7d42bf2afbce
-SHA1: a5836c9e50c18657616a8c88520fcf6a3dd5e425
-SHA256: c5eb739e1bd9f820353457374f25b69bbd370519447f5dd12c67d0c32e5523cf
+Filename: pool/tur/gcc-12_12.4.0_aarch64.deb
+Size: 50262524
+MD5sum: e2520b386207f13de7c8a8dd15e15e72
+SHA1: 978359fd162ca5246e45cc28cd90ac88bf906f10
+SHA256: be9083c11d7353892e1988b0a92cb086bc6b4be838b87831d8142e1ba210e29d
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
