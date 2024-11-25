@@ -258,6 +258,20 @@ SHA256: 03abd05627ab7357586b97b787c5666c32f9ce2c064d760ec6748ffbcb262fbc
 Homepage: http://zakalwe.fi/~shd/foss/cksfv
 Description: SFV (Simple File Verification) Checker
 
+Package: clanbomber
+Version: 2.3
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 3480
+Depends: boost, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
+Filename: pool/tur/clanbomber_2.3_x86_64.deb
+Size: 2062424
+MD5sum: ee63f1bc902b13fc7549be3f42695326
+SHA1: a249cb0f6b036bbe0f23c882b5b5289aa3724d7b
+SHA256: bf61b9b705e555fde1695d5fbf151cfbfcec66b224cfa209ef5f8b988aad9ad9
+Homepage: https://www.nongnu.org/clanbomber
+Description: The goal of ClanBomber is to blow away your opponents using bombs, but avoid being blown up yourself.
+
 Package: clang-16
 Version: 1:16.0.6-1
 Architecture: x86_64
