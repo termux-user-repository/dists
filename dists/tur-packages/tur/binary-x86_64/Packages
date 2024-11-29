@@ -317,32 +317,32 @@ Homepage: http://clucene.sourceforge.net/
 Description: C++ port of the high-performance text search engine Lucene
 
 Package: code-is-code-oss
-Version: 1.90.0
+Version: 1.90.1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 64
-Depends: code-oss (= 1.90.0)
+Depends: code-oss (= 1.90.1)
 Conflicts: code
 Breaks: code
-Filename: pool/tur/code-is-code-oss_1.90.0_x86_64.deb
-Size: 2512
-MD5sum: 6eeaaa2bad981cf20626a03a40909f5d
-SHA1: d88030cef1eb097f21d26c4cf74adf852a24d235
-SHA256: 4970ee2fd8491acacc68a539b322589c42384b17c2b3bd4537075ebb2c5749bb
+Filename: pool/tur/code-is-code-oss_1.90.1_x86_64.deb
+Size: 2516
+MD5sum: 65b36b45b79a61a06d6b590e6a6cad5e
+SHA1: 74ab550523b37b167926a55007b0db548993127f
+SHA256: 3e30148bb3703db3fd32094dc80b683748be04d4cace38eba9031999f61d8066
 Homepage: https://github.com/microsoft/vscode
 Description: Symlinks code/vscode to code-oss
 
 Package: code-oss
-Version: 1.90.0
+Version: 1.90.1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 379000
+Installed-Size: 378972
 Depends: electron-deps, libx11, libxkbfile, libsecret, ripgrep
-Filename: pool/tur/code-oss_1.90.0_x86_64.deb
-Size: 74311844
-MD5sum: 856d38f9eddee37678d850748463f418
-SHA1: 969179efa433ebb15da569fb8341a43a6351c525
-SHA256: f149320bb6d00b7cf2bad1b6ce1e48828d1bb6b879dbc8d2c87021816a23d6b3
+Filename: pool/tur/code-oss_1.90.1_x86_64.deb
+Size: 74307024
+MD5sum: f3e64a481ee4e50fc434e55d10c35773
+SHA1: e8ddaacc9b5290eb334047fee9fa8325941d1eae
+SHA256: 36fcfad1e0a8000d52b3d2c42bcd5247523ca17ce69aabd1c85499eedc9d56fa
 Homepage: https://github.com/microsoft/vscode
 Description: Visual Studio Code
 
