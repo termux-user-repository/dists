@@ -9,7 +9,7 @@ on:
   
 jobs:
   Updating_dist:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     concurrency: build_dists
     steps:
       - name: Check out repository code
