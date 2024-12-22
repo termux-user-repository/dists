@@ -41,7 +41,7 @@ upload_debs() {
     list_non_upload_debs
     pushd $DEB_DIR
     for deb in *.deb;do
-        modified_name=${deb/+([^a-zA-Z0-9.+_-])/.}
+        modified_name="$(echo "$a" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
         mv -n $deb $modified_name
     done
     for deb_name in $(cat $non_uploaded_list); do
