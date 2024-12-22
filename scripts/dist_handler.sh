@@ -70,10 +70,11 @@ add_package_metadata() {
         shopt -s nullglob
         for deb_file in debs/*.deb;do
             deb_file=$(basename $deb_file)
+            deb_file_after_sed="$(echo "$deb_file" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
             echo "scanning $deb_file"
-            dpkg-scanpackages debs/$deb_file >| $POOL_DIR/$repo_component/$deb_file 
+            dpkg-scanpackages debs/$deb_file >| $POOL_DIR/$repo_component/$deb_file
             ## update Filename: indices to relative path
-            sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file" $POOL_DIR/$repo_component/$deb_file
+            sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file_after_sed" $POOL_DIR/$repo_component/$deb_file
         done
         shopt -u nullglob
         mv -f debs/* $PROCESSED_DEB
