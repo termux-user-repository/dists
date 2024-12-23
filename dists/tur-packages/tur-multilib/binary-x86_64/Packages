@@ -139,22 +139,6 @@ SHA256: 83052d72caf109f69fb68d1c5ccb4fc8b36d3b49c7f879063de126b97571d5c1
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
-Package: wine-devel
-Version: 9.21
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 993852
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Conflicts: hangover-wine, wine-stable, wine-staging
-Breaks: hangover-wine, wine-stable, wine-staging
-Filename: pool/tur-multilib/wine-devel_9.21_x86_64.deb
-Size: 141210620
-MD5sum: 1374bab6d8dad36660f954b4eda02000
-SHA1: 694473e85b5f73fb09b356fc8f8e1bf141cdfe1b
-SHA256: 6d83f1ad4927dad6954b0a7349227d28345a3cb861950f63cd2cfbdf0c4e143c
-Homepage: https://www.winehq.org/
-Description: A compatibility layer for running Windows programs
-
 Package: wine-stable
 Version: 9.0
 Architecture: x86_64
@@ -170,18 +154,18 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-staging
-Version: 9.22
+Version: 10.0~rc2
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 1031632
+Installed-Size: 1032672
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
 Conflicts: hangover-wine, wine-stable, wine-devel
 Breaks: hangover-wine, wine-stable, wine-devel
-Filename: pool/tur-multilib/wine-staging_9.22_x86_64.deb
-Size: 144615560
-MD5sum: cc9ef7baf2e8f4c3917491ade99fa5ad
-SHA1: ce97049a34dea1342f95e86f253929783d479cc6
-SHA256: e45a3188946cb04e74665daadf941342fc01f747afc151a75c0f268124ac5757
+Filename: pool/tur-multilib/wine-staging_10.0.rc2_x86_64.deb
+Size: 144934996
+MD5sum: 3d0e56621fd461ab64ed2d70968599e7
+SHA1: 74b8bf9cc8a75ec2c8ec9b57f9c3a81b19e176cc
+SHA256: 8f85b81e6ea904228d4e2e8a1a18295635996cee9434467b6a9b90abf6a780a4
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 

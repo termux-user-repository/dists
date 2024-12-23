@@ -1,16 +1,16 @@
 Package: wine-devel
-Version: 9.21
-Architecture: aarch64
+Version: 10.0~rc2
+Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 554200
+Installed-Size: 496924
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
 Conflicts: hangover-wine, wine-stable, wine-staging
 Breaks: hangover-wine, wine-stable, wine-staging
-Filename: pool/tur-multilib/wine-devel_9.21_aarch64.deb
-Size: 72057300
-MD5sum: 4d51f6b8e0c2033ed608053225f35958
-SHA1: 0b64d6c0d3dd1ba1fd75d46660ab4fc965d0bff7
-SHA256: bd8cbff9e0216bc3938b3c0f150d8f20dee146e1eba1ad049c2a5e20a92389c8
+Filename: pool/tur-multilib/wine-devel_10.0.rc2_arm.deb
+Size: 69536732
+MD5sum: 8f9934b3aa19408fb1dcc7c3b048716b
+SHA1: 1a2b44c5aff8adf24440f344be6bd1c41dc019bb
+SHA256: 9d4befe9c0716719afec3dcaf09065a55af167ef5b777c6d02ce770440d3089b
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
