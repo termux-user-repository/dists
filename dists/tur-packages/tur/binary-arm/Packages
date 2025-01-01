@@ -331,6 +331,20 @@ SHA256: dcf604dc9544129c82e36171189fcfb43b547f9e55d5feffcc3e74e6fc9772f2
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
+Package: comcom64
+Version: 0.2
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 1044
+Depends: dj64dev
+Filename: pool/tur/comcom64_0.2_arm.deb
+Size: 354116
+MD5sum: 7c466625a1e107f3e3b90785f253cfd2
+SHA1: df265a66a1ef68f9066056c48f784738b96c1d45
+SHA256: fafe42c449d7fc8d84ad7ed3ea082ed5a8e444ba5f90f380bc0828258393fee8
+Homepage: https://github.com/dosemu2/comcom64
+Description: 64bit command.com
+
 Package: cppunit-static
 Version: 1.15.1-1
 Architecture: arm
@@ -357,6 +371,19 @@ SHA1: ef5ba4ad377c859b4cc4c7b55b40fdbf64020619
 SHA256: 458643b13e58bf4a18314b04842ed9153dc5c329e2dc55327616084ab0db3e55
 Homepage: https://www.freedesktop.org/wiki/Software/cppunit
 Description: A C++ unit testing framework
+
+Package: ctags-cross
+Version: 2:6.1.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 17780
+Filename: pool/tur/ctags-cross_2:6.1.0_arm.deb
+Size: 5135068
+MD5sum: 3766a25f5c24ed62a70986616668c52f
+SHA1: e213f74525c5ac2770631ee66cc44e51d32d667d
+SHA256: 1082eecf7f7f8dbfbe8b93b6d35878cee0fdc3cce83bcebd397207968ad7ffc2
+Homepage: https://ctags.io/
+Description: Universal ctags: Source code index builder
 
 Package: dadadodo
 Version: 1.04
@@ -439,6 +466,33 @@ SHA256: 64a189a093f3cc4e09500f000e9cacffac1eaeec93ed6050746b14a4179f54b1
 Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
+Package: dj64dev
+Version: 0.3
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 7568
+Depends: djstub, thunk-gen
+Filename: pool/tur/dj64dev_0.3_arm.deb
+Size: 1863956
+MD5sum: dd8b81cb81819e7e1cd1075357bed485
+SHA1: 581a696b942064c07fa58f54c88435a263def42f
+SHA256: c93617097f76e6832b51f37b8889d57dc0ce2e662d0d1bfd190179101a434c05
+Homepage: https://github.com/stsp/dj64dev
+Description: development suite that allows to cross-build 64-bit programs for DOS
+
+Package: djstub
+Version: 0.3
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 80
+Filename: pool/tur/djstub_0.3_arm.deb
+Size: 13188
+MD5sum: 0b757e34de189943d218fc5c9ad0797d
+SHA1: 8744fea65cd2d049196d84cd3c514a12d423ec9a
+SHA256: 9ab42578831a06b2334972bd2055620bcfabbfa71a6dd17af5a361dc6054e327
+Homepage: https://github.com/stsp/djstub
+Description: go32-compatible stub that supports COFF, PE and ELF payloads
+
 Package: dlib
 Version: 19.24.6-1
 Architecture: arm
@@ -452,6 +506,20 @@ SHA1: 208105d7425cb143a37741c8c3bc91102fbce562
 SHA256: a17c0cbdc47e702dba9eb3a97ee314c48ebd3eec5480fa027044fd688e6cc50c
 Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
+
+Package: dosemu2
+Version: 2.0pre9-git-0
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 4028
+Depends: fdpp, dj64dev, comcom64
+Filename: pool/tur/dosemu2_2.0pre9-git-0_arm.deb
+Size: 979240
+MD5sum: 52c54c1e6ff0d17b63e7f306f5903ebd
+SHA1: d20a87ba638ddf3ca49da5238f5aa29df4d316aa
+SHA256: b17af5e6ff17c46ab84c62f8a545187840b57d109c38a43bd69db27583663537
+Homepage: https://github.com/dosemu2/dosemu2
+Description: Run DOS programs under linux.
 
 Package: dotload
 Version: 1.2.2
@@ -634,6 +702,19 @@ SHA1: 882ade5c9844d336f538b6266e67807154d3c83c
 SHA256: 1fee411b39064290a3b1c366e3a9206afe321d847e274a03bec1b19761b2f2a6
 Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
+
+Package: fdpp
+Version: 1.9
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 784
+Filename: pool/tur/fdpp_1.9_arm.deb
+Size: 247040
+MD5sum: 2c10bd8fbf32bb4016fdbb68dc2841a6
+SHA1: a9f9e6a9da3f7b4be14bd01755d4aadd83c56620
+SHA256: 9a7ec55d3fdac1bafacc300ddba5293f2372af5b6f13198fa164f3c3a3b6b72e
+Homepage: https://github.com/dosemu2/fdpp
+Description: 64-bit DOS core
 
 Package: feed2imap-go
 Version: 1.7.2
@@ -1032,6 +1113,20 @@ SHA1: 315d0b216e7d1d56e7a102b94b58018a3af5f888
 SHA256: 44c2d93bf832db0f67cc7800f7c04ecda7e2b0264fdb620c1a454d6c3e7cd37f
 Homepage: https://ice-wm.org/
 Description: Wonderful Win95-OS/2-Motif-like window manager
+
+Package: instfd
+Version: 0.3
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 104
+Depends: python
+Filename: pool/tur/instfd_0.3_arm.deb
+Size: 6284
+MD5sum: 9984e942488ddb0870c59bdb596dae65
+SHA1: 24783146848be449f9819d3996bcc18fb23254d2
+SHA256: 7a4109885bf626b3c82d2f4079bb569891fe56d22a7059f2b433c4b00f0a489c
+Homepage: https://github.com/dosemu2/install-freedos
+Description: FreeDOS installed for dosemu2
 
 Package: krabby
 Version: 0.2.2
@@ -2670,6 +2765,19 @@ SHA256: e4215831f696b95bad384001ee552208e199cc9846ac4a214c1f3f7b76bfcaf3
 Homepage: http://aluigi.org/mytoolz.htm#morsegen
 Description: Convert text file to ASCII morse code
 
+Package: nasm-segelf
+Version: 2.16.01-3-0
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 1380
+Filename: pool/tur/nasm-segelf_2.16.01-3-0_arm.deb
+Size: 218544
+MD5sum: 8c83a82d96ca4b2bf590eb0cf512ac4c
+SHA1: 96586681aacd77d4d58f8337ec73f2035107c083
+SHA256: 647aeab667b9b26960b9deb849a2bc4d3b56300410bfa9a34ae93d198af724d1
+Homepage: https://github.com/stsp/nasm-segelf
+Description: nasm fork with segelf patches
+
 Package: ndk-sysroot-gcc-compact
 Version: 27b-2
 Architecture: arm
@@ -4138,6 +4246,20 @@ SHA256: b5753ef2704c10be13953708a0bfa13523f42af9e43fccacb361765587a3b049
 Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
+Package: smallerc
+Version: 1.0.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2036
+Depends: nasm
+Filename: pool/tur/smallerc_1.0.2_arm.deb
+Size: 220880
+MD5sum: e25fea5759a178fbe0448110f973ffc8
+SHA1: 6a68bdfd03e2b973f4c8d5175328707c28ddd199
+SHA256: 125627856b48849388a3e1e9e89f775362c006bead7102572cad1f00337d8923
+Homepage: https://github.com/alexfru/SmallerC
+Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
+
 Package: smartdns
 Version: 46
 Architecture: arm
@@ -4288,6 +4410,19 @@ SHA1: 55001cf2ca8f067a3556c5c26c395765ee0426cc
 SHA256: eeecf7d4cb7ac3cd46a755705eea682bd0460795dc45a1bbad3c7e9b4b8da346
 Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
+
+Package: thunk-gen
+Version: 1.3
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 96
+Filename: pool/tur/thunk-gen_1.3_arm.deb
+Size: 12668
+MD5sum: e7f2912f50c77f7d65a4e5188cfc129a
+SHA1: 74fd3f82cca8f350db60285b14de2887b2f3c1b7
+SHA256: a231a37982a547871e988e8c58e254c8addaa897dc2605b931024fa2d11e78fe
+Homepage: https://github.com/stsp/thunk_gen
+Description: thunk generator for C and assembler
 
 Package: tmux-sixel
 Version: 3.4
@@ -4700,6 +4835,20 @@ SHA256: 7446f2f99f946b43e8eddedccb8458e1ef44e40d3160859e54911740eb157c05
 Homepage: https://repo.dgbaodev.com
 Description: Community repository maintained by Dichvucoder
 
+Package: djstub-cross
+Version: 0.3
+Architecture: all
+Maintainer: @stsp
+Installed-Size: 120
+Depends: djstub (= 0.3)
+Filename: pool/tur/djstub-cross_0.3_all.deb
+Size: 25192
+MD5sum: b0b8a7293f77f866e08a12a9402bf968
+SHA1: ce538c49f0030e58c97db7400e274a48ac961af4
+SHA256: a9bae99ae8b80cd15cdc519f5b81547d45699cb6aea7bd2d797fa6c461a278ab
+Homepage: https://github.com/stsp/djstub
+Description: djstub for host (NOT for Termux)
+
 Package: electron-deps
 Version: 0.0.3-1
 Architecture: all
@@ -4910,6 +5059,20 @@ SHA1: 19aa814b0c3e87d4cdcf7d7cf3b0513819f0673e
 SHA256: ea4ae8a9a15cb03de1901e3fc525e159a83e94d723eda7922bd4e665eff44601
 Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
+
+Package: nasm-segelf-cross
+Version: 2.16.01-3-0
+Architecture: all
+Maintainer: @stsp
+Installed-Size: 3556
+Depends: nasm-segelf (= 2.16.01-3-0)
+Filename: pool/tur/nasm-segelf-cross_2.16.01-3-0_all.deb
+Size: 798384
+MD5sum: 6fc6c77dd676337daa4b6108e5415c57
+SHA1: af7e69200bc946f5c546f62bae2e95ca1ade8c3d
+SHA256: 04560d177ad140068b61e6de9704f8b66178abc06d891dbc069eb159cd74bfd5
+Homepage: https://github.com/stsp/nasm-segelf
+Description: nasm-segelf for host (NOT for Termux)
 
 Package: openjdk-11-source
 Version: 11.0.23+9
@@ -5153,6 +5316,20 @@ SHA256: 9b17e7f12dada4b83b8623c0cdd8658faa2abe7a639e4c500c9f9fc7dc185e52
 Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
+Package: smallerc-cross
+Version: 1.0.2
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 2252
+Depends: smallerc (= 1.0.2)
+Filename: pool/tur/smallerc-cross_1.0.2_all.deb
+Size: 277612
+MD5sum: 468fc041b6fa219e87897991a62f8fe7
+SHA1: ba7f39e5f6c826d4380e705d800162b07313b736
+SHA256: 1ddda2542c1e5c5cb3bfb86ae256db0d71e0f1d4c20e0069fa48c2c3becb1501
+Homepage: https://github.com/alexfru/SmallerC
+Description: SmallerC for host (NOT for Termux)
+
 Package: sqawk
 Version: 0.24.0
 Architecture: all
@@ -5233,6 +5410,20 @@ SHA1: 6d403fd4e572176562581cf9da3430e5eed95ea7
 SHA256: 38279bac08df9064aba84d88ea7dc50e22e4084a12cd0d5b6a1e0eff90d78075
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
+
+Package: thunk-gen-cross
+Version: 1.3
+Architecture: all
+Maintainer: @stsp
+Installed-Size: 152
+Depends: thunk-gen (= 1.3)
+Filename: pool/tur/thunk-gen-cross_1.3_all.deb
+Size: 28208
+MD5sum: 6d5957e24b01275e4ce83a585a873682
+SHA1: 8aa1f3950cfbb41991bd6ad1c293e41bbfe9f037
+SHA256: ba106f92aaf4bfcbca04353dfec2344d36a2fa7cfb1b23c524d64616c366684e
+Homepage: https://github.com/stsp/thunk_gen
+Description: thunk-gen for host (NOT for Termux)
 
 Package: vulkan-headers
 Version: 1.3.285
