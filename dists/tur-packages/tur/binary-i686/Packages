@@ -288,16 +288,16 @@ Homepage: http://clucene.sourceforge.net/
 Description: C++ port of the high-performance text search engine Lucene
 
 Package: comcom64
-Version: 0.2
+Version: 0.2-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 1044
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2_i686.deb
-Size: 365784
-MD5sum: 673f1bbddb5ef93800301d029e84c2ad
-SHA1: f7cde781138bc588a5c44ea54c5bdfe6013261dd
-SHA256: a007cd3e514cbb2c15d3415e8581e28bf392b7d866aa45216506c82a22c722b5
+Filename: pool/tur/comcom64_0.2-1_i686.deb
+Size: 365704
+MD5sum: f21166c4a434429dedbac73031ce5eed
+SHA1: 9d5e07925a04fc24142cdaa26d29a1994e278458
+SHA256: a8236ffe0cbd438412e38061775c7c7202028eb39a80fa5f95e1110e9c7101b4
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -423,29 +423,29 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3
+Version: 0.3-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 7332
 Depends: djstub, thunk-gen
-Filename: pool/tur/dj64dev_0.3_i686.deb
-Size: 1887908
-MD5sum: 04a54510666376cdd80633b336af23ca
-SHA1: 2a2cb10367be8cae1937e553bbfa1d98d7c23b25
-SHA256: 697506fb359dc1bfd6709e03d928758c54bf5ce630fe96bd216dd3a4f36d8c72
+Filename: pool/tur/dj64dev_0.3-1_i686.deb
+Size: 1887660
+MD5sum: 811b9d6998ded3227924bfcc5d8b82ab
+SHA1: a923da0b23cff1928c68bc226bc6e5fe91200821
+SHA256: 4d1994b5365097a8c195113be1f837a4487de1d39cb5d03c87e0bb9a1a55aace
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
 Package: djstub
-Version: 0.3
+Version: 0.3-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 84
-Filename: pool/tur/djstub_0.3_i686.deb
-Size: 13508
-MD5sum: e78feeb417d3d50a100d9b77c919c8dc
-SHA1: 5dd7f2d0630316d25cd8a1d3a9726f736aecb899
-SHA256: 0fda8fef5ad617ca469a0e008484d63b907809ff5eb6143ef49f273994d8057d
+Filename: pool/tur/djstub_0.3-1_i686.deb
+Size: 13516
+MD5sum: 72236cd7874ec209ce6acbfc61441b53
+SHA1: acfc2451b6dea5ae883ddfc4ad72587c6c939165
+SHA256: e589e338ba7c4b474b0e2fb138e18dadae3028b8a2ba48f1f696ac9bda2e715d
 Homepage: https://github.com/stsp/djstub
 Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
@@ -562,15 +562,15 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9
+Version: 1.9-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 1128
-Filename: pool/tur/fdpp_1.9_i686.deb
-Size: 286036
-MD5sum: db27531fdaaa15345beff235ea229edb
-SHA1: a5a53fe6d1f42a92bc6de3fd4fbc294912fa6b31
-SHA256: 91ae9fb0d885087d93673abab8cf6ce8974c30974e3ba7f80f3c316bc2f7e2ee
+Filename: pool/tur/fdpp_1.9-1_i686.deb
+Size: 286176
+MD5sum: 56ee1d55d0be0e111a55ca0d2d35b540
+SHA1: efc5396acc586aa52df5f624a531731d0c47b226
+SHA256: 6c469eb3e6104f1c7f65411556e1344a3e4f22c90ad55d6b64e3031b58427270
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -4261,15 +4261,15 @@ Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
 
 Package: thunk-gen
-Version: 1.3
+Version: 1.3-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 104
-Filename: pool/tur/thunk-gen_1.3_i686.deb
-Size: 13656
-MD5sum: ecdabf9de9eec7fd6ff8f564da8272ba
-SHA1: 8dc3245ed9b58ed8dd59ac647361234939bbbfcd
-SHA256: 63c4da2b3b88cab51d79f47926e46c99bae1450ccd0977ec02760a141e7632ed
+Filename: pool/tur/thunk-gen_1.3-1_i686.deb
+Size: 13652
+MD5sum: 2a317debb58aa3871526006402483b4c
+SHA1: e3c75ce36b685e4cd4d0a7a038ab8126529230b2
+SHA256: 8c241faa9dd6c1861f9b8b84b157df148bd21449998015d4483b96317f6a93de
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -4670,16 +4670,16 @@ Homepage: https://repo.dgbaodev.com
 Description: Community repository maintained by Dichvucoder
 
 Package: djstub-cross
-Version: 0.3
+Version: 0.3-1
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 120
-Depends: djstub (= 0.3)
-Filename: pool/tur/djstub-cross_0.3_all.deb
+Depends: djstub (= 0.3-1)
+Filename: pool/tur/djstub-cross_0.3-1_all.deb
 Size: 25192
-MD5sum: b0b8a7293f77f866e08a12a9402bf968
-SHA1: ce538c49f0030e58c97db7400e274a48ac961af4
-SHA256: a9bae99ae8b80cd15cdc519f5b81547d45699cb6aea7bd2d797fa6c461a278ab
+MD5sum: 1b0149064b17f0b7e31b46a550dd66ef
+SHA1: b83bb5aff30f21595f21ab77c0b6697ccfea2a4e
+SHA256: a7239ce300c306b14f686321c32dc494ad49d18cb4eb999203c8eb55feb4f8f3
 Homepage: https://github.com/stsp/djstub
 Description: djstub for host (NOT for Termux)
 
@@ -5246,16 +5246,16 @@ Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
 Package: thunk-gen-cross
-Version: 1.3
+Version: 1.3-1
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 152
-Depends: thunk-gen (= 1.3)
-Filename: pool/tur/thunk-gen-cross_1.3_all.deb
+Depends: thunk-gen (= 1.3-1)
+Filename: pool/tur/thunk-gen-cross_1.3-1_all.deb
 Size: 28208
-MD5sum: 6d5957e24b01275e4ce83a585a873682
-SHA1: 8aa1f3950cfbb41991bd6ad1c293e41bbfe9f037
-SHA256: ba106f92aaf4bfcbca04353dfec2344d36a2fa7cfb1b23c524d64616c366684e
+MD5sum: b64db6e812244d6ce3d5e340e79d22b9
+SHA1: eb19b0c84f23f9108d5d2eb2252d07051a4f6025
+SHA256: eed6765c88c671b146e79415bb049c299bbe2f5bd79488f57102c7200251e105
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 
