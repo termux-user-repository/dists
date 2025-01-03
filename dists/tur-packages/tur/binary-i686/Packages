@@ -3450,17 +3450,31 @@ SHA256: 093c53837cb6eb1f4010b90dc36845d9c7702f39be86acedd03710ba5894b24f
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
-Package: python-scipy
-Version: 1:1.14.1
+Package: python-scipy-static
+Version: 1:1.15.0
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 116848
+Installed-Size: 13440
+Depends: python-scipy (= 1:1.15.0)
+Filename: pool/tur/python-scipy-static_1:1.15.0_i686.deb
+Size: 2837096
+MD5sum: df583f3f5f26eeef2c43cdab59bb83f3
+SHA1: 3c18a8f36bcc53097f31618be7655459396ec1a0
+SHA256: ff7bbb0ebb94efc5e4b33bbfee826de21d63930cb4c10c11490073a389466ffb
+Homepage: https://scipy.org/
+Description: Static libraries for python-scipy
+
+Package: python-scipy
+Version: 1:1.15.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 121836
 Depends: libc++, libopenblas, python, python-numpy
-Filename: pool/tur/python-scipy_1:1.14.1_i686.deb
-Size: 24032504
-MD5sum: 2025491ae5189d9bfc38d36865c42219
-SHA1: 4cd8df2a378fdf3017a91736e059103c42934c29
-SHA256: f1079099a95c8e8de2474317d706fa125bffc403acf8ee057d797aa5c1aba2ca
+Filename: pool/tur/python-scipy_1:1.15.0_i686.deb
+Size: 24053448
+MD5sum: 866279dbc495d81fb9110d51761a6c9b
+SHA1: a1ae9bb52cc035cdae9de93d78f80814a647eea7
+SHA256: f238f1684aa09f77e7df0a3446363c8d9c87cf39c452cb28f7a42fae485667e4
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
