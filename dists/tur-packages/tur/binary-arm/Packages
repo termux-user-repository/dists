@@ -467,16 +467,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-1
+Version: 0.3-2
 Architecture: arm
 Maintainer: @stsp
 Installed-Size: 7568
-Depends: djstub, thunk-gen
-Filename: pool/tur/dj64dev_0.3-1_arm.deb
-Size: 1864128
-MD5sum: db49f3f170a3220900d3de575ec60df7
-SHA1: 7f28218b8bb1abf1268cfcfd578169ea30ed97d6
-SHA256: 0fb6b2a3286471da9bca29c6a335b6f79a0fbd1c89da38348621b231a39fe2e3
+Depends: djstub, thunk-gen, libelf
+Filename: pool/tur/dj64dev_0.3-2_arm.deb
+Size: 1863964
+MD5sum: 62988cca5e9a0932627cfa8798c9b9ac
+SHA1: 56b33051ef3d8c46519d2740808da7f00f7c81a5
+SHA256: 5335abfaecab0463328071bf875e08070c93a676bf8af17dffd0659d1b5c4849
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -508,16 +508,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-0
+Version: 2.0pre9-git-1
 Architecture: arm
 Maintainer: @stsp
 Installed-Size: 4028
-Depends: fdpp, dj64dev, comcom64
-Filename: pool/tur/dosemu2_2.0pre9-git-0_arm.deb
-Size: 979240
-MD5sum: 52c54c1e6ff0d17b63e7f306f5903ebd
-SHA1: d20a87ba638ddf3ca49da5238f5aa29df4d316aa
-SHA256: b17af5e6ff17c46ab84c62f8a545187840b57d109c38a43bd69db27583663537
+Depends: comcom64, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, fdpp, dj64dev
+Filename: pool/tur/dosemu2_2.0pre9-git-1_arm.deb
+Size: 979224
+MD5sum: eee6222fa4754ab05d7f2466d756d7c1
+SHA1: e1952c4d48352af7be8536a5538c4cfbcb72653c
+SHA256: 355955dd446eb5f9523f5dbddbcba10c56d7f1e8ff00c306f8eb0f0333ece24a
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
@@ -704,15 +704,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-1
+Version: 1.9-2
 Architecture: arm
 Maintainer: @stsp
 Installed-Size: 784
-Filename: pool/tur/fdpp_1.9-1_arm.deb
-Size: 247052
-MD5sum: d3ac338df8fc5f06562e439ad1dcd2c9
-SHA1: 58442bbdf5b34002b9944694b566d0352ade1930
-SHA256: e3e7856b55e4ecd03feaf42047a411a5a2bf10e3094f224f7c97ac434945ef01
+Depends: libelf
+Filename: pool/tur/fdpp_1.9-2_arm.deb
+Size: 246928
+MD5sum: 00db53c9d283698efaccd0dcf959b6dd
+SHA1: ffba43facec4abdf738bb5c9fda3faa2df983d9d
+SHA256: af5b9a6159bb1663ce8abc8388a3a327632da556a99a9beeb790f431914f3b81
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
