@@ -154,32 +154,30 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-stable
-Version: 9.0
+Version: 10.0-1
 Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 472524
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur-multilib/wine-stable_9.0_arm.deb
-Size: 86567284
-MD5sum: a69b696b44eb713ed01690b66d3d1784
-SHA1: b9a643097ed5e943b3fc9c3e71d7b1f4f0087b8d
-SHA256: 70f6c684a37d947bcb3fdcf929a0ed61b253ee0f97aab6152468011c9947a328
+Maintainer: @termux
+Installed-Size: 498272
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/tur-multilib/wine-stable_10.0-1_arm.deb
+Size: 69778096
+MD5sum: 20c9805e5519b891950485bdfea1769c
+SHA1: 23ed8af1c5eb7f20de5ac6d56f359b49308aad52
+SHA256: 0bf6ef77b4b12300cf2e509eac416c80f1cf8acf6fedb26149f209950c8be0e3
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-staging
-Version: 10.0
+Version: 10.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 503312
+Installed-Size: 504656
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Conflicts: hangover-wine, wine-stable, wine-devel
-Breaks: hangover-wine, wine-stable, wine-devel
-Filename: pool/tur-multilib/wine-staging_10.0_arm.deb
-Size: 71522128
-MD5sum: 36103bf6c8f2d77ea847f3a2684aef76
-SHA1: 7e1156d4f0c2338641cf9ec69340e0a2c8e1f553
-SHA256: 84a628a8cbced1da4c8ae8be82cc700fbd6f0575fff1f79fe98a502f28999486
+Filename: pool/tur-multilib/wine-staging_10.0-1_arm.deb
+Size: 71760500
+MD5sum: 833c0726675f4a2a8e8e7992598bc038
+SHA1: 3d338039e1243df63f68264c6773ccac62e9107e
+SHA256: 5d6dd151e26b8e70695e51869d5609e36fbb3c3e4293f3a1d60ba747f44134a7
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 

@@ -170,32 +170,30 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-stable
-Version: 9.0
+Version: 10.0-1
 Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 523104
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur-multilib/wine-stable_9.0_aarch64.deb
-Size: 90685044
-MD5sum: 66956f233ab69f5c960ecd7ae2b8fc29
-SHA1: de0971f92069e395dd3b23d6b55e06c3c3734836
-SHA256: 83c02fc0c07913baafa2a431aafdbd98034b73af3f751730f20efcd32a9c37ee
+Maintainer: @termux
+Installed-Size: 579388
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/tur-multilib/wine-stable_10.0-1_aarch64.deb
+Size: 72681248
+MD5sum: 2296fd02959e909707c5aec92764cdfe
+SHA1: 2bc1a42f429211e9c94b9e327a402ab2c5039010
+SHA256: a2ded7f5f8694b440cb70339a0184b2998e6549255f7615b160b7615d1fcafe0
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-staging
-Version: 10.0
+Version: 10.0-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 584548
+Installed-Size: 586048
 Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Conflicts: hangover-wine, wine-stable, wine-devel
-Breaks: hangover-wine, wine-stable, wine-devel
-Filename: pool/tur-multilib/wine-staging_10.0_aarch64.deb
-Size: 74456024
-MD5sum: 7e8e63c88457c248f198becbc7c037ba
-SHA1: 42d10a6cd6306872171be50a367160ecc3277374
-SHA256: 20111c464aac14d124fe2ba02aeb5e458c479c95f0b6e791c154ca0a1e2c13ce
+Filename: pool/tur-multilib/wine-staging_10.0-1_aarch64.deb
+Size: 74651776
+MD5sum: 9a41fb71154e9c4313f6e650f3f772a2
+SHA1: 8a4c5901a13870d57b1a0e5cd33ac8952694a1fe
+SHA256: e7c52bb1e2ef830e0d6556d65415e1de15fdc662cc0be1dd1a98507b432c5d84
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
