@@ -134,6 +134,21 @@ SHA256: 126457e39b980aa328b62dc73a29d43989981d9599ac0f521815772a56804ccd
 Homepage: https://github.com/resurrecting-open-source-projects/nbtscan
 Description: Scan networks searching for NetBIOS information
 
+Package: reaver
+Version: 1.6.6-r317.926eb14-0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1592
+Depends: libpcap, libnl
+Recommends: aircrack-ng
+Filename: pool/tur-hacking/reaver_1.6.6-r317.926eb14-0_x86_64.deb
+Size: 167608
+MD5sum: fa6ec0a76d097d27d084100a3ee4ced6
+SHA1: 6e004cad0acc422c7b4908a169929cb1372683df
+SHA256: 97c8db7af2436efe433f41edfadb050f04e0aa26da726e48802f75889bcaef02
+Homepage: https://github.com/t6x/reaver-wps-fork-t6x
+Description: Reaver performs a brute force attack against an access point’s Wi-Fi Protected Setup pin number.
+
 Package: slowhttptest
 Version: 1.9.0
 Architecture: x86_64
