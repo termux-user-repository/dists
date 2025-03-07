@@ -3488,6 +3488,20 @@ SHA256: 07f9ae3d1a64ebba6c2ef6a5d4c6dbbb39e5ee9de4e95e9b6cc55db5889be53c
 Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
 
+Package: payload-dumper-go
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4928
+Depends: liblzma
+Filename: pool/tur/payload-dumper-go_1.3.0_aarch64.deb
+Size: 1341036
+MD5sum: 9b126cc933f609a1e4dff85f9c715ca4
+SHA1: 3583ec55a3767f2f3ea9224450b666823744aa76
+SHA256: f8f15af4f7893bcf6c8e96f3084ad06be9abfdbf84f886baf71d4d7c58418e94
+Homepage: https://github.com/ssut/payload-dumper-go
+Description: An android OTA payload dumper written in Go
+
 Package: pcre2-static
 Version: 10.41
 Architecture: aarch64
