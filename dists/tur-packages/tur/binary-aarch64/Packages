@@ -3501,6 +3501,21 @@ SHA256: 07f9ae3d1a64ebba6c2ef6a5d4c6dbbb39e5ee9de4e95e9b6cc55db5889be53c
 Homepage: https://github.com/andrewgregory/pacutils
 Description: Utilitization of libalpm(3) as C program to ease shell scripting
 
+Package: partialzip
+Version: 5.0.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2544
+Depends: openssl, libcurl
+Recommends: bzip2, zstd
+Filename: pool/tur/partialzip_5.0.0_aarch64.deb
+Size: 801520
+MD5sum: 0bc9662d494430089a8599bdcd425a17
+SHA1: 402e7b961729b7b2c6ee850514efd2e52ae89dcd
+SHA256: f45660d2c80152c96b8ae5305d0dd85d764ee530291053fbec5404aec93e2230
+Homepage: https://github.com/marcograss/partialzip
+Description: A CLI utility to download file within ZIP archive, without the need to download entire ZIP archive
+
 Package: payload-dumper-go
 Version: 1.3.0
 Architecture: aarch64
