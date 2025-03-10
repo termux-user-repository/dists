@@ -29,31 +29,31 @@ Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
 Package: bazel7
-Version: 7.1.2
+Version: 7.5.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 46208
-Depends: libarchive, openjdk-17, patch, unzip, zip
-Filename: pool/tur-on-device/bazel7_7.1.2_x86_64.deb
-Size: 43065272
-MD5sum: 7f61627fe919d101f2fa6e71bced0cca
-SHA1: 84412ca1648cc30d0fbef8fda5a3585a60d5da06
-SHA256: da6f97e0e8e73aedd7b353c7b11292556b2b9975da1aaab6b6e8a842385c86ca
+Installed-Size: 34412
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Filename: pool/tur-on-device/bazel7_7.5.0_x86_64.deb
+Size: 30978492
+MD5sum: 1430be505e33576da634b77d0d894e29
+SHA1: 310b7ddf9b37ff53b109bbb25f11ac2075fee436
+SHA256: 80a9458a929c0c00252df499b58ab1bba6751c0e98ab7e596620bc4dcbcce131
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 7)
 
 Package: bazel
-Version: 7.1.2
+Version: 7.5.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 46232
-Depends: libarchive, openjdk-17, patch, unzip, zip
-Breaks: openjdk-11
-Filename: pool/tur-on-device/bazel_7.1.2_x86_64.deb
-Size: 43069288
-MD5sum: eabdcbb7a2784aa02323d981b37191e3
-SHA1: 3688397f491b1854c9c598557e0ad47705379434
-SHA256: ace9d1393dc14deb43dc8dd8502968543cc270314acebedcfff8dee256eb9116
+Installed-Size: 34744
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Breaks: openjdk-11, openjdk-17
+Filename: pool/tur-on-device/bazel_7.5.0_x86_64.deb
+Size: 30982592
+MD5sum: c80c269dc281cd673aa0d781e699c60d
+SHA1: d3c594d63a22671aa5df55c181228757a62a6893
+SHA256: 98ec5df2dc087688ea926340dfe0ea71a1a4776e708ca7e67d05dfa9a9e15a03
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
