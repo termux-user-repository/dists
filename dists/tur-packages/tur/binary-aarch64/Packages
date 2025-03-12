@@ -955,6 +955,34 @@ SHA256: 6444c414358ac7973fd6996407113414a339a3c3e5e48a83e6d08ac200bbdbae
 Homepage: https://gi.readthedocs.io/
 Description: A tool which generates GIR XML files
 
+Package: gawk-reclen-static
+Version: 1.0.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 44
+Depends: gawk-reclen (= 1.0.1)
+Filename: pool/tur/gawk-reclen-static_1.0.1_aarch64.deb
+Size: 3412
+MD5sum: ee99131719aba80c199e28a313a0678c
+SHA1: eebedf5dc57378162dd1394dd6b4fadd6aa02e74
+SHA256: adc0e722dc0fc59c790498fce50472bb96d54c323d2d43eb5f1f9fe53bce4849
+Homepage: https://gawkextlib.sourceforge.net/
+Description: Static libraries for gawk-reclen
+
+Package: gawk-reclen
+Version: 1.0.1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 68
+Depends: gawk
+Filename: pool/tur/gawk-reclen_1.0.1_aarch64.deb
+Size: 5072
+MD5sum: 554e880238d5360de143000017691d42
+SHA1: 08496ecf3d32ed86094742b027e4d78e725836cf
+SHA256: 9058d014ebb457cbd8c073cee1e2d602164a8bfd0a7f7fae7e4ba0d45ba70e39
+Homepage: https://gawkextlib.sourceforge.net/
+Description: gawk(1) extension library for parsing input records in a fix-length manner
+
 Package: gcc-10
 Version: 10.5.0-1
 Architecture: aarch64
