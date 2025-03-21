@@ -2781,17 +2781,17 @@ Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: nodejs-20
-Version: 20.18.1
+Version: 20.18.1-2
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 107228
+Installed-Size: 107280
 Depends: libc++, openssl, c-ares, zlib
-Conflicts: nodejs, nodejs-current
-Filename: pool/tur/nodejs-20_20.18.1_i686.deb
-Size: 20791240
-MD5sum: c2c3447cbf5cf762767a0a5981402b6d
-SHA1: 24216bdadaabba288819ffd696342a09dd71f193
-SHA256: f072ba76129e4ea789833a4ff238ac3d1e24ce8a088894ad367074dc4e87c66d
+Suggests: clang, make, pkg-config, python
+Filename: pool/tur/nodejs-20_20.18.1-2_i686.deb
+Size: 20807976
+MD5sum: 14cb74a050cb7fdc24fcdef0a1d6b47d
+SHA1: 58732dbecefe42f7d6d3bd0f33d91fa9a08d8dcd
+SHA256: a637f9fa728984278206ea8d69da0a561846aa351b702a0d9cbab76ab9bfa366
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
