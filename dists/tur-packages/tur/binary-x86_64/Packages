@@ -4451,6 +4451,34 @@ SHA256: b2496e7a8494fb774a8e19fce81690d96dd9081c9a56548d000cbe78860281df
 Homepage: https://c9x.me/compile/
 Description: Small embeddable C compiler backend
 
+Package: qqwing-static
+Version: 1.3.4-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 92
+Depends: qqwing (= 1.3.4-1)
+Filename: pool/tur/qqwing-static_1.3.4-1_x86_64.deb
+Size: 15112
+MD5sum: 61dede630589a1f512741325256b874b
+SHA1: ceac18080d4065ccd098c2098a2c04e776113bac
+SHA256: 88743af137f3d36e24fd5dc98d9a439154ce7d4427f07e6b1b6780268da21276
+Homepage: https://qqwing.com/
+Description: Static libraries for qqwing
+
+Package: qqwing
+Version: 1.3.4-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 188
+Depends: glib
+Filename: pool/tur/qqwing_1.3.4-1_x86_64.deb
+Size: 36492
+MD5sum: ae7574fab427e6e1f870196188949cf3
+SHA1: bb076e1fd9ef2ef1ba6e604ef3777a8906c99b26
+SHA256: 07a9c1663c53efb152bcc5a7b59f2700a038cddfd22c992d645d5d45c60daf77
+Homepage: https://qqwing.com/
+Description: QQwing is software for generating and solving Sudoku puzzles
+
 Package: qrupdate-ng
 Version: 1:1.1.5-1
 Architecture: x86_64
@@ -5661,34 +5689,6 @@ SHA1: fd47023c035161430a2a9229173c407c020c89af
 SHA256: a5172ef5649a28e0ba3ad51ea4624912706261db6e99403d0f93d0dfbc4e452f
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
-
-Package: qqwing-static
-Version: 1.3.4
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 92
-Depends: qqwing (= 1.3.4)
-Filename: pool/tur/qqwing-static_1.3.4_all.deb
-Size: 15100
-MD5sum: abac5a234d31a3c341b6329e36cfa3a6
-SHA1: 547cdccb39148bb3f6d6abdb3be3ddc445c65027
-SHA256: 61e505706a43fb843543e73b098d96662be2a74fb79d229ad6d104cf9ee083c4
-Homepage: https://qqwing.com/
-Description: Static libraries for qqwing
-
-Package: qqwing
-Version: 1.3.4
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 188
-Depends: glib
-Filename: pool/tur/qqwing_1.3.4_all.deb
-Size: 36424
-MD5sum: 118297035bcc3d719253b754c5e99658
-SHA1: f4a3eb6f29a0ed536aca12be62c1b48a82cec774
-SHA256: 9e5ed9fc14e75c93e77907f40625112d60776eb4267df7a00f4332a7789603d4
-Homepage: https://qqwing.com/
-Description: QQwing is software for generating and solving Sudoku puzzles
 
 Package: rife-ncnn-vulkan
 Version: 0.1
