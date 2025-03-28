@@ -216,16 +216,16 @@ Homepage: https://github.com/bitmagnet-io/bitmagnet
 Description: Self-hosted BitTorrent indexer with web UI
 
 Package: blueprint-compiler
-Version: 0.16.0
+Version: 0.16.0-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 1176
-Depends: python
-Filename: pool/tur/blueprint-compiler_0.16.0_i686.deb
-Size: 208764
-MD5sum: 9883eb438a0a7bd10e001e3b1aa74979
-SHA1: 9bc0a61136ccf6204a8ea3d68ef78750d861e1e8
-SHA256: ce30fc6b3ad8f45d89bb84e26722ed0e7ef74037c0466228eba47c3e7ee53c27
+Depends: python, pygobject
+Filename: pool/tur/blueprint-compiler_0.16.0-1_i686.deb
+Size: 208780
+MD5sum: 8b577ded4fe9943e73724866eb4a4fc3
+SHA1: ba76d186c1a39b4ca5dafe760905195a61a79a9b
+SHA256: 3669fec2a9adb659314b4a576a9bd3ca0786a032007f6fb227cf96e385b70ad8
 Homepage: https://gitlab.gnome.org/jwestman/blueprint-compiler/
 Description: A markup language for GTK user interface files
 
