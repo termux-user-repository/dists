@@ -85,6 +85,20 @@ SHA256: d5561b09f6f993a284ee7f842ffa3ac3dc44e29d88f81f049fae1aa90b00a8c7
 Homepage: https://github.com/flang-compiler/flang
 Description: An out-of-tree Fortran compiler targeting LLVM
 
+Package: gnome-sudoku
+Version: 48.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1916
+Depends: glib, gtk4, json-glib, libadwaita, libcairo, libgee, opengl, qqwing
+Filename: pool/tur-on-device/gnome-sudoku_48.0_x86_64.deb
+Size: 238256
+MD5sum: 716d0061f58932584689ccbd44ddaf2a
+SHA1: e0e2dafd553dad250863ab12981eae40f4e5cfbe
+SHA256: 448d3269be7a7b6ea3d60a46ce1596329a0944c072d4d1cd4aa82920ea49616a
+Homepage: https://wiki.gnome.org/Apps(2f)Sudoku.html
+Description: GNOME Sudoku game
+
 Package: hello-tur-on-device
 Version: 1:0.1-1
 Architecture: x86_64
