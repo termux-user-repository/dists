@@ -85,6 +85,34 @@ SHA256: d5561b09f6f993a284ee7f842ffa3ac3dc44e29d88f81f049fae1aa90b00a8c7
 Homepage: https://github.com/flang-compiler/flang
 Description: An out-of-tree Fortran compiler targeting LLVM
 
+Package: gnome-chess
+Version: 48.0
+Architecture: x86_64
+Maintainer: @lunsokhasovan, @termux-user-repository
+Installed-Size: 1892
+Depends: glib, gtk4, gnuchess, libadwaita, libcairo, librsvg, opengl, pango
+Filename: pool/tur-on-device/gnome-chess_48.0_x86_64.deb
+Size: 445108
+MD5sum: 12c4d4dbbc22ec26b3b64f7b90151615
+SHA1: 2a267bdd60a1f4674a00c1cb7625dce82d998de1
+SHA256: f3cbae9a30f17111b02fbaa2ddd46b6cc93d7d69851aa0311aaa308ae19a6328
+Homepage: https://wiki.gnome.org/Apps(2f)Chess.html
+Description: GNOME Chess game
+
+Package: gnome-mahjongg
+Version: 48.0
+Architecture: x86_64
+Maintainer: @lunsokhasovan, @termux-user-repository
+Installed-Size: 4816
+Depends: glib, gtk4, libadwaita, libcairo, librsvg, opengl
+Filename: pool/tur-on-device/gnome-mahjongg_48.0_x86_64.deb
+Size: 3453232
+MD5sum: b4f53abbe8f29b4b507060cf8e3d17b9
+SHA1: fcc848499e6c504ecb80067bed1db6c0e2fa7568
+SHA256: 2c0992ec5b06e076d0e9cdabd7ffc58e1397499d568683753730a4f5908ed842
+Homepage: https://wiki.gnome.org/Apps/Mahjogg
+Description: GNOME Mahjongg game
+
 Package: gnome-sudoku
 Version: 48.0
 Architecture: x86_64
