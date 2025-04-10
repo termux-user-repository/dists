@@ -1318,30 +1318,30 @@ Homepage: https://github.com/bogdanfinn/tls-client/
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libabw-static
-Version: 0.1.3
+Version: 0.1.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1328
-Depends: libabw (= 0.1.3)
-Filename: pool/tur/libabw-static_0.1.3_arm.deb
-Size: 161336
-MD5sum: 6ac61e5ce7820e657c31958d78d5b255
-SHA1: bf018cb5e97a11435689187d4b79f444e8ef4fed
-SHA256: b581d78496737f574977861f5fde871c16dddab3a882f42569c506d6893a308b
+Installed-Size: 1332
+Depends: libabw (= 0.1.3-1)
+Filename: pool/tur/libabw-static_0.1.3-1_arm.deb
+Size: 161088
+MD5sum: a21d48d1b7449af7f203b98a59f05e9d
+SHA1: fdac96d015fce97741d071b0fcfc4d493f76f4b4
+SHA256: 333945fc93e428dd12695bbb6ed2468eae5fe073ff785c7886be3b6ed94f4dde
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: Static libraries for libabw
 
 Package: libabw
-Version: 0.1.3
+Version: 0.1.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 248
 Depends: librevenge, libxml2, zlib
-Filename: pool/tur/libabw_0.1.3_arm.deb
-Size: 62280
-MD5sum: 51e44d26ded28478d1564770e5c40a3e
-SHA1: 108140263107c99e06138578012b60e210d5df74
-SHA256: a7854cb0d6d6239a03eb47047c27c00d1c27c8da74261e2317522f9bc9d61df0
+Filename: pool/tur/libabw_0.1.3-1_arm.deb
+Size: 62356
+MD5sum: 77a3930f9f776915b3a2a868e59218a2
+SHA1: ce1f38a39e87e16a7086621628dc3ecd67e4ff50
+SHA256: 21f7a617413f1c9498f4107bd4e564edf2c818438d636dc415cdf830f3dcb1e4
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: a library that parses the file format of AbiWord documents
 
@@ -1413,44 +1413,44 @@ Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
 Package: libcdr-static
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2744
-Depends: libcdr (= 0.1.7)
-Filename: pool/tur/libcdr-static_0.1.7_arm.deb
-Size: 471364
-MD5sum: bb0124bde951b5e84bde6cc68ee86355
-SHA1: 8b221340d7fd99529aa3017b1f4271bdadac5cd5
-SHA256: 233c3a615e8367c5b8e184184e8ae7547b830d3658d50e1753b9811cd7e3cea7
+Installed-Size: 2748
+Depends: libcdr (= 0.1.7-1)
+Filename: pool/tur/libcdr-static_0.1.7-1_arm.deb
+Size: 471280
+MD5sum: 6ef42d87c869504e1a2058bd9a4d9a89
+SHA1: ee48df1cf53f6c5006ee3469db90a5a7ed2ff8c1
+SHA256: fdbb65b0d96d3a6b1f5e7c39fc2e3ff1b529e2bc59957deb1b6af9ba61f973e7
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: Static libraries for libcdr
 
 Package: libcdr
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 628
 Depends: libicu, librevenge, libxml2, littlecms, zlib
-Filename: pool/tur/libcdr_0.1.7_arm.deb
-Size: 303272
-MD5sum: f57887de25fc019627038723faa68a52
-SHA1: 28220986061204becf9f937810a03cc94755a8d8
-SHA256: 372a26876b47c8b8a0a18f8f4b766cfbf29522ee5f9f4012b5980578e2953ab4
+Filename: pool/tur/libcdr_0.1.7-1_arm.deb
+Size: 303316
+MD5sum: c4f92fd145ae1d21b2606c225615bc7b
+SHA1: ddd0b6bd84e1a86e645ca1164ebef3d84b64c45c
+SHA256: caf93a80864a1fc8368a62dc24d3118e6738dfdfde63410c6869d7eb5751fbd7
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: CorelDraw file format importer library for LibreOffice
 
 Package: libcmis
-Version: 0.6.2
+Version: 0.6.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 976
 Depends: boost, curl, libxml2
-Filename: pool/tur/libcmis_0.6.2_arm.deb
-Size: 261304
-MD5sum: bcb7583d5f3cfb972a1bb7abbdedd5e9
-SHA1: 779e6e371d0b80335334a1ced8cda1575a1b47b8
-SHA256: 6c56af0022e46d1cd7803822e262b297b9db10ee974982578df8d31e8efb4c88
+Filename: pool/tur/libcmis_0.6.2-1_arm.deb
+Size: 260800
+MD5sum: d8b1e2bf46151cf0daabeaafc3925ecf
+SHA1: b401c9cab06262547decddda54c3e5160ec5d84a
+SHA256: c4fea2c29378d324d90f505d4ba9eb6337bf80159dada5129773bcabb7de8748
 Homepage: https://github.com/tdf/libcmis
 Description: a C/C++ client library for the CMIS protocol
 
@@ -1551,86 +1551,86 @@ Homepage: https://dri.freedesktop.org/wiki/
 Description: Userspace interface to kernel DRM services
 
 Package: libe-book-static
-Version: 0.1.3
+Version: 0.1.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2608
-Depends: libe-book (= 0.1.3)
-Filename: pool/tur/libe-book-static_0.1.3_arm.deb
-Size: 274652
-MD5sum: 73ba6f57f144cf98370d4f4398d0db97
-SHA1: 41abad807a4cdbf34f3504061d91c2140e4e4394
-SHA256: cbf11516fc64c9c446d3baeb2ce947bcb674c5165e1a45f584db61b73b424266
+Depends: libe-book (= 0.1.3-1)
+Filename: pool/tur/libe-book-static_0.1.3-1_arm.deb
+Size: 274236
+MD5sum: 7d6a0085d6451df07e23646928090937
+SHA1: de2059c655f9736f08838924b98fface2ae89292
+SHA256: 31c8195e7b92a27488e39b2dc57b8f604d0201362e03e4475a6b350eba3e427d
 Homepage: https://sourceforge.net/projects/libebook/
 Description: Static libraries for libe-book
 
 Package: libe-book
-Version: 0.1.3
+Version: 0.1.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 388
 Depends: libicu, liblangtag, librevenge, libxml2, zlib
-Filename: pool/tur/libe-book_0.1.3_arm.deb
-Size: 97544
-MD5sum: 4a61053fcf358dc2053c66eb268b541b
-SHA1: f9b2748fd26f0b51c45b8ec6669e425fe81f25ee
-SHA256: e46310de8d532b36d968488d56a3e76c64f4b0cd2e0ed8580365bd12d0f04e1d
+Filename: pool/tur/libe-book_0.1.3-1_arm.deb
+Size: 97536
+MD5sum: c600989ca81a3d996bc7fa799725f67a
+SHA1: 0ea162834dfb849c36d441499b2ade38c7a047fc
+SHA256: 68de3e31a4b6d36397c7d9af7298fa9ddb7bab1eeb78bffd75bb68f5abb0b7ac
 Homepage: https://sourceforge.net/projects/libebook/
 Description: Library for import of reflowable e-book formats.
 
 Package: libepubgen-static
-Version: 0.1.1
+Version: 0.1.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2068
-Depends: libepubgen (= 0.1.1)
-Filename: pool/tur/libepubgen-static_0.1.1_arm.deb
-Size: 216936
-MD5sum: 4977f13d941a28bd819220370592f023
-SHA1: 5595d52e0b660b540469855322c623e318a2aec0
-SHA256: 3b6d1b77b710a4abdb97376d5c53ab98d2ac7b46842522ccc6da04568f16f9d6
+Installed-Size: 2060
+Depends: libepubgen (= 0.1.1-1)
+Filename: pool/tur/libepubgen-static_0.1.1-1_arm.deb
+Size: 215616
+MD5sum: c4e88d3f4cb63791ac85e4e61bdc22a2
+SHA1: 6fbda9174ec607300e7004085f2f34fa35441e2d
+SHA256: e7f146cfcd65085484490105d5443985fbdc0e6cd7752a8b72133292bc1b4f8c
 Homepage: https://sourceforge.net/projects/libepubgen
 Description: Static libraries for libepubgen
 
 Package: libepubgen
-Version: 0.1.1
+Version: 0.1.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 312
 Depends: librevenge
-Filename: pool/tur/libepubgen_0.1.1_arm.deb
-Size: 76036
-MD5sum: 485d2da9bba4ad24d5e07e2232e9aafc
-SHA1: 9fb567ba37e5d8d36de5fb1cfb4d3f70bcf54e53
-SHA256: 3a50e2000adf5ebf4e6dfdad233748c0616ea032e61c9071e04250b44d9f50e1
+Filename: pool/tur/libepubgen_0.1.1-1_arm.deb
+Size: 75176
+MD5sum: bd3b091bc6044d8e54c87089b4198366
+SHA1: f77a055e1509d6435f074790af871aa8899ad651
+SHA256: 98a7ef207210c733c045473a59df059944e90fbcc43838798c0438fafc21588e
 Homepage: https://sourceforge.net/projects/libepubgen
 Description: an EPUB generator for librevenge
 
 Package: libetonyek-static
-Version: 0.1.10
+Version: 0.1.10-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 21644
-Depends: libetonyek (= 0.1.10)
-Filename: pool/tur/libetonyek-static_0.1.10_arm.deb
-Size: 1847012
-MD5sum: 80e7a56c1c5257e86a6694ccc55fc79b
-SHA1: 1399183ef5c386d45f2fb003a65fc9bd1f91c17d
-SHA256: e7b940d3729e5eb9df12de720baa6ebba134ec494b35d0bb53b750bc06c8950c
+Installed-Size: 21832
+Depends: libetonyek (= 0.1.10-1)
+Filename: pool/tur/libetonyek-static_0.1.10-1_arm.deb
+Size: 1856804
+MD5sum: 3864f7136bd4d647da72a7708025d765
+SHA1: 84b14cbf303945048cb5f5f69e245818200a104e
+SHA256: 7627f9e583144755149675d3c7b04b01a97fb591bfb66b4825c0261a96d310d8
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
 Description: Static libraries for libetonyek
 
 Package: libetonyek
-Version: 0.1.10
+Version: 0.1.10-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1640
+Installed-Size: 1652
 Depends: libxml2, libwpd, librevenge, liblangtag, zlib
-Filename: pool/tur/libetonyek_0.1.10_arm.deb
-Size: 394096
-MD5sum: 23bda9dc577db577c1f6010cfc195b52
-SHA1: e5d3998e694abca46b8916067cfe1de9d7ca60a8
-SHA256: fa10a044eb073b151209bc1c76c6dbbb208efe161146e794931f13a4a3b8fe3d
+Filename: pool/tur/libetonyek_0.1.10-1_arm.deb
+Size: 396840
+MD5sum: 27ce7aa66d9f5e01e09970dd1bc4f2ea
+SHA1: 803146183e153c70902119672f9da24773d331c3
+SHA256: e583187fd74f219da252430dde7fa7f6134df7c100dba3e78de735febcfdffca
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
 Description: CorelDraw file format importer library for LibreOffice
 
@@ -1691,30 +1691,30 @@ Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
 Package: libfreehand-static
-Version: 0.1.2
+Version: 0.1.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 1408
-Depends: libfreehand (= 0.1.2)
-Filename: pool/tur/libfreehand-static_0.1.2_arm.deb
-Size: 304400
-MD5sum: f9fe93732b07c9c95af544e51acbd84d
-SHA1: 2974a0e3406d02697b53c81f68ce5a4c969927bb
-SHA256: 335f582d31440f4c00d4ca1ce67c698843367cfc5a69a4f1a94aca20800ffd92
+Depends: libfreehand (= 0.1.2-1)
+Filename: pool/tur/libfreehand-static_0.1.2-1_arm.deb
+Size: 304248
+MD5sum: 0887d7c841754a6866bcb0ab428e592b
+SHA1: c85520580f1d13a08e2cccc6b6e5f1ac27c3d603
+SHA256: 0019b9b437199174020df5be28cabad1d3987747edce6e9daa4037fcd1f3efcb
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
 Description: Static libraries for libfreehand
 
 Package: libfreehand
-Version: 0.1.2
+Version: 0.1.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 424
 Depends: boost, littlecms, libicu, librevenge, zlib
-Filename: pool/tur/libfreehand_0.1.2_arm.deb
-Size: 218672
-MD5sum: 5b545242897a0b9ea55056969165670a
-SHA1: a1b9162599f15b90c6cae9ff9bf72645f6fc396c
-SHA256: 8ad2fc828ae54e8ff3d9d2d275e13c685e896501ee8d75b4b41fcbba01abcb6b
+Filename: pool/tur/libfreehand_0.1.2-1_arm.deb
+Size: 218768
+MD5sum: abf20805245dc4f063fdd3d0cdf0a456
+SHA1: ac77180fa8666f38f1047c4e3838ff71e5de796a
+SHA256: 9b0cfbe0d2bdf072e8040629b0a0b1fd1ddbe35fff196b2be3b8950c25e3a3d6
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
 Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
 
@@ -1774,30 +1774,30 @@ Homepage: https://libiptcdata.sourceforge.net/
 Description: a C library for manipulating the IPTC metadata stored within multimedia files
 
 Package: libixion-static
-Version: 0.19.0-1
+Version: 0.20.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2636
-Depends: libixion (= 0.19.0-1)
-Filename: pool/tur/libixion-static_0.19.0-1_arm.deb
-Size: 382984
-MD5sum: fbacf2f2839beeaa9147166e212ee4f6
-SHA1: 25118203a5328914b2a3dd8c790960a5fef4a5c1
-SHA256: 00b590a29468e60f52a6bd252a85dd574dd7a839450129a7269d66dccdfa65ce
+Installed-Size: 2704
+Depends: libixion (= 0.20.0)
+Filename: pool/tur/libixion-static_0.20.0_arm.deb
+Size: 393932
+MD5sum: f1cc1e44b55562240f256ca25b39b48c
+SHA1: 86139dd722f66f4cb295be5520ef4a34accd28f1
+SHA256: da96b513aab7a8f2e7b5614fb92ac5398aa57f6c2d33297556db21fbf3b35101
 Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
 Description: Static libraries for libixion
 
 Package: libixion
-Version: 0.19.0-1
+Version: 0.20.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1012
+Installed-Size: 1016
 Depends: boost, libc++
-Filename: pool/tur/libixion_0.19.0-1_arm.deb
-Size: 293724
-MD5sum: fd4df53b14ffbc42413e617bcff9aa54
-SHA1: 665e22e5131589800987f9e38049a9aa6c3fcefb
-SHA256: b88c71f5f094e5f631c8f567a0be240fda5c350c93475cee5117d8b6aa563caa
+Filename: pool/tur/libixion_0.20.0_arm.deb
+Size: 298044
+MD5sum: 1ebd5acd6c5ece8fd9c8bab2350c015b
+SHA1: c39f2b118fe691ad2956977a41931375951de560
+SHA256: a5ae4fdec1542a7c15d6c23292deac0da2f6e4be4e6b88dfa9066ec8bfaf2bdb
 Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
 Description: A general purpose formula parser & interpreter
 
@@ -2034,30 +2034,30 @@ Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
 Package: libmspub-static
-Version: 0.1.4
+Version: 0.1.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 1944
-Depends: libmspub (= 0.1.4)
-Filename: pool/tur/libmspub-static_0.1.4_arm.deb
-Size: 241852
-MD5sum: 9ec43e1df1a2cd6b50031f4502063179
-SHA1: 777090cc016bca59bf49c5cf6363f447934e9137
-SHA256: 330d5a492209baa21e419c002884b819f2fd5dd630c0b3983975dea6d31a6d28
+Depends: libmspub (= 0.1.4-1)
+Filename: pool/tur/libmspub-static_0.1.4-1_arm.deb
+Size: 242060
+MD5sum: 419dcd80bfdee0038fc6d18804b69b46
+SHA1: 626d1c9db437c60b7f54c5fa21c84d28549ec1fe
+SHA256: be1f2018021564dd4938ddb675a4134a857913f275cbbf64bd512dbb0b4d09dc
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: Static libraries for libmspub
 
 Package: libmspub
-Version: 0.1.4
+Version: 0.1.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 348
 Depends: libwpd, libicu, libxml2, librevenge, zlib
-Filename: pool/tur/libmspub_0.1.4_arm.deb
-Size: 92060
-MD5sum: ea2126296b04541cbfc5273c84709eff
-SHA1: 9bede8a2002d9c79261ccfa9566961bc551f6236
-SHA256: b57569c0738fa7a81f955ce86fe2150a0e6c256c0598ed44431a3b2411ff5194
+Filename: pool/tur/libmspub_0.1.4-1_arm.deb
+Size: 92112
+MD5sum: 913aff5c3d4e10973d1494f43fb49c63
+SHA1: 18b3dac472014a42f5a472433fb7ef8cdff170bf
+SHA256: 97e3a215d39f922f8fa4f5a0bcb69e6938a1bc1bce5e14881aa00010846672e7
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: Microsoft Publisher file format parser library (latest snapshot)
 
@@ -2173,86 +2173,86 @@ Homepage: https://github.com/Numbertext/libnumbertext
 Description: Number to number name and money text conversion library
 
 Package: libodfgen-static
-Version: 0.1.8
+Version: 0.1.8-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 3400
-Depends: libodfgen (= 0.1.8)
-Filename: pool/tur/libodfgen-static_0.1.8_arm.deb
-Size: 410816
-MD5sum: d93f84bd3bb6fe665d4782839138fda5
-SHA1: 5590dbf7bcdc69486ae937093db3301626a8f547
-SHA256: 2a361bb08060edd58b01137de2deecbf317b47342dd18c3b7e2d0623a4ae6849
+Depends: libodfgen (= 0.1.8-1)
+Filename: pool/tur/libodfgen-static_0.1.8-1_arm.deb
+Size: 411176
+MD5sum: 18eff47373f5d7a34d14709c46243875
+SHA1: 097e52cb643ac22f010a4d4539e01062827e4c4f
+SHA256: f36c43be1f90aaea7d79ab033742237c7b7a2a0355dd7224bcc8b4672b638fa3
 Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
 Description: Static libraries for libodfgen
 
 Package: libodfgen
-Version: 0.1.8
+Version: 0.1.8-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 584
 Depends: libxml2, librevenge, liblangtag, zlib
-Filename: pool/tur/libodfgen_0.1.8_arm.deb
-Size: 170352
-MD5sum: 2d775d0f2db995d2f789c4f4778de9ca
-SHA1: cbcbad1ab3e6758d9844a3a898a3c671195ede75
-SHA256: 4805f7f0ad016f8a5ae2cacbeb11bd66bad45f4081b896a85b06721a2157eb79
+Filename: pool/tur/libodfgen_0.1.8-1_arm.deb
+Size: 170428
+MD5sum: 41b9e4b0dff66e01862ddd461889e7ca
+SHA1: 76991e5b8a37fd9f0a40d676981973b2cf4fd348
+SHA256: ee1c6c9c332a0ed12a12b95227d5be75da85cb824fcb3e6452b28baf49ba16ea
 Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
 Description: Library for generating documents in Open Document Format
 
 Package: liborcus-static
-Version: 0.19.2-1
+Version: 0.20.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 4756
-Depends: liborcus (= 0.19.2-1)
-Filename: pool/tur/liborcus-static_0.19.2-1_arm.deb
-Size: 791704
-MD5sum: f9978bd40abba0bb0c68722ba85828d0
-SHA1: bd7d6a8537da05df1962f337e06482b79a36d977
-SHA256: f2166d342e0c901bf0aff7b035d85cd1270366934fadc9184b3fd6e760185962
+Installed-Size: 5136
+Depends: liborcus (= 0.20.0)
+Filename: pool/tur/liborcus-static_0.20.0_arm.deb
+Size: 855536
+MD5sum: 134f2b31de89c8067ce80364663392f0
+SHA1: d1e8fe1d96a41b73cc3e04cb060705d7c4beba32
+SHA256: bf0d039c1dba4d1efd524d72463985b318de9b54752c2c0d3125949fa511741c
 Homepage: https://gitlab.com/orcus/orcus/
 Description: Static libraries for liborcus
 
 Package: liborcus
-Version: 0.19.2-1
+Version: 0.20.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2504
+Installed-Size: 2640
 Depends: boost, libc++, libixion, zlib
-Filename: pool/tur/liborcus_0.19.2-1_arm.deb
-Size: 624656
-MD5sum: 520efa7bad194367ec038734e3a2134b
-SHA1: a3f006b3d74a3d57a4e39315f57d2a60a3ce42d4
-SHA256: 18222530825c340a80e80fcc77f3a640cc8db42ab06881165585a59e1c0ed678
+Filename: pool/tur/liborcus_0.20.0_arm.deb
+Size: 664032
+MD5sum: 5d8c559d0b32281f2d767b305895cc83
+SHA1: 46321848500aa459d6bd6dd549a73e7bfc218fdc
+SHA256: f4d56196323d401d0b249bec22b69020a57f163f384a9023ab4c3ba1f5468036
 Homepage: https://gitlab.com/orcus/orcus/
 Description: File import filter library for spreadsheet documents.
 
 Package: libpagemaker-static
-Version: 0.0.4
+Version: 0.0.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 728
-Depends: libpagemaker (= 0.0.4)
-Filename: pool/tur/libpagemaker-static_0.0.4_arm.deb
-Size: 94756
-MD5sum: 743b36f18931d8e94c5e9f06c788cf2e
-SHA1: b1f973c75f73a5735259b4eaaba98f4522fa2727
-SHA256: bd10193f33686f50c1fddcbed1d5c9f76d679998cc390ed380108080269773a3
+Depends: libpagemaker (= 0.0.4-1)
+Filename: pool/tur/libpagemaker-static_0.0.4-1_arm.deb
+Size: 94604
+MD5sum: 658eb0bf0a5ff1e8a188e5d15fe1b5ec
+SHA1: ebc5dbf5db5d138c3116cd85f1103656fc748012
+SHA256: 605f63e1eb6528288ba7108fec1d2e790bc7028b46eac3e9c47e4d3e03e98be9
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
 Description: Static libraries for libpagemaker
 
 Package: libpagemaker
-Version: 0.0.4
+Version: 0.0.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 188
 Depends: librevenge
-Filename: pool/tur/libpagemaker_0.0.4_arm.deb
-Size: 40348
-MD5sum: 87af22ad13f2fb15f43ebdfedef35620
-SHA1: 51b211b8646158cdaa9848f269235947ed92b3f7
-SHA256: a719dffe8f201c4bdbe71bf437225887f4168ef760b2468b0bbbe996f6b99b4b
+Filename: pool/tur/libpagemaker_0.0.4-1_arm.deb
+Size: 40412
+MD5sum: b0d384bae2726c8e5c3d28646fa3b046
+SHA1: bcc23bbae7f38592685bc5137dbbf09a0f5d002d
+SHA256: 95951e0c07de055a5e4517b2ca70c017bc48ef67ef8c05c288b29a1d2ec2324a
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
 Description: a library that parses the file format of Aldus/Adobe PageMaker documents
 
@@ -2271,30 +2271,30 @@ Homepage: https://clang.llvm.org/
 Description: High-level loop and data-locality optimizer for clang
 
 Package: libqxp-static
-Version: 0.0.2-1
+Version: 0.0.2-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 1888
-Depends: libqxp (= 0.0.2-1)
-Filename: pool/tur/libqxp-static_0.0.2-1_arm.deb
-Size: 207564
-MD5sum: 372aaa7ddfa0582962c47657baa404f7
-SHA1: c8ee9c5db0176fab3b5e65a1b3698ef268f7819b
-SHA256: bf88424cf5540f9cc48af2c8b8b22bb99d2c95f9446dfe8270357a6640f6486e
+Depends: libqxp (= 0.0.2-2)
+Filename: pool/tur/libqxp-static_0.0.2-2_arm.deb
+Size: 207592
+MD5sum: f502ef7c939065ffbc538f6110199252
+SHA1: 16534998b779f7224e44ce08e80af0b034826d54
+SHA256: 6df0b2741a09b00f657045b14fa73336ee66ceab779f1239f5fe9a30df4c9ceb
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
 Description: Static libraries for libqxp
 
 Package: libqxp
-Version: 0.0.2-1
+Version: 0.0.2-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 292
 Depends: libicu, librevenge
-Filename: pool/tur/libqxp_0.0.2-1_arm.deb
-Size: 70040
-MD5sum: 64cb3d9b47e780d0acdc2c2b767f5d51
-SHA1: d545e08621b62889edb6f735fc27b1b5e210546d
-SHA256: 81791433f19882695b956ddc607e7412a14312a6fa1e89d3600d90aa3fe87718
+Filename: pool/tur/libqxp_0.0.2-2_arm.deb
+Size: 69964
+MD5sum: e0e347387a97f2ed903a84abf5344a6d
+SHA1: c0f9694e2239830460a0d892fa236451d5dfb861
+SHA256: e765ddd627fdb1a3e63cd2556bc538ca3c610147f9e59e8c8c49a8687d5d17ee
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
 Description: a library that parses the file format of QuarkXPress documents
 
@@ -2327,30 +2327,30 @@ Homepage: https://www.libraw.org
 Description: A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others
 
 Package: librevenge-static
-Version: 0.0.5
+Version: 0.0.5-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 2144
-Depends: librevenge (= 0.0.5)
-Filename: pool/tur/librevenge-static_0.0.5_arm.deb
-Size: 269852
-MD5sum: 7bd8d172c0d83a0b613ef607f75257cd
-SHA1: 71cd93822ec331c0960e0936c240747b80c4f3ec
-SHA256: 27430aa984225d07a0b25f6473be8dcd7e0c3f711266f00e697faf1d5944de72
+Depends: librevenge (= 0.0.5-1)
+Filename: pool/tur/librevenge-static_0.0.5-1_arm.deb
+Size: 269520
+MD5sum: 208e60f734a54cab4b74a4ec3b4f71eb
+SHA1: b42b271bc842175ab403958a53d72f2d6b0efe33
+SHA256: 86c32c83820bd3803efb66cc9d77dfd9424b0638200c4d247ce19c99733aa980
 Homepage: https://sf.net/p/libwpd/librevenge/
 Description: Static libraries for librevenge
 
 Package: librevenge
-Version: 0.0.5
+Version: 0.0.5-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 720
 Depends: boost, zlib
-Filename: pool/tur/librevenge_0.0.5_arm.deb
-Size: 141564
-MD5sum: 734aa0858868c7f0d934e9b9c700f0c5
-SHA1: 66939a83a149f0b342d6b9c1a54db86fc9bcd190
-SHA256: a7f4139f389a25001afa00f498b51e4b468c07f389fe76fdc27e602d5b86a86b
+Filename: pool/tur/librevenge_0.0.5-1_arm.deb
+Size: 141548
+MD5sum: 220bc1e0c1b47ac5776a4f8fdb66115a
+SHA1: cfa5fa0a371e1428ea7e730b1af108d2b621b7f5
+SHA256: a406bbc5d046defea656f1005354bd8bea7a217b2996ab8f8d9515748bcb9f2a
 Homepage: https://sf.net/p/libwpd/librevenge/
 Description: library for REVerses ENGineered formats filters
 
@@ -2411,30 +2411,30 @@ Homepage: https://github.com/fosnola/libstaroffice
 Description: filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
 
 Package: libvisio-static
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 4560
-Depends: libvisio (= 0.1.7)
-Filename: pool/tur/libvisio-static_0.1.7_arm.deb
-Size: 431580
-MD5sum: 49113f6f253428ad71903dccd535c527
-SHA1: 637c03b5c627acabe877686f90e4f194d90f629c
-SHA256: f70f7fd5ebd64d003bb29f7562330000cd8b34b1cef9b084e32e633d3fee6a53
+Installed-Size: 4556
+Depends: libvisio (= 0.1.7-1)
+Filename: pool/tur/libvisio-static_0.1.7-1_arm.deb
+Size: 430856
+MD5sum: 3d7e90c93146be482f1a9dc1e5ec981a
+SHA1: 0c74e8571540ac9810b5e2f79cdb920d55013db7
+SHA256: b6217a24e916a39a06605d44fc5cb29ecd6a5d35ea67d690a963eb16b1bab5f0
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: Static libraries for libvisio
 
 Package: libvisio
-Version: 0.1.7
+Version: 0.1.7-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 476
+Installed-Size: 480
 Depends: libxml2, libicu, librevenge
-Filename: pool/tur/libvisio_0.1.7_arm.deb
-Size: 137748
-MD5sum: fa0f0a570da38cdcbf5565522ccba822
-SHA1: d8e0b53ad5819319d8af87040a4b2dc787b8a62e
-SHA256: 65a9475599a450d7212de934600b47a82e64f8e9c05e7401ca0ca1746f5e891d
+Filename: pool/tur/libvisio_0.1.7-1_arm.deb
+Size: 138004
+MD5sum: a83c6aed2ef92fdb891064177cbf2957
+SHA1: f2f2a481d8bfb404edcb58fa5c298d1163a51661
+SHA256: 1b0a9c6fc491fa4601e017f0ef13438817098356a04049d1b83467e187725a43
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: Library providing ability to interpret and import visio diagrams
 
@@ -2453,44 +2453,44 @@ Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processin
 Description: A library containing the AudioProcessing module from the WebRTC project
 
 Package: libwpd
-Version: 0.10.3
+Version: 0.10.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 504
 Depends: librevenge
-Filename: pool/tur/libwpd_0.10.3_arm.deb
-Size: 128028
-MD5sum: 6d483fe9a748c6dde5e9369ce57251b1
-SHA1: 6c3b12918ffc45a5341638f9c27bad9ff66ce62d
-SHA256: 858e01f7a9224c69d28a8a2c4daf01bf4dc4262eaf6e88f5488e188fc3bd2485
+Filename: pool/tur/libwpd_0.10.3-1_arm.deb
+Size: 128104
+MD5sum: 906ddef032ff0c8906026e29f16f5404
+SHA1: 8efce3b4ef3dbc1fd4fd9c2697c2c762c5598971
+SHA256: b3ff3022c88971bfffe8446088058e840a2f573fad90272270dfe3decaf6e887
 Homepage: https://libwpd.sourceforge.net/
 Description: Library for importing WordPerfect (tm) documents
 
 Package: libwpg-static
-Version: 0.3.4
+Version: 0.3.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 396
-Depends: libwpg (= 0.3.4)
-Filename: pool/tur/libwpg-static_0.3.4_arm.deb
-Size: 61948
-MD5sum: 8e3b9abe836f25424db90d9363d32f56
-SHA1: 23c0a38772404959f0f49e218bc8294c5d1ea753
-SHA256: 3fff7fd178fb754b24e9665331a069f6860207bf0d1dd33cbb8d0bc652856e79
+Depends: libwpg (= 0.3.4-1)
+Filename: pool/tur/libwpg-static_0.3.4-1_arm.deb
+Size: 62024
+MD5sum: b6b44314236054809d93b557ea5b3c6a
+SHA1: 47a0ff220e5b7b3d66596c0e1352aaf369ee2949
+SHA256: f07fe1af2659e405395b3dcfd9e5482041b9ab6760251f656dfa10ed43b12f64
 Homepage: https://libwpg.sourceforge.net/
 Description: Static libraries for libwpg
 
 Package: libwpg
-Version: 0.3.4
+Version: 0.3.4-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 172
 Depends: libwpd, perl, librevenge
-Filename: pool/tur/libwpg_0.3.4_arm.deb
-Size: 37012
-MD5sum: d2e696a722c612886da28703513aca32
-SHA1: 3a22ceb879c53c3f5563380b10a2832d02ed8458
-SHA256: a86025c843ef549703f777e44f4d7449244d64226597aab34ff228eb617fbb1e
+Filename: pool/tur/libwpg_0.3.4-1_arm.deb
+Size: 37020
+MD5sum: 96af5ee44f5e94051d8d4d2959314c1b
+SHA1: c63c464ac1d068e88b4c9b90d8079b133545374d
+SHA256: f02e8398a2181ad74983bd114aa428a80f2d2d6d7959eebef79e88c971fa73f7
 Homepage: https://libwpg.sourceforge.net/
 Description: Library for importing and converting Corel WordPerfect(tm) Graphics images.
 
@@ -2581,30 +2581,30 @@ Homepage: http://www.xmlsoft.org
 Description: Library for parsing XML documents
 
 Package: libzmf-static
-Version: 0.0.2
+Version: 0.0.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 896
-Depends: libzmf (= 0.0.2)
-Filename: pool/tur/libzmf-static_0.0.2_arm.deb
-Size: 114536
-MD5sum: 0a7278848a0f253b356e3476329f2edb
-SHA1: a4e915022208cdfd7a8b59ff903c6717a4b45b1b
-SHA256: fc3e39c584622f1bace2aca35f05d92b0d640b5e39b0f3942281f25a3a86cd4f
+Depends: libzmf (= 0.0.2-1)
+Filename: pool/tur/libzmf-static_0.0.2-1_arm.deb
+Size: 114572
+MD5sum: 481c54aaebcd1588724e137998232337
+SHA1: fe39e64cc8872240420f5fcb9814f3cf56cedcce
+SHA256: d4875ba8ef9ece4d4ec455fbd2adf72e55cdc58576be9a1457357c90d52025af
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
 Description: Static libraries for libzmf
 
 Package: libzmf
-Version: 0.0.2
+Version: 0.0.2-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 192
 Depends: libicu, libpng, librevenge, zlib
-Filename: pool/tur/libzmf_0.0.2_arm.deb
-Size: 45568
-MD5sum: 0e6fdcf496eb46b24c362a60b36d0157
-SHA1: 644a1c94b141e76af2bf3fe209e7ff061667d643
-SHA256: 01fe9838bed9415e104ab98cf365e5084b3dcc77e43edb2e2e90492a31564e96
+Filename: pool/tur/libzmf_0.0.2-1_arm.deb
+Size: 45452
+MD5sum: 78fa05429e851d6f5dcbd400d61d1227
+SHA1: 5887ba1fc87f43fb2607795b859e8fe84f228587
+SHA256: 245bad36424c52e86538942bbd9be6a63b046a6e197ac15a28f79590f8428ae7
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
 Description: a library for import of Zoner drawing and bitmap files
 
