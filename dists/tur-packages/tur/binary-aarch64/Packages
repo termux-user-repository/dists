@@ -1597,29 +1597,31 @@ Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/l
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libbson-static
-Version: 1.30.3
+Version: 1.30.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 3152
-Depends: libbson (= 1.30.3)
-Filename: pool/tur/libbson-static_1.30.3_aarch64.deb
-Size: 514832
-MD5sum: b06f794a6a9e24297798ba27a5d37373
-SHA1: 55b0a420c83c453017d6a2670c5753cf4e9db376
-SHA256: 93cf12bf9c7147176bc282e77016d5fe26a252f34470649ae99542461f5a09e7
+Depends: libbson (= 1.30.3-1)
+Filename: pool/tur/libbson-static_1.30.3-1_aarch64.deb
+Size: 514816
+MD5sum: c39d1e130058af48c8a2b59c291b6d2c
+SHA1: d4729711f515a3b73ec8829538ad7ebdeceafbb7
+SHA256: c30da29d23c5d8dbe44e9d2c8d9f7d30e39959dcc6c24a9ee1124eae02e813ab
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: Static libraries for libbson
 
 Package: libbson
-Version: 1.30.3
+Version: 1.30.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 624
-Filename: pool/tur/libbson_1.30.3_aarch64.deb
-Size: 110324
-MD5sum: 07a085a85a8dd9ae3ff821bfb7ccf91b
-SHA1: 945fd0dbfe48ddc1b7c42a344ce3db0d173af8a3
-SHA256: 4ce2b17ec928eb78b3feba2733f5b677fffec3a9edf558b3a17b655c65d8ceaa
+Conflicts: libmongoc (<< 1.30.3)
+Breaks: libmongoc (<< 1.30.3)
+Filename: pool/tur/libbson_1.30.3-1_aarch64.deb
+Size: 110012
+MD5sum: 1ce4158da29a681cd985fba54a534600
+SHA1: 12a4cbb745a37ff0b176afbd16397d842acbd3fc
+SHA256: 16790f8e1f899f05b7c08f53060e7b0a3c4c1a1916eb43e99101848318c8762a
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
