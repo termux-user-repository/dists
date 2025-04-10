@@ -1399,16 +1399,30 @@ SHA256: 299fa7dba8ae4ae4bf75d161712956731a114a69885ad2e9dddd7270888c9d26
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
-Package: libbson
-Version: 1.22.2-2
+Package: libbson-static
+Version: 1.30.3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 712
-Filename: pool/tur/libbson_1.22.2-2_arm.deb
-Size: 129428
-MD5sum: af814aa5c1d8efd2cd894e1197024866
-SHA1: 51a1c87aa61cc788d06dbf645cccce76abf9cad3
-SHA256: 2eb2a91fa2f5057aa2210b7ecd242dc415c93ceccf8b0029cf84a4a361379b17
+Installed-Size: 2164
+Depends: libbson (= 1.30.3)
+Filename: pool/tur/libbson-static_1.30.3_arm.deb
+Size: 529284
+MD5sum: 82d7db40b30dd76ea903390eed4c1270
+SHA1: be0e1ec0b5e681fe1824d918ad2d23c97e2b0545
+SHA256: 27cbda39a5175d6f188258f315eb49a41b439776f58027fefb3983252f6c65d9
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: Static libraries for libbson
+
+Package: libbson
+Version: 1.30.3
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 564
+Filename: pool/tur/libbson_1.30.3_arm.deb
+Size: 107604
+MD5sum: dac8e27e1b2c27d74c5005009a666036
+SHA1: a2399d7a5a9abd1baa88a53f03b382e00083d6e0
+SHA256: c6066b3b4ddd8453c7ddd10bfbd9013cacd765fcc7ef4adf8b63eed44507f6b7
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
@@ -1978,58 +1992,60 @@ Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library
 
 Package: libmongoc-static
-Version: 1.22.2-2
+Version: 1.30.3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1176
-Depends: libmongoc (= 1.22.2-2)
-Filename: pool/tur/libmongoc-static_1.22.2-2_arm.deb
-Size: 292224
-MD5sum: b93923c149732cb604efbd34ede51f11
-SHA1: 4c8702c27fac2be799c99d754e21259d74388981
-SHA256: abc3cb5bd26cb22f9420e6549fdfae1a0523a58b0d301bb4de621658b40f8607
+Installed-Size: 1924
+Depends: libmongoc (= 1.30.3)
+Filename: pool/tur/libmongoc-static_1.30.3_arm.deb
+Size: 476956
+MD5sum: dfc31dad9f60b6302331656c63062df3
+SHA1: 8efa122e6e7b77378ddb6f1504ef1005df95d8dd
+SHA256: ad784771c9e3cd6fcb99ab7fa2b60897f626c4eefeba2e01c336da61bac8ef69
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: Static libraries for libmongoc
 
 Package: libmongoc
-Version: 1.22.2-2
+Version: 1.30.3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1160
-Depends: libicu, libsasl, libmongocrypt, openssl, zlib, zstd
-Filename: pool/tur/libmongoc_1.22.2-2_arm.deb
-Size: 279440
-MD5sum: 323ecc25ca8cc88f5a8cb10a6262205d
-SHA1: 119c0e6788738b0927bd7d05ebdb2a30070cb253
-SHA256: 77b416d2f4f9731505fc3d2bc008f0a37ad73356643cbd1126104587bd760a05
+Installed-Size: 1768
+Depends: libbson, libicu, libmongocrypt, libsasl, libsnappy, openssl, zlib, zstd
+Filename: pool/tur/libmongoc_1.30.3_arm.deb
+Size: 439600
+MD5sum: c214f4a734bcff4726bc0a150a0c7fff
+SHA1: f595a45760c61c6b9c8fa626a52d103a0bc9f792
+SHA256: c9f1957d98db525461e70be89770a527c15c02bfccf6a8806c2b5e545a89db2c
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
 
 Package: libmongocrypt-static
-Version: 2.3.0-3
+Version: 1:1.13.2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 744
-Depends: libmongocrypt (= 2.3.0-3)
-Filename: pool/tur/libmongocrypt-static_2.3.0-3_arm.deb
-Size: 193900
-MD5sum: e0bc1254c05df4e64818bb4c3e8fe614
-SHA1: 8d56d96258ad30e596f2bffd275a74995001a45c
-SHA256: 2ff1e4289e26c5e8407b6ad0c049992c61800cbe3bd5e2bb9d5c501b4f6e29d3
+Installed-Size: 1196
+Depends: libmongocrypt (= 1:1.13.2)
+Filename: pool/tur/libmongocrypt-static_1:1.13.2_arm.deb
+Size: 294948
+MD5sum: 5c026f3496186e8de1703975d72af980
+SHA1: d9e2169d9786d215f0e3a4074f26abdc9edf7e6c
+SHA256: 614cac5dad4652e842ba68987ec30e52f2026847db84143a0a60c9d7895767e1
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
-Version: 2.3.0-3
+Version: 1:1.13.2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 604
-Depends: libicu, libsnappy, libsasl, openssl
-Filename: pool/tur/libmongocrypt_2.3.0-3_arm.deb
-Size: 163804
-MD5sum: dc9db5f1469baec656a411aeee0d44ec
-SHA1: f1dd986dd45ca4bb161dfeb638bc51a4169f959a
-SHA256: 2f5e69056d77a8bcaa8e3a6a68708d64e1266ec633230dcd440eb2b2bc34529a
+Installed-Size: 772
+Depends: libbson, libicu, libsasl, libsnappy, openssl
+Conflicts: libmongoc (<< 1.30.3)
+Breaks: libmongoc (<< 1.30.3)
+Filename: pool/tur/libmongocrypt_1:1.13.2_arm.deb
+Size: 194316
+MD5sum: 7db332e043ef93bbab9ff23217e2ea07
+SHA1: fefd93597b58ffbcc0d94ab595e8e84f701c7765
+SHA256: 9b31cdd944e04f713f335e20fac9992af02bb96e13fe8a82969e15d630ab8064
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
