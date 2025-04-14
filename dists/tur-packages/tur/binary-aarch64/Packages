@@ -325,6 +325,20 @@ SHA256: 3af56260594a4deab7cdbbd9d4cdccbfeb17f52b5b330f75ac29159a71323389
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser (Host tools)
 
+Package: chromium-jumbo
+Version: 122.0.6261.128
+Architecture: aarch64
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 1008788
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/chromium-jumbo_122.0.6261.128_aarch64.deb
+Size: 154840368
+MD5sum: 8a5d9fbb03974a21d7248aa9d29c39fc
+SHA1: 6da914c1c5d6a80ca9256451df1943a245bd9ebe
+SHA256: f07c9520f7fda4e98ef4aa994f0292c3508f449e0cf5e63efbf5321d7be8e996
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser
+
 Package: chromium
 Version: 132.0.6834.159
 Architecture: aarch64
@@ -4822,6 +4836,20 @@ SHA1: 01eb92ee0a4e41270ed86a516c8afddea5e7cf66
 SHA256: 4131faf4868e1fe8d33f598c345fa5822400d6580927f2ec135450787485d555
 Homepage: https://github.com/luanon404/android-webdrivers
 Description: Chromium-based android webdriver application used by seledroid.
+
+Package: shared-mime-info
+Version: 2.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2592
+Depends: coreutils, glib, libxml2
+Filename: pool/tur/shared-mime-info_2.4-1_aarch64.deb
+Size: 268668
+MD5sum: ab015df593bec047c54c9c2b2974bf87
+SHA1: a4533b10c6ede572fa325a5a5878de6505c45d3f
+SHA256: 3d19c5b8bed2c4a9cb1c6a60ffb0d4715d697b8684c7eb624aaed4c5d0b79673
+Homepage: https://freedesktop.org/Software/shared-mime-info
+Description: Freedesktop.org Shared MIME Info
 
 Package: skyseg-ncnn
 Version: 0.1.0
