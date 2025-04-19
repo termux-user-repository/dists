@@ -1037,6 +1037,34 @@ SHA256: 66a1726bb5eb4110710a757248981497bd9c129ce69874992ffa421cc7ec82fe
 Homepage: https://gi.readthedocs.io/
 Description: A tool which generates GIR XML files
 
+Package: gawk-mbs-static
+Version: 1.0.0.git20240116
+Architecture: x86_64
+Maintainer: @flosnvjx
+Installed-Size: 44
+Depends: gawk-mbs (= 1.0.0.git20240116)
+Filename: pool/tur/gawk-mbs-static_1.0.0.git20240116_x86_64.deb
+Size: 3724
+MD5sum: d1479c3d0b94dd1ae500d525e4420f23
+SHA1: a74c3eb228e46a84c30d40c9f1b0d59bade3ab53
+SHA256: 557bfbda78c4c75a3c26f4371ced8bf6ba4eb32d8c95b756b6a9fa131189d608
+Homepage: https://gawkextlib.sourceforge.net/mbs/mbs.html
+Description: Static libraries for gawk-mbs
+
+Package: gawk-mbs
+Version: 1.0.0.git20240116
+Architecture: x86_64
+Maintainer: @flosnvjx
+Installed-Size: 72
+Depends: gawk
+Filename: pool/tur/gawk-mbs_1.0.0.git20240116_x86_64.deb
+Size: 6016
+MD5sum: 2efefa09bd89d7c7057bab8796a0cb68
+SHA1: c1523e494811a76729c94b9761da97019f5f7202
+SHA256: 47411ed85b15f209a2a2062b683e850e0df8ace81126a7ec51ca14dbbfb44b6f
+Homepage: https://gawkextlib.sourceforge.net/mbs/mbs.html
+Description: gawk(1) extension library providing functions for working with strings in a byte-oriented manner (in case of running under multibyte locales)
+
 Package: gawk-reclen-static
 Version: 1.0.1
 Architecture: x86_64
