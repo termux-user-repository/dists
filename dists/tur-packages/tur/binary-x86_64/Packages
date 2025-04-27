@@ -5749,6 +5749,20 @@ SHA256: 416e34dbc0e03e401203d95e44bf247762241fc0e6c82605abd182f3801eefa6
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
 
+Package: gnat
+Version: 11
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 44
+Depends: gcc-11, gcc-default-11
+Filename: pool/tur/gnat_11_all.deb
+Size: 1692
+MD5sum: 6b62889053dc47f9166419f0bb96b42d
+SHA1: 576300aab26cdfdfe105950932e187d685bad599
+SHA256: e63e46bbf00437037d190387fa6bf53908a8ba7ec73973a472249f510bc61dd5
+Homepage: https://github.com/termux-user-repository/tur
+Description: GNU Ada Compiler
+
 Package: hangover
 Version: 10.0-1
 Architecture: all
