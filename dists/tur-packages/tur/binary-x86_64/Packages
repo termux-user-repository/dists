@@ -1168,6 +1168,21 @@ SHA256: d353935eed0e1ac8b7d17c6d6e1c66cbe08086d10e1716c036a9d7550e7c0a42
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
+Package: gcc-15
+Version: 15.1.0
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 302200
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 27b-3)
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-15_15.1.0_x86_64.deb
+Size: 82736920
+MD5sum: 4fcb698a7d4376c3ed46cc76677039a0
+SHA1: 71974946a9798394038ee0c18ff8233b0a8ef8a3
+SHA256: 662871120a0b787cfd3d17842ba7db189ed0a5496ec2e256ee563080ecd39364
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: gcc-9
 Version: 9.5.0-2
 Architecture: x86_64
