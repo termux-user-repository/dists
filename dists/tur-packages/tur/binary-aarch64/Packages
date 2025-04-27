@@ -5666,68 +5666,84 @@ Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 10)
 
 Package: gcc-default-11
-Version: 0.4
+Version: 15
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 32
 Depends: gcc-11
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-12, gcc-default-13, gcc-default-14
-Breaks: gcc-default-9, gcc-default-10, gcc-default-12, gcc-default-13, gcc-default-14
-Filename: pool/tur/gcc-default-11_0.4_all.deb
-Size: 1388
-MD5sum: 8b6c684a91f112953c4c79081ef7f495
-SHA1: 5aac9448ae0481d327da6aaded3670d21b417894
-SHA256: 2aa82cb403a55590c749e3de5ddda0733dac856f58355529e5bbf200fee6154c
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-12, gcc-default-13, gcc-default-14, gcc-default-15
+Breaks: gcc-default-9, gcc-default-10, gcc-default-12, gcc-default-13, gcc-default-14, gcc-default-15
+Filename: pool/tur/gcc-default-11_15_all.deb
+Size: 1384
+MD5sum: 351fa6029357242907b6b00ec65fadbd
+SHA1: dd1ac50c51fdea13bce9ef1f5e6f816e749fd0cc
+SHA256: 896ec3cbcce224257cd13e3981b6614c3b8e72851d4512978b39b9b225912994
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 11)
 
 Package: gcc-default-12
-Version: 0.4
+Version: 15
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 32
 Depends: gcc-12
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-13, gcc-default-14
-Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-13, gcc-default-14
-Filename: pool/tur/gcc-default-12_0.4_all.deb
-Size: 1388
-MD5sum: c22d1c2b97f3ae56531e15933c03fccc
-SHA1: 871542d22be7916bcb420b784facc940941ca7f2
-SHA256: c09f01a6cc40640fabd022fc3a5b862a37cb024988ca3fabe151074e996e154c
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-13, gcc-default-14, gcc-default-15
+Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-13, gcc-default-14, gcc-default-15
+Filename: pool/tur/gcc-default-12_15_all.deb
+Size: 1384
+MD5sum: ae393e8ec1548d34c933032da252d8be
+SHA1: 52d149c156affbd0061d25ec2389c0f44ab15a20
+SHA256: b6a03f2d6511f5a8a9b6e3865344b2efa90bf38826348a248bd4f389c68eb638
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 12)
 
 Package: gcc-default-13
-Version: 0.4
+Version: 15
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 32
 Depends: gcc-13
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-14
-Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-14
-Filename: pool/tur/gcc-default-13_0.4_all.deb
-Size: 1388
-MD5sum: 0e80817c34be47d3459a86838e93e635
-SHA1: 09f63c9d724911b082c31cb2d898833e873b51ba
-SHA256: df2b7d0cfdf73dd3ae026974f773853c83f3ace95fd7a026e3af741524df4bd0
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-14, gcc-default-15
+Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-14, gcc-default-15
+Filename: pool/tur/gcc-default-13_15_all.deb
+Size: 1384
+MD5sum: d937342a090e4bc21308bbcbec1207f8
+SHA1: 7cc298e7efb2fceafcec3bc8a962b19e79559d2e
+SHA256: 8ff4b02a7183f57d8e7de5929817541c13df6d24b6937c9b6fdf3a96347d8a59
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 13)
 
 Package: gcc-default-14
-Version: 0.4
+Version: 15
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 32
 Depends: gcc-14
-Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13
-Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13
-Filename: pool/tur/gcc-default-14_0.4_all.deb
-Size: 1388
-MD5sum: 5fe3dc4e2f291fb3ed117f96e5c66b12
-SHA1: e4444dd4e5655215f5feff2d3ff1f95c72321acd
-SHA256: a3cc9d5c3d3857e163a51463e30bc5f1ac6e28ce4d268dd7498dfd93bec1532d
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13, gcc-default-15
+Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13, gcc-default-15
+Filename: pool/tur/gcc-default-14_15_all.deb
+Size: 1384
+MD5sum: a1ad6fb5b3d8f75ebd4182a1f9a68110
+SHA1: 8a5f463c2dbf56cb8079d80ebde8bf4f61f83a25
+SHA256: 7ad4417fc28912a5db84ecf658c2bdc4b3ee289f03174ccb7e6b441212d75bdb
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 14)
+
+Package: gcc-default-15
+Version: 15
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 32
+Depends: gcc-15
+Conflicts: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13, gcc-default-14
+Breaks: gcc-default-9, gcc-default-10, gcc-default-11, gcc-default-12, gcc-default-13, gcc-default-14
+Filename: pool/tur/gcc-default-15_15_all.deb
+Size: 1384
+MD5sum: 2f87f39da60aaed0df6522f69c8c1dff
+SHA1: 342d9659c50496477a5ce4a1c38fea7995ff748d
+SHA256: ba89be0bfcd602f833c1ea4f859d07befadf325d65e42d89dde30ebfbdc422b8
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit (Version 15)
 
 Package: gcc-default-9
 Version: 0.3-3
@@ -5746,16 +5762,16 @@ Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 9)
 
 Package: gcc-default
-Version: 0.4
+Version: 15
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 44
 Depends: gcc-default-11
-Filename: pool/tur/gcc-default_0.4_all.deb
-Size: 1552
-MD5sum: 99fee71f1964761ce2c3ce3f5378f93d
-SHA1: 311aca5c8dbc4450b3cc1f1d4e8cd6bf0ef1b4d0
-SHA256: afcefbb95b8102309a5ea5b4f1d02f05d4f2671bf84da25e7a33ffe5f36aa59d
+Filename: pool/tur/gcc-default_15_all.deb
+Size: 1544
+MD5sum: 9bee50b28551bcf27bdb46c444e844ba
+SHA1: ab599ded021336c165e7ac876cbebd17dbb99684
+SHA256: b431c1e511b25798c85bdd3e1ba2a49477af6c97bf56f02bc940e971ed96dc5c
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit
 
