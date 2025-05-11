@@ -203,6 +203,21 @@ SHA256: ab54f12f57ebfcdf034ba2c375c7b547ab0073701a4a6e28253f862ddbd2d81f
 Homepage: https://github.com/hr3lxphr6j/bililive-go
 Description: A live streaming recording tool
 
+Package: biome2
+Version: 2.0.0
+Architecture: aarch64
+Maintainer: @AhmadNaruto
+Installed-Size: 28504
+Conflicts: biome
+Replaces: biome
+Filename: pool/tur/biome2_2.0.0_aarch64.deb
+Size: 7268480
+MD5sum: b92c88bbacbf5bc8cc3ebed0edd135cd
+SHA1: ef463811820ea1e633a9ca0695078bd5113963ca
+SHA256: 529f18c5c537840df5f3aaa58826dd140c49f3bbc33d86665eaf583b5773e761
+Homepage: https://github.com/biomejs/biome
+Description: A toolchain for web projects with a formatter and linter, usable via CLI and LSP
+
 Package: biome
 Version: 1.9.4
 Architecture: aarch64
@@ -1540,6 +1555,20 @@ SHA1: cd193d4de9e3f7faa09549b5ef95f30eb6a557c4
 SHA256: 36017d5f3b66e63f638607db0582c423207b3c829684ffda6b275abd2173e0e1
 Homepage: https://owasp.org/www-project-juice-shop/
 Description: A modern and sophisticated insecure web application
+
+Package: jujutsu
+Version: 0.29.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 18064
+Suggests: openssl
+Filename: pool/tur/jujutsu_0.29.0_aarch64.deb
+Size: 5198748
+MD5sum: 73e63d0972238d8ab66d13cb6900c305
+SHA1: 3a43b8aea36e9bef4c655bb4b13bd010d0ff63c1
+SHA256: 989d18ec26d63f4fa00aa9374542c552010bab77df5e770564d0282fa6a242ca
+Homepage: https://jj-vcs.github.io/jj/
+Description: A Git-compatible VCS that is both simple and powerful
 
 Package: krabby
 Version: 0.3.0
