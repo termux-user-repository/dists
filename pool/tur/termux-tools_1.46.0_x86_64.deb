@@ -1,0 +1,19 @@
+Package: termux-tools
+Version: 1.46.0
+Architecture: x86_64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 552
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am (>= 0.8.0), termux-am-socket (>= 1.5.0), termux-core, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Breaks: termux-keyring (<< 1.9)
+Filename: pool/tur/termux-tools_1.46.0_x86_64.deb
+Size: 33912
+MD5sum: d66cbcaf486ce9f84a8a3bbb4efc3ea2
+SHA1: 72766f443904de1aaeddf24e516e7d03c66a527e
+SHA256: e69c7b035a0da6d2b8d76d299d697ce0d1a0f32cf9d4c145093f58ede9fc0cc1
+Homepage: https://termux.dev/
+Description: Basic system tools for Termux
+

@@ -825,6 +825,20 @@ SHA256: beb2f1958c2000f3cb3be4a94646cf52ddc407e36ae30fed59739482359baf62
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS (Host Tools)
 
+Package: electron-jumbo
+Version: 32.2.6
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 341732
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/electron-jumbo_32.2.6_x86_64.deb
+Size: 68274872
+MD5sum: 6bfb554d824da5558bf204c180b1b096
+SHA1: 764198a63f98bd6e6c9043370b3404c0b36fb4a1
+SHA256: 56c5ec94ab3d9bf4e49dc8a01894eee7e1fe0f0e206bdf815341fbb32154cabd
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
 Package: electron21
 Version: 21.4.4
 Architecture: x86_64
@@ -5142,6 +5156,25 @@ SHA1: 2cf02233e7b63cc4cbcbf33eb406c089aadd1853
 SHA256: b996b2c21f1d58077c27321d433d664b8cef5b25a89e421c035cca027b372727
 Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
+
+Package: termux-tools
+Version: 1.46.0
+Architecture: x86_64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 552
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am (>= 0.8.0), termux-am-socket (>= 1.5.0), termux-core, termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Breaks: termux-keyring (<< 1.9)
+Filename: pool/tur/termux-tools_1.46.0_x86_64.deb
+Size: 33912
+MD5sum: d66cbcaf486ce9f84a8a3bbb4efc3ea2
+SHA1: 72766f443904de1aaeddf24e516e7d03c66a527e
+SHA256: e69c7b035a0da6d2b8d76d299d697ce0d1a0f32cf9d4c145093f58ede9fc0cc1
+Homepage: https://termux.dev/
+Description: Basic system tools for Termux
 
 Package: thunk-gen
 Version: 1.3-1
