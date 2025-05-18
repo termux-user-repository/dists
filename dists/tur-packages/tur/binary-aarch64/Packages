@@ -5454,6 +5454,20 @@ SHA256: b76727b5a1670c3f9669c7f24b23e02d2a49518594e6267e0cbe1e52e2d5bf14
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
+Package: wine-stable
+Version: 10.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 579368
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/tur/wine-stable_10.0-2_aarch64.deb
+Size: 72661916
+MD5sum: eb55f0547d2a87574751c693481dc28a
+SHA1: 2c7446bf68ccf49bf10bfc7889a88f0b50264e82
+SHA256: 23f64d58fbdd2d10fc3e36e1a77ee73f7595f7109ee3a4ef1d3ef9f02c86f2b1
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
 Package: wine-staging
 Version: 10.8
 Architecture: aarch64
@@ -5467,6 +5481,19 @@ SHA1: 3680e5764aca8808e4a31381276972ae5c14eca3
 SHA256: ae8030603c7103b8ed39c043d4627cdd0d1ec1855a6144a48dc1a29f462d4b3e
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
+
+Package: winetricks
+Version: 20250102-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 932
+Filename: pool/tur/winetricks_20250102-1_aarch64.deb
+Size: 149136
+MD5sum: 228936461bf91271d8e9915b5e19c6e5
+SHA1: 449b41082926d1cf4c134120f64d3617eb5350bc
+SHA256: 4e0e02d9a62abde0a669d1156adb77898c126127bc6f965a9d551e239379a05e
+Homepage: https://github.com/Winetricks/winetricks
+Description: Work around problems and install applications under Wine
 
 Package: xfdashboard-static
 Version: 1.0.0
