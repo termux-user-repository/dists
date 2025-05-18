@@ -5454,6 +5454,20 @@ SHA256: b76727b5a1670c3f9669c7f24b23e02d2a49518594e6267e0cbe1e52e2d5bf14
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
+Package: wine-staging
+Version: 10.8
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 1165540
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Filename: pool/tur/wine-staging_10.8_aarch64.deb
+Size: 78743824
+MD5sum: e26613d7dac1be01812ce5df2812a1ba
+SHA1: 3680e5764aca8808e4a31381276972ae5c14eca3
+SHA256: ae8030603c7103b8ed39c043d4627cdd0d1ec1855a6144a48dc1a29f462d4b3e
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
 Package: xfdashboard-static
 Version: 1.0.0
 Architecture: aarch64
