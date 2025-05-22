@@ -175,6 +175,35 @@ SHA256: 65fec1d947eeb5d2cfd45a57c528e1e842b0ea8c1e6bc91de0147881ad454f88
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
+Package: bazel7
+Version: 7.6.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 54712
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Filename: pool/tur/bazel7_7.6.1_aarch64.deb
+Size: 32675140
+MD5sum: b43bcc42488ad205c18b215cda509f74
+SHA1: 2ec15293929f928488dd12b87fe266400d1ceafa
+SHA256: a6805ca32b9bccfeedaa9cae4813cbc6d67796efcf920becad569f3cda634cd7
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone (Version 7)
+
+Package: bazel
+Version: 7.6.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 54736
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Breaks: openjdk-11, openjdk-17
+Filename: pool/tur/bazel_7.6.1_aarch64.deb
+Size: 32677704
+MD5sum: 9b1c948ba0c4cfe77c3ff70de1498f8f
+SHA1: 125c2706713b87583b84345661fb61fe65f1ea6d
+SHA256: ec4ea7446f021c6a58cb830443cc87a85537f17a4339cc937350da4808135016
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone
+
 Package: bfm
 Version: 2023.08.02
 Architecture: aarch64
