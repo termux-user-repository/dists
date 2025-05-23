@@ -355,6 +355,20 @@ SHA256: eec52e5a0759f376b73f7f1ddb34549b5797251b434aaf379dccd5692f3e38b6
 Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
+Package: chromium-beta-host-tools
+Version: 137.0.7151.40
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 413520
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/chromium-beta-host-tools_137.0.7151.40_aarch64.deb
+Size: 49854428
+MD5sum: 01275d39566c9e2cc27e3e7ca4240155
+SHA1: c98a4727784ec323857e37c211291e389452e316
+SHA256: 6a9b09fb94ec266acbf7e609118e2944448af9cf2f69fe160e57ec7ae98b1926
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser (Beta Version, Host tools)
+
 Package: chromium-beta
 Version: 137.0.7151.27
 Architecture: aarch64
@@ -368,20 +382,6 @@ SHA1: b680894413d9382fb55e8c2989f383ef68af97da
 SHA256: 969024fe24d81263146616ab314a4aca5f7b4f8d291d092ca61411295c668f30
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
-
-Package: chromium-jumbo-host-tools
-Version: 137.0.7151.27
-Architecture: aarch64
-Maintainer: @licy183
-Installed-Size: 413568
-Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pulseaudio, zlib
-Filename: pool/tur/chromium-jumbo-host-tools_137.0.7151.27_aarch64.deb
-Size: 49856988
-MD5sum: 637fd4117e5d09fea3952d3a9cf4ff54
-SHA1: 4207535cfc862f27542beb43d1f521796dbe4c1d
-SHA256: fe62c8ee75685f0ae2730266fa4587901d98d83c0aaf5fccfd6e8a597e062017
-Homepage: https://www.chromium.org/Home
-Description: Chromium web browser (Host tools)
 
 Package: chromium-jumbo
 Version: 136.0.7103.59
@@ -5721,6 +5721,20 @@ SHA1: f25b257bd0df71d6f129a81d6d0686da028720a8
 SHA256: 19a03a6589aee94a6d4b59c41260d30d1069d7d1eeeb7e7080e03653cdc5fb49
 Homepage: https://biblatex-biber.sourceforge.net
 Description: A Unicode-capable BibTeX replacement for biblatex users
+
+Package: chromium-jumbo-host-tools
+Version: 137.0.7151.27-1
+Architecture: all
+Maintainer: @licy183
+Installed-Size: 4
+Depends: libc++
+Filename: pool/tur/chromium-jumbo-host-tools_137.0.7151.27-1_all.deb
+Size: 712
+MD5sum: 50968e9fb53bbd63bf792ab3551ecd69
+SHA1: 9ca9bb949aabbb64c86de4a10d367ffe614f331d
+SHA256: 7eca095de8ccab4eb2bf1dad7e48b74ab9597ab64943da48222195d5a9c294fa
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser (Host tools, Transition Package)
 
 Package: ddclient
 Version: 4.0.0
