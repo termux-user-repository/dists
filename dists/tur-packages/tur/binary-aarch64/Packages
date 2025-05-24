@@ -191,31 +191,46 @@ Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
 Package: bazel7
-Version: 7.6.1
+Version: 7.6.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 54712
+Installed-Size: 54720
 Depends: libarchive, openjdk-21, patch, unzip, zip
-Filename: pool/tur/bazel7_7.6.1_aarch64.deb
-Size: 32675140
-MD5sum: b43bcc42488ad205c18b215cda509f74
-SHA1: 2ec15293929f928488dd12b87fe266400d1ceafa
-SHA256: a6805ca32b9bccfeedaa9cae4813cbc6d67796efcf920becad569f3cda634cd7
+Breaks: openjdk-11, openjdk-17
+Filename: pool/tur/bazel7_7.6.1-1_aarch64.deb
+Size: 32674424
+MD5sum: 144481395273541e3c40d2837dc19720
+SHA1: 592ca1c0917660045a76144c3d6032c7eb74d771
+SHA256: 75eedb49bed12b1c54b4fb86c01110dafcc1595844bf3c462b6cda329d7cf85d
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 7)
 
-Package: bazel
-Version: 7.6.1
+Package: bazel8
+Version: 8.2.1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 54736
+Installed-Size: 75944
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Filename: pool/tur/bazel8_8.2.1_aarch64.deb
+Size: 38255828
+MD5sum: d2666eda0a85b44eda1d9422209aa400
+SHA1: 9d6031828c5f20530ec6d3d8eed905e4b9532193
+SHA256: c090007d544b8c633a10da3889003f2d5e2110d67470d4ac083c8b1ef9604b8f
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone (Version 8)
+
+Package: bazel
+Version: 8.2.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 75968
 Depends: libarchive, openjdk-21, patch, unzip, zip
 Breaks: openjdk-11, openjdk-17
-Filename: pool/tur/bazel_7.6.1_aarch64.deb
-Size: 32677704
-MD5sum: 9b1c948ba0c4cfe77c3ff70de1498f8f
-SHA1: 125c2706713b87583b84345661fb61fe65f1ea6d
-SHA256: ec4ea7446f021c6a58cb830443cc87a85537f17a4339cc937350da4808135016
+Filename: pool/tur/bazel_8.2.1_aarch64.deb
+Size: 38249392
+MD5sum: 0f4bec7a847d387cf6ed1d8d3d2ed80e
+SHA1: 57a8046de60476be78298235bdca0b2968c647ad
+SHA256: 7de850e73f42dcdc635418221a6d8f3ed0f2e41ff4e7f76bdb294b93b1452e56
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
