@@ -175,6 +175,21 @@ SHA256: 65fec1d947eeb5d2cfd45a57c528e1e842b0ea8c1e6bc91de0147881ad454f88
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
+Package: bazel5
+Version: 5.4.1-2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 45676
+Depends: libarchive, openjdk-17, patch, unzip, zip
+Breaks: openjdk-11, openjdk-21
+Filename: pool/tur/bazel5_5.4.1-2_aarch64.deb
+Size: 30171120
+MD5sum: f4a98325ff91b955ebdf95b3c39b9677
+SHA1: 56c6a6efbcb9bcddc86d0ac35585450609de849e
+SHA256: 22f1da085474875b5ad110c5940d0cb75dddffe8fc148ca4611e402bd782fbd4
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone
+
 Package: bazel6
 Version: 6.5.0-3
 Architecture: aarch64
