@@ -215,10 +215,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 276
 Depends: python2-numpy (= 1.16.6-2)
 Filename: pool/tur-on-device/python2-numpy-static_1.16.6-2_x86_64.deb
-Size: 45268
-MD5sum: 1906abc46603a8c7ca3ffe13448fcacb
-SHA1: 131920344d8af59e63fc3e565f7553a688b6d98a
-SHA256: 507020430c9461ecfb0869f554df4a238f3e33a1a9f85bd260cb639335ad6748
+Size: 45320
+MD5sum: 230fe8bc768ef2acaa0ea40ff4c6f150
+SHA1: 96369a7d8be3885c0c6a6f60d5df040f181f5ef3
+SHA256: c203ed22becaca466f07543c300a70cb3e8175e997afa267424ee91c5b2607e9
 Homepage: https://numpy.org/
 Description: Static libraries for python2-numpy
 
@@ -229,24 +229,24 @@ Maintainer: @termux-user-repository
 Installed-Size: 15828
 Depends: libc++, libopenblas, python2
 Filename: pool/tur-on-device/python2-numpy_1.16.6-2_x86_64.deb
-Size: 2401852
-MD5sum: 16bdacd92859c3bd39384b95c4e3ea6d
-SHA1: 3c1e1b1f5f3a07eb53c1eb1bca1ecb3494cfcdfb
-SHA256: f9ec4fd8cd215102da30651857f0f285e789fe7e9472de5823cc95cb56fd37df
+Size: 2401440
+MD5sum: 94a75abe0f7fabfdb67159e306ceccac
+SHA1: b57ec6569d979843864a58a6da5d766301b6c6a7
+SHA256: 288bfe9e328737be1ae4138debfd06d9f81e4c72b69a60c483ad54ab2555124d
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python2-scipy
-Version: 1.2.3
+Version: 1.2.3-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 55676
+Installed-Size: 54720
 Depends: libc++, libopenblas, python2, python2-numpy
-Filename: pool/tur-on-device/python2-scipy_1.2.3_x86_64.deb
-Size: 11480848
-MD5sum: 0996b59c01ef9c663e564a1190df689f
-SHA1: 7986e0016d93e83d4811a08bc6836c7a0519b455
-SHA256: d36e26994aef613652ca5f091cfd774995f9385a383fe39c9b690708bd19f5bc
+Filename: pool/tur-on-device/python2-scipy_1.2.3-1_x86_64.deb
+Size: 11252852
+MD5sum: e9debf96e878f76b09c9ec9e09649dd6
+SHA1: bde943252556ff1d6a736a6c166ce57fce8e68e7
+SHA256: cfaa0dc788c8e0946f02d1616f9572954c3844469c5a7cdaca2c30a1651040e1
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 

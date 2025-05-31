@@ -215,10 +215,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 268
 Depends: python2-numpy (= 1.16.6-2)
 Filename: pool/tur-on-device/python2-numpy-static_1.16.6-2_aarch64.deb
-Size: 42208
-MD5sum: 26798adc82b55ed55422533fb5ae89ba
-SHA1: 338e0c6266e8cd75317be510cef174fe203a9bda
-SHA256: 6272b63230f66ed243e0e4906f949605640d67ef764f0c80cc2535cb709efb54
+Size: 42172
+MD5sum: db736cfc5decddd8e382435d0763d5a4
+SHA1: 1d5bc987514d76679d475b6bb75b7cd3e387e9bb
+SHA256: 9c433786457af7ebd92cfcde782656164f14d0073b031c612910d49fc50b660f
 Homepage: https://numpy.org/
 Description: Static libraries for python2-numpy
 
@@ -229,24 +229,24 @@ Maintainer: @termux-user-repository
 Installed-Size: 15640
 Depends: libc++, libopenblas, python2
 Filename: pool/tur-on-device/python2-numpy_1.16.6-2_aarch64.deb
-Size: 2377700
-MD5sum: a0549e57ac7238fac42b8adb39db3ff0
-SHA1: 1435beaaa1ec38ad1577b62d6cedead73dca9f10
-SHA256: 27d3405f4b94ef84e8d1b4416208bbde2e5bec463ff9577da9d5a77a68f771ed
+Size: 2378004
+MD5sum: af4d914fa645a71456fe37f901bb87d0
+SHA1: 1800296de4febb56098fcb5b9db5b5113092f062
+SHA256: 2d454561d8c928fa53f4ec31b95959ce9b059d89570d95efc67852339f393f7b
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python2-scipy
-Version: 1.2.3
+Version: 1.2.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 53100
+Installed-Size: 52596
 Depends: libc++, libopenblas, python2, python2-numpy
-Filename: pool/tur-on-device/python2-scipy_1.2.3_aarch64.deb
-Size: 10915344
-MD5sum: ebd3c8b02901bf29e483ddca071af902
-SHA1: 07852ea28a907221d539585e1cbb4b5afbac95fa
-SHA256: 900f8f2c3617f667a5d8eccf733d17aeda66cae1838add02eba73e3d1d9e4c06
+Filename: pool/tur-on-device/python2-scipy_1.2.3-1_aarch64.deb
+Size: 10889772
+MD5sum: 7b25bae1ea6dd330de97b23bc9998c70
+SHA1: 45df94842b1e3d1be0be129e16eaa00c71b438e3
+SHA256: c6090b87b1ef5896c1d7f597506ee38ca9b38816cef35453a4c53e6f2b23ca49
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 

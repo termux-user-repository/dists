@@ -128,10 +128,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 180
 Depends: python2-numpy (= 1.16.6-2)
 Filename: pool/tur-on-device/python2-numpy-static_1.16.6-2_arm.deb
-Size: 36956
-MD5sum: 25479ca7e527cf89a3f7ad62ae1adf93
-SHA1: 866d2ad6b67aeedac96a5b8f18d88549d36e00dd
-SHA256: 8e80fc557cb44ca93f64eb3a890c3c29f939eb660fa398db6556a356c8518203
+Size: 36988
+MD5sum: ae322a2e087f0b49898edd012cd9a7bc
+SHA1: 3692c8899c0e12e795ac137a80a2773f104ffd20
+SHA256: f85c4fbb1053dcab3431b86d01a118d28c1d0e88f9745df5f9b79b8ffe8b3727
 Homepage: https://numpy.org/
 Description: Static libraries for python2-numpy
 
@@ -142,24 +142,24 @@ Maintainer: @termux-user-repository
 Installed-Size: 14868
 Depends: libc++, libopenblas, python2
 Filename: pool/tur-on-device/python2-numpy_1.16.6-2_arm.deb
-Size: 2255320
-MD5sum: 84d07c6b98a3bf921fbd43784f8e7b35
-SHA1: 6e7dca8322e780ec8f6123c91500d60d58fb5ca8
-SHA256: d499ffad6c9ab56d41860746d2aef4ef40de90bd98334ce31a444c236c47f2dc
+Size: 2255740
+MD5sum: 99235c14f066c1c5de4085e5d9b00603
+SHA1: 7bd51a123da4c075029a5365e4986fda73aaa694
+SHA256: d2be09aa9506c72c7fad76933cf14d8a2adcf6eedbb7e7abe176569147f5b17d
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python2-scipy
-Version: 1.2.3
+Version: 1.2.3-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 47816
+Installed-Size: 47536
 Depends: libc++, libopenblas, python2, python2-numpy
-Filename: pool/tur-on-device/python2-scipy_1.2.3_arm.deb
-Size: 10348188
-MD5sum: 66975d5a5e727e4ad0b04ecadb5a787b
-SHA1: 6afc8211c8db541de06781c8a8a8f4cadb3c17c1
-SHA256: bf193c58f75d663570c88109e08179289c0fa3a81e33ffb600eed376ef3bc2b1
+Filename: pool/tur-on-device/python2-scipy_1.2.3-1_arm.deb
+Size: 10310456
+MD5sum: 5c01f193c764fa3aa69e8ee30d30fc76
+SHA1: ca3aabce6bb785b69ba8f44089c8a82ba0421668
+SHA256: 55200a9e8084b5eadd806b1a6b999a13cdc0ab4fda346944fc11bced912480e5
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
