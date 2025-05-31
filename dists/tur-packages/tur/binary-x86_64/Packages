@@ -4944,43 +4944,43 @@ Homepage: https://www.ruby-lang.org/
 Description: Symlinks ruby to ruby2
 
 Package: rustc-cranelift-codegen-x86-64-linux-android
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 11324
-Depends: rustc-nightly (= 1.89.0-2025.05.30-nightly-0)
-Filename: pool/tur/rustc-cranelift-codegen-x86-64-linux-android_1.89.0-2025.05.30-nightly-0_x86_64.deb
-Size: 2456424
-MD5sum: 5fd2d4ef2dce8753d7ffe56a3dc01a8d
-SHA1: 063e3af565d73efd1f2b8417113ab35c8b0c0b12
-SHA256: e89e7dc45621a71211b7fcb378ac06c641898c06808a7db5da74ba0fe81bfddc
+Installed-Size: 11348
+Depends: rustc-nightly (= 1.89.0-2025.05.31-nightly-0)
+Filename: pool/tur/rustc-cranelift-codegen-x86-64-linux-android_1.89.0-2025.05.31-nightly-0_x86_64.deb
+Size: 2462468
+MD5sum: ad4b7514afd5b7cf2b70dfa0d727e938
+SHA1: 51b44b451e8b62d34df2b97ac6167c92fc1434c9
+SHA256: 30ec619937265841eeba06cf54a59719c275a44f712cee08a400fbfe2c1f3afd
 Homepage: https://www.rust-lang.org/
 Description: Rust cranelift codegem for target x86_64-linux-android (nightly version)
 
 Package: rustc-dev-nightly
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 271868
-Filename: pool/tur/rustc-dev-nightly_1.89.0-2025.05.30-nightly-0_x86_64.deb
-Size: 67919908
-MD5sum: 28d3e6dbecebea0a35b7cd21ee53a865
-SHA1: 6821d95f3ae2552c2a9d53d113f0ac9cbc919da3
-SHA256: 69546329ebd4cda70e947a7f219ba90fa63c05af4dfe98cfa49b7600d76bed7c
+Installed-Size: 271844
+Filename: pool/tur/rustc-dev-nightly_1.89.0-2025.05.31-nightly-0_x86_64.deb
+Size: 67911720
+MD5sum: f1f2986632141acec72d6324e28eac8a
+SHA1: 64783b86b19f03622853bb3f9210038dc05adb4c
+SHA256: 19891bc2eaf728a6863656bc1c70a6f47e86d6b58e72071c1685f295eb90e4d6
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler development libs (nightly version)
 
 Package: rustc-nightly
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 446156
+Installed-Size: 446332
 Depends: clang, libandroid-execinfo, libc++, libllvm (<< 21), lld, openssl, zlib, rust-nightly-std-x86-64-linux-android
-Filename: pool/tur/rustc-nightly_1.89.0-2025.05.30-nightly-0_x86_64.deb
-Size: 74748864
-MD5sum: 7371c3c73ba75ae8da4a8229527acb13
-SHA1: 545f3c6b524c911e13b984d95655111884c2fa9a
-SHA256: ce20fd9ad357fafcc3e5d80734780354d01d9605224e86912ec79dd920db0cd7
+Filename: pool/tur/rustc-nightly_1.89.0-2025.05.31-nightly-0_x86_64.deb
+Size: 74876004
+MD5sum: 1bfa936b7b19a7910286bb0d42dcd1db
+SHA1: 8ccc40263a88dd8f51ef4542fc8137bd4f6dd713
+SHA256: c122dc12ec5d455e830987a115a52bf66456b7b2bd9026da870017744eca044b
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
 
@@ -6138,67 +6138,67 @@ Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
 Package: rust-nightly-docs
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 727176
-Filename: pool/tur/rust-nightly-docs_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 31903376
-MD5sum: a448858ecc264eb219b8521bd408ba5c
-SHA1: 618d9855df7f4d8546f08196c7dfd7ceb0101567
-SHA256: 0fb9db54b2fbce9a97cbc30b988418a2d0ea6a27daa6053217e3ce9b0bffcc3f
+Installed-Size: 727240
+Filename: pool/tur/rust-nightly-docs_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 31900920
+MD5sum: 610b72f85644e897177d8b4ac6ab3c4d
+SHA1: e796ca4ab4d14cd2f1d332c54aa5fadc0397f4a4
+SHA256: cc87faefa97dee5d266b79493d246a1a252344631c1c46fb9f7d49fdfd28bc42
 Homepage: https://www.rust-lang.org/
 Description: Rust documentation (nightly version)
 
 Package: rust-nightly-std-aarch64-linux-android
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 106728
-Filename: pool/tur/rust-nightly-std-aarch64-linux-android_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 25022148
-MD5sum: 32b106bbeed422813f793631e839d459
-SHA1: 8869f9712418ec1e3b77f687cf23cd7e4bd73cad
-SHA256: 83470a38b9786f6ff923a8ac40dfe03e6b99556253fd11344280f2e9d42fa140
+Installed-Size: 106740
+Filename: pool/tur/rust-nightly-std-aarch64-linux-android_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 25002644
+MD5sum: 4bce3af94117b5f0529c2ed8400fe84e
+SHA1: b1f7f0d3c0bdc84458a71bd9fc8f691cb353e71f
+SHA256: b686be1bae3a12a47bfe3dc3965f4d4e04d6e15ba7fb5fdd4773dbe264a0fa69
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target aarch64-linux-android (nightly version)
 
 Package: rust-nightly-std-armv7-linux-androideabi
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 100364
-Filename: pool/tur/rust-nightly-std-armv7-linux-androideabi_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 24244480
-MD5sum: a85fbcfc5043066823e1d1837b2a030d
-SHA1: e5feed6b1b2c27c9b393550d3a668e1d981e852a
-SHA256: c0e864411c59199126fa85ce900a673ce35a592dace12c5a77c6376dac206cf1
+Installed-Size: 100380
+Filename: pool/tur/rust-nightly-std-armv7-linux-androideabi_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 24224936
+MD5sum: eb96b93131f225bbd9e7fce453c50978
+SHA1: e94f88c61ce4835f31b234ec16ed8e28d0687930
+SHA256: f0e56755ac7167b9ffdc7f23f299dd49e2e44c4f9f43f1ad9b80f602fd65ea98
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target armv7-linux-androideabi (nightly version)
 
 Package: rust-nightly-std-i686-linux-android
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 111648
-Filename: pool/tur/rust-nightly-std-i686-linux-android_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 25789636
-MD5sum: 763efc5ee4244e3b82b0443a51521ee8
-SHA1: fbc96100a67e3029c58dc0620d2e82f0df5b1c09
-SHA256: b1dcb5fb8a4f017f01db52cda6408be0cf468eb1d5547d026f9cc4f23c4e7d87
+Installed-Size: 111656
+Filename: pool/tur/rust-nightly-std-i686-linux-android_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 25781316
+MD5sum: 609d9a202e77a8cba02473758d4588aa
+SHA1: 5f0b137e3f33e1e63ec780305461ecc42a250cce
+SHA256: feae4dbd2c39f24453dfd3e343c1fa680ca523c7e8107662fa0b262bc3c0f9cf
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target i686-linux-android (nightly version)
 
 Package: rust-nightly-std-wasm32-unknown-unknown
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 77228
-Filename: pool/tur/rust-nightly-std-wasm32-unknown-unknown_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 18936308
-MD5sum: 03f88c817fdefc42845a337e9bd92a77
-SHA1: 0169d1f9b527d63c9a0cc576164071f1656e4d36
-SHA256: 87b3ed717e5814683e333c8084dd5988a8e277782d5780ef8db9a1c28b202a53
+Installed-Size: 77240
+Filename: pool/tur/rust-nightly-std-wasm32-unknown-unknown_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 18976968
+MD5sum: 7ee12ece6cd180e46255d1737ecae6e1
+SHA1: e5d64645485b81386d5b2b4ded4ea576810959dc
+SHA256: c4aaa78a0a64aa773e1dd15998b34a9611d16d7a956a48862b1a7bed0eb3f021
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target wasm32-unknown-unknown (nightly version)
 
@@ -6216,41 +6216,41 @@ Homepage: https://www.rust-lang.org
 Description: Rust std for target wasm32-wasi (nightly version)
 
 Package: rust-nightly-std-wasm32-wasip1
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 81040
-Filename: pool/tur/rust-nightly-std-wasm32-wasip1_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 19983080
-MD5sum: 3e69cd376458f8b3745836e19bfab57f
-SHA1: 86b2a266201739ca2c354a74afc5bc5fe4377adf
-SHA256: 6ab14b54d06021def12edb4c523c158d2ef0fb5b61974327c57cf10961cfe940
+Installed-Size: 81048
+Filename: pool/tur/rust-nightly-std-wasm32-wasip1_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 19947620
+MD5sum: 3fe4812f415322b6ae3b19f9c6497972
+SHA1: 31596f0ff12dee56d8e1a046c3f92ad1e9562018
+SHA256: 784d5bd8a242ee6fbe8f6fdeb08dcd86fa66aedf87aa0319f0150454d8764577
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target wasm32-wasip1 (nightly version)
 
 Package: rust-nightly-std-wasm32-wasip2
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 81740
-Filename: pool/tur/rust-nightly-std-wasm32-wasip2_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 20125396
-MD5sum: f3a58707bee2c9fd7cbc8524961f6e8e
-SHA1: ff924d621126e1406df49aa7184e4ddf985d35b4
-SHA256: bad1a9985ad34a35b569ecadada10795fd276fe2ebc3e9fa10a9020373fa15ba
+Installed-Size: 81748
+Filename: pool/tur/rust-nightly-std-wasm32-wasip2_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 20116080
+MD5sum: 5c64a02f498f91392e1083319612e7f3
+SHA1: 36e6c711a0b7841ceb57550c27d6d010fdd8d25a
+SHA256: 718dd1683756a8c73b937c6ca4282532b2f454e497a67212c340b628287a5271
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target wasm32-wasip2 (nightly version)
 
 Package: rust-nightly-std-x86-64-linux-android
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 122800
-Filename: pool/tur/rust-nightly-std-x86-64-linux-android_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 27348376
-MD5sum: b160a132288cc91ae47ba9968c87af3c
-SHA1: 902f22055f7536370f304a9e76a542bc9aaf9dd3
-SHA256: 8f3a27d1eaebb2c7eafc1e66cc063bc5ea8c532052d3026bbc7076068e2b7b02
+Installed-Size: 122816
+Filename: pool/tur/rust-nightly-std-x86-64-linux-android_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 27432328
+MD5sum: 25f128cf7f5d78a71a9b7564864e34fa
+SHA1: 9def76e0160867dcc5e44c84bd40441d26e1bffe
+SHA256: 96122ce5137c60eabed186ac390b08f089e70a2f717755284b6eba06733f0251
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target x86_64-linux-android (nightly version)
 
@@ -6269,28 +6269,28 @@ Homepage: https://www.rust-lang.org
 Description: rust std for wasm32-unknown-unknown target
 
 Package: rust-src-nightly
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 41268
-Filename: pool/tur/rust-src-nightly_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 3283416
-MD5sum: a5b1253587ea8863cb78885b29b3e1b2
-SHA1: 1a4e378f2dba1d407c434250042447d51244cdda
-SHA256: 5b8896404176ccb5a9c5805d0a8f083bb15e3aae792291f3d81284242005c1c3
+Installed-Size: 41276
+Filename: pool/tur/rust-src-nightly_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 3283680
+MD5sum: 9acfb4233a192bc34b379c2f89dcba87
+SHA1: 1512674f6572c64ca079984ed9d77ea8fd1aede9
+SHA256: 15aca085ff1ed7d668349151755d7b0279d4dac935a03cf5152ddc25fca81a51
 Homepage: https://www.rust-lang.org/
 Description: Rust source code files (nightly version)
 
 Package: rustc-src-nightly
-Version: 1.89.0-2025.05.30-nightly-0
+Version: 1.89.0-2025.05.31-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 39284
-Filename: pool/tur/rustc-src-nightly_1.89.0-2025.05.30-nightly-0_all.deb
-Size: 5005524
-MD5sum: 318d94f9ac9385246c679b891935d467
-SHA1: df6e85e7a914fcd1693cb2d82d3f356b3896c51f
-SHA256: 89b58641f059b2f53e116ae26bb89e96b3f4a33999692067b25111a28dd12e26
+Installed-Size: 39296
+Filename: pool/tur/rustc-src-nightly_1.89.0-2025.05.31-nightly-0_all.deb
+Size: 5006660
+MD5sum: 2da3b4edf71e6ec1e270b2b8f7367868
+SHA1: 05d3d005a53277bd73bf3441ee846e6323178d9b
+SHA256: 809d6ea1e83dcc8ad4eb17c176056a3b3abc9e260d88999b79acb9f234dc4476
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler source code files (nightly version)
 
