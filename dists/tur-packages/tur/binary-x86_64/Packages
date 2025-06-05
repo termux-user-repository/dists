@@ -3568,34 +3568,34 @@ Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
 Package: openjdk-11-x
-Version: 11.0.23+9
+Version: 11.0.23+9-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 15992
-Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-11 (= 11.0.23+9)
-Filename: pool/tur/openjdk-11-x_11.0.23+9_x86_64.deb
-Size: 13412308
-MD5sum: 8f314db264fed4c20dcd4b9353ff2165
-SHA1: 922c4a4b7d06b91adc5df64619424da9c1d8d984
-SHA256: c1549870cb56d6e0619c826d4e4c6e128253e2e2c361c2bbf489f60bda50692e
+Installed-Size: 16020
+Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-11 (= 11.0.23+9-1)
+Filename: pool/tur/openjdk-11-x_11.0.23+9-1_x86_64.deb
+Size: 13430600
+MD5sum: 70089140db7316a3201464495e4a47ee
+SHA1: a69b8bbee1bd604a6b72e71ddb04a0990b2cfd94
+SHA256: 4c5d41798cd8d59654aaceb3be8a6410b9041443bd5b11ebfada8451cc98229e
 Homepage: https://github.com/openjdk/mobile
 Description: Portion of openjdk-11 requiring X11 functionality
 
 Package: openjdk-11
-Version: 11.0.23+9
+Version: 11.0.23+9-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 240724
+Installed-Size: 240824
 Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
 Recommends: ca-certificates-java, openjdk-11-x, resolv-conf
 Suggests: cups
-Filename: pool/tur/openjdk-11_11.0.23+9_x86_64.deb
-Size: 101773896
-MD5sum: 73ca00864527d53c6331358ec4630fe0
-SHA1: 9af87642283cf55564815bb218138dba80d6885b
-SHA256: 85c584f8567546b31f39a6e3aa721c8a1e7db398e962e8f40ba590e8780dc537
+Filename: pool/tur/openjdk-11_11.0.23+9-1_x86_64.deb
+Size: 101930168
+MD5sum: 371312b7dba1fd2dfbf79b5312314748
+SHA1: 1ad02d76ddf8cc0577a4b8092f32152ee90c9af6
+SHA256: 771679a041f4865e13a6a9e34043ca1bb7622ce0e0743d75e40f45ad44cc1761
 Homepage: https://github.com/openjdk/mobile
-Description: Java development kit and runtime
+Description: Java development kit and runtime (Version 11)
 
 Package: openslide
 Version: 4.0.0
@@ -6069,15 +6069,15 @@ Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
 Package: openjdk-11-source
-Version: 11.0.23+9
+Version: 11.0.23+9-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 57028
-Filename: pool/tur/openjdk-11-source_11.0.23+9_all.deb
-Size: 52109812
-MD5sum: f164f40a7be5320da29ce1b690adc7ac
-SHA1: 5683fdd646180956008deea19af5b799f5211087
-SHA256: 48920d7d4168270900f6aed23cf9352709354bfd83d8ab781336c8e57ace879f
+Filename: pool/tur/openjdk-11-source_11.0.23+9-1_all.deb
+Size: 52099372
+MD5sum: be1561a1d3fd3a86e786d06c0d992d44
+SHA1: 7907efcf49022c6c923141c09d0a2e2aa1e01eff
+SHA256: b28c3f733b44dbd999bbc5f03eedea3567829c31571a68f258b78138bb087c0c
 Homepage: https://github.com/openjdk/mobile
 Description: Source files for openjdk-11
 
