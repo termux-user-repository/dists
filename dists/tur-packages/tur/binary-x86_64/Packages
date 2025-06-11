@@ -1506,6 +1506,19 @@ SHA256: 8b623fd7253930554303dfd4710a8362af89fd0016bbdcbc91f8981ee134c149
 Homepage: https://harelang.org/
 Description: The Hare programming language - bootstrap compiler
 
+Package: hello-tur
+Version: 0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Filename: pool/tur/hello-tur_0.1_x86_64.deb
+Size: 2164
+MD5sum: 9bd9c6bfaf59188faf5c22feea47d680
+SHA1: 597725e58839423ce858ac7ac25048ceae4988a6
+SHA256: 9d579fe19f0393c6f47743906c5a99db2c9f33c73fa9508950eb318458e79edb
+Homepage: https://github.com/termux-user-repository/tur
+Description: Dummy test for TUR
+
 Package: hurl
 Version: 6.1.1-1
 Architecture: x86_64
@@ -1728,33 +1741,6 @@ SHA1: 11fb36e90a39bf9a61f07b5f04be4fb23138083f
 SHA256: 5c414bc08f4ed65d272c33293e3d5643a225139532d5ef857514e182ee173e0e
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: a library that parses the file format of AbiWord documents
-
-Package: libandroid-mathlib-static
-Version: 0.1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 40
-Depends: libandroid-mathlib (= 0.1)
-Filename: pool/tur/libandroid-mathlib-static_0.1_x86_64.deb
-Size: 3352
-MD5sum: a8f120e66820e60a4d0c76c4bd491036
-SHA1: c7cfc1fd8de2e999c68362eb0cae2f423f774077
-SHA256: 9c1d9812b3c5c9fdf18482e6a9ae3288122b882a149ff3340f318d27cc5c81b2
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Static libraries for libandroid-mathlib
-
-Package: libandroid-mathlib
-Version: 0.1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 52
-Filename: pool/tur/libandroid-mathlib_0.1_x86_64.deb
-Size: 4468
-MD5sum: 48067dc67282611c7fc8a05e7f75197b
-SHA1: 40417036d506e8d38412d126678aab5676434b53
-SHA256: 19a2ae61c87ad27fab3286b4996e3a9c343ebb644e5b7ef94be4ac4ff48f7afc
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Shared library for some missing libm functions of Bionic Libc
 
 Package: libandroid-nl-types-static
 Version: 0.1-1

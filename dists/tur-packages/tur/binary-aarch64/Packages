@@ -1561,6 +1561,19 @@ SHA256: b7d48c5d7aef682787c9180e9bcc7439789c2756a5fc7fd732c79f949ebdf8a9
 Homepage: https://harelang.org/
 Description: The Hare programming language - bootstrap compiler
 
+Package: hello-tur
+Version: 0.1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Filename: pool/tur/hello-tur_0.1_aarch64.deb
+Size: 2208
+MD5sum: fb4480a9e2e8fcc43cdda83294aca805
+SHA1: 25873b833f7bd0201d486da23a8bda6aa86f3b35
+SHA256: f699cdbf3c3261edb44a61824bae52e6d550b4f1bb5bb915fc64bf9db6c9b91c
+Homepage: https://github.com/termux-user-repository/tur
+Description: Dummy test for TUR
+
 Package: hurl
 Version: 6.1.1-1
 Architecture: aarch64
@@ -1783,33 +1796,6 @@ SHA1: 10e5efcf4cbaad8d000c13e1f7bc2b6a06ee7f0b
 SHA256: 4fb21d733862e936e1d25c7b810573feedac9a81e4001de3a853901bdfec06ab
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: a library that parses the file format of AbiWord documents
-
-Package: libandroid-mathlib-static
-Version: 0.1
-Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 40
-Depends: libandroid-mathlib (= 0.1)
-Filename: pool/tur/libandroid-mathlib-static_0.1_aarch64.deb
-Size: 2868
-MD5sum: b8da7d20d25215a26daf04d7512d5377
-SHA1: a595f53f04a2bc573f6c5e6f1fa36b6a559554d3
-SHA256: 67770996573a2a1eb7ee4bc608f7bdb8afec374db93b4f1b84b20a090142550d
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Static libraries for libandroid-mathlib
-
-Package: libandroid-mathlib
-Version: 0.1
-Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 52
-Filename: pool/tur/libandroid-mathlib_0.1_aarch64.deb
-Size: 4092
-MD5sum: 40a8f5822ac57249997e043fdacf1add
-SHA1: abe1268798c970e7d62abe5340ef91f1bcf0d4cc
-SHA256: 8022e781a3ae915ce87c51fa22f6c08817de910e1ffaa06966a8190740f04491
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Shared library for some missing libm functions of Bionic Libc
 
 Package: libandroid-nl-types-static
 Version: 0.1-1

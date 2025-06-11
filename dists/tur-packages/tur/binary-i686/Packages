@@ -1109,6 +1109,19 @@ SHA256: 3ab3d015f0c08d80718c279b1796460e6c974ffa92a96a1d79cc556249cadb73
 Homepage: https://github.com/eeeXun/GTT
 Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
+Package: hello-tur
+Version: 0.1
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 44
+Filename: pool/tur/hello-tur_0.1_i686.deb
+Size: 2196
+MD5sum: b6b2a0e45c1351287f30ea80fd25269e
+SHA1: 3958edc018ec32af4a20b64684605da813567478
+SHA256: 4bfb214480c857e96579461936a90e797635ab7e6309aeacc4687c41848494bf
+Homepage: https://github.com/termux-user-repository/tur
+Description: Dummy test for TUR
+
 Package: hurl
 Version: 6.1.1-1
 Architecture: i686
@@ -1299,33 +1312,6 @@ SHA1: 6f6121f51b8aa47d58aecf65684c99dfc5f9cb3e
 SHA256: 34a32ba044c3466a3e8412323c70bb0c06ea1b30a3cb6c454a775d3c88e84c0e
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: a library that parses the file format of AbiWord documents
-
-Package: libandroid-mathlib-static
-Version: 0.1
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 40
-Depends: libandroid-mathlib (= 0.1)
-Filename: pool/tur/libandroid-mathlib-static_0.1_i686.deb
-Size: 3616
-MD5sum: 029ff0ddcdd936c31c6008625365da86
-SHA1: 4e7a6f0199172c9c46408581b87b2d44171ff978
-SHA256: 45d534ddd0e35078f83ab269a778932e12416a3bad2256156fe50bd93beee941
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Static libraries for libandroid-mathlib
-
-Package: libandroid-mathlib
-Version: 0.1
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 52
-Filename: pool/tur/libandroid-mathlib_0.1_i686.deb
-Size: 4768
-MD5sum: b6603d1a925eb1dc122bd9e71823a58c
-SHA1: 90dcf7ab0691c50abbda906c7b53dcede467852e
-SHA256: 6a63e32169a4032521f517e40003b7d682d6498386b37bdd14ef8030fa5bc9eb
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm
-Description: Shared library for some missing libm functions of Bionic Libc
 
 Package: libandroid-nl-types-static
 Version: 0.1-1
