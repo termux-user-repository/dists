@@ -139,61 +139,6 @@ SHA256: 9283fb2db3a592d35c29fd485dd1153e31c08a2dd66cf030d6b6893bbc6218c7
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
-Package: wine-devel
-Version: 10.7
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 546256
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur-multilib/wine-devel_10.7_i686.deb
-Size: 74855260
-MD5sum: 6e3d3afc27b608d2128bf5823ae60996
-SHA1: 88f26f3585b4d29b6363132621e6f306023e8704
-SHA256: 293a8dad6433f9d0636f1adc51122310888cb0e3417f4e4730cbc371d1940578
-Homepage: https://www.winehq.org/
-Description: A compatibility layer for running Windows programs
-
-Package: wine-stable
-Version: 10.0-1
-Architecture: i686
-Maintainer: @termux
-Installed-Size: 538940
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
-Filename: pool/tur-multilib/wine-stable_10.0-1_i686.deb
-Size: 74253368
-MD5sum: dbf080b0420d5a29cddad2ed277ee30f
-SHA1: 83896153b243dffe71da12dd2422a1e0671ec437
-SHA256: b8d9134d9fcbe29d29c0f86ba640c53949c3c69057827e63663a6cbfc4e21da4
-Homepage: https://www.winehq.org/
-Description: A compatibility layer for running Windows programs
-
-Package: wine-staging
-Version: 10.7
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 552772
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, mesa, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur-multilib/wine-staging_10.7_i686.deb
-Size: 76841696
-MD5sum: f0cfd01093a3e740e85372a548011e7f
-SHA1: 07a0e9f0f1ae426217b2051b9d0470dbe48ac43a
-SHA256: d1827f50ef8e21efba33f261a05b7d405b6685859f75f319c6df9c404042ce14
-Homepage: https://www.winehq.org/
-Description: A compatibility layer for running Windows programs
-
-Package: winetricks
-Version: 20250102
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 932
-Filename: pool/tur-multilib/winetricks_20250102_i686.deb
-Size: 149148
-MD5sum: 82d0064d70bb99737d904cfb8a5208cc
-SHA1: de261c9da340b74328ae48fff525163e96eaac22
-SHA256: ba26ffcfbdd0e7221197bb3e50b362158c9d077f236b7e0516e16c0523aebe08
-Homepage: https://github.com/Winetricks/winetricks
-Description: Work around problems and install applications under Wine
-
 Package: lib32-libc++
 Version: 25c
 Architecture: all
