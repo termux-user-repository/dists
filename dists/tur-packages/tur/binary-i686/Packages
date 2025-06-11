@@ -338,22 +338,6 @@ SHA256: 743cdd2e8612ab94c1733b40cc7b45fc8558670878b866ea571921c495b81caa
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
-Package: clang
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 190400
-Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 16.0.6-1)
-Breaks: libllvm (<< 16.0.0), clangd
-Replaces: libllvm (<< 16.0.0), clangd
-Filename: pool/tur/clang_16.0.6-1_i686.deb
-Size: 34878128
-MD5sum: 5713fb36fa6cab59d8241c08ad1e0d07
-SHA1: 5f49d7aca602c07eafdcae2b0ada54110899ebf1
-SHA256: c07365dfc5bda1d244412acc0878c15c4dfe797253e8d2fe5dbed3e390957bed
-Homepage: https://clang.llvm.org/
-Description: C language frontend for LLVM
-
 Package: clucene
 Version: 2.3.3.4-4
 Architecture: i686
@@ -1455,21 +1439,6 @@ SHA256: 5a8c6c3642debf6ea1c30d1b105988ab0bbf4283ce48cb3d358bd3d04513318c
 Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
-Package: libcompiler-rt
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 12848
-Depends: libllvm (= 16.0.6-1)
-Conflicts: ndk-multilib (<< 23b-6)
-Filename: pool/tur/libcompiler-rt_16.0.6-1_i686.deb
-Size: 1667340
-MD5sum: 4d2a23c52e9e285f220af6274801fce6
-SHA1: 13f5342d58ebd1bdea6e655fc225314f80a4d59b
-SHA256: 99a1bcbb51aad4d40c74e627a3dfcc9732a9bdda699eb9dcad2c2f88f992ba64
-Homepage: https://clang.llvm.org/
-Description: Compiler runtime libraries for clang
-
 Package: libcwidget-static
 Version: 0.5.18-2
 Architecture: i686
@@ -1892,52 +1861,6 @@ SHA256: f12b0c6c43d130cacec85681bc8bf63b4e2a2083abd800ef1c6deab7e2562f5d
 Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)
 
-Package: libllvm-codon
-Version: 20240121
-Architecture: i686
-Maintainer: @termux-user-repository
-Installed-Size: 523852
-Depends: libc++, ndk-sysroot, libffi
-Suggests: codon
-Filename: pool/tur/libllvm-codon_20240121_i686.deb
-Size: 89506288
-MD5sum: 9c3e2a76ea469186b5197be0324891f0
-SHA1: 4efaf8a28571e6551ce944096a878d6e11875f26
-SHA256: f7bb3d8f9544791cd44238fb5705ca9553ca24f38ad89e5b9c2d8a845aca9f9e
-Homepage: https://github.com/exaloop/llvm-project
-Description: Modular compiler and toolchain technologies library (Version 17, Codon Fork)
-
-Package: libllvm-static
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 513388
-Depends: libllvm (= 16.0.6-1)
-Filename: pool/tur/libllvm-static_16.0.6-1_i686.deb
-Size: 68900144
-MD5sum: b310be1d1c7801731baae293faedeeda
-SHA1: a72b0ec0915d3fe3acf5e4fd2e753cc207fd8492
-SHA256: 71a2be816b8fafd5422ed90473bff94b747cb5ae7ff29bd36afa4826aa684fbd
-Homepage: https://clang.llvm.org/
-Description: Static libraries for libllvm
-
-Package: libllvm
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 148612
-Depends: libc++, libffi, libxml2 (>= 2.11.4-2), ncurses, zlib, zstd
-Conflicts: gcc, clang (<< 3.9.1-3)
-Breaks: libclang, libclang-dev, libllvm-dev
-Replaces: gcc, libclang, libclang-dev, libllvm-dev
-Filename: pool/tur/libllvm_16.0.6-1_i686.deb
-Size: 28657076
-MD5sum: 1ccd17552fe24d63feee92a395ec51e7
-SHA1: 53d00d404dc77318f23e451fac681db0c0d1ffd9
-SHA256: a20fcb2a2a167fcf6747e9fe99da6fe81c87b880a7e64232db6c00d34dd6f877
-Homepage: https://clang.llvm.org/
-Description: Modular compiler and toolchain technologies library
-
 Package: libmongoc-static
 Version: 1.30.3
 Architecture: i686
@@ -2218,20 +2141,6 @@ SHA1: fb2a06c67324441926faebd7d1277e3bdb5ca3de
 SHA256: 0eb8142456fd17196b5217325a194022a8b7bbaa5d412e3150274d3b6cc8abd7
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
 Description: a library that parses the file format of Aldus/Adobe PageMaker documents
-
-Package: libpolly
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 5948
-Depends: libllvm (= 16.0.6-1)
-Filename: pool/tur/libpolly_16.0.6-1_i686.deb
-Size: 1405656
-MD5sum: a3ac3d8567eeee7744a20723ebd16e71
-SHA1: 064145018863e456bd2da054abfd04c82edf3e83
-SHA256: 49618b7bf8b349232dbadab167994aef81bfdc53faee7fb7d48466b19b050ca2
-Homepage: https://clang.llvm.org/
-Description: High-level loop and data-locality optimizer for clang
 
 Package: libqxp-static
 Version: 0.0.2-2
@@ -2585,36 +2494,6 @@ SHA256: 3818e3c74f45f47b1cc81c2545dd302ac8bcf8bb49f0bb2aa5e047811b28da38
 Homepage: https://llvm.org/
 Description: LLVM-based linker
 
-Package: lld
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 14192
-Depends: libllvm (= 16.0.6-1)
-Filename: pool/tur/lld_16.0.6-1_i686.deb
-Size: 2217632
-MD5sum: 46d5995d305c1cc72b41eaaa4af83bea
-SHA1: 82fd145340e5f65fb5239e463f93a579a7fe0730
-SHA256: da85b1c2cc347267da623428a81ba0a5a84e1aeafdd8a252590eb85ede91ecfe
-Homepage: https://clang.llvm.org/
-Description: LLVM-based linker
-
-Package: lldb
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 23060
-Depends: clang, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 16.0.6-1)
-Breaks: lldb-dev, lldb-static
-Replaces: lldb-dev, lldb-static
-Filename: pool/tur/lldb_16.0.6-1_i686.deb
-Size: 5116716
-MD5sum: 587dd81cdb603d79ff7d2ad31dd77d7f
-SHA1: 9c09e6888de0099df50306db831fb247a954bfa0
-SHA256: a680345e0d2923224ec8b9ee235bb949c12884a1e6c2db42596e1bb3e944546f
-Homepage: https://clang.llvm.org/
-Description: LLVM-based debugger
-
 Package: llvm-11
 Version: 11.1.0-1
 Architecture: i686
@@ -2703,52 +2582,6 @@ SHA256: c34ae43dff15074851c157487b266750c1882904a46558e0640f8c03e157e9bd
 Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
-Package: llvm-tools
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 11348
-Depends: libc++, ncurses, zlib, libllvm (= 16.0.6-1)
-Breaks: libllvm (<< 16.0.0)
-Replaces: libllvm (<< 16.0.0)
-Filename: pool/tur/llvm-tools_16.0.6-1_i686.deb
-Size: 2364908
-MD5sum: 88e74e227577302e959b8a0968845e22
-SHA1: 4a936f9a6df87b8e5738cfdd1cbf3c12140b7ce8
-SHA256: 0f7d5363102eeb42e2e9b5d2e59092545f3a722d99525adc2f33db495c7c22da
-Homepage: https://clang.llvm.org/
-Description: LLVM Development Tools
-
-Package: llvm
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 106084
-Depends: libllvm (= 16.0.6-1)
-Breaks: libllvm (<< 11.0.0-1)
-Replaces: libllvm (<< 11.0.0-1)
-Filename: pool/tur/llvm_16.0.6-1_i686.deb
-Size: 20776464
-MD5sum: 63a0687662e90071e4250707ae88e743
-SHA1: 42769d490c94c6a334f1d20708cbb6da3b843062
-SHA256: 7d641e627dbcc581a971758bf9e1093d6314a6e369460471a7ef71ea0e0959b4
-Homepage: https://clang.llvm.org/
-Description: LLVM modular compiler and toolchain executables
-
-Package: llvmgold
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 108
-Depends: binutils-gold, libllvm (= 16.0.6-1)
-Filename: pool/tur/llvmgold_16.0.6-1_i686.deb
-Size: 29232
-MD5sum: 9610954c15086dc313eb2ef60a82f2f6
-SHA1: 27ee6e8c6b2f74342800f37dcb20580f36d94125
-SHA256: 5ba14f24df1b479693c5f1ccf83f3f0e673d32613e2e30b0534fecdf1d51fb48
-Homepage: https://clang.llvm.org/
-Description: LLVM gold plugin
-
 Package: mdds
 Version: 3.0.0
 Architecture: i686
@@ -2820,20 +2653,6 @@ MD5sum: 6bfc829bfe7964d7482bca5a058ae55e
 SHA1: eea2a62c9594224e3eb0755fa06371e25bccc0cd
 SHA256: 643eaf94950323515448e8fc2a79876644c0a75b5dedd0ac70664026f6c6b6d4
 Homepage: https://llvm.org/
-Description: A Multi-Level Intermediate Representation for compilers from LLVM
-
-Package: mlir
-Version: 16.0.6-1
-Architecture: i686
-Maintainer: @finagolfin
-Installed-Size: 184676
-Depends: libc++, ncurses, libllvm (= 16.0.6-1)
-Filename: pool/tur/mlir_16.0.6-1_i686.deb
-Size: 26973892
-MD5sum: 791249cf579960152d05bc5f2f1b526e
-SHA1: a1204e9f47d6eaddbe79b060c41fd8e487dc4e57
-SHA256: 912d04ce8d42345ed20d898a3f5279c6aabaddb5b0d91dbbde0871bdb04eb880
-Homepage: https://clang.llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: moarvm
