@@ -2143,16 +2143,16 @@ Homepage: https://bitbucket.org/tagoh/liblangtag/wiki/Home
 Description: interface library to access/deal with tags for identifying languages
 
 Package: libllvm-11
-Version: 11.1.0-1
+Version: 11.1.0-2
 Architecture: x86_64
-Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 291980
+Maintainer: @termux-user-repository
+Installed-Size: 293832
 Depends: binutils, libc++, ncurses, ndk-sysroot, libffi, zlib
-Filename: pool/tur/libllvm-11_11.1.0-1_x86_64.deb
-Size: 45261972
-MD5sum: fb3dda91cb78ec3df91b1b2572cb5297
-SHA1: 6f43977ba7144cd03496aa341ca2768d41541ee9
-SHA256: b09309080ac48874f1d829c4708cd9d132a4f049bad4c5234db9b47f260ec8a6
+Filename: pool/tur/libllvm-11_11.1.0-2_x86_64.deb
+Size: 45072100
+MD5sum: 1b843db21bc7d2dbc820d6a6f76bdaaa
+SHA1: 64e34410e547a56f4759ecbf52cbf204a1019c80
+SHA256: b63d57bfb60ec330b7fea43d98e6f8c3d41ee3394854ce3cfbda6660fe26c86e
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 11)
 
@@ -2878,18 +2878,18 @@ Homepage: https://llvm.org/
 Description: LLVM-based linker
 
 Package: llvm-11
-Version: 11.1.0-1
+Version: 11.1.0-2
 Architecture: x86_64
-Maintainer: @buttaface, @termux-user-repository
-Installed-Size: 40324
-Depends: libllvm-11 (= 11.1.0-1)
+Maintainer: @termux-user-repository
+Installed-Size: 40240
+Depends: libllvm-11 (= 11.1.0-2)
 Breaks: libllvm (<< 11.0.0-1)
 Replaces: libllvm (<< 11.0.0-1)
-Filename: pool/tur/llvm-11_11.1.0-1_x86_64.deb
-Size: 9293112
-MD5sum: 4decd267f3a2eee7a56ab6f51c40bd36
-SHA1: d851f6f9c253de7b7f67b9709592a128799095cf
-SHA256: 6ef5c750e87ffaac69df5f20b2137d955ca8c54ea7bb473db859735de5238487
+Filename: pool/tur/llvm-11_11.1.0-2_x86_64.deb
+Size: 9367940
+MD5sum: 06e2e19614cbfa9ff5b71f41d6cf4c60
+SHA1: 27038b80c5870c2776ed42d4795ab86163b458d2
+SHA256: 46cdfb13b6f05465d247d4a10777ff86d074020f1d92dabc8367ad61b879a9f4
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 

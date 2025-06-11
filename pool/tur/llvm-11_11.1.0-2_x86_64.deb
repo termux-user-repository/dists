@@ -1,0 +1,16 @@
+Package: llvm-11
+Version: 11.1.0-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 40240
+Depends: libllvm-11 (= 11.1.0-2)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/tur/llvm-11_11.1.0-2_x86_64.deb
+Size: 9367940
+MD5sum: 06e2e19614cbfa9ff5b71f41d6cf4c60
+SHA1: 27038b80c5870c2776ed42d4795ab86163b458d2
+SHA256: 46cdfb13b6f05465d247d4a10777ff86d074020f1d92dabc8367ad61b879a9f4
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
