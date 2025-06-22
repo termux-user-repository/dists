@@ -2909,6 +2909,24 @@ SHA256: d8229ea1b1e2ef493a23f6428f7cde363866cb4abf711d4ddb67ab0e49cd125e
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-22
+Version: 22.15.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 133120
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/tur/nodejs-22_22.15.1_arm.deb
+Size: 23172924
+MD5sum: 99edaf911233bbfb7a4159afa585b5a5
+SHA1: 021038815863e49136cccecedad44c1169dc807a
+SHA256: bc989dd3b50047e36d2753d9f7da74ee95a3dc9860814a59f64606a2b6e85bb0
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment (Version 22)
+
 Package: ograph-rs
 Version: 0.4.1
 Architecture: arm

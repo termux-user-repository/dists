@@ -3182,6 +3182,24 @@ SHA256: 6bffc71dcd3b6c48564134ed1d903b3d45f1123e647592a1dbf403b4f1ad77bd
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
+Package: nodejs-22
+Version: 22.15.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 141328
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/tur/nodejs-22_22.15.1_x86_64.deb
+Size: 24183380
+MD5sum: 1af23d1455d7bacf9b7a875472141ce6
+SHA1: 584383c849fd9a98d6936a4c752b64d082334e39
+SHA256: 3ef548b0635dccb8c4843a5906b4d9941cded8cd8baf5c34f0e73ac83f387ef3
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment (Version 22)
+
 Package: octave-static
 Version: 1:9.2.0
 Architecture: x86_64
