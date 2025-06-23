@@ -4379,29 +4379,30 @@ Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
 Package: sundials-static
-Version: 1:7.3.0
+Version: 1:7.4.0
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 3352
-Filename: pool/tur/sundials-static_1:7.3.0_i686.deb
-Size: 564632
-MD5sum: 3f55de85beab1c0b049b2cfe6a4f5a43
-SHA1: ca25d940aedcef3edea3746879a308872eb687d4
-SHA256: 74fe6a48da0c5a2d418534c822803b3db60c09d9a5a1e547e09411c9907f3d09
+Depends: sundials (= 1:7.4.0)
+Filename: pool/tur/sundials-static_1:7.4.0_i686.deb
+Size: 564752
+MD5sum: 596bf6546ff58236506ca4ef1910f8cf
+SHA1: e89f45a3102482715fa2c142c21f876f1987bc19
+SHA256: 5e7ca8dcb9c1517e4c672209a8e329933f0632f1422b4e10ffbf8e508f21536b
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: Static libraries for sundials
 
 Package: sundials
-Version: 1:7.3.0
+Version: 1:7.4.0
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 3792
 Depends: libopenblas, suitesparse
-Filename: pool/tur/sundials_1:7.3.0_i686.deb
-Size: 719924
-MD5sum: 12292215765f0e18378a510dea13d8d5
-SHA1: e36fc575f1c2804e5327efb37f7c965f8b597c9e
-SHA256: 9913fa1a588b0c0a5be09de730095a5288a205fca100d25b49ab49b7ac5fddda
+Filename: pool/tur/sundials_1:7.4.0_i686.deb
+Size: 719716
+MD5sum: 1055c89edca88aaecb719e7d9718bc52
+SHA1: 75bb098437cc8d6df0567c9655a1cfc0921113a3
+SHA256: 3fb97c32f447bf6efeb8c29e546d073137b67af4c34096bc7544da5d400c708a
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
