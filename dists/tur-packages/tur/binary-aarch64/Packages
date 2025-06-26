@@ -2169,6 +2169,33 @@ SHA256: 1aa91ddf19f9e83f6dfb3f3d4be638934fa460e8d0d04ae491dc6bf078939c7a
 Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
 Description: A general purpose formula parser & interpreter
 
+Package: libjemalloc-static
+Version: 5.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12196
+Depends: libjemalloc (= 5.3.0)
+Filename: pool/tur/libjemalloc-static_5.3.0_aarch64.deb
+Size: 925872
+MD5sum: 4152382fdcad94c1976806efecd0a010
+SHA1: 84f5123b8553981f3d54e30a967a7021ed36d384
+SHA256: 5e06958d92211dfa1a62d623999b6b4c483c4442f5256f2c71978492f02b1fac
+Homepage: http://www.canonware.com/jemalloc/
+Description: Static libraries for libjemalloc
+
+Package: libjemalloc
+Version: 5.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 940
+Filename: pool/tur/libjemalloc_5.3.0_aarch64.deb
+Size: 236116
+MD5sum: 729a881e2a7997d26af8f82669aee9f9
+SHA1: 1f16f53c308935ebd4fc5758e374d4a23205c4b1
+SHA256: 4d60db6c1b4c58b422b0c6cf4753d77e63a15048b43661c6b51057f49162b53a
+Homepage: http://www.canonware.com/jemalloc/
+Description: General-purpose scalable concurrent malloc(3) implementation
+
 Package: liblangtag-static
 Version: 0.6.7
 Architecture: aarch64
