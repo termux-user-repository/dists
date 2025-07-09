@@ -2848,15 +2848,15 @@ Homepage: http://aluigi.org/mytoolz.htm#morsegen
 Description: Convert text file to ASCII morse code
 
 Package: nasm-segelf
-Version: 2.16.01-3-0
+Version: 2.16.01-4-0
 Architecture: arm
 Maintainer: @stsp
 Installed-Size: 1380
-Filename: pool/tur/nasm-segelf_2.16.01-3-0_arm.deb
-Size: 218544
-MD5sum: 8c83a82d96ca4b2bf590eb0cf512ac4c
-SHA1: 96586681aacd77d4d58f8337ec73f2035107c083
-SHA256: 647aeab667b9b26960b9deb849a2bc4d3b56300410bfa9a34ae93d198af724d1
+Filename: pool/tur/nasm-segelf_2.16.01-4-0_arm.deb
+Size: 219108
+MD5sum: aeb451b32accde5858bfaebbbdc3c07d
+SHA1: 533948a8b68d9bb2e5b96f9f85169d82f0aaa883
+SHA256: 06b08aaf06072d27944df1110036d19c985d5589064e0efa0b051add580c42fa
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm fork with segelf patches
 
@@ -5431,16 +5431,16 @@ Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
 
 Package: nasm-segelf-cross
-Version: 2.16.01-3-0
+Version: 2.16.01-4-0
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 3556
-Depends: nasm-segelf (= 2.16.01-3-0)
-Filename: pool/tur/nasm-segelf-cross_2.16.01-3-0_all.deb
-Size: 798384
-MD5sum: 6fc6c77dd676337daa4b6108e5415c57
-SHA1: af7e69200bc946f5c546f62bae2e95ca1ade8c3d
-SHA256: 04560d177ad140068b61e6de9704f8b66178abc06d891dbc069eb159cd74bfd5
+Depends: nasm-segelf (= 2.16.01-4-0)
+Filename: pool/tur/nasm-segelf-cross_2.16.01-4-0_all.deb
+Size: 798512
+MD5sum: e593e22389c96d376c14a3c52195002d
+SHA1: 685d446cc815c7816e691e4f5c689166fe90139b
+SHA256: 1ec1ca12434e1d08a44da871525b37505fdbdfd503b7f1418161823c689c1128
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
