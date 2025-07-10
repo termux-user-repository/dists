@@ -701,16 +701,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-2
+Version: 0.3-3
 Architecture: x86_64
 Maintainer: @stsp
 Installed-Size: 7816
 Depends: djstub, thunk-gen, libelf
-Filename: pool/tur/dj64dev_0.3-2_x86_64.deb
-Size: 1937280
-MD5sum: 9a6fe9c8bc02b5763fb0f4fab7565cbb
-SHA1: 6518fa6a8d14470f150c56227cf25c88bc85aa6b
-SHA256: c2fec00e1f8762505b1344eda25b8a7b56983576f9460a229d491b93b754dc74
+Filename: pool/tur/dj64dev_0.3-3_x86_64.deb
+Size: 1936884
+MD5sum: 3d474dd1c94e04b01726a16b46e35bfe
+SHA1: 61eb00ecae65d7101cde08c01bc6b7442cf72e98
+SHA256: 59fdd616c457363d82a55de3da3c7bb7d24c01b6499cb080439bebf110aa5f2b
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -966,16 +966,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-2
+Version: 1.9-3
 Architecture: x86_64
 Maintainer: @stsp
 Installed-Size: 1068
 Depends: libelf
-Filename: pool/tur/fdpp_1.9-2_x86_64.deb
-Size: 284236
-MD5sum: 48a4a48f7b10cc552eb1c4b166312d68
-SHA1: e1fa880917c35b8aa182826048b8b2d6a6b48188
-SHA256: c8ac9ee9ab8aa39239692e89bdeaf6f0e90974143669e49221888b8ec8cbe4e5
+Filename: pool/tur/fdpp_1.9-3_x86_64.deb
+Size: 284404
+MD5sum: a67bbfab089f91d14e9ffc4df534e887
+SHA1: e1f484405e6fb0dc8c4d426fe30ba9e41555c036
+SHA256: 922f94b7f66488bca736a043e9be4ff8b6cb9f6e9fa2dddb8b25d6b0029049af
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -3126,10 +3126,10 @@ Architecture: x86_64
 Maintainer: @stsp
 Installed-Size: 1844
 Filename: pool/tur/nasm-segelf_2.16.01-4-0_x86_64.deb
-Size: 232712
-MD5sum: 47c8484c607dc68edc35e081f589fbc2
-SHA1: c88a84c95ef89c07c1216a19583869a33bef2763
-SHA256: 74e03d63b0954dbd48ec5c2557b1d94ee2d2e6ad212060b1d7cd200c3f20fb5d
+Size: 238036
+MD5sum: 31346aa0cc77260dc8edb5383213336f
+SHA1: e537ee2e11164fca2871683fd0b84cbbf73c07b1
+SHA256: 3da22899fdfaa6ab5b87df0048c71debd59876cd80069691ac71876a003a5d41
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm fork with segelf patches
 
@@ -4851,10 +4851,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2116
 Depends: nasm
 Filename: pool/tur/smallerc_1.0.2-1_x86_64.deb
-Size: 240500
-MD5sum: e6fece8d4ed02343e3dfb5351036c86e
-SHA1: c60b53a7ac742d01a8ba9014cc0436234bff2055
-SHA256: 647813a29356a6b59da8f171cae26c54464c49c073b018827370ba4b0478df9a
+Size: 240464
+MD5sum: 933266c8586b45900416ed546e44621a
+SHA1: 2eb866dd8d34ce93dd6f7dc5f2e19fd0e54c26c4
+SHA256: a10d3f56f95e5bfc96146af2d3a863301c9fe60f2f78ccb3a08dcc711770a752
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -5085,15 +5085,16 @@ Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
 Package: thunk-gen
-Version: 1.6
+Version: 1.6-1
 Architecture: x86_64
 Maintainer: @stsp
 Installed-Size: 108
-Filename: pool/tur/thunk-gen_1.6_x86_64.deb
-Size: 14804
-MD5sum: 41c22e20ad754c08772e8866c562f2f5
-SHA1: 12c05f4a8c2086162f63db8303944b0bb52babd5
-SHA256: c916b8e3a8fa9c831732035a2a03a8cc5f64e7d95c5a90cb6814dc3b0de5e54a
+Depends: bash, autoconf, pkg-config
+Filename: pool/tur/thunk-gen_1.6-1_x86_64.deb
+Size: 14844
+MD5sum: c4f4939e52d8749e803ac8f97dc2f2ef
+SHA1: ebcabb34e88d3936e85fb4f991c0ed8a0edf446c
+SHA256: 335461db3e9b88688f8f13e60ba973059230af5d8eed3cf349120855cb698484
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -5852,10 +5853,10 @@ Maintainer: @stsp
 Installed-Size: 3556
 Depends: nasm-segelf (= 2.16.01-4-0)
 Filename: pool/tur/nasm-segelf-cross_2.16.01-4-0_all.deb
-Size: 798512
-MD5sum: e593e22389c96d376c14a3c52195002d
-SHA1: 685d446cc815c7816e691e4f5c689166fe90139b
-SHA256: 1ec1ca12434e1d08a44da871525b37505fdbdfd503b7f1418161823c689c1128
+Size: 798020
+MD5sum: 998a805c8128998fa919ad122f373c1c
+SHA1: a9a45f5c51393cab487d577790da5476fdbdf723
+SHA256: 837e8d51ab7277b8bd8fc4f632fb2cf68705cb2a7d11735e3adc8e1070099753
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
@@ -6106,10 +6107,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2252
 Depends: smallerc (= 1.0.2-1)
 Filename: pool/tur/smallerc-cross_1.0.2-1_all.deb
-Size: 277640
-MD5sum: 69ef3451312692b10587ca74b81ce465
-SHA1: 254fe004b34c21905baeb3df13d969bc201025cf
-SHA256: 0591e05ac04dc09400144618d9e1e4a4c03086cb4af13bf2f626dd065881fccf
+Size: 277652
+MD5sum: 83762dd14a8dac84f80cb5f68b96017d
+SHA1: b6c2f18d500cec55bb650cb545ccdb96e0fedb0a
+SHA256: 37d73c0e74d2469a5662688b4a09c36852e0d5b3c312d0c2a5dc06e30496cc5e
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
@@ -6195,16 +6196,16 @@ Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
 Package: thunk-gen-cross
-Version: 1.6
+Version: 1.6-1
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 152
-Depends: thunk-gen (= 1.6)
-Filename: pool/tur/thunk-gen-cross_1.6_all.deb
-Size: 28604
-MD5sum: c6a781a696e9cd7f7f726929a6ab857b
-SHA1: f5d75289b981ae1b8d9a1d91a68fec98f39d079a
-SHA256: 174eafa1073fd306b6920850fd43407f9fb751d03c479fb5f4ec6ee89aecf4e8
+Depends: thunk-gen (= 1.6-1)
+Filename: pool/tur/thunk-gen-cross_1.6-1_all.deb
+Size: 28596
+MD5sum: 8c2f1e621ffce489d6a9e45eff7b5dbe
+SHA1: 47d9a37899e3faf12684b6ebb03a4228a5521413
+SHA256: ea57b4d3c8e4488d76ad9e462e1fce938cd8e96f77e6b3b9d42336e8aab5b137
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 
