@@ -366,16 +366,16 @@ Homepage: https://github.com/mistricky/CodeSnap
 Description: Pure Rust tool to generate beautiful code snapshots, provide CLI and Library
 
 Package: comcom64
-Version: 0.2-1
+Version: 0.2-2
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 1044
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-1_i686.deb
-Size: 365704
-MD5sum: f21166c4a434429dedbac73031ce5eed
-SHA1: 9d5e07925a04fc24142cdaa26d29a1994e278458
-SHA256: a8236ffe0cbd438412e38061775c7c7202028eb39a80fa5f95e1110e9c7101b4
+Filename: pool/tur/comcom64_0.2-2_i686.deb
+Size: 365748
+MD5sum: 5dcd8422c78a5a84a69275755ad8e0d5
+SHA1: d24254d5739d54e2ca935d82505c317d68db31f5
+SHA256: 6e80ff2fad52d5c1c4ebbda2517d7a28b3d63ef7d0017c396e814dc3d08846aa
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -534,10 +534,10 @@ Maintainer: @stsp
 Installed-Size: 7332
 Depends: djstub, thunk-gen, libelf
 Filename: pool/tur/dj64dev_0.3-3_i686.deb
-Size: 1888200
-MD5sum: f5a7f49d49ec4889ac4313b73acda3bb
-SHA1: 82d9bee4c68062e6145c10b09192385161a79a2b
-SHA256: 0abd018d657b3faf2a19ab51c9e9cf49064075fbb75ca5361c09019e3d72e8c4
+Size: 1888308
+MD5sum: 32e4782094225751c2cfe4609944d3b2
+SHA1: 2c695ee2c48aabfacda601208487121985dc7220
+SHA256: 27ada166f22d8f476476a93c8579a89cb36072bbec79a10335ba943c8b707197
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -4315,10 +4315,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2120
 Depends: nasm
 Filename: pool/tur/smallerc_1.0.2-1_i686.deb
-Size: 237376
-MD5sum: f6700e66c26d51ff38014b7471a382b4
-SHA1: b2545bfee618acf96f945f858f3e7833fad4efdd
-SHA256: 1f61fa585ee791efd49551485efe4096c3514ddb3df9aab09dd489912b2d1611
+Size: 237436
+MD5sum: ab125cb15922a28ae84ff8bb13818c03
+SHA1: f4fe4716aeeb7cc81c375b7b942504863bca9297
+SHA256: 850d83ff4bbc8cd8e2aed67d93e13d1ab6a501c2e20b52f143f0241457fedfab
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -4508,10 +4508,10 @@ Maintainer: @stsp
 Installed-Size: 104
 Depends: bash, autoconf, pkg-config
 Filename: pool/tur/thunk-gen_1.6-1_i686.deb
-Size: 14040
-MD5sum: 6027b42982c0aa12a4dbd71a7b9a25df
-SHA1: 2080d65a6a61c05449fa969b678e5dc6dc1a7430
-SHA256: ba2243cda8782e7ac9871d8df59c3c1b86deb5643f6569ab644f13733f47ef54
+Size: 14044
+MD5sum: 22d1d5abfa6294e3037c97c53ae20b61
+SHA1: 54b1fa50f938b7edadf7188696b165af577cd3e1
+SHA256: 3cf42ab36a222bd120692c21c225ec8d61320c74093b81a33f26a5b019f74fc2
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -5509,10 +5509,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2252
 Depends: smallerc (= 1.0.2-1)
 Filename: pool/tur/smallerc-cross_1.0.2-1_all.deb
-Size: 277652
-MD5sum: 83762dd14a8dac84f80cb5f68b96017d
-SHA1: b6c2f18d500cec55bb650cb545ccdb96e0fedb0a
-SHA256: 37d73c0e74d2469a5662688b4a09c36852e0d5b3c312d0c2a5dc06e30496cc5e
+Size: 277624
+MD5sum: 194010f94b085fb5d8cd59b3d61b5ef2
+SHA1: 101055c53b34dee0609c7f5625e721f5fa8cbdf4
+SHA256: 3ff5dc850d3d6fbeefb8f6055daf0efb11e592f3b8bf1a08a2eb8b75ce642819
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
@@ -5605,9 +5605,9 @@ Installed-Size: 152
 Depends: thunk-gen (= 1.6-1)
 Filename: pool/tur/thunk-gen-cross_1.6-1_all.deb
 Size: 28596
-MD5sum: 8c2f1e621ffce489d6a9e45eff7b5dbe
-SHA1: 47d9a37899e3faf12684b6ebb03a4228a5521413
-SHA256: ea57b4d3c8e4488d76ad9e462e1fce938cd8e96f77e6b3b9d42336e8aab5b137
+MD5sum: 8d78626de48578d1aa11d9ea92f65b22
+SHA1: e7bdbeb1bd9d86e9d48b88e4d9dd76f60cd5b01c
+SHA256: 0428044d254aa0e62614576436eb9c05087c77b589e76734ad521ceb4a4c5447
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 

@@ -540,16 +540,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.2-1
+Version: 0.2-2
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 1420
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-1_aarch64.deb
-Size: 390264
-MD5sum: 169738101d52ed857ef40effc8136b34
-SHA1: fe82d52bd6122ac7c09e666476a5b3b3b74f5a6c
-SHA256: 519616a1d6d6c12a43090f03ccf957925bfa9621c69a046a8f874069ae64fb70
+Filename: pool/tur/comcom64_0.2-2_aarch64.deb
+Size: 390164
+MD5sum: a923e0ba842950a2c1b97d0202890fdc
+SHA1: b0999deb9c45afbeec3356ff66ee18d301123cec
+SHA256: b0aee2e8b5ae358dd1611ebeda7c6c1f9173f2ee76233ba2e863bf4046226d26
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -722,10 +722,10 @@ Maintainer: @stsp
 Installed-Size: 7932
 Depends: djstub, thunk-gen, libelf
 Filename: pool/tur/dj64dev_0.3-3_aarch64.deb
-Size: 1948960
-MD5sum: ce18c8531841aa3ac8f263fb24c6c630
-SHA1: fa521424eabc7a4fd0c77de8ff9a76a9abbbfa7f
-SHA256: 7c46b8ca32b61fb06f33fa2ca99cdeba71233b9eda51dc548bb84e7b2a180777
+Size: 1949512
+MD5sum: 3c433ba49a1fe0c8cb95f24e61686c01
+SHA1: 1ca53310e6f8dc9fd7c2dbfc37a4bfd6e26a8ebd
+SHA256: 5bbbd8f0e1f59942485a9d9e4b27fcf8689457ac7c3d6651e3745005fd393422
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -4906,10 +4906,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2112
 Depends: nasm
 Filename: pool/tur/smallerc_1.0.2-1_aarch64.deb
-Size: 231288
-MD5sum: a4d232197c91c285f4304ec0712cc446
-SHA1: 9772fecec62a3df75d0513f8bbdb45878f3e52fe
-SHA256: 0b6baa6ff4e83f6c49715a047684db43bd8e68d24fc83b65cdbed61c89bf566d
+Size: 231156
+MD5sum: 4a9e8587617051e92fb1cbd037700661
+SHA1: 15e0f160ecb17f1a2bc1280223d55daade396ea2
+SHA256: 2ce8d1b44bcf18bdda2850787ddd1737fdef9d2683bb2b1e948c27fba0810f6e
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -5127,10 +5127,10 @@ Maintainer: @stsp
 Installed-Size: 108
 Depends: bash, autoconf, pkg-config
 Filename: pool/tur/thunk-gen_1.6-1_aarch64.deb
-Size: 14556
-MD5sum: 2a3550ca51dee8369a22e9b6d9ecdb4b
-SHA1: b10c47b7647b804e6516b91237b1362595a8d745
-SHA256: 97fbbff52f92ec1fa3b3b2606b47f7868d6ef60f5aaa6bedaaa9fc6469442cc0
+Size: 14548
+MD5sum: e5eb6b857cecaed9c82109e95ae6bebb
+SHA1: 2d2e63f32f01882255a82720fd0fcc3f3ef70050
+SHA256: 733629d39c4e893af857bf1a32d1e466d156e4af4482496bc61252f75ff8fdf7
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -6143,10 +6143,10 @@ Maintainer: @termux-user-repository
 Installed-Size: 2252
 Depends: smallerc (= 1.0.2-1)
 Filename: pool/tur/smallerc-cross_1.0.2-1_all.deb
-Size: 277652
-MD5sum: 83762dd14a8dac84f80cb5f68b96017d
-SHA1: b6c2f18d500cec55bb650cb545ccdb96e0fedb0a
-SHA256: 37d73c0e74d2469a5662688b4a09c36852e0d5b3c312d0c2a5dc06e30496cc5e
+Size: 277624
+MD5sum: 194010f94b085fb5d8cd59b3d61b5ef2
+SHA1: 101055c53b34dee0609c7f5625e721f5fa8cbdf4
+SHA256: 3ff5dc850d3d6fbeefb8f6055daf0efb11e592f3b8bf1a08a2eb8b75ce642819
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
@@ -6239,9 +6239,9 @@ Installed-Size: 152
 Depends: thunk-gen (= 1.6-1)
 Filename: pool/tur/thunk-gen-cross_1.6-1_all.deb
 Size: 28596
-MD5sum: 8c2f1e621ffce489d6a9e45eff7b5dbe
-SHA1: 47d9a37899e3faf12684b6ebb03a4228a5521413
-SHA256: ea57b4d3c8e4488d76ad9e462e1fce938cd8e96f77e6b3b9d42336e8aab5b137
+MD5sum: 8d78626de48578d1aa11d9ea92f65b22
+SHA1: e7bdbeb1bd9d86e9d48b88e4d9dd76f60cd5b01c
+SHA256: 0428044d254aa0e62614576436eb9c05087c77b589e76734ad521ceb4a4c5447
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 
