@@ -540,16 +540,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.2-2
+Version: 0.2-1
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 1420
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-2_aarch64.deb
-Size: 390164
-MD5sum: a923e0ba842950a2c1b97d0202890fdc
-SHA1: b0999deb9c45afbeec3356ff66ee18d301123cec
-SHA256: b0aee2e8b5ae358dd1611ebeda7c6c1f9173f2ee76233ba2e863bf4046226d26
+Filename: pool/tur/comcom64_0.2-1_aarch64.deb
+Size: 390264
+MD5sum: 169738101d52ed857ef40effc8136b34
+SHA1: fe82d52bd6122ac7c09e666476a5b3b3b74f5a6c
+SHA256: 519616a1d6d6c12a43090f03ccf957925bfa9621c69a046a8f874069ae64fb70
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -661,16 +661,16 @@ Homepage: http://www.garloff.de/kurt/linux/ddrescue/
 Description: A dd(1) alternative without POSIX-correctness burden to ease daily shell scripting and data recovery
 
 Package: ddns-go
-Version: 6.11.3
+Version: 6.11.2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 11292
+Installed-Size: 11280
 Depends: libc++
-Filename: pool/tur/ddns-go_6.11.3_aarch64.deb
-Size: 3044552
-MD5sum: 937b542857b60e1910dbc1786961840c
-SHA1: e41940aa6a33bfba57e8024f6d5a149ae3653412
-SHA256: a5bbe66202169e09cf64175730c8ea94f35492b5645147b6741c22ff7aceb6c4
+Filename: pool/tur/ddns-go_6.11.2_aarch64.deb
+Size: 3041876
+MD5sum: 606fa814692cfc29b5f3e68db53f4083
+SHA1: 392dd6aedda2afd490117ec933e12f54d1e375e6
+SHA256: 1e2e95608d7ba7a53c431ee3a41919f3352f4dc31c82a190384b9a02d354da6e
 Homepage: https://github.com/jeessy2/ddns-go
 Description: A simple, easy-to-use ddns service
 
@@ -716,16 +716,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-3
+Version: 0.3-2
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 7932
 Depends: djstub, thunk-gen, libelf
-Filename: pool/tur/dj64dev_0.3-3_aarch64.deb
-Size: 1949512
-MD5sum: 3c433ba49a1fe0c8cb95f24e61686c01
-SHA1: 1ca53310e6f8dc9fd7c2dbfc37a4bfd6e26a8ebd
-SHA256: 5bbbd8f0e1f59942485a9d9e4b27fcf8689457ac7c3d6651e3745005fd393422
+Filename: pool/tur/dj64dev_0.3-2_aarch64.deb
+Size: 1949648
+MD5sum: 3633aa2f2f20ef0b03f510a2cc678905
+SHA1: 47f051378b7363a24ef4d92da17748f2f67a145a
+SHA256: 464e909379fe419d85558978294e6b2272fe36dca5b45f0901248cf78db84264
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -981,16 +981,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-3
+Version: 1.9-2
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 1072
 Depends: libelf
-Filename: pool/tur/fdpp_1.9-3_aarch64.deb
-Size: 266652
-MD5sum: e917edb12ee85cd744f22113350b0d7e
-SHA1: 22d018c0724383fbc6ac173190223049da04d777
-SHA256: a05975fc9e4089e6ce737929f0b8ca74326b21fa8f467c7e48972135dd099c76
+Filename: pool/tur/fdpp_1.9-2_aarch64.deb
+Size: 266644
+MD5sum: 6f982fcbdc54819a62dcc835f0edc363
+SHA1: 37615d763ec92584414cb2701e9cd3b24ddceff9
+SHA256: a8cdf65eaf8843d2206be050e65549319e0883be78742476f21de2c698e4b204
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -1053,15 +1053,15 @@ Homepage: https://ffplayout.github.io
 Description: Rust and ffmpeg based playout
 
 Package: filebrowser
-Version: 2.37.0
+Version: 2.36.3
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 18996
-Filename: pool/tur/filebrowser_2.37.0_aarch64.deb
-Size: 6804060
-MD5sum: dc23ae65527c1fdf90c09748f03aba7c
-SHA1: c60f2f7167c8212523cdcf04c9e8f61493d69376
-SHA256: 22d86b7f72c2adc98321d901ec38a672e00c60fab0f72108402f023b8f3ad520
+Filename: pool/tur/filebrowser_2.36.3_aarch64.deb
+Size: 6800740
+MD5sum: 85f742b1e8aabfba31ca734f074a221b
+SHA1: 42af60a9084ba122d55d1aa807e942cc55a493a2
+SHA256: cf99d00add4672667078f7950fca43acfa2ff6cd86c62409e2066ec7eab74a4d
 Homepage: https://filebrowser.org/
 Description: Web file browser based on Go
 
@@ -3048,15 +3048,15 @@ Homepage: https://llvm.org/
 Description: LLVM Development Tools
 
 Package: mdds
-Version: 3.1.0
+Version: 3.0.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1308
-Filename: pool/tur/mdds_3.1.0_aarch64.deb
-Size: 124808
-MD5sum: b732de1dcb58cd06efdd4b240259a1df
-SHA1: cb39d34eb21ac2d19a30df36e07dbe7114bcd925
-SHA256: c8bc562617b09814dc90960d3330fa3035c5707a27e63f72b151bd28eaa50386
+Installed-Size: 1296
+Filename: pool/tur/mdds_3.0.0_aarch64.deb
+Size: 124004
+MD5sum: 2e0aad4f9cd6dabe5cc8874b075e5685
+SHA1: bfba167647740a280c4d01015ee0ed164bb4bc15
+SHA256: 1d21550bc237082ccba4a7eb651f444343535e9fc2abbedc8e68a7195b6c6590
 Homepage: https://gitlab.com/mdds/mdds
 Description: A collection of multi-dimensional data structures and indexing algorithms
 
@@ -3176,15 +3176,15 @@ Homepage: http://aluigi.org/mytoolz.htm#morsegen
 Description: Convert text file to ASCII morse code
 
 Package: nasm-segelf
-Version: 2.16.01-4-0
+Version: 2.16.01-3-0
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 1844
-Filename: pool/tur/nasm-segelf_2.16.01-4-0_aarch64.deb
-Size: 221692
-MD5sum: 612edd1078b5108c142e9edde96b95b0
-SHA1: ad2c3cce47b4103ab21e4ab02cb31c55bf4cf0bb
-SHA256: b8d4d0396405916fab16473146f6d2c71b1ea931157a5f8c6685011681784b23
+Filename: pool/tur/nasm-segelf_2.16.01-3-0_aarch64.deb
+Size: 221328
+MD5sum: e431cfab786d740b347605a95398567f
+SHA1: 246df650274c4def96ed7c7cd56ab09afaa2b7e7
+SHA256: 24267b2ae4e787f5721fdd6b1ddd807d378320db842a16638662e6f4ec37f7bc
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm fork with segelf patches
 
@@ -3837,16 +3837,16 @@ Homepage: https://playit.gg
 Description: playit is a global proxy that allows anyone to host a server without port forwarding.
 
 Package: pybind11
-Version: 3.0.0
+Version: 2.13.6-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 1212
+Installed-Size: 996
 Depends: python
-Filename: pool/tur/pybind11_3.0.0_aarch64.deb
-Size: 189004
-MD5sum: f676fe8d91c54a0e7119f336148f7bef
-SHA1: 97e99fd8d4a434c5aad0ee7e608f54253f269946
-SHA256: f3218c47f73c50b7e0de274c1eaec212f619ce1311abb638da74a8bd878eb8b1
+Filename: pool/tur/pybind11_2.13.6-2_aarch64.deb
+Size: 160508
+MD5sum: fd028e1855df0293e4722ca5fbb3f9b9
+SHA1: 25d04764098a4df3603a2163ca9dadbd05be7ee7
+SHA256: 81bfbe3736737bc17668b175c2fbf007c9b60adf0269ecfadf7fe1394e8a7256
 Homepage: https://pybind11.readthedocs.org
 Description: A lightweight header-only library that exposes C++ types in Python and vice versa
 
@@ -4044,16 +4044,16 @@ Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python-pandas
-Version: 2.3.1
+Version: 2.3.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 69504
+Installed-Size: 69480
 Depends: libc++, python, python-numpy, python-pip
-Filename: pool/tur/python-pandas_2.3.1_aarch64.deb
-Size: 12284972
-MD5sum: 8ed5464b36e6aba21b07025aceaebfd1
-SHA1: af3b29bcba249453d6a9777b6506f7c8715a0e7e
-SHA256: 9b150c74990832f4cc019ece461fe97e547d14546ce533da6d5ca487d51399ae
+Filename: pool/tur/python-pandas_2.3.0_aarch64.deb
+Size: 12278828
+MD5sum: c7ae6e28f4d3081c32b8c1f0bfb3c3e8
+SHA1: e575b128e320d61679a60a9aaead8bf16d584229
+SHA256: 07b4fcf3d147e23775c5f1e0adcabe359aac34c7dad5a27d2d5f3496113bbc90
 Homepage: https://pandas.pydata.org/
 Description: Powerful Python data analysis toolkit
 
@@ -4900,16 +4900,16 @@ Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
 Package: smallerc
-Version: 1.0.2-1
+Version: 1.0.2
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 2112
 Depends: nasm
-Filename: pool/tur/smallerc_1.0.2-1_aarch64.deb
-Size: 231156
-MD5sum: 4a9e8587617051e92fb1cbd037700661
-SHA1: 15e0f160ecb17f1a2bc1280223d55daade396ea2
-SHA256: 2ce8d1b44bcf18bdda2850787ddd1737fdef9d2683bb2b1e948c27fba0810f6e
+Filename: pool/tur/smallerc_1.0.2_aarch64.deb
+Size: 231272
+MD5sum: d2da6fc668a991867c11a5a5e0b8fb2b
+SHA1: d8a6c76a7a1d4712fc1148cd457755b661e7d760
+SHA256: 06c226d93e8a1cc293cbaa94d65f5d6d78932060d57ccc60df625fa92f8bae3a
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -5052,16 +5052,16 @@ Homepage: https://supertuxkart.net
 Description: Kart racing game featuring Tux and his friends
 
 Package: surreal
-Version: 2.3.7
+Version: 2.3.6
 Architecture: aarch64
 Maintainer: @SunPodder
-Installed-Size: 44616
+Installed-Size: 44568
 Depends: openssl, zlib
-Filename: pool/tur/surreal_2.3.7_aarch64.deb
-Size: 11974828
-MD5sum: bcb4ebb6769411fbaf46921e6ccce6e9
-SHA1: 8cc2b3c96bda47a54a61fa30bdf0fa52e873dd8f
-SHA256: 5895bbf8766b27e1b463b71927975c93b9fa3c9e3fc7afa57a6856019443873c
+Filename: pool/tur/surreal_2.3.6_aarch64.deb
+Size: 11976564
+MD5sum: 134116a641f01ca755260908839d3c8c
+SHA1: f164da6b923aeb2a49a82d1a5226e69499450b0e
+SHA256: 5b069599adedcdcae9420ad397e9a23c4750539e0c256ff02c6e67ba9abed0e9
 Homepage: https://github.com/surrealdb/surrealdb
 Description: A scalable, distributed, collaborative, document-graph database, for the realtime web
 
@@ -5121,16 +5121,15 @@ Homepage: https://github.com/polyzium/termbot
 Description: A fully fledged terminal emulator in a Discord chat
 
 Package: thunk-gen
-Version: 1.6-1
+Version: 1.3-1
 Architecture: aarch64
 Maintainer: @stsp
 Installed-Size: 108
-Depends: bash, autoconf, pkg-config
-Filename: pool/tur/thunk-gen_1.6-1_aarch64.deb
-Size: 14548
-MD5sum: e5eb6b857cecaed9c82109e95ae6bebb
-SHA1: 2d2e63f32f01882255a82720fd0fcc3f3ef70050
-SHA256: 733629d39c4e893af857bf1a32d1e466d156e4af4482496bc61252f75ff8fdf7
+Filename: pool/tur/thunk-gen_1.3-1_aarch64.deb
+Size: 14076
+MD5sum: 5af552d83d8d2c19d2b8c28d4b9db9f0
+SHA1: 999efac1ba3e87c44d5a60fe75c7c4ca22ada7ad
+SHA256: bffffae28f47a851d3c84349563f017cd8a25fb98e6972f24341fa29b16c77eb
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -5883,16 +5882,16 @@ Homepage: https://www.mesa3d.org
 Description: Mesa's OpenGL headers
 
 Package: nasm-segelf-cross
-Version: 2.16.01-4-0
+Version: 2.16.01-3-0
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 3556
-Depends: nasm-segelf (= 2.16.01-4-0)
-Filename: pool/tur/nasm-segelf-cross_2.16.01-4-0_all.deb
-Size: 798020
-MD5sum: 998a805c8128998fa919ad122f373c1c
-SHA1: a9a45f5c51393cab487d577790da5476fdbdf723
-SHA256: 837e8d51ab7277b8bd8fc4f632fb2cf68705cb2a7d11735e3adc8e1070099753
+Depends: nasm-segelf (= 2.16.01-3-0)
+Filename: pool/tur/nasm-segelf-cross_2.16.01-3-0_all.deb
+Size: 798384
+MD5sum: 6fc6c77dd676337daa4b6108e5415c57
+SHA1: af7e69200bc946f5c546f62bae2e95ca1ade8c3d
+SHA256: 04560d177ad140068b61e6de9704f8b66178abc06d891dbc069eb159cd74bfd5
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
@@ -6137,16 +6136,16 @@ Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: smallerc-cross
-Version: 1.0.2-1
+Version: 1.0.2
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 2252
-Depends: smallerc (= 1.0.2-1)
-Filename: pool/tur/smallerc-cross_1.0.2-1_all.deb
-Size: 277624
-MD5sum: 194010f94b085fb5d8cd59b3d61b5ef2
-SHA1: 101055c53b34dee0609c7f5625e721f5fa8cbdf4
-SHA256: 3ff5dc850d3d6fbeefb8f6055daf0efb11e592f3b8bf1a08a2eb8b75ce642819
+Depends: smallerc (= 1.0.2)
+Filename: pool/tur/smallerc-cross_1.0.2_all.deb
+Size: 277612
+MD5sum: 468fc041b6fa219e87897991a62f8fe7
+SHA1: ba7f39e5f6c826d4380e705d800162b07313b736
+SHA256: 1ddda2542c1e5c5cb3bfb86ae256db0d71e0f1d4c20e0069fa48c2c3becb1501
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
@@ -6232,16 +6231,16 @@ Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
 Package: thunk-gen-cross
-Version: 1.6-1
+Version: 1.3-1
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 152
-Depends: thunk-gen (= 1.6-1)
-Filename: pool/tur/thunk-gen-cross_1.6-1_all.deb
-Size: 28596
-MD5sum: 8d78626de48578d1aa11d9ea92f65b22
-SHA1: e7bdbeb1bd9d86e9d48b88e4d9dd76f60cd5b01c
-SHA256: 0428044d254aa0e62614576436eb9c05087c77b589e76734ad521ceb4a4c5447
+Depends: thunk-gen (= 1.3-1)
+Filename: pool/tur/thunk-gen-cross_1.3-1_all.deb
+Size: 28208
+MD5sum: b64db6e812244d6ce3d5e340e79d22b9
+SHA1: eb19b0c84f23f9108d5d2eb2252d07051a4f6025
+SHA256: eed6765c88c671b146e79415bb049c299bbe2f5bd79488f57102c7200251e105
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 
