@@ -21,10 +21,24 @@ async function handleRequest(request) {
   }
 
   if (pathname.startsWith("/pool")) {
-    const packageName = pathArray.at(-1);
-    const packageNameModified = packageName.replaceAll(/[^a-zA-Z0-9-_+%]+/g, ".");
-    return Response.redirect(
-      "https://github.com/termux-user-repository/dists/releases/download/0.1/" + packageNameModified, 302);
+    const packageDebName = pathArray.at(-1);
+    const packageDebNameModified = packageDebName.replaceAll(/[^a-zA-Z0-9-_+%]+/g, ".");
+    const fallbackUrl = "https://github.com/termux-user-repository/dists/releases/download/0.1/" + packageDebNameModified;
+    try {
+      // Try the new package_name tag
+      const packageName = packageDebName.split("_").at(0);
+      const primaryUrl = "https://github.com/termux-user-repository/dists/releases/download/" + packageName + "/" + packageDebNameModified;
+      const response = await fetch(primaryUrl, { method: "HEAD" });
+      if (response.ok) {
+        return Response.redirect(primaryUrl, 302);
+      } else {
+        // Fallback to legacy 0.1 tag
+        return Response.redirect(fallbackUrl, 302);
+      }
+    } catch (err) {
+      // Fallback to legacy 0.1 tag
+      return Response.redirect(fallbackUrl, 302);
+    }
   }
 
   return Response.redirect("https://github.com/termux-user-repository/tur", 302);
