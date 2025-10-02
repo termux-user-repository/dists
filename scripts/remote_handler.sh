@@ -38,14 +38,19 @@ list_non_upload_debs() {
 }
 
 upload_debs() {
-    list_non_upload_debs
+    # list_non_upload_debs
+    non_uploaded_list=$(mktemp /tmp/non_upl.XXXXXXXXX)
+
     pushd $DEB_DIR
-    for deb in *.deb;do
+    for deb in *.deb; do
         modified_name="$(echo "$deb" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
         mv -n $deb $modified_name
+        echo "$modified_name" >> $non_uploaded_list
     done
     for deb_name in $(cat $non_uploaded_list); do
-        if ! gh release upload -R github.com/$owner/$repo $tag $deb_name;then
+        local package_name_tag=$(echo $deb_name | cut -d '_' -f 1)
+        gh release create -R github.com/$owner/$repo $package_name_tag -n "$package_name_tag"
+        if ! gh release upload -R github.com/$owner/$repo $package_name_tag $deb_name --clobber; then
             echo "$deb_name issues while uploading"
         fi
     done
@@ -75,7 +80,7 @@ remove_archive_from_temp_gh() {
     # However repository consistency checker will catch any unsuccesful checks. 
     cd $BASE_DIR
     for temp in ./*.tar;do
-        if gh release delete-asset -R github.com/$owner/tur $tag "$(basename $temp)" -y;then
+        if gh release delete-asset -R github.com/$owner/tur 0.1 "$(basename $temp)" -y;then
 
             echo "$temp removed!!"
         else
