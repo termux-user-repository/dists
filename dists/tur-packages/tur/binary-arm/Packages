@@ -2950,20 +2950,17 @@ Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: nodejs-22
-Version: 22.15.1
+Version: 22.15.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 133120
+Installed-Size: 133020
 Depends: libc++, openssl, c-ares, libicu, zlib
 Suggests: clang, make, pkg-config, python
-Conflicts: nodejs, nodejs-current
-Breaks: nodejs-dev
-Replaces: nodejs-current, nodejs-dev
-Filename: pool/tur/nodejs-22_22.15.1_arm.deb
-Size: 23172924
-MD5sum: 99edaf911233bbfb7a4159afa585b5a5
-SHA1: 021038815863e49136cccecedad44c1169dc807a
-SHA256: bc989dd3b50047e36d2753d9f7da74ee95a3dc9860814a59f64606a2b6e85bb0
+Filename: pool/tur/nodejs-22_22.15.1-1_arm.deb
+Size: 23153604
+MD5sum: 99a41aef59e9e9617eb450f15facb284
+SHA1: 6402995c544f99f3a40ba9a394aa6d7360fd8d9c
+SHA256: f9b86199de73bde6210232b4315d6e85bb994e3c8d32c22414459a520d2578b8
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment (Version 22)
 
