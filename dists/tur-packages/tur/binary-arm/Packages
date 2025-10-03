@@ -4494,18 +4494,31 @@ Homepage: https://stashapp.cc
 Description: Locally hosted web-based app written in Go which organizes and serves your Adult Video
 
 Package: stern
-Version: 1.32.0
+Version: 1.33.0
 Architecture: arm
 Maintainer: @idj0
-Installed-Size: 59720
+Installed-Size: 63004
 Depends: pacman, kubectl
-Filename: pool/tur/stern_1.32.0_arm.deb
-Size: 11675060
-MD5sum: 7cbf44fa4179bb7130870da24f527545
-SHA1: fdc9c34d572d60e8e016a225176bac3976aad09e
-SHA256: 27a9834b78ef3acb570e54d9d3e2581251f5c98c8a8b4fa51a5196535369787b
+Filename: pool/tur/stern_1.33.0_arm.deb
+Size: 12271884
+MD5sum: d8080c3d32bb1685896e2d3ec9453679
+SHA1: a9d670737f0cd10aa2c8c3711c88e8dd80d9ac03
+SHA256: 661b9308ab0d24aae5e1016d1e4f10b3e7666043967dbb6355a5b184d6c82c77
 Homepage: https://github.com/stern/stern
 Description: Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern
+
+Package: sttr
+Version: 0.2.27
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7364
+Filename: pool/tur/sttr_0.2.27_arm.deb
+Size: 2102640
+MD5sum: 23a7b82a0ffb1b4c44683ac6f3726e7a
+SHA1: 18aa0d8fc98eb86317013539abdaf2a915284a2a
+SHA256: bad6cb7a3a1ad43c69f36916aa158c7d5733d2ec79e6a42d3432d5fa697b399b
+Homepage: https://github.com/abhimanyu003/sttr
+Description: Cli app to perform various operations on string
 
 Package: suitesparse-static
 Version: 1:7.9.0
