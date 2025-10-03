@@ -3382,16 +3382,16 @@ Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
 
 Package: ograph-rs
-Version: 0.4.1
+Version: 0.5.0
 Architecture: aarch64
 Maintainer: @AverageHelper
-Installed-Size: 3584
+Installed-Size: 4420
 Depends: openssl
-Filename: pool/tur/ograph-rs_0.4.1_aarch64.deb
-Size: 1086648
-MD5sum: d82141bb0929a99ac038fc15bbc6c3e7
-SHA1: 65ec898dfab070d1c695c67a035037cb29f10ca8
-SHA256: 5e7b78ce074702e210146f3197ae41fad3791062746160a7abc5d6ba2e47fab2
+Filename: pool/tur/ograph-rs_0.5.0_aarch64.deb
+Size: 1226392
+MD5sum: 36c1e592cb907eebc35924260fc1bd38
+SHA1: 20ef96d6e8a7802955b0eaac5d3a1682506c5aa8
+SHA256: ce383665d821dd7ebdb07328a5449ed80dc8cfddc4b107d9d0c1a7da2c79ae4d
 Homepage: https://git.average.name/AverageHelper/ograph-rs
 Description: A simple command-line utility to extract and print OpenGraph metadata from a given URL.
 
@@ -3556,30 +3556,30 @@ Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: openssl-static
-Version: 3.0.3-1
+Version: 1:3.5.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 8768
-Depends: openssl (= 3.0.3-1)
-Filename: pool/tur/openssl-static_3.0.3-1_aarch64.deb
-Size: 1649480
-MD5sum: 4a867bf3068fd18adbab44cca7b34109
-SHA1: 9b4a889239fbf6b84621dd03493efc6ec492de57
-SHA256: 58c47b1bbf2446d98db56a6b538cf413254657393cd6ace7553f5bd6cc53e7bb
+Installed-Size: 11892
+Depends: openssl (= 1:3.5.2)
+Filename: pool/tur/openssl-static_1:3.5.2_aarch64.deb
+Size: 2596256
+MD5sum: 5fee06f1f12fe8cf5ae87204a204127b
+SHA1: ac90b26baac024f4bbbb7bc212120c01b103ce1c
+SHA256: d073d1a769b5bab352dc67cf64bc3c52defffe9730778eebd7c5184ad2056171
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
 Package: openssl-tool
-Version: 3.0.3-1
+Version: 1:3.5.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 836
-Depends: openssl (= 3.0.3-1)
-Filename: pool/tur/openssl-tool_3.0.3-1_aarch64.deb
-Size: 241572
-MD5sum: 9106e70e8600a6ec6ef94ec8c309d453
-SHA1: 030d8bd5de7c59318f051c47e286253fa9ccf0ea
-SHA256: 640dda44d5556d647f01e458d25bd3387dc0a68a7cf96a689a87bd5bc1650b28
+Installed-Size: 960
+Depends: openssl (= 1:3.5.2)
+Filename: pool/tur/openssl-tool_1:3.5.2_aarch64.deb
+Size: 271408
+MD5sum: 4777922bb5bffbffdfe1be67667ae8da
+SHA1: e54348f0c3c6e77c99783e41adccc82a47035e12
+SHA256: 0661a182bf2d1fb7b241d771c55c88f6c6f94977c5f8dc096e0d2bec253b957b
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -3598,19 +3598,19 @@ Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
 Package: openssl
-Version: 3.0.3-1
+Version: 1:3.5.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 6440
+Installed-Size: 8516
 Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename: pool/tur/openssl_3.0.3-1_aarch64.deb
-Size: 1573632
-MD5sum: acf70248bb79f1a8aef27b469bea937b
-SHA1: a238e8816d900941b2d9079dfac04a51085e2d09
-SHA256: 3702e88a8a7484afdb8b2ba5108e12e2ea9a61c01996f32778ea07308c307944
+Filename: pool/tur/openssl_1:3.5.2_aarch64.deb
+Size: 2444456
+MD5sum: be649a9e56e81f8e930925221021c2d0
+SHA1: bf01bb52c313520b324239fa62dadec023b7abe6
+SHA256: 93bbe960a2f9e8330c54529d90088081dfc44680bce5d3dfc6290c07428ffda7
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
@@ -3850,15 +3850,15 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: playit
-Version: 0.15.26
+Version: 0.16.3
 Architecture: aarch64
 Maintainer: @nisheri-ascar
-Installed-Size: 3524
-Filename: pool/tur/playit_0.15.26_aarch64.deb
-Size: 1456992
-MD5sum: 4a2993f712848237f907e1857fafdaa6
-SHA1: 97af86a8b23a340b672141bf128f84751d5eac3b
-SHA256: 559f01b6e7ef84f5814ea3767432e3f1c39b2686d6e02d42fa5064dd02361176
+Installed-Size: 3556
+Filename: pool/tur/playit_0.16.3_aarch64.deb
+Size: 1489088
+MD5sum: afba35eb044429da608bd922966a8d6a
+SHA1: 7f3bbe9313f94e5b6efaacd6619fe94c5167ca68
+SHA256: a6e8bd913016650dcff741520da454ca54c8b3a26a5b88a9dcab41754d4db9b3
 Homepage: https://playit.gg
 Description: playit is a global proxy that allows anyone to host a server without port forwarding.
 
@@ -5512,6 +5512,35 @@ SHA256: 1bc90b6d79ade1c0adc5422fb4e8d0e98da0e0966d46ce384aa386880dfbdc42
 Homepage: https://www.zerotier.com
 Description: Creates virtual Ethernet networks of almost unlimited size.
 
+Package: zlib-static
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: zlib (= 1.3.1-1)
+Filename: pool/tur/zlib-static_1.3.1-1_aarch64.deb
+Size: 34392
+MD5sum: 3c93dae7f3397b9855a9b7ed800bbdc5
+SHA1: 7f0c070674e2306f7127978de42316d44a4d8b37
+SHA256: b796ad20275a72cb869a22e18c91b77aca938547dc0cf3595c0113d150bbfa2e
+Homepage: https://www.zlib.net/
+Description: Static libraries for zlib
+
+Package: zlib
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Filename: pool/tur/zlib_1.3.1-1_aarch64.deb
+Size: 60116
+MD5sum: 51c2f50ba1852f0d9fe2eace5ed0c7e4
+SHA1: 343b6058aa3dd3d16927aca6973bab22423a74fa
+SHA256: 354368c63dbc33cbf97890abc6ecdc7b96b2c0b964c65e01a518292b817666aa
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
 Package: abuse-frabs
 Version: 20210827
 Architecture: all
@@ -5597,6 +5626,33 @@ SHA1: f25b257bd0df71d6f129a81d6d0686da028720a8
 SHA256: 19a03a6589aee94a6d4b59c41260d30d1069d7d1eeeb7e7080e03653cdc5fb49
 Homepage: https://biblatex-biber.sourceforge.net
 Description: A Unicode-capable BibTeX replacement for biblatex users
+
+Package: ca-certificates-java
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 212
+Depends: ca-certificates (= 1:2025.09.09)
+Filename: pool/tur/ca-certificates-java_1:2025.09.09_all.deb
+Size: 115188
+MD5sum: cac5f160d66725aa3b4771da988284ac
+SHA1: 9599e5f80957a7769d1dc7fceb9fe1ed44988bbf
+SHA256: bcd7cb599d3ffe8f8ca9c88db24cc5bc5ece8b1ef1ca4c04c623b8ce410cf8a8
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: ca-certificates
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/tur/ca-certificates_1:2025.09.09_all.deb
+Size: 125652
+MD5sum: f7151d3e7b5c9d355b353d3ef24a4b21
+SHA1: 39aa168680f46ba8cdf828f50c376fc79015b401
+SHA256: aae3be4ff7e7a0045ae75b718b404a3af86a0eda9002f55b9cbf58b6d964cd85
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
 
 Package: ddclient
 Version: 4.0.0

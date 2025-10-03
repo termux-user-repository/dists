@@ -1,17 +1,17 @@
 Package: openssl
-Version: 3.0.3-1
-Architecture: x86_64
+Version: 1:3.5.2
+Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 6952
+Installed-Size: 8516
 Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename: pool/tur/openssl_3.0.3-1_x86_64.deb
-Size: 1796860
-MD5sum: 793bff3f29ac6d3e1c30035bbfa944ff
-SHA1: 77ccdcffef1506dc70732273563360b6f0e7764d
-SHA256: 4183897144ddcea5aafb5236ea5c251541dd9e43f49ded0c995bc59e9aff48b2
+Filename: pool/tur/openssl_1:3.5.2_aarch64.deb
+Size: 2444456
+MD5sum: be649a9e56e81f8e930925221021c2d0
+SHA1: bf01bb52c313520b324239fa62dadec023b7abe6
+SHA256: 93bbe960a2f9e8330c54529d90088081dfc44680bce5d3dfc6290c07428ffda7
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 

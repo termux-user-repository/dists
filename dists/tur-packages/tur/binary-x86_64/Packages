@@ -3327,16 +3327,16 @@ Homepage: https://octave.org
 Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
 
 Package: ograph-rs
-Version: 0.4.1
+Version: 0.5.0
 Architecture: x86_64
 Maintainer: @AverageHelper
-Installed-Size: 3828
+Installed-Size: 4696
 Depends: openssl
-Filename: pool/tur/ograph-rs_0.4.1_x86_64.deb
-Size: 1201736
-MD5sum: 53f5c279573632e6b4fdae09a2867af3
-SHA1: 606376c56b6a8fc7d0c20563492cbcc13cc08510
-SHA256: 40a407cd590e804863cea8fdfcd982c62a1d36663a6dc55781f9e649f0b7bcbb
+Filename: pool/tur/ograph-rs_0.5.0_x86_64.deb
+Size: 1367004
+MD5sum: e6d88045e27fe450481baf7dcbe63de0
+SHA1: d17feb423b423ee8ba061c2a55d4d3a6dda342da
+SHA256: 67c95f8636cb8f90b105c1faa361e082747ded81315dfdda3cc7ff4be10eecb8
 Homepage: https://git.average.name/AverageHelper/ograph-rs
 Description: A simple command-line utility to extract and print OpenGraph metadata from a given URL.
 
@@ -3500,34 +3500,6 @@ SHA256: 8b5a7339e34446a673aecd6f6efa4394aebed4868e13e400ff7d8f19fb5423f4
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
-Package: openssl-static
-Version: 3.0.3-1
-Architecture: x86_64
-Maintainer: @termux
-Installed-Size: 9200
-Depends: openssl (= 3.0.3-1)
-Filename: pool/tur/openssl-static_3.0.3-1_x86_64.deb
-Size: 1791528
-MD5sum: 131a0ce23b7aec3ffec43f0979e647a1
-SHA1: 6b7d38e65f7a122c0b4e35c14a58014b8d7d8bdd
-SHA256: 916b1d1023b97b5f3d04a010596fdb9580120fa3ec6dab83458a655f1eb5f7e4
-Homepage: https://www.openssl.org/
-Description: Static libraries for openssl
-
-Package: openssl-tool
-Version: 3.0.3-1
-Architecture: x86_64
-Maintainer: @termux
-Installed-Size: 908
-Depends: openssl (= 3.0.3-1)
-Filename: pool/tur/openssl-tool_3.0.3-1_x86_64.deb
-Size: 273120
-MD5sum: 347b9e9b75992642faea90c4bba68408
-SHA1: 1c63e18408619faae2ed77a5cc1aec628e571da4
-SHA256: 2e6f1e4cb203c7c315ed2dd85ca31d3da8ee25021109ac8b7b2cbd2d95c54f41
-Homepage: https://www.openssl.org/
-Description: The openssl command line cryptographic tool
-
 Package: openssl1.1-tool
 Version: 1:1.1.1w
 Architecture: x86_64
@@ -3541,23 +3513,6 @@ SHA1: dd87af06b350f99e6f510e747b6399094ed6f097
 SHA256: 47b18a4e79a8755871ec9e4debd8173816a93ff8de0b6e7af4707dda2189c258
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
-
-Package: openssl
-Version: 3.0.3-1
-Architecture: x86_64
-Maintainer: @termux
-Installed-Size: 6952
-Depends: ca-certificates, zlib
-Conflicts: libcurl (<< 7.61.0-1)
-Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
-Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename: pool/tur/openssl_3.0.3-1_x86_64.deb
-Size: 1796860
-MD5sum: 793bff3f29ac6d3e1c30035bbfa944ff
-SHA1: 77ccdcffef1506dc70732273563360b6f0e7764d
-SHA256: 4183897144ddcea5aafb5236ea5c251541dd9e43f49ded0c995bc59e9aff48b2
-Homepage: https://www.openssl.org/
-Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 Package: openvdb-static
 Version: 10.0.1-3
@@ -3795,15 +3750,15 @@ Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
 Package: playit
-Version: 0.15.26
+Version: 0.16.3
 Architecture: x86_64
 Maintainer: @nisheri-ascar
-Installed-Size: 3996
-Filename: pool/tur/playit_0.15.26_x86_64.deb
-Size: 1572604
-MD5sum: 6406ee4ccb10521e93069ec7bf880b78
-SHA1: 3c5efe094532029be3b71aac83f96a8e9c86e580
-SHA256: 2554d1965c5039faa6b59738d48af28be1c50277504f4cc995083e64099b99f9
+Installed-Size: 4020
+Filename: pool/tur/playit_0.16.3_x86_64.deb
+Size: 1603520
+MD5sum: 6d52222898d177302c1632ee59120168
+SHA1: 231294d14cc436630b1b085e1375c57b2f6be20c
+SHA256: fe86e0e5b40df7ba22c99f07a0bbd928f7813e4a3af5c163d567fb7bbaf49af3
 Homepage: https://playit.gg
 Description: playit is a global proxy that allows anyone to host a server without port forwarding.
 
@@ -5561,6 +5516,33 @@ SHA1: f25b257bd0df71d6f129a81d6d0686da028720a8
 SHA256: 19a03a6589aee94a6d4b59c41260d30d1069d7d1eeeb7e7080e03653cdc5fb49
 Homepage: https://biblatex-biber.sourceforge.net
 Description: A Unicode-capable BibTeX replacement for biblatex users
+
+Package: ca-certificates-java
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 212
+Depends: ca-certificates (= 1:2025.09.09)
+Filename: pool/tur/ca-certificates-java_1:2025.09.09_all.deb
+Size: 115188
+MD5sum: cac5f160d66725aa3b4771da988284ac
+SHA1: 9599e5f80957a7769d1dc7fceb9fe1ed44988bbf
+SHA256: bcd7cb599d3ffe8f8ca9c88db24cc5bc5ece8b1ef1ca4c04c623b8ce410cf8a8
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: ca-certificates
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/tur/ca-certificates_1:2025.09.09_all.deb
+Size: 125652
+MD5sum: f7151d3e7b5c9d355b353d3ef24a4b21
+SHA1: 39aa168680f46ba8cdf828f50c376fc79015b401
+SHA256: aae3be4ff7e7a0045ae75b718b404a3af86a0eda9002f55b9cbf58b6d964cd85
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
 
 Package: ddclient
 Version: 4.0.0
