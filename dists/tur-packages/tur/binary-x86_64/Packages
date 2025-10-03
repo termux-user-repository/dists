@@ -566,15 +566,15 @@ Homepage: https://www.freedesktop.org/wiki/Software/cppunit
 Description: A C++ unit testing framework
 
 Package: crush
-Version: 0.8.1
+Version: 0.10.4
 Architecture: x86_64
 Maintainer: @ancientcatz
-Installed-Size: 55800
-Filename: pool/tur/crush_0.8.1_x86_64.deb
-Size: 12120140
-MD5sum: 08bb48147d6951c6f6786886eb25be89
-SHA1: 0603fc4b2a724d97f8ca6e3af9eace09069f2507
-SHA256: 8c343d79f2624ea267d184b3dc32ed1dcab835d7d00f5abcbbb82d8e9a2da1cf
+Installed-Size: 56248
+Filename: pool/tur/crush_0.10.4_x86_64.deb
+Size: 12186528
+MD5sum: 05438eb381300b773fb61d287f64e425
+SHA1: e3f9a41fa0dddf2ffbdbe60e772870b356a39252
+SHA256: 0e135eff47a2d916217ca6ec55eaa0fbc282ccc37bed1a3137942ff7a2907fc9
 Homepage: https://github.com/charmbracelet/crush
 Description: The glamourous AI coding agent for your favourite terminal
 
@@ -5303,6 +5303,20 @@ Size: 142907400
 MD5sum: 7d3a1c1566e16cd9f62d5b5e236ce8b5
 SHA1: 9360fe4f69b1614c1b111175c9f550d7f535e87e
 SHA256: 437590ad2f54e0fa8d906fb7a1bea15fd010c30b229b555055646eae9c7a484e
+Homepage: https://www.winehq.org/
+Description: A compatibility layer for running Windows programs
+
+Package: wine-staging
+Version: 10.15
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1068432
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
+Filename: pool/tur/wine-staging_10.15_x86_64.deb
+Size: 147715396
+MD5sum: 30efdd05789865ad04e2a912866fe08d
+SHA1: e9a409d0100e19dab6fe44be3bbbdec3e60fe37e
+SHA256: a0406d000ce7d032d96e433e63d0b31dd77388ca62b91d5bd1e1ae6cfdedaecb
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
