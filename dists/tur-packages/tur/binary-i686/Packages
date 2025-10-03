@@ -893,17 +893,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-11
-Version: 11.5.0-2
+Version: 11.5.0-3
 Architecture: i686
 Maintainer: @licy183
-Installed-Size: 300824
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
+Installed-Size: 199824
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (<< 29)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-11_11.5.0-2_i686.deb
-Size: 80550376
-MD5sum: 9281d9641f36b8f332e98ec344d442de
-SHA1: a46b3d40de0089e6982b1252c4e0510ff3ac4249
-SHA256: b47d6b779d43f0312adb1588e64b031b657f7c8b0a76e51a09dda2087b5a8112
+Filename: pool/tur/gcc-11_11.5.0-3_i686.deb
+Size: 59250352
+MD5sum: 057dd3603192a45d8ebaa07dc0304ebb
+SHA1: b376ba15bf298914285cd271e2fd0659b53a94f8
+SHA256: d4ed54b34c5cda16e031a2dd5c004dad46f83583bcd5bc9fa5e1f834dc1fff08
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 

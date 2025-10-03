@@ -1019,17 +1019,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-11
-Version: 11.5.0-2
+Version: 11.5.0-3
 Architecture: arm
 Maintainer: @licy183
-Installed-Size: 220296
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
+Installed-Size: 134288
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (<< 29)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-11_11.5.0-2_arm.deb
-Size: 60954832
-MD5sum: 5979c2c0739088cc1235358d119b7668
-SHA1: 54ca41de1fe69af4cefa63d939180e2717dcc55f
-SHA256: ac091530bbdc6c15859fd3b47964823a5550ca83880b90cf3a54cabed8694274
+Filename: pool/tur/gcc-11_11.5.0-3_arm.deb
+Size: 43797596
+MD5sum: c2fb2f24cd5105d20ad5e139d61146da
+SHA1: a3cbddd7c699a3fc1240e3fe443857373f92cf59
+SHA256: bbba85071dea30535f1fc2c2c80622962b52cf5359c11d06ea595b4ce1e1eb86
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
