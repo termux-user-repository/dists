@@ -264,16 +264,16 @@ Homepage: https://github.com/codedsprit/bfm
 Description: 🌼 ez file manager slokes in bash
 
 Package: bililive-go
-Version: 0.7.35
+Version: 0.7.38
 Architecture: aarch64
 Maintainer: 2096779623 <admin@utermux.dev>
-Installed-Size: 23632
+Installed-Size: 23568
 Depends: ffmpeg
-Filename: pool/tur/bililive-go_0.7.35_aarch64.deb
-Size: 5106500
-MD5sum: 6837d06b6f2f0d3f37bb71975e59034d
-SHA1: 93f005d20dca3d6eefb0d2f26797db84f2ac291e
-SHA256: ab54f12f57ebfcdf034ba2c375c7b547ab0073701a4a6e28253f862ddbd2d81f
+Filename: pool/tur/bililive-go_0.7.38_aarch64.deb
+Size: 5138836
+MD5sum: d79514281a4c1637944844aa1e43d1fc
+SHA1: 8df44bfb98560a5dbd0d7dd9e4d3e97652303b44
+SHA256: d75522fae4d990add59f540657f0707ab4ba177f2efef4f3a9cab6b53d105c58
 Homepage: https://github.com/hr3lxphr6j/bililive-go
 Description: A live streaming recording tool
 
@@ -2787,6 +2787,22 @@ SHA1: 3fc4dda3075eb70b505da79e67fb6bd0524ac75a
 SHA256: deb395af900cffd83aa8772d79820f9e589a326eb37d751127c2fa1dd64e7ccf
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: Library providing ability to interpret and import visio diagrams
+
+Package: libwebp
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1264
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Breaks: libwebp-dev
+Replaces: libwebp-dev
+Filename: pool/tur/libwebp_1.6.0-1_aarch64.deb
+Size: 330540
+MD5sum: b92f46633225c12c1b3ce29efc23560c
+SHA1: 78023307058a2c3fdf033d916e0af1c572fa13a4
+SHA256: e007aee1aa9a1f60053f99e6efd399ec202b1ba1b1c515365a8ef02b92939c76
+Homepage: https://github.com/webmproject/libwebp
+Description: Library to encode and decode images in WebP format
 
 Package: libwebrtc-audio-processing
 Version: 1.3-1
