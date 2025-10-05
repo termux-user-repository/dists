@@ -1034,17 +1034,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-12
-Version: 12.4.0
+Version: 12.5.0
 Architecture: arm
 Maintainer: @licy183
-Installed-Size: 143424
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
+Installed-Size: 143452
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (<< 29)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-12_12.4.0_arm.deb
-Size: 47326040
-MD5sum: e1d43244f2bf0293a992746435305d61
-SHA1: 76aaf643f5291daef74973e1937127969a973211
-SHA256: 9803eccf6d6de06e917e1310805579fd65d9f94a889ee6158328d2658f91b2cb
+Filename: pool/tur/gcc-12_12.5.0_arm.deb
+Size: 47353120
+MD5sum: 4ed8dfaee5fe86c0c5439b23a55496fd
+SHA1: 861147751b20c372815cd7d912a8e9067ca2fed7
+SHA256: b47c1631fec3bc0b168f0ca987e37e1d2d043e01193d6010cea5a619bf1be8c6
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 

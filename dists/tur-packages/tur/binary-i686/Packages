@@ -908,17 +908,17 @@ Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
 Package: gcc-12
-Version: 12.4.0
+Version: 12.5.0
 Architecture: i686
 Maintainer: @licy183
-Installed-Size: 230692
-Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 26b-3)
+Installed-Size: 231096
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (<< 29)
 Breaks: binutils-is-llvm
-Filename: pool/tur/gcc-12_12.4.0_i686.deb
-Size: 65671408
-MD5sum: cdf27fec1bc53a7fce3dba6e72bb7940
-SHA1: 8213c4cf22c4b786131a32cb611fad8dac473f1f
-SHA256: 616033bc0a4709ae6a201c9fa375c37545c7fac099a20aef2a87094421ccba66
+Filename: pool/tur/gcc-12_12.5.0_i686.deb
+Size: 65797052
+MD5sum: 5e97cc18e7f7da5651ed97f4105225e8
+SHA1: d74ee404e4ab234cf30615feb737b09435038697
+SHA256: 013950aa81bd6afee04cba19d0c68253556c232946ad040b55d0c6552d3f61ef
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
