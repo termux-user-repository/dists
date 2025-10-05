@@ -94,16 +94,16 @@ Homepage: https://github.com/shadow1ng/fscan
 Description: A comprehensive intranet scanning tool
 
 Package: hashcat
-Version: 6.2.6-5
+Version: 7.1.2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 131936
-Depends: opencl-vendor-driver, libiconv
-Filename: pool/tur-hacking/hashcat_6.2.6-5_arm.deb
-Size: 10849140
-MD5sum: a8f4867a5a494015dbe7e33031bee001
-SHA1: 3e7472125097fa8a831e3eed964c0bcaf36f1407
-SHA256: 2423e04a6cdbe58706a8cfdfa0209580dd692b189892458defea51d002dc0fb5
+Installed-Size: 173864
+Depends: libc++, libiconv, opencl-vendor-driver
+Filename: pool/tur-hacking/hashcat_7.1.2_arm.deb
+Size: 12423388
+MD5sum: c4b5b0d356521107ee4f025cd6a203ac
+SHA1: 1cb67831134536792b9c97d96cb226abb36bd2a1
+SHA256: 15e6b80417e2d82851565745748ed2d90afdb7b46bc339211e1eeec9dfb45d8e
 Homepage: https://hashcat.net/hashcat/
 Description: World's fastest and most advanced password recovery utility
 
