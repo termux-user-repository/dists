@@ -4651,16 +4651,16 @@ Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
 Package: thunk-gen
-Version: 1.6-2
+Version: 1.8
 Architecture: arm
 Maintainer: @stsp
 Installed-Size: 100
 Depends: bash, autoconf, pkg-config
-Filename: pool/tur/thunk-gen_1.6-2_arm.deb
-Size: 13140
-MD5sum: e0fa17d7b2f6f776cbbb3671866663a5
-SHA1: 5e0fd1f34fff729c9d8c6de526bc04923dc204a0
-SHA256: 482dcb51042ad0f2597975a522271d965da90c946ef27f6e587cf6250e880141
+Filename: pool/tur/thunk-gen_1.8_arm.deb
+Size: 13232
+MD5sum: e54fb3a7be51c1c34601406d192d0b16
+SHA1: 1daca3e0f21ad0aca738ba38acf914dc42bcd9e8
+SHA256: e4ae9345667b6ad332b174971511ff7df3efa4620585a7c47417b1589ffc5554
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -5789,16 +5789,16 @@ Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
 Package: thunk-gen-cross
-Version: 1.6-2
+Version: 1.8
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 152
-Depends: thunk-gen (= 1.6-2)
-Filename: pool/tur/thunk-gen-cross_1.6-2_all.deb
-Size: 28660
-MD5sum: 5f9336a07a754c2f8b673e2600622225
-SHA1: 92e6a66f9f3aefe57d4a30ee6469c3208d6174d2
-SHA256: 9c2d451234b1aad959ae01f4c9be4923d9c929ebf8cda4b196db7899ef57ce7a
+Depends: thunk-gen (= 1.8)
+Filename: pool/tur/thunk-gen-cross_1.8_all.deb
+Size: 28784
+MD5sum: 83c6a918db98f76d470baa447a0e6bfe
+SHA1: 36185f6a5e5f848d2f396bb78ce048d3467f4c7b
+SHA256: aebd94894f38c63b5d28a55847e638852b90275da87fa7c0c1b86cc408854bba
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk-gen for host (NOT for Termux)
 
