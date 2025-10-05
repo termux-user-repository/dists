@@ -555,15 +555,15 @@ Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
 Package: djstub
-Version: 0.3-1
+Version: 0.7
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 84
-Filename: pool/tur/djstub_0.3-1_i686.deb
-Size: 13516
-MD5sum: 72236cd7874ec209ce6acbfc61441b53
-SHA1: acfc2451b6dea5ae883ddfc4ad72587c6c939165
-SHA256: e589e338ba7c4b474b0e2fb138e18dadae3028b8a2ba48f1f696ac9bda2e715d
+Installed-Size: 88
+Filename: pool/tur/djstub_0.7_i686.deb
+Size: 14572
+MD5sum: 1d0289871ad8831184567de436ba6de6
+SHA1: b5437fe94ce18a8d0e41b18d3cb3f6842a08ce8c
+SHA256: 53fbe98bde822e6e3aa0f619d60eb1c215d89f2317707bdbe6e6502aef9c4e9f
 Homepage: https://github.com/stsp/djstub
 Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
@@ -5062,16 +5062,16 @@ Homepage: https://repo.dgbaodev.com
 Description: Community repository maintained by Dichvucoder
 
 Package: djstub-cross
-Version: 0.3-1
+Version: 0.7
 Architecture: all
 Maintainer: @stsp
-Installed-Size: 120
-Depends: djstub (= 0.3-1)
-Filename: pool/tur/djstub-cross_0.3-1_all.deb
-Size: 25192
-MD5sum: 1b0149064b17f0b7e31b46a550dd66ef
-SHA1: b83bb5aff30f21595f21ab77c0b6697ccfea2a4e
-SHA256: a7239ce300c306b14f686321c32dc494ad49d18cb4eb999203c8eb55feb4f8f3
+Installed-Size: 124
+Depends: djstub (= 0.7)
+Filename: pool/tur/djstub-cross_0.7_all.deb
+Size: 27136
+MD5sum: 9303f0db4baec0576ec5a62cb4b40242
+SHA1: 82850cd990b60ec6e36b5de0fbdd8e54d6961215
+SHA256: 042e55601069ff3cca6436a8bc9b48cc09b24abce1bf7fe30566d1f426035175
 Homepage: https://github.com/stsp/djstub
 Description: djstub for host (NOT for Termux)
 
