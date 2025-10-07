@@ -582,16 +582,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-4
+Version: 2.0pre9-git-5
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 6496
-Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-4_i686.deb
-Size: 1036944
-MD5sum: 210ff1f5e043b5a7d067df7e8aaa7c21
-SHA1: 6dae0c642319e42b90a549af255ae16814bfa739
-SHA256: dea049546c9ae4d38ecf50050ad56ae695a9ecdadd3367584734c858855661f7
+Installed-Size: 6488
+Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, sdl3, sdl3-ttf, fontconfig, fdpp, dj64dev
+Filename: pool/tur/dosemu2_2.0pre9-git-5_i686.deb
+Size: 1035868
+MD5sum: ca70a3b6f00b228451194987aaa16059
+SHA1: 84ad719b102f651b1e576da13573f42479f5dc39
+SHA256: e4d99b2bc6f1e02ef7d59c0dc5b3c2913baf46fa4a3c5fc91b45fe33555eccaa
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
