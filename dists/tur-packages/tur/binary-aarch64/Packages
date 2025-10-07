@@ -540,16 +540,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.2-3
+Version: 0.4
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 1436
+Installed-Size: 1440
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-3_aarch64.deb
-Size: 389712
-MD5sum: 83677b2056314e213bd32cf8514410a7
-SHA1: 8d64a4faccb36edf0d493922c180b2a06718b26c
-SHA256: ff877fd34e389f14e96a901e874f6716f1e29532cfb6eacff6d2d79ca2280933
+Filename: pool/tur/comcom64_0.4_aarch64.deb
+Size: 385412
+MD5sum: 06995cb059b92b4a10bd9a26fca00cb4
+SHA1: 5986a4007bcc1b47edc91d335844163dd81464a3
+SHA256: c50cfd1338d169bc4d6ce036b4412238b530797b85a6689e6b45219cfd5a4cad
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -729,16 +729,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-4
+Version: 0.4
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 7912
-Depends: djstub, thunk-gen, libelf
-Filename: pool/tur/dj64dev_0.3-4_aarch64.deb
-Size: 1936304
-MD5sum: cd66a0bc3e543e5ed63eb4f4f14b3991
-SHA1: e4a1f4e1563237f292547b85e7154d08f952ad69
-SHA256: ef24e9812dc6dd49fc4194bc2ac3276e1e409a0aca989aac11a8aa78763b07da
+Installed-Size: 17744
+Depends: pkg-config, libelf
+Filename: pool/tur/dj64dev_0.4_aarch64.deb
+Size: 3587872
+MD5sum: f0004e72a3d685f98bea04122219660b
+SHA1: f38d33a5b4bf9a3978f66acb1e27d1f807444eb1
+SHA256: d90de89821d6acb968b764dc731cf04516dc1f0f876f94e31bed0b9469565821
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -770,16 +770,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-3
+Version: 2.0pre9-git-4
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 4496
+Installed-Size: 6540
 Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-3_aarch64.deb
-Size: 982140
-MD5sum: 51981050ebbed671d3d68979db84ea69
-SHA1: c52181ebd4ee5bd0c1b683a04a63e363f40b14a6
-SHA256: eb022486d25086c8435d0cd2ed7fddb499717e3d8db67d6916b5846c353772b2
+Filename: pool/tur/dosemu2_2.0pre9-git-4_aarch64.deb
+Size: 1003492
+MD5sum: b8da9f8fea3ec486d39b008e2b765038
+SHA1: 3171dbd3006f21aaa5fea62a9f5edfd5a85ccc78
+SHA256: d94396afc172af6f4b0552a3eeacdd6e9f55493b0ff06ba7ad23b165a0bd2a2e
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
@@ -994,16 +994,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-4
+Version: 1.10
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 1068
+Installed-Size: 1452
 Depends: libelf
-Filename: pool/tur/fdpp_1.9-4_aarch64.deb
-Size: 265600
-MD5sum: dd984ca1ded7aa42a7a6f908109c6af5
-SHA1: ded79c4607a58bd8b5edec5a71648d6c0d1f4dbd
-SHA256: 1cfac9858fa428718c2a6fa84f5d8a4afb64cfc44ced8158f3f18e38cf098048
+Filename: pool/tur/fdpp_1.10_aarch64.deb
+Size: 370272
+MD5sum: 1e7bc1611cb47b512653c9f12ffd0e05
+SHA1: ca64a4fbbb0e0122c68ae2f598d2b9d65f1ac5cc
+SHA256: 2ff7467e534027ec0d6b324a779f77df76a1f01837bf5a7ec3314557f4506ca2
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -4870,6 +4870,20 @@ SHA256: bba1551ecdc48fc6b23776ba1a878e96c881ceb241152519b082e95c3fab2194
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
 
+Package: sdl3-ttf
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 344
+Depends: freetype, opengl, sdl3
+Filename: pool/tur/sdl3-ttf_3.2.2_aarch64.deb
+Size: 63480
+MD5sum: c01b269be5bc350e51c64955fb618fa9
+SHA1: f3c5c0a747ac1e300c879933a695b7c6413a7f7c
+SHA256: df83493af7af9a9ad516377e543670708ce94b4ee629f7bbe419f23cce625b65
+Homepage: https://github.com/libsdl-org/SDL_ttf
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 3)
+
 Package: sdlpal
 Version: 2.0.2024.08.06
 Architecture: aarch64
@@ -4926,16 +4940,16 @@ Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
 Package: smallerc
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 2112
 Depends: nasm
-Filename: pool/tur/smallerc_1.0.2-2_aarch64.deb
-Size: 231020
-MD5sum: f28c8f670929f0b6932febb360172d5d
-SHA1: 796e326e0668451369482b94c1f2011a047082bb
-SHA256: c4afe914d0a1cc7548496db04e9447a56eebe0f553246acdc01f7da57d1de262
+Filename: pool/tur/smallerc_1.0.2-3_aarch64.deb
+Size: 230884
+MD5sum: 574d14c02f62870acd8d53649ba0f9e9
+SHA1: fb18e0212e8e78fbf8b8712cf151bde99ce3b3b0
+SHA256: a21aa07905efa4d9870cabeaaab1b7012133addb8ca5f8a282aa790c5e7a2b72
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -6219,16 +6233,16 @@ Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: smallerc-cross
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 2252
-Depends: smallerc (= 1.0.2-2)
-Filename: pool/tur/smallerc-cross_1.0.2-2_all.deb
-Size: 277652
-MD5sum: 892aa967107be137be4001861379b4a8
-SHA1: 429c83b49ffd6b7c7b6b757d512da62060d80ec2
-SHA256: 5e2981bba7a838dfeb2650980eab430e5316647a6c4af34b7654d72218a39ef6
+Depends: smallerc (= 1.0.2-3)
+Filename: pool/tur/smallerc-cross_1.0.2-3_all.deb
+Size: 277580
+MD5sum: c6749032c592393bf7b70435a59aae06
+SHA1: 018440b2b6b6190a23d6de914eefabd10671ef85
+SHA256: 498af6d7eabf0cba6ff5c41d85d06aa6e95340b9d606e9b8aeea76cecca2a1ec
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 

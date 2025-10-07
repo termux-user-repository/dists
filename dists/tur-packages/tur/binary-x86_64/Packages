@@ -525,16 +525,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.2-3
+Version: 0.4
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 1296
+Installed-Size: 1424
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-3_x86_64.deb
-Size: 381800
-MD5sum: 7a09241707eb4921d1b8168f3e06bcd5
-SHA1: 4b87ae097acdd5999198b8504e2dc08a732f5f5b
-SHA256: 7f1f4aa1d0623e7e28a2e6f6846f4048053197e22b2ed25142854e75ea12c80c
+Filename: pool/tur/comcom64_0.4_x86_64.deb
+Size: 405224
+MD5sum: 3af5211e58f2adc4aef0ac76e5cd3929
+SHA1: 148bb1f8f2ae224d3ded44e0490a3401eed8db59
+SHA256: 889739a70bf4fe5b498e5061d5fb621abaca88607bbf879d6d3ee0eb96b25375
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -714,16 +714,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-4
+Version: 0.4
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 7812
-Depends: djstub, thunk-gen, libelf
-Filename: pool/tur/dj64dev_0.3-4_x86_64.deb
-Size: 1919680
-MD5sum: 997a578fa89d307778359d4a756fc6b4
-SHA1: 6608a3e11515d9d009091eaa815e35c87c794db2
-SHA256: 5d6654503c53a715faa8c8424c820ab021c94e67c472e0a30bbc6bf0fd208cca
+Installed-Size: 17604
+Depends: pkg-config, libelf
+Filename: pool/tur/dj64dev_0.4_x86_64.deb
+Size: 3631096
+MD5sum: 399d83be162fd2bd66f69f7b9d81bdbb
+SHA1: be4f6d53e22488de48466c75a6206997c36b0010
+SHA256: 5331744fb66dd4edef38bee62fc657a4ea23a873e895977c83ca756900bc61e7
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -755,16 +755,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-3
+Version: 2.0pre9-git-4
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 4596
+Installed-Size: 6572
 Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-3_x86_64.deb
-Size: 1064092
-MD5sum: e4d52f143d5a1242a64e57602fa48917
-SHA1: fa888f5ab81c6f459b5bc832b555560f813ec177
-SHA256: db5dabb6c4cac926346e71e59d84a69bcd005a3a068fc97c2f00a63feff4131b
+Filename: pool/tur/dosemu2_2.0pre9-git-4_x86_64.deb
+Size: 1065648
+MD5sum: 51ea2120e6ee8e8af8dc21e211504934
+SHA1: edf00e6e02b24f2530b32030832ae6a3f9ff0871
+SHA256: 045daf31382379cb4abea54f3a8f072eb770f408abe8968b63776b6656cc4fec
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
@@ -979,16 +979,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-4
+Version: 1.10
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 1060
+Installed-Size: 1476
 Depends: libelf
-Filename: pool/tur/fdpp_1.9-4_x86_64.deb
-Size: 282268
-MD5sum: bfa5f751608b87f3b66b586fee6f4c0c
-SHA1: 0255a83f0f67880968b4023ad25fb4d667c7a905
-SHA256: 1816f60dba58efb7b579b43c28877ce0386445cc8615b0234a3917200212591e
+Filename: pool/tur/fdpp_1.10_x86_64.deb
+Size: 408588
+MD5sum: 43d5f7771d108e9fc74d5cfc888aa625
+SHA1: ca8d23d2dff05a7ad43754b706d3cf040b03ea0c
+SHA256: 8f3150a2aebc60908a8f35e4a4a8fa19550b3c4e708269274326867ec3685e17
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -4770,6 +4770,20 @@ SHA256: 8aebae00cae7d79f5df990c05b044ec3069c5ccce44030d8207d0e2915eba70d
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
 
+Package: sdl3-ttf
+Version: 3.2.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 348
+Depends: freetype, opengl, sdl3
+Filename: pool/tur/sdl3-ttf_3.2.2_x86_64.deb
+Size: 70236
+MD5sum: 01b3106f6ef4f7d035343a0bd8373d5a
+SHA1: 8b7e9fa5d04be4821d33b77ce6f4f17635864930
+SHA256: 3213cfd444dd0d7e4dc4ebac34106ec1010be831656ea1ff01949371217e0b91
+Homepage: https://github.com/libsdl-org/SDL_ttf
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 3)
+
 Package: sdlpal
 Version: 2.0.2024.08.06
 Architecture: x86_64
@@ -4826,16 +4840,16 @@ Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
 Package: smallerc
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 2104
 Depends: nasm
-Filename: pool/tur/smallerc_1.0.2-2_x86_64.deb
-Size: 237824
-MD5sum: a5747091b805793f1902704039122b2f
-SHA1: 6c7d4fd8e219b982b6787b7767263aa6fe94dc63
-SHA256: 6c015716882cb6777185f2ff81a3b3f6dc3417abe50a7b4c80d7393432901e8e
+Filename: pool/tur/smallerc_1.0.2-3_x86_64.deb
+Size: 237812
+MD5sum: 258db6f3bcb53ef321f149d898f54416
+SHA1: 0d24992a47e0e6290468df137299a3ca9e391570
+SHA256: 4654844cfbe7f2f90ea433e5fb54762632328698d83d6ed5809b3cfc97a9864a
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -6109,16 +6123,16 @@ Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: smallerc-cross
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 2252
-Depends: smallerc (= 1.0.2-2)
-Filename: pool/tur/smallerc-cross_1.0.2-2_all.deb
-Size: 277652
-MD5sum: 892aa967107be137be4001861379b4a8
-SHA1: 429c83b49ffd6b7c7b6b757d512da62060d80ec2
-SHA256: 5e2981bba7a838dfeb2650980eab430e5316647a6c4af34b7654d72218a39ef6
+Depends: smallerc (= 1.0.2-3)
+Filename: pool/tur/smallerc-cross_1.0.2-3_all.deb
+Size: 277580
+MD5sum: c6749032c592393bf7b70435a59aae06
+SHA1: 018440b2b6b6190a23d6de914eefabd10671ef85
+SHA256: 498af6d7eabf0cba6ff5c41d85d06aa6e95340b9d606e9b8aeea76cecca2a1ec
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 

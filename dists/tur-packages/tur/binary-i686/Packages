@@ -366,16 +366,16 @@ Homepage: https://github.com/mistricky/CodeSnap
 Description: Pure Rust tool to generate beautiful code snapshots, provide CLI and Library
 
 Package: comcom64
-Version: 0.2-3
+Version: 0.4
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 1036
+Installed-Size: 1160
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.2-3_i686.deb
-Size: 363800
-MD5sum: a0be41e80e1b8261faade6b1e6e6098a
-SHA1: c7e720e791f9467580b8f30747cae76a5aa2245d
-SHA256: 2ff1a4c60e9235f0693ed2b8a94a8d4fa88c53b443467a852c06c1b48c2063a8
+Filename: pool/tur/comcom64_0.4_i686.deb
+Size: 376528
+MD5sum: 784d4ba07c3c6791086eb00d7e4961be
+SHA1: fe0e1d4513aaa1c3b5813737afbd643626175a42
+SHA256: 94efa359f2e87303581f1e65992479a7de4232539e248d4cc01e4071f931377c
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -541,16 +541,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.3-4
+Version: 0.4
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 7368
-Depends: djstub, thunk-gen, libelf
-Filename: pool/tur/dj64dev_0.3-4_i686.deb
-Size: 1878720
-MD5sum: 477eaafcd339bbc55e00cc41e23b25c2
-SHA1: b424a4c000e76f8a25176bccee6f1f4a4e827da8
-SHA256: 1b5e6b158c7fe746efe3a079c93f133de25994b0c06a9a3290ffdcfa25356816
+Installed-Size: 14688
+Depends: pkg-config, libelf
+Filename: pool/tur/dj64dev_0.4_i686.deb
+Size: 3370980
+MD5sum: 95fb13fdd6c4042346257f126e3fa610
+SHA1: 453bf3e8b90403c9afb02982e71a415a6caf1d33
+SHA256: 1708cd7bd13b0abed8af2adbe536c30268005f357f4891ae07709f48dd00e3b6
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -582,16 +582,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-3
+Version: 2.0pre9-git-4
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 4344
+Installed-Size: 6496
 Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-3_i686.deb
-Size: 972832
-MD5sum: 6252cc4cf4a8e0799cf12460f3a48366
-SHA1: afc19944cadadd6651fc94b00d6224034f4e876d
-SHA256: 79ea8b8436d5c2978c9c50a93c9103c6b519f05443b949ec7821e72d80a4345f
+Filename: pool/tur/dosemu2_2.0pre9-git-4_i686.deb
+Size: 1036944
+MD5sum: 210ff1f5e043b5a7d067df7e8aaa7c21
+SHA1: 6dae0c642319e42b90a549af255ae16814bfa739
+SHA256: dea049546c9ae4d38ecf50050ad56ae695a9ecdadd3367584734c858855661f7
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
@@ -694,16 +694,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.9-4
+Version: 1.10
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 1120
+Installed-Size: 1392
 Depends: libelf
-Filename: pool/tur/fdpp_1.9-4_i686.deb
-Size: 283140
-MD5sum: e2b067c8167e6b8e8af30928e6df6d12
-SHA1: 0385c5bb9efe9066b1d12d9184d67778314d4c97
-SHA256: 847fd0531d0a62d886a55e80c6298aa3b12c2805834abdd24dbbf05c57bfd1fb
+Filename: pool/tur/fdpp_1.10_i686.deb
+Size: 359212
+MD5sum: 516d3d229f4174799f26c3f1e43b6171
+SHA1: cb78cef3f0f129e5bebeb63ddcaaae11480dfaae
+SHA256: 12d1f0e487e8fee57958d74ff18aaa6c61a70eea19a4b6567413d9e88cebe1f4
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -4293,6 +4293,20 @@ SHA256: c00eee6bea14950b55f9b611130b500994eb96b4f4f675a37fec51d3748f2fe9
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
 
+Package: sdl3-ttf
+Version: 3.2.2
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 344
+Depends: freetype, opengl, sdl3
+Filename: pool/tur/sdl3-ttf_3.2.2_i686.deb
+Size: 67752
+MD5sum: 933e33be6e199f64a3de14a277f99f9d
+SHA1: f233ec2c785d1e937b7168d21f3fc92ef7348660
+SHA256: 4611eb870fe9061ab1e2c3b45ef744ebbd79e8b1ee60931ff53ee8fa7c5fcb82
+Homepage: https://github.com/libsdl-org/SDL_ttf
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 3)
+
 Package: sdlpal
 Version: 2.0.2024.08.06
 Architecture: i686
@@ -4335,16 +4349,16 @@ Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
 Package: smallerc
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 2120
 Depends: nasm
-Filename: pool/tur/smallerc_1.0.2-2_i686.deb
-Size: 237552
-MD5sum: 05185ed7cd50b9496b7d33bce09b63d7
-SHA1: 3563814aa086174c1f5de3de0fb83663017ec20b
-SHA256: be786df6f724ed3f66175e4bd0f3562eedf23cbc5a6c41f93a733f9d81358527
+Filename: pool/tur/smallerc_1.0.2-3_i686.deb
+Size: 237568
+MD5sum: af51fd1b4b2b36542689ae02b50c50a7
+SHA1: ca34e62f95d76aa129a817c112daba3e8a4cfa92
+SHA256: 92eaea313d9d2e4af7a1e7d2e2e4d1fff7d551c04f35be4d446677fe879a7cd1
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -5585,16 +5599,16 @@ Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: smallerc-cross
-Version: 1.0.2-2
+Version: 1.0.2-3
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 2252
-Depends: smallerc (= 1.0.2-2)
-Filename: pool/tur/smallerc-cross_1.0.2-2_all.deb
-Size: 277652
-MD5sum: 892aa967107be137be4001861379b4a8
-SHA1: 429c83b49ffd6b7c7b6b757d512da62060d80ec2
-SHA256: 5e2981bba7a838dfeb2650980eab430e5316647a6c4af34b7654d72218a39ef6
+Depends: smallerc (= 1.0.2-3)
+Filename: pool/tur/smallerc-cross_1.0.2-3_all.deb
+Size: 277580
+MD5sum: c6749032c592393bf7b70435a59aae06
+SHA1: 018440b2b6b6190a23d6de914eefabd10671ef85
+SHA256: 498af6d7eabf0cba6ff5c41d85d06aa6e95340b9d606e9b8aeea76cecca2a1ec
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
