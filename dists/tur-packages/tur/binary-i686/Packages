@@ -366,16 +366,16 @@ Homepage: https://github.com/mistricky/CodeSnap
 Description: Pure Rust tool to generate beautiful code snapshots, provide CLI and Library
 
 Package: comcom64
-Version: 0.4
+Version: 0.4-1
 Architecture: i686
 Maintainer: @stsp
 Installed-Size: 1160
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.4_i686.deb
-Size: 376528
-MD5sum: 784d4ba07c3c6791086eb00d7e4961be
-SHA1: fe0e1d4513aaa1c3b5813737afbd643626175a42
-SHA256: 94efa359f2e87303581f1e65992479a7de4232539e248d4cc01e4071f931377c
+Filename: pool/tur/comcom64_0.4-1_i686.deb
+Size: 376424
+MD5sum: b14c3275acd12c1dd4b3e4b426e7d625
+SHA1: 7c211802a2614ce4abf2b0df699f6f3a0028e39a
+SHA256: 10cdc7d91650d3d5d9d3ca412dbe0618f0019cd5039633fb96708602366755ea
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -541,16 +541,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.4
+Version: 0.4-1
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 14688
+Installed-Size: 13844
 Depends: pkg-config, libelf
-Filename: pool/tur/dj64dev_0.4_i686.deb
-Size: 3370980
-MD5sum: 95fb13fdd6c4042346257f126e3fa610
-SHA1: 453bf3e8b90403c9afb02982e71a415a6caf1d33
-SHA256: 1708cd7bd13b0abed8af2adbe536c30268005f357f4891ae07709f48dd00e3b6
+Filename: pool/tur/dj64dev_0.4-1_i686.deb
+Size: 3188136
+MD5sum: 6baa7fcc930e5fc870e2010d17aa908b
+SHA1: 232416c1ef6dec273af1a86177d86363660eeabb
+SHA256: 4d2411c20e2a0512baa0b0e1e84c9c4d3c65a079a6ff43795454929a742051c3
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -582,16 +582,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-5
+Version: 2.0pre9-git-6
 Architecture: i686
 Maintainer: @stsp
-Installed-Size: 6488
+Installed-Size: 4504
 Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, sdl3, sdl3-ttf, fontconfig, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-5_i686.deb
-Size: 1035868
-MD5sum: ca70a3b6f00b228451194987aaa16059
-SHA1: 84ad719b102f651b1e576da13573f42479f5dc39
-SHA256: e4d99b2bc6f1e02ef7d59c0dc5b3c2913baf46fa4a3c5fc91b45fe33555eccaa
+Filename: pool/tur/dosemu2_2.0pre9-git-6_i686.deb
+Size: 1010120
+MD5sum: 7daf9a869c0a704e14b84ca67c6b9d73
+SHA1: 0cdc03868953b43ecf4986e61cd8eca76f339c3e
+SHA256: 5ddf7be33c6f5cf2aaec9f646d6e46ce2e51fde6a429b16d3a00f0b5697502ad
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
