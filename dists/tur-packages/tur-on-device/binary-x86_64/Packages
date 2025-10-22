@@ -1,16 +1,30 @@
-Package: blender
-Version: 1:3.6.16-1
+Package: blender4
+Version: 4.5.3
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 189968
-Depends: libpng, libtiff, python, python-pip, python-numpy, openexr, desktop-file-utils, potrace, shared-mime-info, hicolor-icon-theme, glew, openjpeg, freetype, ffmpeg, fftw, alembic, libsndfile, ptex, sdl2, libspnav, openal-soft, opencolorio, libblosc, sse2neon, libandroid-execinfo, brotli, libepoxy, openimageio, pybind11, openvdb, libraw, libpugixml, shaderc
-Filename: pool/tur-on-device/blender_1:3.6.16-1_x86_64.deb
-Size: 52247048
-MD5sum: b379f3f52610421063528dfebc318dbf
-SHA1: 1adb15d7b0b2aa0450aa9c0bdc39ac01d8311e47
-SHA256: b59746742e2f5aacc24edcb7f86419ef4be4ea13182de63eadf32337aae72e58
+Installed-Size: 270296
+Depends: alembic, boost, brotli, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
+Filename: pool/tur-on-device/blender4_4.5.3_x86_64.deb
+Size: 72253040
+MD5sum: 3c7188a6358e2dbd756d41fd6b9cb95e
+SHA1: f2c21eec9bf9f4c93a98800f10a89ec9304ab906
+SHA256: 38fcea89fb2fd4d66e6108aedb9375ed216a41f20f89f5b7ba12eb9863b05c16
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
+
+Package: blender
+Version: 1:3.6.23
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 246296
+Depends: alembic, boost, brotli, clang, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libllvm, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
+Filename: pool/tur-on-device/blender_1:3.6.23_x86_64.deb
+Size: 60987152
+MD5sum: 27f16b00407a0bb0937aa0f31fa1ae91
+SHA1: f427fe2fcbd8e305f6e7456182f7a9e6f8f1443c
+SHA256: 4a5494eb829964f71bb471157bb1c56d70cefa3a5d68526d9291895d8c3a904f
+Homepage: https://www.blender.org
+Description: A fully integrated 3D graphics creation suite (legacy version)
 
 Package: classic-flang
 Version: 20230520-1
@@ -25,6 +39,20 @@ SHA1: 22e0fc47065437ea9cbc23f83e030640bbd58ebe
 SHA256: 86580e0d3830e6893d18ad4d11cf9fee92cfb6c61080036eb091f99fe63d3ac6
 Homepage: https://github.com/flang-compiler/flang
 Description: An out-of-tree Fortran compiler targeting LLVM
+
+Package: embree
+Version: 4.4.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 38840
+Depends: libc++, libtbb
+Filename: pool/tur-on-device/embree_4.4.0_x86_64.deb
+Size: 7991544
+MD5sum: 77922e20ab183df0f92794e526bd4d46
+SHA1: 32e2a9ab5561f821048c4bd8138d4b8e9e0de43c
+SHA256: 597d533bfd2fa7fa45cbb3b2b6ddd5633e92ce473e103942b562b8e773e25f44
+Homepage: https://www.embree.org/
+Description: High-performance ray tracing library developed at Intel
 
 Package: gnome-chess
 Version: 49.2
@@ -94,6 +122,20 @@ SHA256: 27c9eca4a14233eab412d4a508382ab6a537e6782f4097530bac9d23737a6971
 Homepage: http://lpsolve.sourceforge.net/
 Description: a Mixed Integer Linear Programming (MILP) solver
 
+Package: materialx
+Version: 1.39.4
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 153868
+Depends: libc++, opencolorio, opengl, openimageio, python, zenity
+Filename: pool/tur-on-device/materialx_1.39.4_x86_64.deb
+Size: 83669840
+MD5sum: 8ba0577ca253f37fe6ae04895608d676
+SHA1: 13c55ac828563b6aad3c254798a58ae9b6902d63
+SHA256: 76425939b6408a2fb2456c9435ce6371df36295e7cbca3a39489ba7e633d2482
+Homepage: https://materialx.org/
+Description: Open standard for the exchange of rich material and look-development content in computer graphics
+
 Package: nqp
 Version: 2025.03
 Architecture: x86_64
@@ -107,6 +149,20 @@ SHA1: 0fcf1b813f7b25ec74cbffd18871915c64fc8645
 SHA256: 356af02b04c3e82bab78c002cfb1e0748c3c0bf0ee316d12a00add34a373004c
 Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
+
+Package: openshadinglanguage
+Version: 1.14.7.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 6328
+Depends: freetype, imath, libc++, libpng, libtiff, ncurses, openimageio, qt6-qtbase, zlib
+Filename: pool/tur-on-device/openshadinglanguage_1.14.7.0_x86_64.deb
+Size: 1563400
+MD5sum: 92b2ded19c555257d0ca3cd0c133e181
+SHA1: 00fc5baf0b8690bced5b2de264cf4daf878b6d1d
+SHA256: 8ec7d2ba51c3f6ad215469e6ebfbc70e8e8dc21624b7b67d496ba7e76fe1659d
+Homepage: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
+Description: Advanced shading language for production GI renderers
 
 Package: perl-net-ssleay
 Version: 1.94
@@ -134,6 +190,35 @@ SHA1: 1701b6836b49104fb63b52ff672f6614b8b89b7f
 SHA256: c3cdee1f1c0f3891c37f3472ee436048ba657438306952d8d911ccb7438a0396
 Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
+
+Package: pyside6-tools
+Version: 6.10.0
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 500
+Depends: pyside6 (= 6.10.0)
+Filename: pool/tur-on-device/pyside6-tools_6.10.0_x86_64.deb
+Size: 116904
+MD5sum: 491dbf8d240ffd0fc0e7fadb13826b65
+SHA1: 5ac37c5de12d839546e0fa692608ccea6c479b2c
+SHA256: e096c41de144a28da36f1e2d2655e8926ff1fd858c74dc432cc1472401b35819
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Tools for PySide6
+
+Package: pyside6
+Version: 6.10.0
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 46144
+Depends: clang, qt6-qtbase, libxml2, libxslt
+Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebsockets, qt6-shadertools
+Filename: pool/tur-on-device/pyside6_6.10.0_x86_64.deb
+Size: 7778256
+MD5sum: ddecd63bbaf1700f645a7a80c8bc857a
+SHA1: cddacbd4566a33583a12eaab7c94d5ccc2220def
+SHA256: 598fb23f668ee41469084aa775a3b35f7d17f6455860349a6b2606c8ef98f625
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Official Python bindings for Qt6
 
 Package: python-pandas
 Version: 2.0.1
@@ -236,6 +321,20 @@ SHA256: 38f253408d2b6211703243280a2812fc0c71880100cea15f9be36a6556ebdf75
 Homepage: https://www.sdaoden.eu/code.html#s-nail
 Description: Portable mailx(1) with MIME and Maildir support
 
+Package: shiboken6
+Version: 6.10.0
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 4128
+Depends: pyside6 (= 6.10.0)
+Filename: pool/tur-on-device/shiboken6_6.10.0_x86_64.deb
+Size: 1161544
+MD5sum: a84921e2dfb638892ec1676cb1cbc192
+SHA1: 4d9c57296175cae3fa6440f269359c69a05237e8
+SHA256: c73fb2a803ccdc07b32eacdc1bef21e813d9a2070136f873038da7bf97c1baff
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Generates bindings for C++ using CPython source code
+
 Package: thc-hydra
 Version: 9.6
 Architecture: x86_64
@@ -249,4 +348,18 @@ SHA1: 7084d0c68ef201c5188b30e1eda9d29bd36fb162
 SHA256: f1fe43940458a6a0c43a6efd136ae9e3371edb3335bdc7b3897fc124385dd458
 Homepage: https://github.com/vanhauser-thc/thc-hydra
 Description: hydra
+
+Package: usd
+Version: 25.08
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 164544
+Depends: alembic, draco, embree, fmt, glew, imath, libc++, libx11, libxt, materialx, libandroid-glob, libtbb, opencolorio, openexr, openimageio, openshadinglanguage, opensubdiv, openvdb, ptex, pyside6, python-opengl
+Filename: pool/tur-on-device/usd_25.08_x86_64.deb
+Size: 25768712
+MD5sum: 91b1a90d81b817c67cd71df86a426a0a
+SHA1: 4c9908482b496f536bb7d61314f7923a356e0567
+SHA256: 627356c583b8f269312cb273482c9a6296262a60c563eb4f6006f1b98eeaad11
+Homepage: https://openusd.org/
+Description: High-performance extensible software platform for collaboratively constructing animated 3D scenes
 

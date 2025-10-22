@@ -66,6 +66,20 @@ SHA256: 539815d84f689bfd8e62160df8aba0cdeb89be42588988457adc481f2fe5d39e
 Homepage: http://lpsolve.sourceforge.net/
 Description: a Mixed Integer Linear Programming (MILP) solver
 
+Package: materialx
+Version: 1.39.4
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 153740
+Depends: libc++, opencolorio, opengl, openimageio, python, zenity
+Filename: pool/tur-on-device/materialx_1.39.4_i686.deb
+Size: 83728408
+MD5sum: 7638ba8b823c4e85f399b953bcc9e8db
+SHA1: 71b418e432c74a2344aa9d46f3d2d26744793514
+SHA256: c8dc757072e16c1bc667e8bc5595c77c3ed2fb2b0cf48d86e24e67e4c6bd3790
+Homepage: https://materialx.org/
+Description: Open standard for the exchange of rich material and look-development content in computer graphics
+
 Package: nqp
 Version: 2025.03
 Architecture: i686
@@ -106,6 +120,35 @@ SHA1: 2d063ac09695b1f108b594063f55e24f6a5897e3
 SHA256: 9923a1478ec6c516409b7535a7ae7c9a5774e0bbe8b4b1cff9ddada3469935bd
 Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
+
+Package: pyside6-tools
+Version: 6.10.0
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 500
+Depends: pyside6 (= 6.10.0)
+Filename: pool/tur-on-device/pyside6-tools_6.10.0_i686.deb
+Size: 116900
+MD5sum: b52b2b8f2923710be02818031bb50729
+SHA1: e8111dd2f40e7945c2e132575e0040d12d22e00f
+SHA256: 6aa38c2c2c34b5d0cd9450084ba8570a4dd03bb92493f9a96cdb872d554face4
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Tools for PySide6
+
+Package: pyside6
+Version: 6.10.0
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 48224
+Depends: clang, qt6-qtbase, libxml2, libxslt
+Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebsockets, qt6-shadertools
+Filename: pool/tur-on-device/pyside6_6.10.0_i686.deb
+Size: 7884944
+MD5sum: 50d33c419c8d1465056cdabb1651954b
+SHA1: 6464bb91f720b9d7ae29a7436b343f935528ebd6
+SHA256: 8e2e0b9ce67cadcdeb914df125bc7591b2150dbf7366d7be6a4137f68b93158f
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Official Python bindings for Qt6
 
 Package: python-pandas
 Version: 2.0.1
@@ -207,6 +250,20 @@ SHA1: 0c25c5d8c90a12b2ef48f522b3185217d0f0a90c
 SHA256: 0d578fb53c8e65e63ae8870e476c2f9796d5a1a4470a1c1c8c23018c018ffa88
 Homepage: https://www.sdaoden.eu/code.html#s-nail
 Description: Portable mailx(1) with MIME and Maildir support
+
+Package: shiboken6
+Version: 6.10.0
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 4416
+Depends: pyside6 (= 6.10.0)
+Filename: pool/tur-on-device/shiboken6_6.10.0_i686.deb
+Size: 1238116
+MD5sum: 983d5cc4288e4fd9352f120384fd525d
+SHA1: 7916cd675416c470dd7b9f892b1124bdb6fcd317
+SHA256: bc9401c8043779d70e5f6d47e1f22dd9757d2e68df462b5f38253ad3b8994d44
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Generates bindings for C++ using CPython source code
 
 Package: thc-hydra
 Version: 9.6
