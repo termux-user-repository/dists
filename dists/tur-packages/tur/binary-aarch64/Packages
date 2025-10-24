@@ -498,6 +498,20 @@ SHA256: 9b1fd3b490d28caf7463d7360ee7f31a661a2284888563df4982ef8aaf2adb8a
 Homepage: http://clucene.sourceforge.net/
 Description: C++ port of the high-performance text search engine Lucene
 
+Package: code-server-extension-codelldb
+Version: 1.11.7
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Depends: code-server, vsix-package-codelldb
+Filename: pool/tur/code-server-extension-codelldb_1.11.7_aarch64.deb
+Size: 1768
+MD5sum: 7903fcca2e161c6eebb9b52a101b5c1e
+SHA1: e8721d3389460f6092870a6107a48e52eb30a8c1
+SHA256: 569a619fe7f1b4d0498aab5878410683e3cd2c07d8ef6b7fbb8cc4d9f1b5c2c2
+Homepage: https://github.com/vadimcn/codelldb
+Description: A native debugger extension for code-server based on LLDB
+
 Package: code-server
 Version: 4.105.1
 Architecture: aarch64
