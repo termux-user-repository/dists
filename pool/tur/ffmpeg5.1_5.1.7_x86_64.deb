@@ -1,14 +1,17 @@
-Package: ffmpeg7
-Version: 7.0.2
-Architecture: aarch64
+Package: ffmpeg5.1
+Version: 5.1.7
+Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 36840
+Installed-Size: 39236
 Depends: freetype, game-music-emu, libaom, libandroid-glob, libass, libbluray, libbz2, libdav1d, libgnutls, libiconv, liblzma, libmp3lame, libopus, librav1e, libsoxr, libtheora, libvorbis, libvpx, libvidstab, libwebp, libx264, libx265, libxml2, xvidcore, zlib
-Filename: pool/tur/ffmpeg7_7.0.2_aarch64.deb
-Size: 8446472
-MD5sum: 20587537dc01b47e3b973eb42e9ac4c5
-SHA1: b7a54c0b91386b86998bbbe9a70f1abc07d84627
-SHA256: c0f13ec54af90828414880399f06bb3643731ecb99e311ce8f1721514be44bf1
+Conflicts: libav
+Breaks: ffmpeg-dev
+Replaces: ffmpeg-dev
+Filename: pool/tur/ffmpeg5.1_5.1.7_x86_64.deb
+Size: 8905140
+MD5sum: 22fca73d52843935e5ae5148f61bade9
+SHA1: 4b188e9f8601f3e992cca38962a539bab29931b4
+SHA256: 315d36c61965c49d8223d86a148a4114bb709b51f0e115673918f7072ece1719
 Homepage: https://ffmpeg.org
 Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
 
