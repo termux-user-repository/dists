@@ -879,15 +879,16 @@ Homepage: https://ffmpeg.org
 Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
 
 Package: ffplayout
-Version: 0.24.4
+Version: 0.25.7
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 14152
-Filename: pool/tur/ffplayout_0.24.4_arm.deb
-Size: 6270788
-MD5sum: 99c5848484781b335ae1945d0d191b09
-SHA1: bc8d5afb253646cc36103d440ad5b40030b8f40e
-SHA256: 63854ce8bb9ee50c934762e7c1a26ca49007b8a6f68213e4cba809692ae027d4
+Installed-Size: 17780
+Depends: ffmpeg
+Filename: pool/tur/ffplayout_0.25.7_arm.deb
+Size: 6946684
+MD5sum: 934ad59dee7ae9819a9117c97cc5d050
+SHA1: bf513a4eae3f089598f85563f85865fc5aef828c
+SHA256: e7fcced0c8e1a0df598fa6cee31af920624acf8dc077ba06be37a91a00c69960
 Homepage: https://ffplayout.github.io
 Description: Rust and ffmpeg based playout
 
