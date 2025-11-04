@@ -539,6 +539,20 @@ SHA256: d75a0dbe3cc85445e9b84bbbac13855eac40e86524bd81e052a468b10cb8c963
 Homepage: https://github.com/mistricky/CodeSnap
 Description: Pure Rust tool to generate beautiful code snapshots, provide CLI and Library
 
+Package: codex
+Version: 0.53.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 34688
+Depends: libc++, openssl
+Filename: pool/tur/codex_0.53.0_aarch64.deb
+Size: 9403900
+MD5sum: 5df1a3a4cf13c96dfd112e0b74ded225
+SHA1: 5042f19673fdfeccde04cfec3549e37aeac82b40
+SHA256: 29ac1241e49cf32b6d870f169609a491fe07f98ac13cc59f44b58d27d82338de
+Homepage: https://github.com/openai/codex
+Description: Lightweight coding agent that runs in your terminal
+
 Package: codon
 Version: 0.17.0
 Architecture: aarch64
