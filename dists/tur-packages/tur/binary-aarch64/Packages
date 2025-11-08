@@ -5120,16 +5120,16 @@ Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
 Package: supertuxkart
-Version: 1.4
+Version: 1.5
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 13552
-Depends: freetype, harfbuzz, hicolor-icon-theme, libc++, libcurl, libjpeg-turbo, libpng, libsqlite, openal-soft, sdl2, shaderc, supertuxkart-data, libvorbis, zlib
-Filename: pool/tur/supertuxkart_1.4_aarch64.deb
-Size: 3616256
-MD5sum: 0d21f9222a69fa760f39fc912ec86a26
-SHA1: 23814f01821d34c5114d7fd2c15a7ba8279f4d1d
-SHA256: 56965dd410c4f82d712984d62c9a5efc74c0bed25540bdde14f2f67e5a44020b
+Installed-Size: 13432
+Depends: freetype, harfbuzz, hicolor-icon-theme, libc++, libcurl, libjpeg-turbo, libpng, libsqlite, libvorbis, openal-soft, openssl, sdl2, shaderc, supertuxkart-data, zlib
+Filename: pool/tur/supertuxkart_1.5_aarch64.deb
+Size: 3673548
+MD5sum: faa15d7065410abe1dd530f7e2ca50ac
+SHA1: c6ad5a0c72f4a00324bbcfb94661bdae5e162159
+SHA256: d037f7ac86beec9ca8b31aafa0e1cb143e1b1b25180eea3ab7f23940254cecea
 Homepage: https://supertuxkart.net
 Description: Kart racing game featuring Tux and his friends
 
@@ -6316,55 +6316,55 @@ Homepage: https://github.com/dbohdan/sqawk
 Description: Manipulate csv/tsv/json data using SQL in an AWK-like fashion (sqlite-tcl as backend with db dump)
 
 Package: supertuxkart-data-others
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: @termux
-Installed-Size: 199564
-Filename: pool/tur/supertuxkart-data-others_1.4_all.deb
-Size: 153319520
-MD5sum: 371ef2814444f38c06d46fc52f579d6e
-SHA1: 3e6b4dc1b6e8db62f0d90d1d6f890b3d7a0d12e5
-SHA256: bd6663cd90eded0c1a420ff85bd1a16e7f9982c2c24a2b376548ed10486612a0
+Installed-Size: 214608
+Filename: pool/tur/supertuxkart-data-others_1.5_all.deb
+Size: 163028888
+MD5sum: 4c1f05f24754edcc57598a4a9dc2bd32
+SHA1: 5b4bd798d16a626dff9bcb9a5648ecfa6ee715a3
+SHA256: c5792b5e6c84319ae91073234935858a57390cefb5f6744d5aad14ebcafae8e9
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (except textures and tracks)
 
 Package: supertuxkart-data-textures
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: @termux
-Installed-Size: 291480
-Filename: pool/tur/supertuxkart-data-textures_1.4_all.deb
-Size: 294489540
-MD5sum: b8c4251994361df63ceb36c9ba673ed5
-SHA1: 6bdda2326cc476944a183f5e45b7e84cd80342cd
-SHA256: c711bd70a76406fd99bdfe90f6aa2a4d586ac19ce99f2188390178890309f1dd
+Installed-Size: 291708
+Filename: pool/tur/supertuxkart-data-textures_1.5_all.deb
+Size: 294701280
+MD5sum: c7f2287dd90d1132639283fd28e268b6
+SHA1: bac5b72f38112125a7e80114acb73cef76eed43f
+SHA256: a480326664667fd639c44cb3faa494c93ec74262264c00e19840da5a1b4c1eb3
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (textures part)
 
 Package: supertuxkart-data-tracks
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: @termux
-Installed-Size: 243600
-Filename: pool/tur/supertuxkart-data-tracks_1.4_all.deb
-Size: 194633240
-MD5sum: 52098a22c2bb8ece0cbc49b8f67e45bc
-SHA1: 9ab7ba23f61cffc1ebd3999af5609b0846704d08
-SHA256: 4bb0904be8af4e28a9073b8b91630a9dea574b69cb49a44c62f50048e42a994f
+Installed-Size: 287444
+Filename: pool/tur/supertuxkart-data-tracks_1.5_all.deb
+Size: 231778096
+MD5sum: 50bfe38534d77f96f9c2ec207f615619
+SHA1: 9ff988f8eddd3b810f7316308c80d4d8c4421f25
+SHA256: e84e87c217864617748a8296344c1f961f05efa3ebc00980ff542b7c9abeaa77
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (tracks part)
 
 Package: supertuxkart-data
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: @termux
 Installed-Size: 36
 Depends: supertuxkart-data-others, supertuxkart-data-textures, supertuxkart-data-tracks
-Filename: pool/tur/supertuxkart-data_1.4_all.deb
+Filename: pool/tur/supertuxkart-data_1.5_all.deb
 Size: 828
-MD5sum: 7e7d257aed963c6bb471fd7afa73c56f
-SHA1: afe3ebae8b5110c54832cac84c541bc892be3095
-SHA256: f1c4164b6e86e9e2887d14e4b6ca6e8b1a21402d2fa94ccc13357bd8f027a5ed
+MD5sum: bcb11547ad327071c1ab601923b4f198
+SHA1: d21b48bfa42d3dcf62223d90c85af4aad8d50123
+SHA256: 268220870f7edc2dbc7ef1871697658366820122d5dff4d681c4e9c5df58d352
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (metapackage)
 
