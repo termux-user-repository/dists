@@ -277,16 +277,31 @@ SHA256: 5bebffc3159a78c4172c88525624040a08c663938caf73bb27688202b3ab029a
 Homepage: https://github.com/hr3lxphr6j/bililive-go
 Description: A live streaming recording tool
 
+Package: biome2
+Version: 2.3.5
+Architecture: x86_64
+Maintainer: @AhmadNaruto
+Installed-Size: 46612
+Conflicts: biome
+Replaces: biome
+Filename: pool/tur/biome2_2.3.5_x86_64.deb
+Size: 11001692
+MD5sum: 2e76326bfe5e48e94189aba38278acb7
+SHA1: 77ddd0318b6b9be59f6ec75b08d69a5b1b9f8edb
+SHA256: 4ee218322062b802f2154e821fddceb79724effdc047342af937edd7e7c3ea43
+Homepage: https://github.com/biomejs/biome
+Description: A toolchain for web projects with a formatter and linter, usable via CLI and LSP
+
 Package: biome
-Version: 1.9.4
+Version: 1.9.4-1
 Architecture: x86_64
 Maintainer: @gebleksengek
-Installed-Size: 25956
-Filename: pool/tur/biome_1.9.4_x86_64.deb
-Size: 6879120
-MD5sum: 1ca818dcd022b52aa38e8f39a8d18e24
-SHA1: 7508efd278ff0f54f8ae321b2c6b3e7f51f59c1c
-SHA256: 7be60c45b3f131cf4d8a26a1d3c54e1d19662f93d1f572224fb924d7a62ee7df
+Installed-Size: 26968
+Filename: pool/tur/biome_1.9.4-1_x86_64.deb
+Size: 7165460
+MD5sum: 5e96feecb66bf287a3eb66c34d2fef8c
+SHA1: 8139b073f1af4e6da6ee9f7429821741d2e9d73c
+SHA256: 424c69eb482f93e2ddbc1422f9c78a6b1654b9d78e2ad9feda4c1c1c2bf5b351
 Homepage: https://github.com/biomejs/biome
 Description: A toolchain for web projects with a formatter and linter, usable via CLI and LSP
 
@@ -1612,16 +1627,16 @@ Homepage: https://owasp.org/www-project-juice-shop/
 Description: A modern and sophisticated insecure web application
 
 Package: jujutsu
-Version: 0.29.0
+Version: 0.35.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 21100
+Installed-Size: 21440
 Suggests: openssl
-Filename: pool/tur/jujutsu_0.29.0_x86_64.deb
-Size: 5986644
-MD5sum: 9453bc129e1a1b818524c0e72a594b85
-SHA1: b44e7847c275bee78f7264e414b2ffbe6a550e48
-SHA256: c4d139bf86d7f92aa5b473518e325357320f7ab582b93fde09224964d7900446
+Filename: pool/tur/jujutsu_0.35.0_x86_64.deb
+Size: 6085048
+MD5sum: 126b059c789a1cc7ec90d3eb1354de2a
+SHA1: 7193860d2b0f899065e0bf2dc82bf281cbcdcee1
+SHA256: 89b603b8ef9c442362db8af231735285a66ebfd1b7e9b4d1a3cbe10995235f7e
 Homepage: https://jj-vcs.github.io/jj/
 Description: A Git-compatible VCS that is both simple and powerful
 
@@ -1639,16 +1654,16 @@ Homepage: https://github.com/yannjor/krabby
 Description: Print pokemon sprites in your terminal
 
 Package: lazyjj
-Version: 0.5.0
+Version: 0.6.1
 Architecture: x86_64
 Maintainer: @AhmadNaruto
-Installed-Size: 3976
+Installed-Size: 3220
 Depends: jujutsu
-Filename: pool/tur/lazyjj_0.5.0_x86_64.deb
-Size: 1216364
-MD5sum: be6ac309146888ab7be11b9e5f23da63
-SHA1: 7aa53df690b4798ebec298c2c00b0ba0bf573908
-SHA256: af876ef1c3295f014fd5e15406075480638df1f53d877bf25399f800dd6089ac
+Filename: pool/tur/lazyjj_0.6.1_x86_64.deb
+Size: 1050492
+MD5sum: 3cc469d6fa574ef3db94451c429e67e7
+SHA1: a593f194073cf9bebcfb3fa62439a416953bc3c2
+SHA256: 23f0ed79ea59c669efe274f59fc68c7023eb6724df31cf99fe396103c7df7798
 Homepage: https://github.com/Cretezy/lazyjj
 Description: TUI for Jujutsu/jj
 
