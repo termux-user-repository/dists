@@ -1,28 +1,28 @@
 Package: blender4
-Version: 4.5.4-2
+Version: 4.5.5
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 270240
+Installed-Size: 270252
 Depends: alembic, boost, brotli, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender4_4.5.4-2_x86_64.deb
-Size: 72274680
-MD5sum: 5d0bd9912f969b2ecfb10cc28624c7f8
-SHA1: 376b24711ded01370c972c65345b251dfaeb5535
-SHA256: b3763db77d47464ae2da18561089a6973f2cbe44962e34570704a5f8c7740a7b
+Filename: pool/tur-on-device/blender4_4.5.5_x86_64.deb
+Size: 72268640
+MD5sum: 1c09df6b1241d0a382d3487552b6a8e3
+SHA1: c0cbfa851b2a4d296f5ccd9e0fd7c34c6ef5f088
+SHA256: 28db46748ad9856c4a32fc15df6af19a72d5584cdc3cf4259ac2621d4549e6ff
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
 
 Package: blender
-Version: 1:3.6.23-3
+Version: 1:3.6.23-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 246240
-Depends: alembic, boost, brotli, clang, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libllvm, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender_1:3.6.23-3_x86_64.deb
-Size: 60914956
-MD5sum: e2d5c37c938baa00c19a857195dcf34d
-SHA1: 830fa2911ae59860b8a2668ee6e9445c83b590f2
-SHA256: 1eba22ba3dea16121fc9443369b91edf5c54c7e5d2226811df2db75f21da9452
+Depends: alembic, boost, brotli, clang, desktop-file-utils, draco, ffmpeg7, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libllvm, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
+Filename: pool/tur-on-device/blender_1:3.6.23-4_x86_64.deb
+Size: 60916044
+MD5sum: 5bd73303ab6a516871e48101e29e64d2
+SHA1: f7f521255d73d701c28aaa81a442b268902304ac
+SHA256: 3e18727cffb899314f87744bc1eb49c339af8b3cfd4687c369dee17ebe44b48a
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite (legacy version)
 
@@ -53,20 +53,6 @@ SHA1: a28c62c54b8bc3283f1956704248c924396ac24b
 SHA256: 1637c79206f3efa5a526c103af1f07eb525a5eb1fe7b63323c351bec6575381d
 Homepage: https://www.darktable.org/
 Description: Virtual lighttable and darkroom for photographers
-
-Package: embree
-Version: 4.4.0
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 38840
-Depends: libc++, libtbb
-Filename: pool/tur-on-device/embree_4.4.0_x86_64.deb
-Size: 7991544
-MD5sum: 77922e20ab183df0f92794e526bd4d46
-SHA1: 32e2a9ab5561f821048c4bd8138d4b8e9e0de43c
-SHA256: 597d533bfd2fa7fa45cbb3b2b6ddd5633e92ce473e103942b562b8e773e25f44
-Homepage: https://www.embree.org/
-Description: High-performance ray tracing library developed at Intel
 
 Package: gnome-chess
 Version: 49.2
@@ -165,16 +151,16 @@ Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
 
 Package: openshadinglanguage
-Version: 1.14.7.0-2
+Version: 1.14.7.0-3
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 6328
 Depends: freetype, imath, libc++, libpng, libtiff, ncurses, openimageio, qt6-qtbase, zlib
-Filename: pool/tur-on-device/openshadinglanguage_1.14.7.0-2_x86_64.deb
-Size: 1564884
-MD5sum: b00f13b6450d393973b4fad5a57c2d0c
-SHA1: 69675054336aa8e417b51fee399b9a22a9517af4
-SHA256: a7705f281556b28f2f8ece1aa6c5de14e074237503bdbb7561da353b4c71fd90
+Filename: pool/tur-on-device/openshadinglanguage_1.14.7.0-3_x86_64.deb
+Size: 1564044
+MD5sum: b24cf631ba2cb4fb7fd3929c00cd8382
+SHA1: a641403c249b4509a670a40fe7765e42280c3a8f
+SHA256: 4d63f1f45a003fea1cd7ae59e506df2d5c1fa980c1b7ba39dda2564fd68045ec
 Homepage: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
 Description: Advanced shading language for production GI renderers
 
