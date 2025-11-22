@@ -1,3 +1,32 @@
+Package: bosh
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 588
+Depends: libacl
+Filename: pool/tur-on-device/bosh_2024-03-21-0_arm.deb
+Size: 242048
+MD5sum: 9b5746fcd5de662fae0174fc3ac677fb
+SHA1: cc2a63a3bdfa9047923b5051289ad9e86c2b519a
+SHA256: 1a597d9f2deaf38f49fbda7d2179d626424d50d3c81159c147e5a3d215d1347d
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Bourne Shell extended by J. Schilling
+
+Package: cdrtools
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2432
+Depends: lame, libandroid-execinfo, libandroid-shmem, libacl, libcap, libiconv, pulseaudio, vorbis-tools
+Provides: cdrkit
+Filename: pool/tur-on-device/cdrtools_2024-03-21-0_arm.deb
+Size: 654260
+MD5sum: fc6ac6d6973308781e6d7376a8290f01
+SHA1: 0ec0ffe892e562718d35fb04a06b07e5b632b9fb
+SHA256: f0c6e29cc884d9600be4ef4d0fd742a2ad7a921b6bf664dd3a4119cb79bb0ad6
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Tools to create and/or extract ISO-9660 filesystems, verify their integrity, and write them to disc
+
 Package: gnome-chess
 Version: 49.2
 Architecture: arm
@@ -234,6 +263,19 @@ SHA256: b2792df61ff9e5d91da50bade53c6cd66040daa2799032a9a32d454c7c4ebd9a
 Homepage: https://rakudo.org
 Description: Mature, production-ready implementation of the Raku language
 
+Package: rscsi
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 160
+Filename: pool/tur-on-device/rscsi_2024-03-21-0_arm.deb
+Size: 50216
+MD5sum: 0457387fb40686c9e8da0875d963e4e2
+SHA1: 66944ce9af6a5b9608f58d0c26dea08253d0aa72
+SHA256: 7301cc476791e6d579cac51e43635272063fcb3a54f46ae68e4c34a4fa6c0a60
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Remote SCSI transport server program (daemon)
+
 Package: s-nail
 Version: 14.9.24
 Architecture: arm
@@ -251,6 +293,61 @@ SHA256: ace23218f8e0de61df534e04fc44d4840ec51cd0ef701bc6c74e4feb9201950c
 Homepage: https://www.sdaoden.eu/code.html#s-nail
 Description: Portable mailx(1) with MIME and Maildir support
 
+Package: sccs
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2592
+Depends: libacl
+Filename: pool/tur-on-device/sccs_2024-03-21-0_arm.deb
+Size: 523348
+MD5sum: d61d327a175f71c5e632f35600dcd4be
+SHA1: f0274f77d1fb1f5a2393610222ddddb747b58c65
+SHA256: b54140502f6aa743cc1f9993c06ef66498240f886584f943475d4802afce13b7
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: SCCS is an implementation of the POSIX standard Source Code Control System
+
+Package: schilytools-static
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1792
+Depends: schilytools (= 2024-03-21-0)
+Filename: pool/tur-on-device/schilytools-static_2024-03-21-0_arm.deb
+Size: 366632
+MD5sum: 8b58fe8480f4da99ad47bbb5cbaa8d38
+SHA1: 690d6e293a415c3939eb9dd19d5fdb3cc5f89d36
+SHA256: aa938538af6c491738da2a539459ffbc356f46f6c113224d04a59716a5e712a3
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Static libraries for schilytools
+
+Package: schilytools
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1952
+Filename: pool/tur-on-device/schilytools_2024-03-21-0_arm.deb
+Size: 225268
+MD5sum: 245bede6969fd85d35bde3ecf97bbdfe
+SHA1: 941d72e6a65562d635468778d37eaf6451e925f3
+SHA256: 9a11476f6ff8a9522b73e8fa6df82bb99c2a2f9aa92e6454458a43d35fa56e9a
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: A collection of tools written or formerly managed by Jörg Schilling
+
+Package: schilyutils
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2248
+Depends: libacl, libcap
+Filename: pool/tur-on-device/schilyutils_2024-03-21-0_arm.deb
+Size: 564296
+MD5sum: 0df4f3523b96e27957c94b9f9acca9f1
+SHA1: b14bb6ccf9717f2dcd27876aeadb090a345eb374
+SHA256: 6a4ea44501a40e520a7a8a974c8b63fa95dd467f23ea75cd61eadc89ad2dfac4
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Collection of miscellaneous utilities from the schilytools
+
 Package: shiboken6
 Version: 6.10.0
 Architecture: arm
@@ -265,6 +362,60 @@ SHA256: fc36616349fd082f00325dfe126bc588645f0212e282522613d5f334bb3b0a55
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Generates bindings for C++ using CPython source code
 
+Package: smake
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 152
+Filename: pool/tur-on-device/smake_2024-03-21-0_arm.deb
+Size: 66328
+MD5sum: a88c12f8c5371da9347eb40764fb4c01
+SHA1: 7530589141b8c8360d3a2b9c09600381350c98e8
+SHA256: 4e1de13ff690224504721c0c8badccdd1200dfd0c2406fde2077b314bb51bd84
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Smake is a highly portable make program with automake features
+
+Package: star
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 832
+Depends: libacl, libcap, libiconv
+Filename: pool/tur-on-device/star_2024-03-21-0_arm.deb
+Size: 324392
+MD5sum: 1646b72fc090083126bcdd8de1961e1b
+SHA1: 94cf1a6ae8456d6a9b5d2eaf1264fb3464f11241
+SHA256: eb6448e75c61ef853f887787940844ce0fa6abb612177a9635a13b4c6a3d69d5
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Unique standard tape archiver with many enhancements
+
+Package: sunpromake
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 268
+Depends: libandroid-shmem, libc++
+Filename: pool/tur-on-device/sunpromake_2024-03-21-0_arm.deb
+Size: 110652
+MD5sum: 52788440fe1dc637fff6135d56f97887
+SHA1: 3554b7991ec005092442238b4e27b1afb9bf14fd
+SHA256: d732f7d18ef4883c3e872ddcb0bf4203285cb1aeebb6180904e11676bed1fc9e
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: SunPro Make is a parallel make program from SUN Microsystems
+
+Package: tartest
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 716
+Filename: pool/tur-on-device/tartest_2024-03-21-0_arm.deb
+Size: 163020
+MD5sum: 27397fd01bbca74ec7f44f7602d5ca60
+SHA1: 030ab6e064bfdb04dc66f60338332fa249ffd590
+SHA256: d785cd9622662310285313bb6767316f5929fc9bc55e1764588262630cc9ab0d
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Tartest reads a tar archive from stdin and checks this archive for compliance with POSIX.1-1990
+
 Package: thc-hydra
 Version: 9.6
 Architecture: arm
@@ -278,4 +429,17 @@ SHA1: 1a5260f114f8c1b1f2bfca14beaeadcbf57c8926
 SHA256: 3605a8d9c8af87cb20f9998d6d95b480fb9a92e901873a97508b07a7ef31f065
 Homepage: https://github.com/vanhauser-thc/thc-hydra
 Description: hydra
+
+Package: ved
+Version: 2024-03-21-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 296
+Filename: pool/tur-on-device/ved_2024-03-21-0_arm.deb
+Size: 107952
+MD5sum: 991ab14f1a42b9d6817f563ac5033f9b
+SHA1: a6a1f302fee748b91b1056956a6c91b24fd0e7a5
+SHA256: ac3ac256b3472d3ae0c82ca7c782041fe96b89420f65da917ae06e7f3c26f9e8
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: Visual editor (easy to learn, fast, and lean)
 
