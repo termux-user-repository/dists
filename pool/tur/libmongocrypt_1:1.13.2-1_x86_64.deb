@@ -1,0 +1,16 @@
+Package: libmongocrypt
+Version: 1:1.13.2-1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1016
+Depends: libbson, libicu, libsasl, libsnappy, openssl
+Conflicts: libmongoc (<< 1.30.3)
+Breaks: libmongoc (<< 1.30.3)
+Filename: pool/tur/libmongocrypt_1:1.13.2-1_x86_64.deb
+Size: 217196
+MD5sum: 44be0a56a8e207483c203ee88ea2ba76
+SHA1: 7d02ee47157b32228ce1cca5c8608a68c7dbf2a7
+SHA256: 23ca21a0e036398117e6c2aca78df67137cb2529331ec5cfc7aaa959b421b3bf
+Homepage: https://github.com/mongodb/libmongocrypt
+Description: The companion C library for MongoDB client side encryption in drivers
+
