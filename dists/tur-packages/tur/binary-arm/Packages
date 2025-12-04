@@ -4224,6 +4224,142 @@ SHA256: f25c79e110258e3842707f07f81bc7bd10c1604661596db55e2259fbe1c3a298
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
+Package: qemu-system-aarch64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 15576
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Conflicts: qemu-system-aarch64-headless, qemu-system-aarch64
+Replaces: qemu-system-aarch64-headless, qemu-system-aarch64
+Provides: qemu-system-aarch64
+Filename: pool/tur/qemu-system-aarch64-9_9.2.4_arm.deb
+Size: 3034036
+MD5sum: afa8f46aecf7dd2855df66ca51c4b958
+SHA1: 5ae021a1b5a1adac451992cb5ad667e9405fe534
+SHA256: 221d0d4c94e35c75c872b76caf90c7996682c1ad33cbb6902599ca551e1c19cb
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer
+
+Package: qemu-system-ppc64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 8200
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Conflicts: qemu-system-ppc64-headless, qemu-system-ppc64
+Replaces: qemu-system-ppc64-headless, qemu-system-ppc64
+Provides: qemu-system-ppc64
+Filename: pool/tur/qemu-system-ppc64-9_9.2.4_arm.deb
+Size: 2465848
+MD5sum: 8ecd6a5da894bbd86259e074c9c2e092
+SHA1: 57a3fdc90cb24a30e584defa6f0953ad7f2037dd
+SHA256: 43f5700185d9a59384a67734c271edd11a50ca80f0b18dd29565d1b4460caeb4
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer
+
+Package: qemu-system-riscv64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 7768
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Conflicts: qemu-system-riscv64-headless, qemu-system-riscv64
+Replaces: qemu-system-riscv64-headless, qemu-system-riscv64
+Provides: qemu-system-riscv64
+Filename: pool/tur/qemu-system-riscv64-9_9.2.4_arm.deb
+Size: 2177588
+MD5sum: ae862a915dd2a084d31e7741a4d9f988
+SHA1: b485334258d5b0de457a3811f45d26cb2209186c
+SHA256: 9e01c18693e3ee50d72530264b6f1c16838c6450b28f5c08c20002c03a9dd4a2
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer
+
+Package: qemu-system-x86-64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 13396
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Conflicts: qemu-system-x86-64, qemu-system-x86-64-headless
+Replaces: qemu-system-x86-64, qemu-system-x86-64-headless
+Provides: qemu-system-x86-64
+Filename: pool/tur/qemu-system-x86-64-9_9.2.4_arm.deb
+Size: 2338164
+MD5sum: d4a325b12de6bcbdf46ef5a58b64d22c
+SHA1: 9b7cb63227940bac8e911c9c070de05130673bdb
+SHA256: 42c005dbdf79bec92e1b8e40648559d62803054a95a131067875b3530776fbf4
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer
+
+Package: qemu-user-aarch64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 2864
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Conflicts: qemu-user-aarch64
+Replaces: qemu-user-aarch64
+Provides: qemu-user-aarch64
+Filename: pool/tur/qemu-user-aarch64-9_9.2.4_arm.deb
+Size: 776044
+MD5sum: 6a825abd7c55f880b3def62a874a8a05
+SHA1: 743abf833bb91ccf2e27909dc026d96d64d2828b
+SHA256: 46a12f85fb1b5617754fb7b69f3cffb2702e638adf6b190c2c124999147a62a1
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-ppc64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1516
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Conflicts: qemu-user-ppc64
+Replaces: qemu-user-ppc64
+Provides: qemu-user-ppc64
+Filename: pool/tur/qemu-user-ppc64-9_9.2.4_arm.deb
+Size: 518564
+MD5sum: 23e20796c45a2af9aeab1c8615a3eb7f
+SHA1: a4c0490ab005984681e1ec7c1def07e163bef327
+SHA256: 1dda2b789bec27f825ba915315a61a63eb774fd467b408fbd82b0ffd70e245c8
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-riscv64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1728
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Conflicts: qemu-user-riscv64
+Replaces: qemu-user-riscv64
+Provides: qemu-user-riscv64
+Filename: pool/tur/qemu-user-riscv64-9_9.2.4_arm.deb
+Size: 494976
+MD5sum: b47e538d93bc92cb6c76c55c49ebf87a
+SHA1: 32b2594d281259834a2df3c5f46385daffa73747
+SHA256: c7619dcd3738b7c4e0b43b622d89aa7cd66b1b6724e162b6ce60932f300ff44f
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-x86-64-9
+Version: 9.2.4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1404
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Breaks: qemu-user-x86-64
+Replaces: qemu-user-x86-64
+Provides: qemu-user-x86-64
+Filename: pool/tur/qemu-user-x86-64-9_9.2.4_arm.deb
+Size: 473724
+MD5sum: 51755787553eefd94716d94f316d8e49
+SHA1: 68b668adc06169e75f6edcf11510aec96a74f8b2
+SHA256: 7cdfef3b79f23571a6471d26f9f96e6cdfff2c3bf928ad24e2e68bb45f9bb1e6
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
 Package: qqwing-static
 Version: 1.3.4-1
 Architecture: arm
