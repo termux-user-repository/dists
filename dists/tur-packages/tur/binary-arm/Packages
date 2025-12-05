@@ -1412,6 +1412,20 @@ SHA256: 80c2b3019c841b22d26a268227a0b8d93aa9969574061240be9625cc4525d049
 Homepage: https://jj-vcs.github.io/jj/
 Description: A Git-compatible VCS that is both simple and powerful
 
+Package: keyfinder-cli
+Version: 1.1.5
+Architecture: arm
+Maintainer: @flosnvjx
+Installed-Size: 80
+Depends: libkeyfinder,ffmpeg,fftw
+Filename: pool/tur/keyfinder-cli_1.1.5_arm.deb
+Size: 12800
+MD5sum: 12c688be843f32210a613de66314ba54
+SHA1: 28ca3bbe9ef981e0fff89534bb75998724abda7c
+SHA256: 237fec37cbee861611f770347b98d488663d89262dc16656939a96f73d3015ec
+Homepage: https://github.com/evanpurkhiser/keyfinder-cli
+Description: Utility to estimate the key in digital music recordings
+
 Package: krabby
 Version: 0.3.0
 Architecture: arm
@@ -1964,6 +1978,20 @@ SHA1: bb975b07f628e07f189a124aa8f1949573b4d228
 SHA256: 177c291cacf8cd54c59cc501d53b86fa8bd530b9dc0256009a3e634c3c7ad8d4
 Homepage: http://www.canonware.com/jemalloc/
 Description: General-purpose scalable concurrent malloc(3) implementation
+
+Package: libkeyfinder
+Version: 2.2.8
+Architecture: arm
+Maintainer: @flosnvjx
+Installed-Size: 220
+Depends: fftw
+Filename: pool/tur/libkeyfinder_2.2.8_arm.deb
+Size: 34708
+MD5sum: 7eec24f740b9a4fc3f49b319562f1877
+SHA1: 664be9eb9a6eb564cdb7b362c805b16a8cec1899
+SHA256: 898bbf2937ba30c45f58312640a595504c2612e898bb2dd64eb2d022c823d399
+Homepage: https://github.com/mixxxdj/libkeyfinder
+Description: Library to estimate the key in digital music recordings
 
 Package: liblangtag-static
 Version: 0.6.7-1
