@@ -5119,16 +5119,17 @@ Homepage: https://uutils.github.io/
 Description: Cross-platform Rust rewrite of the GNU coreutils
 
 Package: vhs
-Version: 0.2.0
+Version: 0.10.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 23980
-Depends: ttyd
-Filename: pool/tur/vhs_0.2.0_arm.deb
-Size: 6699052
-MD5sum: f6f4e4a4f5880e620d3a98b75d0be71c
-SHA1: 81ebb80f6ea3ca884375dd36e5b8180b3a38476b
-SHA256: 4fb49e086aeb6fa2ce11ca41a14ca8a6327393206cec0b0f19fd3db158941757
+Installed-Size: 23684
+Depends: ttyd, ffmpeg
+Suggests: chromium
+Filename: pool/tur/vhs_0.10.0_arm.deb
+Size: 7042452
+MD5sum: 820990a3f7aa77d054378b685aa0a32b
+SHA1: 5ffbb98f55a89323891c50a79a5b47fb62780a19
+SHA256: d9e5aef379b0e37f8a2b416b795b135268dd7281b1c51efdfc861e0c9153a1b3
 Homepage: https://github.com/charmbracelet/vhs
 Description: Your CLI home video recorder
 
