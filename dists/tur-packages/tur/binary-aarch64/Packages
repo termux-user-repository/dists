@@ -442,6 +442,20 @@ SHA256: b5040bec8952258fa627d6e9bf0eab5eff3971e6207e71bcc533532ef537cbc6
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
+Package: chromium-bsu
+Version: 0.9.16.1
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 1956
+Depends: libftgl2, sdl2, sdl2-mixer, sdl2-image, glu, fontconfig, libvorbis, libpng, libglvnd
+Filename: pool/tur/chromium-bsu_0.9.16.1_aarch64.deb
+Size: 1232720
+MD5sum: 1a28572d01a2def2df43c2204f96b687
+SHA1: 0b51011f99566d2442fa371a736d030640c3b9fe
+SHA256: 8184546cfb0c9d82bfe6cc932dba7e60b7374ab4eb15f5413eec2aaa73157acd
+Homepage: https://chromium-bsu.sourceforge.io/
+Description: Fast paced, arcade-style, top-scrolling space shooter
+
 Package: chromium
 Version: 133.0.6943.141
 Architecture: aarch64
@@ -623,15 +637,15 @@ Homepage: https://www.freedesktop.org/wiki/Software/cppunit
 Description: A C++ unit testing framework
 
 Package: crush
-Version: 0.21.0
+Version: 0.22.1
 Architecture: aarch64
 Maintainer: @ancientcatz
-Installed-Size: 59260
-Filename: pool/tur/crush_0.21.0_aarch64.deb
-Size: 11889608
-MD5sum: 97f4ce0d99d28ab3c541b1741b88ca89
-SHA1: 33526fac6c270aec2fc8b03c931aaed70b55d22c
-SHA256: 8556f81740272e91b55005b56e49aaf2f71aca348eb446449e1412857fde6103
+Installed-Size: 59280
+Filename: pool/tur/crush_0.22.1_aarch64.deb
+Size: 11904784
+MD5sum: 9e8846bd82e35b011282cf2cfff76f9b
+SHA1: 3c7c01ccd5610a87efaaecec2524674cf8697d86
+SHA256: 08a55c0ca7b2cf0bc33260ced3fbcecd6464c8a1625ceeb6a38bab3584e6a442
 Homepage: https://github.com/charmbracelet/crush
 Description: The glamourous AI coding agent for your favourite terminal
 
