@@ -69,6 +69,21 @@ SHA256: 3fefd9ea12a74187faf7948d7f6f1ccae16694bdae35c39cf744667206dee4bc
 Homepage: https://wiki.gnome.org/Apps(2f)Sudoku.html
 Description: GNOME Sudoku game
 
+Package: gwc
+Version: 0.22-06r3-0
+Architecture: arm
+Maintainer: @flosnvjx
+Installed-Size: 584
+Depends: fftw,libsndfile,gtk2,alsa-lib
+Suggests: alsa-plugins
+Filename: pool/tur-on-device/gwc_0.22-06r3-0_arm.deb
+Size: 161704
+MD5sum: db0b0b05606bca24ad72167773717975
+SHA1: 80614db8c30454cdd4e0ab1440c11c35129d1c08
+SHA256: dbf52700a7bfcd58b8fecd35228edd102d86c3b5dc9cde42e6c307adaf45a3a4
+Homepage: https://gwc.sourceforge.net/
+Description: GTK2 application for cleaning noise in digital music recordings (e.g. digitized vinyl recordings)
+
 Package: hello-tur-on-device
 Version: 1:0.1-1
 Architecture: arm
