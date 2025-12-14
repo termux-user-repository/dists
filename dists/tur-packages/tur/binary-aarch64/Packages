@@ -1505,6 +1505,21 @@ SHA256: b1f41d609531c478e409354166d045a2d6b8f8439fa4e2abef278416480f645e
 Homepage: https://github.com/eeeXun/GTT
 Description: Google Translate TUI (Originally). Now support ArgosTranslate, GoogleTranslate.
 
+Package: gwc
+Version: 0.22-06r3-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 692
+Depends: fftw, libsndfile, gtk2, alsa-lib
+Suggests: alsa-plugins
+Filename: pool/tur/gwc_0.22-06r3-1_aarch64.deb
+Size: 169504
+MD5sum: 773660a5239285f7488448486c8ca773
+SHA1: a46aae22b6cc0c8abee808c8c557828dd5bb5a75
+SHA256: 52254cf473c5ac5bb9c296a9d915c7ed6655d6a6755fad444e37271ecf2c5654
+Homepage: https://gwc.sourceforge.net/
+Description: GTK2 application for cleaning noise in digital music recordings (e.g. digitized vinyl recordings)
+
 Package: hangover-libarm64ecfex
 Version: 10.0-1
 Architecture: aarch64
