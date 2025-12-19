@@ -410,16 +410,16 @@ Homepage: http://clucene.sourceforge.net/
 Description: C++ port of the high-performance text search engine Lucene
 
 Package: code-server
-Version: 4.106.3
+Version: 4.107.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 350748
+Installed-Size: 358328
 Depends: libandroid-spawn, libsecret, krb5, nodejs-22, ripgrep
-Filename: pool/tur/code-server_4.106.3_arm.deb
-Size: 46415304
-MD5sum: 496ce0bd68df9866ccfa80ab249332b2
-SHA1: 1033a04ddbb5cd78202024ff1297f4d2a39e58ba
-SHA256: fb17f9b884fbde7a792126f04f9f673ab9068242d1e25877831b4a83c54dc666
+Filename: pool/tur/code-server_4.107.0_arm.deb
+Size: 47965172
+MD5sum: ac6809f0d792c9e9a05ba94a0d7523b3
+SHA1: 7d92548a20d850132199d693c50993f85c94b410
+SHA256: c315218f5c3d449832895178ede22dbd6da490eacfcc9cae871601b0ed7d00e7
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
@@ -492,15 +492,15 @@ Homepage: https://www.freedesktop.org/wiki/Software/cppunit
 Description: A C++ unit testing framework
 
 Package: crush
-Version: 0.26.0
+Version: 0.28.0
 Architecture: arm
 Maintainer: @ancientcatz
-Installed-Size: 55520
-Filename: pool/tur/crush_0.26.0_arm.deb
-Size: 12055488
-MD5sum: c7ad708145b203075286677c41fd299a
-SHA1: d1b2d91eb1096f7fd2d51eb83db2ca5ed0bcaa45
-SHA256: 30b92ccf50bb4a50b07e60d0d81ee9b1de084957ff5496e745c0b4f12a071e11
+Installed-Size: 55640
+Filename: pool/tur/crush_0.28.0_arm.deb
+Size: 12078416
+MD5sum: bf4e6b0f549885c9372f2fa46a2820ec
+SHA1: bc98b7b8136e6065ce670c1b9859bd7aa9850634
+SHA256: 7072f31b4a95614dd49bc305f0644b84fc4e1dfdf78cc2ea3c9243a915997f95
 Homepage: https://github.com/charmbracelet/crush
 Description: The glamourous AI coding agent for your favourite terminal
 
@@ -3149,17 +3149,17 @@ Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 Package: nodejs-22
-Version: 22.15.1-2
+Version: 22.21.1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 133020
-Depends: libc++, openssl, c-ares, libicu, zlib
+Installed-Size: 131856
+Depends: libc++, openssl, c-ares, zlib
 Suggests: clang, make, pkg-config, python
-Filename: pool/tur/nodejs-22_22.15.1-2_arm.deb
-Size: 23169936
-MD5sum: abcb8da67737303ef7a66ab324729154
-SHA1: 84c8b1ff46b9b526024c32116c571431c9576364
-SHA256: f448a9eeca26aa8298ab69cde59a3f1ed35199a3095aeeb10628e895c8b6048a
+Filename: pool/tur/nodejs-22_22.21.1_arm.deb
+Size: 23153680
+MD5sum: 5058a6e1531a55d61705400f7a27be85
+SHA1: 39a21fa38f87a2af48270abd3cea0ddb3b3c4105
+SHA256: df50b8c35400bc463202b38d6e4e601ec0f5bef7410a85dd2ab83ac9a8aec366
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment (Version 22)
 
