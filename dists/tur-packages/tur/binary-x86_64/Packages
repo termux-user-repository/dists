@@ -1162,6 +1162,20 @@ SHA256: fd853c3aceb73f68666d87dd4bd6cc6df7394013f3cdd63db305963736a7d9c8
 Homepage: https://github.com/flowexec/flow
 Description: Local developer automation platform that flows with you.
 
+Package: freedroidrpg
+Version: 1.0
+Architecture: x86_64
+Maintainer: @IntinteDAO
+Installed-Size: 250940
+Depends: glew, glu, libglvnd, libjpeg-turbo, libogg, libpng, libvorbis, sdl, sdl-gfx, sdl-image, sdl-mixer, sdl-ttf, zlib
+Filename: pool/tur/freedroidrpg_1.0_x86_64.deb
+Size: 226368928
+MD5sum: 04a92d5785923e50c5dcbc878c48ae55
+SHA1: 2d37c8a2d7eaefa4a2a56e5e4098178f0b36bf5d
+SHA256: 90aa92cc202e63259ec3e734fa7d690eac854c99e16c0b56513dcd8fd3d07ab9
+Homepage: https://www.freedroid.org/
+Description: A modification of the classical Freedroid engine into an RPG
+
 Package: fscan
 Version: 1.8.1
 Architecture: x86_64
@@ -5058,6 +5072,34 @@ SHA1: 3b69f5792fc43ffbb2f2b200e26b7a54c3074c74
 SHA256: 5ed3b22319dcfb170aafac254c591e3e6cb996b6b8d6e7ffff906674c0036193
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
+
+Package: sdl-gfx-static
+Version: 2.0.27
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 128
+Depends: sdl-gfx (= 2.0.27)
+Filename: pool/tur/sdl-gfx-static_2.0.27_x86_64.deb
+Size: 32988
+MD5sum: e9c8154495f9a9a22aeb2c149f0ababf
+SHA1: 4164116eaf959b2aaae3ade84604834708706009
+SHA256: b501ba5614c1e93577299be083346ebc3d336b78d6d763be07e6b0b5de44bfe5
+Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Description: Static libraries for sdl-gfx
+
+Package: sdl-gfx
+Version: 2.0.27
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 232
+Depends: sdl
+Filename: pool/tur/sdl-gfx_2.0.27_x86_64.deb
+Size: 41460
+MD5sum: 5c47612ee776efff2a99abde44763ecb
+SHA1: 48904bfe1f8d69cd186d425b1e3da616678e7430
+SHA256: 4c0a495fc32d63056a94f44a193303a0d6178e8a82cf807d9fcd210ae97315af
+Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Description: SDL-1.2 graphics drawing primitives, rotozoom and other supporting functions
 
 Package: sdl3-ttf
 Version: 3.2.2

@@ -863,6 +863,20 @@ SHA256: baf475f55069bfaf22f5ab65535abdf16ecf97106392eb3941c745d0e6966501
 Homepage: https://github.com/flowexec/flow
 Description: Local developer automation platform that flows with you.
 
+Package: freedroidrpg
+Version: 1.0
+Architecture: i686
+Maintainer: @IntinteDAO
+Installed-Size: 250952
+Depends: glew, glu, libglvnd, libjpeg-turbo, libogg, libpng, libvorbis, sdl, sdl-gfx, sdl-image, sdl-mixer, sdl-ttf, zlib
+Filename: pool/tur/freedroidrpg_1.0_i686.deb
+Size: 226370800
+MD5sum: 15e82c3bf6fbfb250526a72f73c31dba
+SHA1: 348c1e12e8d5e7eaed835b6e2c2dc77c926c9368
+SHA256: 26543e3721e6321877487b086198e47403d85523a96df06ec3a1ac13f510fb03
+Homepage: https://www.freedroid.org/
+Description: A modification of the classical Freedroid engine into an RPG
+
 Package: fscan
 Version: 1.8.1
 Architecture: i686
@@ -4703,6 +4717,34 @@ SHA1: 15bc42ef61d91802875c7d056ec044e717ac2c75
 SHA256: f2c35655ea4826c5296d65a94ff95326db2fc8e400ccf69c3ca5a969c59324ff
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
+
+Package: sdl-gfx-static
+Version: 2.0.27
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 120
+Depends: sdl-gfx (= 2.0.27)
+Filename: pool/tur/sdl-gfx-static_2.0.27_i686.deb
+Size: 33696
+MD5sum: c40e0253beca424a5258822c70b57438
+SHA1: 4d17fc3bec4b75b9abef0305fa93e02316e5eb1c
+SHA256: fb3540629d002947b49e3a575b18cd29fe71cfb06d4f9e72b7e3b086b778ce61
+Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Description: Static libraries for sdl-gfx
+
+Package: sdl-gfx
+Version: 2.0.27
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 232
+Depends: sdl
+Filename: pool/tur/sdl-gfx_2.0.27_i686.deb
+Size: 42324
+MD5sum: e7ad7ab003996ca3775d4db7d957f43b
+SHA1: fc1660c21be58083c604f7e04a33701e02c94caa
+SHA256: 8377c835465f3cbdcc994e6bfbdccd16edf7442aa0a72e45ee7d2cbd3c5ac734
+Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Description: SDL-1.2 graphics drawing primitives, rotozoom and other supporting functions
 
 Package: sdl3-ttf
 Version: 3.2.2
