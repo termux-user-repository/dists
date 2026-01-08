@@ -1,14 +1,14 @@
 Package: blender4
-Version: 4.5.5
+Version: 4.5.5-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 270252
+Installed-Size: 269900
 Depends: alembic, boost, brotli, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender4_4.5.5_x86_64.deb
-Size: 72268640
-MD5sum: 1c09df6b1241d0a382d3487552b6a8e3
-SHA1: c0cbfa851b2a4d296f5ccd9e0fd7c34c6ef5f088
-SHA256: 28db46748ad9856c4a32fc15df6af19a72d5584cdc3cf4259ac2621d4549e6ff
+Filename: pool/tur-on-device/blender4_4.5.5-1_x86_64.deb
+Size: 72207636
+MD5sum: 2314324898c0ae47efa31ca130994047
+SHA1: 454522e116ef5e772ae6acdb9c13a96cbd444c19
+SHA256: 0ece1bf1ca881101c89706b785775d59fb44472b196c3a867ba347053c1a308c
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
 
@@ -27,16 +27,16 @@ Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
 
 Package: blender
-Version: 1:3.6.23-4
+Version: 1:3.6.23-5
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 246240
+Installed-Size: 245888
 Depends: alembic, boost, brotli, clang, desktop-file-utils, draco, ffmpeg7, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libllvm, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender_1:3.6.23-4_x86_64.deb
-Size: 60916044
-MD5sum: 5bd73303ab6a516871e48101e29e64d2
-SHA1: f7f521255d73d701c28aaa81a442b268902304ac
-SHA256: 3e18727cffb899314f87744bc1eb49c339af8b3cfd4687c369dee17ebe44b48a
+Filename: pool/tur-on-device/blender_1:3.6.23-5_x86_64.deb
+Size: 60809760
+MD5sum: 20718b3434ebcfb8c8917cf5849fd485
+SHA1: dd3c63f2c5ca63bad3f15be6b6de6ab2c16e531a
+SHA256: affb721e9df529520c67ea5cbd5a659a06bfc8022ece5e1a91c4ecc6bcad1485
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite (legacy version)
 
@@ -222,6 +222,20 @@ SHA256: 356af02b04c3e82bab78c002cfb1e0748c3c0bf0ee316d12a00add34a373004c
 Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
 
+Package: openimageio
+Version: 3.1.9.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 14688
+Depends: boost, dcmtk, ffmpeg, fmt, freetype, glew, imath, libc++, libhdf5, libheif, libjpeg-turbo, libjxl, libpng, libraw, libtbb, libtiff, libwebp, libyaml-cpp, opencolorio, opencv, openexr, openjpeg, openvdb, ptex, pybind11, python, qt6-qtbase
+Filename: pool/tur-on-device/openimageio_3.1.9.0-1_x86_64.deb
+Size: 3454572
+MD5sum: 16d3f1642a82daf358265c7daf711e7d
+SHA1: 1fb2f422558c7f74b604f5c04f01c53dbae6506a
+SHA256: d35ff7501696c693bf61a0252b0c06d2b5092d7d96c7d21492deedf0739e2773
+Homepage: http://www.openimageio.org/
+Description: A library for reading and writing images, including classes, utilities, and applications
+
 Package: openshadinglanguage
 Version: 1.14.8.0
 Architecture: x86_64
@@ -235,6 +249,34 @@ SHA1: 8662f5b6b0ad620a16baf8302ca7d653ce7982b2
 SHA256: 793e327e5dcd43daa877a5d5d5254dccc673c783d3bab25d84c7c8a05414429a
 Homepage: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
 Description: Advanced shading language for production GI renderers
+
+Package: openvdb-static
+Version: 13.0.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 259352
+Depends: openvdb (= 13.0.0-1)
+Filename: pool/tur-on-device/openvdb-static_13.0.0-1_x86_64.deb
+Size: 11002136
+MD5sum: 9b5313d00bfd3d8a4f3da5d4e2bcd3fb
+SHA1: 881ae83231b308ca1656ed8b203a9371154c7eaa
+SHA256: a6c7ef3467f7e60ca21ca0128ed28646c464362396520f8c838a50c1f6abc3d6
+Homepage: https://www.openvdb.org/
+Description: Static libraries for openvdb
+
+Package: openvdb
+Version: 13.0.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 74908
+Depends: boost, imath, libblosc, libtbb, zlib
+Filename: pool/tur-on-device/openvdb_13.0.0-1_x86_64.deb
+Size: 5944492
+MD5sum: 21ef3df524bac8d61e1586951e524b99
+SHA1: d4b438fd66e84a55e71fb5a82a63b088eb52ac64
+SHA256: ece9416f0b08a38169a1d2ebf7c8624842751b3c081e6cb11b4c1ade30b3c328
+Homepage: https://www.openvdb.org/
+Description: Sparse volume data structure and tools
 
 Package: perl-net-ssleay
 Version: 1.94-1
@@ -544,16 +586,16 @@ Homepage: https://github.com/vanhauser-thc/thc-hydra
 Description: hydra
 
 Package: usd
-Version: 25.11-2
+Version: 25.11-3
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 173264
+Installed-Size: 173152
 Depends: alembic, draco, embree, fmt, glew, imath, libc++, libx11, libxt, materialx, libandroid-glob, libtbb, opencolorio, openexr, openimageio, openshadinglanguage, opensubdiv, openvdb, ptex, pyside6, python-opengl
-Filename: pool/tur-on-device/usd_25.11-2_x86_64.deb
-Size: 26693140
-MD5sum: d0f4982d56bd7fd9f9290601ea5684e3
-SHA1: d9011cff1c816a0df15ff4f6870e30f2240a8efb
-SHA256: 294814c820163865269931536c5c732c7e02c0a4de4f4f73a71c2ad8747a7deb
+Filename: pool/tur-on-device/usd_25.11-3_x86_64.deb
+Size: 26671032
+MD5sum: adbfcb2647e8cbdcf18c9493244bd047
+SHA1: b2aaf38e64f01f09b53b032bae2fe1834dc9eaf0
+SHA256: 1030b1a36d7d2fb949efe02b2577c23b9f00147c5914457ab1ddcb12ff9b585c
 Homepage: https://openusd.org/
 Description: High-performance extensible software platform for collaboratively constructing animated 3D scenes
 
