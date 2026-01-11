@@ -3372,6 +3372,20 @@ SHA256: 6d2a4fbf8afd011654183ea32b2402376eeeb6333a106274647653b57d68c9aa
 Homepage: https://github.com/OptiVorbis/OptiVorbis
 Description: Vorbis optimizer that reconstruct ogg files to a smaller size, without losing any audio quality
 
+Package: opustags
+Version: 1.10.1+r13
+Architecture: i686
+Maintainer: @termux-user-repository, @flosnvjx
+Installed-Size: 176
+Depends: libogg, libiconv, libc++
+Filename: pool/tur/opustags_1.10.1+r13_i686.deb
+Size: 47480
+MD5sum: 78a36d1dc7b90e58d10937d0cbcc283c
+SHA1: 942548f01f09c1797f789fc9d85e8f09a0990ba7
+SHA256: fb0e6ec7459fcab43d83ad26b350daa6bcd63a92c5a3189c1616da79774284b8
+Homepage: https://github.com/fmang/opustags
+Description: A CLI utility for editing metadata tags of Ogg Opus file
+
 Package: osmesa-zink
 Version: 22.0.5-5
 Architecture: i686
