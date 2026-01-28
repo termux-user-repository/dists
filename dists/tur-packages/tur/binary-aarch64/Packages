@@ -387,6 +387,20 @@ SHA256: dd15e9a18a82183302895064d091d7102110c080a0f37cee19001a4abb2ef9c3
 Homepage: http://www.brow.sh/
 Description: A fully-modern text-based browser, rendering to TTY and browsers
 
+Package: cefsimple-for-brow6el
+Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 1352
+Depends: libcef-for-brow6el (= 143.0.14+gdd46a37+chromium-143.0.7499.193-0)
+Filename: pool/tur/cefsimple-for-brow6el_143.0.14+gdd46a37+chromium-143.0.7499.193-0_aarch64.deb
+Size: 159196
+MD5sum: faa235b1c6afae2df9b41d68495f1ec7
+SHA1: 890898888e6bb255ee7f8982e90c6b3561063e83
+SHA256: 331d6e09aadcc4fb4316c66774691dc1f6200d41fdcc2f743296a74b7efa9adc
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: Sample application for CEF (From libcef-for-brow6el)
+
 Package: cf
 Version: 0.4.2
 Architecture: aarch64
@@ -1974,6 +1988,34 @@ SHA1: 2a3a3b7409aec0c44539f0353257e2aeb7cae1ec
 SHA256: 6c4668d72b6e2e560c009a8d106cd8aaeb3e83e52c91325c12dcc4f4d6c6efcf
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: CorelDraw file format importer library for LibreOffice
+
+Package: libcef-for-brow6el-dev
+Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 21832
+Depends: libcef-for-brow6el (= 143.0.14+gdd46a37+chromium-143.0.7499.193-0)
+Filename: pool/tur/libcef-for-brow6el-dev_143.0.14+gdd46a37+chromium-143.0.7499.193-0_aarch64.deb
+Size: 717780
+MD5sum: 42ff1bf9a71bd826e553b63b39d04429
+SHA1: 21a5f3cae0f3492a9f87613a2465712dfb7c1e34
+SHA256: 72f08b8494bb7c3579633b2e31a10e506cf69bec33b1ac8a8faa06e1cb9880c9
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: Dev files for CEF (Used by brow6el)
+
+Package: libcef-for-brow6el
+Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 744696
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/libcef-for-brow6el_143.0.14+gdd46a37+chromium-143.0.7499.193-0_aarch64.deb
+Size: 118046724
+MD5sum: 9c25f5946a363eff5a4254760d52ba7a
+SHA1: e7b1cd878e646341778fe98d74b896b6a2df3c86
+SHA256: d0fd85f440f96201b8c6d7f6ee0eb1d8becac09154e3436aa99b2e7cf2005831
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: Chromium Embedded Framework (Used by brow6el)
 
 Package: libcef-host-tools-for-brow6el
 Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
