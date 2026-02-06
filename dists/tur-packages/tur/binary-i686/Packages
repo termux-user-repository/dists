@@ -4667,6 +4667,85 @@ SHA256: 44fb5a142f16a0ca38fcaa6274b24636c22ec452c4969f7ca1dd91b752f04bcb
 Homepage: https://github.com/rvben/rumdl
 Description: Markdown Linter and Formatter written in Rust
 
+Package: rust-nightly-std-aarch64-linux-android
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 16108
+Filename: pool/tur/rust-nightly-std-aarch64-linux-android_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 3097716
+MD5sum: cb1cf8f3ac9e844a84cd658193af6208
+SHA1: 72a7d5de3d5eb273b60c4f708f79bf2b2915d9e2
+SHA256: 31b42a727e28015d33a4b9d60aa09a2d7ae698fbf9f0782d49cbc2fe48cd8876
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target aarch64-linux-android (nightly version)
+
+Package: rust-nightly-std-armv7-linux-androideabi
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 15164
+Filename: pool/tur/rust-nightly-std-armv7-linux-androideabi_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 3215956
+MD5sum: 03690ed76674d753bd64e11f3112b865
+SHA1: 6f622c6dfc392f8ee1d4a1f37cfc14723f8d62d4
+SHA256: 011260708d200b6916f804e40ad0c784c5c9c21880c915aad4a77b28c81d96b4
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target armv7-linux-androideabi (nightly version)
+
+Package: rust-nightly-std-i686-linux-android
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 21872
+Filename: pool/tur/rust-nightly-std-i686-linux-android_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 4787124
+MD5sum: 2f03c2b6be5ac0f72a0f89d9c6990872
+SHA1: 1616bd0820c057ab2e31f0ec90209fb97f9d4f05
+SHA256: 90a1c463d76baaa698c1f433f256c03f0ca0666b4c258f1e0690e09ca237d6fa
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target i686-linux-android (nightly version)
+
+Package: rust-nightly-std-x86-64-linux-android
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 15984
+Filename: pool/tur/rust-nightly-std-x86-64-linux-android_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 3169964
+MD5sum: 0ae37a6f1847fa7b94fb4f1f39a8991c
+SHA1: bcdf8986528f1ef53c629fdabdd74a85d230882a
+SHA256: 0c176d1bd5da012e1c678c999cd5d590ef51786fa2fa9a016598a8816850b07c
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target x86_64-linux-android (nightly version)
+
+Package: rustc-dev-nightly
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 294080
+Filename: pool/tur/rustc-dev-nightly_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 72511744
+MD5sum: 694a64085b34c345eb404dc33b3f4b1a
+SHA1: db2c86e8a33ed2cdab0bbd28765a631e9306123e
+SHA256: b8c177350ffd3b25ddd9e2088220630820a96f3d52b87cc5bd08bc87bcce8418
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler development libs (nightly version)
+
+Package: rustc-nightly
+Version: 1.95.0-2026.02.05-nightly-0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 658592
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-nightly-std-i686-linux-android
+Filename: pool/tur/rustc-nightly_1.95.0-2026.02.05-nightly-0_i686.deb
+Size: 137140784
+MD5sum: 33868804b942306465d27061563c4fd1
+SHA1: b03e4d82dfe18ded0b0d4869e7d6216be3f24e86
+SHA256: 036ba971c0450cc2a9d3ce0c4e371dd880a6fbe868033854aff02ed8343d7ef5
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler and utilities (nightly version)
+
 Package: sdl-gfx-static
 Version: 2.0.27
 Architecture: i686
@@ -5834,12 +5913,12 @@ Package: rust-nightly-docs
 Version: 1.95.0-2026.02.05-nightly-0
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 759832
+Installed-Size: 789912
 Filename: pool/tur/rust-nightly-docs_1.95.0-2026.02.05-nightly-0_all.deb
-Size: 29638932
-MD5sum: 2f1d4b60839355e0ceab2edaac7911a0
-SHA1: 5474ab4496df41225bc170a10ec0e96622a08603
-SHA256: acb595185d33a8542fb4e34ce98595add3ebaf922ffd537666c58c409951f8f5
+Size: 32104632
+MD5sum: deb3e235a2a4d7a19963ca16122c28c1
+SHA1: 42804321f3af38e6cfa8f0e78c1cb51d4fe262b6
+SHA256: d1965e56622bfa08559ba4dc0cead7e1905058cc530912a95712b421e2588ed1
 Homepage: https://www.rust-lang.org/
 Description: Rust documentation (nightly version)
 
