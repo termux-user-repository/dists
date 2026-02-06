@@ -4719,6 +4719,20 @@ SHA256: ac56bf34986ab35b7c347e2b2082668239dbdf0e3235715fcd9e4e2642884839
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target x86_64-linux-android (nightly version)
 
+Package: rust-script
+Version: 0.36.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 2756
+Depends: rust
+Filename: pool/tur/rust-script_0.36.0_i686.deb
+Size: 962012
+MD5sum: b7f96707880902151917b9745d1359e6
+SHA1: 05a68b7f6f1ab6888d45ce1684ed21b9099dcabe
+SHA256: 74191617eea62790e2b84ad2079b398a0c9d7fb26384a76a672a2cd542842f29
+Homepage: https://rust-script.org/
+Description: Run Rust files and expressions as scripts without any setup or compilation step
+
 Package: rustc-dev-nightly
 Version: 1.95.0-2026.02.06-nightly-0
 Architecture: i686

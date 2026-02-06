@@ -5201,6 +5201,20 @@ SHA256: e705a34f639801c2f9b5251c57cb73982632df100cc9777802a0e66d7766b565
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target x86_64-linux-android (nightly version)
 
+Package: rust-script
+Version: 0.36.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 2732
+Depends: rust
+Filename: pool/tur/rust-script_0.36.0_aarch64.deb
+Size: 803380
+MD5sum: c3f955585f4a38c0df13861d14e0a333
+SHA1: 299579176bf9b31292122a7809ff5a449140c04f
+SHA256: 14fa10e72e49747b2f9159d49da1b5914bfbaa549ffabb74b4daeda907b494e2
+Homepage: https://rust-script.org/
+Description: Run Rust files and expressions as scripts without any setup or compilation step
+
 Package: rustc-cranelift-codegen-aarch64-linux-android
 Version: 1.95.0-2026.02.06-nightly-0
 Architecture: aarch64
