@@ -2349,6 +2349,36 @@ SHA256: 8b83dfc5383bcb9c522fe2c7eca1d959bc374346be05c15c71a1e1277305a397
 Homepage: https://libiptcdata.sourceforge.net/
 Description: a C library for manipulating the IPTC metadata stored within multimedia files
 
+Package: libisl-static
+Version: 0.26-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3388
+Depends: libisl (= 0.26-2)
+Filename: pool/tur/libisl-static_0.26-2_aarch64.deb
+Size: 598224
+MD5sum: 1e7be216cbc858c4ca190d44389fee87
+SHA1: e5cd0e66c8995f1fa51afeb3b86a3dbad713b5c4
+SHA256: 9a53b3e16f2bcf18418b3abe11b5930166afe8e5857da3aa9f6ec6c53cdc16f2
+Homepage: https://libisl.sourceforge.io/
+Description: Static libraries for libisl
+
+Package: libisl
+Version: 0.26-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5592
+Depends: libgmp
+Breaks: libisl-dev
+Replaces: libisl-dev
+Filename: pool/tur/libisl_0.26-2_aarch64.deb
+Size: 681584
+MD5sum: b3540f86565e024e4cd2653ccfdf98ba
+SHA1: ca6705cd059fd6acfdff7e4c107f2eafced4da30
+SHA256: 08d6b3e61bb37102318b4e6d0fcd5f48ecac06e5564ccbfa0bd7a5f50a531f22
+Homepage: https://libisl.sourceforge.io/
+Description: Library for manipulating sets and relations of integer points bounded by linear constraints
+
 Package: libixion-static
 Version: 0.20.0-1
 Architecture: aarch64
