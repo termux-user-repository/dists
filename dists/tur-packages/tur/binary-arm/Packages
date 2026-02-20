@@ -5503,16 +5503,16 @@ Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
 Package: wine-staging
-Version: 11.2-1
+Version: 11.2-2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2602804
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur/wine-staging_11.2-1_arm.deb
-Size: 78859584
-MD5sum: 836343a8a757a233ce0b506a440d3ef6
-SHA1: d14df54b327a0746cf292b074ab09a59a7bfa321
-SHA256: e29d096c92a9b76da7afd3a0ab040b83a28467a39f7bd6a30184ecc2358eee43
+Installed-Size: 2602808
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/tur/wine-staging_11.2-2_arm.deb
+Size: 78856992
+MD5sum: 1b4b903664ba38ddb5922e9057ae1006
+SHA1: 118b409f6746dd1b3bd671407d5404ad6d1bf9e1
+SHA256: 258675b6cbd8e01efdcaa2d796ea24ceda67c460f85c08bd38b60ca7b4c9c3b3
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
