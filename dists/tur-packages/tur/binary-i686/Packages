@@ -5281,16 +5281,16 @@ Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
 Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
 
 Package: wine-devel
-Version: 11.2-1
+Version: 11.2-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 2617260
-Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2, vulkan-loader, xorg-xrandr
-Filename: pool/tur/wine-devel_11.2-1_i686.deb
-Size: 78361852
-MD5sum: a19af46414cb962a8a61a5a9afed19a6
-SHA1: 61a57498e0435fc451ba3c7eca605bab74ecf04e
-SHA256: 45bb57a03c5b84af62786534c5f1c87b35b33d457f7e33f7d8103810421459a1
+Depends: fontconfig, freetype, krb5, libandroid-spawn, libc++, libgmp, libgnutls, libxcb, libxcomposite, libxcursor, libxfixes, libxrender, opengl, pulseaudio, sdl2 | sdl2-compat, vulkan-loader, xorg-xrandr
+Filename: pool/tur/wine-devel_11.2-2_i686.deb
+Size: 78383940
+MD5sum: f2e85004098c4bc1df5f42b82a7e046c
+SHA1: a0135a1fea7284b0fb2dfaff586eae443e004f23
+SHA256: ee0b0a68f6833da5ba11d12770b826fd62fe2f76b93d82e6ed43cc4def2ffab5
 Homepage: https://www.winehq.org/
 Description: A compatibility layer for running Windows programs
 
