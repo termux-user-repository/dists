@@ -1,3 +1,17 @@
+Package: 0ad
+Version: 0.28.0
+Architecture: x86_64
+Maintainer: @IntinteDAO
+Installed-Size: 27100
+Depends: 0ad-data, boost, curl, glew, libglvnd, libicu, libnspr, libxml2, miniupnpc, openal-soft, sdl2, zlib, libenet, libvorbis, libogg, libpng, libsodium, fmt, gloox
+Filename: pool/tur/0ad_0.28.0_x86_64.deb
+Size: 8345640
+MD5sum: 20e90750c36bb2e68f6db7cbd5f5d510
+SHA1: 83ad7b9bbf0839e9ede244d08241825aaf77c89d
+SHA256: 19c1149b3ecf6c845c2481dccdf7773e59bb4b13a33890be6ffcf2fe78b33213
+Homepage: https://play0ad.com/
+Description: Free, open-source, historical RTS game of ancient warfare
+
 Package: 3dstool
 Version: 1.2.6
 Architecture: x86_64
@@ -1450,6 +1464,34 @@ SHA1: 9d1c291833075c59beee67acc37bb0ea4ef1013c
 SHA256: 5ad128d227e375f2fa673ba7191fb6adb7f20fb6dcaf20bd9fbbf93241688921
 Homepage: https://github.com/glmark2/glmark2
 Description: An OpenGL 2.0 and ES 2.0 benchmark.
+
+Package: gloox-static
+Version: 1.0.28
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 4112
+Depends: gloox (= 1.0.28)
+Filename: pool/tur/gloox-static_1.0.28_x86_64.deb
+Size: 443152
+MD5sum: f6313b497108179b6d5deb645c318b6f
+SHA1: dd6cb96f35ceb9518277bb5c02eb8b4a5cc87b19
+SHA256: 401ffe71aad42933c259e67c76fa21dc063b63d53fd8f275a61c178343b5024f
+Homepage: https://camaya.net/gloox/
+Description: Static libraries for gloox
+
+Package: gloox
+Version: 1.0.28
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 2288
+Depends: openssl, zlib, gnutls, libgnutls
+Filename: pool/tur/gloox_1.0.28_x86_64.deb
+Size: 424028
+MD5sum: 9e76a7b3757d74325c2e93e1479d8b8a
+SHA1: 89301667c5b8b0a66d32cf3c1f95ea46daefd15f
+SHA256: 802652b54bb9941ce72aa08483b25d81290df14a5858e42bfb3c1ec07bc58727
+Homepage: https://camaya.net/gloox/
+Description: A rock-solid, full-featured XMPP client library
 
 Package: go-cqhttp
 Version: 1.2.0
@@ -4505,6 +4547,20 @@ SHA256: 550b8733e51a8997ce3877aa033cbc62031f8647c80440510ec21e1abfed1a16
 Homepage: https://github.com/nacho00112/tur
 Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
 
+Package: python-static
+Version: 3.13.12-3
+Architecture: x86_64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 49200
+Depends: python (= 3.13.12-3)
+Filename: pool/tur/python-static_3.13.12-3_x86_64.deb
+Size: 7420472
+MD5sum: 2f53f5529f0412e38fe1cdfc550596d6
+SHA1: 514525e43446321cb9c63865363ab1adc6d1a5e1
+SHA256: 5dec5e1f1ebbaeede1eae732b7c728432bce90732b46d47639738d5ee6231060
+Homepage: https://python.org/
+Description: Static libraries for python
+
 Package: python-tiktoken
 Version: 0.12.0-1
 Architecture: x86_64
@@ -4518,6 +4574,22 @@ SHA1: 1ea01cb1447c7fe4014264ac3070dc265ba2400b
 SHA256: 36e9c7bfbb56aed013888fc939347782c696b5304c2af14bc1ca25d192a20970
 Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
+
+Package: python-tkinter
+Version: 3.13.12-3
+Architecture: x86_64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 2624
+Depends: tcl, tk, python (= 3.13.12-3)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/tur/python-tkinter_3.13.12-3_x86_64.deb
+Size: 507776
+MD5sum: 94d6d4e107ce94ab83b1e2128c647216
+SHA1: 4569ded420b205575412e6561eda64eba7667d71
+SHA256: b4a58e6307c9cc4aceb80cdc571144df089e1bf618cda776be83df272179fd86
+Homepage: https://python.org/
+Description: Tkinter support for Python 3
 
 Package: python-tls-client
 Version: 1.0.1-2
@@ -4849,6 +4921,25 @@ SHA1: 428df98c22e15b052c52afc269f162a08d6919df
 SHA256: 7cb9d7c411e00b23ea1dbca07c5f26321587edbfe085e775a60633952a282097
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python
+Version: 3.13.12-3
+Architecture: x86_64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 24420
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: python-ensurepip-wheels, python-pip
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev
+Replaces: python-dev
+Provides: python3
+Filename: pool/tur/python_3.13.12-3_x86_64.deb
+Size: 4781228
+MD5sum: 59fb2aea063eb85e43c81e10e4ea26ee
+SHA1: 4e8c179a0dadc1375d4f0438f94fc47bcd704c7f
+SHA256: 3b1a274456366613b020234c52291cd220395abb9eef8f32bd64a1e92c8b03f5
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
 
 Package: qbe-cross
 Version: 1.1-1
@@ -5933,6 +6024,19 @@ SHA256: 9a54a680b0afac943727ff986808144c25ee1c190fdb2d7a82977d7d34a70a55
 Homepage: https://www.zerotier.com
 Description: Creates virtual Ethernet networks of almost unlimited size.
 
+Package: 0ad-data
+Version: 0.28.0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 3521528
+Filename: pool/tur/0ad-data_0.28.0_all.deb
+Size: 1441520108
+MD5sum: 3d7280758cac7b39b4fab40ca21d52f3
+SHA1: aef3a097f4c85a8c9ab7afe203a23d9ba757719f
+SHA256: b3e145749e198790b3a26f81e59d31006b3659636250b447cd360f9f48bcafc1
+Homepage: https://play0ad.com/
+Description: Data files for 0AD
+
 Package: abuse-frabs
 Version: 20210827
 Architecture: all
@@ -6381,6 +6485,22 @@ SHA1: f2d360447c5653d7730fc3a470b183d5710662da
 SHA256: 10453dde15d7a519644fe525063605ba2e36e304a2e9cd749c70992962cd4018
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-11
+
+Package: python-ensurepip-wheels
+Version: 3.13.12-3
+Architecture: all
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 1780
+Depends: python (= 3.13.12-3)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/tur/python-ensurepip-wheels_3.13.12-3_all.deb
+Size: 1704184
+MD5sum: d61b92a6995707b3664fc52620852c3f
+SHA1: cb17a8789681a0465d6c28421fce8e6e82ef3135
+SHA256: 1fce7c17595f8842fcf4bb2df17e78bfa5ecf4d749c33f3427fbcbe01e7eba0e
+Homepage: https://python.org/
+Description: Wheels for Python ensurepip
 
 Package: python-future
 Version: 0.18.2-3

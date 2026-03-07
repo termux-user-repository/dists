@@ -1,3 +1,17 @@
+Package: 0ad
+Version: 0.28.0
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 25188
+Depends: 0ad-data, boost, curl, glew, libglvnd, libicu, libnspr, libxml2, miniupnpc, openal-soft, sdl2, zlib, libenet, libvorbis, libogg, libpng, libsodium, fmt, gloox
+Filename: pool/tur/0ad_0.28.0_aarch64.deb
+Size: 7453840
+MD5sum: bf9eab0dc5e86734e35a9c0681c5dd9a
+SHA1: a03a9de138cdd886d8bc361de7df1523281d3599
+SHA256: 051612bfe9b984cec86ca775d107f9300089e0eebbed015b187443dac195d469
+Homepage: https://play0ad.com/
+Description: Free, open-source, historical RTS game of ancient warfare
+
 Package: 3dstool
 Version: 1.2.6
 Architecture: aarch64
@@ -1450,6 +1464,34 @@ SHA1: 6c48a4fec9fc50bc01d1e3df221fede9dbb8f386
 SHA256: 532c55e0c05d295f80e1911b998a05bb9940748ce65437f6fc4c6afa560c7348
 Homepage: https://github.com/glmark2/glmark2
 Description: An OpenGL 2.0 and ES 2.0 benchmark.
+
+Package: gloox-static
+Version: 1.0.28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4260
+Depends: gloox (= 1.0.28)
+Filename: pool/tur/gloox-static_1.0.28_aarch64.deb
+Size: 460052
+MD5sum: 5c7b22d40299f18294bb0d54243dda1c
+SHA1: be02a0eb332b99e2058dbd1047455844091fa43b
+SHA256: 4c01a87f59339d9b6edb797ca50e63a3a05a351a353afe55fd96e210dfefad64
+Homepage: https://camaya.net/gloox/
+Description: Static libraries for gloox
+
+Package: gloox
+Version: 1.0.28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2316
+Depends: openssl, zlib, gnutls, libgnutls
+Filename: pool/tur/gloox_1.0.28_aarch64.deb
+Size: 404884
+MD5sum: 075f888f1f254175d381ea85d492c307
+SHA1: 5d79207136c4b11313b7135cf46a1c82ec5bcec2
+SHA256: ccffbb5627d538b9cd4f6dabc99b59991bde0eb9c50fe29b0d64fa2215ed74fc
+Homepage: https://camaya.net/gloox/
+Description: A rock-solid, full-featured XMPP client library
 
 Package: go-cqhttp
 Version: 1.2.0
@@ -4590,6 +4632,20 @@ SHA256: 22bda67d1f6d20dd121285e293c5029510f2b0371e2a8e394dae9636fa0d9f74
 Homepage: https://github.com/nacho00112/tur
 Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
 
+Package: python-static
+Version: 3.13.12-3
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 49684
+Depends: python (= 3.13.12-3)
+Filename: pool/tur/python-static_3.13.12-3_aarch64.deb
+Size: 7278932
+MD5sum: aaf96c01fa1e3b07f08e4bf3536ab945
+SHA1: eb37905d3b87b57fec17dd1e9be9e73d1bf935e9
+SHA256: 9f2b380df37378e12a1efb22ea471d0ffd27cb5790c332b12e54493ad580d8e8
+Homepage: https://python.org/
+Description: Static libraries for python
+
 Package: python-tiktoken
 Version: 0.12.0-1
 Architecture: aarch64
@@ -4603,6 +4659,22 @@ SHA1: 2588c89f589189a2dd4fdeacc8f55bef9a757fe8
 SHA256: 3d1355759ca03db550b5c9ba6c4966520a0e64f12c7b83a0a525bb2551b59e21
 Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
+
+Package: python-tkinter
+Version: 3.13.12-3
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 2628
+Depends: tcl, tk, python (= 3.13.12-3)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/tur/python-tkinter_3.13.12-3_aarch64.deb
+Size: 506216
+MD5sum: 725bec2aa01cb42add30ec10ff21f8a2
+SHA1: 84aced7bdccaca95ddce03f79b8cc3c75aa4409b
+SHA256: ac5528fa5183e78a6aaf8b89f69b423172d98a804438ac619c2431f087e38795
+Homepage: https://python.org/
+Description: Tkinter support for Python 3
 
 Package: python-tls-client
 Version: 1.0.1-2
@@ -4934,6 +5006,25 @@ SHA1: 511df8b24ad83248532aff039d1902a701d4a857
 SHA256: 514e482879dbe7d5c33aaf95b572688335ff4a0e4e1a84fd61dd2a73abee06e1
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python
+Version: 3.13.12-3
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 24580
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: python-ensurepip-wheels, python-pip
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev
+Replaces: python-dev
+Provides: python3
+Filename: pool/tur/python_3.13.12-3_aarch64.deb
+Size: 4541520
+MD5sum: 2864ae20164314fabca30bb413ecf265
+SHA1: 3eed1c2b2d41d49b7d359b12a5eff34280b72a4e
+SHA256: ea23021de99d464e302f4a8ad04222423a095f63a4528dffa421976735ffba6d
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
 
 Package: qbe-cross
 Version: 1.1-1
@@ -6042,6 +6133,19 @@ SHA256: 354368c63dbc33cbf97890abc6ecdc7b96b2c0b964c65e01a518292b817666aa
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
+Package: 0ad-data
+Version: 0.28.0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 3521528
+Filename: pool/tur/0ad-data_0.28.0_all.deb
+Size: 1441520108
+MD5sum: 3d7280758cac7b39b4fab40ca21d52f3
+SHA1: aef3a097f4c85a8c9ab7afe203a23d9ba757719f
+SHA256: b3e145749e198790b3a26f81e59d31006b3659636250b447cd360f9f48bcafc1
+Homepage: https://play0ad.com/
+Description: Data files for 0AD
+
 Package: abuse-frabs
 Version: 20210827
 Architecture: all
@@ -6490,6 +6594,22 @@ SHA1: f2d360447c5653d7730fc3a470b183d5710662da
 SHA256: 10453dde15d7a519644fe525063605ba2e36e304a2e9cd749c70992962cd4018
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-11
+
+Package: python-ensurepip-wheels
+Version: 3.13.12-3
+Architecture: all
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 1780
+Depends: python (= 3.13.12-3)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/tur/python-ensurepip-wheels_3.13.12-3_all.deb
+Size: 1704184
+MD5sum: d61b92a6995707b3664fc52620852c3f
+SHA1: cb17a8789681a0465d6c28421fce8e6e82ef3135
+SHA256: 1fce7c17595f8842fcf4bb2df17e78bfa5ecf4d749c33f3427fbcbe01e7eba0e
+Homepage: https://python.org/
+Description: Wheels for Python ensurepip
 
 Package: python-future
 Version: 0.18.2-3
