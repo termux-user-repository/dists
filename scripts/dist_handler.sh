@@ -78,7 +78,7 @@ add_package_metadata() {
                 dpkg-scanpackages "debs/$deb_file" >| "$POOL_DIR/$repo_component/$deb_file"
                 ## update Filename: indices to relative path
                 sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file_after_sed" "$POOL_DIR/$repo_component/$deb_file"
-                mv -f "$deb_file" "$PROCESSED_DEB"
+                mv -f "debs/$deb_file" "$PROCESSED_DEB"
             done
             shopt -u nullglob
         done
