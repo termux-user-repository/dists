@@ -60,24 +60,28 @@ add_package_metadata() {
         echo "processing $tar_file"
         tar -xf $tar_file
         
-        if test -f debs/built*.txt;then
-            repo_component=$(ls debs/built*.txt | cut -d_ -f2)
-        else
-            continue
-        fi
-        
-        # Allow nullglob patterns.
-        shopt -s nullglob
-        for deb_file in debs/*.deb;do
-            deb_file=$(basename $deb_file)
-            deb_file_after_sed="$(echo "$deb_file" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
-            echo "scanning $deb_file"
-            dpkg-scanpackages debs/$deb_file >| $POOL_DIR/$repo_component/$deb_file
-            ## update Filename: indices to relative path
-            sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file_after_sed" $POOL_DIR/$repo_component/$deb_file
+        local repo_component
+        for repo_component in "${components_array[@]}"; do
+            if [[ ! -f "debs/built_${repo_component}_packages.txt" ]]; then
+                continue
+            fi
+            if [[ -z "$(cat "debs/built_${repo_component}_packages.txt")" ]]; then
+                continue
+            fi
+
+            shopt -s nullglob
+            local deb_file deb_file_after_sed
+            for deb_file in $(cat "debs/built_${repo_component}_packages.txt" | sed -E 's/(..*)/debs\/\1_\*.deb debs\/\1-static_\*.deb/g'); do
+                deb_file=$(basename $deb_file)
+                deb_file_after_sed="$(echo "$deb_file" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
+                echo "scanning $deb_file"
+                dpkg-scanpackages "debs/$deb_file" >| "$POOL_DIR/$repo_component/$deb_file"
+                ## update Filename: indices to relative path
+                sed -i "/Filename:/c\Filename: pool/$repo_component/$deb_file_after_sed" "$POOL_DIR/$repo_component/$deb_file"
+                mv -f "$deb_file" "$PROCESSED_DEB"
+            done
+            shopt -u nullglob
         done
-        shopt -u nullglob
-        mv -f debs/* $PROCESSED_DEB
     done
 }
 remove_old_version() {
