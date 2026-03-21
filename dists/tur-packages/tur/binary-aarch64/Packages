@@ -106,16 +106,16 @@ Homepage: https://github.com/asciinema/agg
 Description: asciinema gif generator
 
 Package: aptitude
-Version: 0.8.13-2
+Version: 0.8.13-4
 Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 4416
-Depends: apt, boost, libcwidget, libsigc++-2.0, libsqlite, libxapian, ncurses
-Filename: pool/tur/aptitude_0.8.13-2_aarch64.deb
-Size: 1065372
-MD5sum: 4dffd5a7e32a77a65939e074e3c765a0
-SHA1: 4dd8b5a4eb596bf7f76d38b07c74484f882e5d6d
-SHA256: 37bb5a7c99dd2e34c8bf2b4af35090db3d5766353328eff500e2bda3ecce2335
+Maintainer: @termux
+Installed-Size: 4392
+Depends: apt, boost, googletest, libcwidget, libsigc++-2.0, libsqlite, libxapian, ncurses
+Filename: pool/tur/aptitude_0.8.13-4_aarch64.deb
+Size: 1058664
+MD5sum: 7bc0bb57d822b9724c2937b0ffe62156
+SHA1: bdefa06f0680d48f98eeeb878d1b8c6d3110cba1
+SHA256: 46c6dc4d24198ca57a962e5bb63684cdb66437b3dc85a48249320ecf484802d5
 Homepage: https://wiki.debian.org/Aptitude
 Description: terminal-based package manager
 
@@ -2157,30 +2157,30 @@ Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
 Package: libcwidget-static
-Version: 0.5.18-2
+Version: 0.5.18-4
 Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 3120
-Depends: libcwidget (= 0.5.18-2)
-Filename: pool/tur/libcwidget-static_0.5.18-2_aarch64.deb
-Size: 339904
-MD5sum: d183a4864de66b35e906195114da8fff
-SHA1: 519ef8b8749e59c2506a1856a4393d43fc647856
-SHA256: 422731fcb4cfdc5336a4f127aabfb40a09774148de3666f825077bf24621e1f9
+Maintainer: @termux
+Installed-Size: 3256
+Depends: libcwidget (= 0.5.18-4)
+Filename: pool/tur/libcwidget-static_0.5.18-4_aarch64.deb
+Size: 338948
+MD5sum: 38572edf5c820aaf7480316039e46715
+SHA1: 953b773c37feedd0d0abb9af53575344dd1ab5a6
+SHA256: 544fe0ceb50af36e09c3cdde6132d084663477055ac23217b8729d683a49acd8
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: Static libraries for libcwidget
 
 Package: libcwidget
-Version: 0.5.18-2
+Version: 0.5.18-4
 Architecture: aarch64
-Maintainer: @termux-user-repository
-Installed-Size: 1220
+Maintainer: @termux
+Installed-Size: 1212
 Depends: ncurses, libiconv, libsigc++-2.0
-Filename: pool/tur/libcwidget_0.5.18-2_aarch64.deb
-Size: 236016
-MD5sum: 171e3148209a6b05ec65eaf39d20f2a6
-SHA1: 614642123e3c1d791fcd832fb3b4a0840e4afc0c
-SHA256: a0343c1543bc5b4c110b499b75280b6402d0d18e8515ecfd600ecf4ddc8d16c4
+Filename: pool/tur/libcwidget_0.5.18-4_aarch64.deb
+Size: 235384
+MD5sum: 594a61882371c42a185a94191c18a6b5
+SHA1: 33930445a07f283a76d0864845ff6b98d8cdc4e6
+SHA256: 539e61b7f13cb570ea129c1225b9f5a82bac7582a470335d8821bceda2e1a4e1
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: high-level terminal interface library for C++
 
