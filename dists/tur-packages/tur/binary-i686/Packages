@@ -1180,6 +1180,48 @@ SHA256: e1a6c3b0cdc600949a5fcda8b1c7b7de8cf481426e6af805ab113071974b09e8
 Homepage: https://camaya.net/gloox/
 Description: A rock-solid, full-featured XMPP client library
 
+Package: gnome-chess
+Version: 50.0
+Architecture: i686
+Maintainer: @lunsokhasovan, @termux-user-repository
+Installed-Size: 1944
+Depends: glib, gtk4, gnuchess, libadwaita, libcairo, librsvg, opengl, pango
+Filename: pool/tur/gnome-chess_50.0_i686.deb
+Size: 445200
+MD5sum: 67c975433c63f4817548515307adee02
+SHA1: 95bed6e55d11528397406b25aa7287174f21bde8
+SHA256: bf2dfdeb52fd816839d693d85697c6a1aa4f8d8cd671a813445eb89b997afb8f
+Homepage: https://wiki.gnome.org/Apps(2f)Chess.html
+Description: GNOME Chess game
+
+Package: gnome-mahjongg
+Version: 49.1.1
+Architecture: i686
+Maintainer: @lunsokhasovan, @termux-user-repository
+Installed-Size: 2704
+Depends: glib, gtk4, libadwaita, libcairo, librsvg, opengl
+Filename: pool/tur/gnome-mahjongg_49.1.1_i686.deb
+Size: 2478544
+MD5sum: 18d65313cb6460cff78c3933dba6eef7
+SHA1: d129efcb1dfb5219b46d81e69d2dcd5d37f34e6b
+SHA256: d2ae01e8c364e1e817e9b75a45f0ffad336e765004f82c5b122e7c7c862e5f1c
+Homepage: https://wiki.gnome.org/Apps/Mahjogg
+Description: GNOME Mahjongg game
+
+Package: gnome-sudoku
+Version: 50.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 1944
+Depends: glib, gtk4, json-glib, libadwaita, libcairo, libgee, opengl, qqwing
+Filename: pool/tur/gnome-sudoku_50.0_i686.deb
+Size: 252056
+MD5sum: f4ddb698f796af3b2ad79f9ee388747b
+SHA1: 83acbdd449858eee34daf9065b32daa328166401
+SHA256: 37a514ef386b50560aa69c88a994a5de9e3b570acbcee5a0bbf20fa24a558565
+Homepage: https://wiki.gnome.org/Apps(2f)Sudoku.html
+Description: GNOME Sudoku game
+
 Package: go-cqhttp
 Version: 1.2.0
 Architecture: i686
