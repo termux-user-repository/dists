@@ -5346,6 +5346,20 @@ SHA256: fe14ae0e901e1370ce52f05e288a621f7b1380249ac49eea106b0964d26842d0
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
 
+Package: supertuxkart
+Version: 1.5-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 9220
+Depends: freetype, harfbuzz, hicolor-icon-theme, libc++, libcurl, libjpeg-turbo, libpng, libsqlite, libvorbis, openal-soft, openssl, sdl2, shaderc, supertuxkart-data, zlib
+Filename: pool/tur/supertuxkart_1.5-1_arm.deb
+Size: 3695748
+MD5sum: 1c6d3f2d1eb7700c2598e1ac794c39de
+SHA1: 73e2641c17f47088cc1f3d30ca97a3cce9699122
+SHA256: 7003ff4c7dbabdcd7d22b4d3e3b767a528bf289f868a98cb8259e624642655bd
+Homepage: https://supertuxkart.net
+Description: Kart racing game featuring Tux and his friends
+
 Package: svgbob
 Version: 0.5.5
 Architecture: arm
@@ -6483,55 +6497,55 @@ Homepage: https://github.com/dbohdan/sqawk
 Description: Manipulate csv/tsv/json data using SQL in an AWK-like fashion (sqlite-tcl as backend with db dump)
 
 Package: supertuxkart-data-others
-Version: 1.5
+Version: 1.5-1
 Architecture: all
 Maintainer: @termux
-Installed-Size: 214608
-Filename: pool/tur/supertuxkart-data-others_1.5_all.deb
-Size: 163028888
-MD5sum: 4c1f05f24754edcc57598a4a9dc2bd32
-SHA1: 5b4bd798d16a626dff9bcb9a5648ecfa6ee715a3
-SHA256: c5792b5e6c84319ae91073234935858a57390cefb5f6744d5aad14ebcafae8e9
+Installed-Size: 214604
+Filename: pool/tur/supertuxkart-data-others_1.5-1_all.deb
+Size: 163034860
+MD5sum: 427bcafa95631fe8268352aee87bfd96
+SHA1: a97b592dcd71384d44985119fc871db68fee8160
+SHA256: c2242c3cc38187e933898d36fe51c9be5f5576eca9f7e0c8675961e33cbff642
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (except textures and tracks)
 
 Package: supertuxkart-data-textures
-Version: 1.5
+Version: 1.5-1
 Architecture: all
 Maintainer: @termux
 Installed-Size: 291708
-Filename: pool/tur/supertuxkart-data-textures_1.5_all.deb
-Size: 294701280
-MD5sum: c7f2287dd90d1132639283fd28e268b6
-SHA1: bac5b72f38112125a7e80114acb73cef76eed43f
-SHA256: a480326664667fd639c44cb3faa494c93ec74262264c00e19840da5a1b4c1eb3
+Filename: pool/tur/supertuxkart-data-textures_1.5-1_all.deb
+Size: 294701428
+MD5sum: 1d553dc7f6f08ede202bd637cbdf2511
+SHA1: 302ddcedcd338b855cb709538788a247a62c05e5
+SHA256: c47207568d1a2c6d8e90ebcea4b30d6dd399ea636dbf8fd2acbfb8ef6373da20
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (textures part)
 
 Package: supertuxkart-data-tracks
-Version: 1.5
+Version: 1.5-1
 Architecture: all
 Maintainer: @termux
 Installed-Size: 287444
-Filename: pool/tur/supertuxkart-data-tracks_1.5_all.deb
-Size: 231778096
-MD5sum: 50bfe38534d77f96f9c2ec207f615619
-SHA1: 9ff988f8eddd3b810f7316308c80d4d8c4421f25
-SHA256: e84e87c217864617748a8296344c1f961f05efa3ebc00980ff542b7c9abeaa77
+Filename: pool/tur/supertuxkart-data-tracks_1.5-1_all.deb
+Size: 231790348
+MD5sum: 7061fc86d2405e163309f173d50372c6
+SHA1: 2a3958e03804e50b13c248bfb19c2020c82a5a94
+SHA256: 8babe615a2d65ed6bef5a1f73d7f01fa5c09bd6af59a54316ffc31c1d68d782d
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (tracks part)
 
 Package: supertuxkart-data
-Version: 1.5
+Version: 1.5-1
 Architecture: all
 Maintainer: @termux
 Installed-Size: 36
 Depends: supertuxkart-data-others, supertuxkart-data-textures, supertuxkart-data-tracks
-Filename: pool/tur/supertuxkart-data_1.5_all.deb
-Size: 828
-MD5sum: bcb11547ad327071c1ab601923b4f198
-SHA1: d21b48bfa42d3dcf62223d90c85af4aad8d50123
-SHA256: 268220870f7edc2dbc7ef1871697658366820122d5dff4d681c4e9c5df58d352
+Filename: pool/tur/supertuxkart-data_1.5-1_all.deb
+Size: 832
+MD5sum: 858b3f4ae02b5bc3296b3f720cdaab31
+SHA1: b0e749a54176597a0387eb53ff069d8ec52b8ac9
+SHA256: 311bf38a8c76411cde2d7019e49338e0998522b4bf247c516e52c59ecd162221
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (metapackage)
 
