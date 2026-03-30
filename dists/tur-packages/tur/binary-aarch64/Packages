@@ -4547,58 +4547,58 @@ Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
 
 Package: python-polars-runtime-32
-Version: 1.38.1
+Version: 1.39.3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 160372
+Installed-Size: 159776
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-32_1.38.1_aarch64.deb
-Size: 24665060
-MD5sum: 25bf8c2229089e66a3a455910cd7dde0
-SHA1: 367e94f2ad9b8568442b387cc3ecc954f66e5482
-SHA256: 26fef511e14feb0d50899a3e1468ed9530b3d24c31042bee194f95547c5fdaaf
+Filename: pool/tur/python-polars-runtime-32_1.39.3_aarch64.deb
+Size: 24631268
+MD5sum: 5c76bbf1265f51e7ef37882499108207
+SHA1: 0b371664a47ec16dfe0cb0ab635cad2be0a256d8
+SHA256: deae3e25e93b0de91b850a2977876f7a95377dbb0c297074b34c203530e0bf25
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime 32)
 
 Package: python-polars-runtime-64
-Version: 1.38.1
+Version: 1.39.3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 160008
+Installed-Size: 158684
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-64_1.38.1_aarch64.deb
-Size: 24515876
-MD5sum: 69a6068aee0c55d5d1f44503b133ccd5
-SHA1: 385192ddaddf9426a056892009b756eceb374b72
-SHA256: 5541806e7fb2b1c4ee3693340d0f84caedb82c71add04debd14bc09c4e9d61d5
+Filename: pool/tur/python-polars-runtime-64_1.39.3_aarch64.deb
+Size: 24483088
+MD5sum: e4dc1b2229750302750ecb557721eb3e
+SHA1: f3baded15bbf29c14c74330da331adbf2b84d387
+SHA256: 53c92fe496f5ac05241c41b853ffe0ff52e5bec27b1f34716d39de35d55820f1
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime 64 for large dataset support)
 
 Package: python-polars-runtime-compat
-Version: 1.38.1
+Version: 1.39.3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 160004
+Installed-Size: 158684
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-compat_1.38.1_aarch64.deb
-Size: 24511716
-MD5sum: bae5a91152d97b62046fddb009c476e8
-SHA1: 94a7803f45dc3de1b4992da9f120454445a655e1
-SHA256: 9ded3a778ee729f93e04456a9facbab17390fcf6fadab92d37bf29aa7bc5dc59
+Filename: pool/tur/python-polars-runtime-compat_1.39.3_aarch64.deb
+Size: 24460448
+MD5sum: 6a4d1051fc093bac5a0f310e1bbde63a
+SHA1: a47ab7aa4160705a9dd00ce012d0cef3fcaf7e9f
+SHA256: b05d534a882c01ae995dd52e7fc9ccbb6b16291b0b1ddd88f77d29124a97d83a
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime compat for older CPU compatibility)
 
 Package: python-polars
-Version: 1.38.1
+Version: 1.39.3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 4648
+Installed-Size: 4712
 Depends: libc++, python, python-pip, python-polars-runtime-32 | python-polars-runtime-64 | python-polars-runtime-compat
-Filename: pool/tur/python-polars_1.38.1_aarch64.deb
-Size: 464124
-MD5sum: 6415af9bdd253f334dac59ffcaba68a7
-SHA1: 5da4461773ddcd89293689e10c27fa01b4809d91
-SHA256: 5bf8656ec0659fd5c835f5d8a1124cbcc07ddc3f3814f0cf3cbbd6fb266d596f
+Filename: pool/tur/python-polars_1.39.3_aarch64.deb
+Size: 471552
+MD5sum: b524cb066985068a76b51b4be31c373d
+SHA1: 898a34952b9e0639fc72d5ac69841ad99a8a3a71
+SHA256: 18054dab55a3738bf1721576f3a8aecb34796810052466eac4b1b01e61706d77
 Homepage: https://github.com/pola-rs/polars
 Description: Dataframes powered by a multithreaded, vectorized query engine, written in Rust
 
