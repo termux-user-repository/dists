@@ -161,31 +161,31 @@ Homepage: http://data.astrometry.net/
 Description: astrometry.net index data file 4115-4119, suitable for astro photos taken by phone main camera (AOV ~ 70 degrees)
 
 Package: astrometry.net-static
-Version: 0.97-1
+Version: 0.97-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 12148
-Depends: astrometry.net (= 0.97-1)
-Filename: pool/tur/astrometry.net-static_0.97-1_aarch64.deb
-Size: 2037464
-MD5sum: c45ed12aca78cedfe29ed3fc861fd307
-SHA1: 64b3ef50fc0476b911476fccd1b2100cf9adee70
-SHA256: 590cdba259641f71220ad03e7bbc39ba61875e2b6b546a6483f8355cf5a1afd6
+Depends: astrometry.net (= 0.97-2)
+Filename: pool/tur/astrometry.net-static_0.97-2_aarch64.deb
+Size: 2038356
+MD5sum: a4009f5750dc660ff7439f8fce39bf00
+SHA1: 56487a31a86d5b565f4b9736ca975e812d250240
+SHA256: de942a9283f91261e68ab6e841a71d97bdaad6ff5d8e6d607e39ee45c82dcce4
 Homepage: https://astrometry.net/
 Description: Static libraries for astrometry.net
 
 Package: astrometry.net
-Version: 0.97-1
+Version: 0.97-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 29532
+Installed-Size: 29524
 Depends: cfitsio, curl, file, libandroid-glob, libbz2, libcairo, libjpeg-turbo, libpng, netpbm, python, python-numpy, python-fitsio, swig, wcslib, zlib
 Suggests: astrometry.net-data-basic
-Filename: pool/tur/astrometry.net_0.97-1_aarch64.deb
-Size: 6556204
-MD5sum: 1b5d735a39744f7d648bd53684dff860
-SHA1: 1aa9390675677469709bc4920140c15b42c309b1
-SHA256: 975aae9e774058af117bd77b432c05516bb934d3d5ec00f2d559eeda6d9d04c3
+Filename: pool/tur/astrometry.net_0.97-2_aarch64.deb
+Size: 6558540
+MD5sum: fb934edda02166c7558dae6b806b0488
+SHA1: 360153be94cb9875652eafebd5c043930ad4a5d0
+SHA256: 1795858ee05bf566d44121be5944ebe6bcc9a8a61e92c935eed9c7b7395376a9
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
@@ -596,15 +596,15 @@ Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
 
 Package: codesnap
-Version: 0.13.1
+Version: 0.13.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 31208
-Filename: pool/tur/codesnap_0.13.1_aarch64.deb
-Size: 7575004
-MD5sum: 43f1ee86f6a7f71ace7c6991da662775
-SHA1: 1fd971f44bdf678cfd78b0e55ac9adbdb95fb133
-SHA256: 3ba55c47f15a05351acd06b7928e4da841330de6f17144db55e34161ddfccdaf
+Installed-Size: 31848
+Filename: pool/tur/codesnap_0.13.1-1_aarch64.deb
+Size: 7731176
+MD5sum: 14bf3fb596d25f5876338dcddd7ba50d
+SHA1: cf5635f7b3390e7e90e72ffadf04a983bc2a36c3
+SHA256: 52dc916fb2e9b499fafe9d42d9455a4f67174a39d03a47c867f7ea56e084ace6
 Homepage: https://github.com/mistricky/CodeSnap
 Description: Pure Rust tool to generate beautiful code snapshots, provide CLI and Library
 
@@ -4065,15 +4065,15 @@ Homepage: https://github.com/dreamworksanimation/openvdb
 Description: A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
 
 Package: optivorbis
-Version: 0.3.0
+Version: 0.3.0-1
 Architecture: aarch64
 Maintainer: @flosnvjx
-Installed-Size: 324
-Filename: pool/tur/optivorbis_0.3.0_aarch64.deb
-Size: 117992
-MD5sum: 3baf8f950f5c72c3c77d9d7276f9da5c
-SHA1: c2dcf13dad0e368f20663a74f22564ef026d6c95
-SHA256: e8d596808adeffb2d9a6bba7c2829e5cce5441f5247c5cb269c638178b0666a1
+Installed-Size: 596
+Filename: pool/tur/optivorbis_0.3.0-1_aarch64.deb
+Size: 221568
+MD5sum: ca36b734f6bd311029cf8d81c3d33809
+SHA1: 0d5c087e28d954d5aab8cc238f85d705fcfa63c7
+SHA256: 1a3c6c265c1dfe478011d4f19890b8c1d40fa87716a14133e96a0b495069519e
 Homepage: https://github.com/OptiVorbis/OptiVorbis
 Description: Vorbis optimizer that reconstruct ogg files to a smaller size, without losing any audio quality
 
@@ -4476,16 +4476,16 @@ Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
 Package: python-mitmproxy-wireguard
-Version: 0.1.23-4
+Version: 0.1.23-5
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 1612
 Depends: libc++, openssl, python
-Filename: pool/tur/python-mitmproxy-wireguard_0.1.23-4_aarch64.deb
-Size: 508000
-MD5sum: c578761997fa2f92fa1ce02b5a54649e
-SHA1: c5d3653fe34c5f3deee01e67c1540b2e33d4c1d0
-SHA256: 69a0de0445bd4452b9c3a6db57e70c5b38e304685d23e30658fa9d2b842c7f1b
+Filename: pool/tur/python-mitmproxy-wireguard_0.1.23-5_aarch64.deb
+Size: 508452
+MD5sum: 316417b9b56cad8b6bc89d4b0ff053b3
+SHA1: 79b6114265b4bea1fd00c2abd0b8867f141648bf
+SHA256: 30332f036bb6140b9d9fa4400c872c8546341d38a5cbf7e7d8cd4c2f4692cb04
 Homepage: https://github.com/decathorpe/mitmproxy_wireguard
 Description: WireGuard frontend for mitmproxy
 
@@ -4519,16 +4519,16 @@ Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python-pandas
-Version: 3.0.2
+Version: 3.0.2-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 52736
 Depends: libc++, python, python-numpy, python-pip
-Filename: pool/tur/python-pandas_3.0.2_aarch64.deb
-Size: 7148016
-MD5sum: 25bee3d2388fd9a9fc4e176b19811d5b
-SHA1: 82cb3717bc1640bbf78f8a877eec22795c3ed449
-SHA256: 1107cca316c9efc8e180308600fc774e99fb81e45560e907da7ec3fcf4bc1c2f
+Filename: pool/tur/python-pandas_3.0.2-1_aarch64.deb
+Size: 7150240
+MD5sum: 46f93b55d7997b08d8739c1a7c401a24
+SHA1: 9d0f17ea78bf06e5a641d77530f84994d856c11a
+SHA256: 30a307abbf4c42cf554eed7aa3c28dbfdb447b0288f7bf7b72617d105c9ca873
 Homepage: https://pandas.pydata.org/
 Description: Powerful Python data analysis toolkit
 
@@ -4547,58 +4547,58 @@ Homepage: https://github.com/python-pillow/Pillow
 Description: The friendly PIL fork (Python Imaging Library)
 
 Package: python-polars-runtime-32
-Version: 1.39.3
+Version: 1.39.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 159776
+Installed-Size: 159772
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-32_1.39.3_aarch64.deb
-Size: 24631268
-MD5sum: 5c76bbf1265f51e7ef37882499108207
-SHA1: 0b371664a47ec16dfe0cb0ab635cad2be0a256d8
-SHA256: deae3e25e93b0de91b850a2977876f7a95377dbb0c297074b34c203530e0bf25
+Filename: pool/tur/python-polars-runtime-32_1.39.3-1_aarch64.deb
+Size: 24632136
+MD5sum: 2d6299ef4a0c6a1758361c0e9806d2ef
+SHA1: 58b4187811a150ecaa1020901224992f4834a179
+SHA256: 1e53b17972f0ca06e1ff36b2091fa8ed5da59c716edbb1a44214c5717085ab9e
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime 32)
 
 Package: python-polars-runtime-64
-Version: 1.39.3
+Version: 1.39.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 158684
+Installed-Size: 158688
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-64_1.39.3_aarch64.deb
-Size: 24483088
-MD5sum: e4dc1b2229750302750ecb557721eb3e
-SHA1: f3baded15bbf29c14c74330da331adbf2b84d387
-SHA256: 53c92fe496f5ac05241c41b853ffe0ff52e5bec27b1f34716d39de35d55820f1
+Filename: pool/tur/python-polars-runtime-64_1.39.3-1_aarch64.deb
+Size: 24460708
+MD5sum: 56a159e5119ea29e53859fbd8999143b
+SHA1: a8ab6ad6c0224825dd75bdc8d60c72c94246e5a0
+SHA256: 54e4eeeb7d6cabfedbb4b5264be28ea52dec2dca551bc098345319dc86f32e05
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime 64 for large dataset support)
 
 Package: python-polars-runtime-compat
-Version: 1.39.3
+Version: 1.39.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 158684
 Depends: python, python-pip
-Filename: pool/tur/python-polars-runtime-compat_1.39.3_aarch64.deb
-Size: 24460448
-MD5sum: 6a4d1051fc093bac5a0f310e1bbde63a
-SHA1: a47ab7aa4160705a9dd00ce012d0cef3fcaf7e9f
-SHA256: b05d534a882c01ae995dd52e7fc9ccbb6b16291b0b1ddd88f77d29124a97d83a
+Filename: pool/tur/python-polars-runtime-compat_1.39.3-1_aarch64.deb
+Size: 24453860
+MD5sum: 9474652ac57b712037641f684093641a
+SHA1: 633c478831594bb486273f84fd850ee16a8b1858
+SHA256: 002188ea95d15473fcd2127999500f1d86ced77fc4f554dad6147ce9dcc5ce28
 Homepage: https://github.com/pola-rs/polars
 Description: Extremely fast Query Engine for DataFrames (runtime compat for older CPU compatibility)
 
 Package: python-polars
-Version: 1.39.3
+Version: 1.39.3-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 4712
 Depends: libc++, python, python-pip, python-polars-runtime-32 | python-polars-runtime-64 | python-polars-runtime-compat
-Filename: pool/tur/python-polars_1.39.3_aarch64.deb
-Size: 471552
-MD5sum: b524cb066985068a76b51b4be31c373d
-SHA1: 898a34952b9e0639fc72d5ac69841ad99a8a3a71
-SHA256: 18054dab55a3738bf1721576f3a8aecb34796810052466eac4b1b01e61706d77
+Filename: pool/tur/python-polars_1.39.3-1_aarch64.deb
+Size: 471612
+MD5sum: dc4cce8762ee8841fe242087df8e7fcf
+SHA1: ba45253ce356c73fdb727a866474f843b0b28395
+SHA256: d154a6fe62db11493a1e010ee8258517c79bd0f7bc3d1948a77bf425d4ec4486
 Homepage: https://github.com/pola-rs/polars
 Description: Dataframes powered by a multithreaded, vectorized query engine, written in Rust
 
@@ -4617,44 +4617,44 @@ Homepage: https://www.pycryptodome.org/
 Description: A self-contained Python package of low-level cryptographic primitives
 
 Package: python-pygame
-Version: 2.6.1-3
+Version: 2.6.1-4
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 7828
 Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.6.1-3_aarch64.deb
-Size: 1836748
-MD5sum: 0828aab47d043f495ba5d838a9bfaecd
-SHA1: 4fb00d358e91420c25a591fd9c58e8544e6f3d91
-SHA256: da134daf40826df7bef71a1853e8e17d228f2d08020f793a3b2470d0302e427a
+Filename: pool/tur/python-pygame_2.6.1-4_aarch64.deb
+Size: 1836380
+MD5sum: f40e7bf48a48bbbc279cc7b023fff6db
+SHA1: 18bd7b222d77cf78c3b84465334952cbcf3bb624
+SHA256: 527011f929aa979a67b51efd4a3702b4d55cf01b5a46becb283c556febeb84be
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
 Package: python-pywavelets
-Version: 1.9.0-2
+Version: 1.9.0-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 7808
 Depends: libc++, python, python-pip, python-numpy
-Filename: pool/tur/python-pywavelets_1.9.0-2_aarch64.deb
-Size: 3291760
-MD5sum: 49975a64e7686168f8cc43b24d4e1d11
-SHA1: 391c79cd398577f0903e0121a3c3d80ddc16e995
-SHA256: b0ec0eb022e59697272d08fd31a276ef003b911cf18edf629908930f31219743
+Filename: pool/tur/python-pywavelets_1.9.0-3_aarch64.deb
+Size: 3293188
+MD5sum: 33ef11ce74883802a81c4b85085e948d
+SHA1: 057a6e3812ffdbe5d7aaeedcd44d05f1c28e1636
+SHA256: e74ed168ff718d9102f0ac05fe722ecf3aacb0af45b12812f590c951e4ec4a3a
 Homepage: https://github.com/PyWavelets/pywt
 Description: Wavelet Transforms in Python
 
 Package: python-scikit-image
-Version: 0.26.0-2
+Version: 0.26.0-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 18796
 Depends: libandroid-complex-math, libc++, python, python-pip, python-numpy, python-pillow, python-pywavelets, python-scipy
-Filename: pool/tur/python-scikit-image_0.26.0-2_aarch64.deb
-Size: 8424832
-MD5sum: 4f7a9e2733177da817c29929b6f497be
-SHA1: c4e19f30039708c7b7b7320a535a7a6691a41b2b
-SHA256: c9bb21b237597b68df81425c714732c563039490ba7b023aefcac025a5500c90
+Filename: pool/tur/python-scikit-image_0.26.0-3_aarch64.deb
+Size: 8426744
+MD5sum: e23465f2cd8374ebf73601c25aa4891e
+SHA1: d8d69ad21d69bad675975c9d5538025e3473edb8
+SHA256: 15b7b2ca8c5131f59774ef1134ebd6d2ca8423d8d25ab7b0621d0482d5ce28d2
 Homepage: https://github.com/scikit-image/scikit-image
 Description: Image processing in Python
 
@@ -4790,16 +4790,16 @@ Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
 Package: python-tokenizers
-Version: 0.22.2-2
+Version: 0.22.2-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 7312
+Installed-Size: 7260
 Depends: libc++, python, python-pip
-Filename: pool/tur/python-tokenizers_0.22.2-2_aarch64.deb
-Size: 1630788
-MD5sum: cf133ff4e38659def65298d3030faa5e
-SHA1: 4a803266aab69eec3823125034e6033d22feb81b
-SHA256: be8bafe51c26846c5ab6ced073bcac858d1f57431fd5544529ef9a604bf85946
+Filename: pool/tur/python-tokenizers_0.22.2-3_aarch64.deb
+Size: 1629728
+MD5sum: a9dae1864b6819199888a30442a78c06
+SHA1: 20b9eea072d4b80115586c7700ae74cf40deec81
+SHA256: 72ab42b7ad726b22e291fe90f278b94caa289a991392e1ccc2992518905daeaf
 Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
@@ -6302,16 +6302,16 @@ Homepage: https://github.com/REAndroid/APKEditor
 Description: Android binary resource files editor
 
 Package: ardentryst
-Version: 20230615-1
+Version: 20230615-2
 Architecture: all
 Maintainer: @fervi
 Installed-Size: 31236
 Depends: python, python-pygame, python-future
-Filename: pool/tur/ardentryst_20230615-1_all.deb
-Size: 24731052
-MD5sum: aab3df177067fa81f79f3bc203f6d907
-SHA1: 05c48331459c7fc4f3db68693c11108e213c34e1
-SHA256: 3bed9cd56890ac88c0cd4f1c993afd06969e113f5be1823fecd69ab2bcdd05af
+Filename: pool/tur/ardentryst_20230615-2_all.deb
+Size: 24731372
+MD5sum: 35a685431bd22e573efa708d7f506e2c
+SHA1: dc91d7af23a46dabfe78661820d7b85405c604db
+SHA256: eeb0dddcf797e165840d76ee41a02d671ac8c5eb1c1efad0b4eab1b47812b69f
 Homepage: https://github.com/ardentryst/ardentryst
 Description: Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on story, and character development.
 
@@ -6637,16 +6637,16 @@ Homepage: https://github.com/AndreRH/hangover
 Description: Hangover runs simple Win64 and Win32 applications on arm64 Linux
 
 Package: itstool
-Version: 2.0.7-2
+Version: 2.0.7-3
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 172
 Depends: libxml2-python
-Filename: pool/tur/itstool_2.0.7-2_all.deb
+Filename: pool/tur/itstool_2.0.7-3_all.deb
 Size: 17548
-MD5sum: 02a6e2859b37075af1754e72c2c0e51f
-SHA1: dbbe9adae36ae339f9580fadbc6cc5da3f5da41d
-SHA256: e6530818d6aa8e4b6419df451d6ec13ed4a1077b34ef069e4319d698d7ec41bd
+MD5sum: 1b6ae9a4ad136c1aa51780e713ec4442
+SHA1: d0cf9b2c09881d15458533a2d8d35b2aa4361225
+SHA256: 39eb65a20e0b5f15f0909698a110179ef28ff89863b94c99c9496e198bd0ca73
 Homepage: https://itstool.org/
 Description: Translate XML with PO files using W3C Internationalization Tag Set rules
 
@@ -6980,16 +6980,16 @@ Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (metapackage)
 
 Package: termux-install
-Version: 1.1.1-1
+Version: 1.1.1-2
 Architecture: all
 Maintainer: @KrutosVIP
-Installed-Size: 112
+Installed-Size: 104
 Depends: python, wget, proot
-Filename: pool/tur/termux-install_1.1.1-1_all.deb
-Size: 5840
-MD5sum: 009f744f3f208ea2035129fb7516fa80
-SHA1: 8c509c615342f600874fdfbea0aa5cf702804849
-SHA256: 3592aad70f9b0bbb930d09242073d6de0cc03915f03ce39f6d4ebd7798490d68
+Filename: pool/tur/termux-install_1.1.1-2_all.deb
+Size: 5844
+MD5sum: 3002a95f5a98e38d2afe2c34922e1a06
+SHA1: 2471a7ebcea5f76164fab764a85123751976d04b
+SHA256: 6911709eaa0feb75e544dd815161c5cf01db1f1421e32a2257c9014e7e866659
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
