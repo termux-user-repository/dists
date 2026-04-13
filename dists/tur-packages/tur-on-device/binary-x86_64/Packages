@@ -390,6 +390,22 @@ SHA256: 3d771feee710bf36284c0ecce252b1bd80270d3434d58ab28e548d3c7a57a1a0
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
+Package: qt5-qmake
+Version: 5.15.18
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 3652
+Depends: qt5-qtbase
+Breaks: qt5-qtbase (<< 5.15.7)
+Replaces: qt5-qtbase (<< 5.15.7)
+Filename: pool/tur-on-device/qt5-qmake_5.15.18_x86_64.deb
+Size: 994248
+MD5sum: f5ba82fdad7e57937915b36574954b25
+SHA1: 0a1d517a83e8740d94dad987376bee5815c229bb
+SHA256: 561ab0fe6cc52b77d0009ba713e3544d9e4a61766e6fb90bfeb9675149e5ea52
+Homepage: https://www.qt.io/
+Description: Qt 5 QMake
+
 Package: r-base
 Version: 4.5.2-1
 Architecture: x86_64
