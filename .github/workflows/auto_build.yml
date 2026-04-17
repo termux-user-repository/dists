@@ -23,6 +23,9 @@ jobs:
            actor: 'kcubeterm'
            token: '${{ secrets.GH_TOKEN }}'
 
+      - name: Set up mutex
+        uses: ben-z/gh-action-mutex@v1.0.0-alpha.10
+
       - name: updating and signing releases file
         env:
             SEC_PASS: ${{ secrets.SEC_PASS }}
