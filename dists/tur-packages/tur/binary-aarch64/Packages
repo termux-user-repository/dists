@@ -5849,6 +5849,20 @@ SHA256: 7e2c3db922c5fccaa9354313cf5df0dd6dec973f5dc511612f4ee7f733e8b881
 Homepage: https://github.com/ivanceras/svgbob
 Description: Convert your ascii diagram scribbles into happy little SVG.
 
+Package: switcheroo
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5416
+Depends: gtk4, gdk-pixbuf, ghostscript, hicolor-icon-theme, libadwaita, imagemagick, glib, libheif, libiconv, libjpeg-turbo, libjxl, librsvg, libtiff, libwebp
+Filename: pool/tur/switcheroo_2.6.0_aarch64.deb
+Size: 1314132
+MD5sum: 5a30287fe6b77978a465b0211b992935
+SHA1: db3801e64f04e4150cb3b49061fb70d8f3b6dd7f
+SHA256: 7a295d216398b1171b40ac32de946522e8854528603ffa5bc3d807c527dd945e
+Homepage: https://apps.gnome.org/Converter/
+Description: Convert and manipulate images easily (GTK4/libadwaita frontend to ImageMagick)
+
 Package: tabby
 Version: 0.32.0
 Architecture: aarch64
