@@ -306,31 +306,31 @@ Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
 
 Package: pyside6-tools
-Version: 6.11.0-1
+Version: 6.11.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 504
-Depends: pyside6 (= 6.11.0-1)
-Filename: pool/tur-on-device/pyside6-tools_6.11.0-1_aarch64.deb
-Size: 117040
-MD5sum: dc029b598313100670fa4c327a5574fd
-SHA1: 5b4fdb793d293080a56ecc3b98564f74aa9e2c5a
-SHA256: c3b63a7e3323664e8a471a1be3b245776fb4071265ec37ae87f877932f52b915
+Depends: pyside6 (= 6.11.1)
+Filename: pool/tur-on-device/pyside6-tools_6.11.1_aarch64.deb
+Size: 116808
+MD5sum: db2f154635414a12bb049de1413ee418
+SHA1: 50dc844df7975bea576b9695d24d36eba46fa469
+SHA256: 3211368acf17caa54bf455b594a1601ab75eb29470ee0b81c11ec569b245998b
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Tools for PySide6
 
 Package: pyside6
-Version: 6.11.0-1
+Version: 6.11.1
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 44132
+Installed-Size: 44100
 Depends: clang, qt6-qtbase, libxml2, libxslt
 Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebchannel, qt6-qtwebsockets, qt6-shadertools
-Filename: pool/tur-on-device/pyside6_6.11.0-1_aarch64.deb
-Size: 7920476
-MD5sum: 94b4ac8ecbd005ed35fd712aec330770
-SHA1: e18d5836bd7537ae99cc1505efc5df15478ee67e
-SHA256: fddc21ed25682ec82202bc2862086e6e1f784fbb32efc5b70dda3652ffd1ad5e
+Filename: pool/tur-on-device/pyside6_6.11.1_aarch64.deb
+Size: 7902960
+MD5sum: 380f194708d5d3d8b0b28d274c8e1977
+SHA1: ae2658a83d1b4b96b2eddabc7341acf1dcc6931a
+SHA256: d37a420c918fdcda9cfa853ccc62a26583783945496c681ad41d01d6754e4223
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
@@ -520,16 +520,16 @@ Homepage: https://codeberg.org/schilytools/schilytools
 Description: Collection of miscellaneous utilities from the schilytools
 
 Package: shiboken6
-Version: 6.11.0-1
+Version: 6.11.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 4176
-Depends: pyside6 (= 6.11.0-1)
-Filename: pool/tur-on-device/shiboken6_6.11.0-1_aarch64.deb
-Size: 1095684
-MD5sum: d8c19727e2b2b2a73f9f552c68aa62b6
-SHA1: cdcb51cfca1aa63e55db2058578872667f224faa
-SHA256: 4ce5c130993690796b597b98522c6f217f9bc32924a0bb90543a124d1b28e46e
+Depends: pyside6 (= 6.11.1)
+Filename: pool/tur-on-device/shiboken6_6.11.1_aarch64.deb
+Size: 1098072
+MD5sum: f9ad28bb2b93dd50c15ce9e4b66f4482
+SHA1: 1a160322d3528cc0aeeba16787ef3aca910f2529
+SHA256: 24e746eb0408e9833d2bc5e3c311e6175be69af668395ba7a5cca43b04ee05b9
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Generates bindings for C++ using CPython source code
 
