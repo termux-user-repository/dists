@@ -1450,6 +1450,21 @@ SHA256: 319035abe4258aab572e04467ec3f66e83ea1ddb25bede603d53d01cb077c60d
 Homepage: http://gcc.gnu.org/
 Description: GNU C compiler
 
+Package: gcc-16
+Version: 16.1.0
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 306972
+Depends: binutils, libc++, libgmp, libmpfr, libmpc, libisl, zlib, ndk-sysroot-gcc-compact (>= 27b-3)
+Breaks: binutils-is-llvm
+Filename: pool/tur/gcc-16_16.1.0_aarch64.deb
+Size: 71337152
+MD5sum: aee42d618aa49c7bd3421b9059602fad
+SHA1: 5f2e3162421036e9c3c96db09c1e97312830aa1f
+SHA256: d68d5f69a720df21db516f208599547a4c4100148e0f8778f117cd1b6b81e415
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
+
 Package: gcc-9
 Version: 9.5.0-2
 Architecture: aarch64
