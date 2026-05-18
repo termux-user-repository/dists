@@ -5629,6 +5629,20 @@ SHA256: 15e8a3c320ce97877bc5f0dbbbd4199d4355c03b2775eac0251a5ba262a269b2
 Homepage: https://github.com/pymumu/smartdns
 Description: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH
 
+Package: solana
+Version: 3.1.14
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 156360
+Depends: libandroid-shmem, openssl, protobuf, zlib
+Filename: pool/tur/solana_3.1.14_x86_64.deb
+Size: 42858120
+MD5sum: 4a0c60dc3d7ee0f576b9553ba3f146e5
+SHA1: b16ef33e1fbb784d79ec6d3bea8b8cb50ba64fa8
+SHA256: 8fcd2fefffdf59b4aa2677ef0d1e99b6c683b2ee054c87e19f23c2966c5c048c
+Homepage: https://github.com/anza-xyz/agave
+Description: Solana CLI binaries package provides the essential tools to interact with the Solana blockchain, including solana-cli, spl-token, agave-validator etc.
+
 Package: sortix-rw
 Version: 1.0
 Architecture: x86_64
