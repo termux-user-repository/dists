@@ -1,42 +1,42 @@
 Package: blender4
-Version: 4.5.9
+Version: 4.5.10-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 235100
+Installed-Size: 235160
 Depends: alembic, boost, brotli, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender4_4.5.9_aarch64.deb
-Size: 66607092
-MD5sum: c1f584faa89c0e36f69fdb4568d7ef54
-SHA1: 0d8ae9b5096373f5791ebd5cffcaaf4c9fe2f13c
-SHA256: 4d92749ff6aff1c312383176300330af013ed8e9dce2820622ab4f8825808667
+Filename: pool/tur-on-device/blender4_4.5.10-1_aarch64.deb
+Size: 66595092
+MD5sum: 9de48b73efa298d7451f24b29afc665b
+SHA1: 1af6922d321a789911ed4186cabc725af869cce0
+SHA256: 07ca40378b8b5783aedd6cf63743c954b5e4593cf0aff14b44d14110ae566129
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
 
 Package: blender5
-Version: 5.1.0+really5.0.1-2
+Version: 5.1.0+really5.0.1-4
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 233600
+Installed-Size: 233652
 Depends: alembic, boost, brotli, desktop-file-utils, draco, ffmpeg, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender5_5.1.0+really5.0.1-2_aarch64.deb
-Size: 68478376
-MD5sum: cdcbc11dc97d33740fbe6eff199cac86
-SHA1: 74f5377626bcbe6d5f5ff347f683d30197462ed3
-SHA256: 455c808d0c6813e372d9a0529cd68a7646c970b11d0764a15bb98c54782e4d7a
+Filename: pool/tur-on-device/blender5_5.1.0+really5.0.1-4_aarch64.deb
+Size: 68491472
+MD5sum: 96b6032e7d083c76da60769cc109cf21
+SHA1: 518010f5564f69f818b34bed58dc5cb71c4c5967
+SHA256: 99be471a330d8eb60c868cf91ad5e4cf182569171b738edf9a00546a91c0bf18
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite
 
 Package: blender
-Version: 1:3.6.23-11
+Version: 1:3.6.23-13
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 187976
+Installed-Size: 187992
 Depends: alembic, boost, brotli, clang, desktop-file-utils, draco, ffmpeg7, fftw, freetype, glew, hicolor-icon-theme, imath, libandroid-execinfo, libandroid-posix-semaphore, libblosc, libc++, libepoxy, libharu, libllvm, libpng, libpugixml, libraw, libsndfile, libspnav, libtbb, libtiff, libwebp, libx11, libxfixes, libxi, libxkbcommon, libyaml-cpp, oidn, openal-soft, opencolorio, openexr, openimageio, openjpeg, openpgl, openshadinglanguage, opensubdiv, openvdb, openxr, potrace, ptex, python, python-numpy, python-pip, shaderc, shared-mime-info, usd, zlib, zstd
-Filename: pool/tur-on-device/blender_1:3.6.23-11_aarch64.deb
-Size: 50784004
-MD5sum: f1e9d34d5b4ec95bbeb9f4246611cd30
-SHA1: 1c56fa2d6773e5ae2401430dbe757b2e18edab55
-SHA256: b29fe68e72811d6f81f9b6f60a3b3d918ea0856b732ff1fef0815c450c71b5f6
+Filename: pool/tur-on-device/blender_1:3.6.23-13_aarch64.deb
+Size: 50781584
+MD5sum: 8718eb68b89c4fa38a1bba1e39d26831
+SHA1: de8bbe183eb64945a4032ea31e3c9ae931a4075c
+SHA256: 7f4a71c611fc88c8b83e2e3e3cc651db82d373cd486e1017722229dbe68224c1
 Homepage: https://www.blender.org
 Description: A fully integrated 3D graphics creation suite (legacy version)
 
@@ -602,16 +602,16 @@ Homepage: https://github.com/vanhauser-thc/thc-hydra
 Description: hydra
 
 Package: usd
-Version: 25.11-7
+Version: 26.05-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 173560
+Installed-Size: 180756
 Depends: alembic, draco, embree, fmt, glew, imath, libc++, libx11, libxt, materialx, libandroid-glob, libtbb, opencolorio, openexr, openimageio, openshadinglanguage, opensubdiv, openvdb, ptex, pyside6, python-opengl
-Filename: pool/tur-on-device/usd_25.11-7_aarch64.deb
-Size: 25388388
-MD5sum: c1a6c8da7b893e3253642acdba8def7b
-SHA1: 41234d603d2d0c103be11c3968ab8699b9b5443e
-SHA256: 595483d4bfcb88afc42907e58721e1afe3c0a2a47f28f38c5c4c691c68806836
+Filename: pool/tur-on-device/usd_26.05-1_aarch64.deb
+Size: 26250484
+MD5sum: 7d5bfaf378e4a8cc3f8101d567f5e90d
+SHA1: e7edcdb6b9c5a4ac724627858140d7bd9e4904b7
+SHA256: 6c57fcb745aa76d0a3e8f8fb86235781863784aa0e0de470b710975ff821b132
 Homepage: https://openusd.org/
 Description: High-performance extensible software platform for collaboratively constructing animated 3D scenes
 
