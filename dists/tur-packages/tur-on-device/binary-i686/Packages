@@ -380,16 +380,16 @@ Homepage: https://codeberg.org/schilytools/schilytools
 Description: Collection of miscellaneous utilities from the schilytools
 
 Package: shader-slang
-Version: 2026.9.1
+Version: 2026.9.1-1
 Architecture: i686
 Maintainer: @otreblan
 Installed-Size: 38760
-Depends: spirv-tools,lz4,glslang,libandroid-spawn
-Filename: pool/tur-on-device/shader-slang_2026.9.1_i686.deb
-Size: 10023780
-MD5sum: 4c6367ed8c211d3cf7ea17c2d88382c1
-SHA1: 09da7ac79aa181762d3d98993b270b7b3032199e
-SHA256: 0363f7d0d83833d7806cbf955059efcc3ea46d1358bc1d84a92b798f26354f41
+Depends: glslang, libandroid-spawn, libc++, lz4, spirv-tools
+Filename: pool/tur-on-device/shader-slang_2026.9.1-1_i686.deb
+Size: 10021936
+MD5sum: 77309323a3dcc1fbed35155e6544464b
+SHA1: e4eb46e38be3a6bd02e336db71fac4c7bf03dee2
+SHA256: f33007ce022d9394c3c1f8783aa702b82545a9032828ef5f8b150ba27080306c
 Homepage: https://github.com/shader-slang/slang
 Description: Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion
 
