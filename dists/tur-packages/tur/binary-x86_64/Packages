@@ -3130,6 +3130,23 @@ SHA256: 80d1c8f4751f7f80e1f9e78f1dadac2b1b5bc0a9a628f44cc05ae2a51a052d71
 Homepage: https://sf.net/p/libwpd/librevenge/
 Description: library for REVerses ENGineered formats filters
 
+Package: librime-with-lua
+Version: 1.16.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 3604
+Depends: boost, google-glog, leveldb, libc++, libopencc, libyaml-cpp, marisa, lua54
+Conflicts: librime
+Replaces: librime
+Provides: librime
+Filename: pool/tur/librime-with-lua_1.16.1_x86_64.deb
+Size: 855368
+MD5sum: d91509f5b96ff94991d2ba4ddd83c455
+SHA1: b0dc2b07b8f6cbef468e466223d24f5b4a6ebb5d
+SHA256: 3c4c90f95c7f1d1d50cbae8e6e0456f6d8b0bb73a000b414c2b9227aa0a569d1
+Homepage: https://rime.im/
+Description: Rime input method engine with the Lua plugin built in
+
 Package: libspnav-static
 Version: 1.2
 Architecture: x86_64
