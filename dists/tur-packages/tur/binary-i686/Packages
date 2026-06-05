@@ -695,16 +695,16 @@ Homepage: https://github.com/okineadev/dotload
 Description: This is a tool for installing dotfiles and other tools on any machine
 
 Package: doukutsu-rs
-Version: 0.102.0-beta7-0
+Version: 1.0.0
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 6460
-Depends: libc++, sdl2, sdl2-image
-Filename: pool/tur/doukutsu-rs_0.102.0-beta7-0_i686.deb
-Size: 1747040
-MD5sum: 7febeb721eab49ef994ea3073ac72f03
-SHA1: 8eabc3fbc21e3dbda36f554b9247fa10bd7cc543
-SHA256: 26d2eb7668c72b62f061c1f0c38e52caf79c02d51d298237172e93a42663f1f7
+Installed-Size: 7024
+Depends: alsa-lib, alsa-plugins, libc++, sdl2, sdl2-image, xdg-utils
+Filename: pool/tur/doukutsu-rs_1.0.0_i686.deb
+Size: 2020824
+MD5sum: d4dbe9dcd8d253e2d8854b478a47e505
+SHA1: fbfa15faaffe71a8501c69ab36a7d55373578073
+SHA256: b9f79eb3ffe3e0fc7ab406361f23e5ccc21fc98da348a61e5e2de47ff934e3b7
 Homepage: https://github.com/doukutsu-rs/doukutsu-rs
 Description: A faithful and open-source remake of Cave Story's engine written in Rust
 
