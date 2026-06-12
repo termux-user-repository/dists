@@ -3954,6 +3954,36 @@ SHA256: 2618d8a177a2c7e7a4405c41a82f52591812a555b27b7e93dc237165fac9ddc9
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
+Package: openjdk-26-x
+Version: 26.0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 14948
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-26 (= 26.0.1)
+Filename: pool/tur/openjdk-26-x_26.0.1_x86_64.deb
+Size: 12895072
+MD5sum: 6e1825e834940a6ef14e24defb9d7cc0
+SHA1: cda3ac909cfc4af6d43e222a11805633aba96bf6
+SHA256: 350b67e7def7d31c538065ba2cce9e0d7a088ac45872ddffd4ae1e9c83daf22e
+Homepage: https://openjdk.java.net
+Description: Portion of openjdk-26 requiring X11 functionality
+
+Package: openjdk-26
+Version: 26.0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 270724
+Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
+Recommends: ca-certificates-java, openjdk-26-x, resolv-conf
+Suggests: cups
+Filename: pool/tur/openjdk-26_26.0.1_x86_64.deb
+Size: 121329216
+MD5sum: dfd55fead88c5e56ddc1dca9ea372bd9
+SHA1: f9f1923d54d639bf38155ecf0a61326a7ac5ee99
+SHA256: dc95f3531289c2b253475ac3b077087d819efd9b216cd495715da20680a82508
+Homepage: https://openjdk.java.net
+Description: Java development kit and runtime
+
 Package: openslide
 Version: 4.0.1
 Architecture: x86_64
@@ -6797,6 +6827,19 @@ SHA1: f2d360447c5653d7730fc3a470b183d5710662da
 SHA256: 10453dde15d7a519644fe525063605ba2e36e304a2e9cd749c70992962cd4018
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-11
+
+Package: openjdk-26-source
+Version: 26.0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 52980
+Filename: pool/tur/openjdk-26-source_26.0.1_all.deb
+Size: 49626336
+MD5sum: aaf6712708e9a8328e8907bd19c4d863
+SHA1: 80f4c7118f3b7d1fbe053056352baf0c85cec66f
+SHA256: 821fdd2e19309ea23d681b2dac6a94c080cfd3af4029535212c1d93e5ccd01ca
+Homepage: https://openjdk.java.net
+Description: Source files for openjdk-26
 
 Package: python-ensurepip-wheels
 Version: 3.13.12-3
