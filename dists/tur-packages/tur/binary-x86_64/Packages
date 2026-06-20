@@ -652,16 +652,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.4-1
+Version: 0.4-2
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 1424
+Installed-Size: 1408
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.4-1_x86_64.deb
-Size: 405176
-MD5sum: 9cb9d19dfbfa19312fff2609d55e36bc
-SHA1: 063dcab0585d2316020150a792232fe8d95e8e19
-SHA256: 7c58a2b9c8c537ce50c71384a3276f370a04e53311be21604a9ad5c2182d181d
+Filename: pool/tur/comcom64_0.4-2_x86_64.deb
+Size: 404564
+MD5sum: f6b2b5c61eae718db61c167db87d45ce
+SHA1: 510f205f985c9c9126825852f3ba33f4ae8feb75
+SHA256: bec1c12e38c1d5d4c758455bda6c4d9a87b476ebb4bdb14669fd888ec0d0dbc0
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -841,16 +841,16 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.4-1
+Version: 0.4-2
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 16604
+Installed-Size: 16172
 Depends: pkg-config, libelf
-Filename: pool/tur/dj64dev_0.4-1_x86_64.deb
-Size: 3449660
-MD5sum: 7a7e858eead1f86b21bce3934402938b
-SHA1: e2147f5e99e12fcaeb3605827516789eaa48b8b2
-SHA256: 681f0f47e99064454b759845c90abbf2833a7bfa3e9324901965fed04da9ef09
+Filename: pool/tur/dj64dev_0.4-2_x86_64.deb
+Size: 3327896
+MD5sum: b435027b1e11ad71224ce0f0c8c7d41e
+SHA1: 95abeaa6b106cd6ec37d7da053dc9895c7034c98
+SHA256: 9c65409fbafa3aa71edb5949e630c73548a9a7fcde7e690ebbe4c5246996b64e
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
 
@@ -1135,16 +1135,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.10
+Version: 1.10-1
 Architecture: x86_64
 Maintainer: @stsp
-Installed-Size: 1476
+Installed-Size: 1456
 Depends: libelf
-Filename: pool/tur/fdpp_1.10_x86_64.deb
-Size: 408588
-MD5sum: 43d5f7771d108e9fc74d5cfc888aa625
-SHA1: ca8d23d2dff05a7ad43754b706d3cf040b03ea0c
-SHA256: 8f3150a2aebc60908a8f35e4a4a8fa19550b3c4e708269274326867ec3685e17
+Filename: pool/tur/fdpp_1.10-1_x86_64.deb
+Size: 402508
+MD5sum: df8e97516fae09f222c3a198748da50b
+SHA1: 2c8346bdbc6304433fbb6617a5e0a2feb13e4f9d
+SHA256: c421a11e936d50769cf2f9a4e9bfd440fc764efd759e77f72e6d9c44b9eff351
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -5956,17 +5956,30 @@ SHA256: e69c7b035a0da6d2b8d76d299d697ce0d1a0f32cf9d4c145093f58ede9fc0cc1
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
+Package: thunk-gen-cross
+Version: 1.10-1
+Architecture: x86_64
+Maintainer: @stsp
+Installed-Size: 164
+Filename: pool/tur/thunk-gen-cross_1.10-1_x86_64.deb
+Size: 29172
+MD5sum: 58a87b926321e16464c90084b943c354
+SHA1: 253ede963d184872d0a9983a21307cdbe6195194
+SHA256: 9c02a93407f78efe7ae88925a0755e847b8c04e44dd61241c0c81f58ffd302e4
+Homepage: https://github.com/stsp/thunk_gen
+Description: thunk-gen for host (NOT for Termux)
+
 Package: thunk-gen
-Version: 1.10
+Version: 1.10-1
 Architecture: x86_64
 Maintainer: @stsp
 Installed-Size: 116
 Depends: bash, autoconf, pkg-config
-Filename: pool/tur/thunk-gen_1.10_x86_64.deb
-Size: 15096
-MD5sum: c4877970e6deb5702cb756b58aaae29c
-SHA1: f7723b0db779339ae7fe9353e225d8731219e6ca
-SHA256: 69c8887e1de12f1d672b4e30957e46edd46c0ebfa3a72346a8de4da8941273a1
+Filename: pool/tur/thunk-gen_1.10-1_x86_64.deb
+Size: 15104
+MD5sum: b3902c059577f9b007b287ba5ad67b0b
+SHA1: fbc4900552c04f1f02ea0b35d2f591d0110df96e
+SHA256: ac4c33d4a978d057ccf223dc84c584e144871c0a60403f7f5f97f3dec8afb0dc
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
 
@@ -7152,20 +7165,6 @@ SHA1: 2471a7ebcea5f76164fab764a85123751976d04b
 SHA256: 6911709eaa0feb75e544dd815161c5cf01db1f1421e32a2257c9014e7e866659
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
-
-Package: thunk-gen-cross
-Version: 1.10
-Architecture: all
-Maintainer: @stsp
-Installed-Size: 164
-Depends: thunk-gen (= 1.10)
-Filename: pool/tur/thunk-gen-cross_1.10_all.deb
-Size: 29152
-MD5sum: d56b49e9a21fe1e9b75f1f3a51f10a2a
-SHA1: e0f7ec1b2bc6f779e02470addb1b0b1c74199ae4
-SHA256: 437b708b039c58d70d184c4d235224efc79d867a6a04247f389b85dffcec0b93
-Homepage: https://github.com/stsp/thunk_gen
-Description: thunk-gen for host (NOT for Termux)
 
 Package: vulkan-headers
 Version: 1.3.285
