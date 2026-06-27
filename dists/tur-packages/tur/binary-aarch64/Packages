@@ -3980,62 +3980,62 @@ Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
 Package: openjdk-11-x
-Version: 11.0.30
+Version: 11.0.31-1
 Architecture: aarch64
-Maintainer: @termux
-Installed-Size: 14628
-Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.30)
-Filename: pool/tur/openjdk-11-x_11.0.30_aarch64.deb
-Size: 12466192
-MD5sum: 90132f29f9c52eebb05f03a194acb31f
-SHA1: 8bb92050e171f1c67f3dae360c48663ff22e9016
-SHA256: a309e765e986f37a0feb98998de5abb5a18ead3a8fc8aa9f80bb212d9d8b69b2
+Maintainer: @termux-user-repository
+Installed-Size: 14708
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.31-1)
+Filename: pool/tur/openjdk-11-x_11.0.31-1_aarch64.deb
+Size: 12511060
+MD5sum: 3b360e1669ce0a6d20d31874ce28c21c
+SHA1: 78e94aa28347c09570413c9988c6da904cb0faa6
+SHA256: 654fa65c117cc17f2e2e28ac84b11540b8b2c474f873e45ebf8dbfe4f43f9f3e
 Homepage: https://openjdk.java.net
 Description: Portion of openjdk-11 requiring X11 functionality
 
 Package: openjdk-11
-Version: 11.0.30
+Version: 11.0.31-1
 Architecture: aarch64
-Maintainer: @termux
-Installed-Size: 237780
+Maintainer: @termux-user-repository
+Installed-Size: 237808
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
 Recommends: ca-certificates-java, openjdk-11-x, resolv-conf
 Suggests: cups
-Filename: pool/tur/openjdk-11_11.0.30_aarch64.deb
-Size: 100333260
-MD5sum: 59e95e709b4bc19ae2cc2d8a5f81ddfc
-SHA1: 6c034e99a0181cb242e1185b286411e3372e1f13
-SHA256: b7be96f851ef1206edf87523bbd7198a8730c8576fd269ac57bd7cc2ad48f69f
+Filename: pool/tur/openjdk-11_11.0.31-1_aarch64.deb
+Size: 100766940
+MD5sum: 7b9ae46b04f637b5f1c482f01a8ecaaa
+SHA1: cc6adc1adbed032a3f1b17ea41dac5b2e77de287
+SHA256: 1ed51100c2f68df1d3c75815f1ce8eef1e0e55bf4fb32e2437283632c8fb6e6f
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
 Package: openjdk-26-x
-Version: 26.0.1
+Version: 26.0.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 14848
-Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-26 (= 26.0.1)
-Filename: pool/tur/openjdk-26-x_26.0.1_aarch64.deb
-Size: 12701488
-MD5sum: a5009afc0ef86b5b6e124859cb7d8ee9
-SHA1: 7ee76f62cd2de992044a296c83da86100729dea3
-SHA256: 76d98b5d1b53cf04a0193528fe969a001fd0a0609051326efa13381d55df434c
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-26 (= 26.0.1-1)
+Filename: pool/tur/openjdk-26-x_26.0.1-1_aarch64.deb
+Size: 12701036
+MD5sum: f002c9236bf757f84c671a78dae7125e
+SHA1: 57c9ca6bd3292a414f88375794fbc8359fda0dff
+SHA256: de24c9764a378dbf4f9bb6a5bfcf3751074e310cd85724b42ffb83bfdfb68eea
 Homepage: https://openjdk.java.net
 Description: Portion of openjdk-26 requiring X11 functionality
 
 Package: openjdk-26
-Version: 26.0.1
+Version: 26.0.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 265704
+Installed-Size: 265700
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
 Recommends: ca-certificates-java, openjdk-26-x, resolv-conf
 Suggests: cups
-Filename: pool/tur/openjdk-26_26.0.1_aarch64.deb
-Size: 119093292
-MD5sum: 7b280a260b92d8c7f54b37504d9a039c
-SHA1: a15d868c392cdb8f83d27a22ebc23bc5c1d9df53
-SHA256: c4be8d1801701b8b1d7ae550899ed3742db9f0c2e8d6f6c1335217c340d6d395
+Filename: pool/tur/openjdk-26_26.0.1-1_aarch64.deb
+Size: 119432448
+MD5sum: 9446c740e09071b1a3810e85a6410021
+SHA1: a20dcaea74857c92e1d9017a9b2fb895d0b8681f
+SHA256: a7d834a15233a828a2c64aa34a6d944a967a810fb7b26b7d0477ec79c83028fa
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
@@ -6952,28 +6952,28 @@ Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
 Package: openjdk-11-source
-Version: 11.0.30
+Version: 11.0.31-1
 Architecture: all
-Maintainer: @termux
-Installed-Size: 57080
-Filename: pool/tur/openjdk-11-source_11.0.30_all.deb
-Size: 52148872
-MD5sum: 9c30d9d876590666603173208bae4f40
-SHA1: f2d360447c5653d7730fc3a470b183d5710662da
-SHA256: 10453dde15d7a519644fe525063605ba2e36e304a2e9cd749c70992962cd4018
+Maintainer: @termux-user-repository
+Installed-Size: 57084
+Filename: pool/tur/openjdk-11-source_11.0.31-1_all.deb
+Size: 52270760
+MD5sum: 29d347e47588f7e9e669868780295a1a
+SHA1: af4a18729ca874453696dbca88237ebe6d93322d
+SHA256: 69ae30cf51ca94ae7a1abb454f82e5b4abbcd9456ea1e53a5e64f88a84a20356
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-11
 
 Package: openjdk-26-source
-Version: 26.0.1
+Version: 26.0.1-1
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 52980
-Filename: pool/tur/openjdk-26-source_26.0.1_all.deb
-Size: 49626336
-MD5sum: aaf6712708e9a8328e8907bd19c4d863
-SHA1: 80f4c7118f3b7d1fbe053056352baf0c85cec66f
-SHA256: 821fdd2e19309ea23d681b2dac6a94c080cfd3af4029535212c1d93e5ccd01ca
+Filename: pool/tur/openjdk-26-source_26.0.1-1_all.deb
+Size: 49720592
+MD5sum: 3d287003e1301f3caf95669b25f0e49d
+SHA1: 156ccfab1cef1d1a78c007e0ec902880f4e71caa
+SHA256: c57c17fd4905ef828e6d941a7490bd0002cbfc8c985b1c3c3a88458c86908559
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-26
 
