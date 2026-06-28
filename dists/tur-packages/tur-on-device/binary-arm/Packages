@@ -166,31 +166,31 @@ Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
 
 Package: pyside6-tools
-Version: 6.11.1-1
+Version: 6.11.1-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 504
-Depends: pyside6 (= 6.11.1-1)
-Filename: pool/tur-on-device/pyside6-tools_6.11.1-1_arm.deb
-Size: 116796
-MD5sum: ef47dedd10e982d1150fe3129069279e
-SHA1: 01c52ef2f673b2844b995e04a3d5ec6869f229ec
-SHA256: c32cd92f8e48a7624c1d457ed3e7707ffa0a64fbee5fbc588cc2a0956d0e066e
+Depends: pyside6 (= 6.11.1-2)
+Filename: pool/tur-on-device/pyside6-tools_6.11.1-2_arm.deb
+Size: 116792
+MD5sum: f615ce5c9a8195e7a0721b1c2d89f5cf
+SHA1: b46fe8d87fc4241493517cc16943f8c5167b12f1
+SHA256: 74108f9fd68d42daf3d24b54562400c6e1b318a15bb11ec14ab70181325571d1
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Tools for PySide6
 
 Package: pyside6
-Version: 6.11.1-1
+Version: 6.11.1-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 33000
-Depends: clang, qt6-qtbase, libxml2, libxslt
+Depends: libc++, python, qt6-qtbase, qt6-qtdeclarative, shiboken6
 Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebchannel, qt6-qtwebsockets, qt6-shadertools
-Filename: pool/tur-on-device/pyside6_6.11.1-1_arm.deb
-Size: 6776172
-MD5sum: 95a457787922a62ddee27f36a187760b
-SHA1: 9fdb03ea47c2dcaf57b43cc6d36477b79b2cd84d
-SHA256: 0038a631c4b443bddac5f60b94e67c5c3020b92893859b30e5990d0639a0a94c
+Filename: pool/tur-on-device/pyside6_6.11.1-2_arm.deb
+Size: 6776128
+MD5sum: 7f19a73ce88ec3738783a92298366462
+SHA1: 1435c304c79838f98e52b35d9aac5061a7707ab0
+SHA256: c94097c94cd15e6ef5c6a1a31ae864caea0d8244fc033ccf1ce79ef0050e1863
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
@@ -394,15 +394,16 @@ Homepage: https://github.com/shader-slang/slang
 Description: Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion
 
 Package: shiboken6
-Version: 6.11.1-1
+Version: 6.11.1-2
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 3140
-Filename: pool/tur-on-device/shiboken6_6.11.1-1_arm.deb
-Size: 1062804
-MD5sum: c7802a5d98d2c1d062438742588c0c7e
-SHA1: ddf7e70a27be2b18f3701cd332bda2f88cf892c4
-SHA256: 4c70831aa1617b24bcfa18f2c0e4a0a7c1f5d47a29542b1d0642ed622a387335
+Depends: clang, qt6-qtbase, libxml2, libxslt
+Filename: pool/tur-on-device/shiboken6_6.11.1-2_arm.deb
+Size: 1062712
+MD5sum: 7a9c2ee2ff4f88a168a1b290549ff6a0
+SHA1: 48b507648927a05571f20b2f82aaa51e00aa5bb1
+SHA256: 3390f7f9d97c1e2e5e3b1ed0969e8e3a3fc815512e15d658200a4a3883af8356
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Generates bindings for C++ using CPython source code
 

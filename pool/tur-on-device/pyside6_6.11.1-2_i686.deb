@@ -1,15 +1,15 @@
 Package: pyside6
-Version: 6.11.1-1
+Version: 6.11.1-2
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 48508
-Depends: clang, qt6-qtbase, libxml2, libxslt
+Depends: libc++, python, qt6-qtbase, qt6-qtdeclarative, shiboken6
 Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebchannel, qt6-qtwebsockets, qt6-shadertools
-Filename: pool/tur-on-device/pyside6_6.11.1-1_i686.deb
-Size: 7922920
-MD5sum: 5e49ee726a1d31da7a072e880f5f31de
-SHA1: 2f1645dc287ea91bf2253f2d0581f4a1b42fbe1e
-SHA256: 8d01cbe1c64177cd8c555302db5451fa451e6564273600905a7b83f61da94b74
+Filename: pool/tur-on-device/pyside6_6.11.1-2_i686.deb
+Size: 7916020
+MD5sum: 5dee05c9bd1b27003075b9e9c9c98f51
+SHA1: 23041490d12f21c5c124dc8e5291444c2991a433
+SHA256: de6b24cae4ba401579b1744c297d4a89ee980756ac8c088984a3d313b9ce8feb
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
