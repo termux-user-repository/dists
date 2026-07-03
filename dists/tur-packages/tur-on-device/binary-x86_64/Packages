@@ -195,16 +195,16 @@ Homepage: http://lpsolve.sourceforge.net/
 Description: a Mixed Integer Linear Programming (MILP) solver
 
 Package: materialx
-Version: 1.39.4-3
+Version: 1.39.4-5
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 154260
+Installed-Size: 154136
 Depends: libc++, opencolorio, opengl, openimageio, python, zenity
-Filename: pool/tur-on-device/materialx_1.39.4-3_x86_64.deb
-Size: 83645356
-MD5sum: 511fa784004d7c7583ab0f4b8c0bd469
-SHA1: f49a75ef2df6d262f118db171152e8118fc23925
-SHA256: a9deb60f8a77d22ec805d0f5802b8ef4cd57f37ec1bfd9fa7c057d1bd7c93ec4
+Filename: pool/tur-on-device/materialx_1.39.4-5_x86_64.deb
+Size: 83669356
+MD5sum: c9352ab65567e5753e7dc1c5c1fe1a73
+SHA1: bb4f257999be441a5726bdd752dbf558a6a2fc6e
+SHA256: 64ef2a6408b7616cf084a1debccf45e6cc9302254ddafdba31120e588dbf0fbb
 Homepage: https://materialx.org/
 Description: Open standard for the exchange of rich material and look-development content in computer graphics
 
@@ -237,16 +237,16 @@ Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
 Package: openshadinglanguage
-Version: 1.15.1.0-2
+Version: 1.15.1.0-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 6224
 Depends: freetype, imath, libc++, libpng, libtiff, ncurses, openimageio, python, qt6-qtbase, zlib
-Filename: pool/tur-on-device/openshadinglanguage_1.15.1.0-2_x86_64.deb
-Size: 1549004
-MD5sum: c51284f824aadf525d7a4157ded70cb9
-SHA1: 271082a13cd8905a87bb4e27ffb5223aa3dc6090
-SHA256: 4d370b6551e5571dff9c6f1128f60bbc536ec8eebd92c2c505906de9827f936d
+Filename: pool/tur-on-device/openshadinglanguage_1.15.1.0-4_x86_64.deb
+Size: 1549184
+MD5sum: f97c2a42ef5603478813f3d12a43289c
+SHA1: 0ac7d40787e11f4c5a6fe7f6bd992c462f9e86c0
+SHA256: 39bb2737397b8a526b5bc867d344a54e24892543cdb7fe1ebc8e42ef5a9bf2f5
 Homepage: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
 Description: Advanced shading language for production GI renderers
 
@@ -306,31 +306,31 @@ Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
 
 Package: pyside6-tools
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 504
-Depends: pyside6 (= 6.11.1-2)
-Filename: pool/tur-on-device/pyside6-tools_6.11.1-2_x86_64.deb
-Size: 116796
-MD5sum: b2a94bc88030dfb2a6f46353b0d0a1eb
-SHA1: 24de1182835f88fd6a6dbea3fae7174fa75d02cb
-SHA256: abaff1a738323350022675a3a7c4ceecabe2441cfe7cf38574504d9b565da9aa
+Depends: pyside6 (= 6.11.1-4)
+Filename: pool/tur-on-device/pyside6-tools_6.11.1-4_x86_64.deb
+Size: 116776
+MD5sum: fc8a32e4285041bec8f9528fbd111edb
+SHA1: c653344dcd930dbaa6b305b4a15080424da63dac
+SHA256: f6aaa4779a7c676b59a3ee92879d64d6ed9646f72203e04f4343bd2cae7bacdc
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Tools for PySide6
 
 Package: pyside6
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 46100
+Installed-Size: 46120
 Depends: libc++, python, qt6-qtbase, qt6-qtdeclarative, shiboken6
 Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebchannel, qt6-qtwebsockets, qt6-shadertools
-Filename: pool/tur-on-device/pyside6_6.11.1-2_x86_64.deb
-Size: 7823264
-MD5sum: f04c28a1bb7e92410ffac30e1d0caa23
-SHA1: e0c5dff0d35e6c13904c2c7436dd3edf19fef833
-SHA256: ee67d04bd586db4f4b5882950fca441f2a0426ddcb4da063618b6ce636dfa9a5
+Filename: pool/tur-on-device/pyside6_6.11.1-4_x86_64.deb
+Size: 7825616
+MD5sum: 3155ab4f70efff4a6d0ffe545ec02d0c
+SHA1: 5e34bad6fbbe8f24716335a8c1d82112458fa2f3
+SHA256: 384012838a099e93467d47a1de1ff52159a61bdae378408d2bf9cc8f8cea95a7
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
@@ -520,30 +520,30 @@ Homepage: https://codeberg.org/schilytools/schilytools
 Description: Collection of miscellaneous utilities from the schilytools
 
 Package: shader-slang
-Version: 2026.10.2-1
+Version: 2026.10.2-3
 Architecture: x86_64
 Maintainer: @otreblan
-Installed-Size: 52208
+Installed-Size: 52244
 Depends: glslang, libandroid-spawn, libc++, lz4, spirv-tools
-Filename: pool/tur-on-device/shader-slang_2026.10.2-1_x86_64.deb
-Size: 10784920
-MD5sum: 646c89ad84cd9bfa87f8dfa997be5350
-SHA1: 74484580edd50a82ef12e0c0cf1c305f838a655e
-SHA256: a1e6a5a98ec05b6d4416ad09f3d48eaf164c2b514ad0a6e56390cf583a7aba42
+Filename: pool/tur-on-device/shader-slang_2026.10.2-3_x86_64.deb
+Size: 10776724
+MD5sum: 66524e45441caacd855dcd409419bfd5
+SHA1: 385a6633296d64fe49959ad3d0ac13c4621367f8
+SHA256: 586c4aa8ec7356a9a5205da24e105aaa855613b54e42c75fe0a3490cbf24c880
 Homepage: https://github.com/shader-slang/slang
 Description: Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion
 
 Package: shiboken6
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 4144
+Installed-Size: 4148
 Depends: clang, qt6-qtbase, libxml2, libxslt
-Filename: pool/tur-on-device/shiboken6_6.11.1-2_x86_64.deb
-Size: 1172956
-MD5sum: 378397034bbd223c6190dd76f4077a62
-SHA1: 159971792b93567386575270f260f71fd475363e
-SHA256: c1de2f1c97042ffa2371bf29a401584a34fbec9932faec9aa8783b41bffe5baa
+Filename: pool/tur-on-device/shiboken6_6.11.1-4_x86_64.deb
+Size: 1175592
+MD5sum: 0f1f83277eeac5eff6fade3dd6e39617
+SHA1: b5efebf7e5b757cfedf51d5f0c91abde28fd2631
+SHA256: 875de71e8292868b0fbc160d5688c839654d02bdd62f661d5a1bd5311d4e9fc9
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Generates bindings for C++ using CPython source code
 
@@ -616,16 +616,16 @@ Homepage: https://github.com/vanhauser-thc/thc-hydra
 Description: hydra
 
 Package: usd
-Version: 26.05-1
+Version: 26.05-3
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 180064
+Installed-Size: 180268
 Depends: alembic, draco, embree, fmt, glew, imath, libc++, libx11, libxt, materialx, libandroid-glob, libtbb, opencolorio, openexr, openimageio, openshadinglanguage, opensubdiv, openvdb, ptex, pyside6, python-opengl
-Filename: pool/tur-on-device/usd_26.05-1_x86_64.deb
-Size: 27566504
-MD5sum: 742141a42aceb1019ce8c62d9fe5c69b
-SHA1: 4524d65ef9907f34b734a3a29afcff5d45aaaeae
-SHA256: 8cd49ea33e7d1f4b3a3ace644a8265f04d0995c28b16024b625b31db7c4dbf34
+Filename: pool/tur-on-device/usd_26.05-3_x86_64.deb
+Size: 27662292
+MD5sum: cb512f61b472b81b9daf9656cd81a191
+SHA1: df48b8f9a93ff5dd1af27c183fb99288274ac350
+SHA256: 0c5f74f9215c11f20de551026821999c0ba1d918fbfc0a2e2b628689bc6a21dc
 Homepage: https://openusd.org/
 Description: High-performance extensible software platform for collaboratively constructing animated 3D scenes
 

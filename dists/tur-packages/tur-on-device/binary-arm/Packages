@@ -111,16 +111,16 @@ Homepage: http://lpsolve.sourceforge.net/
 Description: a Mixed Integer Linear Programming (MILP) solver
 
 Package: materialx
-Version: 1.39.4-3
+Version: 1.39.4-5
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 150836
+Installed-Size: 150708
 Depends: libc++, opencolorio, opengl, openimageio, python, zenity
-Filename: pool/tur-on-device/materialx_1.39.4-3_arm.deb
-Size: 80416344
-MD5sum: 80653fd7b3aa670c8d23dcb4c48920ac
-SHA1: f440b57ba3b8db7756ed38610a1b2d7fe23fee7d
-SHA256: 4e2e7f51226ad5585048414a96dbe2e1aac8bd12406d031a88505a802f0b0fe7
+Filename: pool/tur-on-device/materialx_1.39.4-5_arm.deb
+Size: 80247172
+MD5sum: 7e61626173d810b21268fa5fbb322b52
+SHA1: a93ca1914c19f7477f773ff8615240ba845912c6
+SHA256: 63beb54af301063eeabdb6dde7b833639ffe4ae671aa61cf728d2643ee1937ef
 Homepage: https://materialx.org/
 Description: Open standard for the exchange of rich material and look-development content in computer graphics
 
@@ -166,31 +166,31 @@ Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
 
 Package: pyside6-tools
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 504
-Depends: pyside6 (= 6.11.1-2)
-Filename: pool/tur-on-device/pyside6-tools_6.11.1-2_arm.deb
-Size: 116792
-MD5sum: f615ce5c9a8195e7a0721b1c2d89f5cf
-SHA1: b46fe8d87fc4241493517cc16943f8c5167b12f1
-SHA256: 74108f9fd68d42daf3d24b54562400c6e1b318a15bb11ec14ab70181325571d1
+Depends: pyside6 (= 6.11.1-4)
+Filename: pool/tur-on-device/pyside6-tools_6.11.1-4_arm.deb
+Size: 116772
+MD5sum: 4bbcf8df3942276a3668eac3944e480f
+SHA1: 8f9f73ab7d194608cbfe2abae2eb7f533a51f5a2
+SHA256: 9130a7466ab8c08083f4012869756043eeb96bd1e67798784aa1d591ce584c14
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Tools for PySide6
 
 Package: pyside6
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 33000
+Installed-Size: 33004
 Depends: libc++, python, qt6-qtbase, qt6-qtdeclarative, shiboken6
 Recommends: qt6-qtcharts, qt6-qtmultimedia, qt6-qtnetworkauth, qt6-qtscxml, qt6-qtsvg, qt6-qttranslations, qt6-qtwebchannel, qt6-qtwebsockets, qt6-shadertools
-Filename: pool/tur-on-device/pyside6_6.11.1-2_arm.deb
-Size: 6776128
-MD5sum: 7f19a73ce88ec3738783a92298366462
-SHA1: 1435c304c79838f98e52b35d9aac5061a7707ab0
-SHA256: c94097c94cd15e6ef5c6a1a31ae864caea0d8244fc033ccf1ce79ef0050e1863
+Filename: pool/tur-on-device/pyside6_6.11.1-4_arm.deb
+Size: 6773000
+MD5sum: 480dfe6c962d078a1a0434ab40c76220
+SHA1: 53cc1bcce91216506bc68d8c47e6f75c524336e4
+SHA256: 74abd0e820a12893bacc1c14faf094cf7b4f5d3c474c54de47f16ef97fd17066
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
@@ -380,30 +380,30 @@ Homepage: https://codeberg.org/schilytools/schilytools
 Description: Collection of miscellaneous utilities from the schilytools
 
 Package: shader-slang
-Version: 2026.10.2-1
+Version: 2026.10.2-3
 Architecture: arm
 Maintainer: @otreblan
-Installed-Size: 48120
+Installed-Size: 48156
 Depends: glslang, libandroid-spawn, libc++, lz4, spirv-tools
-Filename: pool/tur-on-device/shader-slang_2026.10.2-1_arm.deb
-Size: 10296268
-MD5sum: 112d94740808092a7036cfc35b9158f6
-SHA1: a1504edf02497b231ff395e1ef7d7648943f87cb
-SHA256: c91676883795eb5fca98535b41bf2af8096dcc529eaaa0b2bc6cee2e25d631a0
+Filename: pool/tur-on-device/shader-slang_2026.10.2-3_arm.deb
+Size: 10301868
+MD5sum: cdf52193ebda0f020022ee024b449a0d
+SHA1: a55d8dbae99588d4d0ea1de4defdd65feb256bda
+SHA256: 5f4dc4f6a974ce4c5c3fb649fd58554d8f009a7c80b7680ef7d8d0c39f2060d4
 Homepage: https://github.com/shader-slang/slang
 Description: Shading language that makes it easier to build and maintain large shader codebases in a modular and extensible fashion
 
 Package: shiboken6
-Version: 6.11.1-2
+Version: 6.11.1-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 3140
+Installed-Size: 3144
 Depends: clang, qt6-qtbase, libxml2, libxslt
-Filename: pool/tur-on-device/shiboken6_6.11.1-2_arm.deb
-Size: 1062712
-MD5sum: 7a9c2ee2ff4f88a168a1b290549ff6a0
-SHA1: 48b507648927a05571f20b2f82aaa51e00aa5bb1
-SHA256: 3390f7f9d97c1e2e5e3b1ed0969e8e3a3fc815512e15d658200a4a3883af8356
+Filename: pool/tur-on-device/shiboken6_6.11.1-4_arm.deb
+Size: 1063732
+MD5sum: 9e2bdaf1c2f0fa535fd003c909ea6e49
+SHA1: f0fe5a5378c53cee178201b698cf244f1dea0307
+SHA256: e89d106c74374ee4bdc0ae2b1a85ce9c25e8e4b1dec35982550f9a1308c0f6ec
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Generates bindings for C++ using CPython source code
 
