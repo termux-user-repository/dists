@@ -3600,6 +3600,20 @@ SHA256: a8631f60b445962e47dd9aa8d749f74e34b018c60ddfd6654e1361590cd3fab6
 Homepage: https://meli.delivery/
 Description: Terminal e-mail client and e-mail client library
 
+Package: memtest-vulkan
+Version: 0.5.0
+Architecture: aarch64
+Maintainer: わたあめえ <wataamee777@gmail.com>
+Installed-Size: 764
+Depends: vulkan-loader-generic
+Filename: pool/tur/memtest-vulkan_0.5.0_aarch64.deb
+Size: 252688
+MD5sum: 3df39a9064763f9883e2bd3e7a490895
+SHA1: 6b33c79013bc9929c7e4335b3203f9fa212d6463
+SHA256: b7db7e86688f1de1f21adabae534c37c1239f2ca720998738c47aebfb3896fec
+Homepage: https://github.com/GpuZelenograd/memtest_vulkan
+Description: Vulkan compute tool for testing video memory stability
+
 Package: mesa-zink-vulkan-icd-freedreno
 Version: 22.0.5-5
 Architecture: aarch64
