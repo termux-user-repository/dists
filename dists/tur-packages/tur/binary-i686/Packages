@@ -161,45 +161,45 @@ Homepage: http://data.astrometry.net/
 Description: astrometry.net index data file 4115-4119, suitable for astro photos taken by phone main camera (AOV ~ 70 degrees)
 
 Package: astrometry.net-static
-Version: 0.97-2
+Version: 0.97-3
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 8756
-Depends: astrometry.net (= 0.97-2)
-Filename: pool/tur/astrometry.net-static_0.97-2_i686.deb
-Size: 2312848
-MD5sum: 96c3756e5da91bfb24873188183a6c5e
-SHA1: fd6b6fadaac4a6b2b57963a01912fc3d29793f82
-SHA256: 92f70ce677819298eb8df1005c38856185f11d144dc68464cc3a75bd75bc505c
+Installed-Size: 8852
+Depends: astrometry.net (= 0.97-3)
+Filename: pool/tur/astrometry.net-static_0.97-3_i686.deb
+Size: 2329044
+MD5sum: 6d697ebc4cffbd97cd9e3a4510d5ab36
+SHA1: 771576f435dab3c300dc2efe422a21ecdc6977c7
+SHA256: 7f2ebfaac6da99a004cab1c259fb98357c00674e1ddba512e0e9f1534269521e
 Homepage: https://astrometry.net/
 Description: Static libraries for astrometry.net
 
 Package: astrometry.net
-Version: 0.97-2
+Version: 0.97-3
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 37144
+Installed-Size: 37748
 Depends: cfitsio, curl, file, libandroid-glob, libbz2, libcairo, libjpeg-turbo, libpng, netpbm, python, python-numpy, python-fitsio, swig, wcslib, zlib
 Suggests: astrometry.net-data-basic
-Filename: pool/tur/astrometry.net_0.97-2_i686.deb
-Size: 7050428
-MD5sum: aca584a6670d1756cb30a762dcbee397
-SHA1: d0827dcb77573c29f53c0b0d46c28adfa58867e5
-SHA256: bf4d6e4849470500e0e7de058478ab1d5c40dc971f8fb9157adc05b2cc82cef7
+Filename: pool/tur/astrometry.net_0.97-3_i686.deb
+Size: 7330604
+MD5sum: b74f189c669221dc39a1e166ee555f0c
+SHA1: 7b2309c077f5f29780db03fa878c88312d8b21c1
+SHA256: 30df4221e2ed01378460dc1c91d90a49c760b2c818467b780a352b01d859b72c
 Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
 Package: beets
-Version: 2.12.0
+Version: 2.12.0-1
 Architecture: i686
 Maintainer: @mrtnvgr
 Installed-Size: 2556
 Depends: cmake, python, python-pip, python-numpy, rust
-Filename: pool/tur/beets_2.12.0_i686.deb
+Filename: pool/tur/beets_2.12.0-1_i686.deb
 Size: 434700
-MD5sum: dee4e810adf63ad2ff23ecf7f75b4e6d
-SHA1: d3876c5f6ec22f5c4185b54e1b93232486c8f8f1
-SHA256: 7ce05246e03818aaec936e8bbaa09aacb3b8b48d5e67e904ef879ad9b916848a
+MD5sum: 9add8c0316219a4fea108b8a910a7abd
+SHA1: d4481c990ba5def0d24d8bc3836f42022147a79b
+SHA256: 51c4f0d6540dda22628e15053ffb7b968c936f59cf77ac3a16417bde02b2acec
 Homepage: https://beets.io
 Description: The music geek's media organizer
 
@@ -653,16 +653,16 @@ Homepage: https://github.com/stsp/djstub
 Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
 Package: dlib
-Version: 20.0.1
+Version: 20.0.1-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 11132
+Installed-Size: 11148
 Depends: libx11, libxcb, libopenblas, libpng, libjpeg-turbo, libjxl, libwebp, python
-Filename: pool/tur/dlib_20.0.1_i686.deb
-Size: 2543172
-MD5sum: bcd22d6edda93e6068eee8816cdc8e19
-SHA1: b0b06e89a8061d4dd98d2b824b9a512838e7f14d
-SHA256: 45be5b0bc890d31655934d181a14f4ed7b87ba2600bc60bfef04c7614e1151f6
+Filename: pool/tur/dlib_20.0.1-1_i686.deb
+Size: 2546508
+MD5sum: d9d195012669ff2523c69f6a635c1cfc
+SHA1: 37d39e97ebf278843111c177aaba667537aa884f
+SHA256: 674570f7e8723dd7b9ccf407396785009b49103cd94827b92dfca0498455a276
 Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
@@ -3880,16 +3880,16 @@ Homepage: https://cryptography.io/
 Description: cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 
 Package: python-fitsio
-Version: 1.4.0
+Version: 1.4.0-1
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 960
 Depends: cfitsio, python, python-pip, python-numpy
-Filename: pool/tur/python-fitsio_1.4.0_i686.deb
-Size: 173792
-MD5sum: 0c7127860aaba769361c1e374fc32084
-SHA1: 8c1f41ff83e6cf0d0644ebf80e7087064f4a2231
-SHA256: abdcb22087e672df8e071a0940a828b304fb9238e5f3ee55fbe711bb6aceb53c
+Filename: pool/tur/python-fitsio_1.4.0-1_i686.deb
+Size: 173760
+MD5sum: d9c80af94d6d1d9071e87f5597c21b2c
+SHA1: 5879244e50608a85aeb1f5c8f71c80e94d89f999
+SHA256: 8caec1ea6e5bb23329492550dff600ed1e02df93d4c15667cb063702003458ac
 Homepage: https://github.com/esheldon/fitsio
 Description: A python package for FITS input/output wrapping cfitsio
 
@@ -3974,30 +3974,30 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
 Package: python-kivy
-Version: 2.3.1-1
+Version: 2.3.1-2
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 23372
+Installed-Size: 23376
 Depends: mtdev, opengl, python, python-pillow, python-pip, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-kivy_2.3.1-1_i686.deb
-Size: 11432496
-MD5sum: 0587423868f958a001a0f2b62c76b364
-SHA1: 63f23664bde7c46837edab253345b0ea06fd12dd
-SHA256: e0743430d0be46c454ea173e0dc9b468abc2378e4af8da4077c526b0632de7e8
+Filename: pool/tur/python-kivy_2.3.1-2_i686.deb
+Size: 11432684
+MD5sum: 347715c96742fcb84b5faafda50c3687
+SHA1: 3ce723f9d1d11c9dea5ba7df9cf1b937a75273fa
+SHA256: fe2d34f773e82949cd5391d23fc4e20ae6213b29c60ac4f80dbf755df2720491
 Homepage: https://kivy.org/
 Description: Open source UI framework written in Python
 
 Package: python-mitmproxy-wireguard
-Version: 0.1.23-5
+Version: 0.1.23-6
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 1764
+Installed-Size: 1736
 Depends: libc++, openssl, python
-Filename: pool/tur/python-mitmproxy-wireguard_0.1.23-5_i686.deb
-Size: 618692
-MD5sum: 7b365115c2f081ff2073ee4258a86d96
-SHA1: 6d3631c83cc646bd04f46779792dd113bbd4ddc6
-SHA256: c5feda97493d45eb8ca442c7451f0db2f2cde00ab829a0a90c37760176237701
+Filename: pool/tur/python-mitmproxy-wireguard_0.1.23-6_i686.deb
+Size: 613904
+MD5sum: cbf3497c0df50fcca3d20a36f0aaf8e4
+SHA1: 683adf5be7a5f2293c5b1c0f0a5f5334f7254282
+SHA256: 211c46adc3f1abfa17b1d942d861cfc1d22fd5e0ef1923160eaf59c72ecba0f1
 Homepage: https://github.com/decathorpe/mitmproxy_wireguard
 Description: WireGuard frontend for mitmproxy
 
@@ -4031,16 +4031,16 @@ Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
 Package: python-pandas
-Version: 3.0.4
+Version: 3.0.4-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 54312
+Installed-Size: 54364
 Depends: libc++, python, python-numpy, python-pip
-Filename: pool/tur/python-pandas_3.0.4_i686.deb
-Size: 7084968
-MD5sum: f44e9bfb84644f8559963469e4b6feac
-SHA1: f1269e55d55a46cf1e37b9f0e1ac3b1feeb82ec4
-SHA256: d6db073738de31293046efbec6a4fbfd6a6ab139d81e6291e7cc4c075abe8e73
+Filename: pool/tur/python-pandas_3.0.4-1_i686.deb
+Size: 7094060
+MD5sum: 5436c0f41be3c45435237943e0db14bf
+SHA1: fc016ea1c2ebcbbf34e391819cfe615819c188c2
+SHA256: 64691851a6b1cc0a11d276b182e4535e931e85caf31c3ee2fab5ca9ad3087e69
 Homepage: https://pandas.pydata.org/
 Description: Powerful Python data analysis toolkit
 
@@ -4073,44 +4073,44 @@ Homepage: https://www.pycryptodome.org/
 Description: A self-contained Python package of low-level cryptographic primitives
 
 Package: python-pygame
-Version: 2.6.1-4
+Version: 2.6.1-5
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 7736
+Installed-Size: 7740
 Depends: x11-repo, freetype, portmidi, python, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf
-Filename: pool/tur/python-pygame_2.6.1-4_i686.deb
-Size: 1843016
-MD5sum: 59096225ec04bff26b8634769b47e4d9
-SHA1: 0ef701190a2b999d137abbe121935dd002c5244a
-SHA256: 4f9c2085b204f801b753eca6809b570a3d9e7bce1be0ce6f629bb32968d82bb2
+Filename: pool/tur/python-pygame_2.6.1-5_i686.deb
+Size: 1844212
+MD5sum: a2a4aeb95322adb688cfb8786543622b
+SHA1: 2792b665cf47cda1f78cce5f17eaa8f89a911724
+SHA256: a3b37984982dd72d73281cbbb10d749d4e1c8f5d8193396974e0994cc48562f6
 Homepage: https://pygame.org/
 Description: pygame is a python game library
 
 Package: python-pywavelets
-Version: 1.9.0-3
+Version: 1.9.0-4
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 7836
+Installed-Size: 7840
 Depends: libc++, python, python-pip, python-numpy
-Filename: pool/tur/python-pywavelets_1.9.0-3_i686.deb
-Size: 3290508
-MD5sum: fa86159d1e253e211989b15242bb4b9d
-SHA1: 326916ff712341d67214c028091e6c8e23098e56
-SHA256: 1f5da6b149be73727d510151b5ae6144693890b6051afd6ba47aeff042b63c09
+Filename: pool/tur/python-pywavelets_1.9.0-4_i686.deb
+Size: 3286916
+MD5sum: 88ae71642b2f794aad09312b26593817
+SHA1: 347ef55d01d2455a1b0e84d6326defe99f0f4fa3
+SHA256: 67b64d6bec00a33c383a8d93f3b49d455feda778156ef6b4d37e3ec4b877d9ff
 Homepage: https://github.com/PyWavelets/pywt
 Description: Wavelet Transforms in Python
 
 Package: python-scikit-image
-Version: 0.26.0-3
+Version: 0.26.0-4
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 19512
+Installed-Size: 19548
 Depends: libandroid-complex-math, libc++, python, python-pip, python-numpy, python-pillow, python-pywavelets, python-scipy
-Filename: pool/tur/python-scikit-image_0.26.0-3_i686.deb
-Size: 8241996
-MD5sum: 1e4a7acf8fc098ade57ec1f4fcbeb567
-SHA1: 6c476f54520fc6f968309e26d5ceedd5dd5c1faa
-SHA256: 5cb4fdfcce84ccd4b3203fe1c25acec5acce35a2d24cf1874e48366fe804a4be
+Filename: pool/tur/python-scikit-image_0.26.0-4_i686.deb
+Size: 8248924
+MD5sum: cbf5421b9216a727d233a24335c7384e
+SHA1: dbe2fe11b1952353c73b77f1534c6bf1a57eef7d
+SHA256: 8b1554622c97e1b3dce188025f7544fa59f4c739df62ad236b3ebe537f9415c6
 Homepage: https://github.com/scikit-image/scikit-image
 Description: Image processing in Python
 
@@ -4146,44 +4146,44 @@ Homepage: https://scipy.org/
 Description: Static libraries for python-scipy
 
 Package: python-scipy
-Version: 1:1.18.0
+Version: 1:1.18.0-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 84604
+Installed-Size: 84660
 Depends: libandroid-complex-math, libc++ (>= 29), libopenblas, python, python-numpy, python-pip
-Filename: pool/tur/python-scipy_1:1.18.0_i686.deb
-Size: 18776656
-MD5sum: 1ffe1cfbadfe3dc2eb44836f7154526c
-SHA1: a23645a66413fc766e84cd9b1ebe264ed6cd5bb7
-SHA256: 3b3b9e8d6f51569f366390840ed281cba025dfc6cfc7f8b841c69df7e4370697
+Filename: pool/tur/python-scipy_1:1.18.0-1_i686.deb
+Size: 18918344
+MD5sum: de38f9467cde5eab0cfb7a210833ffca
+SHA1: 75ed75330dd1f6671baeb3bb17d67fcd3a415421
+SHA256: 588636b6513ed2cc718982882d0bd3934d8f47b75521179c6e8c5c3db6215454
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
 
 Package: python-seledroid
-Version: 1.1.0-4
+Version: 1.1.0-5
 Architecture: i686
 Maintainer: @nacho00112
-Installed-Size: 168
+Installed-Size: 176
 Depends: python, seledroid-app
-Filename: pool/tur/python-seledroid_1.1.0-4_i686.deb
-Size: 9468
-MD5sum: eef102a045f9c7841e402909a74ea0b5
-SHA1: 376a8a9b3709a2b0578a3e6c320d40d22fe564fd
-SHA256: bbdabc11b400a48751d71c1aefedf426736e423bc323c3ed0077a41bb9d2cc78
+Filename: pool/tur/python-seledroid_1.1.0-5_i686.deb
+Size: 9480
+MD5sum: 536a114dc62fad9fc48fabcf7367426d
+SHA1: 9b7a112e7efada8caa43fc6bd0e3f9d4853c80cf
+SHA256: ddec611f594971759ae2dc0347e59ac2c9f06970dd23f9f72012f420bab1b123
 Homepage: https://github.com/luanon404/seledroid
 Description: Python library to control android webdriver.
 
 Package: python-selenium-is-seledroid
-Version: 4.10.0-3
+Version: 4.10.0-4
 Architecture: i686
 Maintainer: @nacho00112
-Installed-Size: 80
+Installed-Size: 88
 Depends: python, python-seledroid
-Filename: pool/tur/python-selenium-is-seledroid_4.10.0-3_i686.deb
-Size: 2728
-MD5sum: 4222363ead11b2136fe1044407a34b4c
-SHA1: 2ba54ea06f91ad4aa7a19aa61317f5cfce04f899
-SHA256: ffa7db6b59a3d4dddbd6439ffdc8946508b1d9ea141de4e38c0333c9f870d4e1
+Filename: pool/tur/python-selenium-is-seledroid_4.10.0-4_i686.deb
+Size: 2740
+MD5sum: d53db3e4ac4fe0f7025d3d554ca22823
+SHA1: 5b77ca3df43b2bc6b3cf92fdd6973e5a292b3502
+SHA256: 2ca97a3127a623b83c2a334ae5605820b7d0b5396320c311242b582eb94b4996
 Homepage: https://github.com/nacho00112/tur
 Description: A browser automation framework and ecosystem. This dummy selenium uses seledroid as his backend.
 
@@ -4202,16 +4202,16 @@ Homepage: https://python.org/
 Description: Static libraries for python
 
 Package: python-tiktoken
-Version: 0.12.0-2
+Version: 0.13.0-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 2520
+Installed-Size: 2588
 Depends: libc++, python, python-pip
-Filename: pool/tur/python-tiktoken_0.12.0-2_i686.deb
-Size: 764188
-MD5sum: 9115142879357afc7ea4a82ddaa7eab1
-SHA1: 0e5b6f43298893d677334c84917f241ee74e71cb
-SHA256: de59f5dc83170557ba4f4725ffec8ab4c3c54856338c7779c4bf23b465156255
+Filename: pool/tur/python-tiktoken_0.13.0-1_i686.deb
+Size: 781080
+MD5sum: 57b391aeb6d3dfeb7fc23397e0e99d7a
+SHA1: 8cf743327cf0f8ee433bc1c8849debb3315e7f6e
+SHA256: cb70a0a47c1c1450f565fb341d3bc97d612134d031016182e6118b4bc3e0c8de
 Homepage: https://github.com/openai/tiktoken
 Description: A fast BPE tokeniser for use with OpenAI's models
 
@@ -4232,30 +4232,30 @@ Homepage: https://python.org/
 Description: Tkinter support for Python 3
 
 Package: python-tls-client
-Version: 1.0.1-3
+Version: 1.0.1-4
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 164
+Installed-Size: 172
 Depends: libc++, python, lib-tls-client
-Filename: pool/tur/python-tls-client_1.0.1-3_i686.deb
-Size: 14088
-MD5sum: 625f6853d558fd560a6a042dd5ec5477
-SHA1: 99da4662c77257362d4547e15aa7cb205e869f31
-SHA256: 8acf936d40f4caa3d167b22ccc3a7def3b3bc8ab61e76f6d4e5117e581636249
+Filename: pool/tur/python-tls-client_1.0.1-4_i686.deb
+Size: 14096
+MD5sum: 3e347a9df1ae031961eb47747f2609e3
+SHA1: 38cd8d269323d30248a2b1c4b4a222b6c044a1cd
+SHA256: 18596943541f2522013899560f49cd9951bd69ddc6850e60ac7df974036dec56
 Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
 Package: python-tokenizers
-Version: 0.23.1
+Version: 0.23.1-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 8216
+Installed-Size: 8196
 Depends: libc++, python, python-pip
-Filename: pool/tur/python-tokenizers_0.23.1_i686.deb
-Size: 2087556
-MD5sum: 4ee01092169e55fc9154ff708d8e15e9
-SHA1: 1586a95324afaeb0d414d3d8da87556718a8da08
-SHA256: 24efe636c00763be17983525c5462bfc9db76c2d5e91b53f14d809929e0faf14
+Filename: pool/tur/python-tokenizers_0.23.1-1_i686.deb
+Size: 2086056
+MD5sum: 5fa1a03c64a991ff7180f4a4c919a184
+SHA1: 434a742dfc2ec0be45b007695c7bb1392ba401df
+SHA256: ad3709e9eb076dadaa5a404ded42263c65b2fd00b8eaeafffb57d62b30e30e5c
 Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
@@ -6254,16 +6254,16 @@ Homepage: https://github.com/AndreRH/hangover
 Description: Hangover runs simple Win64 and Win32 applications on arm64 Linux
 
 Package: itstool
-Version: 2.0.7-3
+Version: 2.0.7-4
 Architecture: all
 Maintainer: @termux-user-repository
 Installed-Size: 172
 Depends: libxml2-python
-Filename: pool/tur/itstool_2.0.7-3_all.deb
-Size: 17548
-MD5sum: 1b6ae9a4ad136c1aa51780e713ec4442
-SHA1: d0cf9b2c09881d15458533a2d8d35b2aa4361225
-SHA256: 39eb65a20e0b5f15f0909698a110179ef28ff89863b94c99c9496e198bd0ca73
+Filename: pool/tur/itstool_2.0.7-4_all.deb
+Size: 17556
+MD5sum: b7f0c5ce0befa41891d5babe6e0385a4
+SHA1: 2278f23b0150a90b8efcd4a686a99734ba40d230
+SHA256: 34cc4591ddcd04852b97394c6f3c47f0f444784bf0d5dbc1c2b3a6ddc0331f83
 Homepage: https://itstool.org/
 Description: Translate XML with PO files using W3C Internationalization Tag Set rules
 
@@ -6341,30 +6341,30 @@ Homepage: https://python.org/
 Description: Wheels for Python ensurepip
 
 Package: python-future
-Version: 0.18.2-4
+Version: 0.18.2-5
 Architecture: all
 Maintainer: @fervi
 Installed-Size: 2280
 Depends: python
-Filename: pool/tur/python-future_0.18.2-4_all.deb
-Size: 336224
-MD5sum: ade6d1f7a91a6d0ddefaca03e60e7d56
-SHA1: 8044e3b02d3aa103674edb4f8d12854def54ece2
-SHA256: 3bb829f8acb577663b8bf85feb29e7ec2c48984b7501d65f0c9d708ad7d42140
+Filename: pool/tur/python-future_0.18.2-5_all.deb
+Size: 336196
+MD5sum: 1b2a9ff5b3336dea22f8c9da6ad6c58e
+SHA1: 4901e118cc71392a8bd102e77228edb959ad215f
+SHA256: b46b83252633235fb4a0c6921a55f218c572ec548c022914513b89602d9bae9e
 Homepage: https://python-future.org
 Description: Clean single-source support for Python 3 and 2
 
 Package: python-opengl
-Version: 3.1.6-4
+Version: 3.1.6-5
 Architecture: all
 Maintainer: @fervi
 Installed-Size: 14960
 Depends: python, mesa
-Filename: pool/tur/python-opengl_3.1.6-4_all.deb
-Size: 668640
-MD5sum: e315bd3bf5ed84b816ea7bac10894f23
-SHA1: a779a995564068d1f6409ed5f96ebd68d02ce231
-SHA256: 03c66ff2ecbae16a77b913eb0df66844bf4c6fd4e5d0c76a1127d23fa000efca
+Filename: pool/tur/python-opengl_3.1.6-5_all.deb
+Size: 668648
+MD5sum: b2e77bd43a5a7e476c77a440faaabcd1
+SHA1: e5a462c32991012c21d5811d5017706a675760e7
+SHA256: 2463a5aca303ad72c02580f083bc3e8e7e51bb05dfd60fce2f2d69e0956df83b
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
@@ -6623,16 +6623,16 @@ Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (metapackage)
 
 Package: termux-install
-Version: 1.1.1-2
+Version: 1.1.1-3
 Architecture: all
 Maintainer: @KrutosVIP
-Installed-Size: 104
+Installed-Size: 112
 Depends: python, wget, proot
-Filename: pool/tur/termux-install_1.1.1-2_all.deb
-Size: 5844
-MD5sum: 3002a95f5a98e38d2afe2c34922e1a06
-SHA1: 2471a7ebcea5f76164fab764a85123751976d04b
-SHA256: 6911709eaa0feb75e544dd815161c5cf01db1f1421e32a2257c9014e7e866659
+Filename: pool/tur/termux-install_1.1.1-3_all.deb
+Size: 5852
+MD5sum: 1f7fe51631cec75c930fb781acb6d384
+SHA1: c377a7bb8931c6d60da05ebc5831f896a001b6cd
+SHA256: af2c01fbd7cdb168d954c2ebcf54d34dd6c2f342c930fac621f86fee31efa4b2
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
