@@ -4101,6 +4101,22 @@ SHA256: 0837215b0fd429bc651744101ca5d27b138ac78c4352b47c96f7f1794305343b
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.11
 
+Package: python-is-python3.13
+Version: 3.13.13
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 36
+Depends: python3.13 (= 3.13.13)
+Conflicts: python
+Breaks: python
+Filename: pool/tur/python-is-python3.13_3.13.13_arm.deb
+Size: 2096
+MD5sum: 3ab8afd0a6ebd0a63291ca05889ee460
+SHA1: 580cde405c3d8b8014100955c998217b515955a3
+SHA256: 4abc4a624c8cdd1c8196f286a501d4514e9251bbac73b42283aade04c1ab4acf
+Homepage: https://python.org/
+Description: Symlinks python(3) to python3.13
+
 Package: python-is-python3.7
 Version: 3.7.17
 Architecture: arm
@@ -4563,6 +4579,62 @@ SHA1: fd3bf85d5c2261e8153bdf5999241a7a1f5f5034
 SHA256: 4e858b667ecd81bbda31d86c0d470e0e6b5837552b6da0932f012eadb015ae17
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.11)
+
+Package: python3.13-cross
+Version: 3.13.13
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 253400
+Filename: pool/tur/python3.13-cross_3.13.13_arm.deb
+Size: 48633004
+MD5sum: 42ce32f2468e4188edec3b8c7af81c94
+SHA1: 29eb56b3abea74d98a20062b3de9c1d0f8f224eb
+SHA256: 51a69a72fd087d6a4e5731f2411528099900b9c85ba1ba1f31134cdfe9de45b7
+Homepage: https://python.org/
+Description: Python 3.13 for cross build on the host (NOT for Termux)
+
+Package: python3.13-static
+Version: 3.13.13
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 29996
+Depends: python3.13 (= 3.13.13)
+Filename: pool/tur/python3.13-static_3.13.13_arm.deb
+Size: 6818284
+MD5sum: 462bbb4baa35d944730d45d66c8751c0
+SHA1: aba186b7e90894a674c632010221cada8fea6edf
+SHA256: 27aed19d2840f72b91f21a7d37d55e5f6bf6fbd52d436f479b61ecc1766bcb38
+Homepage: https://python.org/
+Description: Static libraries for python3.13
+
+Package: python3.13-tkinter
+Version: 3.13.13
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2608
+Depends: tcl, tk, python3.13 (= 3.13.13)
+Filename: pool/tur/python3.13-tkinter_3.13.13_arm.deb
+Size: 505148
+MD5sum: b59177873d9b1a645b326b7033be06b8
+SHA1: ffde2906d45b7ae9223a55919964f267bca066d9
+SHA256: 651015df5fe4c3873002ab031a9d9c43fe0a317ae5e197cb548f0a58c5e568e6
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.13
+
+Package: python3.13
+Version: 3.13.13
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 23224
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Suggests: python3.13-tkinter
+Filename: pool/tur/python3.13_3.13.13_arm.deb
+Size: 6221260
+MD5sum: d7d78819f95d27ba6321908a48c6fc48
+SHA1: 607ed82553ff4278893b9b3e77b7f0ab7d0a210e
+SHA256: bebf62b622f5873b8b1c93efe5a4348105b031418eebcaaa3ac79ddb8d18d1c1
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
 
 Package: python3.7-cross
 Version: 3.7.17
