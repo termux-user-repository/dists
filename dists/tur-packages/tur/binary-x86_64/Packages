@@ -3908,6 +3908,33 @@ SHA256: d750a497089112a257787ab386110538310bf9a076794ac3cfa24b614aed8460
 Homepage: https://oils.pub/
 Description: Oils for Unix: OSH and YSH shells
 
+Package: open-vcdiff-static
+Version: 0.8.4.git20190311
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 320
+Depends: open-vcdiff (= 0.8.4.git20190311)
+Filename: pool/tur/open-vcdiff-static_0.8.4.git20190311_x86_64.deb
+Size: 46712
+MD5sum: af8ad83a2fcbb74a50bccc9ad4f85daf
+SHA1: 9a84531f04c32270b93613eca2a147d44418e59f
+SHA256: 4df7307f0fde36f12859c2d3afc72ea7548bc8d025aa5edb8423219ee10dfac3
+Homepage: https://github.com/google/open-vcdiff
+Description: Static libraries for open-vcdiff
+
+Package: open-vcdiff
+Version: 0.8.4.git20190311
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 336
+Filename: pool/tur/open-vcdiff_0.8.4.git20190311_x86_64.deb
+Size: 98172
+MD5sum: 1b123a60f2ee0e895300320cb34508d4
+SHA1: 0eac62bab97e878b163c07cdfb903d8004acceef
+SHA256: d577b00958fa35affc25d8d7dacf1fe5c218c1f87085f05c8aaae9725e6e8cce
+Homepage: https://github.com/google/open-vcdiff
+Description: An encoder/decoder for the VCDIFF (RFC3284) format
+
 Package: openalut-static
 Version: 1.1.0-1
 Architecture: x86_64
