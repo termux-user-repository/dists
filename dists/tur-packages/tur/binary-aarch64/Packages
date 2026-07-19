@@ -235,31 +235,32 @@ Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 7)
 
 Package: bazel8
-Version: 8.7.0
+Version: 8.7.0-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 73004
+Installed-Size: 73016
 Depends: libarchive, openjdk-21, patch, unzip, zip
-Filename: pool/tur/bazel8_8.7.0_aarch64.deb
-Size: 38175292
-MD5sum: 8b6598e150112a254e8c09b237592735
-SHA1: 63265b27f271d442e20b5c0a36530bb9bd7633f0
-SHA256: 40c2f225cd17636eadde0d21e2f528e323f2699609b2cce78dd1cc67b44b2293
+Breaks: openjdk-11, openjdk-17
+Filename: pool/tur/bazel8_8.7.0-1_aarch64.deb
+Size: 38188104
+MD5sum: feb95456a33528359c54b9e267359d26
+SHA1: 7ece4058d9ff8ecaaf92dcbaf64d94caa63cacba
+SHA256: f2a90344678a5d922eb5e674ce3ceabd7c825297276428054429eca912bf6d45
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 8)
 
 Package: bazel
-Version: 8.7.0
+Version: 8.7.0-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 73028
+Installed-Size: 146012
 Depends: libarchive, openjdk-21, patch, unzip, zip
 Breaks: openjdk-11, openjdk-17
-Filename: pool/tur/bazel_8.7.0_aarch64.deb
-Size: 38176088
-MD5sum: cf0630fdfe87a9a1d9277deda9b5294f
-SHA1: 55526b8820db37cae0897fea2b1776244daf532b
-SHA256: 78517dbbf7bb803db55e3f975acb11f3c537bfe05ee852a69ca88ae182dff2a7
+Filename: pool/tur/bazel_8.7.0-1_aarch64.deb
+Size: 76376944
+MD5sum: 39c342965b0cc807e998e69c2721c33d
+SHA1: e8be1bab477ff2eb0cfb8cfaba677059428753ba
+SHA256: 5408b989009531c5d9ff10085ee5be14b84b6f60ed7523c89402e67332fa02ca
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
