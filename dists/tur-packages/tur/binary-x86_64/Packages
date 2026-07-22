@@ -4021,32 +4021,32 @@ Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
 Package: openjdk-11-x
-Version: 11.0.31-1
+Version: 11.0.32
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 14828
-Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.31-1)
-Filename: pool/tur/openjdk-11-x_11.0.31-1_x86_64.deb
-Size: 12714540
-MD5sum: 9361b91bca6b6c1251845f24c0986bc1
-SHA1: b162ab7e85770595af7c20a0cf4781102bdb5bd3
-SHA256: b6c0f8926c344b9cbda5fc708bf612780f462fff6bcc1c43ce6f63932193f58f
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.32)
+Filename: pool/tur/openjdk-11-x_11.0.32_x86_64.deb
+Size: 12710688
+MD5sum: 0c29cc297cd183c878cf0925629ab13e
+SHA1: 2c9682b8bb3883f81e79252b0867e6c360575c18
+SHA256: 40ca7cd89d811778e58f4e09f892e1ad84b586681ff12e95add3b49583647ed2
 Homepage: https://openjdk.java.net
 Description: Portion of openjdk-11 requiring X11 functionality
 
 Package: openjdk-11
-Version: 11.0.31-1
+Version: 11.0.32
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 240700
+Installed-Size: 240716
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
 Recommends: ca-certificates-java, openjdk-11-x, resolv-conf
 Suggests: cups
-Filename: pool/tur/openjdk-11_11.0.31-1_x86_64.deb
-Size: 102238924
-MD5sum: c50d968657220d9357c08e923ae69d88
-SHA1: 7aa55b394ec42413dec18c1ddb6758e31faa5704
-SHA256: 1230eeadf2a2088451d73d4f169ac1063453b2b53ae5f5c7a58c9cbd73ad87ae
+Filename: pool/tur/openjdk-11_11.0.32_x86_64.deb
+Size: 102280492
+MD5sum: a12a1e3a1d83163ce17f3088e68a9c19
+SHA1: fe14ebc5d61549f67a4188741c66b947fc0ded52
+SHA256: 22151839086fdf5b492e2eb851a2e042c078b14fea9bf6b883cf0bec65c247ae
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
@@ -7036,15 +7036,15 @@ Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
 Package: openjdk-11-source
-Version: 11.0.31-1
+Version: 11.0.32
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 57084
-Filename: pool/tur/openjdk-11-source_11.0.31-1_all.deb
-Size: 52270760
-MD5sum: 29d347e47588f7e9e669868780295a1a
-SHA1: af4a18729ca874453696dbca88237ebe6d93322d
-SHA256: 69ae30cf51ca94ae7a1abb454f82e5b4abbcd9456ea1e53a5e64f88a84a20356
+Installed-Size: 57092
+Filename: pool/tur/openjdk-11-source_11.0.32_all.deb
+Size: 52306748
+MD5sum: 793d73a14b927ba468b754f909452f99
+SHA1: a93f18c45c8ccc55bea084875dafee954b67ac66
+SHA256: a011ae83c9845fe641fcb9b0ad6ba304334f593959f6b915576cc1f8e239d9f8
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-11
 
