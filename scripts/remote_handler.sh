@@ -6,6 +6,38 @@ POOL_DIR="$(dirname "$BASE_DIR")/pool"
 owner="termux-user-repository"
 repo="dists"
 tag="0.1"
+dists_owner="tur-dists"
+dists_template_repo="tur-dists/package-template"
+
+ensure_dists_repo_exists() {
+    local package_name="$1"
+    local full_repo="$dists_owner/$package_name"
+    if gh repo view "$full_repo" >/dev/null 2>&1; then
+        return
+    fi
+    echo "creating repo from template: $full_repo"
+    gh repo create "$full_repo" --template "$dists_template_repo" --public
+}
+
+upload_deb_to_dists_repo() {
+    local deb_name="$1"
+    local package_name
+    local package_version
+    package_name="$(echo "$deb_name" | cut -d '_' -f 1)"
+    package_version="$(echo "$deb_name" | cut -d '_' -f 2)"
+
+    if [[ -z "$package_name" || -z "$package_version" ]]; then
+        echo "skip invalid deb filename: $deb_name"
+        return 0
+    fi
+
+    ensure_dists_repo_exists "$package_name"
+    gh release create -R "github.com/$dists_owner/$package_name" "$package_version" -n "$package_version" || true
+    if ! gh release upload -R "github.com/$dists_owner/$package_name" "$package_version" "$deb_name" --clobber; then
+        echo "$deb_name issues while uploading to $dists_owner/$package_name:$package_version"
+    fi
+}
+
 ## fetch remote pool for debfile name
 fetch_remote_deb_list() {
     api_json=$(mktemp /tmp/repo.XXXXXXX)
@@ -44,7 +76,7 @@ upload_debs() {
     pushd $DEB_DIR
     for deb in *.deb; do
         modified_name="$(echo "$deb" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
-        mv -n $deb $modified_name
+        mv -n "$deb" "$modified_name"
         echo "$modified_name" >> $non_uploaded_list
     done
     for deb_name in $(cat $non_uploaded_list); do
@@ -53,6 +85,7 @@ upload_debs() {
         if ! gh release upload -R github.com/$owner/$repo $package_name_tag $deb_name --clobber; then
             echo "$deb_name issues while uploading"
         fi
+        upload_deb_to_dists_repo "$deb_name"
     done
     popd
 }
