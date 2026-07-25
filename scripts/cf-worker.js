@@ -25,16 +25,23 @@ async function handleRequest(request) {
     const packageDebNameModified = packageDebName.replaceAll(/[^a-zA-Z0-9-_+%]+/g, ".");
     const fallbackUrl = "https://github.com/termux-user-repository/dists/releases/download/0.1/" + packageDebNameModified;
     try {
-      // Try the new package_name tag
-      const packageName = packageDebName.split("_").at(0);
-      const primaryUrl = "https://github.com/termux-user-repository/dists/releases/download/" + packageName + "/" + packageDebNameModified;
-      const response = await fetch(primaryUrl, { method: "HEAD" });
+      const packageArray = packageDebNameModified.split("_");
+      const packageName = packageArray.at(0);
+      const packageVersion = packageArray.at(1);
+      // Try packages from tur-dists
+      let url = `https://github.com/tur-dists/${packageName}/releases/download/${packageVersion}/${packageDebNameModified}`;
+      let response = await fetch(url, { method: "HEAD" });
       if (response.ok) {
-        return Response.redirect(primaryUrl, 302);
-      } else {
-        // Fallback to legacy 0.1 tag
-        return Response.redirect(fallbackUrl, 302);
+        return Response.redirect(url, 302);
       }
+      // Try the new package_name tag
+      url = `https://github.com/termux-user-repository/dists/releases/download/${packageName}/${packageDebNameModified}`;
+      response = await fetch(url, { method: "HEAD" });
+      if (response.ok) {
+        return Response.redirect(url, 302);
+      }
+      // Fallback to legacy 0.1 tag
+      return Response.redirect(fallbackUrl, 302);
     } catch (err) {
       // Fallback to legacy 0.1 tag
       return Response.redirect(fallbackUrl, 302);
