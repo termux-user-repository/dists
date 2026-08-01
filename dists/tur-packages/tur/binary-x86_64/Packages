@@ -249,18 +249,32 @@ SHA256: 289bc55678c458503f05969baea57242e09846f58a75e1a10b4d098d9f265f9e
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 8)
 
-Package: bazel
-Version: 8.7.0-3
+Package: bazel9
+Version: 9.2.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 71412
+Installed-Size: 83072
+Depends: libarchive, openjdk-21, patch, unzip, zip
+Filename: pool/tur/bazel9_9.2.0_x86_64.deb
+Size: 38344204
+MD5sum: 799dcf83b2dfd2cb53fa5e3478e4e7b4
+SHA1: c82afd46308bc58d6a9dfebdd309ec338b24af9f
+SHA256: ae3903333d8c0667464253550109bdb2035cf11f9166ebea6d6b2562d7076eeb
+Homepage: https://bazel.build/
+Description: Correct, reproducible, and fast builds for everyone (Version 9)
+
+Package: bazel
+Version: 9.2.0
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 83096
 Depends: libarchive, openjdk-21, patch, unzip, zip
 Breaks: openjdk-11, openjdk-17
-Filename: pool/tur/bazel_8.7.0-3_x86_64.deb
-Size: 39476992
-MD5sum: 754a157b1d2a2858a295750c119f04a9
-SHA1: cf91ca37bbf0cc13825f2a85be78e3a219475d03
-SHA256: f96b4524aaa11b8b49ccd2a732e7ba6a7f8eaf24736108fd48a353a2212a4ce4
+Filename: pool/tur/bazel_9.2.0_x86_64.deb
+Size: 38353052
+MD5sum: d7472e1307d4fd36d87a03de02f99925
+SHA1: 442d62dd4aaa354f7740bdd69c11590cc7b9251a
+SHA256: 5f111945a53370bdfdcea167a376cd27377adf50a034c1a84362f1f7b2587f9f
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone
 
