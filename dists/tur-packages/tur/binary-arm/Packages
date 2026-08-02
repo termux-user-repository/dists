@@ -5142,6 +5142,20 @@ SHA256: af381739740be4dc193b6aa30a32d002720c25cdfb32a15d8e1286d5a196702d
 Homepage: https://github.com/maximbaz/rebuild-detector
 Description: Detects which installed libalpm packages need to be rebuilt
 
+Package: redeclipse
+Version: 2.0.0
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 5500
+Depends: libenet, sdl2, sdl2-image, sdl2-mixer, zlib, redeclipse-data
+Filename: pool/tur/redeclipse_2.0.0_arm.deb
+Size: 1454400
+MD5sum: de6c89eed1d17e2a8ac657157b75b900
+SHA1: a8bc7a68588b53df48a32ef91c91595219aa70ea
+SHA256: 4e6d2460900874a334c7fc326f3ad8f31cb762755929128922443f23d970d939
+Homepage: https://www.redeclipse.net/
+Description: A free, casual arena shooter
+
 Package: redland
 Version: 1.0.17
 Architecture: arm
@@ -6726,6 +6740,19 @@ SHA1: e5a462c32991012c21d5811d5017706a675760e7
 SHA256: 2463a5aca303ad72c02580f083bc3e8e7e51bb05dfd60fce2f2d69e0956df83b
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
+
+Package: redeclipse-data
+Version: 2.0.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1077544
+Filename: pool/tur/redeclipse-data_2.0.0_all.deb
+Size: 907597884
+MD5sum: f0a5f0e0149deaf22e0cff9fde8f0f37
+SHA1: 1671be56321e5b135b7d45aa0dad31d02fda855e
+SHA256: 457a2e2922516c2a1c4e0056617d968ae9563e25361424cb3b8037c6cd240fce
+Homepage: https://www.redeclipse.net/
+Description: Game data files for Red Eclipse
 
 Package: rife-ncnn-vulkan
 Version: 0.1
