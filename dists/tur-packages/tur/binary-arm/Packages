@@ -3614,6 +3614,20 @@ SHA256: b16b0fe61f8c9f76e66180049124c0693f74a3802d3ef055692c4408675861fb
 Homepage: https://github.com/vancegroup/freealut
 Description: A free implementation of OpenAL's ALUT standard
 
+Package: openarena
+Version: 0.8.8.20260412
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 2104
+Depends: libcurl, libjpeg-turbo, libxmp, openal-soft, openarena-data, opusfile, sdl2, zlib, libx11
+Filename: pool/tur/openarena_0.8.8.20260412_arm.deb
+Size: 950708
+MD5sum: 3c02855934ca685a2d573d848021e4fb
+SHA1: d27a2a3629cacddd49f4fb328dab8391f157c966
+SHA256: 2260caca1ea0657048b9141b702966bb31b0c732a6dbdd9a025e72fb93357805
+Homepage: https://openarena.ws
+Description: OpenArena game engine
+
 Package: openblas
 Version: 0.3.21-1
 Architecture: arm
@@ -6670,6 +6684,19 @@ SHA1: 63ec068195d60d8ed32bb67d6665f0c8027c9cc3
 SHA256: 2ff7b6501ac810da2988bd443096ad605ba18ccba9539a62d86bd6ac210ca4d0
 Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
+
+Package: openarena-data
+Version: 0.8.8.20260412
+Architecture: all
+Maintainer: @termux
+Installed-Size: 400660
+Filename: pool/tur/openarena-data_0.8.8.20260412_all.deb
+Size: 397620068
+MD5sum: abcb36ad5e810d43123b037f8c683ef7
+SHA1: f17da7c843b81021d571a66e02fcf7fa4de8f8e2
+SHA256: d0089ffc4e4fbd3b5041baebc3d801ab734d6a9a7fdafedbe97cdb09db535c74
+Homepage: https://openarena.ws
+Description: Game data files for OpenArena
 
 Package: openjdk-11-source
 Version: 11.0.32
