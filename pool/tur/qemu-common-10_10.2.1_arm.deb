@@ -1,0 +1,17 @@
+Package: qemu-common-10
+Version: 10.2.1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 347904
+Depends: glib, libbz2, libcap-ng, libcurl, libgmp, libgnutls, libnettle, libnfs, libpixman, libssh, zlib, zstd
+Breaks: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0), qemu-common
+Replaces: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0), qemu-common
+Provides: qemu-common
+Filename: pool/tur/qemu-common-10_10.2.1_arm.deb
+Size: 20987052
+MD5sum: 4e06120a0884d8b98e2aa401903b6b20
+SHA1: 2e1d1d1f7949547bcf09eda3833986c2d9d5d36c
+SHA256: 30f2a425c0ce90d244aaa25fe05955c219fb9baeda4b91a9de27b8bf6b10479b
+Homepage: https://www.qemu.org
+Description: A set common files used by the QEMU emulators
+

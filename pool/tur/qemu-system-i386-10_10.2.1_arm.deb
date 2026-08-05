@@ -1,17 +1,14 @@
-Package: qemu-system-riscv64-9
-Version: 9.2.4
+Package: qemu-system-i386-10
+Version: 10.2.1
 Architecture: arm
 Maintainer: @termux
-Installed-Size: 7768
+Installed-Size: 16384
 Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
-Conflicts: qemu-system-riscv64-headless, qemu-system-riscv64
-Replaces: qemu-system-riscv64-headless, qemu-system-riscv64
-Provides: qemu-system-riscv64
-Filename: pool/tur/qemu-system-riscv64-9_9.2.4_arm.deb
-Size: 2177588
-MD5sum: ae862a915dd2a084d31e7741a4d9f988
-SHA1: b485334258d5b0de457a3811f45d26cb2209186c
-SHA256: 9e01c18693e3ee50d72530264b6f1c16838c6450b28f5c08c20002c03a9dd4a2
+Filename: pool/tur/qemu-system-i386-10_10.2.1_arm.deb
+Size: 2738368
+MD5sum: 5176e0449106dc4ee14c3e3154e740fb
+SHA1: 126edf30de327b8d61861b1e8ce665566ec8b7e1
+SHA256: 0f1c35bedb21831feb4230eca957664806613354990659903f80314073a05613
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer
 

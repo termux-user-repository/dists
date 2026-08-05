@@ -1,0 +1,17 @@
+Package: qemu-system-ppc-10
+Version: 10.2.1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 7852
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Breaks: qemu-system-ppc-headless, qemu-system-ppc
+Replaces: qemu-system-ppc-headless, qemu-system-ppc
+Provides: qemu-system-ppc-headless, qemu-system-ppc
+Filename: pool/tur/qemu-system-ppc-10_10.2.1_arm.deb
+Size: 2313232
+MD5sum: af28a215ba6768e4e385d71285e2499a
+SHA1: e148ff748f4cfff0b5ed93bad181181ab23ab5b7
+SHA256: 6cc6879a4615d10662d0f14ee141bf904e2052b22ee00ddf6b6f24586780425c
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
