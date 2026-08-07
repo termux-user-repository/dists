@@ -1,0 +1,17 @@
+Package: qemu-system-m68k-10
+Version: 10.2.1-1
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 6648
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Breaks: qemu-system-m68k-headless, qemu-system-m68k
+Replaces: qemu-system-m68k-headless, qemu-system-m68k
+Provides: qemu-system-m68k-headless, qemu-system-m68k
+Filename: pool/tur/qemu-system-m68k-10_10.2.1-1_i686.deb
+Size: 1913956
+MD5sum: dc2589274ba892b5a54da3c87468647a
+SHA1: eeee002e792d558aa754efac32689ca74fd78743
+SHA256: 6148451b0989a5c96756bed79a650f9319d3e29a10482dba7ace34fdfc1ee91a
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+

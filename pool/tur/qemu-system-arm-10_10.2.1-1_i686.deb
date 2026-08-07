@@ -1,0 +1,17 @@
+Package: qemu-system-arm-10
+Version: 10.2.1-1
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 18972
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Breaks: qemu-system-arm-headless, qemu-system-arm
+Replaces: qemu-system-arm-headless, qemu-system-arm
+Provides: qemu-system-arm-headless, qemu-system-arm
+Filename: pool/tur/qemu-system-arm-10_10.2.1-1_i686.deb
+Size: 3365192
+MD5sum: daa6f4a963c936d9cc01953ba13a1347
+SHA1: 677912fd6ec78de50ce4a095988adb624d9b6721
+SHA256: b4ead0a028743686485893aa9952198f2487cea10021ef05da86f32b2dfc0f5c
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+

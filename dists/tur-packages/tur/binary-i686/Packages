@@ -4748,7 +4748,7 @@ Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
 
 Package: qemu-common-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 348932
@@ -4756,11 +4756,11 @@ Depends: glib, libbz2, libcap-ng, libcurl, libgmp, libgnutls, libnettle, libnfs,
 Breaks: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0), qemu-common
 Replaces: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0), qemu-common
 Provides: qemu-common
-Filename: pool/tur/qemu-common-10_10.2.1_i686.deb
-Size: 21084504
-MD5sum: 0029872f40ba1aeeaa1f9207e8029e8d
-SHA1: afb22bdcfb21457e72a7ee8929d2250059421018
-SHA256: b00840169dc2144586bb57aa124bec995c7f68ae1d566359d2964ac1ecdb8b07
+Filename: pool/tur/qemu-common-10_10.2.1-1_i686.deb
+Size: 21083220
+MD5sum: 96f3e04ed1c69514eac5ad14bb5a1805
+SHA1: 469ae2947fbfec1c04cd46951c1321b53981f8cf
+SHA256: 633cec3b118117141bf75183909547eef45cbf49b44c5601656ebf2bda454422
 Homepage: https://www.qemu.org
 Description: A set common files used by the QEMU emulators
 
@@ -4782,67 +4782,67 @@ Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer
 
 Package: qemu-system-arm-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
-Installed-Size: 18968
-Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Installed-Size: 18972
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
 Breaks: qemu-system-arm-headless, qemu-system-arm
 Replaces: qemu-system-arm-headless, qemu-system-arm
 Provides: qemu-system-arm-headless, qemu-system-arm
-Filename: pool/tur/qemu-system-arm-10_10.2.1_i686.deb
-Size: 3364760
-MD5sum: ca7915b935abfe8bdddc52bde1d6a6e5
-SHA1: d9d22a90b66bf351d93add6a61f77ff394d45741
-SHA256: 0e106bd3943c5251d02cd14931fe80cbed0d960a77816615aee775ea9044b5d8
+Filename: pool/tur/qemu-system-arm-10_10.2.1-1_i686.deb
+Size: 3365192
+MD5sum: daa6f4a963c936d9cc01953ba13a1347
+SHA1: 677912fd6ec78de50ce4a095988adb624d9b6721
+SHA256: b4ead0a028743686485893aa9952198f2487cea10021ef05da86f32b2dfc0f5c
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer (headless)
 
 Package: qemu-system-i386-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 21380
-Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
-Filename: pool/tur/qemu-system-i386-10_10.2.1_i686.deb
-Size: 3712268
-MD5sum: 74147fafc3f9350aacf9c85b07dfccd7
-SHA1: 89e19bf2d1f9187f4a3dcbddd3ce515d309b1e21
-SHA256: 55f3d4d99f8e67c19eb81613842f2b662842574535bfa4856141652833b00225
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Filename: pool/tur/qemu-system-i386-10_10.2.1-1_i686.deb
+Size: 3714244
+MD5sum: 0dd77d39a2be8fbdb639bb5f76741877
+SHA1: 20abf1de54339be39f00e98615481e04d0259527
+SHA256: 7e5e5f3df0072196edb966afdbb97d87771cf1be84166f875340a008e73fc5a4
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer
 
 Package: qemu-system-m68k-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 6648
-Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
 Breaks: qemu-system-m68k-headless, qemu-system-m68k
 Replaces: qemu-system-m68k-headless, qemu-system-m68k
 Provides: qemu-system-m68k-headless, qemu-system-m68k
-Filename: pool/tur/qemu-system-m68k-10_10.2.1_i686.deb
-Size: 1914652
-MD5sum: 08e76fae3d534f584ff5c73ce33470ec
-SHA1: 8c014ee0321c8ee6024910ef1a075233e7f901d0
-SHA256: 7fea0d93967601dded4463c254b4064911f1d7a2657c64b76fc88f8ba5aad20f
+Filename: pool/tur/qemu-system-m68k-10_10.2.1-1_i686.deb
+Size: 1913956
+MD5sum: dc2589274ba892b5a54da3c87468647a
+SHA1: eeee002e792d558aa754efac32689ca74fd78743
+SHA256: 6148451b0989a5c96756bed79a650f9319d3e29a10482dba7ace34fdfc1ee91a
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer (headless)
 
 Package: qemu-system-ppc-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 10640
-Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
 Breaks: qemu-system-ppc-headless, qemu-system-ppc
 Replaces: qemu-system-ppc-headless, qemu-system-ppc
 Provides: qemu-system-ppc-headless, qemu-system-ppc
-Filename: pool/tur/qemu-system-ppc-10_10.2.1_i686.deb
-Size: 2736448
-MD5sum: a6dfd05e29c5d48d37b852dcc6347c73
-SHA1: 7cada7597b7557ff23ba3ec86fe3593373fede1a
-SHA256: 4a1331657766eea8b3185366102903436a888871e36f40314aa7356b2008c396
+Filename: pool/tur/qemu-system-ppc-10_10.2.1-1_i686.deb
+Size: 2736456
+MD5sum: b6ae0e4f63fe64c024aef6ef7b99352b
+SHA1: 7b2d71de255a4d56dbda4f7fbac428739206fc89
+SHA256: 2ac2218c50e7f76cea3e26f5beffdd90962c23e22670579b9573d1249f34040c
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer (headless)
 
@@ -4864,19 +4864,19 @@ Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer
 
 Package: qemu-system-riscv32-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 10764
-Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
 Breaks: qemu-system-riscv32-headless, qemu-system-riscv32
 Replaces: qemu-system-riscv32-headless, qemu-system-riscv32
 Provides: qemu-system-riscv32-headless, qemu-system-riscv32
-Filename: pool/tur/qemu-system-riscv32-10_10.2.1_i686.deb
-Size: 2672128
-MD5sum: 3ff78ea480e81033f38935de6d6a5ec6
-SHA1: 375766075d4f43d27655dbc6bf516f4b6db6181d
-SHA256: ce4e5c7e9646157c77a0da306b33f4fbb0d63088fcdb04cce8e721276b6a169d
+Filename: pool/tur/qemu-system-riscv32-10_10.2.1-1_i686.deb
+Size: 2674752
+MD5sum: 1ac566b5ba7ad34e587b9ce2e8ab467f
+SHA1: 9ebec4646b65d0d8c02e2a59f1f92107421e7579
+SHA256: 2ca16f705d55d580abe0abb32a5619f8fad6ad7663e54ff648b6a799b075dcd9
 Homepage: https://www.qemu.org
 Description: A generic and open source machine emulator and virtualizer (headless)
 
@@ -4932,7 +4932,7 @@ Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
 Package: qemu-user-arm-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 2828
@@ -4940,16 +4940,16 @@ Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
 Breaks: qemu-user-arm
 Replaces: qemu-user-arm
 Provides: qemu-user-arm
-Filename: pool/tur/qemu-user-arm-10_10.2.1_i686.deb
-Size: 737112
-MD5sum: 32ee984c1d5c78303796777ad37d1ae2
-SHA1: 5b63c8450cfa652206ab5e00ede53fd5bb72735b
-SHA256: 3cf591a61f0f1fc0739dd929c2914f8eea7d4d05818c72b78f773d938c6991e0
+Filename: pool/tur/qemu-user-arm-10_10.2.1-1_i686.deb
+Size: 736580
+MD5sum: 491fbe2c67029e56150dabac5df06228
+SHA1: dbfc608b02ef926ec2a56a31732b217f232e2b88
+SHA256: e7d11c6e3f793bb5433aff4a7d8fb986b560450d3b3b4d7fa754b2f683d93701
 Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
 Package: qemu-user-i386-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 2256
@@ -4957,16 +4957,16 @@ Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
 Breaks: qemu-user-i386
 Replaces: qemu-user-i386
 Provides: qemu-user-i386
-Filename: pool/tur/qemu-user-i386-10_10.2.1_i686.deb
-Size: 613280
-MD5sum: 310d819744d71705fc55dd32a450b9ec
-SHA1: 39322d65c041757163473fa9c77be2e6f717ebef
-SHA256: c6af179178534e3daf59d3ced56882b93f1d2f75f783e9f58254ed24d01feeff
+Filename: pool/tur/qemu-user-i386-10_10.2.1-1_i686.deb
+Size: 613312
+MD5sum: df1ad424389f5b67a20c89a637ee61aa
+SHA1: 81732d23d8c295d9cdfbd1448c6d0c4da9e6ae36
+SHA256: f27081a926b3803252ed5c78a87a77e20ac0b9373f86900abad34ee37f373256
 Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
 Package: qemu-user-m68k-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 1860
@@ -4974,16 +4974,16 @@ Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
 Breaks: qemu-user-m68k
 Replaces: qemu-user-m68k
 Provides: qemu-user-m68k
-Filename: pool/tur/qemu-user-m68k-10_10.2.1_i686.deb
-Size: 536340
-MD5sum: e3e5691de074ca4989ce6d02710a3cd1
-SHA1: 2ca7e16228c451c224ecdd176c4d2739501577b4
-SHA256: 79d442a9eb0292948ceaf98505743c7931b2cdf74fee454add5c460221173034
+Filename: pool/tur/qemu-user-m68k-10_10.2.1-1_i686.deb
+Size: 536556
+MD5sum: 97402535e1a3dde29e662d0bd1f05158
+SHA1: 15d1ac4d71cc87c6cee82e8a2b0bb38abd661d3d
+SHA256: 2b9918fb6b9d271a73492ba64827fa907065875f13792da2d1fef83e0329902a
 Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
 Package: qemu-user-ppc-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 2440
@@ -4991,11 +4991,11 @@ Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
 Breaks: qemu-user-ppc
 Replaces: qemu-user-ppc
 Provides: qemu-user-ppc
-Filename: pool/tur/qemu-user-ppc-10_10.2.1_i686.deb
-Size: 663252
-MD5sum: ed548f232daacc3945288fb605a87921
-SHA1: 7c2f5830a8495e0946fd4028fc823147ce2f4eab
-SHA256: cc92ee1b1d0091f53affb23086608145eefa1cda2cc61a1dfdde6278a246e9c5
+Filename: pool/tur/qemu-user-ppc-10_10.2.1-1_i686.deb
+Size: 662752
+MD5sum: ce4428be2d9d687d5a15f6d28a91be16
+SHA1: 13d1d87c938d7d70d959c4a57f84bd14c196aa86
+SHA256: a37752c8892eaf240076440bcc81a1b0a00e4511260bf964c9f1894391174995
 Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
@@ -5051,7 +5051,7 @@ Homepage: https://www.qemu.org
 Description: QEMU Linux user mode emulator
 
 Package: qemu-utils-10
-Version: 10.2.1
+Version: 10.2.1-1
 Architecture: i686
 Maintainer: @termux
 Installed-Size: 5764
@@ -5059,11 +5059,11 @@ Depends: glib, libbz2, libcurl, libgmp, libgnutls, libnettle, libnfs, libpixman,
 Breaks: qemu-utils
 Replaces: qemu-utils
 Provides: qemu-utils
-Filename: pool/tur/qemu-utils-10_10.2.1_i686.deb
-Size: 1050616
-MD5sum: 5735c3ed7a267c9de2e3b8f2291cce50
-SHA1: 6d044dbbb0c02e1c56ec1ee34c59c8a30b36885e
-SHA256: 6cca14311c95d83878afc2eb71233c5d4feaae9d9f9935a47d95de573bcb7cfb
+Filename: pool/tur/qemu-utils-10_10.2.1-1_i686.deb
+Size: 1049476
+MD5sum: e95cf54280ae08aebf1b404df1f3f0e5
+SHA1: 2ca5d4ce5b48bf403448cdbdce40da741466b7ab
+SHA256: 9837bfac74191884cbd4099e4612b46fe871de8b384f42038681853847d8466d
 Homepage: https://www.qemu.org
 Description: A set of utilities for working with the QEMU emulators
 

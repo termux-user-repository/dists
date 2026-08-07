@@ -1,0 +1,17 @@
+Package: qemu-system-riscv32-10
+Version: 10.2.1-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 7984
+Depends: alsa-lib, dtc, gdk-pixbuf, glib, jack2, gtk3, libbz2, libcairo, libcurl, libdw, libepoxy, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, libx11, mesa, ncurses, pulseaudio, qemu-common-10, resolv-conf, sdl2 | sdl2-compat, sdl2-image, virglrenderer, zlib, zstd
+Breaks: qemu-system-riscv32-headless, qemu-system-riscv32
+Replaces: qemu-system-riscv32-headless, qemu-system-riscv32
+Provides: qemu-system-riscv32-headless, qemu-system-riscv32
+Filename: pool/tur/qemu-system-riscv32-10_10.2.1-1_arm.deb
+Size: 2265056
+MD5sum: ae6557220c175a02dd3b8df17d9896dc
+SHA1: 40b824f2cdf6160517c73aa00fe6c12eb97ee634
+SHA256: 3dc5b93947053cf77c16b76ec1bc9002b4f38caead0ad650a9f51ba127d6027f
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
