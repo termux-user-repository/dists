@@ -82,9 +82,9 @@ upload_debs() {
     for deb_name in $(cat $non_uploaded_list); do
         local package_name_tag=$(echo $deb_name | cut -d '_' -f 1)
         gh release create -R github.com/$owner/$repo $package_name_tag -n "$package_name_tag" || true
-        if ! gh release upload -R github.com/$owner/$repo $package_name_tag $deb_name --clobber; then
-            echo "$deb_name issues while uploading"
-        fi
+        # if ! gh release upload -R github.com/$owner/$repo $package_name_tag $deb_name --clobber; then
+        #     echo "$deb_name issues while uploading"
+        # fi
         upload_deb_to_dists_repo "$deb_name"
     done
     popd
