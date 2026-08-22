@@ -9,6 +9,21 @@ tag="0.1"
 dists_owner="tur-dists"
 dists_template_repo="tur-dists/package-template"
 
+wait_for_repo_ready() {
+    local full_repo="$1"
+    local attempt
+
+    for attempt in $(seq 1 30); do
+        if gh repo view "$full_repo" >/dev/null 2>&1; then
+            return 0
+        fi
+        sleep 2
+    done
+
+    echo "repo is not ready after retries: $full_repo"
+    return 1
+}
+
 ensure_dists_repo_exists() {
     local package_name="$1"
     local full_repo="$dists_owner/$package_name"
@@ -19,26 +34,59 @@ ensure_dists_repo_exists() {
     echo "creating repo from template: $full_repo"
 	sleep 1
     gh repo create "$full_repo" --template "$dists_template_repo" --public
+    wait_for_repo_ready "$full_repo"
+}
+
+normalize_release_version() {
+    local version="$1"
+    printf '%s' "${version//:/.}"
+}
+
+create_release_if_missing() {
+    local repo_name="$1"
+    local tag_name="$2"
+    local output
+
+    if gh release view -R "$repo_name" "$tag_name" >/dev/null 2>&1; then
+        return 0
+    fi
+
+    if output=$(gh release create -R "$repo_name" "$tag_name" -n "$tag_name" 2>&1); then
+        return 0
+    fi
+
+    if echo "$output" | grep -Eqi 'already exists|tag .* already exists'; then
+        echo "release already exists: $tag_name"
+        return 0
+    fi
+
+    echo "$output" >&2
+    return 1
 }
 
 upload_deb_to_dists_repo() {
     local deb_name="$1"
     local package_name
     local package_version
+    local release_version
     package_name="$(echo "$deb_name" | cut -d '_' -f 1)"
     package_version="$(echo "$deb_name" | cut -d '_' -f 2)"
+    release_version="$(normalize_release_version "$package_version")"
 
-    if [[ -z "$package_name" || -z "$package_version" ]]; then
+    if [[ -z "$package_name" || -z "$release_version" ]]; then
         echo "skip invalid deb filename: $deb_name"
         return 0
     fi
 
     ensure_dists_repo_exists "$package_name"
 	sleep 1
-    gh release create -R "github.com/$dists_owner/$package_name" "$package_version" -n "$package_version" || true
+    if ! create_release_if_missing "github.com/$dists_owner/$package_name" "$release_version"; then
+        echo "$deb_name failed to create release for $dists_owner/$package_name:$release_version"
+        return 1
+    fi
 	sleep 1
-    if ! gh release upload -R "github.com/$dists_owner/$package_name" "$package_version" "$deb_name" --clobber; then
-        echo "$deb_name issues while uploading to $dists_owner/$package_name:$package_version"
+    if ! gh release upload -R "github.com/$dists_owner/$package_name" "$release_version" "$deb_name" --clobber; then
+        echo "$deb_name issues while uploading to $dists_owner/$package_name:$release_version"
     fi
 }
 
@@ -86,7 +134,16 @@ upload_debs() {
     for deb_name in $(cat $non_uploaded_list); do
         local package_name_tag=$(echo $deb_name | cut -d '_' -f 1)
 		sleep 1
-        gh release create -R github.com/$owner/$repo $package_name_tag -n "$package_name_tag" || true
+        if ! gh release view -R "github.com/$owner/$repo" "$package_name_tag" >/dev/null 2>&1; then
+            if ! output=$(gh release create -R "github.com/$owner/$repo" "$package_name_tag" -n "$package_name_tag" 2>&1); then
+                if echo "$output" | grep -Eqi 'already exists|tag .* already exists'; then
+                    echo "release already exists: $package_name_tag"
+                else
+                    echo "$output" >&2
+                    return 1
+                fi
+            fi
+        fi
         # if ! gh release upload -R github.com/$owner/$repo $package_name_tag $deb_name --clobber; then
         #     echo "$deb_name issues while uploading"
         # fi
