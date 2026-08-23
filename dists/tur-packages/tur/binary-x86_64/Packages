@@ -7132,16 +7132,16 @@ Homepage: https://github.com/stsp/nasm-segelf
 Description: nasm-segelf for host (NOT for Termux)
 
 Package: nerd-fonts
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 44
-Depends: ttf-cascadia-code-nerd, ttf-hack-nerd, ttf-inconsolata-nerd, ttf-jetbrains-mono-nerd, ttf-meslo-nerd, ttf-roboto-mono-nerd, ttf-sourcecodepro-nerd, ttf-victor-mono-nerd
-Filename: pool/tur/nerd-fonts_3.5.1_all.deb
-Size: 3404
-MD5sum: 2e253d7e954888ece8abfee63f2839e7
-SHA1: 3c023846e57cb160f1cbad051a4f50ebb3c2b91a
-SHA256: 1513518dd55a7a2079db47f9e0e334b5a96e58ed0a7a1588bed70c0eb44c25bd
+Depends: ttf-cascadia-code-nerd, ttf-hack-nerd, ttf-inconsolata-nerd, ttf-jetbrains-mono-nerd, ttf-meslo-nerd, ttf-roboto-mono-nerd, ttf-sourcecodepro-nerd, ttf-victor-mono-nerd, ttf-nerd-fonts-symbols
+Filename: pool/tur/nerd-fonts_3.5.1-1_all.deb
+Size: 3412
+MD5sum: 3a3ccd1f8a7951174e2f1cf89f9b17a8
+SHA1: 402b450ad4153d91b261a112c5eb24a90cdb95ae
+SHA256: 231f660f55f477eb4b83729ee4aaf8fcc6ea3e2ed5c67eb0a9090fc498ce8491
 Homepage: https://www.nerdfonts.com/
 Description: Meta package that installs all Nerd Fonts patched font packages provided by TUR
 
@@ -7510,106 +7510,106 @@ Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
 
 Package: ttf-cascadia-code-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 11348
-Filename: pool/tur/ttf-cascadia-code-nerd_3.5.1_all.deb
-Size: 1577364
-MD5sum: 115693e0a93bcac893e8cec3b774b2fa
-SHA1: 2502cb102dddc98419c0e137324027655c687897
-SHA256: a3c62520840e5e88ac2085000735b664f5d0fa1447e0dcbcdd66b96c3c10011a
+Filename: pool/tur/ttf-cascadia-code-nerd_3.5.1-1_all.deb
+Size: 1577996
+MD5sum: 9d9e855df67e3b6b55385ab1a633341e
+SHA1: 980b53df5176f202055c7e04f37cee5c0c4e8c40
+SHA256: a30d0cebd343ce4e3a96961db6b10528acc3284a7676971f4a9736dcf7adc164
 Homepage: https://www.nerdfonts.com/
 Description: Cascadia Code patched with Nerd Fonts icons/glyphs
 
 Package: ttf-hack-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 11016
-Filename: pool/tur/ttf-hack-nerd_3.5.1_all.deb
-Size: 1568260
-MD5sum: 94bb18be69fec0a77b0f9e17e7800d8b
-SHA1: bfcc50a33936f0e3411b0b0b6cca5e879c9a5635
-SHA256: 9b391eb5bfb2cc0595dc08e26170c91631d6ada1e5aca2e32e5c7234c169b5c6
+Filename: pool/tur/ttf-hack-nerd_3.5.1-1_all.deb
+Size: 1566480
+MD5sum: 1c6a0716a4bbd164a91dfd85f5106a9c
+SHA1: 5bfeedd90ab88f5b8436752e64caa5a1719e03c8
+SHA256: ec3810bcf7961b3d437f7077d6306f3b8de9014907b41610bbfb4c1c39238bcc
 Homepage: https://www.nerdfonts.com/
 Description: Hack patched with Nerd Fonts icons/glyphs (Font Awesome, Devicons, Octicons, Powerline, etc)
 
 Package: ttf-inconsolata-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 4772
-Filename: pool/tur/ttf-inconsolata-nerd_3.5.1_all.deb
-Size: 1175000
-MD5sum: dcfd7eac266db7274930831c106a9971
-SHA1: 8e20a732a2a2ef215dca33ecdb76a35d9b4968f4
-SHA256: 249b293633242f016cf750c3a047d1139cb84a7678be972935bb2f3c9a7ffe06
+Filename: pool/tur/ttf-inconsolata-nerd_3.5.1-1_all.deb
+Size: 1174432
+MD5sum: 291616bb89eb007b7565e7460af93b45
+SHA1: 521f90780092798c9de599de02f81e6526f1923e
+SHA256: c417770edaa230d06fc5936eed631ee3fea1a14548772ec0305a70ed9d8d3553
 Homepage: https://www.nerdfonts.com/
 Description: Inconsolata patched with Nerd Fonts icons/glyphs (Font Awesome, Devicons, Octicons, Powerline, etc)
 
 Package: ttf-jetbrains-mono-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 10116
-Filename: pool/tur/ttf-jetbrains-mono-nerd_3.5.1_all.deb
-Size: 1346968
-MD5sum: 021ea9d5d2daa09c1dedf9582ec28806
-SHA1: 38900a8627bfdbe4f3fe1f93e5126d8c289f563c
-SHA256: 62bac5df651ef5e8c6ec885dfa1704e163ed8a3a5978246f349e617c4f813873
+Filename: pool/tur/ttf-jetbrains-mono-nerd_3.5.1-1_all.deb
+Size: 1347644
+MD5sum: c26287644e0c8e4b1370a04ce8767e61
+SHA1: 66f6ebe1edf59124e29336ddc9794fd2fd17653b
+SHA256: 4dadb831f8c700b26a954cd3bf20b8fc703dce63e4ce63bb3086a90ab09020e6
 Homepage: https://www.nerdfonts.com/
 Description: JetBrains Mono patched with Nerd Fonts icons/glyphs
 
 Package: ttf-meslo-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 11592
-Filename: pool/tur/ttf-meslo-nerd_3.5.1_all.deb
-Size: 1704340
-MD5sum: 9971efac42409b7a005be0c6696e321c
-SHA1: 0bcfb1be48dc464f490fbc841b5b2f831f27eae4
-SHA256: 0f36f92e68fe61429d28d004297b3c079488dbd79ff8d3cbfd83c88c54d43a82
+Filename: pool/tur/ttf-meslo-nerd_3.5.1-1_all.deb
+Size: 1704188
+MD5sum: b5eec5c085f76ad2f04984abbb14c430
+SHA1: 35bec6c80fec5cde8474b973c8291cbe174351e4
+SHA256: bcf35b4aebdcc224e9a6c46d41fa081e9c798137fc8004005d905cb970fbc260
 Homepage: https://www.nerdfonts.com/
 Description: Meslo (MesloLGS) patched with Nerd Fonts icons/glyphs, used with Powerlevel10k
 
 Package: ttf-roboto-mono-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 10104
-Filename: pool/tur/ttf-roboto-mono-nerd_3.5.1_all.deb
-Size: 1408920
-MD5sum: 98ec146469b0365e1c8cc8c563125feb
-SHA1: bb42e736535d0777ddf81f2dc9f3bf264312fc92
-SHA256: ccf579718477f3c33c6fa5ebd737e56e8a9d8db5c2170fb552394581c0fa1d40
+Filename: pool/tur/ttf-roboto-mono-nerd_3.5.1-1_all.deb
+Size: 1407768
+MD5sum: 7f32e03f546d21bc8a0e90be632cd524
+SHA1: 291e2ef92146a6b203602872bd363227a55b5622
+SHA256: 3cf72c772be6e0626a7f2a8f78d614cd46794d3bc3ba07b4411f0043b71d6bf5
 Homepage: https://www.nerdfonts.com/
 Description: Roboto Mono patched with Nerd Fonts icons/glyphs (Font Awesome, Devicons, Octicons, Powerline, etc)
 
 Package: ttf-sourcecodepro-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 9636
-Filename: pool/tur/ttf-sourcecodepro-nerd_3.5.1_all.deb
-Size: 1341068
-MD5sum: cb39ec3dee06c360363090b28d06dcb6
-SHA1: 5598e90059bcbd65abf56fd072c9afd0547188aa
-SHA256: 7e5c2bf7c4c7b5e46617c36c8c3255f20e66487bff46e69761957b58b68a96ce
+Filename: pool/tur/ttf-sourcecodepro-nerd_3.5.1-1_all.deb
+Size: 1340976
+MD5sum: 67fd80bc4f1e71d2f7f4f42b2f3e600c
+SHA1: 2423ffbb394dda287a61fc1d9a5d2e28b4c9bdad
+SHA256: b75ba28081042165c5d8657c3f4d9697d83709e9b915a8cd25561453214d4afc
 Homepage: https://www.nerdfonts.com/
 Description: Source Code Pro patched with Nerd Fonts icons/glyphs
 
 Package: ttf-victor-mono-nerd
-Version: 3.5.1
+Version: 3.5.1-1
 Architecture: all
 Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
 Installed-Size: 10100
-Filename: pool/tur/ttf-victor-mono-nerd_3.5.1_all.deb
-Size: 1414100
-MD5sum: efd104961ec03e788d0ef84f99e788a7
-SHA1: de270950c74a83660ec3a13b1b7ee10fada29ea1
-SHA256: b6af49dbd2f8744c918c849685f53f0643469dcf8f0d7b1c0735ea231a7a4080
+Filename: pool/tur/ttf-victor-mono-nerd_3.5.1-1_all.deb
+Size: 1415908
+MD5sum: 0ac802b560e16f75196a30557022446e
+SHA1: 77e830486a0fb5e456f11a3faeacca897b739aa9
+SHA256: bbb5c7753289fdd2ddb71f984cd74cac0f0213674fb3a4e9c958877fb6ecdf7b
 Homepage: https://www.nerdfonts.com/
 Description: Victor Mono patched with Nerd Fonts icons/glyphs (Font Awesome, Devicons, Octicons, Powerline, etc)
 
