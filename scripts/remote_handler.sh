@@ -9,12 +9,24 @@ tag="0.1"
 dists_owner="tur-dists"
 dists_template_repo="tur-dists/package-template"
 
+repo_ready() {
+    local full_repo="$1"
+    local repo_readme_url="https://api.github.com/repos/$full_repo/contents/README.md"
+
+    if gh repo view "$full_repo" >/dev/null 2>&1 && \
+        [[ "$(curl -s "$repo_readme_url" | jq -r '.name')" == "README.md" ]]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
 wait_for_repo_ready() {
     local full_repo="$1"
     local attempt
 
     for attempt in $(seq 1 30); do
-        if gh repo view "$full_repo" >/dev/null 2>&1; then
+        if repo_ready "$full_repo"; then
             return 0
         fi
         sleep 2
