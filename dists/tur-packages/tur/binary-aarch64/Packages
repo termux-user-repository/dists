@@ -693,16 +693,16 @@ Homepage: https://github.com/exaloop/codon
 Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
 
 Package: comcom64
-Version: 0.4-2
+Version: 0.5
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 1440
+Installed-Size: 1756
 Depends: dj64dev
-Filename: pool/tur/comcom64_0.4-2_aarch64.deb
-Size: 385896
-MD5sum: 9c4ea5a991461c9f2ccef630d251b77e
-SHA1: c418e371ef8b2127d3581c667665c61b1e3292a3
-SHA256: 8f34698ee23aa7d8eeb68e472cb5ab9e8a805a5e2a8acd573bc08fddc2b970f5
+Filename: pool/tur/comcom64_0.5_aarch64.deb
+Size: 478652
+MD5sum: 666ee8cead81620cd5ff062e7f93782c
+SHA1: 7fc0080f493c5e0301336e763fd82b6c616c9acb
+SHA256: 40f659cd64dfd144992a83afa255f41f7dfbb81d2db1faa88f3e75f51b0f6486
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
@@ -760,15 +760,15 @@ Homepage: https://github.com/charmbracelet/crush
 Description: The glamourous AI coding agent for your favourite terminal
 
 Package: ctags-cross
-Version: 2:6.1.0-2
+Version: 2:6.1.0-3
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 16592
-Filename: pool/tur/ctags-cross_2:6.1.0-2_aarch64.deb
-Size: 3342552
-MD5sum: 551b5aceb56ee8a3dffe154ab7f2e6d0
-SHA1: 40e2596669c631c7affffe865a2c474b85551288
-SHA256: 734ce10eb3674c0f5afa7dea682195e4376e9f66b05cb8215be3afd6dae74c5a
+Filename: pool/tur/ctags-cross_2:6.1.0-3_aarch64.deb
+Size: 3348648
+MD5sum: 6b8f13ca92de3d9f207be8e254da8aa6
+SHA1: d7549560890d7a3e2f949f5b52f7cbf02f8fc889
+SHA256: ce83d9dd229780bb78a2eb4082c796705cb9c9cf0f74c677c1f34c84afc1fb7a
 Homepage: https://ctags.io/
 Description: Universal ctags: Source code index builder
 
@@ -895,31 +895,18 @@ Homepage: https://dillo-browser.github.io/
 Description: A small, fast graphical web browser built on FLTK
 
 Package: dj64dev
-Version: 0.4-3
+Version: 0.5
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 16300
-Depends: pkg-config, libelf
-Filename: pool/tur/dj64dev_0.4-3_aarch64.deb
-Size: 3285004
-MD5sum: 5e1dba717d7ae6e4a534053c2660ae49
-SHA1: c5a243e8fba77a1fd82fdd15c82d9b4b0aac8ae8
-SHA256: c69b31cb858ba826665fe3b93f76badcc270aae9999bb2e57ebc8230ddf62fee
+Installed-Size: 16140
+Depends: libelf, pkg-config
+Filename: pool/tur/dj64dev_0.5_aarch64.deb
+Size: 3267432
+MD5sum: eb06b9cb25bdbf858a8b6aa5ce550cb3
+SHA1: 4ffb7ec85bf45380c07302e9f41d813eaea9e613
+SHA256: 1c0540e44a8998e05d20fcb65ae4f01bd9566576329cabdb9a7207e17de5d442
 Homepage: https://github.com/stsp/dj64dev
 Description: development suite that allows to cross-build 64-bit programs for DOS
-
-Package: djstub
-Version: 0.9-2-0
-Architecture: aarch64
-Maintainer: @stsp
-Installed-Size: 120
-Filename: pool/tur/djstub_0.9-2-0_aarch64.deb
-Size: 17656
-MD5sum: 922cdab201ac0528c0b4df0b85a3fc76
-SHA1: 39dc73aad223f5ee1c182fc35b436edf899b524e
-SHA256: 2396779e975465032e115c59ca3f63a1e2d4e603b56883c7d7fccd79e53a9639
-Homepage: https://github.com/stsp/djstub
-Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
 Package: dlib
 Version: 20.0.1-1
@@ -936,16 +923,16 @@ Homepage: http://dlib.net/
 Description: a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems
 
 Package: dosemu2
-Version: 2.0pre9-git-8
+Version: 2.0pre9-git-9
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 4556
-Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, libbsd, readline, json-c, libseccomp, libsearpc, sdl3, sdl3-ttf, fontconfig, fdpp, dj64dev
-Filename: pool/tur/dosemu2_2.0pre9-git-8_aarch64.deb
-Size: 1003464
-MD5sum: 7684b778131bd1519802123b9949b6c3
-SHA1: a6366ed54548cfe16703f236734953b56446e990
-SHA256: 9d1453834317c72326280d771df15d1ee6caacae49b8196cf495c30c929d5e1a
+Installed-Size: 4528
+Depends: comcom64, instfd, libandroid-posix-semaphore, libandroid-glob, slang, libao, fluidsynth, ladspa-sdk, libslirp, readline, json-c, libseccomp, libsearpc, sdl3, sdl3-ttf, fontconfig, fdpp, dj64dev
+Filename: pool/tur/dosemu2_2.0pre9-git-9_aarch64.deb
+Size: 1002912
+MD5sum: 808a29bfedd6670498b0a3f4c90371da
+SHA1: 8b1587b6e8f3ee51bf581d9812142bef7e7439d5
+SHA256: 2b3d23c0fe5f593e94dd665000cf44fd5f962ad77713bc7c81c8a9da5e81abfe
 Homepage: https://github.com/dosemu2/dosemu2
 Description: Run DOS programs under linux.
 
@@ -1189,16 +1176,16 @@ Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
 Package: fdpp
-Version: 1.10-1
+Version: 1.11
 Architecture: aarch64
 Maintainer: @stsp
-Installed-Size: 1444
+Installed-Size: 1488
 Depends: libelf
-Filename: pool/tur/fdpp_1.10-1_aarch64.deb
-Size: 366796
-MD5sum: 57e188f8a0b036c2c54bcc5ef1529d5e
-SHA1: 591c0840e744f440c2d86b3978c59e9834ce059c
-SHA256: f8a4fca4fa0dbca7055d56551e9345a0ac24005dcdf259e4c2f119f2f560d3cf
+Filename: pool/tur/fdpp_1.11_aarch64.deb
+Size: 378104
+MD5sum: f3df1ea9f76925f303cac4671617733e
+SHA1: 91af1d9566a6895c805484782839115a664a40fe
+SHA256: 22cb5d2af25873e81416eaf8c312c114bfdbac8b63aaa25c5df2030ac783971d
 Homepage: https://github.com/dosemu2/fdpp
 Description: 64-bit DOS core
 
@@ -5998,16 +5985,16 @@ Homepage: https://github.com/knyipab/skyseg-ncnn
 Description: Sky segmentation on image using ncnn machine learning model
 
 Package: smallerc
-Version: 1.0.2-3
+Version: 1.0.2-4
 Architecture: aarch64
 Maintainer: @termux-user-repository
 Installed-Size: 2112
 Depends: nasm
-Filename: pool/tur/smallerc_1.0.2-3_aarch64.deb
-Size: 230884
-MD5sum: 574d14c02f62870acd8d53649ba0f9e9
-SHA1: fb18e0212e8e78fbf8b8712cf151bde99ce3b3b0
-SHA256: a21aa07905efa4d9870cabeaaab1b7012133addb8ca5f8a282aa790c5e7a2b72
+Filename: pool/tur/smallerc_1.0.2-4_aarch64.deb
+Size: 230968
+MD5sum: 28c99ff47b7ff46ec749498be854c2a5
+SHA1: 17a837614a7fd435746c1048b489b57328766e27
+SHA256: 8440373f1b9e3379b12288ca9e8e62c7efbf6330e9ec21d52374b22f8d1733a7
 Homepage: https://github.com/alexfru/SmallerC
 Description: Simple and small C compiler for DOS, Windows, Linux and MacOS
 
@@ -6917,18 +6904,32 @@ Homepage: https://repo.dgbaodev.com
 Description: Community repository maintained by Dichvucoder
 
 Package: djstub-cross
-Version: 0.9-2-0
+Version: 0.9-2-1
 Architecture: all
 Maintainer: @stsp
 Installed-Size: 124
-Depends: djstub (= 0.9-2-0)
-Filename: pool/tur/djstub-cross_0.9-2-0_all.deb
-Size: 17596
-MD5sum: 09249d7441e207bbde0eb19fe614da00
-SHA1: 31abbb29ec779cb2928aba91f8f41ce59e72bf0e
-SHA256: c42b4ec1e0bbdce38aa9b7b2a114bfd4efb256fae2bf90585eb575fdf0ce8408
+Depends: djstub (= 0.9-2-1)
+Filename: pool/tur/djstub-cross_0.9-2-1_all.deb
+Size: 17608
+MD5sum: 23aee2d7c443c514a0a6a2afdc9b70ac
+SHA1: aafe1e7f9706e4615af75bf48aaafc8cdc949f58
+SHA256: 3adba5e24b75211854c7de54b2e4a9e383ba6b31b9785737e87f500a2c114b72
 Homepage: https://github.com/stsp/djstub
 Description: djstub for host (NOT for Termux)
+
+Package: djstub
+Version: 0.9-2-1
+Architecture: all
+Maintainer: @stsp
+Installed-Size: 120
+Depends: python
+Filename: pool/tur/djstub_0.9-2-1_all.deb
+Size: 17672
+MD5sum: 62819fcc99d526b8a56f6d7cd4c125fa
+SHA1: 9941d610cc50b044445b11e1da5c07d4acb129bf
+SHA256: eaff9f35572196026ab4c5ea99a28ebe15069801975672299ad2c6746ed5a62a
+Homepage: https://github.com/stsp/djstub
+Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
 Package: electron-deps
 Version: 0.0.3-6
@@ -7323,6 +7324,20 @@ SHA256: 2463a5aca303ad72c02580f083bc3e8e7e51bb05dfd60fce2f2d69e0956df83b
 Homepage: http://pyopengl.sourceforge.net
 Description: A cross-platform open source Python binding to the standard OpenGL API providing 2D and 3D graphic drawing
 
+Package: python-ply
+Version: 3.11
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 320
+Depends: python
+Filename: pool/tur/python-ply_3.11_all.deb
+Size: 40436
+MD5sum: 38668f608ee9154ab8cced5539ff2588
+SHA1: e7bac5f288fddb721a5977dd3194413f4e8ec6ed
+SHA256: 30c1c478970723d5da85836807a576e75d17ab77b720b616dd21764d9ed49c54
+Homepage: https://www.dabeaz.com/ply/
+Description: Implementation of lex and yacc in Python
+
 Package: redeclipse-data
 Version: 2.0.0
 Architecture: all
@@ -7510,16 +7525,16 @@ Homepage: https://github.com/Bhaviktutorials/shark
 Description: 🦈Future Of Phishing With less delay!!🦈
 
 Package: smallerc-cross
-Version: 1.0.2-3
+Version: 1.0.2-4
 Architecture: all
 Maintainer: @termux-user-repository
-Installed-Size: 2252
-Depends: smallerc (= 1.0.2-3)
-Filename: pool/tur/smallerc-cross_1.0.2-3_all.deb
-Size: 277580
-MD5sum: c6749032c592393bf7b70435a59aae06
-SHA1: 018440b2b6b6190a23d6de914eefabd10671ef85
-SHA256: 498af6d7eabf0cba6ff5c41d85d06aa6e95340b9d606e9b8aeea76cecca2a1ec
+Installed-Size: 2260
+Depends: smallerc (= 1.0.2-4)
+Filename: pool/tur/smallerc-cross_1.0.2-4_all.deb
+Size: 279516
+MD5sum: 81fd8c0cc477114e10f32740c4f8e042
+SHA1: 040421a91f656dbc3e41c468b91915652f662315
+SHA256: 1c1ec06a4d06bf2c900569da0d8fd22896c8ad3ee4b5bf4f7dead3ebffb9a06b
 Homepage: https://github.com/alexfru/SmallerC
 Description: SmallerC for host (NOT for Termux)
 
