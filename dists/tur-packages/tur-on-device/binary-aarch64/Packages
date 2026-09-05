@@ -222,6 +222,48 @@ SHA256: 3d2d0d2fcd091c1869694aea10fac7a13d3974f75c946752f05edfd3f8aeedc6
 Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
 
+Package: ocaml-static
+Version: 5.5.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 66608
+Depends: ocaml (= 5.5.0)
+Filename: pool/tur-on-device/ocaml-static_5.5.0_aarch64.deb
+Size: 7744464
+MD5sum: 20806cf55e80b260937b4fde6e289f2b
+SHA1: 922d81048d60dee55c43588b91d0c375b956be08
+SHA256: 3a9b4a50e63c00d8d6f6ce25988df3ea335d294a2cdd91de5585d1711337b3cb
+Homepage: https://ocaml.org/
+Description: Static libraries for ocaml
+
+Package: ocaml
+Version: 5.5.0
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 219964
+Depends: clang, libandroid-shmem
+Filename: pool/tur-on-device/ocaml_5.5.0_aarch64.deb
+Size: 85530820
+MD5sum: 7aac06bd5592ed77c4dcfb54edc95f19
+SHA1: 8e1ccbcb6e091148c4e75df0c931bafa5fc60c2d
+SHA256: 948cd5f4f9b53972fd4fda0996fccbf0fc43e48a361c88435ba7b29ed4e210ff
+Homepage: https://ocaml.org/
+Description: Industrial strength programming language with an emphasis on expressive types and safety
+
+Package: opam
+Version: 2.5.2
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 22136
+Depends: curl, git, ocaml, patch, tar, unzip
+Filename: pool/tur-on-device/opam_2.5.2_aarch64.deb
+Size: 4557180
+MD5sum: f2cb7743e24fbaf410c9fef793bc7f01
+SHA1: 6dd31610eb454b57ba50c37ef8f744fd517a98da
+SHA256: eb3b56af2955dc7f14188ce0dd6260e9811c4522196c123c56ccbf7c012844b5
+Homepage: https://opam.ocaml.org/
+Description: A source-based package manager for OCaml
+
 Package: openimageio
 Version: 3.1.9.0-1
 Architecture: aarch64
