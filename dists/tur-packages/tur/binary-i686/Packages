@@ -4028,6 +4028,20 @@ SHA256: 593485f90fa0c599d9e2982ea48916bea69a514721c66033d43219c998f9af14
 Homepage: https://github.com/esheldon/fitsio
 Description: A python package for FITS input/output wrapping cfitsio
 
+Package: python-hf-xet
+Version: 1.6.0
+Architecture: i686
+Maintainer: @termux-user-repository
+Installed-Size: 8392
+Depends: libc++, python
+Filename: pool/tur/python-hf-xet_1.6.0_i686.deb
+Size: 2996312
+MD5sum: caa5f7fcea952150201b16a1ee72440e
+SHA1: 38c07de66111d46a1aa24d12ac2b51d45f521133
+SHA256: 3af3fc123081b735af291f1cad28fddb7f4b69b5d6f534b210a144ba5d5585a6
+Homepage: https://github.com/huggingface/xet-core
+Description: Fast transfer of large files with the Hugging Face Hub
+
 Package: python-is-python3.10
 Version: 3.10.15
 Architecture: i686
@@ -4397,16 +4411,16 @@ Homepage: https://github.com/FlorianREGAZ/Python-Tls-Client
 Description: Advanced HTTP Library
 
 Package: python-tokenizers
-Version: 0.23.2
+Version: 0.23.2-1
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 8484
-Depends: libc++, python, python-pip
-Filename: pool/tur/python-tokenizers_0.23.2_i686.deb
-Size: 2148728
-MD5sum: 21e2f920aad55d0464520de5aa29215e
-SHA1: baa75922814b794b1426105f0e7ab885fccbfb19
-SHA256: 22eed5b2807a74a31fbabc43e4d43d4b1e227f9b671fb6f0abbc9bdeb0ec5a67
+Installed-Size: 8480
+Depends: libc++, python, python-pip, python-hf-xet
+Filename: pool/tur/python-tokenizers_0.23.2-1_i686.deb
+Size: 2147428
+MD5sum: 87afa72192ff4674b035ac0eb6357eae
+SHA1: c71f26ad37be86bdf3749aa5c0726cacff2c5140
+SHA256: 3dbd0deb965016ce5e229f79f07fddfd87afe9464db029c21b83b030d2421b4e
 Homepage: https://github.com/huggingface/tokenizers
 Description: Fast State-of-the-Art Tokenizers optimized for Research and Production
 
