@@ -250,16 +250,17 @@ Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 8)
 
 Package: bazel9
-Version: 9.2.0-1
+Version: 9.2.0-2
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 85572
+Installed-Size: 85584
 Depends: libarchive, openjdk-21, patch, unzip, zip
-Filename: pool/tur/bazel9_9.2.0-1_aarch64.deb
-Size: 37020128
-MD5sum: 764d60e480b6f76fe614ab11361a13bd
-SHA1: 6e3da67c19c328d686fa7c5ec4a7b44fc2c35cc9
-SHA256: 6f0e90078fa754efe5776c4298f9a9c4303dea861faeb3132a1fa7ffbffd2382
+Breaks: openjdk-11, openjdk-17
+Filename: pool/tur/bazel9_9.2.0-2_aarch64.deb
+Size: 37019860
+MD5sum: 575d692e578ad8bdbc44d51802f59337
+SHA1: 37a31efad3c2c3187e2c68f92b088784dd33df69
+SHA256: f98684f61a3670f328f1e81f77fd47e0436cdb4918253d9919f06c7b906db4e5
 Homepage: https://bazel.build/
 Description: Correct, reproducible, and fast builds for everyone (Version 9)
 
