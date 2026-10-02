@@ -97,6 +97,20 @@ SHA256: cc1b9557a2bd18fd6871f17fbfea33165c87a28a5d811a29c6be4ef4853849b5
 Homepage: https://github.com/termux-user-repository/tur-on-device
 Description: Dummy test for TUR on Device
 
+Package: julia
+Version: 1.10.12
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 233732
+Depends: libandroid-execinfo, libcurl, libedit, libgit2, libgmp, libmpfr, libnghttp2, libopenblas, libssh2, mbedtls, pcre2, suitesparse, utf8proc, zlib, zstd
+Filename: pool/tur-on-device/julia_1.10.12_arm.deb
+Size: 42030952
+MD5sum: 7a7c27ab9a075964769c26f4d57cad12
+SHA1: 22d6fc4c99566693b10a8f585903e29a30e63d76
+SHA256: 117bce6859c64ed3733b243fb21e9110dfc32d2e2fa7bc66ae7e7f4ec79684b9
+Homepage: https://julialang.org/
+Description: High-level, high-performance dynamic language for technical computing
+
 Package: lpsolve
 Version: 5.5.2.11-1
 Architecture: arm
