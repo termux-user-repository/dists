@@ -6301,6 +6301,21 @@ SHA256: 0021ee04a759b21ee75b2a56acf75b0d0f7ccf4888306f2bf0c3248b5d28ded0
 Homepage: http://www.ucw.cz/gitweb/?p=xsv.git;a=summary
 Description: Utility to convert between formats, and rearrange fields on CSV/TSV/xSV input
 
+Package: youtube-tui
+Version: 0.9.4
+Architecture: i686
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Installed-Size: 14932
+Depends: libsixel, mpv | mpv-x, openssl
+Recommends: yt-dlp
+Filename: pool/tur/youtube-tui_0.9.4_i686.deb
+Size: 4333508
+MD5sum: e9ef071745e493112b162543d38a4748
+SHA1: bd5806665d9833abbb5c125e5143eca36cf637c9
+SHA256: e446552d870c7f26556770f1c8d8f1f2bc6a216284a9d7ab432cb91149d012b6
+Homepage: https://tui.siri.ws/youtube
+Description: An aesthetically pleasing YouTube TUI written in Rust
+
 Package: zaz
 Version: 1.0.0
 Architecture: i686
