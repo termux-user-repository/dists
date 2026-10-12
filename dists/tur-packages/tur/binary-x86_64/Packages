@@ -3693,6 +3693,20 @@ SHA256: 6cc54221de4600ae1331114481a92ee3e18a7dd51f98df90331c047e4c3c8295
 Homepage: https://gitlab.com/mdds/mdds
 Description: A collection of multi-dimensional data structures and indexing algorithms
 
+Package: megaglest
+Version: 3.13.0-1
+Architecture: x86_64
+Maintainer: @IntinteDAO
+Installed-Size: 8476
+Depends: curl, freetype, fribidi, glew, glib, libandroid-glob, libftgl2, libjpeg-turbo, libpng, libvorbis, libxml2, lua52, megaglest-data, openal-soft, sdl2
+Filename: pool/tur/megaglest_3.13.0-1_x86_64.deb
+Size: 2569856
+MD5sum: 3a934383896450a3a6204646384dd700
+SHA1: e85f89c9cfc3debee4396a88749eecfff17014d2
+SHA256: 8bf6eb241ecf5ff4491e7f1b8e70b1f150b5c07ed7f04e705cc1d383b17c2f36
+Homepage: https://megaglest.org/
+Description: A free and open source 3D real-time strategy game
+
 Package: meli
 Version: 0.8.13
 Architecture: x86_64
@@ -7260,6 +7274,19 @@ SHA1: c0dde379b471d69e79a06ece96803d86d93518ca
 SHA256: 9c36170064ae4e589f8749a66842d13e05a4a7e973fe9ffb92c840c81a8e47b5
 Homepage: https://github.com/ximimoments/katifetch
 Description: A cross-platform system information tool written in Bash
+
+Package: megaglest-data
+Version: 3.13.0-1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 515912
+Filename: pool/tur/megaglest-data_3.13.0-1_all.deb
+Size: 296986580
+MD5sum: 239ca77dd9ae41bd4ac54bf17a2c6bcb
+SHA1: 9ef52319463c542e35c4020b5d6a4fc260afed63
+SHA256: 04da66a1ef3a88cfc92fc41cfc406897b3418848fd6320bff3212da9d5e7a4eb
+Homepage: https://megaglest.org/
+Description: MegaGlest game data files (maps, tilesets, scenarios, sounds, textures)
 
 Package: mesa-zink-dev
 Version: 22.0.5-5

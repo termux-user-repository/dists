@@ -237,44 +237,44 @@ Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
 
 Package: ocaml-static
-Version: 5.5.0
+Version: 5.5.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 66608
-Depends: ocaml (= 5.5.0)
-Filename: pool/tur-on-device/ocaml-static_5.5.0_aarch64.deb
-Size: 7744464
-MD5sum: 20806cf55e80b260937b4fde6e289f2b
-SHA1: 922d81048d60dee55c43588b91d0c375b956be08
-SHA256: 3a9b4a50e63c00d8d6f6ce25988df3ea335d294a2cdd91de5585d1711337b3cb
+Installed-Size: 66672
+Depends: ocaml (= 5.5.1-1)
+Filename: pool/tur-on-device/ocaml-static_5.5.1-1_aarch64.deb
+Size: 7742124
+MD5sum: 1f480d160015f8de3df95002670d52dc
+SHA1: 83f82c27703c3c24c2f339b9a60efe33920c0dcd
+SHA256: edaa22b69422d5e9fa58dc65b56914a0f4b694cfe285a982b32b02259b8a2c9a
 Homepage: https://ocaml.org/
 Description: Static libraries for ocaml
 
 Package: ocaml
-Version: 5.5.0
+Version: 5.5.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 219964
+Installed-Size: 220000
 Depends: clang, libandroid-shmem
-Filename: pool/tur-on-device/ocaml_5.5.0_aarch64.deb
-Size: 85530820
-MD5sum: 7aac06bd5592ed77c4dcfb54edc95f19
-SHA1: 8e1ccbcb6e091148c4e75df0c931bafa5fc60c2d
-SHA256: 948cd5f4f9b53972fd4fda0996fccbf0fc43e48a361c88435ba7b29ed4e210ff
+Filename: pool/tur-on-device/ocaml_5.5.1-1_aarch64.deb
+Size: 85539324
+MD5sum: 8370ebf48a5115cec87482b32901094a
+SHA1: 5ef5fb3e30fe639a6e53564833b593a34b07c88a
+SHA256: 0a500cfdd88fca3f484b898b1bd9424b969df559bf7556d374eaa247de9c6270
 Homepage: https://ocaml.org/
 Description: Industrial strength programming language with an emphasis on expressive types and safety
 
 Package: opam
-Version: 2.5.2-1
+Version: 2.6.1-1
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 22136
+Installed-Size: 23128
 Depends: curl, git, ocaml, patch, tar, unzip
-Filename: pool/tur-on-device/opam_2.5.2-1_aarch64.deb
-Size: 4549964
-MD5sum: c5a65fdf5ea26c4bb6de9c52a25d9c4a
-SHA1: 3a70a1f6d8e983256bd7601425466866ebab1dd2
-SHA256: e1dca03845633d9da12fd8a5d0ecf3dad78294e96a6391a2e2df6bd7cce9818b
+Filename: pool/tur-on-device/opam_2.6.1-1_aarch64.deb
+Size: 4796788
+MD5sum: d6ba405c69474dbbdbdfb203838ec6c9
+SHA1: efaf13eec3460487b1f5e8dc6601f5bf4d8a7175
+SHA256: 4bdbf97746f55fc524ee8fb08a9c5ed1566e7189a2d8a1dfe041db285b84480c
 Homepage: https://opam.ocaml.org/
 Description: A source-based package manager for OCaml
 
