@@ -6033,16 +6033,16 @@ Homepage: https://topiary.tweag.io/
 Description: The universal code formatter
 
 Package: trigger-rally
-Version: 0.6.6.1-10
+Version: 0.6.6.1-11
 Architecture: i686
 Maintainer: @fervi
-Installed-Size: 121760
-Depends: make, libphysfs, glew, libtinyxml2, openal-soft, openalut, sdl2, ndk-multilib, sdl2-image, pulseaudio, libxi
-Filename: pool/tur/trigger-rally_0.6.6.1-10_i686.deb
-Size: 118630996
-MD5sum: 4ea4babe7512fc4ac3d85220fb785753
-SHA1: 3a2e5f59fe434750abf823dbc9185f461cc5c4d5
-SHA256: 05da9189d19570ed4d96e66f28779a794032b6f1b819d735676dae042fded1c8
+Installed-Size: 1292
+Depends: glew, libphysfs, libtinyxml2, libxi, libxinerama, libxxf86vm, openal-soft, openalut, pulseaudio, sdl2, sdl2-image, trigger-rally-data
+Filename: pool/tur/trigger-rally_0.6.6.1-11_i686.deb
+Size: 345260
+MD5sum: ad7d37bace5754b935eb29c09928c5c6
+SHA1: 2b63476ff26ecd13e9e5f8696ad091012a724ad1
+SHA256: 5fdcb7e2db526360af57106528ff84db4b4bbd893ec408750bb284246d3f056f
 Homepage: https://trigger-rally.sourceforge.io
 Description: A free 3D rally car racing game
 
@@ -7307,6 +7307,19 @@ SHA1: c377a7bb8931c6d60da05ebc5831f896a001b6cd
 SHA256: af2c01fbd7cdb168d954c2ebcf54d34dd6c2f342c930fac621f86fee31efa4b2
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
+
+Package: trigger-rally-data
+Version: 0.6.6.1-11
+Architecture: all
+Maintainer: @fervi
+Installed-Size: 121096
+Filename: pool/tur/trigger-rally-data_0.6.6.1-11_all.deb
+Size: 118515528
+MD5sum: e0275033d831a71cccdb3c3a9f81f648
+SHA1: 7c51386a37a86e7b988777dd7bddea92898944b4
+SHA256: 4a4a0daad5d444da07023e9cc793f99c422584c21b602144024c82e24232f958
+Homepage: https://trigger-rally.sourceforge.io
+Description: Data files for Trigger Rally
 
 Package: ttf-cascadia-code-nerd
 Version: 3.5.1-2

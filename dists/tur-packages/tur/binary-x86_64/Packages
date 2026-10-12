@@ -3697,13 +3697,13 @@ Package: megaglest
 Version: 3.13.0-1
 Architecture: x86_64
 Maintainer: @IntinteDAO
-Installed-Size: 8476
+Installed-Size: 8440
 Depends: curl, freetype, fribidi, glew, glib, libandroid-glob, libftgl2, libjpeg-turbo, libpng, libvorbis, libxml2, lua52, megaglest-data, openal-soft, sdl2
 Filename: pool/tur/megaglest_3.13.0-1_x86_64.deb
-Size: 2569856
-MD5sum: 3a934383896450a3a6204646384dd700
-SHA1: e85f89c9cfc3debee4396a88749eecfff17014d2
-SHA256: 8bf6eb241ecf5ff4491e7f1b8e70b1f150b5c07ed7f04e705cc1d383b17c2f36
+Size: 2563536
+MD5sum: dd95c890a5a0a181389711329a564300
+SHA1: 0573245aed34d74916251cb76796b45c800815a4
+SHA256: 289e561117dd5cc2e3a47e0ad8bbbf5cc7e6eabe2a7ed1a7cfcf69c1664a6736
 Homepage: https://megaglest.org/
 Description: A free and open source 3D real-time strategy game
 
@@ -6450,16 +6450,16 @@ Homepage: https://topiary.tweag.io/
 Description: The universal code formatter
 
 Package: trigger-rally
-Version: 0.6.6.1-10
+Version: 0.6.6.1-11
 Architecture: x86_64
 Maintainer: @fervi
-Installed-Size: 121724
-Depends: make, libphysfs, glew, libtinyxml2, openal-soft, openalut, sdl2, ndk-multilib, sdl2-image, pulseaudio, libxi
-Filename: pool/tur/trigger-rally_0.6.6.1-10_x86_64.deb
-Size: 118625808
-MD5sum: ebfc3c9c888cc494ba498fa4b92be488
-SHA1: a8e1bdcb9d154a4d6fe45eb798afd7e57d81a677
-SHA256: e779b834909674acacdfb2eb422d4e3c1fbab695ed18a8a94b09e3e13ab424e5
+Installed-Size: 1244
+Depends: glew, libphysfs, libtinyxml2, libxi, libxinerama, libxxf86vm, openal-soft, openalut, pulseaudio, sdl2, sdl2-image, trigger-rally-data
+Filename: pool/tur/trigger-rally_0.6.6.1-11_x86_64.deb
+Size: 337216
+MD5sum: 49fba78feb0a98dd2ea2c2554d22c479
+SHA1: 9a7722a25c8d7af9bf6d9ed61fc6a8fa2c448e3a
+SHA256: d3a657d5b51037cfd622c2b6d1e4648532b506cf37f565af4d02fef43b4fc2e6
 Homepage: https://trigger-rally.sourceforge.io
 Description: A free 3D rally car racing game
 
@@ -7710,6 +7710,19 @@ SHA1: c377a7bb8931c6d60da05ebc5831f896a001b6cd
 SHA256: af2c01fbd7cdb168d954c2ebcf54d34dd6c2f342c930fac621f86fee31efa4b2
 Homepage: https://github.com/KrutosVIP/TermuxInstall
 Description: Install Termux to chroot from Termux
+
+Package: trigger-rally-data
+Version: 0.6.6.1-11
+Architecture: all
+Maintainer: @fervi
+Installed-Size: 121096
+Filename: pool/tur/trigger-rally-data_0.6.6.1-11_all.deb
+Size: 118515528
+MD5sum: e0275033d831a71cccdb3c3a9f81f648
+SHA1: 7c51386a37a86e7b988777dd7bddea92898944b4
+SHA256: 4a4a0daad5d444da07023e9cc793f99c422584c21b602144024c82e24232f958
+Homepage: https://trigger-rally.sourceforge.io
+Description: Data files for Trigger Rally
 
 Package: ttf-cascadia-code-nerd
 Version: 3.5.1-2
