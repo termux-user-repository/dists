@@ -882,16 +882,16 @@ Homepage: https://github.com/SteamRE/DepotDownloader
 Description: Steam depot downloader utilizing the SteamKit2 library
 
 Package: designcraft
-Version: 0.7.1
+Version: 0.8.0
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 59224
+Installed-Size: 60248
 Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme
-Filename: pool/tur/designcraft_0.7.1_x86_64.deb
-Size: 16268332
-MD5sum: e7c36268faf2b70847673549416b0a56
-SHA1: 172d040bc818b4e7738d7b61ffc76bc2722c6efa
-SHA256: 06dce6f2732d14c689cd7dc4fdfe08eb67e83e1abce779dfe7c7bc59187e3fee
+Filename: pool/tur/designcraft_0.8.0_x86_64.deb
+Size: 16559416
+MD5sum: 193278bf886db9047da66f6db0cc097d
+SHA1: 6a9ac74653ae6147019661e329f376ac84d79aa9
+SHA256: b0cecb12646ee7556ed93d787aea393af28e95749d639f16b9649db8d47e9d42
 Homepage: https://getartcraft.com/apps/designcraft
 Description: An open-source, clean-room reimplementation of Adobe InDesign in pure Rust
 
@@ -3946,6 +3946,19 @@ SHA1: 684661168c92b6d9dc8d2c96dbd591e96f2ba418
 SHA256: d737afa764ee9ef2cf6d5824e0b0607faf43437efce92780d073128cf0c9458d
 Homepage: https://github.com/M-Igashi/mp3rgain
 Description: Lossless MP3 and AAC volume normalizer using ReplayGain, compatible with mp3gain
+
+Package: murex
+Version: 7.3.1232
+Architecture: x86_64
+Maintainer: @everywhereless
+Installed-Size: 18084
+Filename: pool/tur/murex_7.3.1232_x86_64.deb
+Size: 5500048
+MD5sum: 6aa9bcf366813d55261a1b332d665323
+SHA1: d2e887cba4a66f4e78e2c4d0857a61554a768bb8
+SHA256: 95b970d779df18cee920549937c4cc4745a1a0fdc891788236d38491bda752cd
+Homepage: https://github.com/lmorg/murex
+Description: Murex: A Smarter Shell
 
 Package: nasm-segelf
 Version: 2.16.01-4-1
