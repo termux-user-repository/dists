@@ -4178,6 +4178,20 @@ SHA256: e990ed2427b64768bbf7d58a43670a5428664a43dbc2c200c57a605132d0757d
 Homepage: https://github.com/marcograss/partialzip
 Description: A CLI utility to download file within ZIP archive, without the need to download entire ZIP archive
 
+Package: patchsplit
+Version: 1.3.1
+Architecture: arm
+Maintainer: Oliver Lin <oliver@liuxiaozhen.dev>
+Installed-Size: 352
+Depends: curl, git
+Filename: pool/tur/patchsplit_1.3.1_arm.deb
+Size: 169752
+MD5sum: 3d7d5cb0c3fbe30f5bbad910f2085733
+SHA1: d1ec1fe0a727b4bd45cbd56fcf39b8531fbe7907
+SHA256: 9fb27517263bb2ef243cb51fe21e4edb142457137122e77e8b7fb4c0ec5f0ae0
+Homepage: https://patchsplit.zitzhen.cn
+Description: A CLI tool for splitting patch files into per-commit patches
+
 Package: payload-dumper-go
 Version: 1.3.0
 Architecture: arm
