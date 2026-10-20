@@ -190,15 +190,15 @@ Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
 Package: autobrr
-Version: 1.88.0
+Version: 1.88.0-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 65452
-Filename: pool/tur/autobrr_1.88.0_x86_64.deb
-Size: 17594712
-MD5sum: 28fbb19b677e2d5dc3b3e29a1ff8cd72
-SHA1: ccbee0403eb28b1287144e17cde78db2727fef31
-SHA256: 91c9fe5b88b4ef6b1f744b29ccc14d7c1c65ef8ae98f7ec683d31b4084f3bd20
+Installed-Size: 65508
+Filename: pool/tur/autobrr_1.88.0-1_x86_64.deb
+Size: 17610292
+MD5sum: 462ed7d5939ba97d25e0ae9fa703dd75
+SHA1: 3b47959040b2c3946d3920f4ffffe72839ba8fdf
+SHA256: e60bfcdf6b2fc6491d3feceed12a5aa6a86088bb4d65e61c09c105334da4fa43
 Homepage: https://autobrr.com
 Description: The modern download automation tool for torrents and usenet
 
@@ -7750,6 +7750,19 @@ SHA1: c0b8f35b63173b26180215fff306433308628a8d
 SHA256: e2682c8a26513d740334cb2234fd981853f2e5f0bd0adf22be4cbe15b85b7cb2
 Homepage: https://github.com/nihui/rife-ncnn-vulkan
 Description: A metapackage that provides rife-ncnn-vulkan
+
+Package: rish-shizuku
+Version: 13.6.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 116
+Filename: pool/tur/rish-shizuku_13.6.0_all.deb
+Size: 28724
+MD5sum: ef5216110a8c48677ae5aa911c0d20c5
+SHA1: 8701859257dcbea07aee26f10251317069ff9fde
+SHA256: 993b802137c887b9393c44ef9df8fa274972287f5cb2b084175b83769e50a96f
+Homepage: https://shizuku.rikka.app
+Description: Run commands with elevated privileges using Shizuku
 
 Package: ruby-ri-2
 Version: 2.7.6-1
