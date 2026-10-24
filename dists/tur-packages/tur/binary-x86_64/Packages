@@ -526,6 +526,20 @@ SHA256: 0b1ac6995cbcf4532e067a27bf78bea2923c813555e62b1294daac8901d8f026
 Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
 Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
 
+Package: chromium-beta-host-tools
+Version: 157.0.8103.15
+Architecture: x86_64
+Maintainer: @licy183
+Installed-Size: 431776
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pipewire, pulseaudio, zlib
+Filename: pool/tur/chromium-beta-host-tools_157.0.8103.15_x86_64.deb
+Size: 51901724
+MD5sum: 1bce30a28092962f9af1ff83fc604d47
+SHA1: dceac735f19a2253cbb356beb2d9a95faef3293e
+SHA256: fd08bf5fc00f2b42775aa52dde5908adbe5a7ee7c4d6cffb6bd1e351acff6507
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser (Host tools)
+
 Package: chromium-beta
 Version: 157.0.8103.6
 Architecture: x86_64
@@ -3935,15 +3949,15 @@ Homepage: https://github.com/mesamirh/MovieBox-Tui
 Description: Terminal client for streaming movies, series, and anime
 
 Package: mp3rgain
-Version: 3.12.0
+Version: 3.12.1
 Architecture: x86_64
 Maintainer: @M-Igashi
 Installed-Size: 2804
-Filename: pool/tur/mp3rgain_3.12.0_x86_64.deb
-Size: 971684
-MD5sum: 7d4c30c1c10efb068c6c3ba5b3aed4b8
-SHA1: 681b4ea52dc58baa4df089f21a417dc6830e9ea4
-SHA256: 0a3ac5e9f88509d7a2724f0a9713c8a5ba8281e2f7079229de7219baba0ee358
+Filename: pool/tur/mp3rgain_3.12.1_x86_64.deb
+Size: 970308
+MD5sum: 49583bb348a48611b6b9be3d3c0063f0
+SHA1: 877271e3e1106d3669f51321697766ec0f37a4ef
+SHA256: eff97b1a3f7fc59017bc2b118e1a6849411fe90fbddd523aae609aafab206025
 Homepage: https://github.com/M-Igashi/mp3rgain
 Description: Lossless MP3 and AAC volume normalizer using ReplayGain, compatible with mp3gain
 
