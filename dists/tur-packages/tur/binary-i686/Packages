@@ -4384,18 +4384,18 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.8
 
 Package: python-is-python3.9
-Version: 3.9.20
+Version: 3.9.25
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.9 (= 3.9.20)
+Depends: python3.9 (= 3.9.25)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.9_3.9.20_i686.deb
-Size: 2124
-MD5sum: e1bd674cd327ef1992cb48b6b5436991
-SHA1: 1b1fef752f6e767a78c236a4d3349782bc9fc362
-SHA256: 63fb403051a0209be7dce9c108ead9ee703808a1466a5c19d4271482dcf9f5d7
+Filename: pool/tur/python-is-python3.9_3.9.25_i686.deb
+Size: 2216
+MD5sum: 4e18e5fad655c488d18fd9b495fcf3d0
+SHA1: a0b51270c9f493c78198fe03681f28b0d7beaee0
+SHA256: 8044201c830660daf385b3c7d250f21a9f72440d2348e2493ef29adf259b3a75
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.9
 
@@ -5043,60 +5043,60 @@ Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.8)
 
 Package: python3.9-cross
-Version: 3.9.20
+Version: 3.9.25
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 233348
-Filename: pool/tur/python3.9-cross_3.9.20_i686.deb
-Size: 38489792
-MD5sum: f524ae0c800fee247302b9e6827fe5f3
-SHA1: cf1b5b54284942d32629452a67e8d8d737229b3c
-SHA256: 6c1c25e9bcd90623702250ad8f15274a6870a2f4699eeca963be0397c5b2d53b
+Installed-Size: 149016
+Filename: pool/tur/python3.9-cross_3.9.25_i686.deb
+Size: 31831620
+MD5sum: e1655a9066defbd8de460b9cfdea632b
+SHA1: 3ab7fb9a3ed262d2a2bdcd6f9a5286d5e743f35e
+SHA256: 91e36cf8ae3f58081f41e101c591a79fc7ae3770da3a018891ae949e4c6db2d7
 Homepage: https://python.org/
 Description: Python 3.9 for cross build on the host (NOT for Termux)
 
 Package: python3.9-static
-Version: 3.9.20
+Version: 3.9.25
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 13772
-Depends: python3.9 (= 3.9.20)
-Filename: pool/tur/python3.9-static_3.9.20_i686.deb
-Size: 3788092
-MD5sum: c7d5a649d82cb99b542b61c355cd94e1
-SHA1: 67d886d42c6a73db4351c423c0e933794ddff57d
-SHA256: 1ea1a60bcde9c241922742a019e863ce62f2ab97856bbf9ce389810d69e9d72d
+Installed-Size: 13816
+Depends: python3.9 (= 3.9.25)
+Filename: pool/tur/python3.9-static_3.9.25_i686.deb
+Size: 3805908
+MD5sum: c9bba81b7f02dba329c8c7f11f7b5711
+SHA1: 9fb1a3a813d2194f147931eaef26c705ab20b552
+SHA256: 156d7eaa5233446f677bcf37de9072111725d4dc946c05a3008703c703d4fa10
 Homepage: https://python.org/
 Description: Static libraries for python3.9
 
 Package: python3.9-tkinter
-Version: 3.9.20
+Version: 3.9.25
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 7992
-Depends: tk, python3.9 (= 3.9.20)
-Filename: pool/tur/python3.9-tkinter_3.9.20_i686.deb
-Size: 938344
-MD5sum: 65ffac156315b13fbbc61f46c819b997
-SHA1: 175f255fc0b71b6fc6e3cc67917464025509b576
-SHA256: f6e1cb15ce002d66b428c86e53765966d0811fc4b072632c2ea1bb73d4f622d2
+Installed-Size: 2624
+Depends: tk, python3.9 (= 3.9.25)
+Filename: pool/tur/python3.9-tkinter_3.9.25_i686.deb
+Size: 504220
+MD5sum: b39e94689462725015e7f0cd367a47ac
+SHA1: d7a912bf0be5732a14ab4f77716b1f96cd53ca65
+SHA256: 9dc2fb7eca833ec8ce88e40c9e0b0899f67db8c7448103c43ebbbd1dc7c2e836
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.9
 
 Package: python3.9
-Version: 3.9.20
+Version: 3.9.25
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 47136
+Installed-Size: 24016
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.9-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.20_i686.deb
-Size: 8958660
-MD5sum: b860386968b219dee114be03ba6f5e85
-SHA1: f79ae36ea116ba4f978b9f2d4c013d5f34e1f087
-SHA256: b425065d39ebf6a425099067b9c944875118555899c40cbba4aa913692096236
+Filename: pool/tur/python3.9_3.9.25_i686.deb
+Size: 7379188
+MD5sum: 638541904f4be102f3322601332e3a3c
+SHA1: 38272e4429f7e0bc85ceb52450212c1b59829086
+SHA256: dd44e7f9d7e117a576e2ca32360827f8e7e3ff3780a3833f772038338cf395ce
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.9)
 
