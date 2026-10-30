@@ -4896,18 +4896,18 @@ Homepage: https://github.com/huggingface/xet-core
 Description: Fast transfer of large files with the Hugging Face Hub
 
 Package: python-is-python3.10
-Version: 3.10.15
+Version: 3.10.22
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.10 (= 3.10.15)
+Depends: python3.10 (= 3.10.22)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.10_3.10.15_x86_64.deb
-Size: 2120
-MD5sum: e565e96f7489b112d20a4046194c5004
-SHA1: 15c075aaa80e72f6779f94e9f30c00488431e2a4
-SHA256: accb3c97c262cc86ef2f6527e9cdb1785814b83cdd07ec5974257591e3c29c18
+Filename: pool/tur/python-is-python3.10_3.10.22_x86_64.deb
+Size: 2188
+MD5sum: a2634f8de11fa2ab24fda8b5ba585cb8
+SHA1: 28a980e5019ce6939fb5abb1652eb4d16c4d7525
+SHA256: c45aa532d55d98360e165fb6c7371ef56009dddcdf524027292ad5ba25a23773
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.10
 
@@ -5365,60 +5365,60 @@ Homepage: https://github.com/yt-dlp/yt-dlp
 Description: A youtube-dl fork with additional features and fixes
 
 Package: python3.10-cross
-Version: 3.10.15
+Version: 3.10.22
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 247620
-Filename: pool/tur/python3.10-cross_3.10.15_x86_64.deb
-Size: 41018008
-MD5sum: 305e3f69b8404e4c48de0ad8bcc86b65
-SHA1: 650fcd3024a8cb04a2e9342c47240db322037b85
-SHA256: 0b74806acf4e95b317c674dd7c0a00e6d78bf45126d592737fe2790318ba5a4e
+Installed-Size: 157960
+Filename: pool/tur/python3.10-cross_3.10.22_x86_64.deb
+Size: 33447588
+MD5sum: 125a3fbfed1e8872fb6fc850986474ef
+SHA1: 1c76c9ec987981694c416652d7e49677c29b81b2
+SHA256: a0288fad3fd9b49f2a787a37c9cc36991cbc2843bdf51b1ed9ccc7c486809859
 Homepage: https://python.org/
 Description: Python 3.10 for cross build on the host (NOT for Termux)
 
 Package: python3.10-static
-Version: 3.10.15
+Version: 3.10.22
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 24104
-Depends: python3.10 (= 3.10.15)
-Filename: pool/tur/python3.10-static_3.10.15_x86_64.deb
-Size: 4261956
-MD5sum: 92cf8695e5de7db85ca1d05c62118239
-SHA1: 345b0939aa311f0cd80f25569b3c6fc6dc23debe
-SHA256: 54a91976b2d1cea7ae612d415e282af7c0e79a21b06e4f82fccd571ae00bdfb8
+Installed-Size: 24176
+Depends: python3.10 (= 3.10.22)
+Filename: pool/tur/python3.10-static_3.10.22_x86_64.deb
+Size: 4292508
+MD5sum: 7b0703b89c87175e3b1d2420b9c15a31
+SHA1: f5010059bbbdcce65d633a0ad770e8f9e6bde7bd
+SHA256: 30ba3733c07638f939eaa3434a49a4d58b6a0d7ca9a2667713e4ae605fdbb4bf
 Homepage: https://python.org/
 Description: Static libraries for python3.10
 
 Package: python3.10-tkinter
-Version: 3.10.15
+Version: 3.10.22
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 8160
-Depends: tk, python3.10 (= 3.10.15)
-Filename: pool/tur/python3.10-tkinter_3.10.15_x86_64.deb
-Size: 987524
-MD5sum: f419ed6fdde030f93cde65c2afb52cf1
-SHA1: f0491a19d9232805b664d0fc9b6e314120095c37
-SHA256: cd1f1cb9ce75399f92c67d0289406db13034245b1619671fec75c80fd657b989
+Installed-Size: 2688
+Depends: tk, python3.10 (= 3.10.22)
+Filename: pool/tur/python3.10-tkinter_3.10.22_x86_64.deb
+Size: 515976
+MD5sum: 5b1bc358284723c8f35877d389ee2fd7
+SHA1: 55582c801519e116e4ecb4c7566ae9facc10956b
+SHA256: 73f0e48675312355715dd6ef54e5c92df553c69bf2115a9e0d3175ea1bc2369a
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.10
 
 Package: python3.10
-Version: 3.10.15
+Version: 3.10.22
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 49508
+Installed-Size: 25116
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Recommends: clang, make, pkg-config
 Suggests: python3.10-tkinter
 Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.15_x86_64.deb
-Size: 9527900
-MD5sum: b4cc5ca9affe48a999cd2a9c0d72c0ac
-SHA1: f18df51c73155e4538e04e3a7549a38e3fbd4178
-SHA256: 051e4e4433c1d1df0707df2e2fb0250d193c3682f22c58b3cced0e7660228bf5
+Filename: pool/tur/python3.10_3.10.22_x86_64.deb
+Size: 7523444
+MD5sum: edf334d70ffe64de75419100ee39ecef
+SHA1: ef603d479b9820a39dfd180017916f2d1b1ce29f
+SHA256: 01bc4a3754ffbda90d449d659695e22cae2e0be6a6fd8ba9fe14cbee2897d2d1
 Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.10)
 
