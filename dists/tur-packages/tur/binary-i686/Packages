@@ -4336,18 +4336,18 @@ Homepage: https://python.org/
 Description: Symlinks python(3) to python3.12
 
 Package: python-is-python3.13
-Version: 3.13.17
+Version: 3.13.18
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 36
-Depends: python3.13 (= 3.13.17)
+Depends: python3.13 (= 3.13.18)
 Conflicts: python
 Breaks: python
-Filename: pool/tur/python-is-python3.13_3.13.17_i686.deb
-Size: 2228
-MD5sum: afbd3898b807e2d17816c091a1b55ce6
-SHA1: 126839154d33b06f5e764bd938544e125166b14d
-SHA256: 5a3ed199562de25119f6f37c34fa657b1ea26b0de633cfac51dbaf4be2d1e8c6
+Filename: pool/tur/python-is-python3.13_3.13.18_i686.deb
+Size: 2220
+MD5sum: 788355a678c31924834137bc3b4d5891
+SHA1: c70bc171f9bd174a945e659398a18cb4f333dd7d
+SHA256: 5f3b1fccb6c6cb6ae8eefc22d9d4cca8f5e94accf662598ec0258a67906b58ce
 Homepage: https://python.org/
 Description: Symlinks python(3) to python3.13
 
@@ -4871,58 +4871,58 @@ Homepage: https://python.org/
 Description: Python programming language intended to enable clear programs (version 3.12)
 
 Package: python3.13-cross
-Version: 3.13.17
+Version: 3.13.18
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 255140
-Filename: pool/tur/python3.13-cross_3.13.17_i686.deb
-Size: 48989760
-MD5sum: a27b2fc297d1bc411e4f32ea39349868
-SHA1: 26593cde43ce506fcdfa3adbf78576862096a6a3
-SHA256: b8d2516eb9e1d63e71c4be6a555139e662bd16d865b0c4ab2d60fd5c797021f5
+Installed-Size: 255184
+Filename: pool/tur/python3.13-cross_3.13.18_i686.deb
+Size: 49003428
+MD5sum: c483fc7e92df58efa73fd0ad775e89fe
+SHA1: c2524d769b3b89d501bf92e92e2535611f5222f7
+SHA256: bdb5040f4b26e517b063e7fe71f631835e066a0fc2c79dfbbdfeaedee9dfd455
 Homepage: https://python.org/
 Description: Python 3.13 for cross build on the host (NOT for Termux)
 
 Package: python3.13-static
-Version: 3.13.17
+Version: 3.13.18
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 31156
-Depends: python3.13 (= 3.13.17)
-Filename: pool/tur/python3.13-static_3.13.17_i686.deb
-Size: 7087012
-MD5sum: e965897829387acfb84c7a970c4c4274
-SHA1: 42dd59f358b658006d664eaa2cd96f73020a4650
-SHA256: 47642c37c120c2ba12f3822bfc8685eb4e3bfb7e750136041e423afa7083ed05
+Depends: python3.13 (= 3.13.18)
+Filename: pool/tur/python3.13-static_3.13.18_i686.deb
+Size: 7083056
+MD5sum: d848db4adab6a2d1315668bb5b418b74
+SHA1: 40bf71ae73b76997854b153a5d54ba2e0562086f
+SHA256: 9b2abfb58b9254cc66a8eb2fe2547457138b54df8bb49df15dbdc82f22e6f284
 Homepage: https://python.org/
 Description: Static libraries for python3.13
 
 Package: python3.13-tkinter
-Version: 3.13.17
+Version: 3.13.18
 Architecture: i686
 Maintainer: @termux-user-repository
 Installed-Size: 2692
-Depends: tcl, tk, python3.13 (= 3.13.17)
-Filename: pool/tur/python3.13-tkinter_3.13.17_i686.deb
-Size: 521428
-MD5sum: 532d1b6c5c587b73c5f64412354a24dd
-SHA1: f415b4a1c9e223615f8a8c6eee9f81acb6886f04
-SHA256: 859f1cfe512b180a5d0e6e33fd5818d353480f384b620e8af090761fc8c0ff35
+Depends: tcl, tk, python3.13 (= 3.13.18)
+Filename: pool/tur/python3.13-tkinter_3.13.18_i686.deb
+Size: 521392
+MD5sum: 52c218af2ce0dc006952f1d523a15a5d
+SHA1: 1d132c69c0e48e8eca0ff4e5062d003bbb053b0b
+SHA256: 7d03a9e5ac91ffc7eb4a2c8ebb2f9659fa979606f6f35d2a7b3c526c5d1d9905
 Homepage: https://python.org/
 Description: Tkinter support for Python 3.13
 
 Package: python3.13
-Version: 3.13.17
+Version: 3.13.18
 Architecture: i686
 Maintainer: @termux-user-repository
-Installed-Size: 25256
+Installed-Size: 25268
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
 Suggests: python3.13-tkinter
-Filename: pool/tur/python3.13_3.13.17_i686.deb
-Size: 6493416
-MD5sum: 7a942db2c669686a057cd2789dc6f0e1
-SHA1: 354838b9f66d53fcec48889e0613ca6e897b2141
-SHA256: 89b8da1a0f9e6f81af373178e3f3f77aa0194c554eef4ffa6a3bc88ddf95632e
+Filename: pool/tur/python3.13_3.13.18_i686.deb
+Size: 6494784
+MD5sum: df5aa1649c5ab0f5bfec7a1f4b27b507
+SHA1: 8dc3ce8ff060f4c9d283db5a669d75748c45343f
+SHA256: b8fe09837e5cb24555110b7521d8304bd7aac370c050cf7da842181db824eafb
 Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
 
