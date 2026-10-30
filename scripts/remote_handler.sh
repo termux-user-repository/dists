@@ -136,15 +136,22 @@ list_non_upload_debs() {
 upload_debs() {
     # list_non_upload_debs
     non_uploaded_list=$(mktemp /tmp/non_upl.XXXXXXXXX)
+    updated_packages=""
 
+    mkdir -p "$DEB_DIR"
+    # nullglob: with no new deb to upload, skip the rename loop instead of
+    # iterating over the literal "*.deb" string.
+    shopt -s nullglob
     pushd $DEB_DIR
     for deb in *.deb; do
         modified_name="$(echo "$deb" | sed 's/[^\a-zA-Z0-9._+-]/./g')"
         mv -n "$deb" "$modified_name"
         echo "$modified_name" >> $non_uploaded_list
     done
+    shopt -u nullglob
     for deb_name in $(cat $non_uploaded_list); do
         local package_name_tag=$(echo $deb_name | cut -d '_' -f 1)
+        updated_packages="${updated_packages}${package_name_tag} "
 		sleep 1
         if ! gh release view -R "github.com/$owner/$repo" "$package_name_tag" >/dev/null 2>&1; then
             if ! output=$(gh release create -R "github.com/$owner/$repo" "$package_name_tag" -n "$package_name_tag" 2>&1); then
@@ -187,6 +194,7 @@ remove_archive_from_temp_gh() {
     # not processed successfully. then most probably issues with archive itself. 
     # However repository consistency checker will catch any unsuccesful checks. 
     cd $BASE_DIR
+    shopt -s nullglob
     for temp in ./*.tar;do
 		sleep 1
         if gh release delete-asset -R github.com/$owner/tur 0.1 "$(basename $temp)" -y;then
@@ -196,16 +204,60 @@ remove_archive_from_temp_gh() {
             echo "Error while removing $temp"
         fi
     done
+    shopt -u nullglob
 }
+## A rebuild always refreshes the "Date:" stamp and regenerates the
+## signatures. When nothing else changed (no pool change, no Packages index
+## change, Release differing from HEAD only in the Date line), restore the
+## previously committed files so routine runs do not create pointless
+## commits and signature rotations.
+drop_date_only_changes() {
+    pushd $(dirname $BASE_DIR)
+    local status_output release_file
+    # Everything except plain modifications of the signature trio counts as
+    # a real change (pool edits, Packages index edits, added/removed files).
+    status_output=$(git status --porcelain -- pool dists \
+        | grep -Ev '^ M dists/[^/]+/(Release|InRelease|Release\.gpg)$' \
+        || true)
+    if [[ -n "$status_output" ]]; then
+        echo "dists changed:"
+        printf '%s\n' "$status_output"
+        popd
+        return
+    fi
+    for release_file in dists/*/Release; do
+        [[ -f "$release_file" ]] || continue
+        if ! diff <(git show "HEAD:$release_file" 2>/dev/null | grep -v '^Date: ') \
+                  <(grep -v '^Date: ' "$release_file") >/dev/null; then
+            echo "dists changed: $release_file"
+            popd
+            return
+        fi
+    done
+    echo "dists unchanged, keeping previous Release and signatures"
+    git checkout -- dists
+    popd
+}
+
 commit() {
+    drop_date_only_changes
     pushd $(dirname $BASE_DIR)
     echo "pushing changes"
     if [[ $(git status --porcelain) ]]; then
         git add .
-        git commit -m "Updated $list_updated_packages"
+        local commit_message="Update dists files"
+        if [[ -n "${updated_packages:-}" ]]; then
+            commit_message="Updated: ${updated_packages% }"
+        fi
+        git commit -m "$commit_message"
         git push
-        remove_archive_from_temp_gh
+    else
+        echo "nothing to commit"
     fi
+    popd
+    # Clean up processed tarballs even when there was nothing to commit,
+    # otherwise they would be re-downloaded and re-processed forever.
+    remove_archive_from_temp_gh
 }
 upload_debs
 # remove_redundent_deb

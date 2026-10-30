@@ -21,7 +21,12 @@ Description="Created with love for Termux community"
 download_unprocessed_debs() {
     pushd $BASE_DIR
     rm -rf ./*.tar
-    gh release download -R termux-user-repository/tur 0.1 -p "*.tar"
+    # Having no pending tarball is not an error: dists still needs to be
+    # rebuilt and re-signed from the current pool state, e.g. after manual
+    # edits to the repository.
+    if ! gh release download -R termux-user-repository/tur 0.1 -p "*.tar"; then
+        echo "no pending tarballs to download"
+    fi
     popd
     
 }
@@ -55,8 +60,11 @@ add_package_metadata() {
         unzip -o $zipped
         done
     fi
-    for tar_file in ./*.tar;
-    do
+    # nullglob + array: iterate zero times when there is no new tarball.
+    shopt -s nullglob
+    local tar_files=(./*.tar)
+    shopt -u nullglob
+    for tar_file in "${tar_files[@]}"; do
         echo "processing $tar_file"
         tar -xf $tar_file
         
@@ -120,7 +128,9 @@ create_packages() {
             echo "$(pwd) $comp"
             cat ./*{$arch,all}.deb 2>/dev/null >| $Dists_DIR/$Suite/$comp/binary-${arch}/Packages || true
 
-            gzip -9k $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
+            # -n: deterministic output (no embedded timestamp), so unchanged
+            # indexes stay byte-identical between runs.
+            gzip -9nk $Dists_DIR/$Suite/$comp/binary-${arch}/Packages
             echo "packages file created for $comp $arch"
         done
     done
