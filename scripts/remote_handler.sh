@@ -151,7 +151,10 @@ upload_debs() {
     shopt -u nullglob
     for deb_name in $(cat $non_uploaded_list); do
         local package_name_tag=$(echo $deb_name | cut -d '_' -f 1)
-        updated_packages="${updated_packages}${package_name_tag} "
+        # deduplicate package names while preserving first-seen order
+        if [[ " $updated_packages " != *" $package_name_tag "* ]]; then
+            updated_packages="${updated_packages}${package_name_tag} "
+        fi
 		sleep 1
         if ! gh release view -R "github.com/$owner/$repo" "$package_name_tag" >/dev/null 2>&1; then
             if ! output=$(gh release create -R "github.com/$owner/$repo" "$package_name_tag" -n "$package_name_tag" 2>&1); then
@@ -239,6 +242,31 @@ drop_date_only_changes() {
     popd
 }
 
+build_version_changes() {
+    declare -A old_ver new_ver
+    local status file base pkg ver
+    while IFS=$'\t' read -r status file; do
+        [[ "$file" == pool/*/*.deb ]] || continue
+        base=$(basename "$file")
+        pkg="${base%%_*}"
+        ver="${base#*_}"
+        ver="${ver%%_*}"
+        case "$status" in
+            D) [[ -z "${old_ver[$pkg]:-}" ]] && old_ver["$pkg"]="$ver" ;;
+            A) [[ -z "${new_ver[$pkg]:-}" ]] && new_ver["$pkg"]="$ver" ;;
+        esac
+    done < <(git diff --cached --no-renames --name-status -- pool/)
+
+    local p
+    for p in $(printf '%s\n' "${!new_ver[@]}" | sort); do
+        if [[ -n "${old_ver[$p]:-}" ]]; then
+            printf -- '- %s: %s -> %s\n' "$p" "${old_ver[$p]}" "${new_ver[$p]}"
+        else
+            printf -- '- %s: %s\n' "$p" "${new_ver[$p]}"
+        fi
+    done
+}
+
 commit() {
     drop_date_only_changes
     pushd $(dirname $BASE_DIR)
@@ -248,6 +276,13 @@ commit() {
         local commit_message="Update dists files"
         if [[ -n "${updated_packages:-}" ]]; then
             commit_message="Updated: ${updated_packages% }"
+            local version_changes
+            version_changes=$(build_version_changes)
+            if [[ -n "$version_changes" ]]; then
+                commit_message="${commit_message}
+
+${version_changes}"
+            fi
         fi
         git commit -m "$commit_message"
         git push
