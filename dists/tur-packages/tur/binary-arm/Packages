@@ -215,21 +215,6 @@ SHA256: 7eb04d69c131548f8cb5be81e8d1030f546c003c86355880eb1bab81b5199aec
 Homepage: https://github.com/hr3lxphr6j/bililive-go
 Description: A live streaming recording tool
 
-Package: biome2
-Version: 2.4.9
-Architecture: arm
-Maintainer: @AhmadNaruto
-Installed-Size: 34200
-Conflicts: biome
-Replaces: biome
-Filename: pool/tur/biome2_2.4.9_arm.deb
-Size: 11082108
-MD5sum: aa9310462c808e37c202e0f0959e9698
-SHA1: 344c14bdb16bb8e6557170f4734e8bfbd89ebcd5
-SHA256: 4a4dbbbd462972da4cf5ffb2d68e02a147c55496ce1efc87ea58fb7cfc5b3826
-Homepage: https://github.com/biomejs/biome
-Description: A toolchain for web projects with a formatter and linter, usable via CLI and LSP
-
 Package: biome
 Version: 1.9.4-2
 Architecture: arm
@@ -366,33 +351,20 @@ SHA256: 15a75a8d71cbb8932f3af6b7e424244c20cf74a7c0058e295ec57a9aee1e4284
 Homepage: https://wiki.teamssix.com/cf
 Description: Cloud Exploitation Framework
 
-Package: cfitsio
-Version: 4.6.4
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1420
-Depends: curl, zlib
-Filename: pool/tur/cfitsio_4.6.4_arm.deb
-Size: 490108
-MD5sum: 8e5866bf31a50f4b279df52917a25fe1
-SHA1: af345c66755880e49b3c5c7783fb91dbf68df94e
-SHA256: 2396f4a5fce57bf7160e5cfc7a6fe27954bed586d3f1d92d96df0afdc0280d5d
-Homepage: https://heasarc.gsfc.nasa.gov/fitsio/
-Description: a library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format
-
-Package: chromium-beta-host-tools
-Version: 157.0.8103.15
+Package: chromium
+Version: 133.0.6943.141
 Architecture: arm
 Maintainer: @licy183
-Installed-Size: 415844
-Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pipewire, pulseaudio, zlib
-Filename: pool/tur/chromium-beta-host-tools_157.0.8103.15_arm.deb
-Size: 56843988
-MD5sum: 3f39d4df24fa792b103a2969eec45f63
-SHA1: 6639bd06f00d1375b8c5c95b26d46dc049ffcebb
-SHA256: 65993e3f2c5cc55f19915a592086be9d55e09fe16b4decf2596bce445454f4ae
+Installed-Size: 403564
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
+Suggests: qt5-qtbase
+Filename: pool/tur/chromium_133.0.6943.141_arm.deb
+Size: 119772536
+MD5sum: b7aa85b2ad85674d178f26eadc5485d8
+SHA1: 4b1360b06d3d03c30e9ebfdec0c02d6536fd3330
+SHA256: ec3949735f798769f5232cbfeaf636e31f9a49d7aad6dbf86adc41f0c5d36d01
 Homepage: https://www.chromium.org/Home
-Description: Chromium web browser (Host tools)
+Description: Chromium web browser
 
 Package: chromium-beta
 Version: 157.0.8103.15
@@ -408,6 +380,20 @@ SHA256: a73a7d5c6018e182a7154d0162414fd95a567e4f103c7da701c98b0f4c3a9835
 Homepage: https://www.chromium.org/Home
 Description: Chromium web browser
 
+Package: chromium-beta-host-tools
+Version: 157.0.8103.15
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 415844
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libevdev, libxkbcommon, libminizip, libnss, libx11, mesa, openssl, pango, pipewire, pulseaudio, zlib
+Filename: pool/tur/chromium-beta-host-tools_157.0.8103.15_arm.deb
+Size: 56843988
+MD5sum: 3f39d4df24fa792b103a2969eec45f63
+SHA1: 6639bd06f00d1375b8c5c95b26d46dc049ffcebb
+SHA256: 65993e3f2c5cc55f19915a592086be9d55e09fe16b4decf2596bce445454f4ae
+Homepage: https://www.chromium.org/Home
+Description: Chromium web browser (Host tools)
+
 Package: chromium-bsu
 Version: 0.9.16.1
 Architecture: arm
@@ -421,21 +407,6 @@ SHA1: db7c6ddac0ea26c2b8fc9ef1bc1661d257427cae
 SHA256: 2e097586c14845eba52817dc2f6c45f754aa3278fc320501a7377d44bfbb1c49
 Homepage: https://chromium-bsu.sourceforge.io/
 Description: Fast paced, arcade-style, top-scrolling space shooter
-
-Package: chromium
-Version: 133.0.6943.141
-Architecture: arm
-Maintainer: @licy183
-Installed-Size: 403564
-Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
-Suggests: qt5-qtbase
-Filename: pool/tur/chromium_133.0.6943.141_arm.deb
-Size: 119772536
-MD5sum: b7aa85b2ad85674d178f26eadc5485d8
-SHA1: 4b1360b06d3d03c30e9ebfdec0c02d6536fd3330
-SHA256: ec3949735f798769f5232cbfeaf636e31f9a49d7aad6dbf86adc41f0c5d36d01
-Homepage: https://www.chromium.org/Home
-Description: Chromium web browser
 
 Package: cksfv
 Version: 1.3.15
@@ -492,6 +463,19 @@ SHA256: 2c5028ff3d9ff67303fe278d451343e9175234a6fffaef1e3e607510f4393082
 Homepage: http://clucene.sourceforge.net/
 Description: C++ port of the high-performance text search engine Lucene
 
+Package: coded
+Version: 0.2.2
+Architecture: arm
+Maintainer: @HashShin
+Installed-Size: 8204
+Filename: pool/tur/coded_0.2.2_arm.deb
+Size: 2787008
+MD5sum: c0ed2ad5a5eed217aa2f618a6f054209
+SHA1: 3bb3392d08ac9ab94d88bad9c8ea63df1de7ae3e
+SHA256: d7098ee7e320eb98feb6b339108824828dd0cc47f27ed18b85add296e463fd05
+Homepage: https://github.com/HashShin/coded
+Description: A mobile-first code editor that runs in your browser
+
 Package: code-server
 Version: 4.144.0
 Architecture: arm
@@ -505,19 +489,6 @@ SHA1: abc374d40309d5635ce86f93f64de165f3c78a28
 SHA256: 08f08a685b98fdb57da1e1f971fc36284cf17cd9e54ff90984b68da44f3582d1
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code on any machine anywhere and access it in the browser
-
-Package: coded
-Version: 0.2.2
-Architecture: arm
-Maintainer: @HashShin
-Installed-Size: 8204
-Filename: pool/tur/coded_0.2.2_arm.deb
-Size: 2787008
-MD5sum: c0ed2ad5a5eed217aa2f618a6f054209
-SHA1: 3bb3392d08ac9ab94d88bad9c8ea63df1de7ae3e
-SHA256: d7098ee7e320eb98feb6b339108824828dd0cc47f27ed18b85add296e463fd05
-Homepage: https://github.com/HashShin/coded
-Description: A mobile-first code editor that runs in your browser
 
 Package: codesnap
 Version: 0.14.0
@@ -546,6 +517,19 @@ SHA256: 09b95b52f3b548ae34e855a722b193923287cbff867ab179f4ed3c311ec63bbd
 Homepage: https://github.com/dosemu2/comcom64
 Description: 64bit command.com
 
+Package: cppunit
+Version: 1.15.1-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 744
+Filename: pool/tur/cppunit_1.15.1-1_arm.deb
+Size: 109716
+MD5sum: 1f3b25b8285d6e8cac7fb71fc4813e07
+SHA1: ef5ba4ad377c859b4cc4c7b55b40fdbf64020619
+SHA256: 458643b13e58bf4a18314b04842ed9153dc5c329e2dc55327616084ab0db3e55
+Homepage: https://www.freedesktop.org/wiki/Software/cppunit
+Description: A C++ unit testing framework
+
 Package: cppunit-static
 Version: 1.15.1-1
 Architecture: arm
@@ -559,19 +543,6 @@ SHA1: e77f869956db05d6165824229ce3ef9f6c89ef61
 SHA256: e1cd08ea09ab4ecff8d3db5ee0074e7d00658aed031294febc681080e3a1cdaf
 Homepage: https://www.freedesktop.org/wiki/Software/cppunit
 Description: Static libraries for cppunit
-
-Package: cppunit
-Version: 1.15.1-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 744
-Filename: pool/tur/cppunit_1.15.1-1_arm.deb
-Size: 109716
-MD5sum: 1f3b25b8285d6e8cac7fb71fc4813e07
-SHA1: ef5ba4ad377c859b4cc4c7b55b40fdbf64020619
-SHA256: 458643b13e58bf4a18314b04842ed9153dc5c329e2dc55327616084ab0db3e55
-Homepage: https://www.freedesktop.org/wiki/Software/cppunit
-Description: A C++ unit testing framework
 
 Package: crenox
 Version: 2.1.11
@@ -652,19 +623,6 @@ SHA256: a7c55f752efed196cc0d442b6f912ca7fa47aabf8520a2adcbb7e80337bcc1eb
 Homepage: https://github.com/resurrecting-open-source-projects/dcfldd
 Description: dd(1) added features for forensics and security
 
-Package: dd-rescue
-Version: 1.99.22
-Architecture: arm
-Maintainer: @flosnvjx
-Installed-Size: 176
-Filename: pool/tur/dd-rescue_1.99.22_arm.deb
-Size: 61456
-MD5sum: e767bf3f253a57bec973235fcebd6337
-SHA1: 04c062902c02484b7c363e135c0450aa62f221d5
-SHA256: 5e97b0ca2d06d5dcaab486bae3b70118b0844305510b8011fb478c5d3811cdc7
-Homepage: http://www.garloff.de/kurt/linux/ddrescue/
-Description: A dd(1) alternative without POSIX-correctness burden to ease daily shell scripting and data recovery
-
 Package: ddns-go
 Version: 6.17.7
 Architecture: arm
@@ -678,6 +636,19 @@ SHA1: 8783a5dbe4fe2c77a7d7254a20ff06f04b368472
 SHA256: db611c67a64d434b9812e1b8286de5610a0cf40437f3f6a6a2ac84b15aed8c00
 Homepage: https://github.com/jeessy2/ddns-go
 Description: A simple, easy-to-use ddns service
+
+Package: dd-rescue
+Version: 1.99.22
+Architecture: arm
+Maintainer: @flosnvjx
+Installed-Size: 176
+Filename: pool/tur/dd-rescue_1.99.22_arm.deb
+Size: 61456
+MD5sum: e767bf3f253a57bec973235fcebd6337
+SHA1: 04c062902c02484b7c363e135c0450aa62f221d5
+SHA256: 5e97b0ca2d06d5dcaab486bae3b70118b0844305510b8011fb478c5d3811cdc7
+Homepage: http://www.garloff.de/kurt/linux/ddrescue/
+Description: A dd(1) alternative without POSIX-correctness burden to ease daily shell scripting and data recovery
 
 Package: designcraft
 Version: 0.15.2
@@ -859,49 +830,6 @@ SHA256: 691368d37c5b2ad295288c8aa0701abb5e4440ecd6cd32e31666dc7910f5065c
 Homepage: http://sourceforge.net/projects/efte
 Description: Advanced lightweight configurable editor
 
-Package: eigen5
-Version: 5.0.1
-Architecture: arm
-Maintainer: @termux
-Installed-Size: 19720
-Breaks: eigen-dev
-Replaces: eigen-dev
-Filename: pool/tur/eigen5_5.0.1_arm.deb
-Size: 2035440
-MD5sum: 17d3b4f5cafa935e7c489be7767cb120
-SHA1: 7bcf561aafc3cc4089e958494cd0c4b8b9406622
-SHA256: 64aec434199d1de7de600b529db9f63db7355a9721a50c43d6dddb94c1341660
-Homepage: http://eigen.tuxfamily.org
-Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms (Version 5)
-
-Package: electron-jumbo-host-tools
-Version: 34.5.1
-Architecture: arm
-Maintainer: @licy183
-Installed-Size: 380836
-Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
-Filename: pool/tur/electron-jumbo-host-tools_34.5.1_arm.deb
-Size: 55195964
-MD5sum: 73ee3addeb006886297eb3e3126cd8e4
-SHA1: a8e31bd7753c8c547e6ba81e9fcacce3497a092c
-SHA256: 9c393f6d39008fab654073f068c90afd4c12f242bcc6ad13f66df31bb4066974
-Homepage: https://github.com/electron/electron
-Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS (Host Tools)
-
-Package: electron-jumbo
-Version: 34.5.1
-Architecture: arm
-Maintainer: @licy183
-Installed-Size: 281356
-Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
-Filename: pool/tur/electron-jumbo_34.5.1_arm.deb
-Size: 60670324
-MD5sum: 6117a390b93ce63ff6bdf7e85a938794
-SHA1: c8ead1a462a44dbe8fccb58cdf359709bb104567
-SHA256: 77f916a9de7a7f060087a9d808c3b1220f2d70461d856bc6dc535207ddba5caa
-Homepage: https://github.com/electron/electron
-Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
-
 Package: electron21
 Version: 21.4.4
 Architecture: arm
@@ -985,6 +913,34 @@ SHA1: 1dca0a7a205ff102ea6363686e92c6707f126670
 SHA256: b96a326979998f1eedab7490a81ca315affb5a9b5aad2f6ad5364dd9ae1aea51
 Homepage: https://github.com/electron/electron
 Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+Package: electron-jumbo
+Version: 34.5.1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 281356
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/electron-jumbo_34.5.1_arm.deb
+Size: 60670324
+MD5sum: 6117a390b93ce63ff6bdf7e85a938794
+SHA1: c8ead1a462a44dbe8fccb58cdf359709bb104567
+SHA256: 77f916a9de7a7f060087a9d808c3b1220f2d70461d856bc6dc535207ddba5caa
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+Package: electron-jumbo-host-tools
+Version: 34.5.1
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 380836
+Depends: atk, cups, dbus, fontconfig, gtk3, krb5, libc++, libdrm, libevdev, libxkbcommon, libminizip, libnss, libwayland, libx11, mesa, openssl, pango, pulseaudio, zlib
+Filename: pool/tur/electron-jumbo-host-tools_34.5.1_arm.deb
+Size: 55195964
+MD5sum: 73ee3addeb006886297eb3e3126cd8e4
+SHA1: a8e31bd7753c8c547e6ba81e9fcacce3497a092c
+SHA256: 9c393f6d39008fab654073f068c90afd4c12f242bcc6ad13f66df31bb4066974
+Homepage: https://github.com/electron/electron
+Description: Build cross-platform desktop apps with JavaScript, HTML, and CSS (Host Tools)
 
 Package: exatorrent
 Version: 1.3.0
@@ -1196,21 +1152,19 @@ SHA256: 357e54df9029b8e977f66c191e14b1e41a72bcf97af76913f307cfbfd4e27c88
 Homepage: https://github.com/shadow1ng/fscan
 Description: A comprehensive intranet scanning tool
 
-Package: g-ir-scanner
-Version: 1.80.1-1
+Package: gawk-mbs
+Version: 1.0.0.git20240116
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 1040
-Depends: ldd, python, gobject-introspection (= 1.80.1-1)
-Breaks: gobject-introspection (<< 1.74.0-1)
-Replaces: gobject-introspection (<< 1.74.0-1)
-Filename: pool/tur/g-ir-scanner_1.80.1-1_arm.deb
-Size: 125832
-MD5sum: 5a44fddf2c9767b4e6823793aebcdbd5
-SHA1: fe14623966b704266ebda1a7505bee02fe0f9a02
-SHA256: d0a417543833b15d8ab38548916dc3b5ed588917ebc7a1a2f43833979bed48d7
-Homepage: https://gi.readthedocs.io/
-Description: A tool which generates GIR XML files
+Maintainer: @flosnvjx
+Installed-Size: 68
+Depends: gawk
+Filename: pool/tur/gawk-mbs_1.0.0.git20240116_arm.deb
+Size: 5420
+MD5sum: 89fadd6c06bd189b024b98bb4e0b73e0
+SHA1: 6323af61cb01bf7a29fb3a0274f28f57c6be9abd
+SHA256: f48cc696ed7ce24f5d0d66face7cc4711d39587cb8151e1cc8ef8827658ed5c6
+Homepage: https://gawkextlib.sourceforge.net/mbs/mbs.html
+Description: gawk(1) extension library providing functions for working with strings in a byte-oriented manner (in case of running under multibyte locales)
 
 Package: gawk-mbs-static
 Version: 1.0.0.git20240116
@@ -1226,19 +1180,19 @@ SHA256: 54ab1ca3707da00d3a44bb6ef3068b62f82dcaf3d27e926211dce93033a70b2a
 Homepage: https://gawkextlib.sourceforge.net/mbs/mbs.html
 Description: Static libraries for gawk-mbs
 
-Package: gawk-mbs
-Version: 1.0.0.git20240116
+Package: gawk-reclen
+Version: 1.0.1
 Architecture: arm
 Maintainer: @flosnvjx
 Installed-Size: 68
 Depends: gawk
-Filename: pool/tur/gawk-mbs_1.0.0.git20240116_arm.deb
-Size: 5420
-MD5sum: 89fadd6c06bd189b024b98bb4e0b73e0
-SHA1: 6323af61cb01bf7a29fb3a0274f28f57c6be9abd
-SHA256: f48cc696ed7ce24f5d0d66face7cc4711d39587cb8151e1cc8ef8827658ed5c6
-Homepage: https://gawkextlib.sourceforge.net/mbs/mbs.html
-Description: gawk(1) extension library providing functions for working with strings in a byte-oriented manner (in case of running under multibyte locales)
+Filename: pool/tur/gawk-reclen_1.0.1_arm.deb
+Size: 4700
+MD5sum: 403d1657c0f19f5e2438ce3e0599b8fb
+SHA1: 580954d3a9c011d60016ede3af2b0f611a6579f2
+SHA256: f3dcfaf7b17d54c34aa2b5147f3578f6e3ea4fcd9720aacdf496565b8b325f19
+Homepage: https://gawkextlib.sourceforge.net/
+Description: gawk(1) extension library for parsing input records in a fix-length manner
 
 Package: gawk-reclen-static
 Version: 1.0.1
@@ -1253,20 +1207,6 @@ SHA1: d106e8bca610ed072b3fae26915290b4ed29a955
 SHA256: 0439823940d11e05b8cf919df796779d5efe3fe0154a42d3887d820835f5e3b3
 Homepage: https://gawkextlib.sourceforge.net/
 Description: Static libraries for gawk-reclen
-
-Package: gawk-reclen
-Version: 1.0.1
-Architecture: arm
-Maintainer: @flosnvjx
-Installed-Size: 68
-Depends: gawk
-Filename: pool/tur/gawk-reclen_1.0.1_arm.deb
-Size: 4700
-MD5sum: 403d1657c0f19f5e2438ce3e0599b8fb
-SHA1: 580954d3a9c011d60016ede3af2b0f611a6579f2
-SHA256: f3dcfaf7b17d54c34aa2b5147f3578f6e3ea4fcd9720aacdf496565b8b325f19
-Homepage: https://gawkextlib.sourceforge.net/
-Description: gawk(1) extension library for parsing input records in a fix-length manner
 
 Package: gcc-10
 Version: 10.5.0-1
@@ -1416,19 +1356,21 @@ SHA256: 3b255eb82583a45129a8dabf3468489afb00179e974fa6ed60e02b4f039d4e10
 Homepage: https://github.com/dlvhdr/gh-dash
 Description: A rich terminal UI for GitHub that doesn't break your flow
 
-Package: glib-bin
-Version: 2.80.5-1
+Package: g-ir-scanner
+Version: 1.80.1-1
 Architecture: arm
 Maintainer: @termux
-Installed-Size: 616
-Depends: python, glib (= 2.80.5-1)
-Filename: pool/tur/glib-bin_2.80.5-1_arm.deb
-Size: 193476
-MD5sum: ee71cd4b6390c693ab009714acd8a7c6
-SHA1: d11f77bafbe91c59c509c9d9b010167e7c79cb90
-SHA256: 9331d4c1405d7847736b5b1322a99c70a10171bd7ede15ec6b03d9d44656c28f
-Homepage: https://developer.gnome.org/glib/
-Description: Programs for the GLib library
+Installed-Size: 1040
+Depends: ldd, python, gobject-introspection (= 1.80.1-1)
+Breaks: gobject-introspection (<< 1.74.0-1)
+Replaces: gobject-introspection (<< 1.74.0-1)
+Filename: pool/tur/g-ir-scanner_1.80.1-1_arm.deb
+Size: 125832
+MD5sum: 5a44fddf2c9767b4e6823793aebcdbd5
+SHA1: fe14623966b704266ebda1a7505bee02fe0f9a02
+SHA256: d0a417543833b15d8ab38548916dc3b5ed588917ebc7a1a2f43833979bed48d7
+Homepage: https://gi.readthedocs.io/
+Description: A tool which generates GIR XML files
 
 Package: glib
 Version: 2.80.5-1
@@ -1446,6 +1388,20 @@ SHA256: a42301321f03170a11be521707f3267bb8a21975e43421dd75b4f45d36fc2916
 Homepage: https://developer.gnome.org/glib/
 Description: Library providing core building blocks for libraries and applications written in C
 
+Package: glib-bin
+Version: 2.80.5-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 616
+Depends: python, glib (= 2.80.5-1)
+Filename: pool/tur/glib-bin_2.80.5-1_arm.deb
+Size: 193476
+MD5sum: ee71cd4b6390c693ab009714acd8a7c6
+SHA1: d11f77bafbe91c59c509c9d9b010167e7c79cb90
+SHA256: 9331d4c1405d7847736b5b1322a99c70a10171bd7ede15ec6b03d9d44656c28f
+Homepage: https://developer.gnome.org/glib/
+Description: Programs for the GLib library
+
 Package: glmark2
 Version: 2023.01
 Architecture: arm
@@ -1460,20 +1416,6 @@ SHA256: 30608f9aecaba2d88e3e793200fca35d4c9f26fd22bfa8133e3cc5ec051be0da
 Homepage: https://github.com/glmark2/glmark2
 Description: An OpenGL 2.0 and ES 2.0 benchmark.
 
-Package: gloox-static
-Version: 1.0.28
-Architecture: arm
-Maintainer: @termux
-Installed-Size: 4140
-Depends: gloox (= 1.0.28)
-Filename: pool/tur/gloox-static_1.0.28_arm.deb
-Size: 515976
-MD5sum: 7f81d71ba90f245fdecfc09c3c07137c
-SHA1: fe883425ff5d432db975f5d7824a8ad9b3944eb9
-SHA256: 3d3f46631a21a727187954a9729170bd5f929d3a4e39671f55dcb8775faaa1e2
-Homepage: https://camaya.net/gloox/
-Description: Static libraries for gloox
-
 Package: gloox
 Version: 1.0.28
 Architecture: arm
@@ -1487,6 +1429,20 @@ SHA1: 9147d9b94162dc84d684920f8e4f190c3df717b4
 SHA256: da23ade722a6ffcbcf94b6a3afbb0373bb5fd84b1ef32ccd1e4187e4969944d8
 Homepage: https://camaya.net/gloox/
 Description: A rock-solid, full-featured XMPP client library
+
+Package: gloox-static
+Version: 1.0.28
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 4140
+Depends: gloox (= 1.0.28)
+Filename: pool/tur/gloox-static_1.0.28_arm.deb
+Size: 515976
+MD5sum: 7f81d71ba90f245fdecfc09c3c07137c
+SHA1: fe883425ff5d432db975f5d7824a8ad9b3944eb9
+SHA256: 3d3f46631a21a727187954a9729170bd5f929d3a4e39671f55dcb8775faaa1e2
+Homepage: https://camaya.net/gloox/
+Description: Static libraries for gloox
 
 Package: gnome-chess
 Version: 50.1
@@ -1530,33 +1486,6 @@ SHA256: 6773937e0d22762ca20cb56a23731b03781ab724f55cd2d79d2b3bb4afbee198
 Homepage: https://wiki.gnome.org/Apps(2f)Sudoku.html
 Description: GNOME Sudoku game
 
-Package: go-cqhttp
-Version: 1.2.0
-Architecture: arm
-Maintainer: 2096779623 <admin@utermux.dev>
-Installed-Size: 12280
-Filename: pool/tur/go-cqhttp_1.2.0_arm.deb
-Size: 3476636
-MD5sum: d5cb3d854f15cc351808298102a6e730
-SHA1: ab656d0704cff70cf550c55196c961b9fda9a904
-SHA256: 82d3e01c39022b4e6d10b2ec5f2c9ed75b98426f2ce10d244073864eb5673a21
-Homepage: https://docs.go-cqhttp.org
-Description: The golang implementation of cqhttp, lightweight, native cross-platform
-
-Package: go-moreutils
-Version: 0.0.20240130
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 233676
-Depends: file
-Filename: pool/tur/go-moreutils_0.0.20240130_arm.deb
-Size: 23145792
-MD5sum: 0cec8f8999e5135f8e069051973aaf79
-SHA1: bd714c84e72e3985c4ca63c997babc9778952270
-SHA256: f65160d78da7cf91098e5d0030f78441479cb084f0917873cbaa54474fd8b656
-Homepage: https://github.com/sweetbbak/go-moreutils
-Description: coreutils with some more modern features, written in go
-
 Package: goat
 Version: 0.2.8
 Architecture: arm
@@ -1585,6 +1514,19 @@ SHA256: 76161b2306a85d8941251619b89b6994c2a983c6c7cfd3cecec385dfeef2d5bc
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
 
+Package: go-cqhttp
+Version: 1.2.0
+Architecture: arm
+Maintainer: 2096779623 <admin@utermux.dev>
+Installed-Size: 12280
+Filename: pool/tur/go-cqhttp_1.2.0_arm.deb
+Size: 3476636
+MD5sum: d5cb3d854f15cc351808298102a6e730
+SHA1: ab656d0704cff70cf550c55196c961b9fda9a904
+SHA256: 82d3e01c39022b4e6d10b2ec5f2c9ed75b98426f2ce10d244073864eb5673a21
+Homepage: https://docs.go-cqhttp.org
+Description: The golang implementation of cqhttp, lightweight, native cross-platform
+
 Package: golangci-lint-langserver
 Version: 0.0.12
 Architecture: arm
@@ -1610,6 +1552,20 @@ SHA1: a0e36fb4b74a41597f6be610f97c7e830ed30cd4
 SHA256: 77e35b1d5cfb3fc03a63d2f37d1e666903a3aa68f0e91f1ed2eb3c8888df2237
 Homepage: https://gomi.dev
 Description: Safer alternative to the rm command, with a trash can you can restore from
+
+Package: go-moreutils
+Version: 0.0.20240130
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 233676
+Depends: file
+Filename: pool/tur/go-moreutils_0.0.20240130_arm.deb
+Size: 23145792
+MD5sum: 0cec8f8999e5135f8e069051973aaf79
+SHA1: bd714c84e72e3985c4ca63c997babc9778952270
+SHA256: f65160d78da7cf91098e5d0030f78441479cb084f0917873cbaa54474fd8b656
+Homepage: https://github.com/sweetbbak/go-moreutils
+Description: coreutils with some more modern features, written in go
 
 Package: gopls
 Version: 0.15.0
@@ -1678,19 +1634,6 @@ SHA1: 4abca72ee59b2469b93f25092d53c939f9bea0cc
 SHA256: 8222d97d2856d424a5a7470825516a1ad589772b692e98c976c838c66d0fde8d
 Homepage: https://github.com/termux-user-repository/tur
 Description: Dummy test for TUR
-
-Package: hurl
-Version: 8.0.1
-Architecture: arm
-Maintainer: @SunPodder
-Installed-Size: 4964
-Filename: pool/tur/hurl_8.0.1_arm.deb
-Size: 1792996
-MD5sum: 8d9f3e871c60e9ccf1cfdd43c08c8467
-SHA1: c5ce6b9abc207469bd8de0e6f5b900cd791e6022
-SHA256: 31aae5b5cd2aa04ef4046cc87041238112e1bfd49bc0d729bc5a78488efcdffd
-Homepage: https://github.com/Orange-OpenSource/hurl
-Description: Hurl, run and test HTTP requests with plain text
 
 Package: hurrican
 Version: 1.0.9.3-r780.3f4bfd3-0
@@ -1772,20 +1715,6 @@ SHA1: 20d02a52b64c7b142449671ee3b1f0fcc639df39
 SHA256: a8808e9feb84547f0527aef3e9934173c87bafb544d7447e9361904f1c3a4e43
 Homepage: https://github.com/versenilvis/IRIS
 Description: A shell auto-completion tool for your terminal
-
-Package: jujutsu
-Version: 0.35.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 12796
-Suggests: openssl
-Filename: pool/tur/jujutsu_0.35.0_arm.deb
-Size: 5362720
-MD5sum: 6105d6dad825126dae10c06fefc16f3f
-SHA1: 989c7852c7050a0309d3796983f2ada9e415b7f7
-SHA256: 80c2b3019c841b22d26a268227a0b8d93aa9969574061240be9625cc4525d049
-Homepage: https://jj-vcs.github.io/jj/
-Description: A Git-compatible VCS that is both simple and powerful
 
 Package: keyfinder-cli
 Version: 1.1.5
@@ -1881,32 +1810,19 @@ SHA256: f28e4c2b13d66b623ecf8c0241975e71bb4a810be45ad2d72d6b702c9cd738e2
 Homepage: https://gitlab.com/protesilaos/lemonbar-xft
 Description: Lightweight status bar with Xft support (Protesilaos fork)
 
-Package: lensfun
-Version: 0.3.4-1
+Package: libabw
+Version: 0.1.3-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 4548
-Depends: glib, libpng, libxml2
-Filename: pool/tur/lensfun_0.3.4-1_arm.deb
-Size: 383572
-MD5sum: 89a5e5df465277097eee7b7b57886f7b
-SHA1: 88e0298ece25dbb9664bdfe97aaa35af806bae17
-SHA256: d78f07df4cc099674507d727163dbf5ed0abf0c115873d48926a7c722fd769f0
-Homepage: https://lensfun.github.io/
-Description: Lensfun
-
-Package: lib-tls-client
-Version: 1.16.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 12416
-Filename: pool/tur/lib-tls-client_1.16.0_arm.deb
-Size: 3523112
-MD5sum: 7e1f35e18e5a6c5bc2587cface3b9065
-SHA1: 19a61c780c72556f2d63763820059919036dced0
-SHA256: 8b8349231728e94493a0631d7b7c2cc1a9a9d2ee948d6e846bc4f7e758ee93b7
-Homepage: https://github.com/bogdanfinn/tls-client/
-Description: A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests
+Installed-Size: 248
+Depends: librevenge, libxml2, zlib
+Filename: pool/tur/libabw_0.1.3-4_arm.deb
+Size: 62800
+MD5sum: 7793efc3f25ef18bcd7cbff923c7d7a5
+SHA1: 56e6cc20b32bb1a280e5cf8c6c9e6f7a0797005f
+SHA256: d72906a357285bb862796a938e516383d02e3f7746939c2d9d6aead6878a50d5
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
+Description: a library that parses the file format of AbiWord documents
 
 Package: libabw-static
 Version: 0.1.3-4
@@ -1922,19 +1838,18 @@ SHA256: ac8a621ef7889b9e62ce5b4f6d1e9812c54621f0efb0938405eff6da3317458d
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
 Description: Static libraries for libabw
 
-Package: libabw
-Version: 0.1.3-4
+Package: libandroid-nl-types
+Version: 0.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 248
-Depends: librevenge, libxml2, zlib
-Filename: pool/tur/libabw_0.1.3-4_arm.deb
-Size: 62800
-MD5sum: 7793efc3f25ef18bcd7cbff923c7d7a5
-SHA1: 56e6cc20b32bb1a280e5cf8c6c9e6f7a0797005f
-SHA256: d72906a357285bb862796a938e516383d02e3f7746939c2d9d6aead6878a50d5
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libabw
-Description: a library that parses the file format of AbiWord documents
+Installed-Size: 48
+Filename: pool/tur/libandroid-nl-types_0.1-1_arm.deb
+Size: 2696
+MD5sum: c405eb178bd8746acfda6fa7b091b5c5
+SHA1: d83fbbeca75ec6ee7f62bddd1c5a4a60aee1cea0
+SHA256: 299fa7dba8ae4ae4bf75d161712956731a114a69885ad2e9dddd7270888c9d26
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
+Description: Shared library for catopen/catgets/catclose of Bionic Libc
 
 Package: libandroid-nl-types-static
 Version: 0.1-1
@@ -1949,33 +1864,6 @@ SHA1: d36cc5c156973a913d30820ac343d40ab6f8d7fa
 SHA256: 33e9ac92953709673ca8f3287f8ecc098bef5bf0db0b2806d28c1ffdc2928602
 Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
 Description: Static libraries for libandroid-nl-types
-
-Package: libandroid-nl-types
-Version: 0.1-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 48
-Filename: pool/tur/libandroid-nl-types_0.1-1_arm.deb
-Size: 2696
-MD5sum: c405eb178bd8746acfda6fa7b091b5c5
-SHA1: d83fbbeca75ec6ee7f62bddd1c5a4a60aee1cea0
-SHA256: 299fa7dba8ae4ae4bf75d161712956731a114a69885ad2e9dddd7270888c9d26
-Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libc/bionic/nl_types.cpp
-Description: Shared library for catopen/catgets/catclose of Bionic Libc
-
-Package: libbson-static
-Version: 1.30.3-3
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 328
-Depends: libbson (= 1.30.3-3)
-Filename: pool/tur/libbson-static_1.30.3-3_arm.deb
-Size: 87048
-MD5sum: 3bcee79a9697edfb697ff2de66040698
-SHA1: 5775b5ce6fd71bf9eb20a625fa873c9e1b055429
-SHA256: df1741c9ffd95281b0ed27e5648e5a0695ac54e5b2ff55f2dee78f3e54b01aa5
-Homepage: https://github.com/mongodb/mongo-c-driver
-Description: Static libraries for libbson
 
 Package: libbson
 Version: 1.30.3-3
@@ -1992,19 +1880,19 @@ SHA256: ef2619590bdc4df246bf7bc49ad4faecba8df49ee99880f8d7412e74d9e7b3b2
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A library providing useful routines related to building, parsing, and iterating BSON documents
 
-Package: libcdr-static
-Version: 0.1.7-4
+Package: libbson-static
+Version: 1.30.3-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2736
-Depends: libcdr (= 0.1.7-4)
-Filename: pool/tur/libcdr-static_0.1.7-4_arm.deb
-Size: 459100
-MD5sum: d1dd73db93bf6afc88890ff0891839af
-SHA1: 07b7715966a7e9f27be8c58fdbe7c3e633071d3e
-SHA256: 2543d087e0aa890685156789e0afe55e21ebe108d2bfbc4585f335fe42bd83fd
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
-Description: Static libraries for libcdr
+Installed-Size: 328
+Depends: libbson (= 1.30.3-3)
+Filename: pool/tur/libbson-static_1.30.3-3_arm.deb
+Size: 87048
+MD5sum: 3bcee79a9697edfb697ff2de66040698
+SHA1: 5775b5ce6fd71bf9eb20a625fa873c9e1b055429
+SHA256: df1741c9ffd95281b0ed27e5648e5a0695ac54e5b2ff55f2dee78f3e54b01aa5
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: Static libraries for libbson
 
 Package: libcdr
 Version: 0.1.7-4
@@ -2020,19 +1908,19 @@ SHA256: 726b9f5f760f1ccf754c54ed3030412b99c2d2fbc019d1bdc271d87d04ed83ce
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: CorelDraw file format importer library for LibreOffice
 
-Package: libcef-for-brow6el-dev
-Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
+Package: libcdr-static
+Version: 0.1.7-4
 Architecture: arm
-Maintainer: @licy183
-Installed-Size: 21832
-Depends: libcef-for-brow6el (= 143.0.14+gdd46a37+chromium-143.0.7499.193-0)
-Filename: pool/tur/libcef-for-brow6el-dev_143.0.14+gdd46a37+chromium-143.0.7499.193-0_arm.deb
-Size: 717780
-MD5sum: fe1a5cf1fb8b3addc4043a23bcad518e
-SHA1: 1c0c1ef06b3fe87cb67eba889e3063a0eda4f129
-SHA256: f288ba9cfb3282ee421dc2b0699f5f3025c462fe37483fabfa39457ec9b0a228
-Homepage: https://bitbucket.org/chromiumembedded/cef
-Description: Dev files for CEF (Used by brow6el)
+Maintainer: @termux-user-repository
+Installed-Size: 2736
+Depends: libcdr (= 0.1.7-4)
+Filename: pool/tur/libcdr-static_0.1.7-4_arm.deb
+Size: 459100
+MD5sum: d1dd73db93bf6afc88890ff0891839af
+SHA1: 07b7715966a7e9f27be8c58fdbe7c3e633071d3e
+SHA256: 2543d087e0aa890685156789e0afe55e21ebe108d2bfbc4585f335fe42bd83fd
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Description: Static libraries for libcdr
 
 Package: libcef-for-brow6el
 Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
@@ -2047,6 +1935,20 @@ SHA1: dc4bb0203a5895da669d1e69c41a8c4fb1651b29
 SHA256: 20b0181ebf4f6078bdcdcdef151cced3cd61e9548284c6b6d5abbfbbe5379e8f
 Homepage: https://bitbucket.org/chromiumembedded/cef
 Description: Chromium Embedded Framework (Used by brow6el)
+
+Package: libcef-for-brow6el-dev
+Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
+Architecture: arm
+Maintainer: @licy183
+Installed-Size: 21832
+Depends: libcef-for-brow6el (= 143.0.14+gdd46a37+chromium-143.0.7499.193-0)
+Filename: pool/tur/libcef-for-brow6el-dev_143.0.14+gdd46a37+chromium-143.0.7499.193-0_arm.deb
+Size: 717780
+MD5sum: fe1a5cf1fb8b3addc4043a23bcad518e
+SHA1: 1c0c1ef06b3fe87cb67eba889e3063a0eda4f129
+SHA256: f288ba9cfb3282ee421dc2b0699f5f3025c462fe37483fabfa39457ec9b0a228
+Homepage: https://bitbucket.org/chromiumembedded/cef
+Description: Dev files for CEF (Used by brow6el)
 
 Package: libcef-host-tools-for-brow6el
 Version: 143.0.14+gdd46a37+chromium-143.0.7499.193-0
@@ -2090,20 +1992,6 @@ SHA256: 536f614665851b5ac48fc9858e480f6a02bbfb1fb6f057478a2c8e8806889276
 Homepage: https://llvm.org/
 Description: Compiler runtime libraries for clang
 
-Package: libcwidget-static
-Version: 0.5.18-4
-Architecture: arm
-Maintainer: @termux
-Installed-Size: 2748
-Depends: libcwidget (= 0.5.18-4)
-Filename: pool/tur/libcwidget-static_0.5.18-4_arm.deb
-Size: 346944
-MD5sum: 54322e0b5d7295c318e1c086a01b3286
-SHA1: aa0a0fc883255159a9189507145a7a2a1b0a40bc
-SHA256: 50d0b072e7e4101f1f97f8ac75a2973df9bb52d67dc52d2b31277fbac1564c44
-Homepage: https://salsa.debian.org/cwidget-team/
-Description: Static libraries for libcwidget
-
 Package: libcwidget
 Version: 0.5.18-4
 Architecture: arm
@@ -2117,6 +2005,20 @@ SHA1: 44e73b0fdf5ef0edb87a006d2b5128d1249c8313
 SHA256: 44c5da7cce8fc7a3811e6367c847d9b24583e9cc060af1be7c78580c5b7bb312
 Homepage: https://salsa.debian.org/cwidget-team/
 Description: high-level terminal interface library for C++
+
+Package: libcwidget-static
+Version: 0.5.18-4
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 2748
+Depends: libcwidget (= 0.5.18-4)
+Filename: pool/tur/libcwidget-static_0.5.18-4_arm.deb
+Size: 346944
+MD5sum: 54322e0b5d7295c318e1c086a01b3286
+SHA1: aa0a0fc883255159a9189507145a7a2a1b0a40bc
+SHA256: 50d0b072e7e4101f1f97f8ac75a2973df9bb52d67dc52d2b31277fbac1564c44
+Homepage: https://salsa.debian.org/cwidget-team/
+Description: Static libraries for libcwidget
 
 Package: libdav1d
 Version: 1.4.0
@@ -2157,20 +2059,6 @@ SHA256: 1b58455d861123360dd929aab91da337656d1df38eef2e7f4d430d172f6d3d8b
 Homepage: https://dri.freedesktop.org/wiki/
 Description: Userspace interface to kernel DRM services
 
-Package: libe-book-static
-Version: 0.1.3-4
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2680
-Depends: libe-book (= 0.1.3-4)
-Filename: pool/tur/libe-book-static_0.1.3-4_arm.deb
-Size: 268728
-MD5sum: 4ba5cb835fab95a3508f1742269df9c3
-SHA1: 0edee1e09fc0e3ae613b0cecf826b874e579a283
-SHA256: e2b3d11d534de424600139b0e22cf9a870acc4d5db4c3fa5a27e5ec92727cfb7
-Homepage: https://sourceforge.net/projects/libebook/
-Description: Static libraries for libe-book
-
 Package: libe-book
 Version: 0.1.3-4
 Architecture: arm
@@ -2185,19 +2073,19 @@ SHA256: b541c6f04d2f5cc3d0c253b234219cf84a70a59bbbdb8dff0b34da22aae07579
 Homepage: https://sourceforge.net/projects/libebook/
 Description: Library for import of reflowable e-book formats.
 
-Package: libepubgen-static
-Version: 0.1.1-4
+Package: libe-book-static
+Version: 0.1.3-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2076
-Depends: libepubgen (= 0.1.1-4)
-Filename: pool/tur/libepubgen-static_0.1.1-4_arm.deb
-Size: 209220
-MD5sum: c67cc13740207af2009c3ed585d584fb
-SHA1: bc24288c80367f06988c19ef3db4baaab03c91fe
-SHA256: f47b103b2419d055729eab4700076386df00abc2989de61db836c5eeb75f1a57
-Homepage: https://sourceforge.net/projects/libepubgen
-Description: Static libraries for libepubgen
+Installed-Size: 2680
+Depends: libe-book (= 0.1.3-4)
+Filename: pool/tur/libe-book-static_0.1.3-4_arm.deb
+Size: 268728
+MD5sum: 4ba5cb835fab95a3508f1742269df9c3
+SHA1: 0edee1e09fc0e3ae613b0cecf826b874e579a283
+SHA256: e2b3d11d534de424600139b0e22cf9a870acc4d5db4c3fa5a27e5ec92727cfb7
+Homepage: https://sourceforge.net/projects/libebook/
+Description: Static libraries for libe-book
 
 Package: libepubgen
 Version: 0.1.1-4
@@ -2213,19 +2101,19 @@ SHA256: f4b1934c5b48076ef33e014d9ee7e36507dbb9ff90eb714f79c1e0048c7a62d5
 Homepage: https://sourceforge.net/projects/libepubgen
 Description: an EPUB generator for librevenge
 
-Package: libetonyek-static
-Version: 0.1.10-3
+Package: libepubgen-static
+Version: 0.1.1-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 22180
-Depends: libetonyek (= 0.1.10-3)
-Filename: pool/tur/libetonyek-static_0.1.10-3_arm.deb
-Size: 1783104
-MD5sum: 679bfc33f0a86affb162e6f5c3140c39
-SHA1: ed7dad05c6a2f4e1a7eaf7bc8f115e167b2d593c
-SHA256: 041fdc8f5ec55f947576988a8a322b67892e9c6bb9f989f4372b3bb0d6d2848b
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
-Description: Static libraries for libetonyek
+Installed-Size: 2076
+Depends: libepubgen (= 0.1.1-4)
+Filename: pool/tur/libepubgen-static_0.1.1-4_arm.deb
+Size: 209220
+MD5sum: c67cc13740207af2009c3ed585d584fb
+SHA1: bc24288c80367f06988c19ef3db4baaab03c91fe
+SHA256: f47b103b2419d055729eab4700076386df00abc2989de61db836c5eeb75f1a57
+Homepage: https://sourceforge.net/projects/libepubgen
+Description: Static libraries for libepubgen
 
 Package: libetonyek
 Version: 0.1.10-3
@@ -2241,19 +2129,19 @@ SHA256: 90fd77009916bf0b83b2962b40d61b436a1fbe9e81a987020de56a832e4ded2f
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
 Description: CorelDraw file format importer library for LibreOffice
 
-Package: libexttextcat-static
-Version: 3.4.7
+Package: libetonyek-static
+Version: 0.1.10-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 48
-Depends: libexttextcat (= 3.4.7)
-Filename: pool/tur/libexttextcat-static_3.4.7_arm.deb
-Size: 6724
-MD5sum: d0c575e799a9abf543827bf6dac6cb55
-SHA1: cdd9d153ff9ce2f3d377b55effd1d17179b3bf6a
-SHA256: bfc6e9db67e6880f7970733208e6dfd4645adefc2a13ed5c8cbe9def53a0fa5f
-Homepage: https://wiki.documentfoundation.org/Libexttextcat
-Description: Static libraries for libexttextcat
+Installed-Size: 22180
+Depends: libetonyek (= 0.1.10-3)
+Filename: pool/tur/libetonyek-static_0.1.10-3_arm.deb
+Size: 1783104
+MD5sum: 679bfc33f0a86affb162e6f5c3140c39
+SHA1: ed7dad05c6a2f4e1a7eaf7bc8f115e167b2d593c
+SHA256: 041fdc8f5ec55f947576988a8a322b67892e9c6bb9f989f4372b3bb0d6d2848b
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
+Description: Static libraries for libetonyek
 
 Package: libexttextcat
 Version: 3.4.7
@@ -2268,19 +2156,19 @@ SHA256: d30a8858b05dbf8710b38641c5243320048564caa4c2316d65de39b079232819
 Homepage: https://wiki.documentfoundation.org/Libexttextcat
 Description: N-Gram-Based Text Categorization library primarily intended for language guessing
 
-Package: libffi-static
-Version: 3.4.2-1
+Package: libexttextcat-static
+Version: 3.4.7
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 80
-Depends: libffi (= 3.4.2-1)
-Filename: pool/tur/libffi-static_3.4.2-1_arm.deb
-Size: 14288
-MD5sum: d6cf6ba01930f24e0036b9a255cbb8e7
-SHA1: 398077410947a589d095c475823c08206123740e
-SHA256: 7dca8d37c6cf6511bc6324d188ab2b1953339b6a4f03f5e4de05f321ca6fc221
-Homepage: https://sourceware.org/libffi/
-Description: Static libraries for libffi
+Maintainer: @termux-user-repository
+Installed-Size: 48
+Depends: libexttextcat (= 3.4.7)
+Filename: pool/tur/libexttextcat-static_3.4.7_arm.deb
+Size: 6724
+MD5sum: d0c575e799a9abf543827bf6dac6cb55
+SHA1: cdd9d153ff9ce2f3d377b55effd1d17179b3bf6a
+SHA256: bfc6e9db67e6880f7970733208e6dfd4645adefc2a13ed5c8cbe9def53a0fa5f
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Description: Static libraries for libexttextcat
 
 Package: libffi
 Version: 3.4.2-1
@@ -2297,19 +2185,19 @@ SHA256: 49bdae41701aa112a33b360f29a545695062dd6bd5eebb0f00b8d39c1396f098
 Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
-Package: libfreehand-static
-Version: 0.1.2-4
+Package: libffi-static
+Version: 3.4.2-1
 Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1584
-Depends: libfreehand (= 0.1.2-4)
-Filename: pool/tur/libfreehand-static_0.1.2-4_arm.deb
-Size: 316164
-MD5sum: af970932f8c48c0132fdf26f17d65646
-SHA1: c71de278422c3e656a2db8e01a43436529a3d3bb
-SHA256: 0397648976416544717b2f18d603f1b55f4b5c759d4a5dc7baf2df9fce78fabd
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
-Description: Static libraries for libfreehand
+Maintainer: @termux
+Installed-Size: 80
+Depends: libffi (= 3.4.2-1)
+Filename: pool/tur/libffi-static_3.4.2-1_arm.deb
+Size: 14288
+MD5sum: d6cf6ba01930f24e0036b9a255cbb8e7
+SHA1: 398077410947a589d095c475823c08206123740e
+SHA256: 7dca8d37c6cf6511bc6324d188ab2b1953339b6a4f03f5e4de05f321ca6fc221
+Homepage: https://sourceware.org/libffi/
+Description: Static libraries for libffi
 
 Package: libfreehand
 Version: 0.1.2-4
@@ -2324,6 +2212,20 @@ SHA1: ee72a81f4eceebb606ff10a3b8f084da9a8c7a78
 SHA256: d6be8137f2f2d54cb06d9c9fafc7d22fa5c0d94cfedd93ac2ba90047bd71b968
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
 Description: a library for import of Aldus/Macromedia/Adobe FreeHand documents
+
+Package: libfreehand-static
+Version: 0.1.2-4
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1584
+Depends: libfreehand (= 0.1.2-4)
+Filename: pool/tur/libfreehand-static_0.1.2-4_arm.deb
+Size: 316164
+MD5sum: af970932f8c48c0132fdf26f17d65646
+SHA1: c71de278422c3e656a2db8e01a43436529a3d3bb
+SHA256: 0397648976416544717b2f18d603f1b55f4b5c759d4a5dc7baf2df9fce78fabd
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+Description: Static libraries for libfreehand
 
 Package: libftgl2
 Version: 2.4.0-1
@@ -2353,20 +2255,6 @@ SHA256: 1ef0a3a379404e62956458fba37076ca5bd84501a2cb01d6e7c2469a5780b1ba
 Homepage: http://site.icu-project.org/home
 Description: International Components for Unicode library
 
-Package: libiptcdata-static
-Version: 1.0.4
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 140
-Depends: libiptcdata (= 1.0.4)
-Filename: pool/tur/libiptcdata-static_1.0.4_arm.deb
-Size: 32180
-MD5sum: 7ea6e9ea20019e4d1b094463eec1d9dc
-SHA1: 3134daf64df4ed073d811bbd8ad8331602b68e71
-SHA256: 5c14271ac75da622bf71925e552b033b249c19d3ee6af5853bfcc8682df13867
-Homepage: https://libiptcdata.sourceforge.net/
-Description: Static libraries for libiptcdata
-
 Package: libiptcdata
 Version: 1.0.4
 Architecture: arm
@@ -2380,19 +2268,19 @@ SHA256: 5561b48a633d7b2fa0e7c79076875f9e5f83875badd48d7d95134facceb38ac1
 Homepage: https://libiptcdata.sourceforge.net/
 Description: a C library for manipulating the IPTC metadata stored within multimedia files
 
-Package: libisl-static
-Version: 0.26-2
+Package: libiptcdata-static
+Version: 1.0.4
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 2052
-Depends: libisl (= 0.26-2)
-Filename: pool/tur/libisl-static_0.26-2_arm.deb
-Size: 497964
-MD5sum: d0e57719c4ebd5974a738c7d76af4866
-SHA1: 0120536adeee91b0fd51459d4cafac8fe1e71b0b
-SHA256: 407cec21a64a2f3b456296301b3d4c3e9c7805bb7913634df62fc4511e722f86
-Homepage: https://libisl.sourceforge.io/
-Description: Static libraries for libisl
+Maintainer: @termux-user-repository
+Installed-Size: 140
+Depends: libiptcdata (= 1.0.4)
+Filename: pool/tur/libiptcdata-static_1.0.4_arm.deb
+Size: 32180
+MD5sum: 7ea6e9ea20019e4d1b094463eec1d9dc
+SHA1: 3134daf64df4ed073d811bbd8ad8331602b68e71
+SHA256: 5c14271ac75da622bf71925e552b033b249c19d3ee6af5853bfcc8682df13867
+Homepage: https://libiptcdata.sourceforge.net/
+Description: Static libraries for libiptcdata
 
 Package: libisl
 Version: 0.26-2
@@ -2410,19 +2298,19 @@ SHA256: 630cc3bd909e7c5dcb2be21fa70471d9ed196545042cceae5e89f85957e63347
 Homepage: https://libisl.sourceforge.io/
 Description: Library for manipulating sets and relations of integer points bounded by linear constraints
 
-Package: libixion-static
-Version: 0.20.0-2
+Package: libisl-static
+Version: 0.26-2
 Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2736
-Depends: libixion (= 0.20.0-2)
-Filename: pool/tur/libixion-static_0.20.0-2_arm.deb
-Size: 378400
-MD5sum: 7ccd75860ef40d72cc3c0f7a56ce83e1
-SHA1: 2f6ec569e0d0e5ae0d6e8b774e7ce0c203d06749
-SHA256: 729693a5259e81a98247f9609eee9a9b48e975b675a51491bdd16edb217b1129
-Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
-Description: Static libraries for libixion
+Maintainer: @termux
+Installed-Size: 2052
+Depends: libisl (= 0.26-2)
+Filename: pool/tur/libisl-static_0.26-2_arm.deb
+Size: 497964
+MD5sum: d0e57719c4ebd5974a738c7d76af4866
+SHA1: 0120536adeee91b0fd51459d4cafac8fe1e71b0b
+SHA256: 407cec21a64a2f3b456296301b3d4c3e9c7805bb7913634df62fc4511e722f86
+Homepage: https://libisl.sourceforge.io/
+Description: Static libraries for libisl
 
 Package: libixion
 Version: 0.20.0-2
@@ -2438,19 +2326,19 @@ SHA256: 9c13c7677c53e77d813a219c092564a80798673f334cfd4b7968634da0938d77
 Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
 Description: A general purpose formula parser & interpreter
 
-Package: libjemalloc-static
-Version: 5.3.0
+Package: libixion-static
+Version: 0.20.0-2
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 7804
-Depends: libjemalloc (= 5.3.0)
-Filename: pool/tur/libjemalloc-static_5.3.0_arm.deb
-Size: 880196
-MD5sum: b7b662a64932289b86b69fcadc661ab9
-SHA1: d6933ffb36d1a8731bcfd4d103763f7b51fc6427
-SHA256: b6ebdae7cb5757e0cda85516ecc8b103d35cb7a465c9556101bbbb78e225e39c
-Homepage: http://www.canonware.com/jemalloc/
-Description: Static libraries for libjemalloc
+Maintainer: @termux-user-repository
+Installed-Size: 2736
+Depends: libixion (= 0.20.0-2)
+Filename: pool/tur/libixion-static_0.20.0-2_arm.deb
+Size: 378400
+MD5sum: 7ccd75860ef40d72cc3c0f7a56ce83e1
+SHA1: 2f6ec569e0d0e5ae0d6e8b774e7ce0c203d06749
+SHA256: 729693a5259e81a98247f9609eee9a9b48e975b675a51491bdd16edb217b1129
+Homepage: https://gitlab.com/ixion/ixion/blob/master/README.md
+Description: Static libraries for libixion
 
 Package: libjemalloc
 Version: 5.3.0
@@ -2464,6 +2352,20 @@ SHA1: bb975b07f628e07f189a124aa8f1949573b4d228
 SHA256: 177c291cacf8cd54c59cc501d53b86fa8bd530b9dc0256009a3e634c3c7ad8d4
 Homepage: http://www.canonware.com/jemalloc/
 Description: General-purpose scalable concurrent malloc(3) implementation
+
+Package: libjemalloc-static
+Version: 5.3.0
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 7804
+Depends: libjemalloc (= 5.3.0)
+Filename: pool/tur/libjemalloc-static_5.3.0_arm.deb
+Size: 880196
+MD5sum: b7b662a64932289b86b69fcadc661ab9
+SHA1: d6933ffb36d1a8731bcfd4d103763f7b51fc6427
+SHA256: b6ebdae7cb5757e0cda85516ecc8b103d35cb7a465c9556101bbbb78e225e39c
+Homepage: http://www.canonware.com/jemalloc/
+Description: Static libraries for libjemalloc
 
 Package: libkeyfinder
 Version: 2.2.8
@@ -2479,20 +2381,6 @@ SHA256: 898bbf2937ba30c45f58312640a595504c2612e898bb2dd64eb2d022c823d399
 Homepage: https://github.com/mixxxdj/libkeyfinder
 Description: Library to estimate the key in digital music recordings
 
-Package: liblangtag-static
-Version: 0.6.7-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 264
-Depends: liblangtag (= 0.6.7-1)
-Filename: pool/tur/liblangtag-static_0.6.7-1_arm.deb
-Size: 50520
-MD5sum: c6a29e062f094b45c49ea00f3d5256f5
-SHA1: 963b59c297e0746f327537fd65797e34df2123b0
-SHA256: d3f93745dd3fdd400addabad8e3d5c8a2103c7c315f508c217a3a84407571260
-Homepage: https://bitbucket.org/tagoh/liblangtag/wiki/Home
-Description: Static libraries for liblangtag
-
 Package: liblangtag
 Version: 0.6.7-1
 Architecture: arm
@@ -2506,6 +2394,20 @@ SHA1: fca8bd1843967e3f3dbf4b7691c54d12e0e9eacb
 SHA256: c926a860ab6c6d9221ed8b4f405049653a293cf847d97ea09b4e57793ae73704
 Homepage: https://bitbucket.org/tagoh/liblangtag/wiki/Home
 Description: interface library to access/deal with tags for identifying languages
+
+Package: liblangtag-static
+Version: 0.6.7-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 264
+Depends: liblangtag (= 0.6.7-1)
+Filename: pool/tur/liblangtag-static_0.6.7-1_arm.deb
+Size: 50520
+MD5sum: c6a29e062f094b45c49ea00f3d5256f5
+SHA1: 963b59c297e0746f327537fd65797e34df2123b0
+SHA256: d3f93745dd3fdd400addabad8e3d5c8a2103c7c315f508c217a3a84407571260
+Homepage: https://bitbucket.org/tagoh/liblangtag/wiki/Home
+Description: Static libraries for liblangtag
 
 Package: libllvm-11
 Version: 11.1.0-2
@@ -2563,20 +2465,6 @@ SHA256: 82f5db462620adbe22d8f14adfc5d91a5344b9629fc5938358637966a373bec3
 Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 15)
 
-Package: libllvm-16-static
-Version: 20220907
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 569728
-Depends: libllvm-16 (= 20220907)
-Filename: pool/tur/libllvm-16-static_20220907_arm.deb
-Size: 20957568
-MD5sum: f055306be862903846c2b22a7146014c
-SHA1: 707a7539a9f0d0781f644908c14f22dd62d6ebde
-SHA256: 50f16d6cb04f57599c44a64055bbd5dfdbffbbdfe3596f4527849b5283b39e81
-Homepage: https://llvm.org/
-Description: Static libraries for libllvm-16
-
 Package: libllvm-16
 Version: 1:16.0.6-1
 Architecture: arm
@@ -2590,6 +2478,20 @@ SHA1: c8f1bc344820bed9a148551a9b2512e7e45328aa
 SHA256: 9dca3069b40d0ba509cb0e5cafac605b83409aaa68299e2a31c5c5d46044f683
 Homepage: https://llvm.org/
 Description: Modular compiler and toolchain technologies library (Version 16)
+
+Package: libllvm-16-static
+Version: 20220907
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 569728
+Depends: libllvm-16 (= 20220907)
+Filename: pool/tur/libllvm-16-static_20220907_arm.deb
+Size: 20957568
+MD5sum: f055306be862903846c2b22a7146014c
+SHA1: 707a7539a9f0d0781f644908c14f22dd62d6ebde
+SHA256: 50f16d6cb04f57599c44a64055bbd5dfdbffbbdfe3596f4527849b5283b39e81
+Homepage: https://llvm.org/
+Description: Static libraries for libllvm-16
 
 Package: libllvm-classic-flang
 Version: 20230419-4
@@ -2609,20 +2511,6 @@ SHA256: 58288625cafb4bc11e7b09f349f8e1184e43f383d470177076e028742c8101bf
 Homepage: https://github.com/flang-compiler/classic-flang-llvm-project/
 Description: Modular compiler and toolchain technologies library (Version 15, Classic Flang Fork)
 
-Package: libmongoc-static
-Version: 1.30.3-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1928
-Depends: libmongoc (= 1.30.3-1)
-Filename: pool/tur/libmongoc-static_1.30.3-1_arm.deb
-Size: 476796
-MD5sum: 93e36fe4b0ba72c42e6300f3e578d4d8
-SHA1: d5ab00135791c9662d426a119e283fe2c2072b00
-SHA256: 997c5baf189099d695abb0979de4aa3925dfd95f7fbb8f5244e34c304cf24a1d
-Homepage: https://github.com/mongodb/mongo-c-driver
-Description: Static libraries for libmongoc
-
 Package: libmongoc
 Version: 1.30.3-1
 Architecture: arm
@@ -2636,20 +2524,6 @@ SHA1: f90ed87b56c6fdca5349eacb551b03c18618ce39
 SHA256: b00036032c26b74a02cdd4a6014e9324037a150483a19e221008c8371dbdf99c
 Homepage: https://github.com/mongodb/mongo-c-driver
 Description: A high-performance MongoDB driver for C
-
-Package: libmongocrypt-static
-Version: 1:1.13.2-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1192
-Depends: libmongocrypt (= 1:1.13.2-1)
-Filename: pool/tur/libmongocrypt-static_1:1.13.2-1_arm.deb
-Size: 293876
-MD5sum: 098c91b972fb4e9e3d8fbe109a05cd0e
-SHA1: c851fa38f09898c9fcd05da179702e86a0ce32a0
-SHA256: 7ebef30b02d9e650a0cfcc7785366afc670fda4f3c718099d3e1b9e120a5de84
-Homepage: https://github.com/mongodb/libmongocrypt
-Description: Static libraries for libmongocrypt
 
 Package: libmongocrypt
 Version: 1:1.13.2-1
@@ -2667,6 +2541,34 @@ SHA256: 1d82b49d2169889562c3a82d2609f854e83c5c22278a389bfe0c316328c654ab
 Homepage: https://github.com/mongodb/libmongocrypt
 Description: The companion C library for MongoDB client side encryption in drivers
 
+Package: libmongocrypt-static
+Version: 1:1.13.2-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1192
+Depends: libmongocrypt (= 1:1.13.2-1)
+Filename: pool/tur/libmongocrypt-static_1:1.13.2-1_arm.deb
+Size: 293876
+MD5sum: 098c91b972fb4e9e3d8fbe109a05cd0e
+SHA1: c851fa38f09898c9fcd05da179702e86a0ce32a0
+SHA256: 7ebef30b02d9e650a0cfcc7785366afc670fda4f3c718099d3e1b9e120a5de84
+Homepage: https://github.com/mongodb/libmongocrypt
+Description: Static libraries for libmongocrypt
+
+Package: libmongoc-static
+Version: 1.30.3-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 1928
+Depends: libmongoc (= 1.30.3-1)
+Filename: pool/tur/libmongoc-static_1.30.3-1_arm.deb
+Size: 476796
+MD5sum: 93e36fe4b0ba72c42e6300f3e578d4d8
+SHA1: d5ab00135791c9662d426a119e283fe2c2072b00
+SHA256: 997c5baf189099d695abb0979de4aa3925dfd95f7fbb8f5244e34c304cf24a1d
+Homepage: https://github.com/mongodb/mongo-c-driver
+Description: Static libraries for libmongoc
+
 Package: libmp4tag
 Version: 2.0.1
 Architecture: arm
@@ -2679,20 +2581,6 @@ SHA1: b6e0ff9d9b988ed26752950337ea35360be27620
 SHA256: 30f07002047aeb24ea45daf551a0a58b6779f60f5a89db19ec6e1fd6217469bd
 Homepage: https://sourceforge.net/p/libmp4tag/
 Description: Library and CLI utility for tagging MP4 file
-
-Package: libmspub-static
-Version: 0.1.4-4
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1936
-Depends: libmspub (= 0.1.4-4)
-Filename: pool/tur/libmspub-static_0.1.4-4_arm.deb
-Size: 233432
-MD5sum: e54de00ff9f7d37b738d616efc6e77d9
-SHA1: d35a8ef61df95bdc445f02ebfb6dbb06d9282cd9
-SHA256: 3007e58d952f0165dbb50a8a2cbc61a3bdeb500dafd7ceba69e68cef4f80e715
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
-Description: Static libraries for libmspub
 
 Package: libmspub
 Version: 0.1.4-4
@@ -2708,19 +2596,19 @@ SHA256: 837edaa047bd2576a193bd0877675cc9bc5df4372a0bb63ca393c59e6d67f899
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
 Description: Microsoft Publisher file format parser library (latest snapshot)
 
-Package: libmwaw-static
-Version: 0.3.22
+Package: libmspub-static
+Version: 0.1.4-4
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 48208
-Depends: libmwaw (= 0.3.22)
-Filename: pool/tur/libmwaw-static_0.3.22_arm.deb
-Size: 5211332
-MD5sum: b241bbb08454a5f5725b3b804cf64f14
-SHA1: c0f9d317768371e40e3e59aa890d558382bec047
-SHA256: 3142b18f39a2ae6097310b65912dac95150708dfa53c6c6e601e9a3d167f2034
-Homepage: https://sourceforge.net/projects/libmwaw/
-Description: Static libraries for libmwaw
+Installed-Size: 1936
+Depends: libmspub (= 0.1.4-4)
+Filename: pool/tur/libmspub-static_0.1.4-4_arm.deb
+Size: 233432
+MD5sum: e54de00ff9f7d37b738d616efc6e77d9
+SHA1: d35a8ef61df95bdc445f02ebfb6dbb06d9282cd9
+SHA256: 3007e58d952f0165dbb50a8a2cbc61a3bdeb500dafd7ceba69e68cef4f80e715
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+Description: Static libraries for libmspub
 
 Package: libmwaw
 Version: 0.3.22
@@ -2736,19 +2624,19 @@ SHA256: 08013deec85b422f5450299d670ce11ac67eb1feb7f8676f9001211fef05fadb
 Homepage: https://sourceforge.net/projects/libmwaw/
 Description: Import library for some old mac text documents.
 
-Package: libnids-static
-Version: 1.26-1
+Package: libmwaw-static
+Version: 0.3.22
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 68
-Depends: libnids (= 1.26-1)
-Filename: pool/tur/libnids-static_1.26-1_arm.deb
-Size: 15496
-MD5sum: c5e37fa20f0515a01b64339785d25c73
-SHA1: 084cc541c1460ee7d90221b1019919ce7b8dd320
-SHA256: 211a34758febc97ec0996a7534249ad465606e4339f84c7adbf0f1838cbb1b46
-Homepage: http://libnids.sourceforge.net/
-Description: Static libraries for libnids
+Installed-Size: 48208
+Depends: libmwaw (= 0.3.22)
+Filename: pool/tur/libmwaw-static_0.3.22_arm.deb
+Size: 5211332
+MD5sum: b241bbb08454a5f5725b3b804cf64f14
+SHA1: c0f9d317768371e40e3e59aa890d558382bec047
+SHA256: 3142b18f39a2ae6097310b65912dac95150708dfa53c6c6e601e9a3d167f2034
+Homepage: https://sourceforge.net/projects/libmwaw/
+Description: Static libraries for libmwaw
 
 Package: libnids
 Version: 1.26-1
@@ -2764,19 +2652,19 @@ SHA256: 087cc5c7d928f6197056d4fa310b910f02b85f22ffe66fe192fc72385a30524f
 Homepage: http://libnids.sourceforge.net/
 Description: An implementation of an E-component of Network Intrusion Detection System
 
-Package: libnsl-static
-Version: 2.0.1-1
+Package: libnids-static
+Version: 1.26-1
 Architecture: arm
 Maintainer: @termux-user-repository
 Installed-Size: 68
-Depends: libnsl (= 2.0.1-1)
-Filename: pool/tur/libnsl-static_2.0.1-1_arm.deb
-Size: 9464
-MD5sum: b2314ad51b44fed0282e7f8bff76c62c
-SHA1: 5dac9f33d4cb793ee4d078e24dc52c20d51ee126
-SHA256: ac43999f98f3a795f0e5bc5aec7b1f9e241138dc4cb6a83174a21d7f8763f48f
-Homepage: https://github.com/thkukuk/libnsl
-Description: Static libraries for libnsl
+Depends: libnids (= 1.26-1)
+Filename: pool/tur/libnids-static_1.26-1_arm.deb
+Size: 15496
+MD5sum: c5e37fa20f0515a01b64339785d25c73
+SHA1: 084cc541c1460ee7d90221b1019919ce7b8dd320
+SHA256: 211a34758febc97ec0996a7534249ad465606e4339f84c7adbf0f1838cbb1b46
+Homepage: http://libnids.sourceforge.net/
+Description: Static libraries for libnids
 
 Package: libnsl
 Version: 2.0.1-1
@@ -2792,19 +2680,19 @@ SHA256: e8254d876c306ce00e25a1821e262db92b4af1edb18da0f7c1d0ffe63bc7375b
 Homepage: https://github.com/thkukuk/libnsl
 Description: This library contains the public client interface for NIS(YP) and NIS+ in a IPv6 ready version
 
-Package: libnumbertext-static
-Version: 1.0.11
+Package: libnsl-static
+Version: 2.0.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1072
-Depends: libnumbertext (= 1.0.11)
-Filename: pool/tur/libnumbertext-static_1.0.11_arm.deb
-Size: 128660
-MD5sum: f8ead94fbe05f1dda475d384395cbf93
-SHA1: c89567ff275ef6919b9f0f5046bb636547076cb8
-SHA256: 4e064b2f16e8721b8f101acfba31cd752e711e85b57874fce5bd5d818f8d6865
-Homepage: https://github.com/Numbertext/libnumbertext
-Description: Static libraries for libnumbertext
+Installed-Size: 68
+Depends: libnsl (= 2.0.1-1)
+Filename: pool/tur/libnsl-static_2.0.1-1_arm.deb
+Size: 9464
+MD5sum: b2314ad51b44fed0282e7f8bff76c62c
+SHA1: 5dac9f33d4cb793ee4d078e24dc52c20d51ee126
+SHA256: ac43999f98f3a795f0e5bc5aec7b1f9e241138dc4cb6a83174a21d7f8763f48f
+Homepage: https://github.com/thkukuk/libnsl
+Description: Static libraries for libnsl
 
 Package: libnumbertext
 Version: 1.0.11
@@ -2819,19 +2707,19 @@ SHA256: 7612a340189ebe056e45bd924ff12a6d3964a4d621dfc212aca584bae5277429
 Homepage: https://github.com/Numbertext/libnumbertext
 Description: Number to number name and money text conversion library
 
-Package: libodfgen-static
-Version: 0.1.8-3
+Package: libnumbertext-static
+Version: 1.0.11
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 3316
-Depends: libodfgen (= 0.1.8-3)
-Filename: pool/tur/libodfgen-static_0.1.8-3_arm.deb
-Size: 380576
-MD5sum: 760f6117e670278db72e8f87941aa5bd
-SHA1: f73f68ca2ba829a057d21295e358e47479ff697e
-SHA256: 5ccf08b6403707673a3c8d739ff70404734a287654f56889349f838570a34fb0
-Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
-Description: Static libraries for libodfgen
+Installed-Size: 1072
+Depends: libnumbertext (= 1.0.11)
+Filename: pool/tur/libnumbertext-static_1.0.11_arm.deb
+Size: 128660
+MD5sum: f8ead94fbe05f1dda475d384395cbf93
+SHA1: c89567ff275ef6919b9f0f5046bb636547076cb8
+SHA256: 4e064b2f16e8721b8f101acfba31cd752e711e85b57874fce5bd5d818f8d6865
+Homepage: https://github.com/Numbertext/libnumbertext
+Description: Static libraries for libnumbertext
 
 Package: libodfgen
 Version: 0.1.8-3
@@ -2847,19 +2735,19 @@ SHA256: a941e0a3bd60e3b4cc620de8a6eca54195eb842fc4b159a0741a94d119c29b1b
 Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
 Description: Library for generating documents in Open Document Format
 
-Package: liborcus-static
-Version: 0.21.0-1
+Package: libodfgen-static
+Version: 0.1.8-3
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 5592
-Depends: liborcus (= 0.21.0-1)
-Filename: pool/tur/liborcus-static_0.21.0-1_arm.deb
-Size: 874956
-MD5sum: 7d206691ab52c6e5032d4b2099e31fb8
-SHA1: 00a7de8b31b124ac9f426175dacb48d919ad2221
-SHA256: 3b5b98c1848d7cef9b500d0551954cc8b4d7ce49bd929fdde5ccde3d0c999eb1
-Homepage: https://gitlab.com/orcus/orcus/
-Description: Static libraries for liborcus
+Installed-Size: 3316
+Depends: libodfgen (= 0.1.8-3)
+Filename: pool/tur/libodfgen-static_0.1.8-3_arm.deb
+Size: 380576
+MD5sum: 760f6117e670278db72e8f87941aa5bd
+SHA1: f73f68ca2ba829a057d21295e358e47479ff697e
+SHA256: 5ccf08b6403707673a3c8d739ff70404734a287654f56889349f838570a34fb0
+Homepage: https://sourceforge.net/p/libwpd/wiki/libodfgen/
+Description: Static libraries for libodfgen
 
 Package: liborcus
 Version: 0.21.0-1
@@ -2875,19 +2763,19 @@ SHA256: dd7ae3e071dd3644424db276570fdfb6e9e7ca5b0ce84a11f534c509fd1462b5
 Homepage: https://gitlab.com/orcus/orcus/
 Description: File import filter library for spreadsheet documents.
 
-Package: libpagemaker-static
-Version: 0.0.4-3
+Package: liborcus-static
+Version: 0.21.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 684
-Depends: libpagemaker (= 0.0.4-3)
-Filename: pool/tur/libpagemaker-static_0.0.4-3_arm.deb
-Size: 87896
-MD5sum: da600dc2061941500406e08887684565
-SHA1: 08f977cb12c5d75a7ed0d709da39e7869b5b2f77
-SHA256: a9f157a326c4af66e5d3c83e59c3fc5f4c6bda18620d5930b8770f77219dd6bc
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
-Description: Static libraries for libpagemaker
+Installed-Size: 5592
+Depends: liborcus (= 0.21.0-1)
+Filename: pool/tur/liborcus-static_0.21.0-1_arm.deb
+Size: 874956
+MD5sum: 7d206691ab52c6e5032d4b2099e31fb8
+SHA1: 00a7de8b31b124ac9f426175dacb48d919ad2221
+SHA256: 3b5b98c1848d7cef9b500d0551954cc8b4d7ce49bd929fdde5ccde3d0c999eb1
+Homepage: https://gitlab.com/orcus/orcus/
+Description: Static libraries for liborcus
 
 Package: libpagemaker
 Version: 0.0.4-3
@@ -2903,19 +2791,19 @@ SHA256: b6dbbcf3a17596873dcb28510a889ad4d198ffebfeef608b4e237228ec8605d3
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
 Description: a library that parses the file format of Aldus/Adobe PageMaker documents
 
-Package: libpng-static
-Version: 1.6.52
+Package: libpagemaker-static
+Version: 0.0.4-3
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 236
-Depends: libpng (= 1.6.52)
-Filename: pool/tur/libpng-static_1.6.52_arm.deb
-Size: 79356
-MD5sum: 0f48079d559122e1118017e00b54860f
-SHA1: c9062529099281fd62d47e40c505cc6415f54e39
-SHA256: 41a20fb7be4ebdc5bd66303456b4e2a4dc95363f86e1e5b36c2e2a3c3e95f346
-Homepage: http://www.libpng.org/pub/png/libpng.html
-Description: Static libraries for libpng
+Maintainer: @termux-user-repository
+Installed-Size: 684
+Depends: libpagemaker (= 0.0.4-3)
+Filename: pool/tur/libpagemaker-static_0.0.4-3_arm.deb
+Size: 87896
+MD5sum: da600dc2061941500406e08887684565
+SHA1: 08f977cb12c5d75a7ed0d709da39e7869b5b2f77
+SHA256: a9f157a326c4af66e5d3c83e59c3fc5f4c6bda18620d5930b8770f77219dd6bc
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+Description: Static libraries for libpagemaker
 
 Package: libpng
 Version: 1.6.52
@@ -2933,19 +2821,19 @@ SHA256: 71c4850611c05fb3fd9066d741c380b2e8daa8e9013abe2373c90476b1e44f6d
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Official PNG reference library
 
-Package: libqxp-static
-Version: 0.0.2-5
+Package: libpng-static
+Version: 1.6.52
 Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 1872
-Depends: libqxp (= 0.0.2-5)
-Filename: pool/tur/libqxp-static_0.0.2-5_arm.deb
-Size: 195988
-MD5sum: 7e6d26d4eac2bc1461f363375fa579bb
-SHA1: 40d4dbaaafe11626fb2361e826b1ff93a9ba5b02
-SHA256: eb30fa3fb9e6aaa915ef38b27e89eeeff92dbfefee1f5399dd1b1fa9081fd160
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
-Description: Static libraries for libqxp
+Maintainer: @termux
+Installed-Size: 236
+Depends: libpng (= 1.6.52)
+Filename: pool/tur/libpng-static_1.6.52_arm.deb
+Size: 79356
+MD5sum: 0f48079d559122e1118017e00b54860f
+SHA1: c9062529099281fd62d47e40c505cc6415f54e39
+SHA256: 41a20fb7be4ebdc5bd66303456b4e2a4dc95363f86e1e5b36c2e2a3c3e95f346
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Description: Static libraries for libpng
 
 Package: libqxp
 Version: 0.0.2-5
@@ -2961,19 +2849,19 @@ SHA256: dc4a2c8316c60ca55ec9845c6a0a5aef03cdb4fbb95ea54a15129cb223ce2a05
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
 Description: a library that parses the file format of QuarkXPress documents
 
-Package: libraw-static
-Version: 0.21.1-1
+Package: libqxp-static
+Version: 0.0.2-5
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2916
-Depends: libraw (= 0.21.1-1)
-Filename: pool/tur/libraw-static_0.21.1-1_arm.deb
-Size: 345536
-MD5sum: 296d583a5745ce7a401e03b77040a214
-SHA1: 3071cc369fa3ff14d9649a94d4cf661ca969526b
-SHA256: d2d55c13b842aad5df57ab7ad8a95ae3ad807d60c93ec0a4d1a0c969002cfad4
-Homepage: https://www.libraw.org
-Description: Static libraries for libraw
+Installed-Size: 1872
+Depends: libqxp (= 0.0.2-5)
+Filename: pool/tur/libqxp-static_0.0.2-5_arm.deb
+Size: 195988
+MD5sum: 7e6d26d4eac2bc1461f363375fa579bb
+SHA1: 40d4dbaaafe11626fb2361e826b1ff93a9ba5b02
+SHA256: eb30fa3fb9e6aaa915ef38b27e89eeeff92dbfefee1f5399dd1b1fa9081fd160
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Description: Static libraries for libqxp
 
 Package: libraw
 Version: 0.21.1-1
@@ -2989,19 +2877,19 @@ SHA256: 01b06a1c6e7f49a79529c2f440f7f908300595279540a07356f78689f5c6be1e
 Homepage: https://www.libraw.org
 Description: A library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others
 
-Package: librevenge-static
-Version: 0.0.5-2
+Package: libraw-static
+Version: 0.21.1-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2116
-Depends: librevenge (= 0.0.5-2)
-Filename: pool/tur/librevenge-static_0.0.5-2_arm.deb
-Size: 259416
-MD5sum: 3f14bb9285aac3a78a184e3ac0ddb144
-SHA1: c57299cb01c7d80784a7ed68a43b0bfca16b17f5
-SHA256: 970df61cb04bb54952e786c8693396afc1dc46b38f906971df98441d5b08ac32
-Homepage: https://sf.net/p/libwpd/librevenge/
-Description: Static libraries for librevenge
+Installed-Size: 2916
+Depends: libraw (= 0.21.1-1)
+Filename: pool/tur/libraw-static_0.21.1-1_arm.deb
+Size: 345536
+MD5sum: 296d583a5745ce7a401e03b77040a214
+SHA1: 3071cc369fa3ff14d9649a94d4cf661ca969526b
+SHA256: d2d55c13b842aad5df57ab7ad8a95ae3ad807d60c93ec0a4d1a0c969002cfad4
+Homepage: https://www.libraw.org
+Description: Static libraries for libraw
 
 Package: librevenge
 Version: 0.0.5-2
@@ -3016,6 +2904,20 @@ SHA1: 9253818d2010c2c63c4e7575ac836a34f3cd3743
 SHA256: 2a7e7766b99c94794fd6c6b2a39be1e0c1c328f760f66a7c6c9d055d1e0b6f44
 Homepage: https://sf.net/p/libwpd/librevenge/
 Description: library for REVerses ENGineered formats filters
+
+Package: librevenge-static
+Version: 0.0.5-2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2116
+Depends: librevenge (= 0.0.5-2)
+Filename: pool/tur/librevenge-static_0.0.5-2_arm.deb
+Size: 259416
+MD5sum: 3f14bb9285aac3a78a184e3ac0ddb144
+SHA1: c57299cb01c7d80784a7ed68a43b0bfca16b17f5
+SHA256: 970df61cb04bb54952e786c8693396afc1dc46b38f906971df98441d5b08ac32
+Homepage: https://sf.net/p/libwpd/librevenge/
+Description: Static libraries for librevenge
 
 Package: librime-with-lua
 Version: 1.17.0-2
@@ -3034,20 +2936,6 @@ SHA256: 7d6cad7a3440d4dd6685f042e42eef38b8dd61aa51626b9d863e8261999cd775
 Homepage: https://rime.im/
 Description: Rime input method engine with the Lua plugin built in
 
-Package: libspnav-static
-Version: 1.2
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 120
-Depends: libspnav (= 1.2)
-Filename: pool/tur/libspnav-static_1.2_arm.deb
-Size: 28816
-MD5sum: cb9a7de67c47327d24d5988393dc639f
-SHA1: ee474ee968ba0499e4ac434db86d390b415b58eb
-SHA256: 6022a0e1d4f8aeca6dfde07696844beb3f736f8a67a1b6425c583f80bfa7cfdd
-Homepage: https://github.com/FreeSpacenav/libspnav
-Description: Static libraries for libspnav
-
 Package: libspnav
 Version: 1.2
 Architecture: arm
@@ -3062,19 +2950,19 @@ SHA256: 7f0119bc17c32b34e28de37477b109e2e1e3e609adf6d2c0b5b161cd65ce59a9
 Homepage: https://github.com/FreeSpacenav/libspnav
 Description: Library for communicating with spacenavd or 3dxsrv to get input from 6-dof devices
 
-Package: libstaroffice-static
-Version: 0.0.8
+Package: libspnav-static
+Version: 1.2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 10420
-Depends: libstaroffice (= 0.0.8)
-Filename: pool/tur/libstaroffice-static_0.0.8_arm.deb
-Size: 1160952
-MD5sum: 0e5a7ab536ee4ce0a31e4a3ad419347f
-SHA1: 497cc970e739bfd5a50b14f6d50e39899ab52012
-SHA256: 808d4039a4030b1ddfa5f312157df4139b3aeb2ddce63687d46c06a7724ca66a
-Homepage: https://github.com/fosnola/libstaroffice
-Description: Static libraries for libstaroffice
+Installed-Size: 120
+Depends: libspnav (= 1.2)
+Filename: pool/tur/libspnav-static_1.2_arm.deb
+Size: 28816
+MD5sum: cb9a7de67c47327d24d5988393dc639f
+SHA1: ee474ee968ba0499e4ac434db86d390b415b58eb
+SHA256: 6022a0e1d4f8aeca6dfde07696844beb3f736f8a67a1b6425c583f80bfa7cfdd
+Homepage: https://github.com/FreeSpacenav/libspnav
+Description: Static libraries for libspnav
 
 Package: libstaroffice
 Version: 0.0.8
@@ -3090,19 +2978,32 @@ SHA256: dae72f0da94ffca3a71aa222d6b3a646a0300896f814b81f715f869bfba3d370
 Homepage: https://github.com/fosnola/libstaroffice
 Description: filter for old StarOffice documents(.sdc, .sdw, ...) based on librevenge
 
-Package: libvisio-static
-Version: 0.1.7-3
+Package: libstaroffice-static
+Version: 0.0.8
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 4584
-Depends: libvisio (= 0.1.7-3)
-Filename: pool/tur/libvisio-static_0.1.7-3_arm.deb
-Size: 413376
-MD5sum: 32c3ac498d47d2e58bf386d0adf3bd8c
-SHA1: 79632c3aae0a669d8d0ae3b046f180d306443167
-SHA256: 4f24ecd17c1dbda5d256402126e7287a47e1ee4e26840635b6416b5bd4007f52
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
-Description: Static libraries for libvisio
+Installed-Size: 10420
+Depends: libstaroffice (= 0.0.8)
+Filename: pool/tur/libstaroffice-static_0.0.8_arm.deb
+Size: 1160952
+MD5sum: 0e5a7ab536ee4ce0a31e4a3ad419347f
+SHA1: 497cc970e739bfd5a50b14f6d50e39899ab52012
+SHA256: 808d4039a4030b1ddfa5f312157df4139b3aeb2ddce63687d46c06a7724ca66a
+Homepage: https://github.com/fosnola/libstaroffice
+Description: Static libraries for libstaroffice
+
+Package: lib-tls-client
+Version: 1.16.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 12416
+Filename: pool/tur/lib-tls-client_1.16.0_arm.deb
+Size: 3523112
+MD5sum: 7e1f35e18e5a6c5bc2587cface3b9065
+SHA1: 19a61c780c72556f2d63763820059919036dced0
+SHA256: 8b8349231728e94493a0631d7b7c2cc1a9a9d2ee948d6e846bc4f7e758ee93b7
+Homepage: https://github.com/bogdanfinn/tls-client/
+Description: A net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests
 
 Package: libvisio
 Version: 0.1.7-3
@@ -3117,6 +3018,20 @@ SHA1: 7eb2bdbdc9eb535cfa402e0919e64aa42355ddef
 SHA256: 489d3e9ef7c73172cc43470398809ead40813e2f45b2ef8077726136eec6685e
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 Description: Library providing ability to interpret and import visio diagrams
+
+Package: libvisio-static
+Version: 0.1.7-3
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 4584
+Depends: libvisio (= 0.1.7-3)
+Filename: pool/tur/libvisio-static_0.1.7-3_arm.deb
+Size: 413376
+MD5sum: 32c3ac498d47d2e58bf386d0adf3bd8c
+SHA1: 79632c3aae0a669d8d0ae3b046f180d306443167
+SHA256: 4f24ecd17c1dbda5d256402126e7287a47e1ee4e26840635b6416b5bd4007f52
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+Description: Static libraries for libvisio
 
 Package: libwebp
 Version: 1.6.0-1
@@ -3162,20 +3077,6 @@ SHA256: b1f8294506777b2014468017da37f754d00fc93c2ea03788e45dc52f308ab587
 Homepage: https://libwpd.sourceforge.net/
 Description: Library for importing WordPerfect (tm) documents
 
-Package: libwpg-static
-Version: 0.3.4-2
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 384
-Depends: libwpg (= 0.3.4-2)
-Filename: pool/tur/libwpg-static_0.3.4-2_arm.deb
-Size: 59184
-MD5sum: 55ded8ed424ecb0754f25b69c3659619
-SHA1: 3d43e6274cf975d281c34b6ca5297db4ab354b95
-SHA256: cda3cd6047ffc9188b950130bf62b54a6f8bad9b008abfdfbadf072ef8439bf3
-Homepage: https://libwpg.sourceforge.net/
-Description: Static libraries for libwpg
-
 Package: libwpg
 Version: 0.3.4-2
 Architecture: arm
@@ -3189,6 +3090,20 @@ SHA1: 65fade6a43e89f068d3059b94ee32883753ced02
 SHA256: 7c50328be9f2dd9289e47bf38caeb5036024f3e1ebe9dc3d12744d17c1ea4eae
 Homepage: https://libwpg.sourceforge.net/
 Description: Library for importing and converting Corel WordPerfect(tm) Graphics images.
+
+Package: libwpg-static
+Version: 0.3.4-2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 384
+Depends: libwpg (= 0.3.4-2)
+Filename: pool/tur/libwpg-static_0.3.4-2_arm.deb
+Size: 59184
+MD5sum: 55ded8ed424ecb0754f25b69c3659619
+SHA1: 3d43e6274cf975d281c34b6ca5297db4ab354b95
+SHA256: cda3cd6047ffc9188b950130bf62b54a6f8bad9b008abfdfbadf072ef8439bf3
+Homepage: https://libwpg.sourceforge.net/
+Description: Static libraries for libwpg
 
 Package: libwps
 Version: 0.4.14-1
@@ -3204,19 +3119,21 @@ SHA256: eb6caa512c7d322a03bc63b88cf7a4dcebb35fbaa8e48ea9eb50ff20c3e60bc5
 Homepage: https://sourceforge.net/projects/libwps/
 Description: a Microsoft Works file word processor format import filter library
 
-Package: libxml2-python-static
+Package: libxml2
 Version: 2.13.4-1
 Architecture: arm
 Maintainer: @termux
-Installed-Size: 504
-Depends: libxml2-python, libxml2 (= 2.13.4-1)
-Filename: pool/tur/libxml2-python-static_2.13.4-1_arm.deb
-Size: 75464
-MD5sum: a2d2406d9aca1717f42c2f30eefcd1f9
-SHA1: a1afd063fc86beec0b926d1f747009a3e30bae50
-SHA256: f9b616aad687a62e9678713335eab59bca93a13e2e791cbc55266d416495321f
+Installed-Size: 1408
+Depends: libiconv, liblzma, zlib
+Breaks: libxml2-dev
+Replaces: libxml2-dev
+Filename: pool/tur/libxml2_2.13.4-1_arm.deb
+Size: 426776
+MD5sum: 08b1aeb8c5abb7a3b12f467a7d391916
+SHA1: 3d14de640fc842b382202d6c438d08e3b8f0c96e
+SHA256: 9b5b414ec16d64872ab0e1854f869d9ebb3185dcbe6a966615ca12f1459a1edc
 Homepage: http://www.xmlsoft.org
-Description: Static libraries for libxml2-python
+Description: Library for parsing XML documents
 
 Package: libxml2-python
 Version: 2.13.4-1
@@ -3231,6 +3148,20 @@ SHA1: 4ed69b723da10c9f6ce36d5353b20d828784225f
 SHA256: 397e990e915b28a3826db52124596136e5881cfe6728c02562b8e2a38024d6cd
 Homepage: http://www.xmlsoft.org
 Description: Python bindings for libxml2
+
+Package: libxml2-python-static
+Version: 2.13.4-1
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 504
+Depends: libxml2-python, libxml2 (= 2.13.4-1)
+Filename: pool/tur/libxml2-python-static_2.13.4-1_arm.deb
+Size: 75464
+MD5sum: a2d2406d9aca1717f42c2f30eefcd1f9
+SHA1: a1afd063fc86beec0b926d1f747009a3e30bae50
+SHA256: f9b616aad687a62e9678713335eab59bca93a13e2e791cbc55266d416495321f
+Homepage: http://www.xmlsoft.org
+Description: Static libraries for libxml2-python
 
 Package: libxml2-static
 Version: 2.13.4-1
@@ -3260,21 +3191,19 @@ SHA256: ef74a32c91014b04bb1ba5a5c518a289688f0dd6571feb9f6f4e9580f0ffd464
 Homepage: http://www.xmlsoft.org
 Description: XML utilities
 
-Package: libxml2
-Version: 2.13.4-1
+Package: libzmf
+Version: 0.0.2-4
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 1408
-Depends: libiconv, liblzma, zlib
-Breaks: libxml2-dev
-Replaces: libxml2-dev
-Filename: pool/tur/libxml2_2.13.4-1_arm.deb
-Size: 426776
-MD5sum: 08b1aeb8c5abb7a3b12f467a7d391916
-SHA1: 3d14de640fc842b382202d6c438d08e3b8f0c96e
-SHA256: 9b5b414ec16d64872ab0e1854f869d9ebb3185dcbe6a966615ca12f1459a1edc
-Homepage: http://www.xmlsoft.org
-Description: Library for parsing XML documents
+Maintainer: @termux-user-repository
+Installed-Size: 200
+Depends: libicu, libpng, librevenge, zlib
+Filename: pool/tur/libzmf_0.0.2-4_arm.deb
+Size: 45208
+MD5sum: f923480901ed1f885a63d2a68a80969d
+SHA1: 5f03e18306eb52f6c456512948fdf2a1f9f52df2
+SHA256: eb588a5cb3d5ae42ae11c549ea1d8684127a60ed043d9c4d85d7cf1b1467ce04
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+Description: a library for import of Zoner drawing and bitmap files
 
 Package: libzmf-static
 Version: 0.0.2-4
@@ -3289,20 +3218,6 @@ SHA1: 236db37903595fb84c4c4df48e13f7dbd6e3116a
 SHA256: a465e8e5c3a3fd49d61059ba8759c9da2e912c11b77432147691a5b818709403
 Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
 Description: Static libraries for libzmf
-
-Package: libzmf
-Version: 0.0.2-4
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 200
-Depends: libicu, libpng, librevenge, zlib
-Filename: pool/tur/libzmf_0.0.2-4_arm.deb
-Size: 45208
-MD5sum: f923480901ed1f885a63d2a68a80969d
-SHA1: 5f03e18306eb52f6c456512948fdf2a1f9f52df2
-SHA256: eb588a5cb3d5ae42ae11c549ea1d8684127a60ed043d9c4d85d7cf1b1467ce04
-Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libzmf
-Description: a library for import of Zoner drawing and bitmap files
 
 Package: lierolibre
 Version: 0.5-1
@@ -3489,6 +3404,24 @@ SHA256: 7647b7a354b115d65f115d343df51c66bc6cb3031b57d4af6dfe31774043c17a
 Homepage: https://github.com/GpuZelenograd/memtest_vulkan
 Description: Vulkan compute tool for testing video memory stability
 
+Package: mesa-zink
+Version: 22.0.5-5
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 22076
+Depends: libandroid-shmem, libc++, libdrm, libexpat, libglvnd, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, xorg-xrandr, zlib, zstd
+Suggests: mesa-zink-dev
+Conflicts: libmesa, ndk-sysroot (<< 23b-6), mesa
+Replaces: libmesa, mesa
+Provides: mesa
+Filename: pool/tur/mesa-zink_22.0.5-5_arm.deb
+Size: 7906612
+MD5sum: 897d4f8af8a00c3ddd22d21a4fe663cd
+SHA1: 56ad092e495a7c4d93025638e25531a863eda6e6
+SHA256: 1b1102b4c16a8ad2f5f763d51cca6024dc12b851dee8163b2f55f9cf7b465d29
+Homepage: https://www.mesa3d.org
+Description: An open-source implementation of the OpenGL specification
+
 Package: mesa-zink-vulkan-icd-freedreno
 Version: 22.0.5-5
 Architecture: arm
@@ -3516,24 +3449,6 @@ SHA1: 9d193c9c57162da2acec08d4aeba4cb209fa0d18
 SHA256: 3e4e79478a74dba17b3edccb5814a41272cee3e737ef2facdf350eba97ef7915
 Homepage: https://www.mesa3d.org
 Description: Mesa's Swrast Vulkan ICD
-
-Package: mesa-zink
-Version: 22.0.5-5
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 22076
-Depends: libandroid-shmem, libc++, libdrm, libexpat, libglvnd, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, xorg-xrandr, zlib, zstd
-Suggests: mesa-zink-dev
-Conflicts: libmesa, ndk-sysroot (<< 23b-6), mesa
-Replaces: libmesa, mesa
-Provides: mesa
-Filename: pool/tur/mesa-zink_22.0.5-5_arm.deb
-Size: 7906612
-MD5sum: 897d4f8af8a00c3ddd22d21a4fe663cd
-SHA1: 56ad092e495a7c4d93025638e25531a863eda6e6
-SHA256: 1b1102b4c16a8ad2f5f763d51cca6024dc12b851dee8163b2f55f9cf7b465d29
-Homepage: https://www.mesa3d.org
-Description: An open-source implementation of the OpenGL specification
 
 Package: mlir-16
 Version: 1:16.0.6-1
@@ -3789,46 +3704,19 @@ SHA256: 86c10fed6f1b6497934cdb94d766a0f219570816d5a8054c461c09744abfc90e
 Homepage: https://git.average.name/AverageHelper/ograph-rs
 Description: A simple command-line utility to extract and print OpenGraph metadata from a given URL.
 
-Package: oils
-Version: 0.38.0
+Package: openalut
+Version: 1.1.0-1
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 1148
-Depends: libandroid-glob, readline, libc++
-Filename: pool/tur/oils_0.38.0_arm.deb
-Size: 382136
-MD5sum: ec6f2679bd7e8ed2e35344af9659730f
-SHA1: 901674717c007a7b4e6e0badd8c4249a6516cbb2
-SHA256: c758cadc97234a1ab7f63e2e81f1bd62ecf481355099de0918afc05ebd994dea
-Homepage: https://oils.pub/
-Description: Oils for Unix: OSH and YSH shells
-
-Package: open-vcdiff-static
-Version: 0.8.4.git20190311
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 248
-Depends: open-vcdiff (= 0.8.4.git20190311)
-Filename: pool/tur/open-vcdiff-static_0.8.4.git20190311_arm.deb
-Size: 45772
-MD5sum: 529e6f4ec0d862061781e182a3af8134
-SHA1: 299e85926cd10edea93a45f3a4eec9a8f809bcc2
-SHA256: dff50e4bfff6e903035e978c0eb3b6de4984da944feccc692c0b8126b2fb5de4
-Homepage: https://github.com/google/open-vcdiff
-Description: Static libraries for open-vcdiff
-
-Package: open-vcdiff
-Version: 0.8.4.git20190311
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 248
-Filename: pool/tur/open-vcdiff_0.8.4.git20190311_arm.deb
-Size: 78436
-MD5sum: 51f9b0bf8f1864c04159db2cfba5b97d
-SHA1: c7fa699838c14a2f0cd2ce59962e3c409cfecf44
-SHA256: 1422eb65f8ccc3b9933b211c97963beb53425cf9d183589fbb721ca2a9f49920
-Homepage: https://github.com/google/open-vcdiff
-Description: An encoder/decoder for the VCDIFF (RFC3284) format
+Installed-Size: 92
+Depends: openal-soft
+Filename: pool/tur/openalut_1.1.0-1_arm.deb
+Size: 15240
+MD5sum: 011142654d0d0ec0216faa38791a543b
+SHA1: ddef5c1e5ee69dbf2a4750a2739c2bf59f72668f
+SHA256: b16b0fe61f8c9f76e66180049124c0693f74a3802d3ef055692c4408675861fb
+Homepage: https://github.com/vancegroup/freealut
+Description: A free implementation of OpenAL's ALUT standard
 
 Package: openalut-static
 Version: 1.1.0-1
@@ -3843,20 +3731,6 @@ SHA1: 2245ea8b4a841879a4253c68da2a79b1cc4d0e84
 SHA256: 84a34c3ef29a2e18dae4e90ff506db41cb5f2c81d713ed9871eb7c598f02de1e
 Homepage: https://github.com/vancegroup/freealut
 Description: Static libraries for openalut
-
-Package: openalut
-Version: 1.1.0-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 92
-Depends: openal-soft
-Filename: pool/tur/openalut_1.1.0-1_arm.deb
-Size: 15240
-MD5sum: 011142654d0d0ec0216faa38791a543b
-SHA1: ddef5c1e5ee69dbf2a4750a2739c2bf59f72668f
-SHA256: b16b0fe61f8c9f76e66180049124c0693f74a3802d3ef055692c4408675861fb
-Homepage: https://github.com/vancegroup/freealut
-Description: A free implementation of OpenAL's ALUT standard
 
 Package: openarena
 Version: 0.8.8.20260412
@@ -3902,20 +3776,6 @@ SHA256: 91196c57e56006728fda665dfcc493866a40f9331b971f20cd981bd9b3458d3a
 Homepage: http://www.openimageio.org/
 Description: A library for reading and writing images, including classes, utilities, and applications
 
-Package: openjdk-11-x
-Version: 11.0.32
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 13940
-Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.32)
-Filename: pool/tur/openjdk-11-x_11.0.32_arm.deb
-Size: 12333460
-MD5sum: 76437cf948d43328eb3636aefcc25595
-SHA1: ae16be346ddd05624a5c4d827494e6dba97b5d36
-SHA256: 86bc9e9597dd5fc1027f8f67baca846f3aaab53019bc744c9e2181ab7e1ea785
-Homepage: https://openjdk.java.net
-Description: Portion of openjdk-11 requiring X11 functionality
-
 Package: openjdk-11
 Version: 11.0.32
 Architecture: arm
@@ -3932,19 +3792,19 @@ SHA256: 96f6b523e298fabce054780638068252312963b98fb7324e05051f6800f5d974
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
-Package: openjdk-26-x
-Version: 26.0.2
+Package: openjdk-11-x
+Version: 11.0.32
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 14132
-Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-26 (= 26.0.2)
-Filename: pool/tur/openjdk-26-x_26.0.2_arm.deb
-Size: 12558188
-MD5sum: fab6bbbba820b529eb637e3fcfe88204
-SHA1: d1039fcd8433440f9d3a1bdaaa951d8a05fbffbc
-SHA256: e62094ebccff4c62d14db67a5798b044e8f8ad5902fa8805181f3c896996fa14
+Installed-Size: 13940
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-11 (= 11.0.32)
+Filename: pool/tur/openjdk-11-x_11.0.32_arm.deb
+Size: 12333460
+MD5sum: 76437cf948d43328eb3636aefcc25595
+SHA1: ae16be346ddd05624a5c4d827494e6dba97b5d36
+SHA256: 86bc9e9597dd5fc1027f8f67baca846f3aaab53019bc744c9e2181ab7e1ea785
 Homepage: https://openjdk.java.net
-Description: Portion of openjdk-26 requiring X11 functionality
+Description: Portion of openjdk-11 requiring X11 functionality
 
 Package: openjdk-26
 Version: 26.0.2
@@ -3962,6 +3822,20 @@ SHA256: 711ec47c41698f424e3f52d1f91c899ebfd1368edb2c9b81d7641097476c04f0
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
+Package: openjdk-26-x
+Version: 26.0.2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 14132
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-26 (= 26.0.2)
+Filename: pool/tur/openjdk-26-x_26.0.2_arm.deb
+Size: 12558188
+MD5sum: fab6bbbba820b529eb637e3fcfe88204
+SHA1: d1039fcd8433440f9d3a1bdaaa951d8a05fbffbc
+SHA256: e62094ebccff4c62d14db67a5798b044e8f8ad5902fa8805181f3c896996fa14
+Homepage: https://openjdk.java.net
+Description: Portion of openjdk-26 requiring X11 functionality
+
 Package: openslide
 Version: 4.0.1
 Architecture: arm
@@ -3976,20 +3850,6 @@ SHA256: 45e9411ceb4980a108993385e9558aef98a38d4822d2d9bde26f2466b6a80a5a
 Homepage: https://openslide.org
 Description: C library for reading virtual slide images
 
-Package: openspecfun-static
-Version: 0.5.7
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 288
-Depends: openspecfun (= 0.5.7)
-Filename: pool/tur/openspecfun-static_0.5.7_arm.deb
-Size: 78328
-MD5sum: 370698fda32e47dd1ebb8aed90ed2781
-SHA1: 35b441a45b93e8266b41d696de29118970b1420d
-SHA256: fa985504ce768ec88eacc6c65d732fafd806ecab12e6defa7afd64f181ecebcb
-Homepage: https://github.com/JuliaMath/openspecfun
-Description: Static libraries for openspecfun
-
 Package: openspecfun
 Version: 0.5.7
 Architecture: arm
@@ -4003,19 +3863,19 @@ SHA256: f5af7eef0e550295b2d56eefcc0e35b25b88efd89b388a2c98b8715593f47143
 Homepage: https://github.com/JuliaMath/openspecfun
 Description: A collection of special mathematical functions
 
-Package: openssl-1.1-static
-Version: 1:1.1.1w
+Package: openspecfun-static
+Version: 0.5.7
 Architecture: arm
-Maintainer: @termux
-Installed-Size: 3796
-Depends: openssl-1.1 (= 1:1.1.1w)
-Filename: pool/tur/openssl-1.1-static_1:1.1.1w_arm.deb
-Size: 1149460
-MD5sum: f819df7acf2a4610655fc2ef35d6aa72
-SHA1: 4f0965d811fe0ed6c5e3a0b7d13b743228c6a01a
-SHA256: 6a49a01d72a7d6feede2b41c2693be5d83f6ea4cebce720916e9be831659799f
-Homepage: https://www.openssl.org/
-Description: Static libraries for openssl-1.1
+Maintainer: @termux-user-repository
+Installed-Size: 288
+Depends: openspecfun (= 0.5.7)
+Filename: pool/tur/openspecfun-static_0.5.7_arm.deb
+Size: 78328
+MD5sum: 370698fda32e47dd1ebb8aed90ed2781
+SHA1: 35b441a45b93e8266b41d696de29118970b1420d
+SHA256: fa985504ce768ec88eacc6c65d732fafd806ecab12e6defa7afd64f181ecebcb
+Homepage: https://github.com/JuliaMath/openspecfun
+Description: Static libraries for openspecfun
 
 Package: openssl-1.1
 Version: 1:1.1.1w
@@ -4034,6 +3894,20 @@ SHA256: a91631576cc29cf25ba0509c09393c46674c73850eb97264fed68a56b2fe51e5
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
+Package: openssl-1.1-static
+Version: 1:1.1.1w
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 3796
+Depends: openssl-1.1 (= 1:1.1.1w)
+Filename: pool/tur/openssl-1.1-static_1:1.1.1w_arm.deb
+Size: 1149460
+MD5sum: f819df7acf2a4610655fc2ef35d6aa72
+SHA1: 4f0965d811fe0ed6c5e3a0b7d13b743228c6a01a
+SHA256: 6a49a01d72a7d6feede2b41c2693be5d83f6ea4cebce720916e9be831659799f
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl-1.1
+
 Package: openssl1.1-tool
 Version: 1:1.1.1w
 Architecture: arm
@@ -4048,19 +3922,32 @@ SHA256: 33c85a511238771decc93b44aa5171c67c17eec451b089cc4f9299734470ef5e
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
-Package: openvdb-static
-Version: 10.0.1-3
+Package: open-vcdiff
+Version: 0.8.4.git20190311
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 283844
-Depends: openvdb (= 10.0.1-3)
-Filename: pool/tur/openvdb-static_10.0.1-3_arm.deb
-Size: 13564276
-MD5sum: 011e4ce5abb22b47201b2f6004b9116c
-SHA1: 02c98534dacdef743069535c729d1647e4411227
-SHA256: 470adbb18424b5921ed47c045884042daf822ba9f272d035fe753b21ec82fede
-Homepage: https://github.com/dreamworksanimation/openvdb
-Description: Static libraries for openvdb
+Installed-Size: 248
+Filename: pool/tur/open-vcdiff_0.8.4.git20190311_arm.deb
+Size: 78436
+MD5sum: 51f9b0bf8f1864c04159db2cfba5b97d
+SHA1: c7fa699838c14a2f0cd2ce59962e3c409cfecf44
+SHA256: 1422eb65f8ccc3b9933b211c97963beb53425cf9d183589fbb721ca2a9f49920
+Homepage: https://github.com/google/open-vcdiff
+Description: An encoder/decoder for the VCDIFF (RFC3284) format
+
+Package: open-vcdiff-static
+Version: 0.8.4.git20190311
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 248
+Depends: open-vcdiff (= 0.8.4.git20190311)
+Filename: pool/tur/open-vcdiff-static_0.8.4.git20190311_arm.deb
+Size: 45772
+MD5sum: 529e6f4ec0d862061781e182a3af8134
+SHA1: 299e85926cd10edea93a45f3a4eec9a8f809bcc2
+SHA256: dff50e4bfff6e903035e978c0eb3b6de4984da944feccc692c0b8126b2fb5de4
+Homepage: https://github.com/google/open-vcdiff
+Description: Static libraries for open-vcdiff
 
 Package: openvdb
 Version: 10.0.1-3
@@ -4075,6 +3962,20 @@ SHA1: 815190095efe20591fa195c5b4b52b4c8325e856
 SHA256: 3e5d780a4437820e69a8da1e99493bc07c4048a0e7dcc05b01870751443a2a91
 Homepage: https://github.com/dreamworksanimation/openvdb
 Description: A large suite of tools for the efficient storage and manipulation of sparse volumetric data discretized on three-dimensional grids
+
+Package: openvdb-static
+Version: 10.0.1-3
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 283844
+Depends: openvdb (= 10.0.1-3)
+Filename: pool/tur/openvdb-static_10.0.1-3_arm.deb
+Size: 13564276
+MD5sum: 011e4ce5abb22b47201b2f6004b9116c
+SHA1: 02c98534dacdef743069535c729d1647e4411227
+SHA256: 470adbb18424b5921ed47c045884042daf822ba9f272d035fe753b21ec82fede
+Homepage: https://github.com/dreamworksanimation/openvdb
+Description: Static libraries for openvdb
 
 Package: optivorbis
 Version: 0.3.2
@@ -4206,20 +4107,6 @@ SHA256: 7310a521121afb5faee85526ebde8241a393407ead95d90ea800e06a36093773
 Homepage: https://github.com/ssut/payload-dumper-go
 Description: An android OTA payload dumper written in Go
 
-Package: pcre2-static
-Version: 10.41
-Architecture: arm
-Maintainer: @termux
-Installed-Size: 1224
-Depends: pcre2 (= 10.41)
-Filename: pool/tur/pcre2-static_10.41_arm.deb
-Size: 311184
-MD5sum: 499b9eb8d23af72b2e9a0d2abb7af315
-SHA1: 944273928acadf807a94a20b1ce54850b78a7949
-SHA256: ead03dc621713c344a1ea082bfc65ae02f45e06b4d0a6dd5190740a3dd7a2a93
-Homepage: https://www.pcre.org
-Description: Static libraries for pcre2
-
 Package: pcre2
 Version: 10.41
 Architecture: arm
@@ -4249,6 +4136,20 @@ SHA256: 53a765c72ad56c1996661db819430bb8c1f261cf13ab31ae6f211c4954bbe9a5
 Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
+Package: pcre2-static
+Version: 10.41
+Architecture: arm
+Maintainer: @termux
+Installed-Size: 1224
+Depends: pcre2 (= 10.41)
+Filename: pool/tur/pcre2-static_10.41_arm.deb
+Size: 311184
+MD5sum: 499b9eb8d23af72b2e9a0d2abb7af315
+SHA1: 944273928acadf807a94a20b1ce54850b78a7949
+SHA256: ead03dc621713c344a1ea082bfc65ae02f45e06b4d0a6dd5190740a3dd7a2a93
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre2
+
 Package: pdfcraft
 Version: 0.16.1
 Architecture: arm
@@ -4276,6 +4177,37 @@ SHA1: 97ef1a646dc64350993a711e22897467af7ad9a6
 SHA256: 0f66883f029c0b2b4eb55993d8c7dd3433d875c86346b2fea4032859e7df4431
 Homepage: https://getartcraft.com/apps/photocraft
 Description: An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
+
+Package: php7.2
+Version: 7.2.34-2
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 61128
+Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
+Conflicts: php, php7
+Replaces: php, php7
+Filename: pool/tur/php7.2_7.2.34-2_arm.deb
+Size: 12867416
+MD5sum: a7bcc3182d49cca9a0b180c2ce5fe450
+SHA1: e0ac7ac8fa9723ab0376008629b35855450fd5ca
+SHA256: 9a736cf56df7451945ac87ce3789d826318b6535d414ab773d0a55c53c9607e0
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
+Package: php7
+Version: 7.4.33-5
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 38488
+Depends: freetype, libandroid-glob, libandroid-support, libbz2, libc++, libcrypt, libcurl, libffi, libgd, libgmp, libiconv, libicu, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, tidy, zlib
+Conflicts: php, php-mysql, php-dev
+Filename: pool/tur/php7_7.4.33-5_arm.deb
+Size: 7157124
+MD5sum: 3da94cf3a7761703a958fdc9c1f02438
+SHA1: 6267e55954eb0ec409e94bfb158ac5bcad0a8042
+SHA256: 398f4922a64c6f3cfa16630ba1b88cae69b44b3cfce34648c1a5ea2cb97f4614
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
 
 Package: php7-apache
 Version: 7.4.33-5
@@ -4321,37 +4253,6 @@ SHA256: 8cdc25ffe951023e0f54638e214033d33a3d0cdbecc8daceeacab50126f67726
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
-Package: php7.2
-Version: 7.2.34-2
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 61128
-Depends: libandroid-glob, libxml2, liblzma, openssl-1.1, pcre, libbz2, libcrypt, libcurl, libgd, readline, freetype, postgresql, apache2
-Conflicts: php, php7
-Replaces: php, php7
-Filename: pool/tur/php7.2_7.2.34-2_arm.deb
-Size: 12867416
-MD5sum: a7bcc3182d49cca9a0b180c2ce5fe450
-SHA1: e0ac7ac8fa9723ab0376008629b35855450fd5ca
-SHA256: 9a736cf56df7451945ac87ce3789d826318b6535d414ab773d0a55c53c9607e0
-Homepage: https://php.net
-Description: Server-side, HTML-embedded scripting language
-
-Package: php7
-Version: 7.4.33-5
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 38488
-Depends: freetype, libandroid-glob, libandroid-support, libbz2, libc++, libcrypt, libcurl, libffi, libgd, libgmp, libiconv, libicu, liblzma, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl-1.1, pcre2, readline, tidy, zlib
-Conflicts: php, php-mysql, php-dev
-Filename: pool/tur/php7_7.4.33-5_arm.deb
-Size: 7157124
-MD5sum: 3da94cf3a7761703a958fdc9c1f02438
-SHA1: 6267e55954eb0ec409e94bfb158ac5bcad0a8042
-SHA256: 398f4922a64c6f3cfa16630ba1b88cae69b44b3cfce34648c1a5ea2cb97f4614
-Homepage: https://php.net
-Description: Server-side, HTML-embedded scripting language
-
 Package: playit
 Version: 1.0.6
 Architecture: arm
@@ -4379,6 +4280,425 @@ SHA256: 13213fbbc61afd136b0c93fa761d32f9e6a5df6c4a3127abd364c6953dfb699e
 Homepage: https://pybind11.readthedocs.org
 Description: A lightweight header-only library that exposes C++ types in Python and vice versa
 
+Package: python3.10
+Version: 3.10.22
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 22884
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.10-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.10_3.10.22_arm.deb
+Size: 7252852
+MD5sum: 506b44f8a580b9a86134aea309869129
+SHA1: 5ef4af3fe192afe32103bd40eb3ce7f061342fa4
+SHA256: 0ea1682418d450a1cf5db9e1ef2d585746f8da49de3e463d0274f00124a139c6
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.10)
+
+Package: python3.10-cross
+Version: 3.10.22
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 157956
+Filename: pool/tur/python3.10-cross_3.10.22_arm.deb
+Size: 33447584
+MD5sum: e55ea212a9da9349f83bdc0ec7850430
+SHA1: 56f3812cf905c988d4effd1c69f88398e6676114
+SHA256: 48fbf273aba0d98a19a45f03256f0b4e86a8e2f4c6ec276838bf0e7d96248661
+Homepage: https://python.org/
+Description: Python 3.10 for cross build on the host (NOT for Termux)
+
+Package: python3.10-static
+Version: 3.10.22
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 14060
+Depends: python3.10 (= 3.10.22)
+Filename: pool/tur/python3.10-static_3.10.22_arm.deb
+Size: 3818396
+MD5sum: 4b0d0726fe5d4bbd094e820155aa5119
+SHA1: 3ee74db57f5050b86038efa447dd13529555ff3f
+SHA256: 4e728f5475d7d0e24fc1007e3ead085e88ff3da9707997bdba9d4757b8d9a936
+Homepage: https://python.org/
+Description: Static libraries for python3.10
+
+Package: python3.10-tkinter
+Version: 3.10.22
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2668
+Depends: tk, python3.10 (= 3.10.22)
+Filename: pool/tur/python3.10-tkinter_3.10.22_arm.deb
+Size: 513440
+MD5sum: b8ad92b598c2c5208ceb83a02dfb46fd
+SHA1: 50cb5dba9fa9025b0e77a97dc4f466c6117c5a37
+SHA256: e4d023c08e2991a9915da5221a2a6d594f857e10b9f015535939c74323bb4b56
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.10
+
+Package: python3.11
+Version: 3.11.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 24516
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Suggests: python3.11-tkinter
+Filename: pool/tur/python3.11_3.11.18_arm.deb
+Size: 7547708
+MD5sum: aafe26bcafa1fb05f5c21c67f7954361
+SHA1: e11fccf3ca4a3ddcc4f8839195ba8a6183cc9f20
+SHA256: a398d8757a39aa41587959434431c2f9d60c06b10523f23f778524490e720f7e
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.11)
+
+Package: python3.11-cross
+Version: 3.11.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 196956
+Filename: pool/tur/python3.11-cross_3.11.18_arm.deb
+Size: 39013932
+MD5sum: 60ae456d7f1f5cb6ec314c0420239446
+SHA1: a6e755f23be03f1562c99af7aef0728be5b5cd87
+SHA256: 490f60484dabfcff8c001378fedfb6e2e875c10c5fe4a3eb02956307fe3cfb6a
+Homepage: https://python.org/
+Description: Python 3.11 for cross build on the host (NOT for Termux)
+
+Package: python3.11-static
+Version: 3.11.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 20124
+Depends: python3.11 (= 3.11.18)
+Filename: pool/tur/python3.11-static_3.11.18_arm.deb
+Size: 4880208
+MD5sum: cc3b77eae01f2d13fa9ae9c0d6627ecf
+SHA1: 83ac8a056eb6f408543414f4d20dcb6d00c6bc26
+SHA256: ed76e7bf40a65ba2f39fd25eab24e75b0d9a45c8f8cdb92dbd129bbe020301c5
+Homepage: https://python.org/
+Description: Static libraries for python3.11
+
+Package: python3.11-tkinter
+Version: 3.11.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2688
+Depends: tcl, tk, python3.11 (= 3.11.18)
+Filename: pool/tur/python3.11-tkinter_3.11.18_arm.deb
+Size: 517004
+MD5sum: fdb70aec3c217089795d7a9678971709
+SHA1: 30342ef64a594cbc979efc53f46ee743a78eebf1
+SHA256: a62e6dfc074c0ca68b1737d8aeddc8ea57c009bef4f229e8cb2bcf4a7243d3f7
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.11
+
+Package: python3.12
+Version: 3.12.16
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 23804
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Suggests: python3.12-tkinter
+Filename: pool/tur/python3.12_3.12.16_arm.deb
+Size: 6246136
+MD5sum: 3ea0beb4cd56b8a955a73bfa5499b9d3
+SHA1: 1d32725c38805b4f18f239f75794603e55934254
+SHA256: 994a018ec4a2fe72c6e5639e3a337f7e818d531d1a60fc6e094d762c8f26868b
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.12)
+
+Package: python3.12-cross
+Version: 3.12.16
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 236260
+Filename: pool/tur/python3.12-cross_3.12.16_arm.deb
+Size: 44864020
+MD5sum: 6ed5cb205906d513322d71175d81de00
+SHA1: 4865274f0b07d26d76a88042dfb64dd23f743ff8
+SHA256: 5475cf03276a63ca4ef5f946184bb9cd9f8c9e4111a7b3c96efd6be13ebc28ce
+Homepage: https://python.org/
+Description: Python 3.12 for cross build on the host (NOT for Termux)
+
+Package: python3.12-static
+Version: 3.12.16
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 28540
+Depends: python3.12 (= 3.12.16)
+Filename: pool/tur/python3.12-static_3.12.16_arm.deb
+Size: 6272408
+MD5sum: bd9dbcba2989d4a4d77a194333025a17
+SHA1: 29d845c92d4fa804835676b6ebbd80685f21d46d
+SHA256: 97a830e7a68169e1ae209227babb8e4375f09b2f35d2b3b57d8c1b9c5202f7e5
+Homepage: https://python.org/
+Description: Static libraries for python3.12
+
+Package: python3.12-tkinter
+Version: 3.12.16
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2672
+Depends: tcl, tk, python3.12 (= 3.12.16)
+Filename: pool/tur/python3.12-tkinter_3.12.16_arm.deb
+Size: 517572
+MD5sum: 7947c61e11a2c7bf60bc0dadaed3867b
+SHA1: b90075d4b26cb752828947acb4ea21cea14e5c66
+SHA256: eb63526a43c3fb385af894475bf689d24932bf1e78674ed9e4474b9af893db04
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.12
+
+Package: python
+Version: 3.13.12-3
+Architecture: arm
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 21520
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: python-ensurepip-wheels, python-pip
+Suggests: python-tkinter
+Breaks: python2 (<= 2.7.15), python-dev
+Replaces: python-dev
+Provides: python3
+Filename: pool/tur/python_3.13.12-3_arm.deb
+Size: 4495428
+MD5sum: a70293385d88741912b1713d96071631
+SHA1: 04f626f44f0545bb8910e307561be3265484e54b
+SHA256: a434a0c0e441823a96675f5b5f28bb1c8887dbc7f4f027eed8c01f091405fed4
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
+
+Package: python3.13
+Version: 3.13.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 23452
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Suggests: python3.13-tkinter
+Filename: pool/tur/python3.13_3.13.18_arm.deb
+Size: 6288072
+MD5sum: aeacd6d9a9fd7c16e3bcb8ae31324b5c
+SHA1: 247dea05fd9264371ea80fdb5ec88853b1235a76
+SHA256: c730066b63fd57fa4e08a476653aadf523149dd2f1f552a0ec56b432f90368ba
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
+
+Package: python3.13-cross
+Version: 3.13.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 255180
+Filename: pool/tur/python3.13-cross_3.13.18_arm.deb
+Size: 49003428
+MD5sum: 1b2b66375a226e1d90466fdb93822301
+SHA1: cfac219c627c95c7d180208ddb64958a84ada00f
+SHA256: f9b9c55a8a8b6bf28b57ee6b4400f9325be143db4dcbcdf4045b5ff84c1c5cbd
+Homepage: https://python.org/
+Description: Python 3.13 for cross build on the host (NOT for Termux)
+
+Package: python3.13-static
+Version: 3.13.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 30040
+Depends: python3.13 (= 3.13.18)
+Filename: pool/tur/python3.13-static_3.13.18_arm.deb
+Size: 6834320
+MD5sum: 145d06cee0905cc46abb3b252633af71
+SHA1: 354b6095a0106c10f10afc2a5b347f0e443bdc34
+SHA256: 56acfb535570c79bd51bd1f83f46263a6644a54888f7a470760decbdc2f45c4d
+Homepage: https://python.org/
+Description: Static libraries for python3.13
+
+Package: python3.13-tkinter
+Version: 3.13.18
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2680
+Depends: tcl, tk, python3.13 (= 3.13.18)
+Filename: pool/tur/python3.13-tkinter_3.13.18_arm.deb
+Size: 520016
+MD5sum: 6ddf7eef02247d1c7cde6960ce1ee073
+SHA1: a7ebb00c38fe3028bd3dd0a5bc6ed0fd7509cb16
+SHA256: 3a892933cb2ccf8672522cf4d9e2a4fe7e68cb134ba9eadfdf7f58a81b2c7d98
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.13
+
+Package: python3.7
+Version: 3.7.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 44988
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.7-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.7_3.7.17_arm.deb
+Size: 8601644
+MD5sum: a3e43c2b12be7d541e5627eb2ec3bf6c
+SHA1: 79a035a5b3c9c2ea56e0a6bab84f099ee9408406
+SHA256: 10ab2c75d6cd719bf989ec127c5d60a286ccfbedb6aaac810aa00e977df1ccec
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.7)
+
+Package: python3.7-cross
+Version: 3.7.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 203688
+Filename: pool/tur/python3.7-cross_3.7.17_arm.deb
+Size: 34670324
+MD5sum: 8930f912b392c40b72e75ea2f35e978f
+SHA1: 197901edb8b372763da96760407e4b31891ccb42
+SHA256: aa7a615de5c0cde62c57bae770b25cda137bd96d21cb4b0e6d5dd27cb6292732
+Homepage: https://python.org/
+Description: Python 3.7 for cross build on the host (NOT for Termux)
+
+Package: python3.7-static
+Version: 3.7.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 10004
+Depends: python3.7 (= 3.7.17)
+Filename: pool/tur/python3.7-static_3.7.17_arm.deb
+Size: 2798380
+MD5sum: b90baed3e60ed79b24c8b2839008900a
+SHA1: 033f7df8c3e346f284f96dbca440db82da83d86d
+SHA256: 85df72480762e219708a978caadf2858e1f05af96e5287ca957d42a845d31885
+Homepage: https://python.org/
+Description: Static libraries for python3.7
+
+Package: python3.7-tkinter
+Version: 3.7.17
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7852
+Depends: tk, python3.7 (= 3.7.17)
+Filename: pool/tur/python3.7-tkinter_3.7.17_arm.deb
+Size: 876980
+MD5sum: a3a90507e28ea812b522fa9c9c5807b7
+SHA1: 7c7e618b8ce84dd50d31ae1f50d1704311b8b4c6
+SHA256: db8374e6f2bcb5b741c24e46fbb9787f08bf5670a09e9e9d929c3f21759f37b9
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.7
+
+Package: python3.8
+Version: 3.8.20
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 46820
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.8-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.8_3.8.20_arm.deb
+Size: 9216272
+MD5sum: 9cd4dd5337b0a8e3799e944854d51b83
+SHA1: d1c5cc97cf7311033ff1a3e8475e2e401fcb1c24
+SHA256: 3fe96a5f5e40cb881fc01e9096ecb56c2a347e9272057093323bc1a7c7863ff1
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.8)
+
+Package: python3.8-cross
+Version: 3.8.20
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 224240
+Filename: pool/tur/python3.8-cross_3.8.20_arm.deb
+Size: 37065048
+MD5sum: a530058add6e4dcd21e9ec9578d9ece3
+SHA1: f4c94d1552dc66b6ae10a474653cad3fe7e760ad
+SHA256: 5ae216fae0cd2ea6ed850330feda46c4a79b01047fd45450c224df6aa14746fb
+Homepage: https://python.org/
+Description: Python 3.8 for cross build on the host (NOT for Termux)
+
+Package: python3.8-static
+Version: 3.8.20
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 11220
+Depends: python3.8 (= 3.8.20)
+Filename: pool/tur/python3.8-static_3.8.20_arm.deb
+Size: 3190784
+MD5sum: e8c44fc32c009b09442a1feb12b4362d
+SHA1: 8f54afb23442bde0edfedc78213a09d2e7d99b54
+SHA256: 2a5fa2603b26e3ee315a50035c276fd37a473c262947d5a941b5d36548b45277
+Homepage: https://python.org/
+Description: Static libraries for python3.8
+
+Package: python3.8-tkinter
+Version: 3.8.20
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 7932
+Depends: tk, python3.8 (= 3.8.20)
+Filename: pool/tur/python3.8-tkinter_3.8.20_arm.deb
+Size: 903844
+MD5sum: 14fd2d4faf18300940132736aa706971
+SHA1: c3511d7bab7b2dce6741e209a4231c231ad57841
+SHA256: 6ddfe8b194971eeff31d4ed905acc157292b326be5ca72e852108482fba8d4d1
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.8
+
+Package: python3.9
+Version: 3.9.25
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 22592
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Suggests: python3.9-tkinter
+Breaks: python2 (<= 2.7.15)
+Filename: pool/tur/python3.9_3.9.25_arm.deb
+Size: 7198708
+MD5sum: 53c9f09c6fd47660eb580b31902cf2e8
+SHA1: b1fa34f2331344e15a3a78df573be92059612bae
+SHA256: a6f2b4a99025f1305307897121a47e1bfb9252d4f010bf70329710ccc2bf380f
+Homepage: https://python.org/
+Description: Python programming language intended to enable clear programs (version 3.9)
+
+Package: python3.9-cross
+Version: 3.9.25
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 149016
+Filename: pool/tur/python3.9-cross_3.9.25_arm.deb
+Size: 31831620
+MD5sum: e263067e4da5268059e66102459adca3
+SHA1: 965d2cb7d5ac0559fc03085da2a84365f6da081d
+SHA256: 4f9fa2ba7a04144f862721aa4ab6d80c5de51a27c3b4a4512209f53f53d572be
+Homepage: https://python.org/
+Description: Python 3.9 for cross build on the host (NOT for Termux)
+
+Package: python3.9-static
+Version: 3.9.25
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 12828
+Depends: python3.9 (= 3.9.25)
+Filename: pool/tur/python3.9-static_3.9.25_arm.deb
+Size: 3577892
+MD5sum: 8876c10f7b6d5cb8b9b2040a7fda1e4a
+SHA1: 35c0bfa65cab0aabed5e6b0ceca8b59c50449fef
+SHA256: e46a6e8545395a3840ca665dc8be79349a73f48cc84364d536fa198c52ed8aca
+Homepage: https://python.org/
+Description: Static libraries for python3.9
+
+Package: python3.9-tkinter
+Version: 3.9.25
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2612
+Depends: tk, python3.9 (= 3.9.25)
+Filename: pool/tur/python3.9-tkinter_3.9.25_arm.deb
+Size: 502672
+MD5sum: 401dfa5a42aaf80efc2460f3a4b44103
+SHA1: 08f760377eb9ceb2105ec9f7516ff32d8fa94b17
+SHA256: bbb7a6888f1707cfc12ba66c99647c1d970e16be97aa8c342c46b9b6a5a7aaee
+Homepage: https://python.org/
+Description: Tkinter support for Python 3.9
+
 Package: python-brotli
 Version: 1.1.0-1
 Architecture: arm
@@ -4392,20 +4712,6 @@ SHA1: 9c340ff1092439e1892b52a5f434b871a9f6e62d
 SHA256: b77e827d4f5bc07c71a01f74eccfe9a871c99d52d599dc4d9c6b3aabe1d0ab8f
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (Python bindings)
-
-Package: python-cairo
-Version: 1.26.1-3
-Architecture: arm
-Maintainer: @fervi
-Installed-Size: 516
-Depends: python, libcairo
-Filename: pool/tur/python-cairo_1.26.1-3_arm.deb
-Size: 98596
-MD5sum: 5656ac55bfb5b49b9c828d9d3e268fed
-SHA1: e2959cfa9a4562629c5dc775b691da6790b6d4da
-SHA256: 99bb722d2c7c21da131dba023717a1b2de1b7cabc4a1891bec463959cc249d03
-Homepage: https://cairographics.org/pycairo
-Description: This package contains modules that allow you to use the Cairo vector graphics library in Python3 programs.
 
 Package: python-cryptography
 Version: 38.0.1
@@ -4589,20 +4895,6 @@ SHA256: 4dcfa2fea23272eda1d0e390ad0103f0ae64adc376fe095445a28b16922f23f9
 Homepage: https://github.com/decathorpe/mitmproxy_wireguard
 Description: WireGuard frontend for mitmproxy
 
-Package: python-numpy-static
-Version: 1.23.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 324
-Depends: python-numpy (= 1.23.0)
-Filename: pool/tur/python-numpy-static_1.23.0_arm.deb
-Size: 87072
-MD5sum: 6d175757fa642e2bdda2478e1272b773
-SHA1: d8584fb76d86cc6c9be131758e67181bb72176be
-SHA256: c1bae4ea6fa2f31f8a552b0f52eca1e2ba75e635f2b9476e782e1d6cc38678ad
-Homepage: https://numpy.org/
-Description: Static libraries for python-numpy
-
 Package: python-numpy
 Version: 1.23.0
 Architecture: arm
@@ -4617,6 +4909,20 @@ SHA1: d55d9db0b8a37254e7e691c3b195fcb38a4f2abc
 SHA256: 0d6fe66e1602635d86ef41600560f2dda4ed2ef447e94b5739c6515b292746ab
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
+
+Package: python-numpy-static
+Version: 1.23.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 324
+Depends: python-numpy (= 1.23.0)
+Filename: pool/tur/python-numpy-static_1.23.0_arm.deb
+Size: 87072
+MD5sum: 6d175757fa642e2bdda2478e1272b773
+SHA1: d8584fb76d86cc6c9be131758e67181bb72176be
+SHA256: c1bae4ea6fa2f31f8a552b0f52eca1e2ba75e635f2b9476e782e1d6cc38678ad
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
 
 Package: python-pandas
 Version: 3.0.6
@@ -4702,6 +5008,20 @@ SHA256: 1f1dcc0f3b67ed20ee3a06655e5dee3ed57ce1202d404598a320342a93ef1ab5
 Homepage: https://github.com/scikit-image/scikit-image
 Description: Image processing in Python
 
+Package: python-scipy
+Version: 1:1.18.1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 65460
+Depends: libandroid-complex-math, libc++ (>= 29), libopenblas, python, python-numpy, python-pip
+Filename: pool/tur/python-scipy_1:1.18.1_arm.deb
+Size: 17168464
+MD5sum: dd7c3652c4fee27242dc5265f40a975d
+SHA1: 13b74af044303ae3e54549cf0b4ecf30dcb6ee58
+SHA256: 4aa347777b86940fffe61a7b0a05512f78cd338000a310e606efb9bec6b0d845
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
 Package: python-scipy-2
 Version: 1.11.4
 Architecture: arm
@@ -4732,20 +5052,6 @@ SHA1: 322f7df1f11f57c782d6241738568907acbedbef
 SHA256: 63f2695ce9e12211b3abc5b1e0c0d1287dbfd7c43eccc707e3c6ea4379b544dd
 Homepage: https://scipy.org/
 Description: Static libraries for python-scipy
-
-Package: python-scipy
-Version: 1:1.18.1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 65460
-Depends: libandroid-complex-math, libc++ (>= 29), libopenblas, python, python-numpy, python-pip
-Filename: pool/tur/python-scipy_1:1.18.1_arm.deb
-Size: 17168464
-MD5sum: dd7c3652c4fee27242dc5265f40a975d
-SHA1: 13b74af044303ae3e54549cf0b4ecf30dcb6ee58
-SHA256: 4aa347777b86940fffe61a7b0a05512f78cd338000a310e606efb9bec6b0d845
-Homepage: https://scipy.org/
-Description: Fundamental algorithms for scientific computing in Python
 
 Package: python-seledroid
 Version: 1.1.0-5
@@ -4861,425 +5167,6 @@ SHA1: a7ccd0b8814fa003e60fef4a6224bd8a5c426b25
 SHA256: c7fcc0b28f398872d6d3602cdacabe82914839d31f66a0f2d917104699a5b958
 Homepage: https://github.com/yt-dlp/yt-dlp
 Description: A youtube-dl fork with additional features and fixes
-
-Package: python3.10-cross
-Version: 3.10.22
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 157956
-Filename: pool/tur/python3.10-cross_3.10.22_arm.deb
-Size: 33447584
-MD5sum: e55ea212a9da9349f83bdc0ec7850430
-SHA1: 56f3812cf905c988d4effd1c69f88398e6676114
-SHA256: 48fbf273aba0d98a19a45f03256f0b4e86a8e2f4c6ec276838bf0e7d96248661
-Homepage: https://python.org/
-Description: Python 3.10 for cross build on the host (NOT for Termux)
-
-Package: python3.10-static
-Version: 3.10.22
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 14060
-Depends: python3.10 (= 3.10.22)
-Filename: pool/tur/python3.10-static_3.10.22_arm.deb
-Size: 3818396
-MD5sum: 4b0d0726fe5d4bbd094e820155aa5119
-SHA1: 3ee74db57f5050b86038efa447dd13529555ff3f
-SHA256: 4e728f5475d7d0e24fc1007e3ead085e88ff3da9707997bdba9d4757b8d9a936
-Homepage: https://python.org/
-Description: Static libraries for python3.10
-
-Package: python3.10-tkinter
-Version: 3.10.22
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2668
-Depends: tk, python3.10 (= 3.10.22)
-Filename: pool/tur/python3.10-tkinter_3.10.22_arm.deb
-Size: 513440
-MD5sum: b8ad92b598c2c5208ceb83a02dfb46fd
-SHA1: 50cb5dba9fa9025b0e77a97dc4f466c6117c5a37
-SHA256: e4d023c08e2991a9915da5221a2a6d594f857e10b9f015535939c74323bb4b56
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.10
-
-Package: python3.10
-Version: 3.10.22
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 22884
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.10-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.10_3.10.22_arm.deb
-Size: 7252852
-MD5sum: 506b44f8a580b9a86134aea309869129
-SHA1: 5ef4af3fe192afe32103bd40eb3ce7f061342fa4
-SHA256: 0ea1682418d450a1cf5db9e1ef2d585746f8da49de3e463d0274f00124a139c6
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.10)
-
-Package: python3.11-cross
-Version: 3.11.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 196956
-Filename: pool/tur/python3.11-cross_3.11.18_arm.deb
-Size: 39013932
-MD5sum: 60ae456d7f1f5cb6ec314c0420239446
-SHA1: a6e755f23be03f1562c99af7aef0728be5b5cd87
-SHA256: 490f60484dabfcff8c001378fedfb6e2e875c10c5fe4a3eb02956307fe3cfb6a
-Homepage: https://python.org/
-Description: Python 3.11 for cross build on the host (NOT for Termux)
-
-Package: python3.11-static
-Version: 3.11.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 20124
-Depends: python3.11 (= 3.11.18)
-Filename: pool/tur/python3.11-static_3.11.18_arm.deb
-Size: 4880208
-MD5sum: cc3b77eae01f2d13fa9ae9c0d6627ecf
-SHA1: 83ac8a056eb6f408543414f4d20dcb6d00c6bc26
-SHA256: ed76e7bf40a65ba2f39fd25eab24e75b0d9a45c8f8cdb92dbd129bbe020301c5
-Homepage: https://python.org/
-Description: Static libraries for python3.11
-
-Package: python3.11-tkinter
-Version: 3.11.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2688
-Depends: tcl, tk, python3.11 (= 3.11.18)
-Filename: pool/tur/python3.11-tkinter_3.11.18_arm.deb
-Size: 517004
-MD5sum: fdb70aec3c217089795d7a9678971709
-SHA1: 30342ef64a594cbc979efc53f46ee743a78eebf1
-SHA256: a62e6dfc074c0ca68b1737d8aeddc8ea57c009bef4f229e8cb2bcf4a7243d3f7
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.11
-
-Package: python3.11
-Version: 3.11.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 24516
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Suggests: python3.11-tkinter
-Filename: pool/tur/python3.11_3.11.18_arm.deb
-Size: 7547708
-MD5sum: aafe26bcafa1fb05f5c21c67f7954361
-SHA1: e11fccf3ca4a3ddcc4f8839195ba8a6183cc9f20
-SHA256: a398d8757a39aa41587959434431c2f9d60c06b10523f23f778524490e720f7e
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.11)
-
-Package: python3.12-cross
-Version: 3.12.16
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 236260
-Filename: pool/tur/python3.12-cross_3.12.16_arm.deb
-Size: 44864020
-MD5sum: 6ed5cb205906d513322d71175d81de00
-SHA1: 4865274f0b07d26d76a88042dfb64dd23f743ff8
-SHA256: 5475cf03276a63ca4ef5f946184bb9cd9f8c9e4111a7b3c96efd6be13ebc28ce
-Homepage: https://python.org/
-Description: Python 3.12 for cross build on the host (NOT for Termux)
-
-Package: python3.12-static
-Version: 3.12.16
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 28540
-Depends: python3.12 (= 3.12.16)
-Filename: pool/tur/python3.12-static_3.12.16_arm.deb
-Size: 6272408
-MD5sum: bd9dbcba2989d4a4d77a194333025a17
-SHA1: 29d845c92d4fa804835676b6ebbd80685f21d46d
-SHA256: 97a830e7a68169e1ae209227babb8e4375f09b2f35d2b3b57d8c1b9c5202f7e5
-Homepage: https://python.org/
-Description: Static libraries for python3.12
-
-Package: python3.12-tkinter
-Version: 3.12.16
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2672
-Depends: tcl, tk, python3.12 (= 3.12.16)
-Filename: pool/tur/python3.12-tkinter_3.12.16_arm.deb
-Size: 517572
-MD5sum: 7947c61e11a2c7bf60bc0dadaed3867b
-SHA1: b90075d4b26cb752828947acb4ea21cea14e5c66
-SHA256: eb63526a43c3fb385af894475bf689d24932bf1e78674ed9e4474b9af893db04
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.12
-
-Package: python3.12
-Version: 3.12.16
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 23804
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Suggests: python3.12-tkinter
-Filename: pool/tur/python3.12_3.12.16_arm.deb
-Size: 6246136
-MD5sum: 3ea0beb4cd56b8a955a73bfa5499b9d3
-SHA1: 1d32725c38805b4f18f239f75794603e55934254
-SHA256: 994a018ec4a2fe72c6e5639e3a337f7e818d531d1a60fc6e094d762c8f26868b
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.12)
-
-Package: python3.13-cross
-Version: 3.13.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 255180
-Filename: pool/tur/python3.13-cross_3.13.18_arm.deb
-Size: 49003428
-MD5sum: 1b2b66375a226e1d90466fdb93822301
-SHA1: cfac219c627c95c7d180208ddb64958a84ada00f
-SHA256: f9b9c55a8a8b6bf28b57ee6b4400f9325be143db4dcbcdf4045b5ff84c1c5cbd
-Homepage: https://python.org/
-Description: Python 3.13 for cross build on the host (NOT for Termux)
-
-Package: python3.13-static
-Version: 3.13.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 30040
-Depends: python3.13 (= 3.13.18)
-Filename: pool/tur/python3.13-static_3.13.18_arm.deb
-Size: 6834320
-MD5sum: 145d06cee0905cc46abb3b252633af71
-SHA1: 354b6095a0106c10f10afc2a5b347f0e443bdc34
-SHA256: 56acfb535570c79bd51bd1f83f46263a6644a54888f7a470760decbdc2f45c4d
-Homepage: https://python.org/
-Description: Static libraries for python3.13
-
-Package: python3.13-tkinter
-Version: 3.13.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2680
-Depends: tcl, tk, python3.13 (= 3.13.18)
-Filename: pool/tur/python3.13-tkinter_3.13.18_arm.deb
-Size: 520016
-MD5sum: 6ddf7eef02247d1c7cde6960ce1ee073
-SHA1: a7ebb00c38fe3028bd3dd0a5bc6ed0fd7509cb16
-SHA256: 3a892933cb2ccf8672522cf4d9e2a4fe7e68cb134ba9eadfdf7f58a81b2c7d98
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.13
-
-Package: python3.13
-Version: 3.13.18
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 23452
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Suggests: python3.13-tkinter
-Filename: pool/tur/python3.13_3.13.18_arm.deb
-Size: 6288072
-MD5sum: aeacd6d9a9fd7c16e3bcb8ae31324b5c
-SHA1: 247dea05fd9264371ea80fdb5ec88853b1235a76
-SHA256: c730066b63fd57fa4e08a476653aadf523149dd2f1f552a0ec56b432f90368ba
-Homepage: https://python.org/
-Description: Python 3 programming language intended to enable clear programs
-
-Package: python3.7-cross
-Version: 3.7.17
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 203688
-Filename: pool/tur/python3.7-cross_3.7.17_arm.deb
-Size: 34670324
-MD5sum: 8930f912b392c40b72e75ea2f35e978f
-SHA1: 197901edb8b372763da96760407e4b31891ccb42
-SHA256: aa7a615de5c0cde62c57bae770b25cda137bd96d21cb4b0e6d5dd27cb6292732
-Homepage: https://python.org/
-Description: Python 3.7 for cross build on the host (NOT for Termux)
-
-Package: python3.7-static
-Version: 3.7.17
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 10004
-Depends: python3.7 (= 3.7.17)
-Filename: pool/tur/python3.7-static_3.7.17_arm.deb
-Size: 2798380
-MD5sum: b90baed3e60ed79b24c8b2839008900a
-SHA1: 033f7df8c3e346f284f96dbca440db82da83d86d
-SHA256: 85df72480762e219708a978caadf2858e1f05af96e5287ca957d42a845d31885
-Homepage: https://python.org/
-Description: Static libraries for python3.7
-
-Package: python3.7-tkinter
-Version: 3.7.17
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 7852
-Depends: tk, python3.7 (= 3.7.17)
-Filename: pool/tur/python3.7-tkinter_3.7.17_arm.deb
-Size: 876980
-MD5sum: a3a90507e28ea812b522fa9c9c5807b7
-SHA1: 7c7e618b8ce84dd50d31ae1f50d1704311b8b4c6
-SHA256: db8374e6f2bcb5b741c24e46fbb9787f08bf5670a09e9e9d929c3f21759f37b9
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.7
-
-Package: python3.7
-Version: 3.7.17
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 44988
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.7-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.7_3.7.17_arm.deb
-Size: 8601644
-MD5sum: a3e43c2b12be7d541e5627eb2ec3bf6c
-SHA1: 79a035a5b3c9c2ea56e0a6bab84f099ee9408406
-SHA256: 10ab2c75d6cd719bf989ec127c5d60a286ccfbedb6aaac810aa00e977df1ccec
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.7)
-
-Package: python3.8-cross
-Version: 3.8.20
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 224240
-Filename: pool/tur/python3.8-cross_3.8.20_arm.deb
-Size: 37065048
-MD5sum: a530058add6e4dcd21e9ec9578d9ece3
-SHA1: f4c94d1552dc66b6ae10a474653cad3fe7e760ad
-SHA256: 5ae216fae0cd2ea6ed850330feda46c4a79b01047fd45450c224df6aa14746fb
-Homepage: https://python.org/
-Description: Python 3.8 for cross build on the host (NOT for Termux)
-
-Package: python3.8-static
-Version: 3.8.20
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 11220
-Depends: python3.8 (= 3.8.20)
-Filename: pool/tur/python3.8-static_3.8.20_arm.deb
-Size: 3190784
-MD5sum: e8c44fc32c009b09442a1feb12b4362d
-SHA1: 8f54afb23442bde0edfedc78213a09d2e7d99b54
-SHA256: 2a5fa2603b26e3ee315a50035c276fd37a473c262947d5a941b5d36548b45277
-Homepage: https://python.org/
-Description: Static libraries for python3.8
-
-Package: python3.8-tkinter
-Version: 3.8.20
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 7932
-Depends: tk, python3.8 (= 3.8.20)
-Filename: pool/tur/python3.8-tkinter_3.8.20_arm.deb
-Size: 903844
-MD5sum: 14fd2d4faf18300940132736aa706971
-SHA1: c3511d7bab7b2dce6741e209a4231c231ad57841
-SHA256: 6ddfe8b194971eeff31d4ed905acc157292b326be5ca72e852108482fba8d4d1
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.8
-
-Package: python3.8
-Version: 3.8.20
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 46820
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.8-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.8_3.8.20_arm.deb
-Size: 9216272
-MD5sum: 9cd4dd5337b0a8e3799e944854d51b83
-SHA1: d1c5cc97cf7311033ff1a3e8475e2e401fcb1c24
-SHA256: 3fe96a5f5e40cb881fc01e9096ecb56c2a347e9272057093323bc1a7c7863ff1
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.8)
-
-Package: python3.9-cross
-Version: 3.9.25
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 149016
-Filename: pool/tur/python3.9-cross_3.9.25_arm.deb
-Size: 31831620
-MD5sum: e263067e4da5268059e66102459adca3
-SHA1: 965d2cb7d5ac0559fc03085da2a84365f6da081d
-SHA256: 4f9fa2ba7a04144f862721aa4ab6d80c5de51a27c3b4a4512209f53f53d572be
-Homepage: https://python.org/
-Description: Python 3.9 for cross build on the host (NOT for Termux)
-
-Package: python3.9-static
-Version: 3.9.25
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 12828
-Depends: python3.9 (= 3.9.25)
-Filename: pool/tur/python3.9-static_3.9.25_arm.deb
-Size: 3577892
-MD5sum: 8876c10f7b6d5cb8b9b2040a7fda1e4a
-SHA1: 35c0bfa65cab0aabed5e6b0ceca8b59c50449fef
-SHA256: e46a6e8545395a3840ca665dc8be79349a73f48cc84364d536fa198c52ed8aca
-Homepage: https://python.org/
-Description: Static libraries for python3.9
-
-Package: python3.9-tkinter
-Version: 3.9.25
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2612
-Depends: tk, python3.9 (= 3.9.25)
-Filename: pool/tur/python3.9-tkinter_3.9.25_arm.deb
-Size: 502672
-MD5sum: 401dfa5a42aaf80efc2460f3a4b44103
-SHA1: 08f760377eb9ceb2105ec9f7516ff32d8fa94b17
-SHA256: bbb7a6888f1707cfc12ba66c99647c1d970e16be97aa8c342c46b9b6a5a7aaee
-Homepage: https://python.org/
-Description: Tkinter support for Python 3.9
-
-Package: python3.9
-Version: 3.9.25
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 22592
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: clang, make, pkg-config
-Suggests: python3.9-tkinter
-Breaks: python2 (<= 2.7.15)
-Filename: pool/tur/python3.9_3.9.25_arm.deb
-Size: 7198708
-MD5sum: 53c9f09c6fd47660eb580b31902cf2e8
-SHA1: b1fa34f2331344e15a3a78df573be92059612bae
-SHA256: a6f2b4a99025f1305307897121a47e1bfb9252d4f010bf70329710ccc2bf380f
-Homepage: https://python.org/
-Description: Python programming language intended to enable clear programs (version 3.9)
-
-Package: python
-Version: 3.13.12-3
-Architecture: arm
-Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
-Installed-Size: 21520
-Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
-Recommends: python-ensurepip-wheels, python-pip
-Suggests: python-tkinter
-Breaks: python2 (<= 2.7.15), python-dev
-Replaces: python-dev
-Provides: python3
-Filename: pool/tur/python_3.13.12-3_arm.deb
-Size: 4495428
-MD5sum: a70293385d88741912b1713d96071631
-SHA1: 04f626f44f0545bb8910e307561be3265484e54b
-SHA256: a434a0c0e441823a96675f5b5f28bb1c8887dbc7f4f027eed8c01f091405fed4
-Homepage: https://python.org/
-Description: Python 3 programming language intended to enable clear programs
 
 Package: qemu-common-10
 Version: 10.2.1-1
@@ -5601,20 +5488,6 @@ SHA256: 0d6c7754bc7f581a639365e0738cadef199bf4bef21237e5c77fc6bf400d01bb
 Homepage: https://www.qemu.org
 Description: A set of utilities for working with the QEMU emulators
 
-Package: qqwing-static
-Version: 1.3.4-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 84
-Depends: qqwing (= 1.3.4-1)
-Filename: pool/tur/qqwing-static_1.3.4-1_arm.deb
-Size: 14644
-MD5sum: 6388f54bf747d29fa1efa7bd4f88f06a
-SHA1: c959049de14db14f8b05dd905c9d07ae7e01dad4
-SHA256: ad0c0042134d5d65ef9a7ca4ff295832e232a3a3f61c577f90a303ec6fbf7dcb
-Homepage: https://qqwing.com/
-Description: Static libraries for qqwing
-
 Package: qqwing
 Version: 1.3.4-1
 Architecture: arm
@@ -5628,6 +5501,20 @@ SHA1: 94f436365cdaf5d3ddd46e7c8b66e3fbb969f0be
 SHA256: 40529be3b53e1641ff07a5ebaa600eab601c606bcce8e9edacf5e8177f156cee
 Homepage: https://qqwing.com/
 Description: QQwing is software for generating and solving Sudoku puzzles
+
+Package: qqwing-static
+Version: 1.3.4-1
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 84
+Depends: qqwing (= 1.3.4-1)
+Filename: pool/tur/qqwing-static_1.3.4-1_arm.deb
+Size: 14644
+MD5sum: 6388f54bf747d29fa1efa7bd4f88f06a
+SHA1: c959049de14db14f8b05dd905c9d07ae7e01dad4
+SHA256: ad0c0042134d5d65ef9a7ca4ff295832e232a3a3f61c577f90a303ec6fbf7dcb
+Homepage: https://qqwing.com/
+Description: Static libraries for qqwing
 
 Package: qrupdate-ng
 Version: 1:1.1.5-1
@@ -5874,6 +5761,33 @@ SHA256: 7e9fde16ac57794c7f1ab04daf5476a2d1c3e565b4a67a335712357620323fa8
 Homepage: https://github.com/rvben/rumdl
 Description: Markdown Linter and Formatter written in Rust
 
+Package: rustc-dev-nightly
+Version: 1.100.0-2026.08.24-nightly-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 312340
+Filename: pool/tur/rustc-dev-nightly_1.100.0-2026.08.24-nightly-0_arm.deb
+Size: 74543136
+MD5sum: 050332c2e02900d6f540d0f60f80f250
+SHA1: 371d45b476ff111d4e2cbee70e1d46bad014a94c
+SHA256: b214b70821a1e57acde58b420efec7c2ec90309c06ac3d28391cb9319f9a4775
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler development libs (nightly version)
+
+Package: rustc-nightly
+Version: 1.100.0-2026.08.24-nightly-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 611712
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-nightly-std-armv7-linux-androideabi
+Filename: pool/tur/rustc-nightly_1.100.0-2026.08.24-nightly-0_arm.deb
+Size: 135453436
+MD5sum: 5ceebcd706706d52ab8d6d402ca89540
+SHA1: 28565eff1a1a8bba9cd73c26e90b160d4a54a345
+SHA256: fb186a70fa9dd23aeb643bb308619fc2d4626d0a4996bdc255cd34b24f9a6301
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler and utilities (nightly version)
+
 Package: rust-nightly-std-aarch64-linux-android
 Version: 1.100.0-2026.08.24-nightly-0
 Architecture: arm
@@ -5940,46 +5854,19 @@ SHA256: e6a84467578cf5e374bdfe8b2f2c7b2323821c15f7b9e1379bf910a04007aabd
 Homepage: https://rust-script.org/
 Description: Run Rust files and expressions as scripts without any setup or compilation step
 
-Package: rustc-dev-nightly
-Version: 1.100.0-2026.08.24-nightly-0
+Package: sdl3-ttf
+Version: 3.2.2
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 312340
-Filename: pool/tur/rustc-dev-nightly_1.100.0-2026.08.24-nightly-0_arm.deb
-Size: 74543136
-MD5sum: 050332c2e02900d6f540d0f60f80f250
-SHA1: 371d45b476ff111d4e2cbee70e1d46bad014a94c
-SHA256: b214b70821a1e57acde58b420efec7c2ec90309c06ac3d28391cb9319f9a4775
-Homepage: https://www.rust-lang.org/
-Description: Rust compiler development libs (nightly version)
-
-Package: rustc-nightly
-Version: 1.100.0-2026.08.24-nightly-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 611712
-Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-nightly-std-armv7-linux-androideabi
-Filename: pool/tur/rustc-nightly_1.100.0-2026.08.24-nightly-0_arm.deb
-Size: 135453436
-MD5sum: 5ceebcd706706d52ab8d6d402ca89540
-SHA1: 28565eff1a1a8bba9cd73c26e90b160d4a54a345
-SHA256: fb186a70fa9dd23aeb643bb308619fc2d4626d0a4996bdc255cd34b24f9a6301
-Homepage: https://www.rust-lang.org/
-Description: Rust compiler and utilities (nightly version)
-
-Package: sdl-gfx-static
-Version: 2.0.27
-Architecture: arm
-Maintainer: @termux
-Installed-Size: 96
-Depends: sdl-gfx (= 2.0.27)
-Filename: pool/tur/sdl-gfx-static_2.0.27_arm.deb
-Size: 27748
-MD5sum: edcce0aea24609317a1bb8daef608ca7
-SHA1: 5a3d0cecf7318428e1cba3ad20e0488850ce0c61
-SHA256: 2c93a71231314bb43fb34f45f2bf43595982209b6c9c4e1097e69ac37469503b
-Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
-Description: Static libraries for sdl-gfx
+Installed-Size: 300
+Depends: freetype, opengl, sdl3
+Filename: pool/tur/sdl3-ttf_3.2.2_arm.deb
+Size: 61392
+MD5sum: ef6479e309c58f124d8e8f962289cc77
+SHA1: c90ef46529b2fee3cf7553ed6a7499505a22008b
+SHA256: 51c8198ab9d62fdf7199d33443388cd791bbc8c72bcf5fd17ed596021b215e1a
+Homepage: https://github.com/libsdl-org/SDL_ttf
+Description: A library that allows you to use TrueType fonts in your SDL applications (version 3)
 
 Package: sdl-gfx
 Version: 2.0.27
@@ -5995,19 +5882,19 @@ SHA256: 3425ae9ccc4bd31883a18a6c4fbc5c061fc7ba1d1aee7ede09c9f0bd937f4a98
 Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
 Description: SDL-1.2 graphics drawing primitives, rotozoom and other supporting functions
 
-Package: sdl3-ttf
-Version: 3.2.2
+Package: sdl-gfx-static
+Version: 2.0.27
 Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 300
-Depends: freetype, opengl, sdl3
-Filename: pool/tur/sdl3-ttf_3.2.2_arm.deb
-Size: 61392
-MD5sum: ef6479e309c58f124d8e8f962289cc77
-SHA1: c90ef46529b2fee3cf7553ed6a7499505a22008b
-SHA256: 51c8198ab9d62fdf7199d33443388cd791bbc8c72bcf5fd17ed596021b215e1a
-Homepage: https://github.com/libsdl-org/SDL_ttf
-Description: A library that allows you to use TrueType fonts in your SDL applications (version 3)
+Maintainer: @termux
+Installed-Size: 96
+Depends: sdl-gfx (= 2.0.27)
+Filename: pool/tur/sdl-gfx-static_2.0.27_arm.deb
+Size: 27748
+MD5sum: edcce0aea24609317a1bb8daef608ca7
+SHA1: 5a3d0cecf7318428e1cba3ad20e0488850ce0c61
+SHA256: 2c93a71231314bb43fb34f45f2bf43595982209b6c9c4e1097e69ac37469503b
+Homepage: https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+Description: Static libraries for sdl-gfx
 
 Package: sdlpal
 Version: 2.0.2024.08.06
@@ -6199,20 +6086,6 @@ SHA256: 3890f4c8d6010b118763e6be1ac19f8f8bcca9caf475b676b2ded4a5fab646cc
 Homepage: https://github.com/abhimanyu003/sttr
 Description: Cli app to perform various operations on string
 
-Package: suitesparse-static
-Version: 1:7.9.0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 5448
-Depends: suitesparse (= 1:7.9.0)
-Filename: pool/tur/suitesparse-static_1:7.9.0_arm.deb
-Size: 1532640
-MD5sum: 297fc61c0a39cb2096544d87f43b1d4f
-SHA1: 8ebf9b027ec80ff5e669587426c6c74a3045a187
-SHA256: 1f70426f9f535a8bb045e1e01d783a67732751fcc7b2f311d6ece17ed282e8df
-Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
-Description: Static libraries for suitesparse
-
 Package: suitesparse
 Version: 1:7.9.0
 Architecture: arm
@@ -6227,19 +6100,19 @@ SHA256: e578f7d72ddb7a878fefd157a1bb6cc989216d335912fd2564fc01b218ee8e5c
 Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
 Description: A Suite of Sparse matrix packages.
 
-Package: sundials-static
+Package: suitesparse-static
 Version: 1:7.9.0
 Architecture: arm
 Maintainer: @termux-user-repository
-Installed-Size: 2408
-Depends: sundials (= 1:7.9.0)
-Filename: pool/tur/sundials-static_1:7.9.0_arm.deb
-Size: 485684
-MD5sum: 04dfa12d8781df409e595d1cd467bd9d
-SHA1: 12bfebe557ffc5f10eabdb3128577c25152a2fa4
-SHA256: be390b869851a7ee836210e56453852ab1ded14bc1509823a1674b936f4f6ab6
-Homepage: https://computing.llnl.gov/projects/sundials
-Description: Static libraries for sundials
+Installed-Size: 5448
+Depends: suitesparse (= 1:7.9.0)
+Filename: pool/tur/suitesparse-static_1:7.9.0_arm.deb
+Size: 1532640
+MD5sum: 297fc61c0a39cb2096544d87f43b1d4f
+SHA1: 8ebf9b027ec80ff5e669587426c6c74a3045a187
+SHA256: 1f70426f9f535a8bb045e1e01d783a67732751fcc7b2f311d6ece17ed282e8df
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Static libraries for suitesparse
 
 Package: sundials
 Version: 1:7.9.0
@@ -6254,6 +6127,20 @@ SHA1: 2bf955d8dbe04b9a5d8a29b21f8d74bc548d72e1
 SHA256: abdc2d16531640f64b0967feb53e316ba7e12465ef76764fb9f690baacb4a3ef
 Homepage: https://computing.llnl.gov/projects/sundials
 Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
+
+Package: sundials-static
+Version: 1:7.9.0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2408
+Depends: sundials (= 1:7.9.0)
+Filename: pool/tur/sundials-static_1:7.9.0_arm.deb
+Size: 485684
+MD5sum: 04dfa12d8781df409e595d1cd467bd9d
+SHA1: 12bfebe557ffc5f10eabdb3128577c25152a2fa4
+SHA256: be390b869851a7ee836210e56453852ab1ded14bc1509823a1674b936f4f6ab6
+Homepage: https://computing.llnl.gov/projects/sundials
+Description: Static libraries for sundials
 
 Package: superfile
 Version: 1.6.0
@@ -6350,19 +6237,6 @@ SHA256: 0fb30dbf3c0d0e3d73f8abdacfd0f3232c53a1505e70c9de69a888e64145c52a
 Homepage: https://github.com/fastcat/tarix
 Description: A helper utility for indexing tar archive to ease random access
 
-Package: television
-Version: 0.15.9
-Architecture: arm
-Maintainer: @everywhereless
-Installed-Size: 5032
-Filename: pool/tur/television_0.15.9_arm.deb
-Size: 2274948
-MD5sum: 9c7cf714be596e409dede70e2cb7516d
-SHA1: dc619dd67b8654596dab15a0060cb2d72c947767
-SHA256: 012f0291ad42409ed73f5226f17d3985b4f4916b85ea90d17458e90650ca9a14
-Homepage: https://github.com/alexpasmantier/television
-Description: A very fast, portable and hackable fuzzy finder
-
 Package: termbot
 Version: 20220902
 Architecture: arm
@@ -6408,19 +6282,6 @@ SHA256: 108a23e1ade7e795a8e7dfcaf38958b0e47232a9417bd402775e7d6a5c9af852
 Homepage: https://github.com/Soupboy006/tgstream
 Description: Stream Telegram videos without downloading
 
-Package: thunk-gen-cross
-Version: 1.11
-Architecture: arm
-Maintainer: @stsp
-Installed-Size: 96
-Filename: pool/tur/thunk-gen-cross_1.11_arm.deb
-Size: 7096
-MD5sum: 909ed3a958f0b46a12637a48602ca99f
-SHA1: 31be59b31b981f96d4cc43999ea59fbb0105d3a1
-SHA256: a06c303c926009a1676061d57504981776773e16c7fb598d82b9a7ee9a6372aa
-Homepage: https://github.com/stsp/thunk_gen
-Description: thunk-gen for host (NOT for Termux)
-
 Package: thunk-gen
 Version: 1.11
 Architecture: arm
@@ -6434,6 +6295,19 @@ SHA1: 99868d2ccb8d3c9b2a4cbb72a52751154bda1402
 SHA256: 39108e80e9ba8357109cd6670bfbe3a49534efcfb1df159710a22169ae096df6
 Homepage: https://github.com/stsp/thunk_gen
 Description: thunk generator for C and assembler
+
+Package: thunk-gen-cross
+Version: 1.11
+Architecture: arm
+Maintainer: @stsp
+Installed-Size: 96
+Filename: pool/tur/thunk-gen-cross_1.11_arm.deb
+Size: 7096
+MD5sum: 909ed3a958f0b46a12637a48602ca99f
+SHA1: 31be59b31b981f96d4cc43999ea59fbb0105d3a1
+SHA256: a06c303c926009a1676061d57504981776773e16c7fb598d82b9a7ee9a6372aa
+Homepage: https://github.com/stsp/thunk_gen
+Description: thunk-gen for host (NOT for Termux)
 
 Package: tmux-sixel
 Version: 3.4
@@ -6479,20 +6353,6 @@ SHA256: d20684df158c39a10691ca5ef52a8bed8c4f9fd526c98bbacd14d867c1816852
 Homepage: https://trigger-rally.sourceforge.io
 Description: A free 3D rally car racing game
 
-Package: turbo-text-editor-static
-Version: 0.0.1-git-3db219eb-0
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 2080
-Depends: turbo-text-editor (= 0.0.1-git-3db219eb-0)
-Filename: pool/tur/turbo-text-editor-static_0.0.1-git-3db219eb-0_arm.deb
-Size: 504556
-MD5sum: 8222ce4decae5f741435b610bc43127a
-SHA1: 76ba627fef09247eaf2517ef1865d6b099510457
-SHA256: 7dc2c3d210228846879f7a7fc70083ebe45f2beaeb63eaf874e98bff9b4515c3
-Homepage: https://github.com/magiblot/turbo
-Description: Static libraries for turbo-text-editor
-
 Package: turbo-text-editor
 Version: 0.0.1-git-3db219eb-0
 Architecture: arm
@@ -6506,6 +6366,20 @@ SHA1: d5f1467ff31e2f58c6c2e4767a6beda3320a6caf
 SHA256: 80fffd7331c2141f6c84cda6b6c11a972d67bf39c12c95fe1301940c11edb2b6
 Homepage: https://github.com/magiblot/turbo
 Description: An experimental text editor based on Scintilla and Turbo Vision
+
+Package: turbo-text-editor-static
+Version: 0.0.1-git-3db219eb-0
+Architecture: arm
+Maintainer: @termux-user-repository
+Installed-Size: 2080
+Depends: turbo-text-editor (= 0.0.1-git-3db219eb-0)
+Filename: pool/tur/turbo-text-editor-static_0.0.1-git-3db219eb-0_arm.deb
+Size: 504556
+MD5sum: 8222ce4decae5f741435b610bc43127a
+SHA1: 76ba627fef09247eaf2517ef1865d6b099510457
+SHA256: 7dc2c3d210228846879f7a7fc70083ebe45f2beaeb63eaf874e98bff9b4515c3
+Homepage: https://github.com/magiblot/turbo
+Description: Static libraries for turbo-text-editor
 
 Package: typioca
 Version: 3.1.0
@@ -6533,19 +6407,6 @@ SHA1: 9e66d6444099c1994c2bf07200ee91abaab6359c
 SHA256: 70b8069710561184163a36782a13d031a993feb2fb3aa5e565581d6367c2b006
 Homepage: https://upbrr.com
 Description: Guided upload preparation app for private-tracker workflows
-
-Package: uutils-coreutils
-Version: 0.10.0-1
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 924644
-Filename: pool/tur/uutils-coreutils_0.10.0-1_arm.deb
-Size: 361081252
-MD5sum: 7062b74d4de3a4462cb70d74c33f27ac
-SHA1: 48d13f918773c7043190c46bed36d70fcc062a2a
-SHA256: 9ac9a0439e4eaa489e640a8f5d2dfbc78a089f09b8ec116982fa3981b9439a2b
-Homepage: https://uutils.github.io/
-Description: Cross-platform Rust rewrite of the GNU coreutils
 
 Package: vectorcraft
 Version: 0.19.0
@@ -6664,20 +6525,6 @@ SHA256: 35794a2c07204db82e236d15f72928fc2b2d9572fb187365faaaeaaf5141e74d
 Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
 Description: Static libraries for wcslib
 
-Package: wcslib
-Version: 8.2.2
-Architecture: arm
-Maintainer: @termux-user-repository
-Installed-Size: 12092
-Depends: cfitsio
-Filename: pool/tur/wcslib_8.2.2_arm.deb
-Size: 2389708
-MD5sum: 5505e132219c3548cd2765c698f1430e
-SHA1: 6f5ed2884d013c2e535f3f99d8f5b8e2b449f1db
-SHA256: 49b8ee5652a3d3309506c544831b3102354819acc2c20864d739372d9314a1af
-Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
-Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
-
 Package: wiggle
 Version: 1.3
 Architecture: arm
@@ -6747,20 +6594,6 @@ SHA256: de97f4f8524e93087f85f7407bb16b3cf81de97db2e111bf18d2efae76f98f25
 Homepage: https://github.com/Winetricks/winetricks
 Description: Work around problems and install applications under Wine
 
-Package: xfdashboard-static
-Version: 1.0.0
-Architecture: arm
-Maintainer: @fervi
-Installed-Size: 1672
-Depends: xfdashboard (= 1.0.0)
-Filename: pool/tur/xfdashboard-static_1.0.0_arm.deb
-Size: 349192
-MD5sum: c4e310b4328045dee902d587719280ba
-SHA1: e44958ace679dd4f3396437e502490cd33384034
-SHA256: 8396f4548f68897938a0704d0c14ce783c99f291532a97883281168f1e5f37fc
-Homepage: https://gitlab.xfce.org/apps/xfdashboard
-Description: Static libraries for xfdashboard
-
 Package: xfdashboard
 Version: 1.0.0
 Architecture: arm
@@ -6774,6 +6607,20 @@ SHA1: 6482d3a0bfd64eea55c0b052173025cbef0fccd0
 SHA256: 69459665d781f0719fa65e906ab8cefa46724ad14aa525605c76cc9a7c369453
 Homepage: https://gitlab.xfce.org/apps/xfdashboard
 Description: Maybe a Gnome shell like dashboard for Xfce
+
+Package: xfdashboard-static
+Version: 1.0.0
+Architecture: arm
+Maintainer: @fervi
+Installed-Size: 1672
+Depends: xfdashboard (= 1.0.0)
+Filename: pool/tur/xfdashboard-static_1.0.0_arm.deb
+Size: 349192
+MD5sum: c4e310b4328045dee902d587719280ba
+SHA1: e44958ace679dd4f3396437e502490cd33384034
+SHA256: 8396f4548f68897938a0704d0c14ce783c99f291532a97883281168f1e5f37fc
+Homepage: https://gitlab.xfce.org/apps/xfdashboard
+Description: Static libraries for xfdashboard
 
 Package: xpenguins
 Version: 3.2.1
@@ -6959,6 +6806,19 @@ SHA256: c8acb0945e188b889d129fa5a2dc45f1c1fa32f0b2dbffb213dd731a2bd1d76e
 Homepage: https://biblatex-biber.sourceforge.net
 Description: A Unicode-capable BibTeX replacement for biblatex users
 
+Package: ca-certificates
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/tur/ca-certificates_1:2025.09.09_all.deb
+Size: 125652
+MD5sum: f7151d3e7b5c9d355b353d3ef24a4b21
+SHA1: 39aa168680f46ba8cdf828f50c376fc79015b401
+SHA256: aae3be4ff7e7a0045ae75b718b404a3af86a0eda9002f55b9cbf58b6d964cd85
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+
 Package: ca-certificates-java
 Version: 1:2025.09.09
 Architecture: all
@@ -6972,19 +6832,6 @@ SHA1: 9599e5f80957a7769d1dc7fceb9fe1ed44988bbf
 SHA256: bcd7cb599d3ffe8f8ca9c88db24cc5bc5ece8b1ef1ca4c04c623b8ce410cf8a8
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
-
-Package: ca-certificates
-Version: 1:2025.09.09
-Architecture: all
-Maintainer: @termux
-Installed-Size: 268
-Filename: pool/tur/ca-certificates_1:2025.09.09_all.deb
-Size: 125652
-MD5sum: f7151d3e7b5c9d355b353d3ef24a4b21
-SHA1: 39aa168680f46ba8cdf828f50c376fc79015b401
-SHA256: aae3be4ff7e7a0045ae75b718b404a3af86a0eda9002f55b9cbf58b6d964cd85
-Homepage: https://curl.se/docs/caextract.html
-Description: Common CA certificates
 
 Package: ddclient
 Version: 4.0.0
@@ -7000,31 +6847,19 @@ SHA256: bd82850e47a58b351f8d476b9135547987c0f72b5e20a4f96e477d8aa6d52eb5
 Homepage: https://github.com/ddclient/ddclient
 Description: Update dynamic DNS entries for accounts on many dynamic DNS services
 
-Package: dgbaodev-repo
-Version: 1.0.3
+Package: djstub
+Version: 0.9-2-1
 Architecture: all
-Maintainer: @Dichvucoder
-Installed-Size: 132
-Filename: pool/tur/dgbaodev-repo_1.0.3_all.deb
-Size: 3168
-MD5sum: fe51bc629dc4d4c1c2954461280fac4a
-SHA1: 66fd379cd0cf58e3abede9626b56af1fbd8f29ec
-SHA256: 2dcf6948f4e850957836caebc946d86455871c1f1f486adb13a8d107ecfbee2e
-Homepage: https://repo.dgbaodev.com
-Description: Community repository maintained by Dichvucoder
-
-Package: dichvucoder-repo
-Version: 1.0.3-1
-Architecture: all
-Maintainer: @Dichvucoder
-Installed-Size: 132
-Filename: pool/tur/dichvucoder-repo_1.0.3-1_all.deb
-Size: 3188
-MD5sum: 5685b7c1d3341f5f477031bc24ac168a
-SHA1: 57e9c0f205e2d9802d5107cecaec700607283ac8
-SHA256: 7446f2f99f946b43e8eddedccb8458e1ef44e40d3160859e54911740eb157c05
-Homepage: https://repo.dgbaodev.com
-Description: Community repository maintained by Dichvucoder
+Maintainer: @stsp
+Installed-Size: 120
+Depends: python
+Filename: pool/tur/djstub_0.9-2-1_all.deb
+Size: 17672
+MD5sum: 62819fcc99d526b8a56f6d7cd4c125fa
+SHA1: 9941d610cc50b044445b11e1da5c07d4acb129bf
+SHA256: eaff9f35572196026ab4c5ea99a28ebe15069801975672299ad2c6746ed5a62a
+Homepage: https://github.com/stsp/djstub
+Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
 Package: djstub-cross
 Version: 0.9-2-1
@@ -7040,19 +6875,19 @@ SHA256: 3adba5e24b75211854c7de54b2e4a9e383ba6b31b9785737e87f500a2c114b72
 Homepage: https://github.com/stsp/djstub
 Description: djstub for host (NOT for Termux)
 
-Package: djstub
-Version: 0.9-2-1
+Package: electron
+Version: 26
 Architecture: all
-Maintainer: @stsp
-Installed-Size: 120
-Depends: python
-Filename: pool/tur/djstub_0.9-2-1_all.deb
-Size: 17672
-MD5sum: 62819fcc99d526b8a56f6d7cd4c125fa
-SHA1: 9941d610cc50b044445b11e1da5c07d4acb129bf
-SHA256: eaff9f35572196026ab4c5ea99a28ebe15069801975672299ad2c6746ed5a62a
-Homepage: https://github.com/stsp/djstub
-Description: go32-compatible stub that supports COFF, PE and ELF payloads
+Maintainer: Chongyun Lee <uchkks@protonmail.com>
+Installed-Size: 4
+Depends: electron26
+Filename: pool/tur/electron_26_all.deb
+Size: 696
+MD5sum: 0d19af028a0a9d0273036f4121bd1749
+SHA1: 29de82a4be2757a1a8d9bffb841d0e010e8606c1
+SHA256: 88b300c0f65db324c38d3862772452f76f8e51028c67e624ceb808355a683a45
+Homepage: https://github.com/electron/electron
+Description: A metapackage that provides electron
 
 Package: electron-deps
 Version: 0.0.3-6
@@ -7067,20 +6902,6 @@ SHA1: 9474f59b577125839afc6cd7a12c694d6863becf
 SHA256: ebdee26462f0df60bc6055f0b1c03f7786e6a69ef9cfd1b9abac531091e7de75
 Homepage: https://github.com/termux-user-repository/tur
 Description: A metapackage that contains dependencies for electron
-
-Package: electron
-Version: 26
-Architecture: all
-Maintainer: Chongyun Lee <uchkks@protonmail.com>
-Installed-Size: 4
-Depends: electron26
-Filename: pool/tur/electron_26_all.deb
-Size: 696
-MD5sum: 0d19af028a0a9d0273036f4121bd1749
-SHA1: 29de82a4be2757a1a8d9bffb841d0e010e8606c1
-SHA256: 88b300c0f65db324c38d3862772452f76f8e51028c67e624ceb808355a683a45
-Homepage: https://github.com/electron/electron
-Description: A metapackage that provides electron
 
 Package: emojify
 Version: 2.2.0
@@ -7206,6 +7027,20 @@ SHA256: 12a7ca9ed2cfcb5a6b02dde2f8db55b3c51fb739506e00df41feec15d2185b05
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 15)
 
+Package: gcc-default
+Version: 15-2
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 44
+Depends: gcc-default-15
+Filename: pool/tur/gcc-default_15-2_all.deb
+Size: 1564
+MD5sum: 7bb3b7f733b7caf1035f5e4ab92c88cc
+SHA1: eb302439d8e707bf62ce57b514f377ddb7d2434f
+SHA256: 71044d3ce9a8b8532087e4a5bbc55e74f4258da6b6587cf953fc90f1567b9e28
+Homepage: https://github.com/termux-user-repository/tur
+Description: Use GNU Compiler Collections as default compiler suit
+
 Package: gcc-default-9
 Version: 0.3-3
 Architecture: all
@@ -7221,20 +7056,6 @@ SHA1: 33c5a942c49ab502b400a15210eb13667ebc9dfb
 SHA256: eecb9c1b7e47a87df51c1a1fe50d775d01f018c6fec49c4fac3c9b4127fdf4f2
 Homepage: https://github.com/termux-user-repository/tur
 Description: Use GNU Compiler Collections as default compiler suit (Version 9)
-
-Package: gcc-default
-Version: 15-2
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 44
-Depends: gcc-default-15
-Filename: pool/tur/gcc-default_15-2_all.deb
-Size: 1564
-MD5sum: 7bb3b7f733b7caf1035f5e4ab92c88cc
-SHA1: eb302439d8e707bf62ce57b514f377ddb7d2434f
-SHA256: 71044d3ce9a8b8532087e4a5bbc55e74f4258da6b6587cf953fc90f1567b9e28
-Homepage: https://github.com/termux-user-repository/tur
-Description: Use GNU Compiler Collections as default compiler suit
 
 Package: gdrive-downloader
 Version: 1:2.0
@@ -7528,6 +7349,19 @@ SHA256: 1942a6902c257728c21789abc18bd20ebd08babdb25f258b24eac5fd3d44b94f
 Homepage: https://www.ruby-lang.org/
 Description: Ruby documentation index
 
+Package: rustc-src-nightly
+Version: 1.100.0-2026.08.24-nightly-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 43728
+Filename: pool/tur/rustc-src-nightly_1.100.0-2026.08.24-nightly-0_all.deb
+Size: 5649492
+MD5sum: 17821a9218802c979a06f540190b38d0
+SHA1: 8c52d431ddcab5706197574c91bc685b4c456c56
+SHA256: 9f159afb516b80822221adfdf36c19ba6a2fdf8f73e5c5dfcb77dce695e11b5e
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler source code files (nightly version)
+
 Package: rust-nightly-docs
 Version: 1.100.0-2026.08.24-nightly-0
 Architecture: all
@@ -7553,6 +7387,19 @@ SHA1: a06270bf85caa1929c46d137ceceb338b6d93cc4
 SHA256: 364aa88e5ff4244b4eba07a948900c2af0627943f561830864de8d727c7b5a69
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target wasm32-unknown-unknown (nightly version)
+
+Package: rust-nightly-std-wasm32v1-none
+Version: 1.100.0-2026.08.24-nightly-0
+Architecture: all
+Maintainer: @termux-user-repository
+Installed-Size: 57348
+Filename: pool/tur/rust-nightly-std-wasm32v1-none_1.100.0-2026.08.24-nightly-0_all.deb
+Size: 12409320
+MD5sum: 84b8de1453b2d63923f13c75779ffbef
+SHA1: 735c92b4bedf77cd427385f03711c384c2dd0da2
+SHA256: 9f68953a03e4f422306304d274efb3936d031533ea8530cccac3fcad91aea962
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32v1-none (nightly version)
 
 Package: rust-nightly-std-wasm32-wasi
 Version: 1.84.0-2024.10.16-nightly-0
@@ -7606,19 +7453,6 @@ SHA256: 47bbb9847d2517bc4d6b852b785a11aee5c755dfa3d7dfe45dcb52012f736cdd
 Homepage: https://www.rust-lang.org/
 Description: Rust std for target wasm32-wasip3 (nightly version)
 
-Package: rust-nightly-std-wasm32v1-none
-Version: 1.100.0-2026.08.24-nightly-0
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 57348
-Filename: pool/tur/rust-nightly-std-wasm32v1-none_1.100.0-2026.08.24-nightly-0_all.deb
-Size: 12409320
-MD5sum: 84b8de1453b2d63923f13c75779ffbef
-SHA1: 735c92b4bedf77cd427385f03711c384c2dd0da2
-SHA256: 9f68953a03e4f422306304d274efb3936d031533ea8530cccac3fcad91aea962
-Homepage: https://www.rust-lang.org/
-Description: Rust std for target wasm32v1-none (nightly version)
-
 Package: rust-nightly-wasm32-unknown-unknown
 Version: 1.67.1-2023.02.27-nightly-0
 Architecture: all
@@ -7645,19 +7479,6 @@ SHA1: fa216c4cb0f8b5e01f9d720f7b3de2e1fd49bd17
 SHA256: b858d1ca1e9354ab238221688117f1f4a9d22522d6eebefdcd18e98a3338db1f
 Homepage: https://www.rust-lang.org/
 Description: Rust source code files (nightly version)
-
-Package: rustc-src-nightly
-Version: 1.100.0-2026.08.24-nightly-0
-Architecture: all
-Maintainer: @termux-user-repository
-Installed-Size: 43728
-Filename: pool/tur/rustc-src-nightly_1.100.0-2026.08.24-nightly-0_all.deb
-Size: 5649492
-MD5sum: 17821a9218802c979a06f540190b38d0
-SHA1: 8c52d431ddcab5706197574c91bc685b4c456c56
-SHA256: 9f159afb516b80822221adfdf36c19ba6a2fdf8f73e5c5dfcb77dce695e11b5e
-Homepage: https://www.rust-lang.org/
-Description: Rust compiler source code files (nightly version)
 
 Package: shark
 Version: 2.5.1.0-beta-0
@@ -7701,6 +7522,20 @@ SHA256: 6fe9c12eb1461ecfa74ad97383b9f377225c6ced53bfc5d508e4e59265ddd71d
 Homepage: https://github.com/dbohdan/sqawk
 Description: Manipulate csv/tsv/json data using SQL in an AWK-like fashion (sqlite-tcl as backend with db dump)
 
+Package: supertuxkart-data
+Version: 1.5-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 36
+Depends: supertuxkart-data-others, supertuxkart-data-textures, supertuxkart-data-tracks
+Filename: pool/tur/supertuxkart-data_1.5-1_all.deb
+Size: 832
+MD5sum: 858b3f4ae02b5bc3296b3f720cdaab31
+SHA1: b0e749a54176597a0387eb53ff069d8ec52b8ac9
+SHA256: 311bf38a8c76411cde2d7019e49338e0998522b4bf247c516e52c59ecd162221
+Homepage: https://supertuxkart.net
+Description: Data files for supertuxkart (metapackage)
+
 Package: supertuxkart-data-others
 Version: 1.5-1
 Architecture: all
@@ -7739,20 +7574,6 @@ SHA1: 2a3958e03804e50b13c248bfb19c2020c82a5a94
 SHA256: 8babe615a2d65ed6bef5a1f73d7f01fa5c09bd6af59a54316ffc31c1d68d782d
 Homepage: https://supertuxkart.net
 Description: Data files for supertuxkart (tracks part)
-
-Package: supertuxkart-data
-Version: 1.5-1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 36
-Depends: supertuxkart-data-others, supertuxkart-data-textures, supertuxkart-data-tracks
-Filename: pool/tur/supertuxkart-data_1.5-1_all.deb
-Size: 832
-MD5sum: 858b3f4ae02b5bc3296b3f720cdaab31
-SHA1: b0e749a54176597a0387eb53ff069d8ec52b8ac9
-SHA256: 311bf38a8c76411cde2d7019e49338e0998522b4bf247c516e52c59ecd162221
-Homepage: https://supertuxkart.net
-Description: Data files for supertuxkart (metapackage)
 
 Package: termux-install
 Version: 1.1.1-3

@@ -69,20 +69,6 @@ SHA256: 86580e0d3830e6893d18ad4d11cf9fee92cfb6c61080036eb091f99fe63d3ac6
 Homepage: https://github.com/flang-compiler/flang
 Description: An out-of-tree Fortran compiler targeting LLVM
 
-Package: darktable
-Version: 5.2.0-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 22972
-Depends: exiv2, gdk-pixbuf, glib, graphicsmagick, gtk3, imath, json-glib, lensfun, libandroid-glob, libc++, libcairo, libcurl, libheif, libicu, libjpeg-turbo, libjxl, libllvm, liblua54, libpng, libpugixml, librsvg, libsqlite, libtiff, libwebp, libxml2, littlecms, ltrace, openexr, openjpeg, pango, portmidi, zlib
-Filename: pool/tur-on-device/darktable_5.2.0-2_x86_64.deb
-Size: 4660516
-MD5sum: 01c6a75979bd0d66d66d8b1376a55f53
-SHA1: a28c62c54b8bc3283f1956704248c924396ac24b
-SHA256: 1637c79206f3efa5a526c103af1f07eb525a5eb1fe7b63323c351bec6575381d
-Homepage: https://www.darktable.org/
-Description: Virtual lighttable and darkroom for photographers
-
 Package: embree
 Version: 4.4.1
 Architecture: x86_64
@@ -222,20 +208,6 @@ SHA256: 3f12d8362566fdb15b3b1a0ce7e25dff8becc16a943cd062df19f0167a848431
 Homepage: https://github.com/Raku/nqp
 Description: Lightweight Raku-like environment for virtual machines
 
-Package: ocaml-static
-Version: 5.5.2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 61248
-Depends: ocaml (= 5.5.2)
-Filename: pool/tur-on-device/ocaml-static_5.5.2_x86_64.deb
-Size: 7355964
-MD5sum: 810450efb477fd12e887e0d4a4472799
-SHA1: c6eaab12580235dde6ba6fb046bb261c6d1c14ed
-SHA256: 81b278c3c7e61926413b9f3f038881f98f1c0fc569b3c65a3826ac673ccf2ce7
-Homepage: https://ocaml.org/
-Description: Static libraries for ocaml
-
 Package: ocaml
 Version: 5.5.2
 Architecture: x86_64
@@ -249,6 +221,20 @@ SHA1: 2bb4b20d9f2579a0f9f3c9c1c1a3a5a124e328d4
 SHA256: e260fe0b23b1b47da1ede2bd12057b530d0b1ff625c393e9958ea83061ba4a76
 Homepage: https://ocaml.org/
 Description: Industrial strength programming language with an emphasis on expressive types and safety
+
+Package: ocaml-static
+Version: 5.5.2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 61248
+Depends: ocaml (= 5.5.2)
+Filename: pool/tur-on-device/ocaml-static_5.5.2_x86_64.deb
+Size: 7355964
+MD5sum: 810450efb477fd12e887e0d4a4472799
+SHA1: c6eaab12580235dde6ba6fb046bb261c6d1c14ed
+SHA256: 81b278c3c7e61926413b9f3f038881f98f1c0fc569b3c65a3826ac673ccf2ce7
+Homepage: https://ocaml.org/
+Description: Static libraries for ocaml
 
 Package: opam
 Version: 2.6.1-1
@@ -292,20 +278,6 @@ SHA256: 0ee73838deecbf5a2952307b4d71534650dcb30d14cd674901014cb0c6d55404
 Homepage: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
 Description: Advanced shading language for production GI renderers
 
-Package: openvdb-static
-Version: 13.0.0-1
-Architecture: x86_64
-Maintainer: @termux
-Installed-Size: 259352
-Depends: openvdb (= 13.0.0-1)
-Filename: pool/tur-on-device/openvdb-static_13.0.0-1_x86_64.deb
-Size: 11002156
-MD5sum: 32bc78e53dfd6a98af234621611e4c31
-SHA1: 2f914a764b16967de44ec301cf1b9854c32c28ca
-SHA256: 2797ee76cb3571dbacb0e4816c3a8d957fc38ff4881fd74153e5db909c876ed6
-Homepage: https://www.openvdb.org/
-Description: Static libraries for openvdb
-
 Package: openvdb
 Version: 13.0.0-1
 Architecture: x86_64
@@ -319,6 +291,20 @@ SHA1: af3be398b215ca4ba329f1db4cda2ed729496052
 SHA256: d75bdeefe0f00c6a4a7a5c224054711b1d23af2614370b1c987411f0a50a7a19
 Homepage: https://www.openvdb.org/
 Description: Sparse volume data structure and tools
+
+Package: openvdb-static
+Version: 13.0.0-1
+Architecture: x86_64
+Maintainer: @termux
+Installed-Size: 259352
+Depends: openvdb (= 13.0.0-1)
+Filename: pool/tur-on-device/openvdb-static_13.0.0-1_x86_64.deb
+Size: 11002156
+MD5sum: 32bc78e53dfd6a98af234621611e4c31
+SHA1: 2f914a764b16967de44ec301cf1b9854c32c28ca
+SHA256: 2797ee76cb3571dbacb0e4816c3a8d957fc38ff4881fd74153e5db909c876ed6
+Homepage: https://www.openvdb.org/
+Description: Static libraries for openvdb
 
 Package: perl-net-ssleay
 Version: 1.94-2
@@ -347,20 +333,6 @@ SHA256: b0d5fa5c33411a62e424767cd80b994c104eeeff18661beedc01178a6e3cc19c
 Homepage: https://github.com/vasi/pixz
 Description: A xz(1) compatible compressor featuring parallel decompression and indexed random seeking
 
-Package: pyside6-tools
-Version: 6.11.2-1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 508
-Depends: pyside6 (= 6.11.2-1)
-Filename: pool/tur-on-device/pyside6-tools_6.11.2-1_x86_64.deb
-Size: 118400
-MD5sum: bdc5fcdabce019fe893d41aac06f620d
-SHA1: 72c2b3ebe5050a4006ea50fb64cfbef144f2cd77
-SHA256: 82696d7e662b5d402c304d23ccf5c21bb003ecb418d8bc50eb3549f6ed1d492d
-Homepage: https://doc.qt.io/qtforpython-6/
-Description: Tools for PySide6
-
 Package: pyside6
 Version: 6.11.2-1
 Architecture: x86_64
@@ -376,33 +348,19 @@ SHA256: aab1936d0c7905e5ae5a3c38ba5f2f15ebc889c2e874d9d9ba13fef00018602c
 Homepage: https://doc.qt.io/qtforpython-6/
 Description: Official Python bindings for Qt6
 
-Package: python-pandas
-Version: 2.0.1
+Package: pyside6-tools
+Version: 6.11.2-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
-Installed-Size: 67924
-Depends: libc++, python, python-numpy, python-pip
-Filename: pool/tur-on-device/python-pandas_2.0.1_x86_64.deb
-Size: 11340396
-MD5sum: 9bfa9bc492fe1eb7d276212ac41ecfa0
-SHA1: 302d94134649c4089647df76eee0f4132a9f79bb
-SHA256: 7dc538aeded3c6372c8ce04b8e1b280aee7521f254c1f5260266d3d422222d9e
-Homepage: https://pandas.pydata.org/
-Description: Powerful Python data analysis toolkit
-
-Package: python2-numpy-static
-Version: 1.16.6-3
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 276
-Depends: python2-numpy (= 1.16.6-3)
-Filename: pool/tur-on-device/python2-numpy-static_1.16.6-3_x86_64.deb
-Size: 45344
-MD5sum: a88065a821d66d355338a43bfe6a6ea3
-SHA1: 35c3a5903c6c0eb0383e0e218b58ac4bce4f0ff1
-SHA256: ce56b29209252c590d0ab54f9a6c683e0acc97287142efdb0fb8664624b73cb7
-Homepage: https://numpy.org/
-Description: Static libraries for python2-numpy
+Installed-Size: 508
+Depends: pyside6 (= 6.11.2-1)
+Filename: pool/tur-on-device/pyside6-tools_6.11.2-1_x86_64.deb
+Size: 118400
+MD5sum: bdc5fcdabce019fe893d41aac06f620d
+SHA1: 72c2b3ebe5050a4006ea50fb64cfbef144f2cd77
+SHA256: 82696d7e662b5d402c304d23ccf5c21bb003ecb418d8bc50eb3549f6ed1d492d
+Homepage: https://doc.qt.io/qtforpython-6/
+Description: Tools for PySide6
 
 Package: python2-numpy
 Version: 1.16.6-3
@@ -418,6 +376,20 @@ SHA256: 3d7bac4d07481a4e5bb5f9e5506eb1c5c56b6bb77b6b062d14855f69a7792e65
 Homepage: https://numpy.org/
 Description: The fundamental package for scientific computing with Python
 
+Package: python2-numpy-static
+Version: 1.16.6-3
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 276
+Depends: python2-numpy (= 1.16.6-3)
+Filename: pool/tur-on-device/python2-numpy-static_1.16.6-3_x86_64.deb
+Size: 45344
+MD5sum: a88065a821d66d355338a43bfe6a6ea3
+SHA1: 35c3a5903c6c0eb0383e0e218b58ac4bce4f0ff1
+SHA256: ce56b29209252c590d0ab54f9a6c683e0acc97287142efdb0fb8664624b73cb7
+Homepage: https://numpy.org/
+Description: Static libraries for python2-numpy
+
 Package: python2-scipy
 Version: 1.2.3-2
 Architecture: x86_64
@@ -431,6 +403,20 @@ SHA1: 4ee42cf5a4b4846b638cca2258e5078b652c56e9
 SHA256: 3d771feee710bf36284c0ecce252b1bd80270d3434d58ab28e548d3c7a57a1a0
 Homepage: https://scipy.org/
 Description: Fundamental algorithms for scientific computing in Python
+
+Package: python-pandas
+Version: 2.0.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 67924
+Depends: libc++, python, python-numpy, python-pip
+Filename: pool/tur-on-device/python-pandas_2.0.1_x86_64.deb
+Size: 11340396
+MD5sum: 9bfa9bc492fe1eb7d276212ac41ecfa0
+SHA1: 302d94134649c4089647df76eee0f4132a9f79bb
+SHA256: 7dc538aeded3c6372c8ce04b8e1b280aee7521f254c1f5260266d3d422222d9e
+Homepage: https://pandas.pydata.org/
+Description: Powerful Python data analysis toolkit
 
 Package: qt5-qmake
 Version: 5.15.18
@@ -448,20 +434,6 @@ SHA256: 561ab0fe6cc52b77d0009ba713e3544d9e4a61766e6fb90bfeb9675149e5ea52
 Homepage: https://www.qt.io/
 Description: Qt 5 QMake
 
-Package: r-base
-Version: 4.6.1
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 90896
-Depends: libandroid-glob, libdeflate, libiconv, libbz2, libcurl, liblzma, pcre2, readline, zlib, zstd
-Filename: pool/tur-on-device/r-base_4.6.1_x86_64.deb
-Size: 51512964
-MD5sum: b93155f4da2e6e3a5f3f3dc91e09708b
-SHA1: 6d149019ee5c9453fde45818ece9966753484039
-SHA256: 4bd4e646755c045e9ad3d06937a85244892b0ba557e285fc278922730b9851f8
-Homepage: https://www.r-project.org/
-Description: A free software environment for statistical computing and graphics
-
 Package: rakudo
 Version: 2026.08
 Architecture: x86_64
@@ -476,6 +448,20 @@ SHA256: bdc844a5c696a39086fd1a7f3c9aff2a28ec131c104a59b0f98ca2d9cb0ecaa6
 Homepage: https://rakudo.org
 Description: Mature, production-ready implementation of the Raku language
 
+Package: r-base
+Version: 4.6.1
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 90896
+Depends: libandroid-glob, libdeflate, libiconv, libbz2, libcurl, liblzma, pcre2, readline, zlib, zstd
+Filename: pool/tur-on-device/r-base_4.6.1_x86_64.deb
+Size: 51512964
+MD5sum: b93155f4da2e6e3a5f3f3dc91e09708b
+SHA1: 6d149019ee5c9453fde45818ece9966753484039
+SHA256: 4bd4e646755c045e9ad3d06937a85244892b0ba557e285fc278922730b9851f8
+Homepage: https://www.r-project.org/
+Description: A free software environment for statistical computing and graphics
+
 Package: rscsi
 Version: 2024-03-21-2
 Architecture: x86_64
@@ -488,23 +474,6 @@ SHA1: ba009a61abeef7178f68ef8bc6fa661874f98baa
 SHA256: 97c791659b322897c26b24a492c477340334282fb3826c0ed36250a2dd902192
 Homepage: https://codeberg.org/schilytools/schilytools
 Description: Remote SCSI transport server program (daemon)
-
-Package: s-nail
-Version: 14.9.24-1
-Architecture: x86_64
-Maintainer: @flosnvjx
-Installed-Size: 1016
-Depends: libidn2, libiconv, openssl, ncurses
-Recommends: ed, vi, mime-support
-Conflicts: mailx
-Provides: mailx
-Filename: pool/tur-on-device/s-nail_14.9.24-1_x86_64.deb
-Size: 496320
-MD5sum: 08049d2efe53abc3a62fc965ff3a81fc
-SHA1: f258aaaa0fc215aa4152f006d7caf8c65f18667f
-SHA256: d35bce319a9c9cccc0e1a178d64e755096a9ba909dd9b8418c418c0350dae488
-Homepage: https://www.sdaoden.eu/code.html#s-nail
-Description: Portable mailx(1) with MIME and Maildir support
 
 Package: sccs
 Version: 2024-03-21-2
@@ -520,6 +489,19 @@ SHA256: b2f89e501f62b6f73c9f7ef971baae8dc65995d241cbf3dd49f8d00b30627b67
 Homepage: https://codeberg.org/schilytools/schilytools
 Description: SCCS is an implementation of the POSIX standard Source Code Control System
 
+Package: schilytools
+Version: 2024-03-21-2
+Architecture: x86_64
+Maintainer: @termux-user-repository
+Installed-Size: 1972
+Filename: pool/tur-on-device/schilytools_2024-03-21-2_x86_64.deb
+Size: 225592
+MD5sum: 8e0249f57f55fe0bf39f2520093061d5
+SHA1: d00ba3059cb105c522a1807eec6cea548d1511da
+SHA256: 5f8a000de3cbfefe8340e80531d0edbe8d3692911d83976015a227263ad4dc20
+Homepage: https://codeberg.org/schilytools/schilytools
+Description: A collection of tools written or formerly managed by Jörg Schilling
+
 Package: schilytools-static
 Version: 2024-03-21-2
 Architecture: x86_64
@@ -533,19 +515,6 @@ SHA1: 882f5ca9e130e07b4fb37636cb3de70dccb8a746
 SHA256: 777cbc436034cfb5d21e07a73e8f2ca19765a61f82038274a161013d04de31e1
 Homepage: https://codeberg.org/schilytools/schilytools
 Description: Static libraries for schilytools
-
-Package: schilytools
-Version: 2024-03-21-2
-Architecture: x86_64
-Maintainer: @termux-user-repository
-Installed-Size: 1972
-Filename: pool/tur-on-device/schilytools_2024-03-21-2_x86_64.deb
-Size: 225592
-MD5sum: 8e0249f57f55fe0bf39f2520093061d5
-SHA1: d00ba3059cb105c522a1807eec6cea548d1511da
-SHA256: 5f8a000de3cbfefe8340e80531d0edbe8d3692911d83976015a227263ad4dc20
-Homepage: https://codeberg.org/schilytools/schilytools
-Description: A collection of tools written or formerly managed by Jörg Schilling
 
 Package: schilyutils
 Version: 2024-03-21-2
@@ -601,6 +570,23 @@ SHA1: 81aa39eeded776e2836423d4c75022c57a3c8191
 SHA256: 606f9b620f6d32f56ac0c6d9da56aa7721d3c016f5c8bba26d1f0c71aae829bf
 Homepage: https://codeberg.org/schilytools/schilytools
 Description: Smake is a highly portable make program with automake features
+
+Package: s-nail
+Version: 14.9.24-1
+Architecture: x86_64
+Maintainer: @flosnvjx
+Installed-Size: 1016
+Depends: libidn2, libiconv, openssl, ncurses
+Recommends: ed, vi, mime-support
+Conflicts: mailx
+Provides: mailx
+Filename: pool/tur-on-device/s-nail_14.9.24-1_x86_64.deb
+Size: 496320
+MD5sum: 08049d2efe53abc3a62fc965ff3a81fc
+SHA1: f258aaaa0fc215aa4152f006d7caf8c65f18667f
+SHA256: d35bce319a9c9cccc0e1a178d64e755096a9ba909dd9b8418c418c0350dae488
+Homepage: https://www.sdaoden.eu/code.html#s-nail
+Description: Portable mailx(1) with MIME and Maildir support
 
 Package: star
 Version: 2024-03-21-2
