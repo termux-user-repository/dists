@@ -157,7 +157,7 @@ upload_debs() {
         fi
 		sleep 1
         if ! gh release view -R "github.com/$owner/$repo" "$package_name_tag" >/dev/null 2>&1; then
-            if ! output=$(gh release create -R "github.com/$owner/$repo" "$package_name_tag" -n "$package_name_tag" 2>&1); then
+            if ! output=$(gh release create -R "github.com/$owner/$repo" "$package_name_tag" -t "$package_name_tag" -n "$package_name_tag" 2>&1); then
                 if echo "$output" | grep -Eqi 'already exists|tag .* already exists'; then
                     echo "release already exists: $package_name_tag"
                 else
