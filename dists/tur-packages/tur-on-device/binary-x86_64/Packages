@@ -435,16 +435,16 @@ Homepage: https://www.qt.io/
 Description: Qt 5 QMake
 
 Package: r-base
-Version: 4.6.1
+Version: 4.6.1-1
 Architecture: x86_64
 Maintainer: @termux-user-repository
 Installed-Size: 90896
-Depends: libandroid-glob, libdeflate, libiconv, libbz2, libcurl, liblzma, pcre2, readline, zlib, zstd
-Filename: pool/tur-on-device/r-base_4.6.1_x86_64.deb
-Size: 51512964
-MD5sum: b93155f4da2e6e3a5f3f3dc91e09708b
-SHA1: 6d149019ee5c9453fde45818ece9966753484039
-SHA256: 4bd4e646755c045e9ad3d06937a85244892b0ba557e285fc278922730b9851f8
+Depends: libandroid-glob, libdeflate, libiconv, libicu, libbz2, libcurl, liblzma, pcre2, readline, which, zlib, zstd
+Filename: pool/tur-on-device/r-base_4.6.1-1_x86_64.deb
+Size: 51433600
+MD5sum: 3df0a9fd450dbbafcb78ce931f7b4d50
+SHA1: 20991469e6529d3311b0606661c240b36276cf14
+SHA256: 8ce5a54c56c1b383f592e675a889694b44fe5feebb72d343db99f035f2b8b257
 Homepage: https://www.r-project.org/
 Description: A free software environment for statistical computing and graphics
 
