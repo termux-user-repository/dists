@@ -1185,6 +1185,20 @@ SHA256: 88af2a9edfcd472fc82cdfa73082ecfd1e0df0aaf8522b99b01401ed4178085b
 Homepage: https://github.com/falconindy/expac
 Description: libalpm(3) database reporting utility
 
+Package: extremetuxracer
+Version: 0.8.4
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 560
+Depends: glu, opengl, sfml, extremetuxracer-data
+Filename: pool/tur/extremetuxracer_0.8.4_aarch64.deb
+Size: 171920
+MD5sum: 0744dba3f18692b9a24cf360661e0f16
+SHA1: 8e142c3b3408bcb53a8f31965b56d365080ac1f2
+SHA256: dffab72a92cbf7b7e9a35d4ad09559f0e1b29fb514f16c9b7057eb80dace66fc
+Homepage: https://sourceforge.net/projects/extremetuxracer/
+Description: A 3D downhill racing game starring Tux, the Linux penguin
+
 Package: fastcompmgr
 Version: 0.6.1
 Architecture: aarch64
@@ -7289,6 +7303,19 @@ SHA1: ccfa0e955c62e61097899df9c553084ce3f103a3
 SHA256: 503e559b19ee5b0126252b1810451d2454a828788c7a055057bb9defa2901428
 Homepage: https://github.com/mrowa44/emojify
 Description: Emoji on the command line
+
+Package: extremetuxracer-data
+Version: 0.8.4
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 43884
+Filename: pool/tur/extremetuxracer-data_0.8.4_all.deb
+Size: 40579852
+MD5sum: 28c9edab1ad06f0a8f68cb3d305f092e
+SHA1: 1a91b5848cb9f648552fb445a67893ea5b1af160
+SHA256: 6f36134cde1617815607bc1503f18143dabdf243c27b9dfd538cda9003cb3336
+Homepage: https://sourceforge.net/projects/extremetuxracer/
+Description: Data files for Extreme Tux Racer
 
 Package: fakepkg
 Version: 1.42.2
