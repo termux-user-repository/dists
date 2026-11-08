@@ -2,17 +2,17 @@ Origin: Termux-user-repository tur-packages
 Label: Termux-user-repository tur-packages
 Suite: tur-packages
 Codename: tur-packages
-Date: Sun, 08 Nov 2026 16:28:07 +0000
+Date: Sun, 08 Nov 2026 21:56:43 +0000
 Architectures: aarch64 arm i686 x86_64
 Components: tur tur-on-device tur-hacking tur-continuous tur-multilib 
 Description: Created with love for Termux community
 MD5:
- 70e4ebdc77513fb966cea28473af33b9 293297 tur/binary-aarch64/Packages
- f108b163f4406422fe7e10a52474cd9f 95694 tur/binary-aarch64/Packages.gz
+ 839e9913df937471fab7a1fc01512386 293297 tur/binary-aarch64/Packages
+ d33d22393f2af68d0cef8c15d0f7c1e1 95698 tur/binary-aarch64/Packages.gz
  19e7cbc03f7af1644c353327f90f919a 280750 tur/binary-arm/Packages
  9b3d1baf82f77aa94c219fb2d2c6734b 91129 tur/binary-arm/Packages.gz
- c383e282b1e472b70041b1d8c8a345bd 289021 tur/binary-x86_64/Packages
- 7bde7795b0b0d196a8969c04b4ce588f 94890 tur/binary-x86_64/Packages.gz
+ d59e4c116d26a1202679b3fd5740b0fc 289021 tur/binary-x86_64/Packages
+ b6c59842f8d6a156c7420ff0ffe9a94a 94891 tur/binary-x86_64/Packages.gz
  5377b93e71b49afb0be4be85b561d8a6 274562 tur/binary-i686/Packages
  6f9630ac106a7fc43e391ff964872eaf 89181 tur/binary-i686/Packages.gz
  456e1e3a66b35d1b214cbb4849e110db 25940 tur-on-device/binary-aarch64/Packages
@@ -48,12 +48,12 @@ MD5:
  cf401fd37b7d0d6ff0ae8768f86efb32 5586 tur-multilib/binary-i686/Packages
  9cb71027acbbcb71356bf7c304037bea 2119 tur-multilib/binary-i686/Packages.gz
 SHA1:
- 31ffea5064ff8a39a65fbcaf2c56bb91748d00b6 293297 tur/binary-aarch64/Packages
- 2595be71f96497930f97827b9333facdd3d446e5 95694 tur/binary-aarch64/Packages.gz
+ dd397bc452be4850a555aff5662619bb4406042f 293297 tur/binary-aarch64/Packages
+ 91743ee47680200dd3e78212f69cf4cc03110dc0 95698 tur/binary-aarch64/Packages.gz
  d0cce8e649b53c87d9281c63e8f2012a1685e1e1 280750 tur/binary-arm/Packages
  a940892c9af8f573055dbaa52e42ba1f171461e9 91129 tur/binary-arm/Packages.gz
- bf1477dc61dd90d36c6ee06d23619fda85191b32 289021 tur/binary-x86_64/Packages
- 66281113296f00e3424d7ca17fe6e0bf0b9e1560 94890 tur/binary-x86_64/Packages.gz
+ b66314bf30e0d57ed790effefb0474a67ecb15ad 289021 tur/binary-x86_64/Packages
+ 1b4e1bd9e5a96e1390136b7a55a1152ca48f401c 94891 tur/binary-x86_64/Packages.gz
  790ee2285a6fea1aedae698abac226c38bd218d1 274562 tur/binary-i686/Packages
  6c5d3a6fc53e54fb4679e2c4da3a67c190f467bd 89181 tur/binary-i686/Packages.gz
  fbd132a080606e91938ad0d51a81e6e36a81ccd0 25940 tur-on-device/binary-aarch64/Packages
@@ -89,12 +89,12 @@ SHA1:
  55a4e8374a394999abc1e68ff397f353be0a223d 5586 tur-multilib/binary-i686/Packages
  887081baec4c2309d9fd10235db817c620139156 2119 tur-multilib/binary-i686/Packages.gz
 SHA256:
- 8667e46312051f44361b3cae7e6b527931ce5013f349e258ca17fb248a3ca01f 293297 tur/binary-aarch64/Packages
- 61b3997d450d0d3d6423dcc0f79cde7ad03ce8799336b96a108c8ad523440aac 95694 tur/binary-aarch64/Packages.gz
+ 3e292796520472d0642d9a0c32033af430248daed8e19b95e0901405c9d3f611 293297 tur/binary-aarch64/Packages
+ a27a14875f47ff2876f911157c76c3b2cd9e5bc8a7febcc6d10b7c1c957a868d 95698 tur/binary-aarch64/Packages.gz
  ebf8a698f3c819cda4ddc1e3a1bdabc776eaa5614dafeddb9d07dd0a930d3c45 280750 tur/binary-arm/Packages
  d3b578ce70211ac2004b1892d9abdab0772555176d217d2ebb9cfd55f3d22afc 91129 tur/binary-arm/Packages.gz
- d4721f27247339e62a6778d0fe145701d9e171e90ea1aa808bc99a300f2e077b 289021 tur/binary-x86_64/Packages
- 5b91c17a0f920b4ec09e3fc5e10c7dd7bfcd7c60bd2e982f742cb01b9b0a4c9a 94890 tur/binary-x86_64/Packages.gz
+ a71d83a0cc56cfd329353825e2948214be05f19a3fb46b68dcc8e68ac32a05e9 289021 tur/binary-x86_64/Packages
+ fdfce0fb51944168aa4033d48265b4bb133f28160a3aa51976e318a4ac332e3d 94891 tur/binary-x86_64/Packages.gz
  df3c834fa634fb0c21630a00a6144fc6c5a0973031d6197b989d441e83d10684 274562 tur/binary-i686/Packages
  32042c7d3adfedebb3d1ccbfae7ab3b28a0a13f55a6bb971faf4f46b3bfb5f77 89181 tur/binary-i686/Packages.gz
  d632437498373c69329668e59f6d5c0a62f84af5018833a43ebab68a1c336d53 25940 tur-on-device/binary-aarch64/Packages
@@ -130,12 +130,12 @@ SHA256:
  6f024427cb5ae86cab0124e4d82d614d29fa6bc2feb5eff93a38bff8739fab69 5586 tur-multilib/binary-i686/Packages
  d486ff3ce86f322880208998182b56e539b636c0d85828f82d830e28829ec395 2119 tur-multilib/binary-i686/Packages.gz
 SHA512:
- 70d4f26c0178d2b33b761d3de841e290db0871ce248f9a030239f65cee72df195e7e0c6505796b78c7bef322e5738bea804d8f8d1f829cd3e63868d90fea6645 293297 tur/binary-aarch64/Packages
- 0a96e2163bc9ce14dcf977a3556adf990f41d304fe7ed397a58408a407ce858b7198b0828948bbaf63cf70c163cf09cb75339fe6315a6d7f25e53dfb7702d628 95694 tur/binary-aarch64/Packages.gz
+ dac745652872b24b7290656bfc31fcc38fbc134e78995d14fe4dd5c01098228b929c8e01a5bc0ecadad6455ddbd048eed85af312ec395de695dfcf7216a3a6c5 293297 tur/binary-aarch64/Packages
+ d87a98d2cfb233f161574f3ef00f5bed214c93bb7e42ceb8992b7282e4a2f05e66948fce5c2472cec828c6869738a71d2c77edf0668f829dc281bc6490de29f8 95698 tur/binary-aarch64/Packages.gz
  4867a7bcc53a245c6ad9afaeef97259c7c2e021a251ac6de3102be9d73b72ddea627eaa01974264e8b2e3614ef3a36b7dbe0f7c69ea1a8aed7f427298a03e3fc 280750 tur/binary-arm/Packages
  19d5f4f21b1af0df310093150c49d1f1442b64462455039e4efc416194de680e8f675eb38663d9a6df8783c704fb30c68e4fb9f271b04ace1e34b5e110dd3341 91129 tur/binary-arm/Packages.gz
- 843ba2b923b0188e7b598ce6488ef1e40fba313be795635aec829baca6e60147212b6c6ac024c5b82fb91e6d5e0a3909e1f6dd000c71ca519b1e7075a349dcf8 289021 tur/binary-x86_64/Packages
- ed2dd147f8958ce19903de100c4f9fa1613f1a4832b4ed3dad85b38f4464312fc0420e2ec0feaba4069f30f8f5ce81e262b36e5c77e943dfb9226cdd39e18127 94890 tur/binary-x86_64/Packages.gz
+ 50d9f959e5821a344c6fbad435c88eca4780dea5d50d5c91b2ce56bb5332ac1e520af8fa71a5736bf57d3506a5a765bdc14af4feee9299b181f6e2769bd6ca0d 289021 tur/binary-x86_64/Packages
+ ad773e39ba93161258b808047f795514a39dfc2d992b7c879b3e976af13a78396fde213c5d6bbdc5d02e651cd5b404ca47aa8c1fee1d5aa3b8f7830f2e76a7b0 94891 tur/binary-x86_64/Packages.gz
  8d88d304cbb6a3329ef7461a15e56efe1d4400b89e3a81f1717becc76b9a915737d297166b37d4e45c973b0fadbf13a8b4d87352da3bb65c44f21aad9e2cd1f6 274562 tur/binary-i686/Packages
  8412e792aaeeb65a99f18dba50452adc19ac2ba2067482388acc00f608f7fd41cbc8b3976ac9c80b375da3aaf8c51d4895b80884ab1284b6973d44d73805a2e4 89181 tur/binary-i686/Packages.gz
  9b8ada089cfaab6064e925dbadffae7181a666258f026c54f15ec6c0630f62a29c341b25070f9255ed09e0f0514209a64fb7f7d03798806532569e960731c10c 25940 tur-on-device/binary-aarch64/Packages
