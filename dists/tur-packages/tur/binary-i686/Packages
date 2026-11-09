@@ -3421,6 +3421,34 @@ SHA256: 520375b8c43d1a433783a70f0404eb323d0b47080df530abf796af9abcd2c8d7
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
 
+Package: neverball
+Version: 1.6.0
+Architecture: i686
+Maintainer: @IntinteDAO
+Installed-Size: 564
+Depends: libjpeg-turbo, libphysfs, libpng, libvorbis, neverball-data, opengl, sdl2 | sdl2-compat, sdl2-ttf
+Filename: pool/tur/neverball_1.6.0_i686.deb
+Size: 194864
+MD5sum: 2dd8d1d4d3500aeb4c691379b9bb634a
+SHA1: 064bec5c27dfecf971edab064b6dfa61d9e67ff4
+SHA256: 130d18ea4f48701cbfa5b99482c9a05721a20d67453ed460c132d9a6db9b227e
+Homepage: https://neverball.org/
+Description: A 3D arcade game with a ball
+
+Package: neverputt
+Version: 1.6.0
+Architecture: i686
+Maintainer: @IntinteDAO
+Installed-Size: 492
+Depends: libjpeg-turbo, libphysfs, libpng, libvorbis, neverball-data, opengl, sdl2 | sdl2-compat, sdl2-ttf
+Filename: pool/tur/neverputt_1.6.0_i686.deb
+Size: 221356
+MD5sum: f711663ab66b52e1687ca46b70de093d
+SHA1: 15dac2021b4e48d13b01e819dd73c41cc09df8d8
+SHA256: 0cac4111f4e41c5c9b35dd835e6e33c2b2cfae1687eb43f461918195080bfd0d
+Homepage: https://neverball.org/
+Description: A 3D mini golf game
+
 Package: nl2sh
 Version: 1.0.1
 Architecture: i686
@@ -7099,6 +7127,19 @@ SHA1: de32344b7dcaad9693578700229bf90ce88383f8
 SHA256: 8a7b33f0cbfa97765722c13eb21bee459b1b207f2268e67993883ab6c7724ecd
 Homepage: https://www.nerdfonts.com/
 Description: Meta package that installs all Nerd Fonts patched font packages provided by TUR
+
+Package: neverball-data
+Version: 1.6.0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 146356
+Filename: pool/tur/neverball-data_1.6.0_all.deb
+Size: 41977668
+MD5sum: 675d0050401bfd887cda3cc8af29c18f
+SHA1: bdf3e24de3e00207840fdf118204718dd0bb4a2b
+SHA256: 2df2331dba77227619e480569ce229e2689dc0c628282f31f05ab928a835ca28
+Homepage: https://neverball.org/
+Description: Data files for Neverball and Neverputt
 
 Package: openarena-data
 Version: 0.8.8.20260412

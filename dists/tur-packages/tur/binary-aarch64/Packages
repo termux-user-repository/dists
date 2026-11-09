@@ -580,6 +580,20 @@ SHA256: 7c806f51f758cf1cef667daa94a3b0a9d5f9032a9610f2410c281c4f532fc366
 Homepage: https://llvm.org/
 Description: C language frontend for LLVM
 
+Package: cleanuparr
+Version: 2.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31668
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0, libesqlite3
+Filename: pool/tur/cleanuparr_2.11.0_aarch64.deb
+Size: 9157088
+MD5sum: 761edb0ebd85904758746092846168cb
+SHA1: eeb3d9104311f1c7842d7e7a8b240859dc943598
+SHA256: 76fb709eafef22fb4b7c6887bf4ddf606a637140f3960d41b329ba0d2491cad3
+Homepage: https://cleanuparr.com
+Description: Queue cleaner and management companion for the *arr suite
+
 Package: clucene
 Version: 2.3.3.4-7
 Architecture: aarch64
@@ -3970,6 +3984,34 @@ SHA1: d308dc8294694ceb4e51695372d7666dce157ab2
 SHA256: eb4220e65571292a7cc247ca758a989eee5c42ec3f0c6ef2536351c80e868463
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs, compact with GNU Compiler Collection
+
+Package: neverball
+Version: 1.6.0
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 552
+Depends: libjpeg-turbo, libphysfs, libpng, libvorbis, neverball-data, opengl, sdl2 | sdl2-compat, sdl2-ttf
+Filename: pool/tur/neverball_1.6.0_aarch64.deb
+Size: 185180
+MD5sum: ace4dfc3f6e9f0ce3a6aa07f5567115a
+SHA1: 1e2bb8956610a9279a12e418ceeeb5aa119fe90b
+SHA256: 0c4865a8683ce92287f47bf3384c39092f9865035027ef1cb403afa6d52d8445
+Homepage: https://neverball.org/
+Description: A 3D arcade game with a ball
+
+Package: neverputt
+Version: 1.6.0
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 488
+Depends: libjpeg-turbo, libphysfs, libpng, libvorbis, neverball-data, opengl, sdl2 | sdl2-compat, sdl2-ttf
+Filename: pool/tur/neverputt_1.6.0_aarch64.deb
+Size: 215628
+MD5sum: 4f6ed260690aeb5974009bc6ddd1dd87
+SHA1: 0ba66037a54031c29a2a900ce5758104c6e4e4dc
+SHA256: fa6b534ab5bedee62f4579d33f9a7cce78a17173da20640249b05741a5a8eeea
+Homepage: https://neverball.org/
+Description: A 3D mini golf game
 
 Package: nl2sh
 Version: 1.0.1
@@ -7583,6 +7625,19 @@ SHA1: de32344b7dcaad9693578700229bf90ce88383f8
 SHA256: 8a7b33f0cbfa97765722c13eb21bee459b1b207f2268e67993883ab6c7724ecd
 Homepage: https://www.nerdfonts.com/
 Description: Meta package that installs all Nerd Fonts patched font packages provided by TUR
+
+Package: neverball-data
+Version: 1.6.0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 146356
+Filename: pool/tur/neverball-data_1.6.0_all.deb
+Size: 41977668
+MD5sum: 675d0050401bfd887cda3cc8af29c18f
+SHA1: bdf3e24de3e00207840fdf118204718dd0bb4a2b
+SHA256: 2df2331dba77227619e480569ce229e2689dc0c628282f31f05ab928a835ca28
+Homepage: https://neverball.org/
+Description: Data files for Neverball and Neverputt
 
 Package: openarena-data
 Version: 0.8.8.20260412
