@@ -4825,6 +4825,20 @@ SHA256: 89d00fce9ddf2569cb2979ee2dad9eaf26813ce2c03a5e7934711763d35c561a
 Homepage: https://php.net
 Description: Server-side, HTML-embedded scripting language
 
+Package: pingus
+Version: 0.8.0-2026.10.29-0
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 2160
+Depends: libmodplug, libsigc++-2.0, openal-soft, opengl, pingus-data, sdl2 | sdl2-compat, sdl2-image
+Filename: pool/tur/pingus_0.8.0-2026.10.29-0_aarch64.deb
+Size: 552940
+MD5sum: 2e0aeb1317df2b183e38579031aade91
+SHA1: d31c6279056f0e982d9521efc01e4dfde0490504
+SHA256: 97acaab031c8393f90b989fef3d210376832ec9dc3da3aeabe102a911a11fd7f
+Homepage: https://pingus.seul.org/
+Description: A free Lemmings-like puzzle game
+
 Package: playit
 Version: 1.0.6
 Architecture: aarch64
@@ -7677,6 +7691,19 @@ SHA1: 7b4e0a647be984d1350a8667aa1c30a632e65f8c
 SHA256: 3bcb5e947d95128f0c3002401e67da7e12b69ca8ce98383743d31b0e254a9e6b
 Homepage: https://openjdk.java.net
 Description: Source files for openjdk-26
+
+Package: pingus-data
+Version: 0.8.0-2026.10.29-0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 38148
+Filename: pool/tur/pingus-data_0.8.0-2026.10.29-0_all.deb
+Size: 14380096
+MD5sum: 691e7c07d2324e3be3d5c056a8437728
+SHA1: 8aa49a32c1772d9eae7fdb6b807fe771986a4a0f
+SHA256: 80d98f94ffb0fab10a878ddccbc54fea666d947837a13dfcb07f51507a303625
+Homepage: https://pingus.seul.org/
+Description: Data files for Pingus
 
 Package: python-ensurepip-wheels
 Version: 3.13.12-3
