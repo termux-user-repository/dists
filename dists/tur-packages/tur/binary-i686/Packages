@@ -1537,6 +1537,20 @@ SHA256: 4036e2e4ecba901729403ab9c827734a98d68d12a4ee83fc9a9f4a1ed9c31f29
 Homepage: https://gwc.sourceforge.net/
 Description: GTK2 application for cleaning noise in digital music recordings (e.g. digitized vinyl recordings)
 
+Package: hedgewars
+Version: 1.0.3
+Architecture: i686
+Maintainer: @IntinteDAO
+Installed-Size: 5588
+Depends: hedgewars-data, libc++, libphysfs, lua51, opengl, qt5-qtbase, sdl2 | sdl2-compat, sdl2-image, sdl2-mixer, sdl2-net, sdl2-ttf
+Filename: pool/tur/hedgewars_1.0.3_i686.deb
+Size: 2591760
+MD5sum: 48442ffb383c8df144c69daefe3216d9
+SHA1: eace657d8d8461c9fa874167e29e746f8f5d41f9
+SHA256: ce8eed3f82402d84379544843ea6d7ee78d527239c2fbaf02a1481e75dcd463d
+Homepage: https://hedgewars.org/
+Description: A free turn based strategy, artillery, action and comedy game
+
 Package: hello-tur
 Version: 0.1-2
 Architecture: i686
@@ -7056,6 +7070,19 @@ SHA1: 7d599c2b2962180776b015ae649d630e26fb7978
 SHA256: 49e05ccfa40d471044f644e1ac5046e8918d3f20528e8accbe698d1cee78b87e
 Homepage: https://github.com/AndreRH/hangover
 Description: Hangover runs simple Win64 and Win32 applications on arm64 Linux
+
+Package: hedgewars-data
+Version: 1.0.3
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 183444
+Filename: pool/tur/hedgewars-data_1.0.3_all.deb
+Size: 153158100
+MD5sum: 7cc3f8d4af9aa558cba91abb52f742fd
+SHA1: 9344d835dd0619b26ab17eff12a134246937a683
+SHA256: bec33b2ca57533aac85e184e32d7c70efebf23811699d2b420faebb5e339e1a8
+Homepage: https://hedgewars.org/
+Description: Data files for Hedgewars
 
 Package: itstool
 Version: 2.0.7-4
