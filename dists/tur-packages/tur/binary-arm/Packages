@@ -1180,6 +1180,34 @@ SHA256: bdf083acb5077e6c4b5101513b9f420766771ab7ad92838586128e10a917d81d
 Homepage: https://github.com/flowexec/flow
 Description: Local developer automation platform that flows with you.
 
+Package: freeciv-static
+Version: 3.2.7
+Architecture: arm
+Maintainer: @IntinteDAO
+Installed-Size: 4708
+Depends: freeciv (= 3.2.7)
+Filename: pool/tur/freeciv-static_3.2.7_arm.deb
+Size: 1240640
+MD5sum: f40aa65b8fd8c3d102c2811bb0ecd192
+SHA1: e89301905500aba4ab5a59384700c8662255123f
+SHA256: 483405277b5deda6368c05d276c9b8d240a0930702b07221167af0ede13f350e
+Homepage: https://www.freeciv.org/
+Description: Static libraries for freeciv
+
+Package: freeciv
+Version: 3.2.7
+Architecture: arm
+Maintainer: @IntinteDAO
+Installed-Size: 18128
+Depends: freeciv-data, gettext, gtk3, libbz2, libcurl, libiconv, libicu, liblzma, lua54, readline, sdl2 | sdl2-compat, sdl2-gfx, sdl2-image, sdl2-mixer, sdl2-ttf, sqlite, zlib, zstd
+Filename: pool/tur/freeciv_3.2.7_arm.deb
+Size: 3797356
+MD5sum: a9d654446bd8c8d4d95d66579cb8b843
+SHA1: f2ef8a1d9b093eb2ebe17549dc9404c3a69b58b3
+SHA256: 919f0a29a3bc99481475514e8bc51662347b2e95c9bc8400c958ed7707a25d97
+Homepage: https://www.freeciv.org/
+Description: Turn-based multiplayer strategy game inspired by the Civilization series
+
 Package: freedroidrpg
 Version: 1.0
 Architecture: arm
@@ -3899,6 +3927,20 @@ SHA1: 886351f22ad83f31cc469ea1c48c044528f837a5
 SHA256: b253be01c5d7d08b9ae94a825db60df0900fea40ddedff013d39a1a0e63e7a02
 Homepage: http://www.openblas.net/
 Description: An optimized BLAS library
+
+Package: openclonk
+Version: 8.1
+Architecture: arm
+Maintainer: @IntinteDAO
+Installed-Size: 3716
+Depends: freetype, glew, libc++, libjpeg-turbo, libpng, libx11, libxrandr, miniupnpc, openclonk-data, opengl, sdl2 | sdl2-compat, sdl2-mixer, zlib
+Filename: pool/tur/openclonk_8.1_arm.deb
+Size: 1781128
+MD5sum: c874b1a2df1ba0e20512649506515357
+SHA1: 7cabda5609554da5f48f85377d89be8b5a6ea1f3
+SHA256: 2f793b7c013b359d664769446c72d3cd3ce01ff3be587d622401c084c5275359
+Homepage: https://www.openclonk.org/
+Description: Multiplayer action game of strategy, tactics, and skill
 
 Package: openimageio
 Version: 2.5.6.0-5
@@ -6665,6 +6707,20 @@ SHA256: 35794a2c07204db82e236d15f72928fc2b2d9572fb187365faaaeaaf5141e74d
 Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
 Description: Static libraries for wcslib
 
+Package: widelands
+Version: 1.3.1
+Architecture: arm
+Maintainer: @IntinteDAO
+Installed-Size: 10904
+Depends: glew, libandroid-execinfo, libandroid-glob, libc++, libicu, libminizip, libpng, opengl, sdl2, sdl2-image, sdl2-mixer, sdl2-ttf, widelands-data, zlib
+Filename: pool/tur/widelands_1.3.1_arm.deb
+Size: 3431052
+MD5sum: c3bbe0bdf3fbdc6f62d749e48246876c
+SHA1: b051f11d9daadaae8cfcdbf8818a725179b9b711
+SHA256: 940bbbcec74838b7424d8b3e64abf805e55d3861532d5ede05fdb797498a8dbb
+Homepage: https://www.widelands.org/
+Description: A free, open source real-time strategy game with singleplayer campaigns and a multiplayer mode
+
 Package: wiggle
 Version: 1.3
 Architecture: arm
@@ -7084,6 +7140,19 @@ SHA256: d48899d854f74fa3ea50d016874e878f2789e728d8e59645d544c9addbc5faf6
 Homepage: https://github.com/Edenhofer/fakepkg
 Description: Reassemble installed package from filesystem tree per libalpm database (bacman analogue)
 
+Package: freeciv-data
+Version: 3.2.7
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 54736
+Filename: pool/tur/freeciv-data_3.2.7_all.deb
+Size: 22879608
+MD5sum: c4c1708d640191554a4df1f96c9d4789
+SHA1: d9ea0541e4db907ebb4f71cf269e09c16a655814
+SHA256: 36a15a1ffb91503184fd568615b840c78c5f2b08d50e0cb2735ef2bb892baf12
+Homepage: https://www.freeciv.org/
+Description: Data files for Freeciv game
+
 Package: gcc-default-10
 Version: 0.3-3
 Architecture: all
@@ -7389,6 +7458,19 @@ SHA1: f17da7c843b81021d571a66e02fcf7fa4de8f8e2
 SHA256: d0089ffc4e4fbd3b5041baebc3d801ab734d6a9a7fdafedbe97cdb09db535c74
 Homepage: https://openarena.ws
 Description: Game data files for OpenArena
+
+Package: openclonk-data
+Version: 8.1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 112080
+Filename: pool/tur/openclonk-data_8.1_all.deb
+Size: 112057896
+MD5sum: c5d391edb49f946e189facb10597c2b7
+SHA1: 257ab16abaa3a547f13eed402e3a29462d61f08b
+SHA256: 4ba7fdd232ca6aefee93fc9c2e745bb84784503bd398b2e34ccea484c7a9eba8
+Homepage: https://www.openclonk.org/
+Description: Data files for OpenClonk game
 
 Package: openjdk-11-source
 Version: 11.0.33
@@ -7963,6 +8045,19 @@ SHA1: 9ccbb1c5f26874cc3387a283e56d209ab649819a
 SHA256: 71398cf4ffbca64cfab2b9e97b0606ff350ae05d9bd078b8bf00969f1765e212
 Homepage: https://github.com/KhronosGroup/Vulkan-Headers
 Description: Vulkan Header files and API registry
+
+Package: widelands-data
+Version: 1.3.1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 665168
+Filename: pool/tur/widelands-data_1.3.1_all.deb
+Size: 434560100
+MD5sum: 91f452f74f00c01852e06d3aaa40e339
+SHA1: 23348a7632dd1c1246ce91a08fe2be4aa3d6e7bc
+SHA256: 0f5d7ef3c8946903404cad9e05323aea015ae7ace86a1edd4b2413695f004dcc
+Homepage: https://www.widelands.org/
+Description: Platform-independent data for widelands
 
 Package: zphisher
 Version: 2.3.2
