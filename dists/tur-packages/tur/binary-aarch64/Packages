@@ -6286,6 +6286,20 @@ SHA256: 607c103e9ed258997192899fa5c8ee5d7918659c071f45633b5c8b3b57dd6a00
 Homepage: https://www.rust-lang.org/
 Description: Rust compiler and utilities (nightly version)
 
+Package: scummvm
+Version: 2026.4.0
+Architecture: aarch64
+Maintainer: @IntinteDAO
+Installed-Size: 197292
+Depends: faad2, fluidsynth, freetype, glew, glu, liba52, libcurl, libflac, libiconv, libjpeg-turbo, libmad, libmpeg2, libpng, libtheora, libvorbis, opengl, sdl2 | sdl2-compat, sdl2-net, zlib
+Filename: pool/tur/scummvm_2026.4.0_aarch64.deb
+Size: 104439260
+MD5sum: 9b6a4d6181e14a58ca2b8bb794c8291d
+SHA1: 8006f9aea24cf8cfd50b7e8b428c9ff615b70d10
+SHA256: fcc7aefc109076b2f749434d20097a3b98b8f59dcd22856888076a51c9d0b18c
+Homepage: https://www.scummvm.org/
+Description: Virtual machine for classic graphical point-and-click adventure games
+
 Package: sdl-gfx-static
 Version: 2.0.27
 Architecture: aarch64
@@ -7303,6 +7317,20 @@ SHA256: eeb0dddcf797e165840d76ee41a02d671ac8c5eb1c1efad0b4eab1b47812b69f
 Homepage: https://github.com/ardentryst/ardentryst
 Description: Ardentryst is an action/RPG sidescoller, focused not just on fighting, but on story, and character development.
 
+Package: beneath-a-steel-sky
+Version: 1.2
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 71280
+Depends: scummvm
+Filename: pool/tur/beneath-a-steel-sky_1.2_all.deb
+Size: 66014744
+MD5sum: bc3c10d5116bc7e78942400a0e8dba9b
+SHA1: f33b2bfd103c82d9562443669ccc37b84d096940
+SHA256: 41488a030254fcae3e953ace72c963c9b27b57c222032bd2c1675419c6acdfbb
+Homepage: https://www.scummvm.org/
+Description: Classic 2D point and click science fiction adventure game
+
 Package: biber-installer
 Version: 2.20-1
 Architecture: all
@@ -7388,6 +7416,20 @@ SHA256: eaff9f35572196026ab4c5ea99a28ebe15069801975672299ad2c6746ed5a62a
 Homepage: https://github.com/stsp/djstub
 Description: go32-compatible stub that supports COFF, PE and ELF payloads
 
+Package: drascula
+Version: 1.0
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 65356
+Depends: scummvm
+Filename: pool/tur/drascula_1.0_all.deb
+Size: 62117284
+MD5sum: 3956b58114a6b04a12f5192a24174906
+SHA1: 9049ddcc80c386070795374c7c32a4abc8d97110
+SHA256: 323af0d98daab9ec8e668d6ddc167882ba08a8a0db12014b149675790e421d4e
+Homepage: https://www.scummvm.org/
+Description: Classic 2D point and click comedy adventure game
+
 Package: electron-deps
 Version: 0.0.3-6
 Architecture: all
@@ -7456,6 +7498,20 @@ SHA1: 26fb9918cc6792ece58210ed191c877f6966d5b5
 SHA256: d48899d854f74fa3ea50d016874e878f2789e728d8e59645d544c9addbc5faf6
 Homepage: https://github.com/Edenhofer/fakepkg
 Description: Reassemble installed package from filesystem tree per libalpm database (bacman analogue)
+
+Package: flight-of-the-amazon-queen
+Version: 1.1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 50148
+Depends: scummvm
+Filename: pool/tur/flight-of-the-amazon-queen_1.1_all.deb
+Size: 31842168
+MD5sum: be51dac8175bd7977634bbdfe2354ab3
+SHA1: 612c0c7228ad6ae8bb399d94d181d82e99a9b9be
+SHA256: 479ceac5d8fdb9ad75199c69c15b392d8fbfd02a2b462add33454a0fbae6c255
+Homepage: https://www.scummvm.org/
+Description: Classic 2D point and click fantasy adventure game
 
 Package: freeciv-data
 Version: 3.2.7
@@ -7691,6 +7747,20 @@ SHA1: c0dde379b471d69e79a06ece96803d86d93518ca
 SHA256: 9c36170064ae4e589f8749a66842d13e05a4a7e973fe9ffb92c840c81a8e47b5
 Homepage: https://github.com/ximimoments/katifetch
 Description: A cross-platform system information tool written in Bash
+
+Package: lure-of-the-temptress
+Version: 1.1
+Architecture: all
+Maintainer: @IntinteDAO
+Installed-Size: 2184
+Depends: scummvm
+Filename: pool/tur/lure-of-the-temptress_1.1_all.deb
+Size: 1456008
+MD5sum: 70e821556dfc3296ecd9e9d250eb947f
+SHA1: 6fe21a312c30a8eb16b8a56da8f82e49a0b45f25
+SHA256: 7b45abeaeb32afd66e76a67f8d0fad85934e973731858b27d793fc72304161f9
+Homepage: https://www.scummvm.org/
+Description: Classic 2D point and click fantasy adventure game
 
 Package: megaglest-data
 Version: 3.13.0-1
