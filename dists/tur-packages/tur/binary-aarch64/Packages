@@ -203,15 +203,15 @@ Homepage: https://astrometry.net/
 Description: automatic recognition of astronomical images
 
 Package: autobrr
-Version: 1.90.0
+Version: 1.91.0
 Architecture: aarch64
 Maintainer: @termux-user-repository
-Installed-Size: 63376
-Filename: pool/tur/autobrr_1.90.0_aarch64.deb
-Size: 16036232
-MD5sum: 9807f996ca33f4b913689b66703dff58
-SHA1: ca6440660604d515e8c20d92ec9460bd569cd6e7
-SHA256: 9fca7e22fb05411d6dcc6a448b7d621a5f8a6b25d2596096a117daea9376c888
+Installed-Size: 64328
+Filename: pool/tur/autobrr_1.91.0_aarch64.deb
+Size: 16213700
+MD5sum: 73e9bcae88afa0e50ade7a363a5aa7c0
+SHA1: 722e47cebb5728de0f67be3d2c7738721d154972
+SHA256: 54f82c514a6d0d4111d226d1fe8c5a33dabd2d09493914a3f1c589cf29558f00
 Homepage: https://autobrr.com
 Description: The modern download automation tool for torrents and usenet
 
@@ -850,6 +850,20 @@ SHA1: bb679b54baa2e99825c68582f3e248c32bb3b51d
 SHA256: 63dff31e2af01524980804ae5f8fb73280bae9ead5974b624054638110ad04d3
 Homepage: https://github.com/jeessy2/ddns-go
 Description: A simple, easy-to-use ddns service
+
+Package: deckcraft
+Version: 0.18.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48956
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme, alsa-lib, alsa-plugins
+Filename: pool/tur/deckcraft_0.18.1_aarch64.deb
+Size: 12906676
+MD5sum: daabe987c9c66454c3c54615315ac606
+SHA1: e361e12bcb1e1bfad6b6783d3545e0f565ab5bd2
+SHA256: e7f24600648c246e16fcc5f791171bd5e000725eca04e18b3d8f3a06beff9d81
+Homepage: https://getartcraft.com/apps/deckcraft
+Description: An open-source, clean-room presentation app in pure Rust
 
 Package: depotdownloader
 Version: 3.4.0-1
@@ -1864,6 +1878,20 @@ SHA1: 92dd7b5e81c98cd3aba9f50ec6a232d8ebb126a8
 SHA256: f7e0fd9ba7d4374cff8a7b20d7236b80ecfd6ec040c59eedf24a313e6d0a7c65
 Homepage: https://github.com/golang/tools
 Description: The official Go language server
+
+Package: gridcraft
+Version: 0.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38740
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme
+Filename: pool/tur/gridcraft_0.19.1_aarch64.deb
+Size: 10872028
+MD5sum: d1aea6db255267b1e81b5538c3ea0c63
+SHA1: 6244f73420cdb8ba837e72c51a7ae3a9d48e6ff6
+SHA256: a86c9668c07d4135b94371fc39dbc4b1990eb5da98d32c685a9e6f576a546657
+Homepage: https://getartcraft.com/apps/gridcraft
+Description: An open-source, clean-room spreadsheet in pure Rust
 
 Package: gtkcord4
 Version: 0.0.4
@@ -7104,6 +7132,20 @@ SHA1: dec709820017d1a4dd4018b3bc59b41657646ed0
 SHA256: 64ff0cc9660ecf546f6b90173f4b793d129b3d4b04e32020c85686f01eef87f8
 Homepage: https://github.com/Winetricks/winetricks
 Description: Work around problems and install applications under Wine
+
+Package: wordcraft
+Version: 0.18.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 71360
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme
+Filename: pool/tur/wordcraft_0.18.1_aarch64.deb
+Size: 18424128
+MD5sum: 456b6c5670b14f3f65f38238c1e6d31d
+SHA1: 8a5b43dd06ae236aca18c3862d4290cba7bf866c
+SHA256: bc9eac412aee307da79c95daa1292f7551554642285200d6f97be7c9c5669c76
+Homepage: https://getartcraft.com/apps/wordcraft
+Description: An open-source, clean-room word processor in pure Rust
 
 Package: xfdashboard-static
 Version: 1.0.0
