@@ -635,6 +635,20 @@ SHA256: 6015e648c496ae3a08749170a4213142ea3cb01e49be6a273b01bd103dfa6fc2
 Homepage: https://github.com/jeessy2/ddns-go
 Description: A simple, easy-to-use ddns service
 
+Package: deckcraft
+Version: 0.18.1
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 58992
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme, alsa-lib, alsa-plugins
+Filename: pool/tur/deckcraft_0.18.1_i686.deb
+Size: 16512692
+MD5sum: acdba5cd4caeb408beb486476df89a59
+SHA1: 9cc2a49665a3fa1d842405fb4f3364763db9aa76
+SHA256: a0a47296f151132c59ddb429c0ef8517261af34c0948623bb3a9698a395698c7
+Homepage: https://getartcraft.com/apps/deckcraft
+Description: An open-source, clean-room presentation app in pure Rust
+
 Package: depotdownloader
 Version: 3.4.0-1
 Architecture: i686
@@ -1512,15 +1526,15 @@ Homepage: https://github.com/nametake/golangci-lint-langserver
 Description: Language server for golangci-lint
 
 Package: gomi
-Version: 1.10.1
+Version: 1.11.0
 Architecture: i686
 Maintainer: Zeldris <80939130+zeldrisho@users.noreply.github.com>
-Installed-Size: 14948
-Filename: pool/tur/gomi_1.10.1_i686.deb
-Size: 4619368
-MD5sum: 6ad740ab65f5cc23dde27d04f223b861
-SHA1: d624171d1f65ac4473a3c59e874819037000de3e
-SHA256: f38163a41a7ea00cc971621cda26bd46baf6fe46571cee48ae104ce373adffe8
+Installed-Size: 13896
+Filename: pool/tur/gomi_1.11.0_i686.deb
+Size: 4260540
+MD5sum: 581984dbe36b4805464e10108b529f28
+SHA1: 7579b8807ceb1886e556e92596821d8ea27856d8
+SHA256: 128e223575dacee6a122a316abd47546dc4d07e8f131cbb96d77dbf7f8b708ef
 Homepage: https://gomi.dev
 Description: Safer alternative to the rm command, with a trash can you can restore from
 
@@ -1536,6 +1550,20 @@ SHA1: 398a27e7c767d473fbad977fafd083473aa73b27
 SHA256: 7e819c9e5e4c8936c2a4795d2fdd7a05209590db658b70d187a2e5db07c5e154
 Homepage: https://github.com/golang/tools
 Description: The official Go language server
+
+Package: gridcraft
+Version: 0.19.1
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 45364
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme
+Filename: pool/tur/gridcraft_0.19.1_i686.deb
+Size: 13465684
+MD5sum: be7c746bd914cb85ec2d3d954fd10fb0
+SHA1: f4f9769b3df8f13291d4549f0536b417b34db364
+SHA256: 301a44e19524b9ba8ef8b07e98accb8e28b94ff758af4da4fc683b9e3ece97dc
+Homepage: https://getartcraft.com/apps/gridcraft
+Description: An open-source, clean-room spreadsheet in pure Rust
 
 Package: gtkcord4
 Version: 0.0.4
@@ -6606,6 +6634,20 @@ SHA1: 667c10e4ac34649764df5d07faf2dab2df6d0a81
 SHA256: 40e16405c7bab4f057fafa7184ebb70d2cc659875ebf3a0bcec069dd3343ecaa
 Homepage: https://github.com/Winetricks/winetricks
 Description: Work around problems and install applications under Wine
+
+Package: wordcraft
+Version: 0.18.1
+Architecture: i686
+Maintainer: @termux
+Installed-Size: 85380
+Depends: libx11, libxcb, libxcursor, libxi, libxrandr, libxkbcommon, vulkan-loader-android, hicolor-icon-theme
+Filename: pool/tur/wordcraft_0.18.1_i686.deb
+Size: 22645108
+MD5sum: efa992f903aea84d65b7805f019321e0
+SHA1: 296ed157aa3e63dc0bca04413135c0e94895701a
+SHA256: bc95c0f76e09833f735fc8df946c43066cc476a32f725927f9684813e7be6025
+Homepage: https://getartcraft.com/apps/wordcraft
+Description: An open-source, clean-room word processor in pure Rust
 
 Package: xfdashboard-static
 Version: 1.0.0
