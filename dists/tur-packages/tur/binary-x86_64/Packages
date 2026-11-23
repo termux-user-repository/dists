@@ -118,6 +118,20 @@ SHA256: 887fc5b1d097e7b2d39aa1ea3e2b0611e2820c0cfc2e658b2657e3406a19efd1
 Homepage: https://github.com/asciinema/agg
 Description: asciinema gif generator
 
+Package: akg
+Version: 0.5.7
+Architecture: x86_64
+Maintainer: @lev73748
+Installed-Size: 3476
+Depends: gpgv, termux-keyring
+Filename: pool/tur/akg_0.5.7_x86_64.deb
+Size: 1392368
+MD5sum: 52555554ce6b53b53bad734231d9c835
+SHA1: 95805267b7c95ba054e87fe58e64a8936077f313
+SHA256: 51685907a42c82d3c0ef0f147b6d8bb16b660f3a6c50a982f717cf246f98778f
+Homepage: https://github.com/lev73748/akg
+Description: Fast package manager for Termux written in Rust
+
 Package: aptitude
 Version: 0.8.13-5
 Architecture: x86_64
