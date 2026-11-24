@@ -4575,6 +4575,19 @@ SHA256: 47b18a4e79a8755871ec9e4debd8173816a93ff8de0b6e7af4707dda2189c258
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
+Package: opentui
+Version: 0.4.3
+Architecture: x86_64
+Maintainer: ULTRAXAS <contact@ultraxas.com>
+Installed-Size: 3600
+Filename: pool/tur/opentui_0.4.3_x86_64.deb
+Size: 640136
+MD5sum: 842be3d1dbf5a45563130484cd1229c9
+SHA1: f8d910da13e3bbcfa60e5c95ce83895634ca68ba
+SHA256: f06a52ee5e2177ddfa26e3090ed94b40c2978721dfec7c0a2f6bddf1ea8edf51
+Homepage: https://github.com/anomalyco/opentui
+Description: High-performance terminal user interface library
+
 Package: openvdb-static
 Version: 10.0.1-3
 Architecture: x86_64
@@ -7163,6 +7176,20 @@ SHA1: 459e713d2424d88f9e8722cab4a72ac9a93deeb5
 SHA256: fa50169d18eaf721a008bb379abab1956a8a2c9f81c9d53c43b483c78b9a802a
 Homepage: https://www.ratrabbit.nl/ratrabbit/software/xpenguins/index.html
 Description: Xpenguins is a vintage application for Unix systems, showing penguins running, flying, falling etc. on the desktop, using windows as run paths.
+
+Package: xro
+Version: 3.0.1
+Architecture: x86_64
+Maintainer: ULTRAXAS <contact@ultraxas.com>
+Installed-Size: 27728
+Depends: bun, opentui
+Filename: pool/tur/xro_3.0.1_x86_64.deb
+Size: 4453292
+MD5sum: 948c3a0f4ad9dfe2e92ad1b29957db29
+SHA1: a6490a38c890bec305261244bcbe70f743dc6acc
+SHA256: d49db6e02020e9a0df45483f1ecb2a3d57aa13e5e337cb3aab1d386463d9967c
+Homepage: https://github.com/ULTRAXAS/xro
+Description: Xro 8.6 autonomous AI coding agent CLI by ULTRAXAS
 
 Package: xsv-rs
 Version: 0.13.0
